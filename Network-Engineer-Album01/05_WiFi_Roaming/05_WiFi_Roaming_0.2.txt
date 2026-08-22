@@ -14,8 +14,8 @@ DFS radar makes the silence bloom.
 
 Chorus:
 Roam, roam, find the stronger light,
-802.11 in the noise tonight.
-RSSI falling, SNR low,
+802 dot 11 in the noise tonight.
+R-S-S-I falling, S-N-R low,
 handoff clean, let the client go.
 
 Bridge:

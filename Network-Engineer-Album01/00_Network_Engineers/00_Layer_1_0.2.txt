@@ -1,0 +1,34 @@
+VERSION: 0.2
+ALBUM: Network Engineer Album
+TRACK: 00 - Layer 1
+THEMA: Physical Layer, rohe Materie, Strom, Frequenzen, Fundament
+VORGESCHLAGENE ZEIT: 3:20
+STATUS: Draft
+
+LYRIC PROMPT:
+Intro:
+Cold line awake.
+Copper breath.
+Glass thread.
+Ground hum.
+
+Pulse:
+Signal below.
+Signal below.
+Voltage climbs.
+Carrier wakes.
+
+Break:
+Static pressure.
+Low frequency.
+Contact.
+Current.
+Impact.
+
+Outro:
+Layer one.
+Layer one.
+Power in the dark.
+
+STYLE PROMPT:
+Elektronisches Intro mit harten, tiefen Sub-Baessen, aber noch kein voller Peak-Time-Beat. Langsamer Beginn mit dunklen Drones, elektrischen Brummtoenen, Kabelknistern, entfernten Impulsen und epischen Grooves. Tempo ca. 118-124 BPM. Massiv und robust, wie ein Rechenzentrum beim Hochfahren. Vocals nur sehr selten, tief und rituell; Abschnittsnamen nicht singen. Ab zweiter Haelfte vorsichtige Kick-Andeutungen und technoide Bass-Pulse. Keine ueberladene Melodie. Industrial, cinematic, dark electronic, physical, heavy low end.

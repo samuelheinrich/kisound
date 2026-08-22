@@ -1,0 +1,81 @@
+VERSION: 1.0
+ALBUM: Network Engineer Album
+TRACK: 02 - OSPF Neighbors
+THEMA: OSPF, Hello, Neighborship, Two-Way, DROTHER, DR/BDR, ECMP
+VORGESCHLAGENE ZEIT: 4:30
+STATUS: Final
+RELEASE AUDIO: 02_OSPF_Neighbors_0.3-1.wav
+NON-RELEASE VARIANT: 02_OSPF_Neighbors_0.3-2.wav
+
+LYRIC PROMPT:
+Intro:
+Hello packets on the wire.
+Area zero comes alive.
+Every router finds a neighbor.
+Every link begins to rise.
+
+Verse:
+Hello on the link, can you hear my name?
+Area zero burning like a routing flame.
+Neighbor up, state is going high,
+two-way handshake under packet sky.
+
+Call:
+Are you DR?
+Response:
+No, DROTHER.
+Call:
+Are you BDR?
+Response:
+Stand by, brother.
+
+Hook:
+Hello, hello,
+neighbor in the light.
+Hello, hello,
+database aligned.
+Shortest path,
+open the way.
+Converge the core,
+carry the frame.
+
+Chorus:
+OSPF, shortest path alive,
+equal cost load balancing, packets divide.
+Hello, neighbor, adjacency,
+link state rhythm in topology.
+
+Verse 2:
+LSA moving through the backbone air,
+every router knows what changed out there.
+Cost on the link, metric in the stream,
+SPF calculating routes in a dream.
+DR is elected, BDR stands near,
+DROTHER is waiting till the path is clear.
+
+Bridge:
+LSA flood, database sync,
+cost on the interface, faster than you think.
+SPF runs in the core tonight,
+routes converge in electric light.
+
+Final Hook:
+Hello, hello,
+neighbor in the light.
+Hello, hello,
+database aligned.
+Shortest path,
+open the way.
+Converge the core,
+carry the frame.
+
+Outro:
+Full state.
+Two-way.
+DROTHER.
+DR.
+BDR.
+ECMP.
+
+STYLE PROMPT:
+Trance-orientierter elektronischer Track mit hartem, aber rollendem Bass statt trockenem Techno-Bass. Tempo ca. 132-138 BPM. Uplifting/Dark-Trance Mischung: lange Filter-Builds, breite Supersaw-Akkorde, arpeggierte Sequenzen wie LSA-Fluten, treibende Offbeat-Bassline, klare Clap/Hat-Patterns. Vocals ernst und technisch, Call-and-response fuer DR/BDR/DROTHER; Abschnittsnamen nicht singen. Track auf ca. 4:30 ausbauen mit Intro, Hook, Chorus, Verse 2, Break und Final Hook. Energie euphorischer, weiter und schwebender als die vorherigen Tracks.

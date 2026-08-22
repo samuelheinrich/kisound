@@ -1,0 +1,91 @@
+VERSION: 0.1
+ALBUM: Network Engineer Album
+TRACK: 06 - Multicast
+THEMA: Multicast, IGMP, PIM, Rendezvous Point, Membership Reports
+VORGESCHLAGENE ZEIT: 4:30
+STATUS: Draft
+
+LYRIC PROMPT:
+Intro:
+One source speaks.
+Many receivers wait.
+Not every packet needs
+to cross every gate.
+
+Verse:
+Unicast walks alone,
+one path, one name.
+Anycast finds the closest,
+different route, same flame.
+But multicast is listening,
+join the group and stay.
+Tune into the stream,
+let the packets find the way.
+
+Pre-Chorus:
+I-G-M-P report,
+membership in sight.
+Layer two is listening
+to the group tonight.
+Querier asks the question,
+who is still alive?
+Receivers answer softly,
+keep the flow online.
+
+Chorus:
+Join the group.
+Hear the stream.
+Multicast inside the machine.
+One to many,
+not one by one.
+Listen in
+when the source has begun.
+
+Verse 2:
+P-I-M moves the signal
+through layer three.
+R-P knows the source,
+knows where it will be.
+Rendezvous in the core,
+tree begins to grow.
+Branches split the traffic
+only where it needs to go.
+
+Hook:
+Membership report.
+Join.
+Leave.
+Query.
+Group.
+Source.
+R-P.
+P-I-M.
+I-G-M-P.
+
+Bridge:
+No flood for the silent.
+No stream for the blind.
+Only those who ask it
+get the signal assigned.
+From switch to router,
+from access to core,
+one transmission opens
+many doors.
+
+Final Chorus:
+Join the group.
+Hear the stream.
+Multicast inside the machine.
+One to many,
+not one by one.
+Listen in
+when the source has begun.
+
+Outro:
+The querier calls.
+The members reply.
+The R-P remembers
+where the sources lie.
+
+STYLE PROMPT:
+Elektronischer Track mit harten Baessen, aber hypnotischer und fliessender als die anderen Songs. Tempo ca. 128-132 BPM. Stil: dark progressive trance / techno hybrid mit rollendem Bass, pulsierenden Arpeggios und breiten Stereo-Delays, als wuerden Pakete sich in Gruppen verzweigen. Nutze Call-and-response fuer Join/Leave/Query und digitale Netzwerk-Chops fuer I-G-M-P, P-I-M und R-P. Abschnittsnamen nicht singen. Atmosphaere: du klinkst dich ein, lauschst mit, ein Signal wird von einer Source zu vielen Receivern verteilt. Druckvoll, technisch, clubtauglich.

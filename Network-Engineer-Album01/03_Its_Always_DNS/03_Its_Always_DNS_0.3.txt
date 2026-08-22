@@ -1,0 +1,68 @@
+VERSION: 0.3
+ALBUM: Network Engineer Album
+TRACK: 03 - It's Always DNS
+THEMA: DNS-Probleme, Network Engineer Humor, Fehlersuche
+VORGESCHLAGENE ZEIT: 3:45
+STATUS: Draft
+
+LYRIC PROMPT:
+Verse:
+They call me up, the network is down,
+everybody staring at the blinking crown.
+Ping is clean and the routes are fine,
+but the hostname vanished from the line.
+
+Pre-Chorus:
+Check the cable, check the port,
+check the firewall report.
+Trace complete, no mystery,
+then I ask: what about DNS?
+
+Hook:
+Dig it up.
+TTL.
+NXDOMAIN.
+Who can tell?
+Resolver says no,
+cache says yes,
+welcome back
+to the DNS mess.
+
+Chorus:
+It's always DNS,
+not the switch, not the mess.
+It's always DNS,
+why do we always guess?
+
+Verse 2:
+Cache is old, TTL too high,
+split brain zones make admins cry.
+Forward lookup, reverse pain,
+CNAME dancing in the rain.
+
+Bridge:
+Flush it.
+Query it.
+Dig it.
+Fix it.
+Not the network.
+It's DNS.
+
+Final Hook:
+Dig it up.
+TTL.
+NXDOMAIN.
+Who can tell?
+Resolver says no,
+cache says yes,
+welcome back
+to the DNS mess.
+
+Final Chorus:
+It's always DNS,
+from the helpdesk to the stress.
+It's always DNS,
+close the case, confess.
+
+STYLE PROMPT:
+Bouncy Tech-House / Electro-Techno mit hartem Bassfundament. Tempo ca. 124-128 BPM. Humorvoller, einpraegsamer Vocal-Hook, aber Produktion bleibt fett und modern. Abschnittsnamen nicht singen. Knackige Kick, rollende Bassline, kurze digitale Blips als DNS-Query-Sounds. Hook chant-artig und leicht absurd, Chorus groesser und mitsingbar. Im Break Call-and-response mit "It's always DNS". Leicht funky Groove, gute Club-Energie, weniger duester als die anderen Tracks, aber weiterhin elektronisch, basslastig und technisch.

@@ -1,0 +1,70 @@
+VERSION: 0.4
+ALBUM: Network Engineer Album
+TRACK: 00 - Network Engineers
+THEMA: Network Engineers als unsichtbare Betreiber der digitalen Welt
+VORGESCHLAGENE ZEIT: 3:30
+STATUS: Draft
+
+LYRIC PROMPT:
+Intro:
+Before the first login,
+before the screens glow,
+someone keeps the signal moving
+through the systems down below.
+
+Verse:
+Under every cloud,
+behind every stream,
+there is a night shift
+inside the machine.
+WiFi in the hallway,
+uplinks in the rack,
+failover waiting
+when the main path cracks.
+
+Pre-Chorus:
+When the lights turn red,
+when the alarms begin,
+they read the storm,
+then bring the green back in.
+
+Chorus:
+Network engineers,
+hold the line.
+Network engineers,
+keep the world online.
+From edge to core,
+from port to route,
+they keep the packets moving
+when the noise breaks out.
+
+Break:
+Link up.
+Route clean.
+Ports live.
+Packets move.
+No one sees.
+Still they move.
+
+Verse 2:
+You touch the app,
+they guard the path.
+You call it simple,
+they know the math.
+Between the outage
+and the final screen,
+they find the fault
+inside the unseen.
+
+Final Chorus:
+Network engineers,
+hold the line.
+Network engineers,
+keep the world online.
+Layer by layer,
+night after night,
+they keep the service breathing
+until the graphs turn bright.
+
+STYLE PROMPT:
+Elektronischer Album-Opener mit harten Sub-Baessen, epischem Aufbau und moderner Techno-Spannung. Tempo ca. 122-126 BPM. Start mit dunkler NOC-Atmosphaere, entfernten Alarm-Pings, tiefem Pulse und langsamem Groove; danach groesserer Drop, aber noch nicht maximal eskalierend. Stimme tief, klar, ernst und stolz, aber nicht zu pathetisch. Abschnittsnamen nicht singen, nur die Lyrics performen. Keine bekannten Melodie- oder Song-Referenzen. Industrial-Electro, cinematic techno, heavy bass, controlled energy, intro feeling.

@@ -1,0 +1,85 @@
+VERSION: 1.0
+ALBUM: Network Engineer Album
+TRACK: 08 - MTU
+THEMA: MTU, Fragmentation, DF Bit, Path MTU Discovery, Paketgroesse
+VORGESCHLAGENE ZEIT: 4:10
+STATUS: Final
+RELEASE AUDIO: 08_MTU_0.2-2.wav
+
+LYRIC PROMPT:
+Intro:
+Size matters on the wire.
+Too large to pass.
+Too quiet to fail.
+The packet waits.
+
+Verse:
+M-T-U at the edge of the frame,
+one byte too heavy and nothing feels the same.
+Payload loaded, header tight,
+trying to cross the path tonight.
+D-F bit says do not break,
+no fragment left for the route to take.
+Silent drop in the middle lane,
+users only feel the pain.
+
+Pre-Chorus:
+Ping goes through,
+large one dies.
+Small test passes,
+truth still hides.
+Trace the path,
+lower the size,
+watch the hidden fault arise.
+
+Chorus:
+M-T-U.
+Can you pass it through?
+M-T-U.
+The packet knows the truth.
+Too big to ride,
+too small to see,
+find the path
+where the frame runs free.
+
+Hook:
+Don't fragment.
+Can't fragment.
+Path too narrow.
+Packet stranded.
+Don't fragment.
+Can't fragment.
+Lower the size.
+Understand it.
+
+Verse 2:
+Tunnel overhead, labels in line,
+encapsulation stealing bytes in time.
+V-P-N wraps it, M-P-L-S too,
+suddenly the old size will not do.
+Discovery tries to read the road,
+ICMP should carry the code.
+If the message never comes back,
+M-T-U becomes the crack.
+
+Break:
+Fourteen hundred.
+Fifteen hundred.
+Jumbo frame.
+Do not fragment.
+Path M-T-U.
+ICMP too big.
+Reduce and retry.
+
+Final Chorus:
+M-T-U.
+Can you pass it through?
+M-T-U.
+The packet knows the truth.
+Too big to ride,
+too small to see,
+find the path
+where the frame runs free.
+
+STYLE PROMPT:
+Hellerer UK Garage / electro breaks Track mit hartem, federndem Bass, nicht wie Dark-Techno. Tempo ca. 132-138 BPM, shufflende 2-step Drums, syncopierte Claps, bouncy Sub-Bass, kurze helle Synth-Stabs und verspielte digitale Plucks. Stimme deutlich anders als die bisherigen Tracks: leicht frech, trocken, fast spoken-rap, weniger dunkel und weniger episch. Hook "M-T-U" catchy und leicht humorvoll, "Don't fragment" als rhythmischer Callout. Abschnittsnamen nicht singen. Nutze kleine Ping-Sounds, Pop-Clicks und kurze Glitches, aber insgesamt frischer, luftiger und etwas fröhlicher.

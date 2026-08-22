@@ -1,0 +1,97 @@
+VERSION: 0.4
+ALBUM: Network Engineer Album
+TRACK: 07 - Firewall State Table
+THEMA: Firewall, ACLs, Sessions, TCP, UDP, NAT, Deep Inspection
+VORGESCHLAGENE ZEIT: 4:20
+STATUS: Draft
+
+LYRIC PROMPT:
+Intro:
+Session open.
+State is known.
+Every packet
+stands alone.
+
+Verse:
+Default deny in the security zone,
+policy chain decides what can be known.
+Source and destination, port and state,
+one wrong packet hits the gate.
+T-C-P handshake, sequence aligned,
+U-D-P moving with no reply.
+Policy checks what rules allow,
+state table decides right now.
+
+Pre-Hook:
+Source NAT hides the inside name.
+Destination NAT redirects the frame.
+Deep inspection reads what flows,
+permit or deny, the firewall knows.
+
+Hook:
+Drop it.
+Log it.
+Block it.
+State table lock it.
+Drop it.
+Log it.
+Block it.
+Packet hit, stop it.
+Drop it.
+Log it.
+Block it.
+No match, knock it.
+Drop it.
+Log it.
+Block it.
+Write the rule and lock it.
+
+Chorus:
+Trust no packet in the night,
+least privilege, hold the line.
+Source to destination,
+port to application,
+every session leaves a sign.
+
+Verse 2:
+A-C-L cuts through the stream,
+NAT reflection bends the scene.
+Inside local, outside global,
+translation keeps the traffic mobile.
+Deep packet inspection in the flow,
+headers high and payload low.
+Match the rule, confirm the state,
+permit clean or close the gate.
+
+Break:
+SYN.
+ACK.
+Session match.
+Deny.
+Permit.
+Log.
+Source NAT.
+Destination NAT.
+T-C-P.
+U-D-P.
+
+Final Hook:
+Drop it.
+Log it.
+Block it.
+State table lock it.
+Drop it.
+Log it.
+Block it.
+Packet hit, stop it.
+Drop it.
+Log it.
+Block it.
+No match, knock it.
+Drop it.
+Log it.
+Block it.
+Write the rule and lock it.
+
+STYLE PROMPT:
+Goa / Psytrance Firewall-Track mit hartem, rollendem Bass und hypnotischen Acid-Sequenzen. Tempo ca. 140-145 BPM. Nicht Cyber-Techno: stattdessen treibender Offbeat/Psy-Bass, schnelle 16tel-Arpeggios, resonante Filterfahrten, spiralförmige Leads und psychedelische FX. Der Hook "Drop it, Log it, Block it" soll wie ein ritueller Goa-Chant wirken, trocken und rhythmisch, mit anderer Stimme als bisher: nasal, leicht gefiltert, energisch. Abschnittsnamen nicht singen. Nutze Logfile-Clicks, Firewall-Alarm-Pings und NAT/TCP/UDP-Callouts als perkussive Elemente.

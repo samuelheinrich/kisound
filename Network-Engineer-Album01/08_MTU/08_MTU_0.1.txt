@@ -1,0 +1,84 @@
+VERSION: 0.1
+ALBUM: Network Engineer Album
+TRACK: 08 - MTU
+THEMA: MTU, Fragmentation, DF Bit, Path MTU Discovery, Paketgroesse
+VORGESCHLAGENE ZEIT: 4:10
+STATUS: Draft
+
+LYRIC PROMPT:
+Intro:
+Size matters on the wire.
+Too large to pass.
+Too quiet to fail.
+The packet waits.
+
+Verse:
+M-T-U at the edge of the frame,
+one byte too heavy and nothing feels the same.
+Payload loaded, header tight,
+trying to cross the path tonight.
+D-F bit says do not break,
+no fragment left for the route to take.
+Silent drop in the middle lane,
+users only feel the pain.
+
+Pre-Chorus:
+Ping goes through,
+large one dies.
+Small test passes,
+truth still hides.
+Trace the path,
+lower the size,
+watch the hidden fault arise.
+
+Chorus:
+M-T-U.
+Can you pass it through?
+M-T-U.
+The packet knows the truth.
+Too big to ride,
+too small to see,
+find the path
+where the frame runs free.
+
+Hook:
+Don't fragment.
+Can't fragment.
+Path too narrow.
+Packet stranded.
+Don't fragment.
+Can't fragment.
+Lower the size.
+Understand it.
+
+Verse 2:
+Tunnel overhead, labels in line,
+encapsulation stealing bytes in time.
+V-P-N wraps it, M-P-L-S too,
+suddenly the old size will not do.
+Discovery tries to read the road,
+ICMP should carry the code.
+If the message never comes back,
+M-T-U becomes the crack.
+
+Break:
+Fourteen hundred.
+Fifteen hundred.
+Jumbo frame.
+Do not fragment.
+Path M-T-U.
+ICMP too big.
+Reduce and retry.
+
+Final Chorus:
+M-T-U.
+Can you pass it through?
+M-T-U.
+The packet knows the truth.
+Too big to ride,
+too small to see,
+find the path
+where the frame runs free.
+
+STYLE PROMPT:
+Dunkler, glitchiger Bass-Techno mit harten Sub-Baessen und kaputten Stutter-Drops. Tempo ca. 130-134 BPM. Der Track soll wie ein Paket klingen, das immer wieder an einer unsichtbaren Grenze scheitert: abrupte Cuts, bitcrush Glitches, kurze Silence-Gates, verzerrte Impacts. Hook "Don't fragment" aggressiv und repetitiv. Abschnittsnamen nicht singen. Nutze digitale Clicks, ICMP-Alarmtoene, fragmentierte Vocal-Chops und schwere Kick. Technisch, nervoes, druckvoll, passend kurz vor dem epischen Finale.
