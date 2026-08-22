@@ -27,6 +27,13 @@ Electronic album about network engineering, IT infrastructure, WiFi, routing, se
 - Version and variant numbers are not part of the public track title.
 - Final prompt files use version `1.0` and point to the selected release WAV.
 
+## Audio Metadata
+
+- Final WAV files include embedded metadata for title, artist, album, album artist, track number, genre and date.
+- Artist / album artist: `Samuel Heinrich`.
+- Album: `Network Engineer`.
+- Note: WAV metadata support depends on the playback device. If a car stereo still shows `Unknown Artist`, use tagged MP3 or FLAC exports for better compatibility.
+
 ## License Notes
 
 - Tad.ai commercial license PDFs are stored next to the matching generated WAV where available.
