@@ -21,10 +21,6 @@ Electronic album about network engineering, IT infrastructure, WiFi, routing, se
 | 08 | <img src="08_MTU/08_MTU_cover.png" alt="MTU cover" width="90"> | MTU | 2:19 | `08_MTU/08_MTU_0.2-2.wav` | MTU, DF bit, path MTU discovery, fragmentation, tunnel overhead and packet sizing. | Brighter UK garage/electro breaks with bouncy bass, playful vocals and ping/glitch details. |
 | 09 | <img src="09_Last_Hop/09_Last_Hop_cover.png" alt="Last Hop cover" width="90"> | Last Hop | 4:55 | `09_Last_Hop/09_Last_Hop_0.1-1.wav` | Final hop, destination reached, clean routes, stable links and the end of the album journey. | Epic cinematic progressive trance/melodic techno closer with large builds and euphoric finale. |
 
-## Non-Release Variants Kept
-
-- `02_OSPF_Neighbors/02_OSPF_Neighbors_0.3-2.wav` is kept as an alternate version but is not part of the release.
-
 ## Naming Notes
 
 - File suffixes like `_0.3-1` contain the prompt version and generated variant number.
