@@ -1,0 +1,34 @@
+VERSION: 0.2
+ALBUM: Network Engineer Album
+TRACK: 08 - Spam The Spammer
+THEMA: Mailsecurity, Spam, Phishing, Quarantine, SOC-Humor
+VORGESCHLAGENE ZEIT: 3:50
+STATUS: Draft
+
+LYRIC PROMPT:
+Main Chant:
+SPAM THE SPAMMER.
+BLOCK THE BOT.
+PHISHING FILTER.
+DROP THE LOT.
+
+Fragments:
+Quarantine.
+Header check.
+Sender fail.
+Payload wreck.
+
+Bridge:
+Click no link.
+Trust no mail.
+SOC lights blink.
+Rules prevail.
+
+Final Chant:
+SPAM THE SPAMMER.
+SPAM THE SPAMMER.
+BLOCK THE BOT.
+DROP THE LOT.
+
+STYLE PROMPT:
+Acid-Techno / Rave-Techno mit hartem Bass, aggressiver 303-Line und repetitiver Hook. Tempo ca. 136-140 BPM. Minimaler Rave-Chant mit Security-Humor; Abschnittsnamen nicht singen. Der Track darf wild, etwas absurd und sehr energiereich sein. Kurze Vocal-Shouts, Sirenen, Mail-Notification-Sounds, digitale Glitches und verzerrte Acid-Sequenzen. Drop maximal clubtauglich. Humorvoll, aber nicht weich. Security-Rave im Serverraum.

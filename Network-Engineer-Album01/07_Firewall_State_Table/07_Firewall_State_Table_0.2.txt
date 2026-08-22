@@ -1,0 +1,38 @@
+VERSION: 0.2
+ALBUM: Network Engineer Album
+TRACK: 07 - Firewall State Table
+THEMA: Firewall, ACLs, Sessions, Zero Trust, Drops, Security
+VORGESCHLAGENE ZEIT: 4:15
+STATUS: Draft
+
+LYRIC PROMPT:
+Verse:
+Default deny at the border line,
+inspect the session, read the sign.
+Source and destination, port and state,
+one wrong packet hits the gate.
+
+Chorus:
+Drop it.
+Log it.
+Block it.
+State table lock it.
+Trust no packet in the night,
+least privilege, hold the line.
+
+Bridge:
+ACL sharp like a blade,
+NAT reflection, masquerade.
+Zero trust in the electric rain,
+malware knocking on the chain.
+
+Break:
+SYN.
+ACK.
+Session match.
+Deny.
+Permit.
+Log.
+
+STYLE PROMPT:
+Aggressiver Cyber-Techno mit harter Kick, verzerrtem Bass und gated Synths. Tempo ca. 132-136 BPM. Knapp, entschlossen und wie Firewall-Regeln; Abschnittsnamen nicht singen. Sehr druckvoll und direkt, passend zu Security und Firewall. Percussion soll wie digitale Sperren und Relays klingen. Vocals kurz, kommandierend, leicht verzerrt. Im Break Spannung durch Alarm-Sweeps und Logfile-Glitches, danach brutaler Drop. Dunkel, modern, defensiv, kompromisslos.

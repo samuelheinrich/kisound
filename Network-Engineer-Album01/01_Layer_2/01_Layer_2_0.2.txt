@@ -1,0 +1,35 @@
+VERSION: 0.2
+ALBUM: Network Engineer Album
+TRACK: 01 - Layer 2
+THEMA: MAC-Adressen, VLANs, STP, Broadcast Domains, Switching
+VORGESCHLAGENE ZEIT: 4:10
+STATUS: Draft
+
+LYRIC PROMPT:
+Verse:
+MAC table learning in the neon light,
+frames on the wire, moving through the night.
+Tag it, trunk it, VLAN in the flow,
+broadcast domain where the packets go.
+
+Pre-Chorus:
+Root bridge calling,
+ports are falling,
+blocking, forwarding,
+loop is crawling.
+
+Chorus:
+Layer two, keep it clean,
+no loop storm in the switching machine.
+VLAN ten, VLAN three,
+tag the frame and set it free.
+
+Bridge:
+BPDU.
+Trunk up.
+Access port.
+MAC move.
+Spanning tree saves the night.
+
+STYLE PROMPT:
+Harter Electro-Techno mit klaren, klickenden Transienten wie Switch-Relays und Patchpanel-Geraueschen. Tempo ca. 126-130 BPM. Tiefe Kick, trockene Bassline, metallische Percussion, kurze Glitch-Sounds als Frame- und VLAN-Effekte. Halb gesprochen, halb gerappt; Abschnittsnamen nicht singen. Der Groove soll kontrolliert, kantig und maschinell sein. Im Break Spannung mit STP/BPDU-Vocal-Chops aufbauen, danach voller Drop mit aggressiver Bassline. Clubtauglich, dunkel, praezise, technisch.

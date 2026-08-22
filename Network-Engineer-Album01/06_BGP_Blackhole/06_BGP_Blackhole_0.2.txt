@@ -1,0 +1,34 @@
+VERSION: 0.2
+ALBUM: Network Engineer Album
+TRACK: 06 - BGP Blackhole
+THEMA: BGP, ASN, Peering, Prefixes, Route Leaks, Blackhole Routing
+VORGESCHLAGENE ZEIT: 5:00
+STATUS: Draft
+
+LYRIC PROMPT:
+Spoken:
+ASN in the dark,
+prefix on the edge.
+One wrong announce,
+the world bends.
+
+Chorus:
+BGP blackhole.
+Null route soul.
+Withdraw the prefix.
+Lose control.
+
+Bridge:
+Peer established.
+Keepalive.
+Route leak.
+No survive.
+
+Finale:
+Next hop unknown.
+Policy denied.
+Traffic falls into the void.
+BGP blackhole.
+
+STYLE PROMPT:
+Schwerer Dub-Techno / Dark-Techno mit extrem tiefem Bass, viel Raum und langsam rollender Hypnose. Tempo ca. 122-126 BPM. Wenig Text, sehr duester und gross; Abschnittsnamen nicht singen. Breite Hallraeume, dunkle Pads, reduzierte Percussion, aber sehr massiver Low-End-Druck. Vocals tief, sparsam und bedrohlich. Wie ein globales Routing-Desaster in Zeitlupe. Lange Builds, geduldige Spannung, kein hektischer Drop, sondern ein schwarzes Bassloch.

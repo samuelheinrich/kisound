@@ -1,0 +1,36 @@
+VERSION: 0.2
+ALBUM: Network Engineer Album
+TRACK: 05 - WiFi Roaming
+THEMA: WLAN, RSSI, Channels, DFS, 802.11, Sticky Clients, Roaming
+VORGESCHLAGENE ZEIT: 4:00
+STATUS: Draft
+
+LYRIC PROMPT:
+Verse:
+Signal fades at minus seventy-five,
+sticky client trying to stay alive.
+Channel overlap in a crowded room,
+DFS radar makes the silence bloom.
+
+Chorus:
+Roam, roam, find the stronger light,
+802.11 in the noise tonight.
+RSSI falling, SNR low,
+handoff clean, let the client go.
+
+Bridge:
+Five gigahertz.
+Six gigahertz.
+Channel width.
+Power down.
+Survey the floor.
+Map the sound.
+
+Verse 2:
+APs whisper through concrete walls,
+beacons pulse in the meeting halls.
+Captive portal, roaming trace,
+packets vanish in the office space.
+
+STYLE PROMPT:
+Elektronischer Breakbeat / Electro-Techno mit harten Baessen und nervoesen Funk-Sweeps. Tempo ca. 132 BPM oder halftime-feel moeglich. Vocals sollen nach Funk, Bewegung und Troubleshooting klingen; Abschnittsnamen nicht singen. Verwende Rauschen, Chirps, kurze FM-Synths und modulierte Filter als WiFi-Spektrum. Drums duerfen gebrochen und agil sein. Drop mit massivem Sub und schnellen Hats. Technisch, urban, hektisch, aber tanzbar.
