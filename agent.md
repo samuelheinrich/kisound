@@ -1,5 +1,15 @@
 # Agent Notes
 
+## Album Configuration
+
+Every album directory carries an `album.yml` that is the single source of truth
+for the release automation: artist, album title, year, cover, per-track genre /
+theme / style / tags, video rendering parameters and the YouTube templates.
+
+Adding a new album means copying and editing that file - no script needs to be
+changed. Scripts share `script/lib/album.rb`, which parses the final `*_1.0.txt`
+prompts and merges them with `album.yml`.
+
 ## Audio File Hygiene
 
 After downloading or generating audio/image/license files from external services, remove local macOS download metadata before release work.
@@ -58,6 +68,33 @@ These export folders are intentionally ignored by Git.
 
 The export script embeds track cover images when available and falls back to the album cover.
 
+## YouTube Release
+
+Three steps, all reproducible for future albums:
+
+```sh
+# 1. render a video per track (animated cover) plus the full-album video
+script/build_album_videos.rb Network-Engineer-Album01
+
+# 2. build titles, descriptions, tags and chapter timestamps
+script/build_youtube_metadata.rb Network-Engineer-Album01
+
+# 3. upload and build the playlist
+script/youtube/.venv/bin/python script/youtube/upload_youtube.py Network-Engineer-Album01
+```
+
+Output goes to `Network-Engineer-Album01/xx_youtube/` (git-ignored).
+
+Two constraints drive the workflow and are documented in
+`script/youtube/README.md`:
+
+- Uploads from an unaudited API project are locked to `private` by YouTube.
+- The default API quota allows roughly six uploads per day, so an eleven video
+  album takes two runs. `upload_state.json` records what is done and the next
+  run continues from there.
+
+OAuth credentials live in `~/.config/kisound/`, never in the repository.
+
 ## Git Ignore Policy
 
 Local delivery/export folders should stay out of Git:
@@ -66,3 +103,4 @@ Local delivery/export folders should stay out of Git:
 - `xx_soundcloud/`
 - `xx_mp3/`
 - `xx_flac/`
+- `xx_youtube/`

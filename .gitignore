@@ -4,3 +4,6 @@ Network-Engineer-Album01/xx_soundcloud/
 .opencode/
 */xx_mp3/
 */xx_flac/
+*/xx_youtube/
+script/youtube/.venv/
+__pycache__/
