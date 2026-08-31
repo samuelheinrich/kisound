@@ -1,0 +1,71 @@
+VERSION: 0.1
+ALBUM: Network Engineer 02
+TRACK: 06 - Certificate Expired
+THEMA: TLS Handshake Fehler, PKI, abgelaufene Zertifikate, naechtlicher Incident
+VORGESCHLAGENE ZEIT: 3:50
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+Intro:
+Gestern lief es noch.
+Nichts wurde geändert.
+Es wird nie was geändert.
+
+Verse:
+Der Browser wirft 'ne rote Wand,
+User rufen an, irgendwer sagt,
+die Seite ist tot, die App ist weg,
+schau auf den Server, schau in den Thread.
+Logs sind sauber, der Service rennt,
+C-P-U bei fast null Prozent.
+Alles grün und alles fein,
+bis auf eine Zeile mit Ablaufdatum.
+
+Pre-Chorus:
+Nicht die Firewall.
+Nicht die Route.
+Nicht D-N-S diesmal,
+das haben wir schon geprüft.
+
+Chorus:
+Certificate Expired.
+Neunzig Tage sind vorbei.
+Certificate Expired.
+Und keiner weiss wieso.
+Gestern lief es,
+das ganze Jahr,
+das Datum kippte
+und weg war's.
+
+Hook:
+Prüf die Chain.
+Prüf das Datum.
+Erneuern.
+Deployen.
+Reload.
+Warten.
+
+Verse 2:
+Intermediate fehlt in der Chain,
+die halbe Welt merkt gar nichts davon.
+Die andere Hälfte sieht nur Zweifel,
+je nachdem, was ihr Store noch kennt.
+Wildcard, S-A-N, Common Name,
+keins davon meint dasselbe.
+Der Kalender war der Angriff,
+und keiner hatte ihn im Blick.
+
+Final Chorus:
+Certificate Expired.
+Neunzig Tage sind vorbei.
+Certificate Expired.
+Jetzt automatisier, oder wein.
+Gestern lief es,
+heut läuft's wieder,
+bis die nächste Erneuerung
+uns holt.
+
+STYLE PROMPT:
+Federnder Bass House mit funky, druckvollem Bass und Club-Energie. Tempo ca. 126-128 BPM. Deutlich heller und humorvoller als der Rest des Albums, tanzbar, aber technisch im Text. Stimme frech, trocken, leicht genervt, im Vers fast Spoken Word, im Refrain catchy gesungen. Der Hook Certificate Expired muss sofort haengen bleiben. Kleine Alert-Sounds, Notification-Pings und ein Telefonklingeln als Wuerze. Abschnittsnamen nicht singen. Keine bekannten Melodie- oder Song-Referenzen. Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht uebersetzen. Buchstabenfolgen wie S-Y-N oder V-N-I einzeln buchstabiert singen.

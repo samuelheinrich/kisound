@@ -1,0 +1,69 @@
+VERSION: 0.1
+ALBUM: Network Engineer 02
+TRACK: 08 - Anycast
+THEMA: Anycast, eine Adresse an vielen Orten, CDN, Lastverteilung, DDoS Absorption
+VORGESCHLAGENE ZEIT: 3:35
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+Intro:
+Gleiche Adresse.
+Überall.
+Nimm die nächste.
+
+Verse:
+Ein Prefix aus dreissig Städten angesagt,
+die Routing Table sortiert das aus.
+Du hast nie gewählt und nie gewusst,
+wer von ihnen dir geantwortet hat.
+Tokio, Zürich, Sao Paulo auch,
+alle gleich richtig, alle gleich wahr.
+Welcher Pfad heute kürzer ist,
+genau der nimmt dich mit.
+
+Pre-Chorus:
+Kein Load Balancer.
+Keine Entscheidung.
+Nur Geografie
+und die Wege, die wir legten.
+
+Chorus:
+Anycast.
+Eine Adresse, viele Orte.
+Anycast.
+Tausend gleiche Gesichter.
+Der Nächste gewinnt,
+der Rest steht bereit,
+du siehst nie,
+wer geantwortet hat.
+
+Break:
+Announce überall.
+Antworte, wo du bist.
+Withdraw und verschwinde.
+Einer ist immer näher.
+
+Verse 2:
+Die Flut kommt an mit allem, was sie hat,
+Gigabit an Nichts in vollem Lauf.
+Verteilt auf alle Ränder dieser Welt
+bricht die Welle, bevor sie sich hebt.
+Ein Node fällt, zieht seinen Anspruch zurück,
+der Traffic rutscht und findet dasselbe.
+Keiner hat's gemerkt, keiner hat's gewusst,
+der Service lief einfach weiter.
+
+Final Chorus:
+Anycast.
+Eine Adresse, viele Orte.
+Anycast.
+Tausend gleiche Gesichter.
+Aus vielen wird
+ein einziger,
+die Arbeit unsichtbar,
+wenn sie getan ist.
+
+STYLE PROMPT:
+Energischer Breakbeat mit Big-Beat-Wucht und kraeftigen, leicht schmutzigen Drums. Tempo ca. 130-134 BPM. Zentrale Idee ist Vervielfachung: derselbe Vocal-Schnipsel an mehreren Stellen im Stereobild, leicht versetzt, sodass viele Stimmen zu einer werden. Breite Stereo-Bearbeitung, dicke Basslines, kurze Vocal-Chops. Stimme selbstbewusst und rhythmisch. Abschnittsnamen nicht singen. Keine bekannten Melodie- oder Song-Referenzen. Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht uebersetzen. Buchstabenfolgen wie S-Y-N oder V-N-I einzeln buchstabiert singen.

@@ -236,6 +236,10 @@ tracks.each do |track|
   background = File.join(CACHE_DIR, "#{track.slug}_bg.png")
   foreground = File.join(CACHE_DIR, "#{track.slug}_fg.png")
   loop_path = File.join(CACHE_DIR, "#{track.slug}_loop.mp4")
+  unless track.cover_path && File.exist?(track.cover_path)
+    abort "No cover for #{track.display_title}. Expected #{track.dir}/#{track.slug}_cover.png " \
+          'or an album cover in cover/.'
+  end
   fg_w, fg_h = cover_display_size(track.cover_path)
 
   if !options[:force] && newer_than_inputs?(output, [track.audio_path, track.cover_path])

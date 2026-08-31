@@ -1,0 +1,27 @@
+VERSION: 0.1
+ALBUM: Network Engineer 02
+TRACK: 02 - TrustSec
+THEMA: TrustSec, Security Group Tags, SGACL, Identitaet statt IP
+VORGESCHLAGENE ZEIT: 4:00
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Placeholder
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+PLATZHALTER - bestehende TrustSec-Dateien hierher kopieren.
+
+Diese Datei ist nur ein Geruest, damit Ordnerstruktur und album.yml vollstaendig
+sind. Beim Ueberschreiben darauf achten, dass die Kopfzeilen TRACK und
+RELEASE AUDIO im Format der uebrigen Tracks bleiben, weil die Skripte in
+script/ genau diese beiden Felder auslesen.
+
+Hinweis: die uebrigen neun Tracks dieses Albums haben deutsche Lyrics mit
+englischen Fachbegriffen. Falls dein bestehender TrustSec-Text englisch ist,
+passt er stilistisch nicht ins Album.
+
+STYLE PROMPT:
+PLATZHALTER - bestehende TrustSec-Dateien hierher kopieren.
+
+Vorschlag falls noch offen: dunkler Acid-Techno / EBM, ca. 130-134 BPM,
+autoritaere hypnotische 303-Sequenz, harte trockene Drums, Stimme streng und
+befehlend. Gesang auf Deutsch, englische Fachbegriffe englisch aussprechen.

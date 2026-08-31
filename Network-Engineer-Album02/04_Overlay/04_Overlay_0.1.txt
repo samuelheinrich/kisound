@@ -1,0 +1,72 @@
+VERSION: 0.1
+ALBUM: Network Engineer 02
+TRACK: 04 - Overlay
+THEMA: VXLAN, EVPN, Tunnel ueber Fabric, VNI, Leaf und Spine
+VORGESCHLAGENE ZEIT: 4:30
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+Intro:
+Zwei Netze.
+Ein Kabel.
+Du siehst nur das obere.
+
+Verse:
+Leaf und Spine in gleichen Reihen,
+jeder Weg gleich lang, keiner weiss davon.
+Underlay still, geroutet und schlicht,
+trägt etwas, das es nicht versteht.
+Pack den Frame und gib ihm Namen,
+V-N-I zeigt, woher er kam.
+Encapsulation, Header oben drauf,
+der Tunnel beginnt und hört nicht auf.
+
+Pre-Chorus:
+Der Switch darunter
+sieht nur einen Flow.
+Das Netz darüber
+weiss davon nichts.
+
+Chorus:
+Overlay.
+Reitet auf dem Underlay.
+Overlay.
+Ein Netz im Netz, das keiner sieht.
+Gleiche Fabric,
+andere Welt,
+tausend Segmente,
+eng gefaltet.
+
+Break:
+Leaf.
+Spine.
+Tunnel.
+V-N-I.
+Route es.
+Bridge es.
+Zieh es lang.
+
+Verse 2:
+E-V-P-N trägt, was wir lernen,
+M-A-C-Adressen kommen dran.
+Type Two, Type Five, Control Plane clean,
+kein Flooding mehr, um dich zu finden.
+Streck ein Segment über den Boden,
+über ein Gebäude, über mehr.
+Zwei Racks entfernt und sie berühren sich,
+der Draht dazwischen weiss zu viel.
+
+Final Chorus:
+Overlay.
+Reitet auf dem Underlay.
+Overlay.
+Ein Netz im Netz, das keiner sieht.
+Schichten gefaltet
+in eine einzige,
+unsichtbare Arbeit,
+längst getan.
+
+STYLE PROMPT:
+Hypnotischer Progressive House mit rollendem Bass und geschichteten Arpeggios. Tempo ca. 124-126 BPM. Zentrale Idee ist Schichtung: Elemente werden nach und nach uebereinander gelegt, jedes fuer sich einfach, zusammen dicht. Lange Builds, kein harter Drop, eher ein Aufgehen. Klar, modern und clean produziert, nicht dunkel. Stimme ruhig, gleichmaessig, fast erzaehlend. Abschnittsnamen nicht singen. Keine bekannten Melodie- oder Song-Referenzen. Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht uebersetzen. Buchstabenfolgen wie S-Y-N oder V-N-I einzeln buchstabiert singen.

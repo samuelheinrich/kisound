@@ -1,0 +1,183 @@
+# Album configuration.
+#
+# Single source of truth for release automation (WAV tagging, MP3/FLAC export,
+# YouTube video rendering and upload). Copy this file into a new album folder
+# and adjust it -- no script needs to be edited for a new album.
+
+# Lyrics on this album are German with the technical vocabulary left in
+# English; album 01 was sung in English. The per-track style prompts state this
+# explicitly, otherwise the generator sings them in English.
+album: Network Engineer 02
+artist: Samuel Heinrich
+year: 2026
+cover: cover/kisound_network-engineer-02-cover.png
+
+# Rendering of the cover videos. Applies to every track video and the
+# concatenated full-album video.
+video:
+  width: 1920
+  height: 1080
+  fps: 25
+  # Length of the rendered animation loop. Every track video repeats this loop,
+  # so rendering cost is independent of track length. Set to 0 to encode each
+  # track over its full length instead.
+  loop_seconds: 20
+  # Slow "breathing" zoom of the cover: amplitude and cycle length in seconds.
+  # Every period below must divide loop_seconds or the loop will jump.
+  zoom_amount: 0.035
+  zoom_period: 10
+  # Colour wave over the whole frame: max hue shift in degrees and cycle length.
+  hue_degrees: 10
+  hue_period: 20
+  # Blurred, darkened background built from the same cover.
+  background_blur: 36
+  background_brightness: -0.08
+  background_saturation: 1.2
+  # Pulsing vignette.
+  vignette_amount: 0.06
+  vignette_period: 5
+  # Encoder settings. YouTube re-encodes anyway; these are its recommendations.
+  crf: 18
+  preset: medium
+  audio_bitrate: 384k
+
+youtube:
+  # 10 = Music. https://developers.google.com/youtube/v3/docs/videoCategories/list
+  category_id: "10"
+  default_language: en
+  # Uploads from an unaudited API client are forced to private by YouTube.
+  # See script/youtube/README.md before changing this.
+  privacy: private
+  made_for_kids: false
+  # "youtube" = standard licence, "creativeCommon" = CC-BY.
+  license: youtube
+
+  title_template: "{artist} - {title} | {album}"
+  album_title_template: "{artist} - {album} (Full Album)"
+
+  # {tracklist} is replaced by the chapter list, {chapters} only exists in the
+  # album video description.
+  description_template: |
+    {theme}
+
+    Style: {style}
+
+    From the album "{album}" by {artist} ({year}).
+    Track {track_number} of {track_total}.
+
+    {tracklist}
+
+    {footer}
+
+  album_description_template: |
+    {album_description}
+
+    Chapters:
+    {chapters}
+
+    {footer}
+
+  footer: |
+    Music and lyrics: {artist}
+    Produced with AI-assisted music generation.
+    (c) {year} {artist}. All rights reserved.
+
+  album_description: >-
+    "Network Engineer 02" goes one layer deeper than the first album: identity
+    instead of addresses, overlays on top of fabrics, the internet held together
+    by trust between autonomous systems, and what happens when all of it breaks
+    at three in the morning. From a cold datacenter start through acid-driven
+    segmentation, neurofunk chaos and wide dub techno to a closing convergence,
+    every track turns a real network engineering concept into bass-heavy
+    electronic music. Sung in German, with the networking vocabulary left in
+    English.
+
+  # Merged into every video's tag list. YouTube caps all tags at 500 characters
+  # in total, so the builder truncates if needed.
+  common_tags:
+    - electronic
+    - network engineering
+    - infrastructure
+    - IT
+    - AI music
+    - Samuel Heinrich
+    - Network Engineer 02
+
+  playlist:
+    title: Network Engineer 02
+    privacy: private
+
+# Per-track metadata, keyed by the two-digit track number used in the folder
+# and prompt file names. genre feeds the audio tags and the YouTube category,
+# theme and style feed the video descriptions.
+tracks:
+  "00":
+    genre: Cinematic Techno
+    theme: >-
+      The network waking up: links negotiating, neighbours forming, protocols converging before the first packet moves.
+    style: >-
+      Cold cinematic techno opener with a slow build, deep sub-bass and serious spoken vocals.
+    tags: [melodic techno, cinematic techno, cold start, convergence, datacenter, network engineering, deep bass]
+  "01":
+    genre: Electro
+    theme: >-
+      TCP three-way handshake, retransmits, window size, congestion control and half-open connections.
+    style: >-
+      Dry punching electro-techno built around a three-beat call and response.
+    tags: [electro, hard techno, TCP, handshake, SYN ACK, congestion control, retransmit]
+  "02":
+    genre: Acid Techno
+    theme: >-
+      Identity instead of IP: security group tags, SGACLs, tag propagation and inline tagging.
+    style: >-
+      Dark acid techno with an authoritative hypnotic 303 sequence.
+    tags: [acid techno, EBM, TrustSec, SGT, SGACL, segmentation, zero trust, network security]
+  "03":
+    genre: Drum & Bass
+    theme: >-
+      A loop with no end: flooding, pegged CPUs, a network eating itself alive.
+    style: >-
+      Aggressive neurofunk drum and bass with torn basslines and controlled chaos.
+    tags: [neurofunk, drum and bass, broadcast storm, layer 2 loop, flooding, outage]
+  "04":
+    genre: Progressive House
+    theme: >-
+      VXLAN and EVPN: tunnels over fabric, VNIs, leaf-spine, a network inside the network.
+    style: >-
+      Layered hypnotic progressive house with a rolling bassline and stacked arpeggios.
+    tags: [progressive house, melodic techno, VXLAN, EVPN, overlay, leaf spine, datacenter fabric]
+  "05":
+    genre: Trance
+    theme: >-
+      BGP: peering, AS paths, route leaks and hijacks - the internet runs on trust.
+    style: >-
+      Big uplifting trance with a journey arc and euphoric width.
+    tags: [trance, BGP, AS path, peering, route leak, BGP hijack, internet routing]
+  "06":
+    genre: Bass House
+    theme: >-
+      The classic 3am outage: dead TLS handshake, PKI, and the words it worked yesterday.
+    style: >-
+      Playful bass house with a humorous hook and funky club energy.
+    tags: [bass house, tech house, TLS, PKI, certificate expired, incident, network humor]
+  "07":
+    genre: Dub Techno
+    theme: >-
+      Light in glass across thousands of kilometres: submarine cables and unlit strands in the ground.
+    style: >-
+      Wide atmospheric dub techno with few elements and a lot of space.
+    tags: [dub techno, deep techno, dark fiber, submarine cable, optical, long haul, ambient]
+  "08":
+    genre: Breakbeat
+    theme: >-
+      One address in many places, the closest one wins: CDN, load spreading and DDoS absorption.
+    style: >-
+      Breakbeat with big beat energy - many voices becoming one.
+    tags: [breakbeat, big beat, anycast, CDN, DDoS, load balancing, edge]
+  "09":
+    genre: Melodic Techno
+    theme: >-
+      Everything settles: routes stable, topology quiet, the network healing itself.
+    style: >-
+      Epic cinematic closer with large builds and a resolving finale.
+    tags: [melodic techno, cinematic, convergence, stability, album closer, network engineering]

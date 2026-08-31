@@ -1,0 +1,71 @@
+VERSION: 0.1
+ALBUM: Network Engineer 02
+TRACK: 09 - Convergence
+THEMA: Konvergenz, stabile Routen, ruhige Topologie, Abschluss des Albums
+VORGESCHLAGENE ZEIT: 5:10
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+Intro:
+Die Alarme sind aus.
+Die Graphen sind flach.
+Hör hin.
+
+Verse:
+Jede Tabelle stimmt endlich überein,
+der Sturm ist vorbei, die Änderung durch.
+Keine Updates mehr auf dem Draht,
+kein Flapping, kein Feuer mehr.
+Was kaputt war, fand einen Weg,
+was umgeleitet wurde, bleibt.
+Die Topologie hält ihre Form,
+nichts mehr zu eskalieren.
+
+Pre-Chorus:
+Der leiseste Moment
+ist der, den wir gebaut haben.
+Keiner sieht ihn.
+Genau das ist der Punkt.
+
+Chorus:
+Convergence.
+Das Netz atmet wieder.
+Convergence.
+Steady State, und dann
+passiert nichts,
+bricht nichts,
+die feinste Arbeit,
+die keiner sieht.
+
+Break:
+Routes stable.
+Links clean.
+Alarme klar.
+Graphen flach.
+Nichts zu tun.
+Gut.
+
+Verse 2:
+Irgendwo findet ein Paket seinen Weg
+durch alles, was wir heute gebaut haben.
+Es kennt die Nächte nicht, die wir sassen,
+die Ausfälle, den Fehler, den Zufall.
+Es weiss nur, der Pfad ist da,
+eine saubere Route durch offene Luft.
+Und wenn es landet, wo es hingehört,
+ist das das Ende dieser Lieder.
+
+Final Chorus:
+Convergence.
+Das Netz atmet wieder.
+Convergence.
+Steady State, und dann
+lass es laufen,
+lass es stehen,
+wir halten die Linie
+und gehen.
+
+STYLE PROMPT:
+Epischer cinematic Melodic-Techno-Closer mit grossen Builds und aufloesendem Finale. Tempo ca. 122-126 BPM. Beginnt fast still und offen, waechst ueber den ganzen Track zu einem breiten, warmen Hoehepunkt und loest sich am Ende in Ruhe auf. Melodisch und emotional, aber nicht kitschig; Wuerde statt Euphorie. Der letzte Abschnitt darf sich Zeit nehmen und ausklingen, bis nur noch ein tiefer Puls bleibt. Stimme warm, ruhig, am Ende fast gesprochen. Abschnittsnamen nicht singen. Keine bekannten Melodie- oder Song-Referenzen. Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht uebersetzen. Buchstabenfolgen wie S-Y-N oder V-N-I einzeln buchstabiert singen.

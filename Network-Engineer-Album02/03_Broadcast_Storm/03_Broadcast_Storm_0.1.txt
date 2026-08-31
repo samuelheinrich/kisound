@@ -1,0 +1,72 @@
+VERSION: 0.1
+ALBUM: Network Engineer 02
+TRACK: 03 - Broadcast Storm
+THEMA: Layer 2 Loop, Flooding, CPU Last, Netz frisst sich selbst
+VORGESCHLAGENE ZEIT: 3:30
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+Intro:
+Ein Kabel.
+Falscher Port.
+Mehr braucht es nicht.
+
+Verse:
+Frame geht raus und kommt zurück,
+derselbe Frame, wo ist das Ende.
+Kein Time to Live hier unten drin,
+nichts sagt ihm, wohin er soll.
+Flooding raus auf jeden Port,
+Kopien wachsen, keiner stoppt.
+Der Switch schreit, C-P-U rot,
+die Control Plane ist längst tot.
+
+Pre-Chorus:
+Alle Lampen leuchten grün.
+Das ist kein gutes Zeichen.
+Hier kommt gar nichts mehr durch.
+Hier steht alles auf dem Spiel.
+
+Chorus:
+Broadcast Storm.
+Kein Root, kein Pfad.
+Broadcast Storm.
+Spür den Schaden.
+Es flutet,
+verdoppelt,
+ertränkt den Draht,
+ein Loop, der sich
+selber frisst.
+
+Break:
+Loop.
+Flood.
+Loop.
+Flood.
+Zieh das Kabel.
+Jetzt.
+
+Verse 2:
+Management weg, kein Login mehr,
+der Console Port ist unser Weg.
+Blocking State, der niemals kam,
+eine Bridge ohne Root, ohne Namen.
+Konsolenkabel, Taschenlampe,
+durch die Reihen im Serverraum.
+Finde den Link, der den Ring schliesst,
+ein Port down und Stille kommt.
+
+Final Chorus:
+Broadcast Storm.
+Kein Root, kein Pfad.
+Broadcast Storm.
+Spür den Schaden.
+Ein Port down,
+die Flut zieht ab,
+das Netz lernt,
+was Stille heisst.
+
+STYLE PROMPT:
+Aggressiver Neurofunk Drum and Bass mit zerrissenem, moduliertem Reese-Bass. Tempo ca. 172-176 BPM. Beginn taeuschend ruhig, dann eskalierend: Layer, die sich selbst wiederholen und uebereinander stapeln, bis es fast kippt, aber rhythmisch kontrolliert bleibt. Nutze wiederholende, sich beschleunigende Delays als Bild fuer den Loop. Stimme dringlich, hart, im Hook fast geschrien, im Break knapp und befehlend. Nach dem letzten Refrain abrupter Cut in Stille, dann ein ruhiger Ausklang. Abschnittsnamen nicht singen. Keine bekannten Melodie- oder Song-Referenzen. Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht uebersetzen. Buchstabenfolgen wie S-Y-N oder V-N-I einzeln buchstabiert singen.

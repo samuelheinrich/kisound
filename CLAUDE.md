@@ -92,9 +92,12 @@ number and title) and `RELEASE AUDIO` (a filename resolved relative to the promp
 Renaming those keys, or the `NN_*/**_1.0.txt` glob shape, breaks both scripts silently — they just
 `warn` and skip.
 
-Conventions inside the prompts: lyrics are English, style/direction text is German, and every style
-prompt ends with an instruction not to sing the section names and to avoid recognizable melody
-references.
+Conventions inside the prompts: the style/direction text is always German, and every style prompt
+ends with an instruction not to sing the section names and to avoid recognizable melody references.
+The lyric language is per album — album 01 is English, album 02 is German with the networking
+vocabulary left in English. When an album is not sung in English its style prompts must say so
+explicitly, or the generator defaults to English vocals; those albums also carry a `SPRACHE:` header
+in the prompt files. The section labels (Intro, Verse, Chorus …) stay English either way.
 
 ## album.yml
 

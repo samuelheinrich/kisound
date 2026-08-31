@@ -1,0 +1,72 @@
+VERSION: 0.1
+ALBUM: Network Engineer 02
+TRACK: 05 - AS Path
+THEMA: BGP, Peering, AS Pfade, Route Leaks, Prefix Hijacks, Vertrauen im Internet
+VORGESCHLAGENE ZEIT: 4:40
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+Intro:
+Fünfundsechzigtausend Netze.
+Niemand hat das Sagen.
+Irgendwie läuft es.
+
+Verse:
+Ein Prefix, angekündigt aus fremder Hand,
+unterwegs quer über Land.
+Jeder Hop hängt seinen Namen dran,
+der Pfad wird länger, Mann für Mann.
+Kürzester Pfad ist, was wir nehmen,
+längstes Prefix kann nicht verlieren.
+Peer zu Peer und Transit bezahlt,
+so wird die Karte gemalt.
+
+Pre-Chorus:
+Niemand prüft das.
+Niemand muss signieren.
+Das Ganze steht
+auf einem Handschlag.
+
+Chorus:
+A-S Path.
+Folg ihm heim.
+A-S Path.
+Keiner ist allein.
+Ankündigen,
+annehmen,
+glauben, was du hörst,
+das Internet läuft
+auf Vertrauen und Angst.
+
+Break:
+Announce.
+Prepend.
+Withdraw.
+Reconverge.
+Route Leak.
+Filter es.
+
+Verse 2:
+Einer leakt die Tabelle zu weit,
+die halbe Welt fährt in die falsche Richtung.
+Traffic gezogen an einen fremden Ort,
+Pakete weit weg von zuhause.
+R-P-K-I signiert, was stimmt,
+Filter halten, was durchkommt.
+Zieh die Lüge zurück, lass sie versickern,
+die Karte zeichnet sich neu.
+
+Final Chorus:
+A-S Path.
+Folg ihm heim.
+A-S Path.
+Keiner ist allein.
+Jedes Netz
+geht ein Risiko ein,
+die ganze Welt geroutet
+auf gut Glück.
+
+STYLE PROMPT:
+Grosser Uplifting Trance mit weiten Supersaws, rollendem Bass und Reise-Charakter. Tempo ca. 138-140 BPM. Der Track soll Distanz und Weite transportieren: lange Breakdowns, grosse Builds, euphorischer Hauptteil. Melodisch heller als der Rest des Albums. Der Break in der Mitte darf fast still werden, bevor der letzte Refrain oeffnet. Stimme klar, getragen, mit Ehrfurcht statt Haerte. Abschnittsnamen nicht singen. Keine bekannten Melodie- oder Song-Referenzen. Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht uebersetzen. Buchstabenfolgen wie S-Y-N oder V-N-I einzeln buchstabiert singen.
