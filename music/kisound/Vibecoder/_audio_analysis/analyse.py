@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproducible audio analysis for final bilingual TOKEN BURN WAVs.
+"""Reproducible audio analysis for final bilingual Vibecoder WAVs.
 Adapted from Network Engineer Album 02 audio analysis; no video production."""
 import argparse
 import hashlib
@@ -22,14 +22,20 @@ from scipy import signal
 
 HERE = Path(__file__).resolve().parent
 TRACK_ID = os.environ.get('KISOUND_AUDIO_TRACK', '02_Token_Burn')
-TRACK_TITLE = 'SHIP IT' if TRACK_ID == '03_SHIP_IT' else 'TOKEN BURN'
+TRACK_TITLE = {'01_Vibecoder': 'VIBECODER', '02_Token_Burn': 'TOKEN BURN',
+               '03_SHIP_IT': 'SHIP IT'}.get(TRACK_ID, TRACK_ID)
 TARGET = HERE.parent/TRACK_ID/'final'
 SOURCE = TARGET
 TRACKS = ['de','en']
 BANDS = [('sub_20_60',20,60),('bass_60_250',60,250),('lowmid_250_500',250,500),('mid_500_2000',500,2000),('presence_2000_6000',2000,6000),('high_6000_12000',6000,12000),('air_12000_20000',12000,20000)]
 OUTFILES = ['ASTRA-AUDIO-ANALYSE.md','ASTRA-AUDIO-ANALYSE.json','ASTRA-AUDIO-ANALYSE.png']
 # Editorial suggestions for later implementation; no scenes are generated here.
-VISUAL_ACTIONS = {language: (('Commit- oder Coverimpuls hervorheben','Build-, Check- und Live-Ansicht öffnen','Trackliste und Browser ruhig zeigen') if TRACK_ID == '03_SHIP_IT' else ('Token- oder Cursorimpuls hervorheben','Prompt-, Build- und Exportansicht öffnen','Uhr, Kaffee und aktiven Cursor ruhig zeigen')) for language in TRACKS}
+VISUAL_ACTIONS_BY_TRACK = {
+    '01_Vibecoder': ('Cursor- oder Bassimpuls hervorheben', 'Prompt-, Test- und Prototypansicht öffnen', 'Arbeitsraum und ruhigen Cursor zeigen'),
+    '02_Token_Burn': ('Token- oder Cursorimpuls hervorheben', 'Prompt-, Build- und Exportansicht öffnen', 'Uhr, Kaffee und aktiven Cursor ruhig zeigen'),
+    '03_SHIP_IT': ('Commit- oder Coverimpuls hervorheben', 'Build-, Check- und Live-Ansicht öffnen', 'Trackliste und Browser ruhig zeigen'),
+}
+VISUAL_ACTIONS = {language: VISUAL_ACTIONS_BY_TRACK[TRACK_ID] for language in TRACKS}
 
 def tc(t):
     m = int(round(t*1000)); return f'{m//3600000:02d}:{m//60000%60:02d}:{m//1000%60:02d}.{m%1000:03d}'

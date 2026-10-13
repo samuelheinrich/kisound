@@ -1,0 +1,50 @@
+VIBECODER · DE
+Zeitnull: Sample 0 der finalen WAV. Vorläufige ASR; Prüfbericht beachten.
+
+[00:00:05.500–00:00:07.580] ICH BIN VIBE CODER!
+[00:00:21.120–00:00:24.580] Acht Uhr. Export hängt fest.
+[00:00:24.580–00:00:28.140] Kaffee kalt. Die Uhr macht Stress.
+[00:00:28.140–00:00:31.660] Prompt rein. Skript an. Daten klar.
+[00:00:31.700–00:00:35.140] Zwei Tests grün. Nächste Idee ist da.
+[00:00:36.240–00:00:39.180] Neue Coder. Neuer Takt.
+[00:00:39.180–00:00:42.620] Ich sag, was fehlt, der Agent legt nach.
+[00:00:42.620–00:00:48.080] Unter der Haube: Blackbox-Schicht. Ich seh den Weg.
+[00:00:48.080–00:00:49.560] Die Drähte nicht.
+[00:00:49.580–00:00:53.940] Ich bin Vibecoder! Ich sag's, er baut's, ich test's, er fixt's.
+[00:00:56.380–00:00:58.060] Ich bin Vibecoder!
+[00:00:58.060–00:01:01.420] Was nicht läuft, geht zurück, bis es sitzt.
+[00:01:03.200–00:01:05.280] Ich bin Vibecoder!
+[00:01:05.480–00:01:08.400] Ich sag's, er baut's, ich test's, er fixt's.
+[00:01:08.360–00:01:11.680] Ein Diff, ein Test, ein Commit, und die nächste Idee blitzt.
+[00:01:17.620–00:01:19.700] Ich bin Vibecoder!
+[00:01:33.340–00:01:36.640] Mittag. Kein Track trifft meinen Takt.
+[00:01:36.640–00:01:40.400] Ich schreib den Sound, der heute knallt.
+[00:01:40.400–00:01:43.860] Mein eigener Beat zieht mich nach vorn,
+[00:01:43.860–00:01:47.440] der Bass rollt mit von Ort zu Ort.
+[00:01:47.440–00:01:50.900] Abends. App gesucht. Store voll.
+[00:01:50.900–00:01:54.860] Ich sag dem Agenten, was sie soll.
+[00:01:54.860–00:01:58.140] Ein Screen geht auf. Ein Knopf. Ein Flow.
+[00:01:58.140–00:02:01.960] Mein eigenes Tool – und weiter, go.
+[00:02:01.960–00:02:03.000] Ich bin Vibecoder!
+[00:02:03.000–00:02:06.220] Ich sag's, er baut's, ich test's, er fixt's.
+[00:02:06.220–00:02:10.200] Ich bin Vibecoder!
+[00:02:10.200–00:02:13.640] Was nicht läuft, geht zurück, bis es sitzt.
+[00:02:15.900–00:02:17.480] Ich bin Vibecoder!
+[00:02:17.480–00:02:20.500] Ich sag's, er baut's, ich test's, er fixt's.
+[00:02:20.620–00:02:23.860] Ein Diff, ein Test, ein Commit, und die nächste Idee blitzt.
+[00:02:25.140–00:02:27.140] Hardcoder: „Du weißt nicht, was da läuft.“
+[00:02:27.140–00:02:30.480] Ich: „Nicht alles. Aber ich seh, was fehlt.“
+[00:02:31.560–00:02:34.140] „Das nennst du Code?“, hör ich ihn fragen.
+[00:02:34.980–00:02:37.840] „Nenn's, wie du willst. Ich bau's trotzdem.“
+[00:02:37.840–00:02:39.400] Ich bin Vibecoder!
+[00:02:42.340–00:02:45.220] Die neue Generation ist laut.
+[00:02:45.460–00:02:46.260] Ich bin Vibecoder!
+[00:02:49.480–00:02:53.020] Bass rollt durch. Bass rollt durch. Bass rollt durch. Bass rollt durch.
+[00:02:53.020–00:02:55.300] Ein Wunsch. Ein Prompt. Ein neuer Build.
+[00:02:55.300–00:02:58.980] Lass ihn rollen. Lass ihn rollen. Rollen, rollen, rollen, rollen.
+[00:02:58.980–00:03:00.620] Ich bin Vibecoder!
+[00:03:03.840–00:03:07.340] Bass rollt durch. Bass rollt durch. Bass rollt durch. Bass rollt durch.
+[00:03:10.400–00:03:11.520] Prompt. Run. Check. Go.
+[00:03:13.800–00:03:14.920] Bass rollt durch.
+[00:03:22.460–00:03:24.180] Prompt. Run. Check. Go.
+[00:03:31.880–00:03:35.200] Prompt. Run. Check. Go.

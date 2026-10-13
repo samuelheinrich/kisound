@@ -15,7 +15,12 @@ EXPECTED = {
     'de': '966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de',
     'en': 'c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d',
 }
-if TRACK_ID == '03_SHIP_IT':
+if TRACK_ID == '01_Vibecoder':
+    EXPECTED = {
+        'de': '2a32ee2e01c429f1a051cfe913448576d7e6615930567220aca48feada845d97',
+        'en': '0ec442b9fa84de0a6b0e781f625597192015839555d1c27d60e649df6463d514',
+    }
+elif TRACK_ID == '03_SHIP_IT':
     EXPECTED = {}
 
 
@@ -46,7 +51,14 @@ def validate(language):
     assert sha(folder / transcript['raw_asr_path']) == transcript['raw_asr_sha256']
     if transcript.get('comparison_asr_path'):
         assert sha(folder / transcript['comparison_asr_path']) == transcript['comparison_asr_sha256']
+    if transcript.get('short_window_asr_path'):
+        assert sha(folder / transcript['short_window_asr_path']) == transcript['short_window_asr_sha256']
     assert sha(folder / transcript['prompt_path']) == transcript['prompt_sha256'] == analysis['source']['project_prompt_sha256']
+    if TRACK_ID == '01_Vibecoder':
+        prompt = (folder / transcript['prompt_path']).read_text()
+        reference = TRACK / 'suno-0.1' / language
+        assert prompt.split('LYRIC PROMPT:\n', 1)[1].split('\n\nSTYLE PROMPT:\n', 1)[0].strip() == (reference / 'lyrics.txt').read_text().strip()
+        assert prompt.split('STYLE PROMPT:\n', 1)[1].strip() == (reference / 'style.txt').read_text().strip()
     assert analysis['source']['selection_status'] == 'final_release'
     assert abs(duration - transcript['duration_seconds']) < 1 / info.samplerate
     assert abs(duration - analysis['summary']['duration_s']) < 1 / info.samplerate

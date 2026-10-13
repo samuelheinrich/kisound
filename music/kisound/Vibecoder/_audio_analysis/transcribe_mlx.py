@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Transcribe final SHIP IT WAVs locally with cached MLX Whisper and word timing."""
+"""Transcribe final Vibecoder WAVs locally with cached MLX Whisper and word timing."""
 import cached_runtime
 import hashlib
 import json
@@ -11,9 +11,14 @@ import wave
 
 import mlx_whisper
 
-ROOT = Path(__file__).resolve().parent.parent / '03_SHIP_IT'
-MODEL = Path.home() / '.cache/huggingface/hub/models--mlx-community--whisper-large-v3-mlx/snapshots/49e6aa286ad60c14352c404340ded53710378a11'
-MODEL_ID = 'mlx-community/whisper-large-v3-mlx'
+TRACK_ID = os.environ.get('KISOUND_AUDIO_TRACK', '03_SHIP_IT')
+ROOT = Path(__file__).resolve().parent.parent / TRACK_ID
+TURBO = os.environ.get('KISOUND_ASR_MODEL') == 'turbo'
+MODEL = Path.home() / '.cache/huggingface/hub' / (
+    'models--mlx-community--whisper-large-v3-turbo/snapshots/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb'
+    if TURBO else 'models--mlx-community--whisper-large-v3-mlx/snapshots/49e6aa286ad60c14352c404340ded53710378a11'
+)
+MODEL_ID = 'mlx-community/whisper-large-v3-turbo' if TURBO else 'mlx-community/whisper-large-v3-mlx'
 
 def sha(path):
     h = hashlib.sha256()
@@ -23,15 +28,20 @@ def sha(path):
     return h.hexdigest()
 
 def run(language):
-    wav = ROOT / 'final' / f'03_SHIP_IT_suno-v3_50_50_exakt_off_{language.upper()}.wav'
+    audio_names = {
+        '01_Vibecoder': f'01_Vibecoder_suno-0.1_50_50_exakt_off_{language.upper()}.wav',
+        '03_SHIP_IT': f'03_SHIP_IT_suno-v3_50_50_exakt_off_{language.upper()}.wav',
+    }
+    wav = ROOT / 'final' / audio_names[TRACK_ID]
     dest = ROOT / 'final' / language / 'asr'
     dest.mkdir(parents=True, exist_ok=True)
-    output = dest / 'whisper-large-v3.json'
+    output = dest / ('whisper-large-v3-turbo.json' if TURBO else 'whisper-large-v3.json')
     digest = sha(wav)
     if output.exists() and json.loads(output.read_text()).get('source_audio_sha256') == digest:
         print(language, 'cached raw ASR exists', flush=True)
         return
-    hint = f'Commit it, ship it, build, check, live, album {"drei" if language == "de" else "three"}.'
+    hint = (f'Commit it, ship it, build, check, live, album {"drei" if language == "de" else "three"}.'
+            if TRACK_ID == '03_SHIP_IT' and not TURBO else None)
     started = time.monotonic()
     result = mlx_whisper.transcribe(str(wav), path_or_hf_repo=str(MODEL), language=language,
         task='transcribe', temperature=0.0, condition_on_previous_text=False,
@@ -44,7 +54,8 @@ def run(language):
                          'text': item['text'].strip(), 'words': words, 'tokens': item.get('tokens', []),
                          'avg_logprob': float(item.get('avg_logprob', 0)),
                          'no_speech_prob': float(item.get('no_speech_prob', 0))})
-    data = {'model': MODEL_ID, 'model_snapshot': str(MODEL), 'weights_sha256': sha(MODEL/'weights.npz'),
+    data = {'model': MODEL_ID, 'model_snapshot': str(MODEL),
+            'weights_sha256': sha(MODEL/('weights.safetensors' if TURBO else 'weights.npz')),
             'runtime': 'MLX GPU / mlx-whisper', 'package_versions': {'mlx_whisper': cached_runtime.choices['mlx_whisper'][1], 'mlx': cached_runtime.choices['mlx'][1]},
             'source_audio': str(wav), 'source_audio_sha256': digest, 'language': language,
             'duration_seconds': 0,

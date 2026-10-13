@@ -1,0 +1,86 @@
+VERSION: 1.0
+ALBUM: Vibecoder
+TRACK: 01 - VIBECODER
+SPRACHE: EN
+STATUS: Final
+RELEASE AUDIO: ../01_Vibecoder_suno-0.1_50_50_exakt_off_EN.wav
+DAUER SEKUNDEN: 244.760000
+AUDIO SHA256: 0ec442b9fa84de0a6b0e781f625597192015839555d1c27d60e649df6463d514
+LYRICS QUELLE: suno-0.1/en/lyrics.txt; Referenztext, gesungene Abweichungen im Transkript markieren.
+STYLE QUELLE: suno-0.1/en/style.txt; Stilvorgabe, keine Messung.
+
+LYRIC PROMPT:
+[Intro]
+I'm a vibecoder!
+
+[Verse 1]
+Eight a.m. The export froze.
+Cold coffee. Deadline close.
+Prompt in. Script runs. Rows align.
+Two checks green. Next idea's mine.
+
+[Build]
+New coders. New pulse.
+One line, one build, the room wakes up.
+Under the hood? Black-box night.
+I know the goal, not every wire.
+
+[Drop]
+I am a Vibecoder!
+I say it, he builds it, I test it — he makes it right.
+I am a Vibecoder!
+If it fails, send it back till it’s running tight.
+I am a Vibecoder!
+I say it, he builds it, I test it — he makes it right.
+A diff, a test, a commit — and the next idea takes flight.
+
+[Instrumental Break]
+
+[Verse 2]
+No track at noon can match my pace.
+I write a sound to fill the space.
+My own beat drives me through the block,
+low end rolling round the clock.
+Night falls. Store full, nothing fits.
+I tell the agent what I miss.
+A screen lights up. One button works.
+My own little app, built for this.
+
+[Drop]
+I am a Vibecoder!
+I say it, he builds it, I test it — he makes it right.
+I am a Vibecoder!
+If it fails, send it back till it’s running tight.
+I am a Vibecoder!
+I say it, he builds it, I test it — he makes it right.
+A diff, a test, a commit — and the next idea takes flight.
+
+[Bridge]
+Hardcoder: "You don't know what's beneath."
+Me: "Not all of it. I know what I need."
+"You call that code?" I hear him say.
+"Call it what you want. I'm building anyway."
+
+[Final Drop]
+I'm a vibecoder!
+The new generation's loud.
+I'm a vibecoder!
+Bass rolls on. Bass rolls on.
+A thought. A prompt. A working build.
+Let it roll. Let it roll.
+I'm a vibecoder!
+Bass rolls on. Bass rolls on.
+
+[Outro]
+Prompt. Run. Check. Go.
+Bass rolls on.
+
+STYLE PROMPT:
+Genre: Peak-Time Tech House / Dark Electro, Club-Mix ohne Pop-Melodie.
+Tempo: 132 BPM, harter Four-on-the-floor-Groove.
+Sound: Rollender synkopierter 16tel-Bass mit Sub und rauem Mid-Bass; harte Kick, schiebende Offbeat-Hats, Ghost-Claps, verzerrte Stabs, Filterfahrten. Wenig Akkorde; Bass treibt schwere Drops.
+Vocals: Sehr tiefer rauer Männerbass, englische Verse rhythmisch gesprochen. Deutschen Ruf „ICH BIN VIBE CODER!“ im Drop brüllen, Crew-Doubles; kein hoher Popgesang.
+Vibe: Hypnotisch, frech, körperlich; Low-End-Groove mit Sog.
+Mood: Nächtlicher Clubdruck, selbstbewusst.
+Ablauf: Hook, Kick und Bass im ersten Takt; kein langes Intro. Kurze Verse, Builds, schwere Drops, instrumentale Bassgrooves, DJ-tauglicher Schluss; etwa 3:30.
+Hinweise: Englische Verse, deutscher Hook-Ruf. Abschnittsnamen nicht singen. Keine erkennbaren Melodie- oder Song-Referenzen.

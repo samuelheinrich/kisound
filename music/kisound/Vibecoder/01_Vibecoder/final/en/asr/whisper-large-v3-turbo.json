@@ -1,0 +1,2680 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "model_snapshot": "/Users/samuel.heinrich/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo/snapshots/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+  "weights_sha256": "951ed3fc1203e6a62467abb2144a96ce7eafca8fa77e3704fdb8635ff3e7f8a6",
+  "runtime": "MLX GPU / mlx-whisper",
+  "package_versions": {
+    "mlx_whisper": "0.4.3",
+    "mlx": "0.32.3"
+  },
+  "source_audio": "/Users/samuel.heinrich/0004_git/kisound/music/kisound/Vibecoder/01_Vibecoder/final/01_Vibecoder_suno-0.1_50_50_exakt_off_EN.wav",
+  "source_audio_sha256": "0ec442b9fa84de0a6b0e781f625597192015839555d1c27d60e649df6463d514",
+  "language": "en",
+  "duration_seconds": 244.76,
+  "parameters": {
+    "temperature": 0,
+    "condition_on_prev_tokens": false,
+    "return_token_timestamps": true,
+    "lyrics_prompt": null,
+    "vocabulary_hint": null,
+    "chunk_seconds": 30,
+    "word_timing": "decoder cross-attention DTW via mlx-whisper"
+  },
+  "elapsed_seconds": 21.89,
+  "segments": [
+    {
+      "start": 8.86,
+      "end": 11.0,
+      "text": "I'm a vibe coder",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 8.86,
+          "end": 9.86
+        },
+        {
+          "word": "a",
+          "start": 9.86,
+          "end": 10.0
+        },
+        {
+          "word": "vibe",
+          "start": 10.0,
+          "end": 10.46
+        },
+        {
+          "word": "coder",
+          "start": 10.46,
+          "end": 11.0
+        }
+      ],
+      "tokens": [
+        50365,
+        286,
+        478,
+        257,
+        14606,
+        17656,
+        260,
+        50917
+      ],
+      "avg_logprob": -0.2362697654300266,
+      "no_speech_prob": 9.399779565821831e-11
+    },
+    {
+      "start": 32.5,
+      "end": 34.46,
+      "text": "8am the export froze",
+      "words": [
+        {
+          "word": "8am",
+          "start": 32.5,
+          "end": 33.26
+        },
+        {
+          "word": "the",
+          "start": 33.26,
+          "end": 33.54
+        },
+        {
+          "word": "export",
+          "start": 33.54,
+          "end": 33.86
+        },
+        {
+          "word": "froze",
+          "start": 33.86,
+          "end": 34.46
+        }
+      ],
+      "tokens": [
+        50365,
+        1649,
+        335,
+        264,
+        10725,
+        46077,
+        50592
+      ],
+      "avg_logprob": -0.29706549342674543,
+      "no_speech_prob": 1.540133159894097e-10
+    },
+    {
+      "start": 35.8,
+      "end": 38.1,
+      "text": "Cold coffee deadline close",
+      "words": [
+        {
+          "word": "Cold",
+          "start": 35.8,
+          "end": 36.56
+        },
+        {
+          "word": "coffee",
+          "start": 36.56,
+          "end": 37.08
+        },
+        {
+          "word": "deadline",
+          "start": 37.08,
+          "end": 37.42
+        },
+        {
+          "word": "close",
+          "start": 37.42,
+          "end": 38.1
+        }
+      ],
+      "tokens": [
+        50592,
+        16918,
+        4982,
+        20615,
+        1998,
+        50774
+      ],
+      "avg_logprob": -0.29706549342674543,
+      "no_speech_prob": 1.540133159894097e-10
+    },
+    {
+      "start": 39.48,
+      "end": 41.5,
+      "text": "Prompting script runs, rows align",
+      "words": [
+        {
+          "word": "Prompting",
+          "start": 39.48,
+          "end": 40.24
+        },
+        {
+          "word": "script",
+          "start": 40.24,
+          "end": 40.48
+        },
+        {
+          "word": "runs,",
+          "start": 40.48,
+          "end": 40.76
+        },
+        {
+          "word": "rows",
+          "start": 40.86,
+          "end": 41.0
+        },
+        {
+          "word": "align",
+          "start": 41.0,
+          "end": 41.5
+        }
+      ],
+      "tokens": [
+        50774,
+        15833,
+        662,
+        278,
+        5755,
+        6676,
+        11,
+        13241,
+        7975,
+        50947
+      ],
+      "avg_logprob": -0.29706549342674543,
+      "no_speech_prob": 1.540133159894097e-10
+    },
+    {
+      "start": 41.5,
+      "end": 45.18,
+      "text": "2-2-2 checks green, next idea's mine",
+      "words": [
+        {
+          "word": "2",
+          "start": 41.5,
+          "end": 42.56
+        },
+        {
+          "word": "-2",
+          "start": 42.56,
+          "end": 42.78
+        },
+        {
+          "word": "-2",
+          "start": 42.78,
+          "end": 42.94
+        },
+        {
+          "word": "checks",
+          "start": 42.94,
+          "end": 43.34
+        },
+        {
+          "word": "green,",
+          "start": 43.34,
+          "end": 43.74
+        },
+        {
+          "word": "next",
+          "start": 43.98,
+          "end": 44.16
+        },
+        {
+          "word": "idea's",
+          "start": 44.16,
+          "end": 44.78
+        },
+        {
+          "word": "mine",
+          "start": 44.78,
+          "end": 45.18
+        }
+      ],
+      "tokens": [
+        50947,
+        568,
+        12,
+        17,
+        12,
+        17,
+        13834,
+        3092,
+        11,
+        958,
+        1558,
+        311,
+        3892,
+        51127
+      ],
+      "avg_logprob": -0.29706549342674543,
+      "no_speech_prob": 1.540133159894097e-10
+    },
+    {
+      "start": 46.06,
+      "end": 47.66,
+      "text": "New code is",
+      "words": [
+        {
+          "word": "New",
+          "start": 46.06,
+          "end": 46.82
+        },
+        {
+          "word": "code",
+          "start": 46.82,
+          "end": 47.38
+        },
+        {
+          "word": "is",
+          "start": 47.38,
+          "end": 47.66
+        }
+      ],
+      "tokens": [
+        51127,
+        1873,
+        3089,
+        307,
+        51249
+      ],
+      "avg_logprob": -0.29706549342674543,
+      "no_speech_prob": 1.540133159894097e-10
+    },
+    {
+      "start": 47.66,
+      "end": 49.36,
+      "text": "New post",
+      "words": [
+        {
+          "word": "New",
+          "start": 47.66,
+          "end": 48.66
+        },
+        {
+          "word": "post",
+          "start": 48.66,
+          "end": 49.36
+        }
+      ],
+      "tokens": [
+        51249,
+        1873,
+        2183,
+        51335
+      ],
+      "avg_logprob": -0.29706549342674543,
+      "no_speech_prob": 1.540133159894097e-10
+    },
+    {
+      "start": 49.36,
+      "end": 52.88,
+      "text": "One line, one bill, the room wakes up",
+      "words": [
+        {
+          "word": "One",
+          "start": 49.36,
+          "end": 50.5
+        },
+        {
+          "word": "line,",
+          "start": 50.5,
+          "end": 51.0
+        },
+        {
+          "word": "one",
+          "start": 51.16,
+          "end": 51.4
+        },
+        {
+          "word": "bill,",
+          "start": 51.4,
+          "end": 51.86
+        },
+        {
+          "word": "the",
+          "start": 51.96,
+          "end": 52.06
+        },
+        {
+          "word": "room",
+          "start": 52.06,
+          "end": 52.24
+        },
+        {
+          "word": "wakes",
+          "start": 52.24,
+          "end": 52.54
+        },
+        {
+          "word": "up",
+          "start": 52.54,
+          "end": 52.88
+        }
+      ],
+      "tokens": [
+        51335,
+        1485,
+        1622,
+        11,
+        472,
+        2961,
+        11,
+        264,
+        1808,
+        29610,
+        493,
+        51513
+      ],
+      "avg_logprob": -0.29706549342674543,
+      "no_speech_prob": 1.540133159894097e-10
+    },
+    {
+      "start": 52.88,
+      "end": 56.42,
+      "text": "Under the hood, black box night",
+      "words": [
+        {
+          "word": "Under",
+          "start": 52.88,
+          "end": 53.94
+        },
+        {
+          "word": "the",
+          "start": 53.94,
+          "end": 54.26
+        },
+        {
+          "word": "hood,",
+          "start": 54.26,
+          "end": 54.62
+        },
+        {
+          "word": "black",
+          "start": 54.76,
+          "end": 55.44
+        },
+        {
+          "word": "box",
+          "start": 55.44,
+          "end": 56.0
+        },
+        {
+          "word": "night",
+          "start": 56.0,
+          "end": 56.42
+        }
+      ],
+      "tokens": [
+        51513,
+        6974,
+        264,
+        13376,
+        11,
+        2211,
+        2424,
+        1818,
+        51688
+      ],
+      "avg_logprob": -0.29706549342674543,
+      "no_speech_prob": 1.540133159894097e-10
+    },
+    {
+      "start": 56.42,
+      "end": 59.62,
+      "text": "I know the goal, not every wire",
+      "words": [
+        {
+          "word": "I",
+          "start": 56.42,
+          "end": 57.38
+        },
+        {
+          "word": "know",
+          "start": 57.38,
+          "end": 57.66
+        },
+        {
+          "word": "the",
+          "start": 57.66,
+          "end": 57.86
+        },
+        {
+          "word": "goal,",
+          "start": 57.86,
+          "end": 58.28
+        },
+        {
+          "word": "not",
+          "start": 58.42,
+          "end": 58.8
+        },
+        {
+          "word": "every",
+          "start": 58.8,
+          "end": 59.18
+        },
+        {
+          "word": "wire",
+          "start": 59.18,
+          "end": 59.62
+        }
+      ],
+      "tokens": [
+        51688,
+        286,
+        458,
+        264,
+        3387,
+        11,
+        406,
+        633,
+        6234,
+        51848
+      ],
+      "avg_logprob": -0.29706549342674543,
+      "no_speech_prob": 1.540133159894097e-10
+    },
+    {
+      "start": 59.62,
+      "end": 61.52,
+      "text": "I am a vibe coder",
+      "words": [
+        {
+          "word": "I",
+          "start": 59.62,
+          "end": 60.14
+        },
+        {
+          "word": "am",
+          "start": 60.14,
+          "end": 60.38
+        },
+        {
+          "word": "a",
+          "start": 60.38,
+          "end": 60.6
+        },
+        {
+          "word": "vibe",
+          "start": 60.6,
+          "end": 60.98
+        },
+        {
+          "word": "coder",
+          "start": 60.98,
+          "end": 61.52
+        }
+      ],
+      "tokens": [
+        50365,
+        286,
+        669,
+        257,
+        14606,
+        17656,
+        260,
+        50462
+      ],
+      "avg_logprob": -0.20120861132939658,
+      "no_speech_prob": 1.7207596458845842e-10
+    },
+    {
+      "start": 61.52,
+      "end": 64.58,
+      "text": "I say it, it kills it, I text it right",
+      "words": [
+        {
+          "word": "I",
+          "start": 61.52,
+          "end": 61.86
+        },
+        {
+          "word": "say",
+          "start": 61.86,
+          "end": 62.22
+        },
+        {
+          "word": "it,",
+          "start": 62.22,
+          "end": 62.42
+        },
+        {
+          "word": "it",
+          "start": 62.54,
+          "end": 62.84
+        },
+        {
+          "word": "kills",
+          "start": 62.84,
+          "end": 63.16
+        },
+        {
+          "word": "it,",
+          "start": 63.16,
+          "end": 63.36
+        },
+        {
+          "word": "I",
+          "start": 63.7,
+          "end": 63.78
+        },
+        {
+          "word": "text",
+          "start": 63.78,
+          "end": 63.98
+        },
+        {
+          "word": "it",
+          "start": 63.98,
+          "end": 64.26
+        },
+        {
+          "word": "right",
+          "start": 64.26,
+          "end": 64.58
+        }
+      ],
+      "tokens": [
+        50462,
+        286,
+        584,
+        309,
+        11,
+        309,
+        14563,
+        309,
+        11,
+        286,
+        2487,
+        309,
+        558,
+        50619
+      ],
+      "avg_logprob": -0.20120861132939658,
+      "no_speech_prob": 1.7207596458845842e-10
+    },
+    {
+      "start": 64.58,
+      "end": 67.12,
+      "text": "I am a vibe coder",
+      "words": [
+        {
+          "word": "I",
+          "start": 64.58,
+          "end": 65.54
+        },
+        {
+          "word": "am",
+          "start": 65.54,
+          "end": 65.74
+        },
+        {
+          "word": "a",
+          "start": 65.74,
+          "end": 66.26
+        },
+        {
+          "word": "vibe",
+          "start": 66.26,
+          "end": 66.6
+        },
+        {
+          "word": "coder",
+          "start": 66.6,
+          "end": 67.12
+        }
+      ],
+      "tokens": [
+        50619,
+        286,
+        669,
+        257,
+        14606,
+        17656,
+        260,
+        50741
+      ],
+      "avg_logprob": -0.20120861132939658,
+      "no_speech_prob": 1.7207596458845842e-10
+    },
+    {
+      "start": 67.12,
+      "end": 68.74,
+      "text": "I am a vibe coder",
+      "words": [
+        {
+          "word": "I",
+          "start": 67.12,
+          "end": 67.36
+        },
+        {
+          "word": "am",
+          "start": 67.36,
+          "end": 67.62
+        },
+        {
+          "word": "a",
+          "start": 67.62,
+          "end": 67.84
+        },
+        {
+          "word": "vibe",
+          "start": 67.84,
+          "end": 68.18
+        },
+        {
+          "word": "coder",
+          "start": 68.18,
+          "end": 68.74
+        }
+      ],
+      "tokens": [
+        50741,
+        286,
+        669,
+        257,
+        14606,
+        17656,
+        260,
+        50823
+      ],
+      "avg_logprob": -0.20120861132939658,
+      "no_speech_prob": 1.7207596458845842e-10
+    },
+    {
+      "start": 68.74,
+      "end": 71.84,
+      "text": "If it fails, send it back till it's run and die",
+      "words": [
+        {
+          "word": "If",
+          "start": 68.74,
+          "end": 69.04
+        },
+        {
+          "word": "it",
+          "start": 69.04,
+          "end": 69.14
+        },
+        {
+          "word": "fails,",
+          "start": 69.14,
+          "end": 69.64
+        },
+        {
+          "word": "send",
+          "start": 69.82,
+          "end": 70.02
+        },
+        {
+          "word": "it",
+          "start": 70.02,
+          "end": 70.1
+        },
+        {
+          "word": "back",
+          "start": 70.1,
+          "end": 70.46
+        },
+        {
+          "word": "till",
+          "start": 70.46,
+          "end": 70.72
+        },
+        {
+          "word": "it's",
+          "start": 70.72,
+          "end": 70.98
+        },
+        {
+          "word": "run",
+          "start": 70.98,
+          "end": 71.2
+        },
+        {
+          "word": "and",
+          "start": 71.2,
+          "end": 71.46
+        },
+        {
+          "word": "die",
+          "start": 71.46,
+          "end": 71.84
+        }
+      ],
+      "tokens": [
+        50823,
+        759,
+        309,
+        18199,
+        11,
+        2845,
+        309,
+        646,
+        4288,
+        309,
+        311,
+        1190,
+        293,
+        978,
+        50978
+      ],
+      "avg_logprob": -0.20120861132939658,
+      "no_speech_prob": 1.7207596458845842e-10
+    },
+    {
+      "start": 71.84,
+      "end": 74.34,
+      "text": "I am a vibe coder",
+      "words": [
+        {
+          "word": "I",
+          "start": 71.84,
+          "end": 72.74
+        },
+        {
+          "word": "am",
+          "start": 72.74,
+          "end": 73.14
+        },
+        {
+          "word": "a",
+          "start": 73.14,
+          "end": 73.5
+        },
+        {
+          "word": "vibe",
+          "start": 73.5,
+          "end": 73.82
+        },
+        {
+          "word": "coder",
+          "start": 73.82,
+          "end": 74.34
+        }
+      ],
+      "tokens": [
+        50978,
+        286,
+        669,
+        257,
+        14606,
+        17656,
+        260,
+        51102
+      ],
+      "avg_logprob": -0.20120861132939658,
+      "no_speech_prob": 1.7207596458845842e-10
+    },
+    {
+      "start": 74.34,
+      "end": 75.96,
+      "text": "I am a vibe coder",
+      "words": [
+        {
+          "word": "I",
+          "start": 74.34,
+          "end": 74.58
+        },
+        {
+          "word": "am",
+          "start": 74.58,
+          "end": 74.8
+        },
+        {
+          "word": "a",
+          "start": 74.8,
+          "end": 75.04
+        },
+        {
+          "word": "vibe",
+          "start": 75.04,
+          "end": 75.38
+        },
+        {
+          "word": "coder",
+          "start": 75.38,
+          "end": 75.96
+        }
+      ],
+      "tokens": [
+        51102,
+        286,
+        669,
+        257,
+        14606,
+        17656,
+        260,
+        51185
+      ],
+      "avg_logprob": -0.20120861132939658,
+      "no_speech_prob": 1.7207596458845842e-10
+    },
+    {
+      "start": 75.96,
+      "end": 79.4,
+      "text": "I say it, it kills it, I text it right",
+      "words": [
+        {
+          "word": "I",
+          "start": 75.96,
+          "end": 76.46
+        },
+        {
+          "word": "say",
+          "start": 76.46,
+          "end": 76.66
+        },
+        {
+          "word": "it,",
+          "start": 76.66,
+          "end": 76.84
+        },
+        {
+          "word": "it",
+          "start": 77.06,
+          "end": 77.26
+        },
+        {
+          "word": "kills",
+          "start": 77.26,
+          "end": 77.58
+        },
+        {
+          "word": "it,",
+          "start": 77.58,
+          "end": 77.76
+        },
+        {
+          "word": "I",
+          "start": 78.08,
+          "end": 78.14
+        },
+        {
+          "word": "text",
+          "start": 78.14,
+          "end": 78.48
+        },
+        {
+          "word": "it",
+          "start": 78.48,
+          "end": 78.62
+        },
+        {
+          "word": "right",
+          "start": 78.62,
+          "end": 79.4
+        }
+      ],
+      "tokens": [
+        51185,
+        286,
+        584,
+        309,
+        11,
+        309,
+        14563,
+        309,
+        11,
+        286,
+        2487,
+        309,
+        558,
+        51366
+      ],
+      "avg_logprob": -0.20120861132939658,
+      "no_speech_prob": 1.7207596458845842e-10
+    },
+    {
+      "start": 79.4,
+      "end": 82.6,
+      "text": "Different tests to commit and the next idea takes flight",
+      "words": [
+        {
+          "word": "Different",
+          "start": 79.4,
+          "end": 80.26
+        },
+        {
+          "word": "tests",
+          "start": 80.26,
+          "end": 80.7
+        },
+        {
+          "word": "to",
+          "start": 80.7,
+          "end": 80.82
+        },
+        {
+          "word": "commit",
+          "start": 80.82,
+          "end": 81.06
+        },
+        {
+          "word": "and",
+          "start": 81.06,
+          "end": 81.3
+        },
+        {
+          "word": "the",
+          "start": 81.3,
+          "end": 81.4
+        },
+        {
+          "word": "next",
+          "start": 81.4,
+          "end": 81.58
+        },
+        {
+          "word": "idea",
+          "start": 81.58,
+          "end": 81.96
+        },
+        {
+          "word": "takes",
+          "start": 81.96,
+          "end": 82.24
+        },
+        {
+          "word": "flight",
+          "start": 82.24,
+          "end": 82.6
+        }
+      ],
+      "tokens": [
+        51366,
+        20825,
+        6921,
+        281,
+        5599,
+        293,
+        264,
+        958,
+        1558,
+        2516,
+        7018,
+        51520
+      ],
+      "avg_logprob": -0.20120861132939658,
+      "no_speech_prob": 1.7207596458845842e-10
+    },
+    {
+      "start": 111.48,
+      "end": 113.82,
+      "text": "No track at noon can match my pace",
+      "words": [
+        {
+          "word": "No",
+          "start": 111.48,
+          "end": 111.98
+        },
+        {
+          "word": "track",
+          "start": 111.98,
+          "end": 112.3
+        },
+        {
+          "word": "at",
+          "start": 112.3,
+          "end": 112.54
+        },
+        {
+          "word": "noon",
+          "start": 112.54,
+          "end": 112.7
+        },
+        {
+          "word": "can",
+          "start": 112.7,
+          "end": 112.9
+        },
+        {
+          "word": "match",
+          "start": 112.9,
+          "end": 113.16
+        },
+        {
+          "word": "my",
+          "start": 113.16,
+          "end": 113.34
+        },
+        {
+          "word": "pace",
+          "start": 113.34,
+          "end": 113.82
+        }
+      ],
+      "tokens": [
+        50365,
+        883,
+        2837,
+        412,
+        24040,
+        393,
+        2995,
+        452,
+        11638,
+        51576
+      ],
+      "avg_logprob": -0.41237440976229583,
+      "no_speech_prob": 5.3429562857365553e-11
+    },
+    {
+      "start": 115.12,
+      "end": 117.4,
+      "text": "I write a sound to fill the space",
+      "words": [
+        {
+          "word": "I",
+          "start": 115.12,
+          "end": 115.62
+        },
+        {
+          "word": "write",
+          "start": 115.62,
+          "end": 115.94
+        },
+        {
+          "word": "a",
+          "start": 115.94,
+          "end": 116.1
+        },
+        {
+          "word": "sound",
+          "start": 116.1,
+          "end": 116.34
+        },
+        {
+          "word": "to",
+          "start": 116.34,
+          "end": 116.5
+        },
+        {
+          "word": "fill",
+          "start": 116.5,
+          "end": 116.76
+        },
+        {
+          "word": "the",
+          "start": 116.76,
+          "end": 116.9
+        },
+        {
+          "word": "space",
+          "start": 116.9,
+          "end": 117.4
+        }
+      ],
+      "tokens": [
+        51576,
+        286,
+        2464,
+        257,
+        1626,
+        281,
+        2836,
+        264,
+        1901,
+        51757
+      ],
+      "avg_logprob": -0.41237440976229583,
+      "no_speech_prob": 5.3429562857365553e-11
+    },
+    {
+      "start": 117.4,
+      "end": 120.96,
+      "text": "My own beat drives me through the block",
+      "words": [
+        {
+          "word": "My",
+          "start": 117.4,
+          "end": 118.76
+        },
+        {
+          "word": "own",
+          "start": 118.76,
+          "end": 119.5
+        },
+        {
+          "word": "beat",
+          "start": 119.5,
+          "end": 119.66
+        },
+        {
+          "word": "drives",
+          "start": 119.66,
+          "end": 119.96
+        },
+        {
+          "word": "me",
+          "start": 119.96,
+          "end": 120.14
+        },
+        {
+          "word": "through",
+          "start": 120.14,
+          "end": 120.36
+        },
+        {
+          "word": "the",
+          "start": 120.36,
+          "end": 120.54
+        },
+        {
+          "word": "block",
+          "start": 120.54,
+          "end": 120.96
+        }
+      ],
+      "tokens": [
+        50365,
+        1222,
+        1065,
+        4224,
+        11754,
+        385,
+        807,
+        264,
+        3461,
+        50543
+      ],
+      "avg_logprob": -0.2702426267473885,
+      "no_speech_prob": 1.3665420184327814e-10
+    },
+    {
+      "start": 122.34,
+      "end": 124.56,
+      "text": "Low and rolling round the clock",
+      "words": [
+        {
+          "word": "Low",
+          "start": 122.34,
+          "end": 123.06
+        },
+        {
+          "word": "and",
+          "start": 123.06,
+          "end": 123.34
+        },
+        {
+          "word": "rolling",
+          "start": 123.34,
+          "end": 123.7
+        },
+        {
+          "word": "round",
+          "start": 123.7,
+          "end": 123.98
+        },
+        {
+          "word": "the",
+          "start": 123.98,
+          "end": 124.18
+        },
+        {
+          "word": "clock",
+          "start": 124.18,
+          "end": 124.56
+        }
+      ],
+      "tokens": [
+        50543,
+        17078,
+        293,
+        9439,
+        3098,
+        264,
+        7830,
+        50730
+      ],
+      "avg_logprob": -0.2702426267473885,
+      "no_speech_prob": 1.3665420184327814e-10
+    },
+    {
+      "start": 125.64,
+      "end": 127.26,
+      "text": "Nightfall, store full",
+      "words": [
+        {
+          "word": "Nightfall,",
+          "start": 125.64,
+          "end": 126.36
+        },
+        {
+          "word": "store",
+          "start": 126.54,
+          "end": 126.76
+        },
+        {
+          "word": "full",
+          "start": 126.76,
+          "end": 127.26
+        }
+      ],
+      "tokens": [
+        50730,
+        10190,
+        6691,
+        11,
+        3531,
+        1577,
+        50863
+      ],
+      "avg_logprob": -0.2702426267473885,
+      "no_speech_prob": 1.3665420184327814e-10
+    },
+    {
+      "start": 127.26,
+      "end": 129.1,
+      "text": "Nothing fits",
+      "words": [
+        {
+          "word": "Nothing",
+          "start": 127.26,
+          "end": 128.54
+        },
+        {
+          "word": "fits",
+          "start": 128.54,
+          "end": 129.1
+        }
+      ],
+      "tokens": [
+        50863,
+        6693,
+        9001,
+        50952
+      ],
+      "avg_logprob": -0.2702426267473885,
+      "no_speech_prob": 1.3665420184327814e-10
+    },
+    {
+      "start": 129.1,
+      "end": 132.7,
+      "text": "I tell the agent what I miss",
+      "words": [
+        {
+          "word": "I",
+          "start": 129.1,
+          "end": 129.98
+        },
+        {
+          "word": "tell",
+          "start": 129.98,
+          "end": 130.32
+        },
+        {
+          "word": "the",
+          "start": 130.32,
+          "end": 130.52
+        },
+        {
+          "word": "agent",
+          "start": 130.52,
+          "end": 130.98
+        },
+        {
+          "word": "what",
+          "start": 130.98,
+          "end": 131.7
+        },
+        {
+          "word": "I",
+          "start": 131.7,
+          "end": 132.28
+        },
+        {
+          "word": "miss",
+          "start": 132.28,
+          "end": 132.7
+        }
+      ],
+      "tokens": [
+        50952,
+        286,
+        980,
+        264,
+        9461,
+        437,
+        286,
+        1713,
+        51131
+      ],
+      "avg_logprob": -0.2702426267473885,
+      "no_speech_prob": 1.3665420184327814e-10
+    },
+    {
+      "start": 132.7,
+      "end": 135.92,
+      "text": "The screen lights up, nothing but the works",
+      "words": [
+        {
+          "word": "The",
+          "start": 132.7,
+          "end": 133.18
+        },
+        {
+          "word": "screen",
+          "start": 133.18,
+          "end": 133.54
+        },
+        {
+          "word": "lights",
+          "start": 133.54,
+          "end": 134.04
+        },
+        {
+          "word": "up,",
+          "start": 134.04,
+          "end": 134.5
+        },
+        {
+          "word": "nothing",
+          "start": 134.56,
+          "end": 135.02
+        },
+        {
+          "word": "but",
+          "start": 135.02,
+          "end": 135.32
+        },
+        {
+          "word": "the",
+          "start": 135.32,
+          "end": 135.44
+        },
+        {
+          "word": "works",
+          "start": 135.44,
+          "end": 135.92
+        }
+      ],
+      "tokens": [
+        51131,
+        440,
+        2568,
+        5811,
+        493,
+        11,
+        1825,
+        457,
+        264,
+        1985,
+        51293
+      ],
+      "avg_logprob": -0.2702426267473885,
+      "no_speech_prob": 1.3665420184327814e-10
+    },
+    {
+      "start": 135.92,
+      "end": 138.58,
+      "text": "My own little app",
+      "words": [
+        {
+          "word": "My",
+          "start": 135.92,
+          "end": 137.24
+        },
+        {
+          "word": "own",
+          "start": 137.24,
+          "end": 137.68
+        },
+        {
+          "word": "little",
+          "start": 137.68,
+          "end": 138.12
+        },
+        {
+          "word": "app",
+          "start": 138.12,
+          "end": 138.58
+        }
+      ],
+      "tokens": [
+        51293,
+        1222,
+        1065,
+        707,
+        724,
+        51430
+      ],
+      "avg_logprob": -0.2702426267473885,
+      "no_speech_prob": 1.3665420184327814e-10
+    },
+    {
+      "start": 138.58,
+      "end": 139.92,
+      "text": "Built for this",
+      "words": [
+        {
+          "word": "Built",
+          "start": 138.58,
+          "end": 139.26
+        },
+        {
+          "word": "for",
+          "start": 139.26,
+          "end": 139.52
+        },
+        {
+          "word": "this",
+          "start": 139.52,
+          "end": 139.92
+        }
+      ],
+      "tokens": [
+        51430,
+        49822,
+        337,
+        341,
+        51493
+      ],
+      "avg_logprob": -0.2702426267473885,
+      "no_speech_prob": 1.3665420184327814e-10
+    },
+    {
+      "start": 139.92,
+      "end": 142.72,
+      "text": "I am a vibe coder",
+      "words": [
+        {
+          "word": "I",
+          "start": 139.92,
+          "end": 140.48
+        },
+        {
+          "word": "am",
+          "start": 140.48,
+          "end": 140.72
+        },
+        {
+          "word": "a",
+          "start": 140.72,
+          "end": 140.9
+        },
+        {
+          "word": "vibe",
+          "start": 140.9,
+          "end": 142.2
+        },
+        {
+          "word": "coder",
+          "start": 142.2,
+          "end": 142.72
+        }
+      ],
+      "tokens": [
+        51493,
+        286,
+        669,
+        257,
+        14606,
+        17656,
+        260,
+        51633
+      ],
+      "avg_logprob": -0.2702426267473885,
+      "no_speech_prob": 1.3665420184327814e-10
+    },
+    {
+      "start": 142.72,
+      "end": 144.56,
+      "text": "I see it, he does it",
+      "words": [
+        {
+          "word": "I",
+          "start": 142.72,
+          "end": 143.1
+        },
+        {
+          "word": "see",
+          "start": 143.1,
+          "end": 143.42
+        },
+        {
+          "word": "it,",
+          "start": 143.42,
+          "end": 143.62
+        },
+        {
+          "word": "he",
+          "start": 143.84,
+          "end": 144.02
+        },
+        {
+          "word": "does",
+          "start": 144.02,
+          "end": 144.34
+        },
+        {
+          "word": "it",
+          "start": 144.34,
+          "end": 144.56
+        }
+      ],
+      "tokens": [
+        51633,
+        286,
+        536,
+        309,
+        11,
+        415,
+        775,
+        309,
+        51732
+      ],
+      "avg_logprob": -0.2702426267473885,
+      "no_speech_prob": 1.3665420184327814e-10
+    },
+    {
+      "start": 144.56,
+      "end": 146.32,
+      "text": "I test it, he makes it right",
+      "words": [
+        {
+          "word": "I",
+          "start": 144.56,
+          "end": 144.9
+        },
+        {
+          "word": "test",
+          "start": 144.9,
+          "end": 145.22
+        },
+        {
+          "word": "it,",
+          "start": 145.22,
+          "end": 145.42
+        },
+        {
+          "word": "he",
+          "start": 145.48,
+          "end": 145.56
+        },
+        {
+          "word": "makes",
+          "start": 145.56,
+          "end": 145.7
+        },
+        {
+          "word": "it",
+          "start": 145.7,
+          "end": 145.88
+        },
+        {
+          "word": "right",
+          "start": 145.88,
+          "end": 146.32
+        }
+      ],
+      "tokens": [
+        51732,
+        286,
+        1500,
+        309,
+        11,
+        415,
+        1669,
+        309,
+        558,
+        51813
+      ],
+      "avg_logprob": -0.2702426267473885,
+      "no_speech_prob": 1.3665420184327814e-10
+    },
+    {
+      "start": 146.96,
+      "end": 149.94,
+      "text": "A fire coder, I am a fire coder",
+      "words": [
+        {
+          "word": "A",
+          "start": 146.96,
+          "end": 147.5
+        },
+        {
+          "word": "fire",
+          "start": 147.5,
+          "end": 147.76
+        },
+        {
+          "word": "coder,",
+          "start": 147.76,
+          "end": 148.32
+        },
+        {
+          "word": "I",
+          "start": 148.38,
+          "end": 148.6
+        },
+        {
+          "word": "am",
+          "start": 148.6,
+          "end": 148.84
+        },
+        {
+          "word": "a",
+          "start": 148.84,
+          "end": 149.04
+        },
+        {
+          "word": "fire",
+          "start": 149.04,
+          "end": 149.38
+        },
+        {
+          "word": "coder",
+          "start": 149.38,
+          "end": 149.94
+        }
+      ],
+      "tokens": [
+        50365,
+        316,
+        2610,
+        17656,
+        260,
+        11,
+        286,
+        669,
+        257,
+        2610,
+        17656,
+        260,
+        50548
+      ],
+      "avg_logprob": -0.17632960364932104,
+      "no_speech_prob": 9.690503954828955e-11
+    },
+    {
+      "start": 149.94,
+      "end": 153.04,
+      "text": "If it fails, send it back to us running tight",
+      "words": [
+        {
+          "word": "If",
+          "start": 149.94,
+          "end": 150.2
+        },
+        {
+          "word": "it",
+          "start": 150.2,
+          "end": 150.34
+        },
+        {
+          "word": "fails,",
+          "start": 150.34,
+          "end": 150.82
+        },
+        {
+          "word": "send",
+          "start": 150.96,
+          "end": 151.22
+        },
+        {
+          "word": "it",
+          "start": 151.22,
+          "end": 151.3
+        },
+        {
+          "word": "back",
+          "start": 151.3,
+          "end": 151.7
+        },
+        {
+          "word": "to",
+          "start": 151.7,
+          "end": 151.96
+        },
+        {
+          "word": "us",
+          "start": 151.96,
+          "end": 152.16
+        },
+        {
+          "word": "running",
+          "start": 152.16,
+          "end": 152.5
+        },
+        {
+          "word": "tight",
+          "start": 152.5,
+          "end": 153.04
+        }
+      ],
+      "tokens": [
+        50548,
+        759,
+        309,
+        18199,
+        11,
+        2845,
+        309,
+        646,
+        281,
+        505,
+        2614,
+        4524,
+        50706
+      ],
+      "avg_logprob": -0.17632960364932104,
+      "no_speech_prob": 9.690503954828955e-11
+    },
+    {
+      "start": 153.04,
+      "end": 157.16,
+      "text": "A fire coder, I am a fire coder",
+      "words": [
+        {
+          "word": "A",
+          "start": 153.04,
+          "end": 153.84
+        },
+        {
+          "word": "fire",
+          "start": 153.84,
+          "end": 154.96
+        },
+        {
+          "word": "coder,",
+          "start": 154.96,
+          "end": 155.54
+        },
+        {
+          "word": "I",
+          "start": 155.6,
+          "end": 155.8
+        },
+        {
+          "word": "am",
+          "start": 155.8,
+          "end": 156.04
+        },
+        {
+          "word": "a",
+          "start": 156.04,
+          "end": 156.26
+        },
+        {
+          "word": "fire",
+          "start": 156.26,
+          "end": 156.6
+        },
+        {
+          "word": "coder",
+          "start": 156.6,
+          "end": 157.16
+        }
+      ],
+      "tokens": [
+        50706,
+        316,
+        2610,
+        17656,
+        260,
+        11,
+        286,
+        669,
+        257,
+        2610,
+        17656,
+        260,
+        50910
+      ],
+      "avg_logprob": -0.17632960364932104,
+      "no_speech_prob": 9.690503954828955e-11
+    },
+    {
+      "start": 157.16,
+      "end": 160.68,
+      "text": "I say it, he builds it, I test it, he makes it right",
+      "words": [
+        {
+          "word": "I",
+          "start": 157.16,
+          "end": 157.54
+        },
+        {
+          "word": "say",
+          "start": 157.54,
+          "end": 157.86
+        },
+        {
+          "word": "it,",
+          "start": 157.86,
+          "end": 158.08
+        },
+        {
+          "word": "he",
+          "start": 158.28,
+          "end": 158.46
+        },
+        {
+          "word": "builds",
+          "start": 158.46,
+          "end": 158.76
+        },
+        {
+          "word": "it,",
+          "start": 158.76,
+          "end": 158.96
+        },
+        {
+          "word": "I",
+          "start": 159.24,
+          "end": 159.36
+        },
+        {
+          "word": "test",
+          "start": 159.36,
+          "end": 159.66
+        },
+        {
+          "word": "it,",
+          "start": 159.66,
+          "end": 159.78
+        },
+        {
+          "word": "he",
+          "start": 159.88,
+          "end": 159.9
+        },
+        {
+          "word": "makes",
+          "start": 159.9,
+          "end": 160.12
+        },
+        {
+          "word": "it",
+          "start": 160.12,
+          "end": 160.28
+        },
+        {
+          "word": "right",
+          "start": 160.28,
+          "end": 160.68
+        }
+      ],
+      "tokens": [
+        50910,
+        286,
+        584,
+        309,
+        11,
+        415,
+        15182,
+        309,
+        11,
+        286,
+        1500,
+        309,
+        11,
+        415,
+        1669,
+        309,
+        558,
+        51090
+      ],
+      "avg_logprob": -0.17632960364932104,
+      "no_speech_prob": 9.690503954828955e-11
+    },
+    {
+      "start": 160.68,
+      "end": 163.86,
+      "text": "A different test to commit, and the next idea takes flight",
+      "words": [
+        {
+          "word": "A",
+          "start": 160.68,
+          "end": 161.16
+        },
+        {
+          "word": "different",
+          "start": 161.16,
+          "end": 161.5
+        },
+        {
+          "word": "test",
+          "start": 161.5,
+          "end": 161.9
+        },
+        {
+          "word": "to",
+          "start": 161.9,
+          "end": 162.04
+        },
+        {
+          "word": "commit,",
+          "start": 162.04,
+          "end": 162.28
+        },
+        {
+          "word": "and",
+          "start": 162.42,
+          "end": 162.5
+        },
+        {
+          "word": "the",
+          "start": 162.5,
+          "end": 162.6
+        },
+        {
+          "word": "next",
+          "start": 162.6,
+          "end": 162.78
+        },
+        {
+          "word": "idea",
+          "start": 162.78,
+          "end": 163.16
+        },
+        {
+          "word": "takes",
+          "start": 163.16,
+          "end": 163.44
+        },
+        {
+          "word": "flight",
+          "start": 163.44,
+          "end": 163.86
+        }
+      ],
+      "tokens": [
+        51090,
+        316,
+        819,
+        1500,
+        281,
+        5599,
+        11,
+        293,
+        264,
+        958,
+        1558,
+        2516,
+        7018,
+        51248
+      ],
+      "avg_logprob": -0.17632960364932104,
+      "no_speech_prob": 9.690503954828955e-11
+    },
+    {
+      "start": 165.6,
+      "end": 167.42,
+      "text": "You don't know what's beneath",
+      "words": [
+        {
+          "word": "You",
+          "start": 165.6,
+          "end": 166.14
+        },
+        {
+          "word": "don't",
+          "start": 166.14,
+          "end": 166.42
+        },
+        {
+          "word": "know",
+          "start": 166.42,
+          "end": 166.6
+        },
+        {
+          "word": "what's",
+          "start": 166.6,
+          "end": 166.88
+        },
+        {
+          "word": "beneath",
+          "start": 166.88,
+          "end": 167.42
+        }
+      ],
+      "tokens": [
+        51248,
+        509,
+        500,
+        380,
+        458,
+        437,
+        311,
+        17149,
+        51426
+      ],
+      "avg_logprob": -0.17632960364932104,
+      "no_speech_prob": 9.690503954828955e-11
+    },
+    {
+      "start": 168.34,
+      "end": 171.12,
+      "text": "Not all of it, I know what I need",
+      "words": [
+        {
+          "word": "Not",
+          "start": 168.34,
+          "end": 168.88
+        },
+        {
+          "word": "all",
+          "start": 168.88,
+          "end": 169.16
+        },
+        {
+          "word": "of",
+          "start": 169.16,
+          "end": 169.38
+        },
+        {
+          "word": "it,",
+          "start": 169.38,
+          "end": 169.6
+        },
+        {
+          "word": "I",
+          "start": 169.6,
+          "end": 169.86
+        },
+        {
+          "word": "know",
+          "start": 169.86,
+          "end": 170.16
+        },
+        {
+          "word": "what",
+          "start": 170.16,
+          "end": 170.52
+        },
+        {
+          "word": "I",
+          "start": 170.52,
+          "end": 170.68
+        },
+        {
+          "word": "need",
+          "start": 170.68,
+          "end": 171.12
+        }
+      ],
+      "tokens": [
+        51426,
+        1726,
+        439,
+        295,
+        309,
+        11,
+        286,
+        458,
+        437,
+        286,
+        643,
+        51606
+      ],
+      "avg_logprob": -0.17632960364932104,
+      "no_speech_prob": 9.690503954828955e-11
+    },
+    {
+      "start": 171.12,
+      "end": 174.64,
+      "text": "You call that code, I hear him say",
+      "words": [
+        {
+          "word": "You",
+          "start": 171.12,
+          "end": 171.96
+        },
+        {
+          "word": "call",
+          "start": 171.96,
+          "end": 172.26
+        },
+        {
+          "word": "that",
+          "start": 172.26,
+          "end": 172.5
+        },
+        {
+          "word": "code,",
+          "start": 172.5,
+          "end": 173.0
+        },
+        {
+          "word": "I",
+          "start": 173.2,
+          "end": 173.8
+        },
+        {
+          "word": "hear",
+          "start": 173.8,
+          "end": 174.1
+        },
+        {
+          "word": "him",
+          "start": 174.1,
+          "end": 174.26
+        },
+        {
+          "word": "say",
+          "start": 174.26,
+          "end": 174.64
+        }
+      ],
+      "tokens": [
+        51606,
+        509,
+        818,
+        300,
+        3089,
+        11,
+        286,
+        1568,
+        796,
+        584,
+        51785
+      ],
+      "avg_logprob": -0.17632960364932104,
+      "no_speech_prob": 9.690503954828955e-11
+    },
+    {
+      "start": 174.64,
+      "end": 177.66,
+      "text": "Call it what you want, I'm building anyway",
+      "words": [
+        {
+          "word": "Call",
+          "start": 174.64,
+          "end": 175.48
+        },
+        {
+          "word": "it",
+          "start": 175.48,
+          "end": 175.64
+        },
+        {
+          "word": "what",
+          "start": 175.64,
+          "end": 175.86
+        },
+        {
+          "word": "you",
+          "start": 175.86,
+          "end": 176.06
+        },
+        {
+          "word": "want,",
+          "start": 176.06,
+          "end": 176.36
+        },
+        {
+          "word": "I'm",
+          "start": 176.52,
+          "end": 176.6
+        },
+        {
+          "word": "building",
+          "start": 176.6,
+          "end": 176.92
+        },
+        {
+          "word": "anyway",
+          "start": 176.92,
+          "end": 177.66
+        }
+      ],
+      "tokens": [
+        50365,
+        7807,
+        309,
+        437,
+        291,
+        528,
+        11,
+        286,
+        478,
+        2390,
+        4033,
+        50530
+      ],
+      "avg_logprob": -0.35804198769962087,
+      "no_speech_prob": 3.885233454403725e-11
+    },
+    {
+      "start": 184.14,
+      "end": 186.1,
+      "text": "I'm a vibe coder",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 184.14,
+          "end": 184.9
+        },
+        {
+          "word": "a",
+          "start": 184.9,
+          "end": 185.12
+        },
+        {
+          "word": "vibe",
+          "start": 185.12,
+          "end": 185.5
+        },
+        {
+          "word": "coder",
+          "start": 185.5,
+          "end": 186.1
+        }
+      ],
+      "tokens": [
+        50530,
+        286,
+        478,
+        257,
+        14606,
+        17656,
+        260,
+        50939
+      ],
+      "avg_logprob": -0.35804198769962087,
+      "no_speech_prob": 3.885233454403725e-11
+    },
+    {
+      "start": 193.12,
+      "end": 194.64,
+      "text": "New generations",
+      "words": [
+        {
+          "word": "New",
+          "start": 193.12,
+          "end": 193.88
+        },
+        {
+          "word": "generations",
+          "start": 193.88,
+          "end": 194.64
+        }
+      ],
+      "tokens": [
+        50939,
+        1873,
+        10593,
+        51367
+      ],
+      "avg_logprob": -0.35804198769962087,
+      "no_speech_prob": 3.885233454403725e-11
+    },
+    {
+      "start": 198.58,
+      "end": 200.46,
+      "text": "I'm a vibe coder",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 198.58,
+          "end": 199.34
+        },
+        {
+          "word": "a",
+          "start": 199.34,
+          "end": 199.52
+        },
+        {
+          "word": "vibe",
+          "start": 199.52,
+          "end": 199.9
+        },
+        {
+          "word": "coder",
+          "start": 199.9,
+          "end": 200.46
+        }
+      ],
+      "tokens": [
+        51367,
+        286,
+        478,
+        257,
+        14606,
+        17656,
+        260,
+        51658
+      ],
+      "avg_logprob": -0.35804198769962087,
+      "no_speech_prob": 3.885233454403725e-11
+    },
+    {
+      "start": 200.46,
+      "end": 203.74,
+      "text": "Base rolls on, base rolls on",
+      "words": [
+        {
+          "word": "Base",
+          "start": 200.46,
+          "end": 200.86
+        },
+        {
+          "word": "rolls",
+          "start": 200.86,
+          "end": 201.32
+        },
+        {
+          "word": "on,",
+          "start": 201.32,
+          "end": 201.78
+        },
+        {
+          "word": "base",
+          "start": 201.84,
+          "end": 202.66
+        },
+        {
+          "word": "rolls",
+          "start": 202.66,
+          "end": 203.14
+        },
+        {
+          "word": "on",
+          "start": 203.14,
+          "end": 203.74
+        }
+      ],
+      "tokens": [
+        50365,
+        21054,
+        15767,
+        322,
+        11,
+        3096,
+        15767,
+        322,
+        50526
+      ],
+      "avg_logprob": -0.32838682144407244,
+      "no_speech_prob": 4.42208318574e-11
+    },
+    {
+      "start": 203.74,
+      "end": 207.7,
+      "text": "Don't, don't break the hill, let it go",
+      "words": [
+        {
+          "word": "Don't,",
+          "start": 203.74,
+          "end": 204.64
+        },
+        {
+          "word": "don't",
+          "start": 204.68,
+          "end": 205.86
+        },
+        {
+          "word": "break",
+          "start": 205.86,
+          "end": 206.1
+        },
+        {
+          "word": "the",
+          "start": 206.1,
+          "end": 206.32
+        },
+        {
+          "word": "hill,",
+          "start": 206.32,
+          "end": 206.68
+        },
+        {
+          "word": "let",
+          "start": 206.78,
+          "end": 207.08
+        },
+        {
+          "word": "it",
+          "start": 207.08,
+          "end": 207.22
+        },
+        {
+          "word": "go",
+          "start": 207.22,
+          "end": 207.7
+        }
+      ],
+      "tokens": [
+        50526,
+        1468,
+        380,
+        11,
+        500,
+        380,
+        1821,
+        264,
+        10997,
+        11,
+        718,
+        309,
+        352,
+        50728
+      ],
+      "avg_logprob": -0.32838682144407244,
+      "no_speech_prob": 4.42208318574e-11
+    },
+    {
+      "start": 207.7,
+      "end": 212.18,
+      "text": "Let it roll, let it roll, let it roll, let it roll, let it roll",
+      "words": [
+        {
+          "word": "Let",
+          "start": 207.7,
+          "end": 208.36
+        },
+        {
+          "word": "it",
+          "start": 208.36,
+          "end": 208.56
+        },
+        {
+          "word": "roll,",
+          "start": 208.56,
+          "end": 208.92
+        },
+        {
+          "word": "let",
+          "start": 209.14,
+          "end": 209.32
+        },
+        {
+          "word": "it",
+          "start": 209.32,
+          "end": 209.42
+        },
+        {
+          "word": "roll,",
+          "start": 209.42,
+          "end": 209.82
+        },
+        {
+          "word": "let",
+          "start": 209.82,
+          "end": 210.22
+        },
+        {
+          "word": "it",
+          "start": 210.22,
+          "end": 210.36
+        },
+        {
+          "word": "roll,",
+          "start": 210.36,
+          "end": 210.72
+        },
+        {
+          "word": "let",
+          "start": 210.78,
+          "end": 211.06
+        },
+        {
+          "word": "it",
+          "start": 211.06,
+          "end": 211.22
+        },
+        {
+          "word": "roll,",
+          "start": 211.22,
+          "end": 211.36
+        },
+        {
+          "word": "let",
+          "start": 211.4,
+          "end": 212.0
+        },
+        {
+          "word": "it",
+          "start": 212.0,
+          "end": 212.18
+        },
+        {
+          "word": "roll",
+          "start": 212.18,
+          "end": 212.18
+        }
+      ],
+      "tokens": [
+        50728,
+        961,
+        309,
+        3373,
+        11,
+        718,
+        309,
+        3373,
+        11,
+        718,
+        309,
+        3373,
+        11,
+        718,
+        309,
+        3373,
+        11,
+        718,
+        309,
+        3373,
+        50926
+      ],
+      "avg_logprob": -0.32838682144407244,
+      "no_speech_prob": 4.42208318574e-11
+    },
+    {
+      "start": 213.1,
+      "end": 214.96,
+      "text": "I'm a vibe coder",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 213.1,
+          "end": 213.82
+        },
+        {
+          "word": "a",
+          "start": 213.82,
+          "end": 214.04
+        },
+        {
+          "word": "vibe",
+          "start": 214.04,
+          "end": 214.38
+        },
+        {
+          "word": "coder",
+          "start": 214.38,
+          "end": 214.96
+        }
+      ],
+      "tokens": [
+        50926,
+        286,
+        478,
+        257,
+        14606,
+        17656,
+        260,
+        51090
+      ],
+      "avg_logprob": -0.32838682144407244,
+      "no_speech_prob": 4.42208318574e-11
+    },
+    {
+      "start": 218.18,
+      "end": 221.68,
+      "text": "Base rolls on, base rolls on",
+      "words": [
+        {
+          "word": "Base",
+          "start": 218.18,
+          "end": 218.9
+        },
+        {
+          "word": "rolls",
+          "start": 218.9,
+          "end": 219.38
+        },
+        {
+          "word": "on,",
+          "start": 219.38,
+          "end": 219.8
+        },
+        {
+          "word": "base",
+          "start": 220.04,
+          "end": 220.68
+        },
+        {
+          "word": "rolls",
+          "start": 220.68,
+          "end": 221.12
+        },
+        {
+          "word": "on",
+          "start": 221.12,
+          "end": 221.68
+        }
+      ],
+      "tokens": [
+        51090,
+        21054,
+        15767,
+        322,
+        11,
+        3096,
+        15767,
+        322,
+        51426
+      ],
+      "avg_logprob": -0.32838682144407244,
+      "no_speech_prob": 4.42208318574e-11
+    },
+    {
+      "start": 227.1,
+      "end": 229.2,
+      "text": "I'm out.",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 227.1,
+          "end": 228.5
+        },
+        {
+          "word": "out.",
+          "start": 228.5,
+          "end": 229.2
+        }
+      ],
+      "tokens": [
+        50365,
+        286,
+        478,
+        484,
+        13,
+        51864
+      ],
+      "avg_logprob": -1.2301314217703683,
+      "no_speech_prob": 7.252445172190036e-11
+    }
+  ]
+}

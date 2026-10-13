@@ -1,8 +1,8 @@
 # Vibecoder
 
-Arbeitsstand 12. Oktober 2026 · Samuel Heinrich · 2026
+Arbeitsstand 13. Oktober 2026 · Samuel Heinrich · 2026
 
-**VIBECODER beginnt mit einem neuen Entwurf 0.1 in Deutsch und Englisch.** Die früheren Fassungen, die Aufnahme und das alte Videokonzept sind gelöscht. Der aktuelle Stil ist Peak-Time Tech House / Dark Electro: rollender Bass, tiefe raue Stimme und ein sofortiger Hook-Ruf im Club-Drop. **TOKEN BURN und SHIP IT sind in Deutsch und Englisch final.** Die Tracks 04–06 bleiben vorerst auf ihrem bisherigen Stand.
+**VIBECODER hat jetzt finale WAVs in Deutsch und Englisch.** Die Quelltexte der Fassung 0.1 bleiben als Lyrics- und Stilreferenz erhalten. Der aktuelle Stil ist Peak-Time Tech House / Dark Electro: rollender Bass, tiefe raue Stimme und ein sofortiger Hook-Ruf im Club-Drop. **TOKEN BURN und SHIP IT sind ebenfalls in Deutsch und Englisch final.** Die Tracks 04–06 bleiben vorerst auf ihrem bisherigen Stand.
 
 Sechs Tracks über agentisches Programmieren, schnelle Entwicklung und die neue Arbeitswelt mit LLMs. Jeder Track hat eine deutsche und eine eigenständige englische Fassung. Die Reihenfolge führt vom euphorischen Hype-Einstieg über den Entwicklungsrausch und den harten Release-Höhepunkt zur fröhlichen Überproduktion, dann zu Zweifel und einem melancholischen Abschluss.
 
@@ -12,7 +12,7 @@ BPM und Dauer sind Produktionsziele. Tatsächliche Tempi, Dauer, Stimmwechsel un
 
 | Nr. | Track | Stil | BPM-Ziel | Dauer-Ziel | Stimme und Stimmung |
 | --- | --- | --- | --- | --- | --- |
-| 01 | VIBECODER | Peak-Time Tech House / Dark Electro | 132 | Audio offen | Sehr tiefer rauer Männerbass; harter Club-Mix ohne langes Intro. |
+| 01 | VIBECODER | Peak-Time Tech House / Dark Electro | 132 | DE 3:36.240 · EN 4:04.760 | Sehr tiefer rauer Männerbass; harter Club-Mix ohne langes Intro. |
 | 02 | TOKEN BURN | Acid Techno | 136 | 4:00 | Rhythmische männliche Stimme; Beschleunigung und nächtlicher Schaffensrausch. |
 | 03 | SHIP IT | Hard Phonk / Industrial Bass | 140 | DE 2:35.960 · EN 2:00.680 | Eine tiefe raue Stimme; COMMIT IT. SHIP IT., Release von Album drei. |
 | 04 | AI SLOP | Electro House / French-House-Funk | 144 | 3:50 | Helle weibliche Stimme; fröhlich, tanzbar, selbstironisch. |
@@ -21,13 +21,13 @@ BPM und Dauer sind Produktionsziele. Tatsächliche Tempi, Dauer, Stimmwechsel un
 
 ## Kopierfertige Suno-Felder
 
-Je Sprachfassung `lyrics.txt` in das Lyrics-Feld und `style.txt` in das Styles-Feld kopieren. Die danebenliegende `settings.txt` enthält editierbare Suno-Einstellungen; diese Werte werden separat in der Oberfläche eingetragen. Diese Dateien enthalten nur den jeweiligen Feldinhalt. Stilbeschreibungen sind entsprechend der Repository-Konvention auf Deutsch; die Gesangssprache wird darin ausdrücklich festgelegt. Die Titel bleiben in beiden Sprachfassungen gleich. VIBECODER bleibt die öffentliche Schreibweise; beide Lyrics verwenden den deutschen Drop-Ruf „ICH BIN VIIIIIBE CODER!“.
+Je Sprachfassung `lyrics.txt` in das Lyrics-Feld und `style.txt` in das Styles-Feld kopieren. Die danebenliegende `settings.txt` enthält editierbare Suno-Einstellungen; diese Werte werden separat in der Oberfläche eingetragen. Diese Dateien enthalten nur den jeweiligen Feldinhalt. Stilbeschreibungen sind entsprechend der Repository-Konvention auf Deutsch; die Gesangssprache wird darin ausdrücklich festgelegt. Die Titel bleiben in beiden Sprachfassungen gleich. VIBECODER bleibt die öffentliche Schreibweise; die aktuelle EN-Lyric verwendet einen englischen Hook. Der ältere EN-Stiltext erwähnt noch einen deutschen Ruf und ist als historische Vorgabe zu lesen.
 
 Die Zahlen zählen den gesamten Dateiinhalt einschliesslich Tags, Leerzeichen und abschliessendem Zeilenumbruch. Zählung als UTF-16-Codeeinheiten, passend zu JavaScript-Zeichenlängen. Die verwendeten Texte ergeben dieselben Zahlen bei der Zählung von Unicode-Codepunkten.
 
 | Track | Deutsch: Lyrics / Stil | Zeichen Lyrics / Stil | Englisch: Lyrics / Stil | Zeichen Lyrics / Stil |
 | --- | --- | --- | --- | --- |
-| VIBECODER | [Lyrics](01_Vibecoder/suno-0.1/de/lyrics.txt) · [Stil](01_Vibecoder/suno-0.1/de/style.txt) | 1511 / 848 | [Lyrics](01_Vibecoder/suno-0.1/en/lyrics.txt) · [Stil](01_Vibecoder/suno-0.1/en/style.txt) | 1417 / 874 |
+| VIBECODER | [Lyrics](01_Vibecoder/suno-0.1/de/lyrics.txt) · [Stil](01_Vibecoder/suno-0.1/de/style.txt) | 1511 / 848 | [Lyrics](01_Vibecoder/suno-0.1/en/lyrics.txt) · [Stil](01_Vibecoder/suno-0.1/en/style.txt) | 1630 / 874 |
 | TOKEN BURN | [Lyrics](02_Token_Burn/suno-0.1/de/lyrics.txt) · [Stil](02_Token_Burn/suno-0.1/de/style.txt) | 1570 / 723 | [Lyrics](02_Token_Burn/suno-0.1/en/lyrics.txt) · [Stil](02_Token_Burn/suno-0.1/en/style.txt) | 1542 / 720 |
 | SHIP IT | [Lyrics](03_SHIP_IT/suno-V3/de/lyrics.txt) · [Stil](03_SHIP_IT/suno-V3/de/style.txt) | 1285 / 987 | [Lyrics](03_SHIP_IT/suno-V3/en/lyrics.txt) · [Stil](03_SHIP_IT/suno-V3/en/style.txt) | 1304 / 947 |
 | AI SLOP | [Lyrics](04_AI_Slop/suno-0.1/de/lyrics.txt) · [Stil](04_AI_Slop/suno-0.1/de/style.txt) | 1503 / 759 | [Lyrics](04_AI_Slop/suno-0.1/en/lyrics.txt) · [Stil](04_AI_Slop/suno-0.1/en/style.txt) | 1505 / 722 |
@@ -112,7 +112,7 @@ Die aktuellen Prompt-Fassungen wurden auf Zeichenlänge, Abschnittsformat, Refra
 
 Beim Anhören der weiteren Suno-Kandidaten werden besonders Verständlichkeit, tatsächliche Länge, die Entwicklung der Energie über 01–03, die helle Stimmung bei unverändertem Tempo in 04 und der Ausklang 05–06 geprüft. Für SHIP IT müssen die einzelne Stimme, die kurze Hook und die harten Bass-Drops tragen; für CONTEXT WINDOW muss das lange Outro hörbar ausklingen.
 
-`album.yml` enthält Album- und Trackmetadaten sowie die beiden finalen TOKEN-BURN-Aufnahmen. Für VIBECODER ist noch keine Aufnahme ausgewählt. Die Sprachfolge für die Albumveröffentlichung bleibt offen; YouTube-Sprachdefaults stehen vorläufig auf Deutsch. Die bestehenden Release-Skripte lesen einen finalen Prompt je Track direkt aus dem Trackordner. Die bestätigten TOKEN-BURN-Fassungen liegen getrennt unter `final/de/` und `final/en/` und werden nicht als zwei gleichnamige Albumtracks automatisch exportiert. Vor dem Albumexport wird die gewünschte Sprachfolge in die üblichen Track-Prompts übernommen.
+`album.yml` enthält Album- und Trackmetadaten sowie die beiden finalen TOKEN-BURN-Aufnahmen. Die neuen finalen VIBECODER-WAVs sind im jeweiligen `final/<Sprache>/01_Vibecoder_1.0.txt` dokumentiert; `album.yml` wurde für den Albumexport noch nicht auf sie umgestellt. Die Sprachfolge für die Albumveröffentlichung bleibt offen; YouTube-Sprachdefaults stehen vorläufig auf Deutsch. Die bestehenden Release-Skripte lesen einen finalen Prompt je Track direkt aus dem Trackordner. Die bestätigten Sprachfassungen liegen getrennt unter `final/de/` und `final/en/` und werden nicht automatisch als zwei gleichnamige Albumtracks exportiert. Vor dem Albumexport wird die gewünschte Sprachfolge in die üblichen Track-Prompts übernommen.
 
 ### TOKEN BURN · Final 1.0
 
@@ -147,11 +147,16 @@ ist mit 58 Einstellungen pro Sprache ausgearbeitet. Die
 Zeitlisten, Keyword-Cues und Analyseschnappschüsse für TOKEN BURN und SHIP IT sowie vier weitere Track-Platzhalter.
 Die Videoumsetzung steht noch aus; [Ablage und Kopierbefehl](_video_handoff/README.md).
 
-### VIBECODER · neuer Entwurf 0.1
+### VIBECODER · finale Audios aus Entwurf 0.1
 
-Beide Sprachfassungen erzählen denselben Alltag als eigenständige Texte: ein Skript löst ein kleines Problem, der Erzähler erzeugt Musik für seine Stimmung und lässt eine passende App bauen. Der tiefe Ruf **„ICH BIN VIIIIIBE CODER!“** steht sofort am Anfang und trägt die Drops. Die Bridge nimmt die Skepsis eines Hardcoders auf. Der Stil ist **Peak-Time Tech House / Dark Electro** mit 132-BPM-Ziel, rollendem Basslauf und längeren instrumentalen Groovepassagen. Noch keine Aufnahme, kein finaler Prompt und kein Videokonzept.
+Beide Sprachfassungen erzählen denselben Alltag als eigenständige Texte: ein Skript löst ein kleines Problem, der Erzähler erzeugt Musik für seine Stimmung und lässt eine passende App bauen. Der Hook ruft auf Deutsch **„Ich bin Vibecoder!“** und auf Englisch **„I am a Vibecoder!“**. Die Bridge nimmt die Skepsis eines Hardcoders auf. Der Stil ist **Peak-Time Tech House / Dark Electro** mit 132-BPM-Ziel, rollendem Basslauf und längeren instrumentalen Groovepassagen. Die finalen WAVs liegen unter `01_Vibecoder/final/`; die 1.0-Dateien in `final/de/` und `final/en/` halten die genaue Audiozuordnung und die aktuellen Referenztexte fest. Gesungene Abweichungen werden im Transkript markiert.
 
 [Deutsch: Lyrics](01_Vibecoder/suno-0.1/de/lyrics.txt) · [Englisch: Lyrics](01_Vibecoder/suno-0.1/en/lyrics.txt) · [Stil Deutsch](01_Vibecoder/suno-0.1/de/style.txt) · [Stil Englisch](01_Vibecoder/suno-0.1/en/style.txt) · [Suno-Platzhalter](01_Vibecoder/suno-0.1/de/settings.txt).
+
+| Fassung | Finalbeleg | Transkript | Analyse | Prüfung |
+| --- | --- | --- | --- | --- |
+| DE | [1.0 und Audiozuordnung](01_Vibecoder/final/de/01_Vibecoder_1.0.txt) | [JSON](01_Vibecoder/final/de/01_Vibecoder_Transkript.json) · [SRT](01_Vibecoder/final/de/01_Vibecoder_Transkript.srt) | [Bericht](01_Vibecoder/final/de/ASTRA-AUDIO-ANALYSE.md) | [ASR-Prüfstellen](01_Vibecoder/final/de/TRANSKRIPT-PRUEFUNG.md) |
+| EN | [1.0 und Audiozuordnung](01_Vibecoder/final/en/01_Vibecoder_1.0.txt) | [JSON](01_Vibecoder/final/en/01_Vibecoder_Transkript.json) · [SRT](01_Vibecoder/final/en/01_Vibecoder_Transkript.srt) | [Bericht](01_Vibecoder/final/en/ASTRA-AUDIO-ANALYSE.md) | [ASR-Prüfstellen](01_Vibecoder/final/en/TRANSKRIPT-PRUEFUNG.md) |
 
 ### SHIP IT · Finaler Track 03
 

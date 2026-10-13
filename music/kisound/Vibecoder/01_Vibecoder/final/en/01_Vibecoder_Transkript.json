@@ -1,0 +1,3362 @@
+{
+  "title": "VIBECODER · EN",
+  "source_audio": "../01_Vibecoder_suno-0.1_50_50_exakt_off_EN.wav",
+  "source_audio_sha256": "0ec442b9fa84de0a6b0e781f625597192015839555d1c27d60e649df6463d514",
+  "duration_seconds": 244.76,
+  "languages": [
+    "en"
+  ],
+  "time_origin": "Sample 0 der unveränderten finalen WAV; keine Kürzung, kein Offset",
+  "timing_source": "Lokale ASR (MLX GPU / mlx-whisper) mit Cross-Attention/DTW-Wortzeiten; keine aus Lyrics geschätzten Zeiten",
+  "text_source": "Finale Lyrics nur bei ausreichender monotoner ASR-Übereinstimmung; sonst Rohtext, explizit markiert",
+  "review_status": "Zwei lokale Whisper-Läufe plus unabhängige kurze Fenster; redaktioneller Lyrics-Abgleich ohne manuelle Hörprüfung. Markierte Stellen vor finalen Untertiteln prüfen.",
+  "raw_asr_path": "asr/whisper-large-v3.json",
+  "raw_asr_sha256": "cc57ba8bff98098d59628d99a31ed7d3decd40ebda95568532d43159ecd3d342",
+  "asr_parameters": {
+    "temperature": 0,
+    "condition_on_prev_tokens": false,
+    "return_token_timestamps": true,
+    "lyrics_prompt": null,
+    "vocabulary_hint": null,
+    "chunk_seconds": 30,
+    "word_timing": "decoder cross-attention DTW via mlx-whisper"
+  },
+  "asr_curation_note": null,
+  "asr_excluded_segments": [],
+  "comparison_asr_path": "asr/whisper-large-v3-turbo.json",
+  "comparison_asr_sha256": "84a2b28d15bb76682e1aba84fa5e88f5ddf2c0f6360e0037ff7977ad90aa2528",
+  "prompt_path": "01_Vibecoder_1.0.txt",
+  "prompt_sha256": "11ba10c093413332a32ed4348f1281481570b142307e89ce073221f21587bf24",
+  "timing_uncertainty_note": "20-ms-DTW-Raster ist keine Genauigkeitsgarantie; Gesang und Effekte können Wortgrenzen verschieben.",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 8.7,
+      "last_vocal_end": 10.98
+    },
+    {
+      "title": "Verse 1",
+      "first_vocal_start": 32.3,
+      "last_vocal_end": 49.26
+    },
+    {
+      "title": "Build",
+      "first_vocal_start": 49.26,
+      "last_vocal_end": 59.5
+    },
+    {
+      "title": "Drop 1",
+      "first_vocal_start": 59.5,
+      "last_vocal_end": 82.4
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 111.48,
+      "last_vocal_end": 139.74
+    },
+    {
+      "title": "Drop 2",
+      "first_vocal_start": 139.74,
+      "last_vocal_end": 163.56
+    },
+    {
+      "title": "Bridge",
+      "first_vocal_start": 165.28,
+      "last_vocal_end": 177.34
+    },
+    {
+      "title": "Final Drop",
+      "first_vocal_start": 183.86,
+      "last_vocal_end": 221.68
+    },
+    {
+      "title": "Outro",
+      "first_vocal_start": 227.8,
+      "last_vocal_end": 243.98
+    }
+  ],
+  "segments": [
+    {
+      "start": 8.7,
+      "end": 10.98,
+      "text": "I'm a vibe coder.",
+      "section": "Intro",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "I'm a vibe coder.",
+      "asr_words": [
+        {
+          "word": "I'm",
+          "start": 8.7,
+          "end": 9.78,
+          "asr_segment_index": 0
+        },
+        {
+          "word": "a",
+          "start": 9.78,
+          "end": 9.82,
+          "asr_segment_index": 0
+        },
+        {
+          "word": "vibe",
+          "start": 9.82,
+          "end": 10.36,
+          "asr_segment_index": 0
+        },
+        {
+          "word": "coder.",
+          "start": 10.36,
+          "end": 10.98,
+          "asr_segment_index": 0
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 1,
+      "start_timecode": "00:00:08.700",
+      "end_timecode": "00:00:10.980",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I'm a vibe coder",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 32.3,
+      "end": 34.26,
+      "text": "8am the export froze",
+      "section": "Verse 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "8am the export froze",
+      "asr_words": [
+        {
+          "word": "8am",
+          "start": 32.3,
+          "end": 33.1,
+          "asr_segment_index": 1
+        },
+        {
+          "word": "the",
+          "start": 33.1,
+          "end": 33.42,
+          "asr_segment_index": 1
+        },
+        {
+          "word": "export",
+          "start": 33.42,
+          "end": 33.78,
+          "asr_segment_index": 1
+        },
+        {
+          "word": "froze",
+          "start": 33.78,
+          "end": 34.26,
+          "asr_segment_index": 1
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 2,
+      "start_timecode": "00:00:32.300",
+      "end_timecode": "00:00:34.260",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "8am the export froze",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 34.26,
+      "end": 37.86,
+      "text": "Cold coffee. Deadline close.",
+      "section": "Verse 1",
+      "prompt_line_index": 2,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Cold coffee deadline close",
+      "asr_words": [
+        {
+          "word": "Cold",
+          "start": 34.26,
+          "end": 35.04,
+          "asr_segment_index": 2
+        },
+        {
+          "word": "coffee",
+          "start": 35.04,
+          "end": 36.94,
+          "asr_segment_index": 2
+        },
+        {
+          "word": "deadline",
+          "start": 36.94,
+          "end": 37.32,
+          "asr_segment_index": 2
+        },
+        {
+          "word": "close",
+          "start": 37.32,
+          "end": 37.86,
+          "asr_segment_index": 2
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 3,
+      "start_timecode": "00:00:34.260",
+      "end_timecode": "00:00:37.860",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Cold coffee deadline close",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 39.48,
+      "end": 41.5,
+      "text": "Prompt in. Script runs. Rows align.",
+      "section": "Verse 1",
+      "prompt_line_index": 3,
+      "timing_model": "mlx-community/whisper-large-v3-turbo / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Prompting script runs, rows align",
+      "asr_words": [
+        {
+          "word": "Prompting",
+          "start": 39.48,
+          "end": 40.24,
+          "asr_segment_index": 3
+        },
+        {
+          "word": "script",
+          "start": 40.24,
+          "end": 40.48,
+          "asr_segment_index": 3
+        },
+        {
+          "word": "runs,",
+          "start": 40.48,
+          "end": 40.76,
+          "asr_segment_index": 3
+        },
+        {
+          "word": "rows",
+          "start": 40.86,
+          "end": 41.0,
+          "asr_segment_index": 3
+        },
+        {
+          "word": "align",
+          "start": 41.0,
+          "end": 41.5,
+          "asr_segment_index": 3
+        }
+      ],
+      "matched_word_fraction": 0.833,
+      "text_similarity": 0.982,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen.",
+        "Lyrics-Zeile aus Turbo-Wortzeiten ergänzt; large-v3 konnte sie nicht ausreichend zuordnen."
+      ],
+      "id": 4,
+      "start_timecode": "00:00:39.480",
+      "end_timecode": "00:00:41.500",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Prompting script runs, rows align",
+        "text_similarity": 0.982,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 42.44,
+      "end": 44.9,
+      "text": "Two, two, two checks green. Next idea's mine.",
+      "section": "Verse 1",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "two two checks green Next idea's mine",
+      "asr_words": [
+        {
+          "word": "two",
+          "start": 42.44,
+          "end": 42.74,
+          "asr_segment_index": 4
+        },
+        {
+          "word": "two",
+          "start": 42.74,
+          "end": 42.9,
+          "asr_segment_index": 4
+        },
+        {
+          "word": "checks",
+          "start": 42.9,
+          "end": 43.2,
+          "asr_segment_index": 4
+        },
+        {
+          "word": "green",
+          "start": 43.2,
+          "end": 43.6,
+          "asr_segment_index": 4
+        },
+        {
+          "word": "Next",
+          "start": 43.6,
+          "end": 44.04,
+          "asr_segment_index": 5
+        },
+        {
+          "word": "idea's",
+          "start": 44.04,
+          "end": 44.68,
+          "asr_segment_index": 5
+        },
+        {
+          "word": "mine",
+          "start": 44.68,
+          "end": 44.9,
+          "asr_segment_index": 5
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 5,
+      "start_timecode": "00:00:42.440",
+      "end_timecode": "00:00:44.900",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        5,
+        6
+      ]
+    },
+    {
+      "start": 45.86,
+      "end": 49.26,
+      "text": "New coders. New pulse.",
+      "section": "Verse 1",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "New coders New posts",
+      "asr_words": [
+        {
+          "word": "New",
+          "start": 45.86,
+          "end": 46.66,
+          "asr_segment_index": 6
+        },
+        {
+          "word": "coders",
+          "start": 46.66,
+          "end": 47.46,
+          "asr_segment_index": 6
+        },
+        {
+          "word": "New",
+          "start": 47.46,
+          "end": 48.52,
+          "asr_segment_index": 7
+        },
+        {
+          "word": "posts",
+          "start": 48.52,
+          "end": 49.26,
+          "asr_segment_index": 7
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 6,
+      "start_timecode": "00:00:45.860",
+      "end_timecode": "00:00:49.260",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        7,
+        8
+      ]
+    },
+    {
+      "start": 49.26,
+      "end": 52.72,
+      "text": "One line, one build, the room wakes up.",
+      "section": "Build",
+      "prompt_line_index": 6,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "One line one bill The room wakes up",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 49.26,
+          "end": 50.44,
+          "asr_segment_index": 8
+        },
+        {
+          "word": "line",
+          "start": 50.44,
+          "end": 50.84,
+          "asr_segment_index": 8
+        },
+        {
+          "word": "one",
+          "start": 50.84,
+          "end": 51.22,
+          "asr_segment_index": 8
+        },
+        {
+          "word": "bill",
+          "start": 51.22,
+          "end": 51.72,
+          "asr_segment_index": 8
+        },
+        {
+          "word": "The",
+          "start": 51.72,
+          "end": 52.0,
+          "asr_segment_index": 9
+        },
+        {
+          "word": "room",
+          "start": 52.0,
+          "end": 52.12,
+          "asr_segment_index": 9
+        },
+        {
+          "word": "wakes",
+          "start": 52.12,
+          "end": 52.4,
+          "asr_segment_index": 9
+        },
+        {
+          "word": "up",
+          "start": 52.4,
+          "end": 52.72,
+          "asr_segment_index": 9
+        }
+      ],
+      "matched_word_fraction": 0.875,
+      "text_similarity": 0.947,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen."
+      ],
+      "id": 7,
+      "start_timecode": "00:00:49.260",
+      "end_timecode": "00:00:52.720",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One line, one bill, the room wakes up",
+        "text_similarity": 0.947,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 52.72,
+      "end": 56.22,
+      "text": "Under the hood? Black-box night.",
+      "section": "Build",
+      "prompt_line_index": 7,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Under the hood Black box night",
+      "asr_words": [
+        {
+          "word": "Under",
+          "start": 52.72,
+          "end": 53.8,
+          "asr_segment_index": 10
+        },
+        {
+          "word": "the",
+          "start": 53.8,
+          "end": 54.12,
+          "asr_segment_index": 10
+        },
+        {
+          "word": "hood",
+          "start": 54.12,
+          "end": 54.48,
+          "asr_segment_index": 10
+        },
+        {
+          "word": "Black",
+          "start": 54.48,
+          "end": 55.26,
+          "asr_segment_index": 11
+        },
+        {
+          "word": "box",
+          "start": 55.26,
+          "end": 55.8,
+          "asr_segment_index": 11
+        },
+        {
+          "word": "night",
+          "start": 55.8,
+          "end": 56.22,
+          "asr_segment_index": 11
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 8,
+      "start_timecode": "00:00:52.720",
+      "end_timecode": "00:00:56.220",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Under the hood, black box night",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 56.22,
+      "end": 59.5,
+      "text": "I know the goal, not every wire.",
+      "section": "Build",
+      "prompt_line_index": 8,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I know the goal Not every wire",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 56.22,
+          "end": 57.26,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "know",
+          "start": 57.26,
+          "end": 57.56,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "the",
+          "start": 57.56,
+          "end": 57.74,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "goal",
+          "start": 57.74,
+          "end": 58.1,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "Not",
+          "start": 58.1,
+          "end": 58.66,
+          "asr_segment_index": 13
+        },
+        {
+          "word": "every",
+          "start": 58.66,
+          "end": 59.04,
+          "asr_segment_index": 13
+        },
+        {
+          "word": "wire",
+          "start": 59.04,
+          "end": 59.5,
+          "asr_segment_index": 13
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 9,
+      "start_timecode": "00:00:56.220",
+      "end_timecode": "00:00:59.500",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I know the goal, not every wire",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 59.5,
+      "end": 61.42,
+      "text": "I am a vibe coder",
+      "section": "Drop 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "I am a vibe coder",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 59.5,
+          "end": 60.04,
+          "asr_segment_index": 14
+        },
+        {
+          "word": "am",
+          "start": 60.04,
+          "end": 60.3,
+          "asr_segment_index": 14
+        },
+        {
+          "word": "a",
+          "start": 60.3,
+          "end": 60.46,
+          "asr_segment_index": 14
+        },
+        {
+          "word": "vibe",
+          "start": 60.46,
+          "end": 60.9,
+          "asr_segment_index": 14
+        },
+        {
+          "word": "coder",
+          "start": 60.9,
+          "end": 61.42,
+          "asr_segment_index": 14
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 10,
+      "start_timecode": "00:00:59.500",
+      "end_timecode": "00:01:01.420",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I am a vibe coder",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 61.42,
+      "end": 64.38,
+      "text": "I say it, he builds it, I test it, he makes it right.",
+      "section": "Drop 1",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "Say it, he builds it, I test it, he makes it right",
+      "asr_words": [
+        {
+          "word": "Say",
+          "start": 61.42,
+          "end": 62.0,
+          "asr_segment_index": 15
+        },
+        {
+          "word": "it,",
+          "start": 62.0,
+          "end": 62.34,
+          "asr_segment_index": 15
+        },
+        {
+          "word": "he",
+          "start": 62.38,
+          "end": 62.68,
+          "asr_segment_index": 15
+        },
+        {
+          "word": "builds",
+          "start": 62.68,
+          "end": 63.04,
+          "asr_segment_index": 15
+        },
+        {
+          "word": "it,",
+          "start": 63.04,
+          "end": 63.26,
+          "asr_segment_index": 15
+        },
+        {
+          "word": "I",
+          "start": 63.3,
+          "end": 63.62,
+          "asr_segment_index": 15
+        },
+        {
+          "word": "test",
+          "start": 63.62,
+          "end": 63.88,
+          "asr_segment_index": 15
+        },
+        {
+          "word": "it,",
+          "start": 63.88,
+          "end": 64.1,
+          "asr_segment_index": 15
+        },
+        {
+          "word": "he",
+          "start": 64.14,
+          "end": 64.26,
+          "asr_segment_index": 15
+        },
+        {
+          "word": "makes",
+          "start": 64.26,
+          "end": 64.26,
+          "asr_segment_index": 15
+        },
+        {
+          "word": "it",
+          "start": 64.26,
+          "end": 64.26,
+          "asr_segment_index": 15
+        },
+        {
+          "word": "right",
+          "start": 64.26,
+          "end": 64.38,
+          "asr_segment_index": 15
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 11,
+      "start_timecode": "00:01:01.420",
+      "end_timecode": "00:01:04.380",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        13,
+        14
+      ]
+    },
+    {
+      "start": 64.9,
+      "end": 67.12,
+      "text": "I am a vibe coder",
+      "section": "Drop 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "I am a vibe coder",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 64.9,
+          "end": 65.42,
+          "asr_segment_index": 16
+        },
+        {
+          "word": "am",
+          "start": 65.42,
+          "end": 65.68,
+          "asr_segment_index": 16
+        },
+        {
+          "word": "a",
+          "start": 65.68,
+          "end": 66.08,
+          "asr_segment_index": 16
+        },
+        {
+          "word": "vibe",
+          "start": 66.08,
+          "end": 66.5,
+          "asr_segment_index": 16
+        },
+        {
+          "word": "coder",
+          "start": 66.5,
+          "end": 67.12,
+          "asr_segment_index": 16
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 12,
+      "start_timecode": "00:01:04.900",
+      "end_timecode": "00:01:07.120",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "am a vibe coder",
+        "text_similarity": 0.96,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 68.32,
+      "end": 71.62,
+      "text": "If it fails, send it back till it's running tight.",
+      "section": "Drop 1",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "If it fails, send it back, till it's run and die",
+      "asr_words": [
+        {
+          "word": "If",
+          "start": 68.32,
+          "end": 68.84,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "it",
+          "start": 68.84,
+          "end": 69.04,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "fails,",
+          "start": 69.04,
+          "end": 69.58,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "send",
+          "start": 69.64,
+          "end": 69.94,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "it",
+          "start": 69.94,
+          "end": 70.06,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "back,",
+          "start": 70.06,
+          "end": 70.36,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "till",
+          "start": 70.38,
+          "end": 70.64,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "it's",
+          "start": 70.64,
+          "end": 70.96,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "run",
+          "start": 70.96,
+          "end": 71.12,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "and",
+          "start": 71.12,
+          "end": 71.28,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "die",
+          "start": 71.28,
+          "end": 71.62,
+          "asr_segment_index": 17
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 13,
+      "start_timecode": "00:01:08.320",
+      "end_timecode": "00:01:11.620",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        16,
+        17
+      ]
+    },
+    {
+      "start": 71.62,
+      "end": 74.32,
+      "text": "I am a vibe coder",
+      "section": "Drop 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "I am a vibe coder",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 71.62,
+          "end": 72.66,
+          "asr_segment_index": 18
+        },
+        {
+          "word": "am",
+          "start": 72.66,
+          "end": 72.84,
+          "asr_segment_index": 18
+        },
+        {
+          "word": "a",
+          "start": 72.84,
+          "end": 73.24,
+          "asr_segment_index": 18
+        },
+        {
+          "word": "vibe",
+          "start": 73.24,
+          "end": 73.72,
+          "asr_segment_index": 18
+        },
+        {
+          "word": "coder",
+          "start": 73.72,
+          "end": 74.32,
+          "asr_segment_index": 18
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 14,
+      "start_timecode": "00:01:11.620",
+      "end_timecode": "00:01:14.320",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I am a vibe coder",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 75.7,
+      "end": 79.3,
+      "text": "I say it, he builds it, I test it, he makes it right.",
+      "section": "Drop 1",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "Say it, he builds it, I test it, he makes it right",
+      "asr_words": [
+        {
+          "word": "Say",
+          "start": 75.7,
+          "end": 76.22,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "it,",
+          "start": 76.22,
+          "end": 76.74,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "he",
+          "start": 76.82,
+          "end": 77.06,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "builds",
+          "start": 77.06,
+          "end": 77.48,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "it,",
+          "start": 77.48,
+          "end": 77.68,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "I",
+          "start": 77.76,
+          "end": 78.04,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "test",
+          "start": 78.04,
+          "end": 78.36,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "it,",
+          "start": 78.36,
+          "end": 78.54,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "he",
+          "start": 78.6,
+          "end": 78.66,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "makes",
+          "start": 78.66,
+          "end": 78.82,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "it",
+          "start": 78.82,
+          "end": 78.98,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "right",
+          "start": 78.98,
+          "end": 79.3,
+          "asr_segment_index": 19
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 15,
+      "start_timecode": "00:01:15.700",
+      "end_timecode": "00:01:19.300",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        19,
+        20
+      ]
+    },
+    {
+      "start": 79.3,
+      "end": 82.4,
+      "text": "A diff, a test, a commit, and the next idea takes flight.",
+      "section": "Drop 1",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "Different tests to commit and the next idea takes flight",
+      "asr_words": [
+        {
+          "word": "Different",
+          "start": 79.3,
+          "end": 80.14,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "tests",
+          "start": 80.14,
+          "end": 80.6,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "to",
+          "start": 80.6,
+          "end": 80.78,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "commit",
+          "start": 80.78,
+          "end": 80.96,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "and",
+          "start": 80.96,
+          "end": 81.22,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "the",
+          "start": 81.22,
+          "end": 81.34,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "next",
+          "start": 81.34,
+          "end": 81.52,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "idea",
+          "start": 81.52,
+          "end": 81.86,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "takes",
+          "start": 81.86,
+          "end": 82.12,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "flight",
+          "start": 82.12,
+          "end": 82.4,
+          "asr_segment_index": 20
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 16,
+      "start_timecode": "00:01:19.300",
+      "end_timecode": "00:01:22.400",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        21,
+        22
+      ]
+    },
+    {
+      "start": 111.48,
+      "end": 113.82,
+      "text": "No track at noon can match my pace.",
+      "section": "Verse 2",
+      "prompt_line_index": 16,
+      "timing_model": "mlx-community/whisper-large-v3-turbo / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "No track at noon can match my pace",
+      "asr_words": [
+        {
+          "word": "No",
+          "start": 111.48,
+          "end": 111.98,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "track",
+          "start": 111.98,
+          "end": 112.3,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "at",
+          "start": 112.3,
+          "end": 112.54,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "noon",
+          "start": 112.54,
+          "end": 112.7,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "can",
+          "start": 112.7,
+          "end": 112.9,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "match",
+          "start": 112.9,
+          "end": 113.16,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "my",
+          "start": 113.16,
+          "end": 113.34,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "pace",
+          "start": 113.34,
+          "end": 113.82,
+          "asr_segment_index": 19
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": true,
+      "review_reasons": [
+        "Lyrics-Zeile aus Turbo-Wortzeiten ergänzt; large-v3 konnte sie nicht ausreichend zuordnen."
+      ],
+      "id": 17,
+      "start_timecode": "00:01:51.480",
+      "end_timecode": "00:01:53.820",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "No track at noon can match my pace",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 115.12,
+      "end": 117.4,
+      "text": "I write a sound to fill the space.",
+      "section": "Verse 2",
+      "prompt_line_index": 17,
+      "timing_model": "mlx-community/whisper-large-v3-turbo / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I write a sound to fill the space",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 115.12,
+          "end": 115.62,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "write",
+          "start": 115.62,
+          "end": 115.94,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "a",
+          "start": 115.94,
+          "end": 116.1,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "sound",
+          "start": 116.1,
+          "end": 116.34,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "to",
+          "start": 116.34,
+          "end": 116.5,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "fill",
+          "start": 116.5,
+          "end": 116.76,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "the",
+          "start": 116.76,
+          "end": 116.9,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "space",
+          "start": 116.9,
+          "end": 117.4,
+          "asr_segment_index": 20
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": true,
+      "review_reasons": [
+        "Lyrics-Zeile aus Turbo-Wortzeiten ergänzt; large-v3 konnte sie nicht ausreichend zuordnen."
+      ],
+      "id": 18,
+      "start_timecode": "00:01:55.120",
+      "end_timecode": "00:01:57.400",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I write a sound to fill the space",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 117.4,
+      "end": 120.96,
+      "text": "My own beat drives me through the block,",
+      "section": "Verse 2",
+      "prompt_line_index": 18,
+      "timing_model": "mlx-community/whisper-large-v3-turbo / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "My own beat drives me through the block",
+      "asr_words": [
+        {
+          "word": "My",
+          "start": 117.4,
+          "end": 118.76,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "own",
+          "start": 118.76,
+          "end": 119.5,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "beat",
+          "start": 119.5,
+          "end": 119.66,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "drives",
+          "start": 119.66,
+          "end": 119.96,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "me",
+          "start": 119.96,
+          "end": 120.14,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "through",
+          "start": 120.14,
+          "end": 120.36,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "the",
+          "start": 120.36,
+          "end": 120.54,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "block",
+          "start": 120.54,
+          "end": 120.96,
+          "asr_segment_index": 21
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": true,
+      "review_reasons": [
+        "Lyrics-Zeile aus Turbo-Wortzeiten ergänzt; large-v3 konnte sie nicht ausreichend zuordnen."
+      ],
+      "id": 19,
+      "start_timecode": "00:01:57.400",
+      "end_timecode": "00:02:00.960",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "My own beat drives me through the block",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 122.06,
+      "end": 124.38,
+      "text": "low end rolling round the clock.",
+      "section": "Verse 2",
+      "prompt_line_index": 19,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Low and rolling round the clock",
+      "asr_words": [
+        {
+          "word": "Low",
+          "start": 122.06,
+          "end": 122.86,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "and",
+          "start": 122.86,
+          "end": 123.2,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "rolling",
+          "start": 123.2,
+          "end": 123.58,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "round",
+          "start": 123.58,
+          "end": 123.9,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "the",
+          "start": 123.9,
+          "end": 124.1,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "clock",
+          "start": 124.1,
+          "end": 124.38,
+          "asr_segment_index": 22
+        }
+      ],
+      "matched_word_fraction": 0.833,
+      "text_similarity": 0.962,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen."
+      ],
+      "id": 20,
+      "start_timecode": "00:02:02.060",
+      "end_timecode": "00:02:04.380",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Low and rolling round the clock",
+        "text_similarity": 0.962,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 125.34,
+      "end": 128.92,
+      "text": "Night falls. Store full. Nothing fits.",
+      "section": "Verse 2",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "Nightfall storm fall Nothing fits",
+      "asr_words": [
+        {
+          "word": "Nightfall",
+          "start": 125.34,
+          "end": 126.14,
+          "asr_segment_index": 23
+        },
+        {
+          "word": "storm",
+          "start": 126.14,
+          "end": 126.56,
+          "asr_segment_index": 23
+        },
+        {
+          "word": "fall",
+          "start": 126.56,
+          "end": 127.04,
+          "asr_segment_index": 23
+        },
+        {
+          "word": "Nothing",
+          "start": 127.04,
+          "end": 128.34,
+          "asr_segment_index": 24
+        },
+        {
+          "word": "fits",
+          "start": 128.34,
+          "end": 128.92,
+          "asr_segment_index": 24
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 21,
+      "start_timecode": "00:02:05.340",
+      "end_timecode": "00:02:08.920",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        27,
+        28
+      ]
+    },
+    {
+      "start": 128.92,
+      "end": 132.56,
+      "text": "I tell the agent what I miss.",
+      "section": "Verse 2",
+      "prompt_line_index": 21,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I tell the agent What I miss",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 128.92,
+          "end": 129.68,
+          "asr_segment_index": 25
+        },
+        {
+          "word": "tell",
+          "start": 129.68,
+          "end": 130.24,
+          "asr_segment_index": 25
+        },
+        {
+          "word": "the",
+          "start": 130.24,
+          "end": 130.4,
+          "asr_segment_index": 25
+        },
+        {
+          "word": "agent",
+          "start": 130.4,
+          "end": 130.82,
+          "asr_segment_index": 25
+        },
+        {
+          "word": "What",
+          "start": 130.82,
+          "end": 131.3,
+          "asr_segment_index": 26
+        },
+        {
+          "word": "I",
+          "start": 131.3,
+          "end": 132.18,
+          "asr_segment_index": 26
+        },
+        {
+          "word": "miss",
+          "start": 132.18,
+          "end": 132.56,
+          "asr_segment_index": 26
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 22,
+      "start_timecode": "00:02:08.920",
+      "end_timecode": "00:02:12.560",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I tell the agent what I miss",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 132.56,
+      "end": 135.62,
+      "text": "A screen lights up. One button works.",
+      "section": "Verse 2",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "Screen lights up Button works",
+      "asr_words": [
+        {
+          "word": "Screen",
+          "start": 132.56,
+          "end": 133.28,
+          "asr_segment_index": 27
+        },
+        {
+          "word": "lights",
+          "start": 133.28,
+          "end": 133.8,
+          "asr_segment_index": 27
+        },
+        {
+          "word": "up",
+          "start": 133.8,
+          "end": 134.36,
+          "asr_segment_index": 27
+        },
+        {
+          "word": "Button",
+          "start": 134.36,
+          "end": 135.0,
+          "asr_segment_index": 28
+        },
+        {
+          "word": "works",
+          "start": 135.0,
+          "end": 135.62,
+          "asr_segment_index": 28
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 23,
+      "start_timecode": "00:02:12.560",
+      "end_timecode": "00:02:15.620",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        30,
+        31
+      ]
+    },
+    {
+      "start": 135.62,
+      "end": 139.74,
+      "text": "My own little app, built for this.",
+      "section": "Verse 2",
+      "prompt_line_index": 23,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "My own little app Built for this",
+      "asr_words": [
+        {
+          "word": "My",
+          "start": 135.62,
+          "end": 137.1,
+          "asr_segment_index": 29
+        },
+        {
+          "word": "own",
+          "start": 137.1,
+          "end": 137.48,
+          "asr_segment_index": 29
+        },
+        {
+          "word": "little",
+          "start": 137.48,
+          "end": 137.98,
+          "asr_segment_index": 29
+        },
+        {
+          "word": "app",
+          "start": 137.98,
+          "end": 138.44,
+          "asr_segment_index": 29
+        },
+        {
+          "word": "Built",
+          "start": 138.44,
+          "end": 139.18,
+          "asr_segment_index": 30
+        },
+        {
+          "word": "for",
+          "start": 139.18,
+          "end": 139.4,
+          "asr_segment_index": 30
+        },
+        {
+          "word": "this",
+          "start": 139.4,
+          "end": 139.74,
+          "asr_segment_index": 30
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 24,
+      "start_timecode": "00:02:15.620",
+      "end_timecode": "00:02:19.740",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "My own little app Built for this",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 139.74,
+      "end": 142.62,
+      "text": "I am a vibe coder",
+      "section": "Drop 2",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "I am a vibe coder",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 139.74,
+          "end": 140.16,
+          "asr_segment_index": 31
+        },
+        {
+          "word": "am",
+          "start": 140.16,
+          "end": 140.58,
+          "asr_segment_index": 31
+        },
+        {
+          "word": "a",
+          "start": 140.58,
+          "end": 140.82,
+          "asr_segment_index": 31
+        },
+        {
+          "word": "vibe",
+          "start": 140.82,
+          "end": 141.94,
+          "asr_segment_index": 31
+        },
+        {
+          "word": "coder",
+          "start": 141.94,
+          "end": 142.62,
+          "asr_segment_index": 31
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 25,
+      "start_timecode": "00:02:19.740",
+      "end_timecode": "00:02:22.620",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I am a vibe coder",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 142.62,
+      "end": 146.08,
+      "text": "I see it, he builds it. I test it, he makes it right.",
+      "section": "Drop 2",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "I see it, he builds it My destiny makes it right",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 142.62,
+          "end": 142.9,
+          "asr_segment_index": 32
+        },
+        {
+          "word": "see",
+          "start": 142.9,
+          "end": 143.24,
+          "asr_segment_index": 32
+        },
+        {
+          "word": "it,",
+          "start": 143.24,
+          "end": 143.6,
+          "asr_segment_index": 32
+        },
+        {
+          "word": "he",
+          "start": 143.6,
+          "end": 143.88,
+          "asr_segment_index": 32
+        },
+        {
+          "word": "builds",
+          "start": 143.88,
+          "end": 144.22,
+          "asr_segment_index": 32
+        },
+        {
+          "word": "it",
+          "start": 144.22,
+          "end": 144.44,
+          "asr_segment_index": 32
+        },
+        {
+          "word": "My",
+          "start": 144.44,
+          "end": 144.88,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "destiny",
+          "start": 144.88,
+          "end": 145.24,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "makes",
+          "start": 145.24,
+          "end": 145.62,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "it",
+          "start": 145.62,
+          "end": 145.78,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "right",
+          "start": 145.78,
+          "end": 146.08,
+          "asr_segment_index": 33
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 26,
+      "start_timecode": "00:02:22.620",
+      "end_timecode": "00:02:26.080",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        34,
+        35
+      ]
+    },
+    {
+      "start": 146.08,
+      "end": 149.84,
+      "text": "I'm a Vibecoder! I'm a Vibecoder!",
+      "section": "Drop 2",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "A vibe coder I am a five coder",
+      "asr_words": [
+        {
+          "word": "A",
+          "start": 146.08,
+          "end": 147.26,
+          "asr_segment_index": 34
+        },
+        {
+          "word": "vibe",
+          "start": 147.26,
+          "end": 147.66,
+          "asr_segment_index": 34
+        },
+        {
+          "word": "coder",
+          "start": 147.66,
+          "end": 148.26,
+          "asr_segment_index": 34
+        },
+        {
+          "word": "I",
+          "start": 148.26,
+          "end": 148.54,
+          "asr_segment_index": 35
+        },
+        {
+          "word": "am",
+          "start": 148.54,
+          "end": 148.7,
+          "asr_segment_index": 35
+        },
+        {
+          "word": "a",
+          "start": 148.7,
+          "end": 148.92,
+          "asr_segment_index": 35
+        },
+        {
+          "word": "five",
+          "start": 148.92,
+          "end": 149.32,
+          "asr_segment_index": 35
+        },
+        {
+          "word": "coder",
+          "start": 149.32,
+          "end": 149.84,
+          "asr_segment_index": 35
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 27,
+      "start_timecode": "00:02:26.080",
+      "end_timecode": "00:02:29.840",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        36,
+        37
+      ]
+    },
+    {
+      "start": 149.94,
+      "end": 153.04,
+      "text": "If it fails, send it back till it’s running tight.",
+      "section": "Drop 2",
+      "prompt_line_index": 27,
+      "timing_model": "mlx-community/whisper-large-v3-turbo / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "If it fails, send it back to us running tight",
+      "asr_words": [
+        {
+          "word": "If",
+          "start": 149.94,
+          "end": 150.2,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "it",
+          "start": 150.2,
+          "end": 150.34,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "fails,",
+          "start": 150.34,
+          "end": 150.82,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "send",
+          "start": 150.96,
+          "end": 151.22,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "it",
+          "start": 151.22,
+          "end": 151.3,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "back",
+          "start": 151.3,
+          "end": 151.7,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "to",
+          "start": 151.7,
+          "end": 151.96,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "us",
+          "start": 151.96,
+          "end": 152.16,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "running",
+          "start": 152.16,
+          "end": 152.5,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "tight",
+          "start": 152.5,
+          "end": 153.04,
+          "asr_segment_index": 33
+        }
+      ],
+      "matched_word_fraction": 0.8,
+      "text_similarity": 0.904,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen.",
+        "Lyrics-Zeile aus Turbo-Wortzeiten ergänzt; large-v3 konnte sie nicht ausreichend zuordnen."
+      ],
+      "id": 28,
+      "start_timecode": "00:02:29.940",
+      "end_timecode": "00:02:33.040",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "If it fails, send it back to us running tight",
+        "text_similarity": 0.904,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 153.52,
+      "end": 157.16,
+      "text": "I, I, I'm a Vibecoder. I'm a Vibecoder.",
+      "section": "Drop 2",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "I, I'm a five coder I am a five coder",
+      "asr_words": [
+        {
+          "word": "I,",
+          "start": 153.52,
+          "end": 153.88,
+          "asr_segment_index": 37
+        },
+        {
+          "word": "I'm",
+          "start": 153.88,
+          "end": 154.32,
+          "asr_segment_index": 37
+        },
+        {
+          "word": "a",
+          "start": 154.32,
+          "end": 154.58,
+          "asr_segment_index": 37
+        },
+        {
+          "word": "five",
+          "start": 154.58,
+          "end": 154.92,
+          "asr_segment_index": 37
+        },
+        {
+          "word": "coder",
+          "start": 154.92,
+          "end": 155.48,
+          "asr_segment_index": 37
+        },
+        {
+          "word": "I",
+          "start": 155.48,
+          "end": 155.72,
+          "asr_segment_index": 38
+        },
+        {
+          "word": "am",
+          "start": 155.72,
+          "end": 155.9,
+          "asr_segment_index": 38
+        },
+        {
+          "word": "a",
+          "start": 155.9,
+          "end": 156.08,
+          "asr_segment_index": 38
+        },
+        {
+          "word": "five",
+          "start": 156.08,
+          "end": 156.54,
+          "asr_segment_index": 38
+        },
+        {
+          "word": "coder",
+          "start": 156.54,
+          "end": 157.16,
+          "asr_segment_index": 38
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 29,
+      "start_timecode": "00:02:33.520",
+      "end_timecode": "00:02:37.160",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        39,
+        40
+      ]
+    },
+    {
+      "start": 157.16,
+      "end": 160.52,
+      "text": "I say it, he builds it, I test it — he makes it right.",
+      "section": "Drop 2",
+      "prompt_line_index": 29,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I say it, he builds it I test it, he makes it right",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 157.16,
+          "end": 157.46,
+          "asr_segment_index": 39
+        },
+        {
+          "word": "say",
+          "start": 157.46,
+          "end": 157.74,
+          "asr_segment_index": 39
+        },
+        {
+          "word": "it,",
+          "start": 157.74,
+          "end": 158.06,
+          "asr_segment_index": 39
+        },
+        {
+          "word": "he",
+          "start": 158.06,
+          "end": 158.32,
+          "asr_segment_index": 39
+        },
+        {
+          "word": "builds",
+          "start": 158.32,
+          "end": 158.68,
+          "asr_segment_index": 39
+        },
+        {
+          "word": "it",
+          "start": 158.68,
+          "end": 158.86,
+          "asr_segment_index": 39
+        },
+        {
+          "word": "I",
+          "start": 158.86,
+          "end": 159.26,
+          "asr_segment_index": 40
+        },
+        {
+          "word": "test",
+          "start": 159.26,
+          "end": 159.54,
+          "asr_segment_index": 40
+        },
+        {
+          "word": "it,",
+          "start": 159.54,
+          "end": 159.74,
+          "asr_segment_index": 40
+        },
+        {
+          "word": "he",
+          "start": 159.76,
+          "end": 159.84,
+          "asr_segment_index": 40
+        },
+        {
+          "word": "makes",
+          "start": 159.84,
+          "end": 160.08,
+          "asr_segment_index": 40
+        },
+        {
+          "word": "it",
+          "start": 160.08,
+          "end": 160.22,
+          "asr_segment_index": 40
+        },
+        {
+          "word": "right",
+          "start": 160.22,
+          "end": 160.52,
+          "asr_segment_index": 40
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 30,
+      "start_timecode": "00:02:37.160",
+      "end_timecode": "00:02:40.520",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I say it, he builds it, I test it, he makes it right",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 160.52,
+      "end": 163.56,
+      "text": "A diff, a test, a commit, and the next idea takes flight.",
+      "section": "Drop 2",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "A different test to commit And the next idea takes flight",
+      "asr_words": [
+        {
+          "word": "A",
+          "start": 160.52,
+          "end": 161.1,
+          "asr_segment_index": 41
+        },
+        {
+          "word": "different",
+          "start": 161.1,
+          "end": 161.42,
+          "asr_segment_index": 41
+        },
+        {
+          "word": "test",
+          "start": 161.42,
+          "end": 161.82,
+          "asr_segment_index": 41
+        },
+        {
+          "word": "to",
+          "start": 161.82,
+          "end": 161.96,
+          "asr_segment_index": 41
+        },
+        {
+          "word": "commit",
+          "start": 161.96,
+          "end": 162.16,
+          "asr_segment_index": 41
+        },
+        {
+          "word": "And",
+          "start": 162.16,
+          "end": 162.38,
+          "asr_segment_index": 42
+        },
+        {
+          "word": "the",
+          "start": 162.38,
+          "end": 162.54,
+          "asr_segment_index": 42
+        },
+        {
+          "word": "next",
+          "start": 162.54,
+          "end": 162.74,
+          "asr_segment_index": 42
+        },
+        {
+          "word": "idea",
+          "start": 162.74,
+          "end": 163.08,
+          "asr_segment_index": 42
+        },
+        {
+          "word": "takes",
+          "start": 163.08,
+          "end": 163.34,
+          "asr_segment_index": 42
+        },
+        {
+          "word": "flight",
+          "start": 163.34,
+          "end": 163.56,
+          "asr_segment_index": 42
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 31,
+      "start_timecode": "00:02:40.520",
+      "end_timecode": "00:02:43.560",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        42,
+        43
+      ]
+    },
+    {
+      "start": 165.28,
+      "end": 167.12,
+      "text": "You don't know what's beneath",
+      "section": "Bridge",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "You don't know what's beneath",
+      "asr_words": [
+        {
+          "word": "You",
+          "start": 165.28,
+          "end": 165.84,
+          "asr_segment_index": 43
+        },
+        {
+          "word": "don't",
+          "start": 165.84,
+          "end": 166.4,
+          "asr_segment_index": 43
+        },
+        {
+          "word": "know",
+          "start": 166.4,
+          "end": 166.52,
+          "asr_segment_index": 43
+        },
+        {
+          "word": "what's",
+          "start": 166.52,
+          "end": 166.8,
+          "asr_segment_index": 43
+        },
+        {
+          "word": "beneath",
+          "start": 166.8,
+          "end": 167.12,
+          "asr_segment_index": 43
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 32,
+      "start_timecode": "00:02:45.280",
+      "end_timecode": "00:02:47.120",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "You don't know what's beneath",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 168.18,
+      "end": 170.86,
+      "text": "Not all of it. I know what I need.",
+      "section": "Bridge",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "Not all of it, I know what I need",
+      "asr_words": [
+        {
+          "word": "Not",
+          "start": 168.18,
+          "end": 168.74,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "all",
+          "start": 168.74,
+          "end": 169.04,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "of",
+          "start": 169.04,
+          "end": 169.3,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "it,",
+          "start": 169.3,
+          "end": 169.58,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "I",
+          "start": 169.58,
+          "end": 169.76,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "know",
+          "start": 169.76,
+          "end": 170.06,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "what",
+          "start": 170.06,
+          "end": 170.34,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "I",
+          "start": 170.34,
+          "end": 170.58,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "need",
+          "start": 170.58,
+          "end": 170.86,
+          "asr_segment_index": 44
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 33,
+      "start_timecode": "00:02:48.180",
+      "end_timecode": "00:02:50.860",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        45,
+        46
+      ]
+    },
+    {
+      "start": 170.86,
+      "end": 174.44,
+      "text": "\"You call that code?\" I hear him say.",
+      "section": "Bridge",
+      "prompt_line_index": 33,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "You call that code I hear him say",
+      "asr_words": [
+        {
+          "word": "You",
+          "start": 170.86,
+          "end": 171.94,
+          "asr_segment_index": 45
+        },
+        {
+          "word": "call",
+          "start": 171.94,
+          "end": 172.16,
+          "asr_segment_index": 45
+        },
+        {
+          "word": "that",
+          "start": 172.16,
+          "end": 172.4,
+          "asr_segment_index": 45
+        },
+        {
+          "word": "code",
+          "start": 172.4,
+          "end": 172.74,
+          "asr_segment_index": 45
+        },
+        {
+          "word": "I",
+          "start": 172.74,
+          "end": 173.76,
+          "asr_segment_index": 46
+        },
+        {
+          "word": "hear",
+          "start": 173.76,
+          "end": 174.0,
+          "asr_segment_index": 46
+        },
+        {
+          "word": "him",
+          "start": 174.0,
+          "end": 174.18,
+          "asr_segment_index": 46
+        },
+        {
+          "word": "say",
+          "start": 174.18,
+          "end": 174.44,
+          "asr_segment_index": 46
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 34,
+      "start_timecode": "00:02:50.860",
+      "end_timecode": "00:02:54.440",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "You call that code, I hear him say",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 174.44,
+      "end": 177.34,
+      "text": "\"Call it what you want. I'm building anyway.\"",
+      "section": "Bridge",
+      "prompt_line_index": 34,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Call it what you want, I'm building anyway",
+      "asr_words": [
+        {
+          "word": "Call",
+          "start": 174.44,
+          "end": 175.3,
+          "asr_segment_index": 47
+        },
+        {
+          "word": "it",
+          "start": 175.3,
+          "end": 175.54,
+          "asr_segment_index": 47
+        },
+        {
+          "word": "what",
+          "start": 175.54,
+          "end": 175.74,
+          "asr_segment_index": 47
+        },
+        {
+          "word": "you",
+          "start": 175.74,
+          "end": 176.04,
+          "asr_segment_index": 47
+        },
+        {
+          "word": "want,",
+          "start": 176.04,
+          "end": 176.28,
+          "asr_segment_index": 47
+        },
+        {
+          "word": "I'm",
+          "start": 176.32,
+          "end": 176.52,
+          "asr_segment_index": 47
+        },
+        {
+          "word": "building",
+          "start": 176.52,
+          "end": 176.78,
+          "asr_segment_index": 47
+        },
+        {
+          "word": "anyway",
+          "start": 176.78,
+          "end": 177.34,
+          "asr_segment_index": 47
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 35,
+      "start_timecode": "00:02:54.440",
+      "end_timecode": "00:02:57.340",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Call it what you want, I'm building anyway",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 183.86,
+      "end": 186.04,
+      "text": "I'm a vibe coder",
+      "section": "Final Drop",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "I'm a vibe coder",
+      "asr_words": [
+        {
+          "word": "I'm",
+          "start": 183.86,
+          "end": 184.82,
+          "asr_segment_index": 48
+        },
+        {
+          "word": "a",
+          "start": 184.82,
+          "end": 184.94,
+          "asr_segment_index": 48
+        },
+        {
+          "word": "vibe",
+          "start": 184.94,
+          "end": 185.38,
+          "asr_segment_index": 48
+        },
+        {
+          "word": "coder",
+          "start": 185.38,
+          "end": 186.04,
+          "asr_segment_index": 48
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 36,
+      "start_timecode": "00:03:03.860",
+      "end_timecode": "00:03:06.040",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I'm a vibe coder",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 191.42,
+      "end": 195.04,
+      "text": "The new generation's loud.",
+      "section": "Final Drop",
+      "prompt_line_index": 36,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "The new generation's loud",
+      "asr_words": [
+        {
+          "word": "The",
+          "start": 191.42,
+          "end": 192.38,
+          "asr_segment_index": 49
+        },
+        {
+          "word": "new",
+          "start": 192.38,
+          "end": 193.34,
+          "asr_segment_index": 49
+        },
+        {
+          "word": "generation's",
+          "start": 193.34,
+          "end": 194.84,
+          "asr_segment_index": 49
+        },
+        {
+          "word": "loud",
+          "start": 194.84,
+          "end": 195.04,
+          "asr_segment_index": 49
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 37,
+      "start_timecode": "00:03:11.420",
+      "end_timecode": "00:03:15.040",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "New generations",
+        "text_similarity": 0.8,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 198.4,
+      "end": 200.36,
+      "text": "I'm a vibe coder",
+      "section": "Final Drop",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "I'm a vibe coder",
+      "asr_words": [
+        {
+          "word": "I'm",
+          "start": 198.4,
+          "end": 199.36,
+          "asr_segment_index": 50
+        },
+        {
+          "word": "a",
+          "start": 199.36,
+          "end": 199.38,
+          "asr_segment_index": 50
+        },
+        {
+          "word": "vibe",
+          "start": 199.38,
+          "end": 199.8,
+          "asr_segment_index": 50
+        },
+        {
+          "word": "coder",
+          "start": 199.8,
+          "end": 200.36,
+          "asr_segment_index": 50
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 38,
+      "start_timecode": "00:03:18.400",
+      "end_timecode": "00:03:20.360",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I'm a vibe coder",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 200.36,
+      "end": 203.44,
+      "text": "Bass rolls on. Bass rolls on.",
+      "section": "Final Drop",
+      "prompt_line_index": 38,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Base rolls on, base rolls on",
+      "asr_words": [
+        {
+          "word": "Base",
+          "start": 200.36,
+          "end": 200.74,
+          "asr_segment_index": 51
+        },
+        {
+          "word": "rolls",
+          "start": 200.74,
+          "end": 201.14,
+          "asr_segment_index": 51
+        },
+        {
+          "word": "on,",
+          "start": 201.14,
+          "end": 201.54,
+          "asr_segment_index": 51
+        },
+        {
+          "word": "base",
+          "start": 201.74,
+          "end": 202.4,
+          "asr_segment_index": 51
+        },
+        {
+          "word": "rolls",
+          "start": 202.4,
+          "end": 202.88,
+          "asr_segment_index": 51
+        },
+        {
+          "word": "on",
+          "start": 202.88,
+          "end": 203.44,
+          "asr_segment_index": 51
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 0.909,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen."
+      ],
+      "id": 39,
+      "start_timecode": "00:03:20.360",
+      "end_timecode": "00:03:23.440",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Base rolls on, base rolls on",
+        "text_similarity": 0.909,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 203.74,
+      "end": 207.7,
+      "text": "Break it down. Let it go.",
+      "section": "Final Drop",
+      "asr_text": "Don't, don't break the hill, let it go",
+      "asr_words": [
+        {
+          "word": "Don't,",
+          "start": 203.74,
+          "end": 204.64
+        },
+        {
+          "word": "don't",
+          "start": 204.68,
+          "end": 205.86
+        },
+        {
+          "word": "break",
+          "start": 205.86,
+          "end": 206.1
+        },
+        {
+          "word": "the",
+          "start": 206.1,
+          "end": 206.32
+        },
+        {
+          "word": "hill,",
+          "start": 206.32,
+          "end": 206.68
+        },
+        {
+          "word": "let",
+          "start": 206.78,
+          "end": 207.08
+        },
+        {
+          "word": "it",
+          "start": 207.08,
+          "end": 207.22
+        },
+        {
+          "word": "go",
+          "start": 207.22,
+          "end": 207.7
+        }
+      ],
+      "original_cue_ids": [],
+      "text_source": "Turbo-ASR und unabhängiges Kurzfenster; redaktionelle Normalisierung ohne Hörprüfung",
+      "timing_model": "mlx-community/whisper-large-v3-turbo / Cross-Attention DTW",
+      "review_required": true,
+      "review_reasons": [
+        "Text weicht vom Referenzprompt ab und ist zwischen ASR-Fenstern strittig; an der WAV nachhören."
+      ],
+      "id": 40,
+      "start_timecode": "00:03:23.740",
+      "end_timecode": "00:03:27.700"
+    },
+    {
+      "start": 207.7,
+      "end": 212.18,
+      "text": "Let it roll. Let it roll. Let it roll. Let it roll.",
+      "section": "Final Drop",
+      "asr_text": "Let it roll, let it roll, let it roll, let it roll, let it roll",
+      "asr_words": [
+        {
+          "word": "Let",
+          "start": 207.7,
+          "end": 208.36
+        },
+        {
+          "word": "it",
+          "start": 208.36,
+          "end": 208.56
+        },
+        {
+          "word": "roll,",
+          "start": 208.56,
+          "end": 208.92
+        },
+        {
+          "word": "let",
+          "start": 209.14,
+          "end": 209.32
+        },
+        {
+          "word": "it",
+          "start": 209.32,
+          "end": 209.42
+        },
+        {
+          "word": "roll,",
+          "start": 209.42,
+          "end": 209.82
+        },
+        {
+          "word": "let",
+          "start": 209.82,
+          "end": 210.22
+        },
+        {
+          "word": "it",
+          "start": 210.22,
+          "end": 210.36
+        },
+        {
+          "word": "roll,",
+          "start": 210.36,
+          "end": 210.72
+        },
+        {
+          "word": "let",
+          "start": 210.78,
+          "end": 211.06
+        },
+        {
+          "word": "it",
+          "start": 211.06,
+          "end": 211.22
+        },
+        {
+          "word": "roll,",
+          "start": 211.22,
+          "end": 211.36
+        },
+        {
+          "word": "let",
+          "start": 211.4,
+          "end": 212.0
+        },
+        {
+          "word": "it",
+          "start": 212.0,
+          "end": 212.18
+        }
+      ],
+      "original_cue_ids": [],
+      "text_source": "Turbo-ASR und unabhängiges Kurzfenster; redaktionelle Normalisierung ohne Hörprüfung",
+      "timing_model": "mlx-community/whisper-large-v3-turbo / Cross-Attention DTW",
+      "review_required": true,
+      "review_reasons": [
+        "Text weicht vom Referenzprompt ab und ist zwischen ASR-Fenstern strittig; an der WAV nachhören."
+      ],
+      "id": 41,
+      "start_timecode": "00:03:27.700",
+      "end_timecode": "00:03:32.180"
+    },
+    {
+      "start": 212.62,
+      "end": 214.82,
+      "text": "I'm a vibe coder",
+      "section": "Final Drop",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "I'm a vibe coder",
+      "asr_words": [
+        {
+          "word": "I'm",
+          "start": 212.62,
+          "end": 213.7,
+          "asr_segment_index": 52
+        },
+        {
+          "word": "a",
+          "start": 213.7,
+          "end": 213.84,
+          "asr_segment_index": 52
+        },
+        {
+          "word": "vibe",
+          "start": 213.84,
+          "end": 214.28,
+          "asr_segment_index": 52
+        },
+        {
+          "word": "coder",
+          "start": 214.28,
+          "end": 214.82,
+          "asr_segment_index": 52
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 42,
+      "start_timecode": "00:03:32.620",
+      "end_timecode": "00:03:34.820",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I'm a vibe coder",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 218.18,
+      "end": 221.68,
+      "text": "Bass rolls on. Bass rolls on.",
+      "section": "Final Drop",
+      "prompt_line_index": 42,
+      "timing_model": "mlx-community/whisper-large-v3-turbo / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Base rolls on, base rolls on",
+      "asr_words": [
+        {
+          "word": "Base",
+          "start": 218.18,
+          "end": 218.9,
+          "asr_segment_index": 48
+        },
+        {
+          "word": "rolls",
+          "start": 218.9,
+          "end": 219.38,
+          "asr_segment_index": 48
+        },
+        {
+          "word": "on,",
+          "start": 219.38,
+          "end": 219.8,
+          "asr_segment_index": 48
+        },
+        {
+          "word": "base",
+          "start": 220.04,
+          "end": 220.68,
+          "asr_segment_index": 48
+        },
+        {
+          "word": "rolls",
+          "start": 220.68,
+          "end": 221.12,
+          "asr_segment_index": 48
+        },
+        {
+          "word": "on",
+          "start": 221.12,
+          "end": 221.68,
+          "asr_segment_index": 48
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 0.909,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen.",
+        "Lyrics-Zeile aus Turbo-Wortzeiten ergänzt; large-v3 konnte sie nicht ausreichend zuordnen."
+      ],
+      "id": 43,
+      "start_timecode": "00:03:38.180",
+      "end_timecode": "00:03:41.680",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Base rolls on, base rolls on",
+        "text_similarity": 0.909,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 227.8,
+      "end": 233.06,
+      "text": "Prompt. Run. Check. Go.",
+      "section": "Outro",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "Promp Run Check Go",
+      "asr_words": [
+        {
+          "word": "Promp",
+          "start": 227.8,
+          "end": 228.84,
+          "asr_segment_index": 54
+        },
+        {
+          "word": "Run",
+          "start": 228.84,
+          "end": 229.02,
+          "asr_segment_index": 54
+        },
+        {
+          "word": "Check",
+          "start": 229.02,
+          "end": 230.38,
+          "asr_segment_index": 55
+        },
+        {
+          "word": "Go",
+          "start": 230.38,
+          "end": 233.06,
+          "asr_segment_index": 55
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 44,
+      "start_timecode": "00:03:47.800",
+      "end_timecode": "00:03:53.060",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        56,
+        57
+      ]
+    },
+    {
+      "start": 234.64,
+      "end": 236.3,
+      "text": "Bass rolls on.",
+      "section": "Outro",
+      "text_source": "Redaktionelle ASR-Normalisierung aus beiden Modellläufen und Referenzlyrics; keine Hörprüfung",
+      "asr_text": "Bass was on",
+      "asr_words": [
+        {
+          "word": "Bass",
+          "start": 234.64,
+          "end": 235.68,
+          "asr_segment_index": 56
+        },
+        {
+          "word": "was",
+          "start": 235.68,
+          "end": 236.02,
+          "asr_segment_index": 56
+        },
+        {
+          "word": "on",
+          "start": 236.02,
+          "end": 236.3,
+          "asr_segment_index": 56
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab.",
+        "Wortlaut redaktionell normalisiert; vor Untertiteln an der WAV nachhören."
+      ],
+      "id": 45,
+      "start_timecode": "00:03:54.640",
+      "end_timecode": "00:03:56.300",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "original_cue_ids": [
+        58
+      ]
+    },
+    {
+      "start": 241.66,
+      "end": 243.98,
+      "text": "Prompt. Run. Check. Go.",
+      "section": "Outro",
+      "prompt_line_index": 43,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Promp Run Check Go",
+      "asr_words": [
+        {
+          "word": "Promp",
+          "start": 241.66,
+          "end": 242.7,
+          "asr_segment_index": 57
+        },
+        {
+          "word": "Run",
+          "start": 242.7,
+          "end": 243.02,
+          "asr_segment_index": 57
+        },
+        {
+          "word": "Check",
+          "start": 243.02,
+          "end": 243.46,
+          "asr_segment_index": 57
+        },
+        {
+          "word": "Go",
+          "start": 243.46,
+          "end": 243.98,
+          "asr_segment_index": 57
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 0.968,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 46,
+      "start_timecode": "00:04:01.660",
+      "end_timecode": "00:04:03.980",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "",
+        "text_similarity": 0.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    }
+  ],
+  "unmatched_prompt_lines": [
+    {
+      "text": "I'm a vibecoder!",
+      "section": "Intro",
+      "first": 0,
+      "last": 2,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Eight a.m. The export froze.",
+      "section": "Verse 1",
+      "first": 3,
+      "last": 7,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "New coders. New pulse.",
+      "section": "Build",
+      "first": 24,
+      "last": 27,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I am a Vibecoder!",
+      "section": "Drop",
+      "first": 48,
+      "last": 51,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I say it, he builds it, I test it — he makes it right.",
+      "section": "Drop",
+      "first": 52,
+      "last": 64,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I am a Vibecoder!",
+      "section": "Drop",
+      "first": 65,
+      "last": 68,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "If it fails, send it back till it’s running tight.",
+      "section": "Drop",
+      "first": 69,
+      "last": 78,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I am a Vibecoder!",
+      "section": "Drop",
+      "first": 79,
+      "last": 82,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I say it, he builds it, I test it — he makes it right.",
+      "section": "Drop",
+      "first": 83,
+      "last": 95,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "A diff, a test, a commit — and the next idea takes flight.",
+      "section": "Drop",
+      "first": 96,
+      "last": 107,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Night falls. Store full, nothing fits.",
+      "section": "Verse 2",
+      "first": 138,
+      "last": 143,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "A screen lights up. One button works.",
+      "section": "Verse 2",
+      "first": 151,
+      "last": 157,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I am a Vibecoder!",
+      "section": "Drop",
+      "first": 165,
+      "last": 168,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I say it, he builds it, I test it — he makes it right.",
+      "section": "Drop",
+      "first": 169,
+      "last": 181,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I am a Vibecoder!",
+      "section": "Drop",
+      "first": 182,
+      "last": 185,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I am a Vibecoder!",
+      "section": "Drop",
+      "first": 196,
+      "last": 199,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "A diff, a test, a commit — and the next idea takes flight.",
+      "section": "Drop",
+      "first": 213,
+      "last": 224,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Hardcoder: \"You don't know what's beneath.\"",
+      "section": "Bridge",
+      "first": 225,
+      "last": 230,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Me: \"Not all of it. I know what I need.\"",
+      "section": "Bridge",
+      "first": 231,
+      "last": 240,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I'm a vibecoder!",
+      "section": "Final Drop",
+      "first": 257,
+      "last": 259,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I'm a vibecoder!",
+      "section": "Final Drop",
+      "first": 264,
+      "last": 266,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "A thought. A prompt. A working build.",
+      "section": "Final Drop",
+      "first": 273,
+      "last": 279,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I'm a vibecoder!",
+      "section": "Final Drop",
+      "first": 286,
+      "last": 288,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Bass rolls on.",
+      "section": "Outro",
+      "first": 299,
+      "last": 301,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    }
+  ],
+  "excluded_asr_words": [],
+  "structural_sections": [
+    {
+      "start_s": 0,
+      "end_s": 11,
+      "label": "Intro",
+      "origin": "Redaktioneller Schnittanker aus ASR und Songform; keine exakte musikalische Downbeat-Messung"
+    },
+    {
+      "start_s": 11,
+      "end_s": 32,
+      "label": "Instrumentaler Vorlauf",
+      "origin": "Redaktioneller Schnittanker aus ASR und Songform; keine exakte musikalische Downbeat-Messung"
+    },
+    {
+      "start_s": 32,
+      "end_s": 46,
+      "label": "Verse 1",
+      "origin": "Redaktioneller Schnittanker aus ASR und Songform; keine exakte musikalische Downbeat-Messung"
+    },
+    {
+      "start_s": 46,
+      "end_s": 59.5,
+      "label": "Build",
+      "origin": "Redaktioneller Schnittanker aus ASR und Songform; keine exakte musikalische Downbeat-Messung"
+    },
+    {
+      "start_s": 59.5,
+      "end_s": 83,
+      "label": "Drop 1",
+      "origin": "Redaktioneller Schnittanker aus ASR und Songform; keine exakte musikalische Downbeat-Messung"
+    },
+    {
+      "start_s": 83,
+      "end_s": 111,
+      "label": "Instrumental Break",
+      "origin": "Redaktioneller Schnittanker aus ASR und Songform; keine exakte musikalische Downbeat-Messung"
+    },
+    {
+      "start_s": 111,
+      "end_s": 139.5,
+      "label": "Verse 2",
+      "origin": "Redaktioneller Schnittanker aus ASR und Songform; keine exakte musikalische Downbeat-Messung"
+    },
+    {
+      "start_s": 139.5,
+      "end_s": 165,
+      "label": "Drop 2",
+      "origin": "Redaktioneller Schnittanker aus ASR und Songform; keine exakte musikalische Downbeat-Messung"
+    },
+    {
+      "start_s": 165,
+      "end_s": 183,
+      "label": "Bridge",
+      "origin": "Redaktioneller Schnittanker aus ASR und Songform; keine exakte musikalische Downbeat-Messung"
+    },
+    {
+      "start_s": 183,
+      "end_s": 227,
+      "label": "Final Drop",
+      "origin": "Redaktioneller Schnittanker aus ASR und Songform; keine exakte musikalische Downbeat-Messung"
+    },
+    {
+      "start_s": 227,
+      "end_s": 244.76,
+      "label": "Outro",
+      "origin": "Redaktioneller Schnittanker aus ASR und Songform; keine exakte musikalische Downbeat-Messung"
+    }
+  ],
+  "section_curation_note": "Abschnittsgrenzen sind redaktionelle Filmanker. Gesangszeiten stammen aus ASR-Wortgrenzen, nicht aus dem Raster.",
+  "short_window_asr_path": "asr/short-windows.json",
+  "short_window_asr_sha256": "723ad6086320b0c4cf1dc0c253e8c619cf667cc233554fcb88c8657ea2eacc46",
+  "curation_note": "Die aktuellen Referenzlyrics wurden mit den beiden ASR-Läufen abgeglichen. Einzelne undeutliche oder anders gesungene Passagen bleiben offen, besonders im EN-Finale. Kein fehlender Promptsatz wird ohne ASR-Beleg als gesungen behauptet. Normalisierte Zeilen sind explizit markiert."
+}

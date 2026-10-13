@@ -10,7 +10,7 @@ identisch übernommene Audioanalysen und Verweise auf ihre finalen Musikquellen.
 
 | Track | Stand | Einstieg |
 | --- | --- | --- |
-| 01 · VIBECODER | Platzhalter; DE-Audio final, EN Entwurf | [Projekt](01_Vibecoder/README.md) |
+| 01 · VIBECODER | Video-Platzhalter; DE- und EN-Audio final, Transkript und Audioanalyse im Musikordner | [Projekt](01_Vibecoder/README.md) |
 | 02 · TOKEN BURN | Live-Code DE/EN, online auf kisound.ch mit Fassungswahl (Port 8170) | [Drehbuch](02_Token_Burn/ASTRA-DREHBUCH.md) · [Projekt](02_Token_Burn/README.md) |
 | 03 · SHIP IT | Live-Code DE/EN, online mit Fassungswahl (Port 8172, 12.10.2026) | [Drehbuch](03_SHIP_IT/ASTRA-DREHBUCH.md) · [Projekt](03_SHIP_IT/README.md) |
 | 04 · AI SLOP | Platzhalter; Überarbeitung offen | [Projekt](04_AI_Slop/README.md) |

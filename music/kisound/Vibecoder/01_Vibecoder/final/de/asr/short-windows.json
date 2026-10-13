@@ -1,0 +1,765 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx",
+  "runtime": "MLX GPU, unabhängige kurze Fenster ohne Lyrics-Prompt",
+  "source_audio": "/Users/samuel.heinrich/0004_git/kisound/music/kisound/Vibecoder/01_Vibecoder/final/01_Vibecoder_suno-0.1_50_50_exakt_off_DE.wav",
+  "source_audio_sha256": "2a32ee2e01c429f1a051cfe913448576d7e6615930567220aca48feada845d97",
+  "language": "de",
+  "windows": [
+    {
+      "start_s": 18,
+      "end_s": 29,
+      "elapsed_s": 5.26,
+      "segments": [
+        {
+          "start": 21.08,
+          "end": 27.94,
+          "text": "Acht Uhr Export, hängt fest Kaffee kalt, die Uhr macht Stress",
+          "words": [
+            {
+              "word": "Acht",
+              "start": 21.08,
+              "end": 22.0
+            },
+            {
+              "word": "Uhr",
+              "start": 22.0,
+              "end": 22.34
+            },
+            {
+              "word": "Export,",
+              "start": 22.34,
+              "end": 22.92
+            },
+            {
+              "word": "hängt",
+              "start": 23.22,
+              "end": 23.98
+            },
+            {
+              "word": "fest",
+              "start": 23.98,
+              "end": 24.34
+            },
+            {
+              "word": "Kaffee",
+              "start": 24.34,
+              "end": 25.78
+            },
+            {
+              "word": "kalt,",
+              "start": 25.78,
+              "end": 26.3
+            },
+            {
+              "word": "die",
+              "start": 26.32,
+              "end": 26.54
+            },
+            {
+              "word": "Uhr",
+              "start": 26.54,
+              "end": 27.04
+            },
+            {
+              "word": "macht",
+              "start": 27.04,
+              "end": 27.48
+            },
+            {
+              "word": "Stress",
+              "start": 27.48,
+              "end": 27.94
+            }
+          ],
+          "avg_logprob": -0.25582313537597656,
+          "no_speech_prob": 0.41981908679008484
+        }
+      ]
+    },
+    {
+      "start_s": 29,
+      "end_s": 36,
+      "elapsed_s": 2.96,
+      "segments": [
+        {
+          "start": 29.0,
+          "end": 35.14,
+          "text": "Kommt rein, Skript an Daten, klar, zwei Tests grün, nächste Idee ist da.",
+          "words": [
+            {
+              "word": "Kommt",
+              "start": 29.0,
+              "end": 29.4
+            },
+            {
+              "word": "rein,",
+              "start": 29.4,
+              "end": 29.56
+            },
+            {
+              "word": "Skript",
+              "start": 29.64,
+              "end": 30.2
+            },
+            {
+              "word": "an",
+              "start": 30.2,
+              "end": 30.4
+            },
+            {
+              "word": "Daten,",
+              "start": 30.4,
+              "end": 30.92
+            },
+            {
+              "word": "klar,",
+              "start": 31.1,
+              "end": 31.52
+            },
+            {
+              "word": "zwei",
+              "start": 31.68,
+              "end": 31.96
+            },
+            {
+              "word": "Tests",
+              "start": 31.96,
+              "end": 32.7
+            },
+            {
+              "word": "grün,",
+              "start": 32.7,
+              "end": 33.06
+            },
+            {
+              "word": "nächste",
+              "start": 33.06,
+              "end": 33.56
+            },
+            {
+              "word": "Idee",
+              "start": 33.56,
+              "end": 34.18
+            },
+            {
+              "word": "ist",
+              "start": 34.18,
+              "end": 34.78
+            },
+            {
+              "word": "da.",
+              "start": 34.78,
+              "end": 35.14
+            }
+          ],
+          "avg_logprob": -0.2061440761272724,
+          "no_speech_prob": 0.13043740391731262
+        }
+      ]
+    },
+    {
+      "start_s": 47,
+      "end_s": 54,
+      "elapsed_s": 3.53,
+      "segments": [
+        {
+          "start": 47.0,
+          "end": 48.1,
+          "text": "Ich seh den Weg",
+          "words": [
+            {
+              "word": "Ich",
+              "start": 47.0,
+              "end": 47.34
+            },
+            {
+              "word": "seh",
+              "start": 47.34,
+              "end": 47.64
+            },
+            {
+              "word": "den",
+              "start": 47.64,
+              "end": 47.76
+            },
+            {
+              "word": "Weg",
+              "start": 47.76,
+              "end": 48.1
+            }
+          ],
+          "avg_logprob": -0.3185065057542589,
+          "no_speech_prob": 0.40543466806411743
+        },
+        {
+          "start": 48.1,
+          "end": 49.58,
+          "text": "Die Dritten",
+          "words": [
+            {
+              "word": "Die",
+              "start": 48.1,
+              "end": 48.92
+            },
+            {
+              "word": "Dritten",
+              "start": 48.92,
+              "end": 49.58
+            }
+          ],
+          "avg_logprob": -0.3185065057542589,
+          "no_speech_prob": 0.40543466806411743
+        },
+        {
+          "start": 49.58,
+          "end": 50.86,
+          "text": "Ich bin Vibe-Coder",
+          "words": [
+            {
+              "word": "Ich",
+              "start": 49.58,
+              "end": 49.82
+            },
+            {
+              "word": "bin",
+              "start": 49.82,
+              "end": 50.0
+            },
+            {
+              "word": "Vibe",
+              "start": 50.0,
+              "end": 50.54
+            },
+            {
+              "word": "-Coder",
+              "start": 50.54,
+              "end": 50.86
+            }
+          ],
+          "avg_logprob": -0.3185065057542589,
+          "no_speech_prob": 0.40543466806411743
+        },
+        {
+          "start": 50.86,
+          "end": 53.98,
+          "text": "Ich sag's ab aus, ich test's effektiv",
+          "words": [
+            {
+              "word": "Ich",
+              "start": 50.86,
+              "end": 51.88
+            },
+            {
+              "word": "sag's",
+              "start": 51.88,
+              "end": 52.16
+            },
+            {
+              "word": "ab",
+              "start": 52.16,
+              "end": 52.32
+            },
+            {
+              "word": "aus,",
+              "start": 52.32,
+              "end": 52.64
+            },
+            {
+              "word": "ich",
+              "start": 52.8,
+              "end": 53.0
+            },
+            {
+              "word": "test's",
+              "start": 53.0,
+              "end": 53.5
+            },
+            {
+              "word": "effektiv",
+              "start": 53.5,
+              "end": 53.98
+            }
+          ],
+          "avg_logprob": -0.3185065057542589,
+          "no_speech_prob": 0.40543466806411743
+        }
+      ]
+    },
+    {
+      "start_s": 64,
+      "end_s": 72,
+      "elapsed_s": 3.62,
+      "segments": [
+        {
+          "start": 64.0,
+          "end": 65.3,
+          "text": "Ich bin sein Coder",
+          "words": [
+            {
+              "word": "Ich",
+              "start": 64.0,
+              "end": 64.3
+            },
+            {
+              "word": "bin",
+              "start": 64.3,
+              "end": 64.46
+            },
+            {
+              "word": "sein",
+              "start": 64.46,
+              "end": 64.8
+            },
+            {
+              "word": "Coder",
+              "start": 64.8,
+              "end": 65.3
+            }
+          ],
+          "avg_logprob": -0.33647909829782885,
+          "no_speech_prob": 0.5655349493026733
+        },
+        {
+          "start": 65.3,
+          "end": 67.64,
+          "text": "Ich sag's, er baut, ich test",
+          "words": [
+            {
+              "word": "Ich",
+              "start": 65.3,
+              "end": 66.26
+            },
+            {
+              "word": "sag's,",
+              "start": 66.26,
+              "end": 66.66
+            },
+            {
+              "word": "er",
+              "start": 66.66,
+              "end": 66.7
+            },
+            {
+              "word": "baut,",
+              "start": 66.7,
+              "end": 67.16
+            },
+            {
+              "word": "ich",
+              "start": 67.16,
+              "end": 67.4
+            },
+            {
+              "word": "test",
+              "start": 67.4,
+              "end": 67.64
+            }
+          ],
+          "avg_logprob": -0.33647909829782885,
+          "no_speech_prob": 0.5655349493026733
+        },
+        {
+          "start": 67.64,
+          "end": 69.26,
+          "text": "Er fickt sein Diff, ein Test",
+          "words": [
+            {
+              "word": "Er",
+              "start": 67.64,
+              "end": 68.02
+            },
+            {
+              "word": "fickt",
+              "start": 68.02,
+              "end": 68.4
+            },
+            {
+              "word": "sein",
+              "start": 68.4,
+              "end": 68.5
+            },
+            {
+              "word": "Diff,",
+              "start": 68.5,
+              "end": 68.9
+            },
+            {
+              "word": "ein",
+              "start": 68.96,
+              "end": 69.02
+            },
+            {
+              "word": "Test",
+              "start": 69.02,
+              "end": 69.26
+            }
+          ],
+          "avg_logprob": -0.33647909829782885,
+          "no_speech_prob": 0.5655349493026733
+        },
+        {
+          "start": 69.26,
+          "end": 71.72,
+          "text": "Ein Komet und die nächste Idee blitzt",
+          "words": [
+            {
+              "word": "Ein",
+              "start": 69.26,
+              "end": 69.62
+            },
+            {
+              "word": "Komet",
+              "start": 69.62,
+              "end": 70.06
+            },
+            {
+              "word": "und",
+              "start": 70.06,
+              "end": 70.28
+            },
+            {
+              "word": "die",
+              "start": 70.28,
+              "end": 70.42
+            },
+            {
+              "word": "nächste",
+              "start": 70.42,
+              "end": 70.68
+            },
+            {
+              "word": "Idee",
+              "start": 70.68,
+              "end": 71.08
+            },
+            {
+              "word": "blitzt",
+              "start": 71.08,
+              "end": 71.72
+            }
+          ],
+          "avg_logprob": -0.33647909829782885,
+          "no_speech_prob": 0.5655349493026733
+        }
+      ]
+    },
+    {
+      "start_s": 106,
+      "end_s": 115,
+      "elapsed_s": 3.34,
+      "segments": [
+        {
+          "start": 106.0,
+          "end": 107.42,
+          "text": "Von Ort zu Ort",
+          "words": [
+            {
+              "word": "Von",
+              "start": 106.0,
+              "end": 106.26
+            },
+            {
+              "word": "Ort",
+              "start": 106.26,
+              "end": 106.54
+            },
+            {
+              "word": "zu",
+              "start": 106.54,
+              "end": 106.84
+            },
+            {
+              "word": "Ort",
+              "start": 106.84,
+              "end": 107.42
+            }
+          ],
+          "avg_logprob": -0.30250572336131126,
+          "no_speech_prob": 0.4462875425815582
+        },
+        {
+          "start": 107.42,
+          "end": 109.56,
+          "text": "Haben Sätt gesucht",
+          "words": [
+            {
+              "word": "Haben",
+              "start": 107.42,
+              "end": 108.46
+            },
+            {
+              "word": "Sätt",
+              "start": 108.46,
+              "end": 108.96
+            },
+            {
+              "word": "gesucht",
+              "start": 108.96,
+              "end": 109.56
+            }
+          ],
+          "avg_logprob": -0.30250572336131126,
+          "no_speech_prob": 0.4462875425815582
+        },
+        {
+          "start": 109.56,
+          "end": 110.92,
+          "text": "Store voll",
+          "words": [
+            {
+              "word": "Store",
+              "start": 109.56,
+              "end": 110.42
+            },
+            {
+              "word": "voll",
+              "start": 110.42,
+              "end": 110.92
+            }
+          ],
+          "avg_logprob": -0.30250572336131126,
+          "no_speech_prob": 0.4462875425815582
+        },
+        {
+          "start": 110.92,
+          "end": 114.78,
+          "text": "Ich sag dem Agenten, was sie soll",
+          "words": [
+            {
+              "word": "Ich",
+              "start": 110.92,
+              "end": 111.82
+            },
+            {
+              "word": "sag",
+              "start": 111.82,
+              "end": 112.08
+            },
+            {
+              "word": "dem",
+              "start": 112.08,
+              "end": 112.56
+            },
+            {
+              "word": "Agenten,",
+              "start": 112.56,
+              "end": 113.32
+            },
+            {
+              "word": "was",
+              "start": 113.32,
+              "end": 113.82
+            },
+            {
+              "word": "sie",
+              "start": 113.82,
+              "end": 114.22
+            },
+            {
+              "word": "soll",
+              "start": 114.22,
+              "end": 114.78
+            }
+          ],
+          "avg_logprob": -0.30250572336131126,
+          "no_speech_prob": 0.4462875425815582
+        }
+      ]
+    },
+    {
+      "start_s": 156,
+      "end_s": 168,
+      "elapsed_s": 3.6,
+      "segments": [
+        {
+          "start": 156.0,
+          "end": 157.82,
+          "text": "Du willst, ich baue es trotzdem",
+          "words": [
+            {
+              "word": "Du",
+              "start": 156.0,
+              "end": 156.1
+            },
+            {
+              "word": "willst,",
+              "start": 156.1,
+              "end": 156.4
+            },
+            {
+              "word": "ich",
+              "start": 156.5,
+              "end": 157.16
+            },
+            {
+              "word": "baue",
+              "start": 157.16,
+              "end": 157.44
+            },
+            {
+              "word": "es",
+              "start": 157.44,
+              "end": 157.46
+            },
+            {
+              "word": "trotzdem",
+              "start": 157.46,
+              "end": 157.82
+            }
+          ],
+          "avg_logprob": -0.34874650835990906,
+          "no_speech_prob": 0.3864286243915558
+        },
+        {
+          "start": 157.82,
+          "end": 159.08,
+          "text": "Ich bin Vakuum",
+          "words": [
+            {
+              "word": "Ich",
+              "start": 157.82,
+              "end": 158.12
+            },
+            {
+              "word": "bin",
+              "start": 158.12,
+              "end": 158.28
+            },
+            {
+              "word": "Vakuum",
+              "start": 158.28,
+              "end": 159.08
+            }
+          ],
+          "avg_logprob": -0.34874650835990906,
+          "no_speech_prob": 0.3864286243915558
+        },
+        {
+          "start": 159.08,
+          "end": 165.12,
+          "text": "Die neue Generation ist laut",
+          "words": [
+            {
+              "word": "Die",
+              "start": 159.08,
+              "end": 159.8
+            },
+            {
+              "word": "neue",
+              "start": 159.8,
+              "end": 163.1
+            },
+            {
+              "word": "Generation",
+              "start": 163.1,
+              "end": 164.16
+            },
+            {
+              "word": "ist",
+              "start": 164.16,
+              "end": 164.82
+            },
+            {
+              "word": "laut",
+              "start": 164.82,
+              "end": 165.12
+            }
+          ],
+          "avg_logprob": -0.34874650835990906,
+          "no_speech_prob": 0.3864286243915558
+        },
+        {
+          "start": 165.12,
+          "end": 166.22,
+          "text": "Ich bin Vakuum",
+          "words": [
+            {
+              "word": "Ich",
+              "start": 165.12,
+              "end": 165.4
+            },
+            {
+              "word": "bin",
+              "start": 165.4,
+              "end": 165.42
+            },
+            {
+              "word": "Vakuum",
+              "start": 165.42,
+              "end": 166.22
+            }
+          ],
+          "avg_logprob": -0.34874650835990906,
+          "no_speech_prob": 0.3864286243915558
+        }
+      ]
+    },
+    {
+      "start_s": 168,
+      "end_s": 181,
+      "elapsed_s": 1.46,
+      "segments": []
+    },
+    {
+      "start_s": 181,
+      "end_s": 195,
+      "elapsed_s": 1.32,
+      "segments": []
+    },
+    {
+      "start_s": 199,
+      "end_s": 216.24,
+      "elapsed_s": 2.98,
+      "segments": [
+        {
+          "start": 202.18,
+          "end": 204.14,
+          "text": "Prunk, Prank, Check, Go",
+          "words": [
+            {
+              "word": "Prunk,",
+              "start": 202.18,
+              "end": 202.94
+            },
+            {
+              "word": "Prank,",
+              "start": 202.94,
+              "end": 203.4
+            },
+            {
+              "word": "Check,",
+              "start": 203.42,
+              "end": 203.7
+            },
+            {
+              "word": "Go",
+              "start": 203.76,
+              "end": 204.14
+            }
+          ],
+          "avg_logprob": -0.7912847855511833,
+          "no_speech_prob": 0.4524215757846832
+        },
+        {
+          "start": 211.56,
+          "end": 212.7,
+          "text": "Also was?",
+          "words": [
+            {
+              "word": "Also",
+              "start": 211.56,
+              "end": 212.32
+            },
+            {
+              "word": "was?",
+              "start": 212.32,
+              "end": 212.7
+            }
+          ],
+          "avg_logprob": -0.7912847855511833,
+          "no_speech_prob": 0.4524215757846832
+        }
+      ]
+    }
+  ]
+}

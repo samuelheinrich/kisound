@@ -10,7 +10,7 @@ identisch übernommene Audioanalysen und Verweise auf ihre finalen Musikquellen.
 
 | Track | Stand | Einstieg |
 | --- | --- | --- |
-| 01 · VIBECODER | Platzhalter; DE/EN Entwurf 0.1, Audio offen | [Projekt](01_Vibecoder/README.md) |
+| 01 · VIBECODER | Archivierter Video-Platzhalter; DE/EN-Audio inzwischen final, Transkript und Analyse in `music/kisound/Vibecoder/01_Vibecoder/final/` | [Projekt](01_Vibecoder/README.md) |
 | 02 · TOKEN BURN | Drehbuch und Produktionsdaten für DE/EN, noch kein Renderer | [Drehbuch](02_Token_Burn/ASTRA-DREHBUCH.md) · [Projekt](02_Token_Burn/README.md) |
 | 03 · SHIP IT | DE/EN final; Drehbuch und Produktionsdaten, noch kein Renderer | [Drehbuch](03_SHIP_IT/ASTRA-DREHBUCH.md) · [Projekt](03_SHIP_IT/README.md) |
 | 04 · AI SLOP | Platzhalter; Überarbeitung offen | [Projekt](04_AI_Slop/README.md) |

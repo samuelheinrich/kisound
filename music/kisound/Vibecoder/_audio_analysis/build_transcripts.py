@@ -9,7 +9,8 @@ import re
 import unicodedata
 
 TRACK_ID = os.environ.get('KISOUND_AUDIO_TRACK', '02_Token_Burn')
-TRACK_TITLE = 'SHIP IT' if TRACK_ID == '03_SHIP_IT' else 'TOKEN BURN'
+TRACK_TITLE = {'01_Vibecoder': 'VIBECODER', '02_Token_Burn': 'TOKEN BURN',
+               '03_SHIP_IT': 'SHIP IT'}.get(TRACK_ID, TRACK_ID)
 TRACK = Path(__file__).resolve().parent.parent / TRACK_ID
 
 
@@ -234,7 +235,7 @@ def build(language, raw_override=None, save=True):
         'title': TRACK_TITLE + ' · ' + language.upper(), 'source_audio': release,
         'source_audio_sha256': digest, 'duration_seconds': duration, 'languages': [language],
         'time_origin': 'Sample 0 der unveränderten finalen WAV; keine Kürzung, kein Offset',
-        'timing_source': 'Lokale CPU-ASR mit tatsächlichen Cross-Attention/DTW-Wortzeiten; keine aus Lyrics geschätzten Zeiten',
+        'timing_source': f'Lokale ASR ({raw.get("runtime", "Laufzeit unbekannt")}) mit Cross-Attention/DTW-Wortzeiten; keine aus Lyrics geschätzten Zeiten',
         'text_source': 'Finale Lyrics nur bei ausreichender monotoner ASR-Übereinstimmung; sonst Rohtext, explizit markiert',
         'review_status': 'Automatische ASR mit Lyrics-Abgleich; keine manuelle Hörprüfung; markierte Stellen vor Video-Endabnahme prüfen',
         'raw_asr_path': str(rawpath.relative_to(dest)), 'raw_asr_sha256': hashlib.sha256(rawpath.read_bytes()).hexdigest(),

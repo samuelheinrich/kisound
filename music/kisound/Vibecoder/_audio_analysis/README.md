@@ -1,4 +1,42 @@
-# TOKEN BURN: Transkript und Audioanalyse
+# Vibecoder: Transkript und Audioanalyse
+
+## VIBECODER 01 · finale DE/EN-WAVs
+
+Die Originaldateien liegen flach unter `01_Vibecoder/final/`; die getrennten
+Arbeitsdaten liegen unter `final/de/` und `final/en/`. Es wurde keine WAV
+umbenannt, beschnitten oder in Git aufgenommen. Die 1.0-Quellbelege verknüpfen
+jeweils die finale WAV mit den aktuellen Lyrics und dem Stiltext aus
+`suno-0.1/<Sprache>/`. Die EN-Lyric wurde am 13. Oktober korrigiert; nur der
+Textabgleich musste daraufhin erneuert werden, die ASR-Rohdaten und
+Audio-Messungen beziehen sich weiterhin auf dieselben WAV-Samples.
+
+```sh
+KISOUND_AUDIO_TRACK=01_Vibecoder PYTHONDONTWRITEBYTECODE=1 HF_HUB_OFFLINE=1 \
+  /opt/homebrew/bin/python3.12 Vibecoder/_audio_analysis/transcribe_mlx.py de en
+KISOUND_AUDIO_TRACK=01_Vibecoder KISOUND_ASR_MODEL=turbo PYTHONDONTWRITEBYTECODE=1 HF_HUB_OFFLINE=1 \
+  /opt/homebrew/bin/python3.12 Vibecoder/_audio_analysis/transcribe_mlx.py de en
+PYTHONDONTWRITEBYTECODE=1 HF_HUB_OFFLINE=1 \
+  /opt/homebrew/bin/python3.12 Vibecoder/_audio_analysis/transcribe_vibecoder01_windows.py de en
+KISOUND_AUDIO_TRACK=01_Vibecoder PYTHONDONTWRITEBYTECODE=1 \
+  python3 Vibecoder/_audio_analysis/curate_vibecoder01.py de en
+KISOUND_AUDIO_TRACK=01_Vibecoder MPLCONFIGDIR=/tmp/kisound-mpl PYTHONDONTWRITEBYTECODE=1 \
+  ../../videos/kisound/Network-Engineer-Album02/_audio_analysis/.venv/bin/python \
+  Vibecoder/_audio_analysis/analyse.py de en
+KISOUND_AUDIO_TRACK=01_Vibecoder PYTHONDONTWRITEBYTECODE=1 \
+  ../../videos/kisound/Network-Engineer-Album02/_audio_analysis/.venv/bin/python \
+  Vibecoder/_audio_analysis/validate.py
+```
+
+Die Kommandos starten im Verzeichnis `music/kisound/`. Die beiden Sprachfassungen
+haben eigene Dauern und Zeitmarken ab Sample 0. `curate_vibecoder01.py` führt
+ASR-Fragmente anhand tatsächlicher Wortgrenzen zusammen und glättet strittige
+Wörter redaktionell; jede solche Zeile bleibt im JSON und Prüfbericht markiert.
+Besonders die EN-Final-Drop-Zeile um 03:24–03:28 ist gegenüber den Referenzlyrics
+offen. Die SRT ist eine Arbeitsfassung für das spätere Drehbuch, keine manuell
+gehörte Untertitelfreigabe. Die Analyse enthält Messwerte und redaktionelle
+Schnittanker, erzeugt aber kein Video.
+
+## TOKEN BURN 02
 
 Die finale deutsche und englische WAV bleiben unverändert. Ergebnisse liegen
 neben dem jeweiligen finalen Prompt unter `02_Token_Burn/final/de/` und `en/`.

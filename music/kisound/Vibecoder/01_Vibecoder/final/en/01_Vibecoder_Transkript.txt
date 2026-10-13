@@ -1,0 +1,49 @@
+VIBECODER · EN
+Zeitnull: Sample 0 der finalen WAV. Vorläufige ASR; Prüfbericht beachten.
+
+[00:00:08.700–00:00:10.980] I'm a vibe coder.
+[00:00:32.300–00:00:34.260] 8am the export froze
+[00:00:34.260–00:00:37.860] Cold coffee. Deadline close.
+[00:00:39.480–00:00:41.500] Prompt in. Script runs. Rows align.
+[00:00:42.440–00:00:44.900] Two, two, two checks green. Next idea's mine.
+[00:00:45.860–00:00:49.260] New coders. New pulse.
+[00:00:49.260–00:00:52.720] One line, one build, the room wakes up.
+[00:00:52.720–00:00:56.220] Under the hood? Black-box night.
+[00:00:56.220–00:00:59.500] I know the goal, not every wire.
+[00:00:59.500–00:01:01.420] I am a vibe coder
+[00:01:01.420–00:01:04.380] I say it, he builds it, I test it, he makes it right.
+[00:01:04.900–00:01:07.120] I am a vibe coder
+[00:01:08.320–00:01:11.620] If it fails, send it back till it's running tight.
+[00:01:11.620–00:01:14.320] I am a vibe coder
+[00:01:15.700–00:01:19.300] I say it, he builds it, I test it, he makes it right.
+[00:01:19.300–00:01:22.400] A diff, a test, a commit, and the next idea takes flight.
+[00:01:51.480–00:01:53.820] No track at noon can match my pace.
+[00:01:55.120–00:01:57.400] I write a sound to fill the space.
+[00:01:57.400–00:02:00.960] My own beat drives me through the block,
+[00:02:02.060–00:02:04.380] low end rolling round the clock.
+[00:02:05.340–00:02:08.920] Night falls. Store full. Nothing fits.
+[00:02:08.920–00:02:12.560] I tell the agent what I miss.
+[00:02:12.560–00:02:15.620] A screen lights up. One button works.
+[00:02:15.620–00:02:19.740] My own little app, built for this.
+[00:02:19.740–00:02:22.620] I am a vibe coder
+[00:02:22.620–00:02:26.080] I see it, he builds it. I test it, he makes it right.
+[00:02:26.080–00:02:29.840] I'm a Vibecoder! I'm a Vibecoder!
+[00:02:29.940–00:02:33.040] If it fails, send it back till it’s running tight.
+[00:02:33.520–00:02:37.160] I, I, I'm a Vibecoder. I'm a Vibecoder.
+[00:02:37.160–00:02:40.520] I say it, he builds it, I test it — he makes it right.
+[00:02:40.520–00:02:43.560] A diff, a test, a commit, and the next idea takes flight.
+[00:02:45.280–00:02:47.120] You don't know what's beneath
+[00:02:48.180–00:02:50.860] Not all of it. I know what I need.
+[00:02:50.860–00:02:54.440] "You call that code?" I hear him say.
+[00:02:54.440–00:02:57.340] "Call it what you want. I'm building anyway."
+[00:03:03.860–00:03:06.040] I'm a vibe coder
+[00:03:11.420–00:03:15.040] The new generation's loud.
+[00:03:18.400–00:03:20.360] I'm a vibe coder
+[00:03:20.360–00:03:23.440] Bass rolls on. Bass rolls on.
+[00:03:23.740–00:03:27.700] Break it down. Let it go.
+[00:03:27.700–00:03:32.180] Let it roll. Let it roll. Let it roll. Let it roll.
+[00:03:32.620–00:03:34.820] I'm a vibe coder
+[00:03:38.180–00:03:41.680] Bass rolls on. Bass rolls on.
+[00:03:47.800–00:03:53.060] Prompt. Run. Check. Go.
+[00:03:54.640–00:03:56.300] Bass rolls on.
+[00:04:01.660–00:04:03.980] Prompt. Run. Check. Go.
