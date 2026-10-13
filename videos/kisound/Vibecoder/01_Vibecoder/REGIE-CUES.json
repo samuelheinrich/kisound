@@ -1,0 +1,2207 @@
+{
+  "schema": "kisound.video.screenplay.v1",
+  "status": "authored screenplay, not implemented",
+  "timing_note": "DE and EN are independent; cue IDs belong to the shot containing cue start. ASR timings are provisional.",
+  "shots": [
+    {
+      "id": "S001",
+      "chapter": "intro",
+      "starts_s": {
+        "de": 0,
+        "en": 0
+      },
+      "ends_s": {
+        "de": 2.8,
+        "en": 3
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Der unbewegte Cursor",
+      "action": "Kühler Morgen am Arbeitsplatz. Die Uhr steht auf 08:00; im Laptopfenster wartet ein Export bei 99 Prozent. Der orange Cursor pulst als einziges warmes Licht.",
+      "camera": "Weite vom Fenster bis zur starren Fortschrittskante; Silhouette nur in der Schulter.",
+      "transition": "Monitorrahmen deckungsgleich in die 2D-Fläche.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [
+          "E001"
+        ],
+        "en": [
+          "E001",
+          "E002"
+        ]
+      }
+    },
+    {
+      "id": "S002",
+      "chapter": "intro",
+      "starts_s": {
+        "de": 2.8,
+        "en": 3
+      },
+      "ends_s": {
+        "de": 5.5,
+        "en": 8.7
+      },
+      "zone": "type",
+      "mode": "2D",
+      "title": "VIBE als Versprechen",
+      "action": "Vier ruhige Buchstaben VIBE erscheinen auf der stillstehenden Exportlinie, noch ohne Triumph. Rechts bleibt Platz für das fehlende CODER.",
+      "camera": "Frontale typografische Einstellung, dann Stille im Bild.",
+      "transition": "Die Exportlinie wird zur Grundlinie der Wortmarke.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S003",
+      "chapter": "intro",
+      "starts_s": {
+        "de": 5.5,
+        "en": 8.7
+      },
+      "ends_s": {
+        "de": 7.2,
+        "en": 10.4
+      },
+      "zone": "type",
+      "mode": "2D+3D",
+      "title": "Ich bin Vibecoder",
+      "action": "Auf dem ersten gesungenen Titel ergänzt CODER in Orange die Marke. Nur die Kanten von CODER bekommen eine flache Tiefe; die Arbeit hinter der Schrift bleibt sichtbar.",
+      "camera": "Frontal für mindestens einen lesbaren Schlag, dann wenige Grad seitlich.",
+      "transition": "Die orange Unterkante zieht sich als Cursor zusammen.",
+      "cues": {
+        "de": [
+          1
+        ],
+        "en": [
+          1
+        ]
+      },
+      "events": {
+        "de": [
+          "E002"
+        ],
+        "en": []
+      }
+    },
+    {
+      "id": "S004",
+      "chapter": "intro",
+      "starts_s": {
+        "de": 7.2,
+        "en": 10.4
+      },
+      "ends_s": {
+        "de": 8,
+        "en": 11
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Zurück zum Problem",
+      "action": "Die Marke schrumpft zu einer kleinen Projektmarke. Export 99 Prozent bleibt rot; es gibt noch keinen PASS-Stempel.",
+      "camera": "Statischer, klar lesbarer Bildschirm.",
+      "transition": "Cursor fährt auf die fehlerhafte Statuszeile.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S005",
+      "chapter": "prelude",
+      "starts_s": {
+        "de": 8,
+        "en": 11
+      },
+      "ends_s": {
+        "de": 11,
+        "en": 16
+      },
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Drei offene Bedürfnisse",
+      "action": "Der Bildschirm klappt entlang seiner eigenen oberen Kante in drei räumliche Felder: Export, Klang, Werkzeug. Nur Export ist aktiv; die anderen tragen noch Fragezeichen.",
+      "camera": "Kleine Parallaxe über exakt gleiche Ecken der Karten.",
+      "transition": "Exportkarte liegt wieder orthogonal vor uns.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [
+          "E003"
+        ],
+        "en": [
+          "E003"
+        ]
+      }
+    },
+    {
+      "id": "S006",
+      "chapter": "prelude",
+      "starts_s": {
+        "de": 11,
+        "en": 16
+      },
+      "ends_s": {
+        "de": 14.5,
+        "en": 22
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ein Signal ohne Antwort",
+      "action": "Ein Request geht in die Exportfunktion und kommt ohne Abschlussstatus zurück. Die orange Linie stoppt sichtbar vor dem Ziel; keine willkürlichen Codezeichen.",
+      "camera": "Nah auf Input, fehlenden Output und Wartesymbol.",
+      "transition": "Das Wartesymbol wird zum Uhrpunkt.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S007",
+      "chapter": "prelude",
+      "starts_s": {
+        "de": 14.5,
+        "en": 22
+      },
+      "ends_s": {
+        "de": 18,
+        "en": 27
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Der Tag rückt näher",
+      "action": "Uhr und kalter Becher rahmen denselben 99-Prozent-Stand. In EN bekommen Mausbewegung, Dateiansicht und das erste prüfbare Beispiel mehr Zeit; DE bleibt knapper.",
+      "camera": "Halbtotaler Blick über die rechte Hand, ohne Sprung in der Raumachse.",
+      "transition": "Hand legt den Cursor auf die Exportkarte.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S008",
+      "chapter": "prelude",
+      "starts_s": {
+        "de": 18,
+        "en": 27
+      },
+      "ends_s": {
+        "de": 21,
+        "en": 32
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ein klarer Auftrag",
+      "action": "Die Person formuliert ein enges Ziel: Der Track-Katalog-Export soll nach fertiger Datei COMPLETE setzen; der Test soll Katalogzeilen und Status prüfen. Die Bedingung bleibt gross genug zum Lesen.",
+      "camera": "Frontansicht, drei Textzeilen statt Terminalrauschen.",
+      "transition": "Die Worte Datei und Status werden zwei Testfelder.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S009",
+      "chapter": "verse_1",
+      "starts_s": {
+        "de": 21,
+        "en": 32
+      },
+      "ends_s": {
+        "de": 24.58,
+        "en": 34.26
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "08:00 · Export hängt",
+      "action": "Die gesungene Uhrzeit landet auf der realen Uhr. Am Monitor bleibt der Export sichtbar stecken; die Hand stoppt über dem Touchpad.",
+      "camera": "Harter Schnitt zur bereits etablierten Totalen.",
+      "transition": "Uhrziffer wird kreisförmiger Ladeindikator.",
+      "cues": {
+        "de": [
+          2
+        ],
+        "en": [
+          2
+        ]
+      },
+      "events": {
+        "de": [
+          "E004"
+        ],
+        "en": [
+          "E004"
+        ]
+      }
+    },
+    {
+      "id": "S010",
+      "chapter": "verse_1",
+      "starts_s": {
+        "de": 24.58,
+        "en": 34.26
+      },
+      "ends_s": {
+        "de": 28.14,
+        "en": 39.48
+      },
+      "zone": "desk",
+      "mode": "3D",
+      "title": "Kalter Kaffee, echte Frist",
+      "action": "Nah am kalten Becher und einer sachlichen Karte „Abgabe heute“. Die Frist erhöht den Einsatz, ohne künstliche Katastrophe.",
+      "camera": "Kurzer Blick vom Becher zur kleinen Fristkarte.",
+      "transition": "Kartenkante auf Eingabefeld matchen.",
+      "cues": {
+        "de": [
+          3
+        ],
+        "en": [
+          3
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S011",
+      "chapter": "verse_1",
+      "starts_s": {
+        "de": 28.14,
+        "en": 39.48
+      },
+      "ends_s": {
+        "de": 30,
+        "en": 40.6
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Prompt rein",
+      "action": "Der präzise Auftrag wird abgesendet. Eingang und erwarteter Ausgang stehen nebeneinander; die Person bestimmt, was geprüft wird.",
+      "camera": "Orthogonal, grosse Schrift und stiller Cursor.",
+      "transition": "Sendelinie wird zu einer markierten Änderung.",
+      "cues": {
+        "de": [
+          4
+        ],
+        "en": [
+          4
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S012",
+      "chapter": "verse_1",
+      "starts_s": {
+        "de": 30,
+        "en": 40.6
+      },
+      "ends_s": {
+        "de": 31.66,
+        "en": 42.44
+      },
+      "zone": "screen",
+      "mode": "2D+3D",
+      "title": "Skript und Daten",
+      "action": "Die eine fehlende Statuszuweisung wird im Diff ergänzt. Daneben gehen zwei Datensätze durch dieselbe Funktion; ihre Rechtecke bleiben beim flachen Raumschwenk an Ort.",
+      "camera": "Seitfahrt um höchstens 12 Grad, Vergleich bleibt lesbar.",
+      "transition": "Zwei Datensätze landen auf Testfeld A und B.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S013",
+      "chapter": "verse_1",
+      "starts_s": {
+        "de": 31.66,
+        "en": 42.44
+      },
+      "ends_s": {
+        "de": 33.4,
+        "en": 43.7
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Test A: Datei",
+      "action": "Test A prüft, ob die Katalogdatei existiert und die erwarteten Trackzeilen enthält. Erst nach dem Vergleich kippt A auf grün.",
+      "camera": "Fest auf Input, Soll und Ist.",
+      "transition": "Grüne Kante läuft zum zweiten Feld.",
+      "cues": {
+        "de": [
+          5
+        ],
+        "en": [
+          5
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S014",
+      "chapter": "verse_1",
+      "starts_s": {
+        "de": 33.4,
+        "en": 43.7
+      },
+      "ends_s": {
+        "de": 35.14,
+        "en": 44.9
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Test B: Status",
+      "action": "Test B prüft COMPLETE nach Dateischluss. Der Status wechselt erst jetzt auf grün; der 99-Prozent-Balken erreicht sein Ende.",
+      "camera": "Kurzer Halt, damit zwei unterschiedliche Belege erkennbar sind.",
+      "transition": "Grüne Testkarten drehen zum nächsten Auftrag.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S015",
+      "chapter": "verse_1",
+      "starts_s": {
+        "de": 35.14,
+        "en": 44.9
+      },
+      "ends_s": {
+        "de": 36,
+        "en": 46
+      },
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Die nächste Idee",
+      "action": "Exportkarte wird als erledigte Karte an ihren Platz geschoben. Aus ihrer orangefarbenen Unterkante wächst der freie Steckplatz für Klang, ohne einen neuen Erfolg zu behaupten.",
+      "camera": "Räumlicher Zug auf die zweite leere Stelle.",
+      "transition": "Steckplatz wird Agentfenster.",
+      "cues": {
+        "de": [],
+        "en": [
+          6
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S016",
+      "chapter": "build",
+      "starts_s": {
+        "de": 36,
+        "en": 46
+      },
+      "ends_s": {
+        "de": 39.18,
+        "en": 49.26
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Neue Coder, anderer Takt",
+      "action": "Keine Armee von Robotern: ein Mensch spezifiziert, ein Agent arbeitet im Seitenfenster. Der neue Takt ist ihre sichtbare Abfolge.",
+      "camera": "Zweierkomposition aus Hand und Agentfenster.",
+      "transition": "Handbewegung löst einen 2D-Auftrag aus.",
+      "cues": {
+        "de": [
+          6
+        ],
+        "en": []
+      },
+      "events": {
+        "de": [
+          "E005",
+          "E006"
+        ],
+        "en": [
+          "E005"
+        ]
+      }
+    },
+    {
+      "id": "S017",
+      "chapter": "build",
+      "starts_s": {
+        "de": 39.18,
+        "en": 49.26
+      },
+      "ends_s": {
+        "de": 40.9,
+        "en": 51
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Was fehlt?",
+      "action": "Die Person markiert die fehlende Bedingung in der Exportvariante und schreibt eine konkrete Rückgabeaufforderung. Kein generisches „mach besser“ erscheint.",
+      "camera": "Makro auf Markierung und Satz.",
+      "transition": "Markierung wird Kante des Ausführungspfads.",
+      "cues": {
+        "de": [
+          7
+        ],
+        "en": [
+          7
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S018",
+      "chapter": "build",
+      "starts_s": {
+        "de": 40.9,
+        "en": 51
+      },
+      "ends_s": {
+        "de": 42.62,
+        "en": 52.72
+      },
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Die Blackbox",
+      "action": "Input, Agent, Datei und Tests sind vier erkennbare Stationen. Im Zentrum bleibt eine dunkle, opake Schicht; sie wird nicht mit erfundenen Innereien gefüllt.",
+      "camera": "Kamera gleitet entlang der Stationskanten; Zentrum bleibt ruhig.",
+      "transition": "Orange Linie verbindet nur beobachtbare Stationen.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S019",
+      "chapter": "build",
+      "starts_s": {
+        "de": 42.62,
+        "en": 52.72
+      },
+      "ends_s": {
+        "de": 46.52,
+        "en": 56.22
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Ich sehe den Weg",
+      "action": "Die Linie macht Ursache und Wirkung sichtbar: Auftrag hinein, Diff heraus, Testantwort zurück. Die unbekannte Mitte bleibt matt, obwohl der Pfad räumlich lesbar ist.",
+      "camera": "Halbkreis um die erhaltene 2D-Projektion, keine freien Flüge.",
+      "transition": "Kamera hält vor der opaken Mitte an.",
+      "cues": {
+        "de": [
+          8
+        ],
+        "en": [
+          8
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S020",
+      "chapter": "build",
+      "starts_s": {
+        "de": 46.52,
+        "en": 56.22
+      },
+      "ends_s": {
+        "de": 49,
+        "en": 59.5
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Nicht jeden Draht",
+      "action": "Ein kleines „?“ bleibt an der Mitte. Die Person bestätigt nur die Resultate, die sie prüfen kann. Diese Ehrlichkeit bereitet die spätere Konfrontation vor.",
+      "camera": "Rückkehr in exakt denselben Bildschirmzustand.",
+      "transition": "Das Fragezeichen bleibt im Rand, während die Hook startet.",
+      "cues": {
+        "de": [
+          9
+        ],
+        "en": [
+          9
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S021",
+      "chapter": "drop_1",
+      "starts_s": {
+        "de": 49,
+        "en": 59.5
+      },
+      "ends_s": {
+        "de": 53.94,
+        "en": 64.38
+      },
+      "zone": "type",
+      "mode": "2D",
+      "title": "Erster Ruf: VIBECODER",
+      "action": "Auf der ersten Hook sitzt VIBE weiss über CODER orange. Darunter laufen die vier Schritte SPEC, BUILD, TEST, FIX als noch ungefüllte Felder.",
+      "camera": "Frontal und unverrückt, Titel bekommt echte Lesezeit.",
+      "transition": "Titelunterkante wird Ablaufleiste.",
+      "cues": {
+        "de": [
+          10
+        ],
+        "en": [
+          10,
+          11
+        ]
+      },
+      "events": {
+        "de": [
+          "E007",
+          "E008",
+          "E009"
+        ],
+        "en": [
+          "E006",
+          "E007",
+          "E008"
+        ]
+      }
+    },
+    {
+      "id": "S022",
+      "chapter": "drop_1",
+      "starts_s": {
+        "de": 53.94,
+        "en": 64.38
+      },
+      "ends_s": {
+        "de": 58.06,
+        "en": 67.12
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Sagen und bauen",
+      "action": "SPEC erhält den klaren Wunsch; BUILD zeigt nur die tatsächlich geänderte Zeile. Ein wiederholter Titelruf erscheint kurz als kleine Projektmarke, bevor der Blick zum Test zurückkehrt.",
+      "camera": "Zwei enge Einstellungen, eine gemeinsame Bildachse.",
+      "transition": "Diffkante wird Prüflinie.",
+      "cues": {
+        "de": [
+          11
+        ],
+        "en": [
+          12
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S023",
+      "chapter": "drop_1",
+      "starts_s": {
+        "de": 58.06,
+        "en": 67.12
+      },
+      "ends_s": {
+        "de": 63.2,
+        "en": 71.62
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Testen und korrigieren",
+      "action": "Ein zusätzlicher Exportfall scheitert. Der fehlerhafte Status wird zurückgegeben, die Korrektur erscheint, derselbe Test läuft erneut. Grün nur nach PASS.",
+      "camera": "Ein rotes Feld, ein Diff, derselbe Test; keine Kleinschrift.",
+      "transition": "Testkarte steht vor dem Hooktitel.",
+      "cues": {
+        "de": [
+          12
+        ],
+        "en": [
+          13
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E009"
+        ]
+      }
+    },
+    {
+      "id": "S024",
+      "chapter": "drop_1",
+      "starts_s": {
+        "de": 63.2,
+        "en": 71.62
+      },
+      "ends_s": {
+        "de": 65.28,
+        "en": 74.32
+      },
+      "zone": "type",
+      "mode": "2D+3D",
+      "title": "Zweiter Ruf: mehr Tiefe",
+      "action": "Die zuvor flache CODER-Kante wird zu einem niedrigen Relief. Durch die offenen Buchstaben ist genau die reparierte Exportansicht zu sehen.",
+      "camera": "Seitfahrt an der ersten Letterkante, danach wieder frontal.",
+      "transition": "Orange Kontur landet auf Exportkarte.",
+      "cues": {
+        "de": [
+          13
+        ],
+        "en": [
+          14
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E010"
+        ]
+      }
+    },
+    {
+      "id": "S025",
+      "chapter": "drop_1",
+      "starts_s": {
+        "de": 65.28,
+        "en": 74.32
+      },
+      "ends_s": {
+        "de": 68.36,
+        "en": 76
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Der Rückweg gehört dazu",
+      "action": "Fehlerkarte fährt sichtbar zum Auftrag zurück, dann als korrigierter Stand wieder vor. Die Rückrichtung ist genauso klar wie die erste Lieferung.",
+      "camera": "Seitliche Totale des vierteiligen Pfads.",
+      "transition": "Die Karte legt sich auf einen echten Diff.",
+      "cues": {
+        "de": [
+          14
+        ],
+        "en": [
+          15
+        ]
+      },
+      "events": {
+        "de": [
+          "E010"
+        ],
+        "en": []
+      }
+    },
+    {
+      "id": "S026",
+      "chapter": "drop_1",
+      "starts_s": {
+        "de": 68.36,
+        "en": 76
+      },
+      "ends_s": {
+        "de": 71.68,
+        "en": 79.3
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Diff, Test, Commit",
+      "action": "Drei unterscheidbare Belege: Änderung, reproduzierbarer Check, lokaler Git-Commit. Die Versionskarte erscheint erst nach PASS; sie behauptet keinen Upload.",
+      "camera": "Drei Schnitte entlang einer gemeinsamen orangefarbenen Achse.",
+      "transition": "Die Achse zeigt auf einen zweiten freien Steckplatz.",
+      "cues": {
+        "de": [
+          15
+        ],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S027",
+      "chapter": "drop_1",
+      "starts_s": {
+        "de": 71.68,
+        "en": 79.3
+      },
+      "ends_s": {
+        "de": 77.62,
+        "en": 82.4
+      },
+      "zone": "desk",
+      "mode": "3D",
+      "title": "Ein kleiner neuer Funke",
+      "action": "Die Hand tippt neben „Klang“ eine kurze Frage. Export bleibt mit grünem Zustand auf dem Monitor; der Becher rückt ein Stück aus dem Weg.",
+      "camera": "Über Schulter, ruhigerer Bildausschnitt nach der dichten Hook.",
+      "transition": "Cursor blinkt auf der Frage.",
+      "cues": {
+        "de": [],
+        "en": [
+          16
+        ]
+      },
+      "events": {
+        "de": [
+          "E011"
+        ],
+        "en": []
+      }
+    },
+    {
+      "id": "S028",
+      "chapter": "drop_1",
+      "starts_s": {
+        "de": 77.62,
+        "en": 82.4
+      },
+      "ends_s": {
+        "de": 80,
+        "en": 83
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Erster Beweis steht",
+      "action": "Der Export ist offen und abgenommen. Durch das Fenster wird das Licht wärmer. Die Person schiebt den Stuhl zurück und hört einen Moment zu.",
+      "camera": "Langsamer Atemzug in der Totale.",
+      "transition": "Sonnenkante löst die Exportkante ab.",
+      "cues": {
+        "de": [
+          16
+        ],
+        "en": []
+      },
+      "events": {
+        "de": [
+          "E012"
+        ],
+        "en": [
+          "E011"
+        ]
+      }
+    },
+    {
+      "id": "S029",
+      "chapter": "break",
+      "starts_s": {
+        "de": 80,
+        "en": 83
+      },
+      "ends_s": {
+        "de": 82.5,
+        "en": 88
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Ein leerer Takt",
+      "action": "Der Export steht links als fertige Karte. Die mittlere Klangkarte ist leer; die orange Linie geht zu ihr, während der Raum auf Mittag wechselt.",
+      "camera": "Tiefe aus den drei Steckplätzen, kein neuer Ort.",
+      "transition": "Kamera taucht durch die leere Klangkarte.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [
+          "E013"
+        ],
+        "en": [
+          "E012"
+        ]
+      }
+    },
+    {
+      "id": "S030",
+      "chapter": "break",
+      "starts_s": {
+        "de": 82.5,
+        "en": 88
+      },
+      "ends_s": {
+        "de": 85,
+        "en": 93
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Die Auswahl passt nicht",
+      "action": "Drei Kandidaten aus dem geprüften Katalog werden kurz verglichen, keiner trägt den benötigten Takt. Kein Fremdtrack ist zu hören; der finale Song bleibt alleinige Tonspur.",
+      "camera": "Rhythmische Blickwechsel mit festen lesbaren Kartentiteln.",
+      "transition": "Letzte Karte klappt als leeres Raster um.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S031",
+      "chapter": "break",
+      "starts_s": {
+        "de": 85,
+        "en": 93
+      },
+      "ends_s": {
+        "de": 88,
+        "en": 99
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Das Raster wartet",
+      "action": "Vier Reihen eines einfachen Sequencers sind leer. Der Cursor zeichnet eine einzige orangene Taktlinie; EN erhält zusätzliche, klar unterschiedliche Schritte während der längeren Pause.",
+      "camera": "Orthogonal auf Raster, dann erste flache Schräglage.",
+      "transition": "Rasterfeld wird als flacher Raumkörper sichtbar.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S032",
+      "chapter": "break",
+      "starts_s": {
+        "de": 88,
+        "en": 99
+      },
+      "ends_s": {
+        "de": 90.5,
+        "en": 105
+      },
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Ein Motiv entsteht",
+      "action": "Punkte auf der Taktlinie werden zu flachen Plättchen. Die Originalmusik steuert ihre Bewegung; die Szene behauptet keinen neu hörbaren Song im Song.",
+      "camera": "Dolly entlang der Plättchen, gleiche IDs wie im 2D-Raster.",
+      "transition": "Plättchen sinken zurück auf die Oberfläche.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [
+          "E014"
+        ],
+        "en": []
+      }
+    },
+    {
+      "id": "S033",
+      "chapter": "break",
+      "starts_s": {
+        "de": 90.5,
+        "en": 105
+      },
+      "ends_s": {
+        "de": 93,
+        "en": 111
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Mittag",
+      "action": "Die Uhr zeigt 12:00, Licht fällt anders durch dasselbe Fenster. Die Klangkarte ist nun die aktive Aufgabe; Export bleibt sichtbar fertig.",
+      "camera": "Gleiche Kameraachse wie um acht, andere Lichtlage.",
+      "transition": "Fensterschatten matcht auf Taktstrich.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [
+          "E015"
+        ],
+        "en": [
+          "E013"
+        ]
+      }
+    },
+    {
+      "id": "S034",
+      "chapter": "verse_2",
+      "starts_s": {
+        "de": 93,
+        "en": 111
+      },
+      "ends_s": {
+        "de": 96.64,
+        "en": 113.82
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Kein Track trifft den Takt",
+      "action": "Der Cursor legt drei Kandidaten über eine Soll-Markierung. Ihre Betonungen sitzen sichtbar daneben; die Karten verlassen nacheinander die Arbeitsfläche.",
+      "camera": "Frontal, jeder Vergleich nur einen kurzen Blick lang.",
+      "transition": "Die Soll-Markierung bleibt als leeres Notenraster.",
+      "cues": {
+        "de": [
+          17
+        ],
+        "en": [
+          17
+        ]
+      },
+      "events": {
+        "de": [
+          "E016"
+        ],
+        "en": [
+          "E014"
+        ]
+      }
+    },
+    {
+      "id": "S035",
+      "chapter": "verse_2",
+      "starts_s": {
+        "de": 96.64,
+        "en": 113.82
+      },
+      "ends_s": {
+        "de": 100.4,
+        "en": 117.4
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ich schreibe den Sound",
+      "action": "Ein klarer Patternvorschlag mit vier Reihen entsteht. Der Cursor setzt einzelne Schritte; Arrangement und Tonhöhen werden nicht als exakte Transkription behauptet.",
+      "camera": "Makro auf Hand und Raster, keine unlesbaren Codekolonnen.",
+      "transition": "Aktive Schritte heben sich vom Raster ab.",
+      "cues": {
+        "de": [
+          18
+        ],
+        "en": [
+          18
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S036",
+      "chapter": "verse_2",
+      "starts_s": {
+        "de": 100.4,
+        "en": 117.4
+      },
+      "ends_s": {
+        "de": 103.86,
+        "en": 120.96
+      },
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Mein Beat trägt weiter",
+      "action": "Dieselben Step-IDs stehen als kleine Körper im Raum. Eine orange Linie läuft durch die belegten Felder, später in der App als Navigationspfad wiedererkennbar.",
+      "camera": "Seitlicher Tracking Shot im Tempo der Musik, ohne behauptetes Beatgrid.",
+      "transition": "Kamera unterquert die Bassreihe.",
+      "cues": {
+        "de": [
+          19
+        ],
+        "en": [
+          19
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E015"
+        ]
+      }
+    },
+    {
+      "id": "S037",
+      "chapter": "verse_2",
+      "starts_s": {
+        "de": 103.86,
+        "en": 120.96
+      },
+      "ends_s": {
+        "de": 107.44,
+        "en": 124.38
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Der Bass bekommt Gewicht",
+      "action": "Nur bei real gemessener Tieftonenergie neigt sich die Bassreihe minimal nach vorn; die übrigen Reihen bleiben stabil. Der Song bleibt Originalton.",
+      "camera": "Bodennah, kontrollierte Verschiebung statt Wackelkamera.",
+      "transition": "Bassreihe wird zur unteren Bildschirmkante.",
+      "cues": {
+        "de": [
+          20
+        ],
+        "en": [
+          20
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E016"
+        ]
+      }
+    },
+    {
+      "id": "S038",
+      "chapter": "verse_2",
+      "starts_s": {
+        "de": 107.44,
+        "en": 124.38
+      },
+      "ends_s": {
+        "de": 110.9,
+        "en": 128.92
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Abend, voller Store",
+      "action": "Uhr und Fenster springen filmisch auf den Abend. Viele App-Kacheln sind vorhanden, aber keine hat die gewünschte einfache Kombination aus Track, Ausgabe und Status.",
+      "camera": "Totale zum selben Tisch; dann auf die Kacheln.",
+      "transition": "Eine leere Kachel bleibt in der Mitte.",
+      "cues": {
+        "de": [
+          21
+        ],
+        "en": [
+          21
+        ]
+      },
+      "events": {
+        "de": [
+          "E017"
+        ],
+        "en": [
+          "E017"
+        ]
+      }
+    },
+    {
+      "id": "S039",
+      "chapter": "verse_2",
+      "starts_s": {
+        "de": 110.9,
+        "en": 128.92
+      },
+      "ends_s": {
+        "de": 114.86,
+        "en": 132.56
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ein Auftrag für die App",
+      "action": "Die Person formuliert: Track aus dem Katalog wählen, Paketexport starten, Ergebnis sehen. Die drei Zustände werden als klarer Ablauf gezeichnet; die neue Klangkarte ist der Testtrack.",
+      "camera": "Orthogonal, drei grosse Knoten.",
+      "transition": "Knoten werden zur Oberfläche.",
+      "cues": {
+        "de": [
+          22
+        ],
+        "en": [
+          22
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S040",
+      "chapter": "verse_2",
+      "starts_s": {
+        "de": 114.86,
+        "en": 132.56
+      },
+      "ends_s": {
+        "de": 116.3,
+        "en": 134.36
+      },
+      "zone": "screen",
+      "mode": "2D+3D",
+      "title": "Ein Screen geht auf",
+      "action": "Genau ein Screen entfaltet sich entlang seiner Rahmenkante in den Raum; Trackkarte, Knopf und Statusfeld bleiben identische Objekte.",
+      "camera": "Kurze seitliche Bewegung, dann frontal für Lesbarkeit.",
+      "transition": "Rahmen verriegelt in der Bildschirmfläche.",
+      "cues": {
+        "de": [
+          23
+        ],
+        "en": [
+          23
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E018"
+        ]
+      }
+    },
+    {
+      "id": "S041",
+      "chapter": "verse_2",
+      "starts_s": {
+        "de": 116.3,
+        "en": 134.36
+      },
+      "ends_s": {
+        "de": 118.14,
+        "en": 138.58
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ein Knopf, ein Flow",
+      "action": "Der Knopf startet Export und zeigt laufend statt fertig. Drei orange Kanten verbinden Auswahl, Aktion und Ergebnis.",
+      "camera": "Ein einziger Klick und sichtbare Reaktion.",
+      "transition": "Statusfeld nimmt den Raum des Hooktitels ein.",
+      "cues": {
+        "de": [],
+        "en": [
+          24
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S042",
+      "chapter": "verse_2",
+      "starts_s": {
+        "de": 118.14,
+        "en": 138.58
+      },
+      "ends_s": {
+        "de": 121.9,
+        "en": 139.5
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Mein eigenes Tool",
+      "action": "Die App ist erstmals benutzbar. Die Person hält inne; ein Reload ist der noch ausstehende Beweis. Export und Klang sind weiterhin sichtbar, aber nicht als neuer Erfolg überhöht.",
+      "camera": "Über Schulter, kurze offene Erwartung.",
+      "transition": "Finger löst den Reload aus.",
+      "cues": {
+        "de": [
+          24
+        ],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S043",
+      "chapter": "drop_2",
+      "starts_s": {
+        "de": 121.9,
+        "en": 139.5
+      },
+      "ends_s": {
+        "de": 123,
+        "en": 142.62
+      },
+      "zone": "type",
+      "mode": "2D+3D",
+      "title": "Zweiter Ruf, neue Aufgabe",
+      "action": "Beim ersten Reload verliert die App die Auswahl. VIBE/CODER erscheint davor als flach extrudierte Marke; ein roter Statuspunkt auf der App dahinter verhindert voreiligen Triumph.",
+      "camera": "Frontale Titelphase, dann Seitblick auf das rote Feld.",
+      "transition": "Rotpunkt durchbricht die ruhige Titelfläche.",
+      "cues": {
+        "de": [
+          25
+        ],
+        "en": [
+          25
+        ]
+      },
+      "events": {
+        "de": [
+          "E018",
+          "E019"
+        ],
+        "en": [
+          "E019",
+          "E020"
+        ]
+      }
+    },
+    {
+      "id": "S044",
+      "chapter": "drop_2",
+      "starts_s": {
+        "de": 123,
+        "en": 142.62
+      },
+      "ends_s": {
+        "de": 126.22,
+        "en": 146.08
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Sagen und bauen, erneut",
+      "action": "Die Anforderung „Auswahl nach Reload behalten“ wird ergänzt. Der Agent speichert eine Track-ID, zunächst unter einem falschen Schlüssel; diese konkrete Änderung erhält Farbe.",
+      "camera": "Harter, gut lesbarer Vorher-nachher-Schnitt.",
+      "transition": "Die Track-ID wandert in einen Speicherslot.",
+      "cues": {
+        "de": [
+          26
+        ],
+        "en": [
+          26
+        ]
+      },
+      "events": {
+        "de": [
+          "E020"
+        ],
+        "en": []
+      }
+    },
+    {
+      "id": "S045",
+      "chapter": "drop_2",
+      "starts_s": {
+        "de": 126.22,
+        "en": 146.08
+      },
+      "ends_s": {
+        "de": 130.2,
+        "en": 149.84
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Reload entlarvt den Fehler",
+      "action": "Der zweite Reload liest einen anderen Schlüssel und springt wieder auf die falsche Auswahl. Der vorher sichtbare Track bleibt als Soll-Karte daneben: der Mangel ist ohne Fachwissen erkennbar.",
+      "camera": "Split zwischen Soll und Ist, identische Bildgrössen.",
+      "transition": "Ist-Karte fährt entlang der Rückleitung.",
+      "cues": {
+        "de": [
+          27
+        ],
+        "en": [
+          27
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E021"
+        ]
+      }
+    },
+    {
+      "id": "S046",
+      "chapter": "drop_2",
+      "starts_s": {
+        "de": 130.2,
+        "en": 149.84
+      },
+      "ends_s": {
+        "de": 133.64,
+        "en": 153.04
+      },
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Korrektur auf dem Rückweg",
+      "action": "Die falsch geladene ID fährt als orange Karte durch den Raum zurück zum Agentfenster. Dort wird die Speicherzuordnung korrigiert; die Linie folgt demselben Pfad rückwärts.",
+      "camera": "Ununterbrochene Kamerafahrt an der Pfadkante.",
+      "transition": "Korrekturkarte wird zum neuen Testinput.",
+      "cues": {
+        "de": [
+          28
+        ],
+        "en": [
+          28
+        ]
+      },
+      "events": {
+        "de": [
+          "E021"
+        ],
+        "en": []
+      }
+    },
+    {
+      "id": "S047",
+      "chapter": "drop_2",
+      "starts_s": {
+        "de": 133.64,
+        "en": 153.04
+      },
+      "ends_s": {
+        "de": 137.48,
+        "en": 157.16
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Gleicher Test, neuer Stand",
+      "action": "Wieder dieselbe Trackwahl, wieder Reload. Diesmal bleibt Auswahl samt Status erhalten. Der Test wechselt nach Vergleich auf grün.",
+      "camera": "Zwei identische Frames vor und nach Reload machen den Unterschied überprüfbar.",
+      "transition": "Grünes Feld dockt am bestehenden Screen an.",
+      "cues": {
+        "de": [
+          29
+        ],
+        "en": [
+          29
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E022",
+          "E023"
+        ]
+      }
+    },
+    {
+      "id": "S048",
+      "chapter": "drop_2",
+      "starts_s": {
+        "de": 137.48,
+        "en": 157.16
+      },
+      "ends_s": {
+        "de": 140.62,
+        "en": 160.52
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Der eine funktionierende Flow",
+      "action": "Trackkarte, Startknopf und Ergebnisfeld bilden nun einen kurzen begehbaren Pfad. Exportdatei und Klangkarte liefern die realen Eingaben dieses Tools.",
+      "camera": "Fahrt vom ersten Artefakt durch die App bis zum Ergebnis.",
+      "transition": "Pfad wird zur Grundlinie eines neuen Titels.",
+      "cues": {
+        "de": [
+          30
+        ],
+        "en": [
+          30
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S049",
+      "chapter": "drop_2",
+      "starts_s": {
+        "de": 140.62,
+        "en": 160.52
+      },
+      "ends_s": {
+        "de": 143.86,
+        "en": 163.56
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Diff, Test, Commit II",
+      "action": "App-Diff, Reload-Check und gespeicherter Stand erhalten eigene Felder. Drei fertige Artefakte stehen jetzt mit Namen da, nicht als anonyme grüne Häkchen.",
+      "camera": "Frontale Inventur, drei Karten mit gleicher Massstäblichkeit.",
+      "transition": "Ein fremder Kommentar deckt einen Teil der Karten ab.",
+      "cues": {
+        "de": [
+          31
+        ],
+        "en": [
+          31
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S050",
+      "chapter": "drop_2",
+      "starts_s": {
+        "de": 143.86,
+        "en": 163.56
+      },
+      "ends_s": {
+        "de": 145,
+        "en": 165
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Der Einwand kündigt sich an",
+      "action": "Am Rand des Monitors erscheint ein fremder Kommentar. Die Person dreht sich zu ihm; die drei fertigen Karten bleiben im selben Bild. Der Refrain räumt für den Dialog Platz.",
+      "camera": "Langsame Fahrt auf die Spiegelung im dunklen Display.",
+      "transition": "Spiegelung wird typografischer Dialograum.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [
+          "E022",
+          "E023"
+        ],
+        "en": []
+      }
+    },
+    {
+      "id": "S051",
+      "chapter": "bridge",
+      "starts_s": {
+        "de": 145,
+        "en": 165
+      },
+      "ends_s": {
+        "de": 147.14,
+        "en": 167.12
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "„Du weißt nicht …“",
+      "action": "Am Rand des Monitors erscheint die zugeordnete Nachricht des Hardcoders. Die Person sieht hin. Hinter der Schrift liegt die immer noch opake Agentmitte; es gibt keine erfundene zweite Stimme.",
+      "camera": "Fahrt auf die Spiegelung im Display, dann Halt auf der Nachricht.",
+      "transition": "Spiegelung wird typografischer Dialograum.",
+      "cues": {
+        "de": [
+          32
+        ],
+        "en": [
+          32
+        ]
+      },
+      "events": {
+        "de": [
+          "E024"
+        ],
+        "en": [
+          "E024"
+        ]
+      }
+    },
+    {
+      "id": "S052",
+      "chapter": "bridge",
+      "starts_s": {
+        "de": 147.14,
+        "en": 167.12
+      },
+      "ends_s": {
+        "de": 150.48,
+        "en": 170.86
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "„Nicht alles.“",
+      "action": "Die Person nickt knapp. Die Mitte bleibt dunkel; weder Film noch Figur behaupten vollständige Kenntnis. Daneben bleiben die drei überprüfbaren Resultate.",
+      "camera": "Nah auf Schulter und Hand, keine Lippenanimation.",
+      "transition": "Hand weist auf Testkarte.",
+      "cues": {
+        "de": [
+          33
+        ],
+        "en": [
+          33
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S053",
+      "chapter": "bridge",
+      "starts_s": {
+        "de": 150.48,
+        "en": 170.86
+      },
+      "ends_s": {
+        "de": 151.56,
+        "en": 172.74
+      },
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Der sichtbare Beleg",
+      "action": "Input, Ausgabe und Tests werden nacheinander hell. In EN kann der nächste Einwand bereits darüber einsetzen; die Belege bleiben dabei lesbar und das Zentrum opak.",
+      "camera": "Fahrt entlang dreier Punkte, endet bewusst vor der Mitte.",
+      "transition": "Lücke wird zum leeren Buchstabenraum.",
+      "cues": {
+        "de": [],
+        "en": [
+          34
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S054",
+      "chapter": "bridge",
+      "starts_s": {
+        "de": 151.56,
+        "en": 172.74
+      },
+      "ends_s": {
+        "de": 154.98,
+        "en": 174.44
+      },
+      "zone": "type",
+      "mode": "2D",
+      "title": "„Das nennst du Code?“",
+      "action": "Die zweite Nachricht nimmt den leeren Raum ein. Sie drückt den Titel klein, kann aber die grünen Belege nicht verdecken.",
+      "camera": "Seitlich versetzte Typografie; keine Karikatur.",
+      "transition": "Der Cursor zieht die Nachricht beiseite.",
+      "cues": {
+        "de": [
+          34
+        ],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S055",
+      "chapter": "bridge",
+      "starts_s": {
+        "de": 154.98,
+        "en": 174.44
+      },
+      "ends_s": {
+        "de": 156.4,
+        "en": 177.34
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "„Ich bau’s trotzdem.“",
+      "action": "Die Antwort gehört der Hand: Sie legt die drei fertigen Karten nebeneinander. Die Entscheidung ist körperlich und konkret, ohne zusätzliche Rechtfertigungsrede.",
+      "camera": "Kamera zieht vom Tisch in die Halbtotale.",
+      "transition": "Kartenkanten bilden eine einzige orange Schiene.",
+      "cues": {
+        "de": [
+          35
+        ],
+        "en": [
+          35
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S056",
+      "chapter": "bridge",
+      "starts_s": {
+        "de": 156.4,
+        "en": 177.34
+      },
+      "ends_s": {
+        "de": 157.8,
+        "en": 183
+      },
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Die eine Schiene",
+      "action": "Die drei Karten rasten an derselben orangenen Linie ein. Im längeren EN-Übergang wird der Pfad vom ersten Input bis zum dritten Ergebnis einmal lesbar; der kommende Bass öffnet erst danach den Raum.",
+      "camera": "Eine durchgehende Fahrt entlang aller drei Kanten.",
+      "transition": "Schiene bildet die Grundlinie des finalen Titels.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E025"
+        ]
+      }
+    },
+    {
+      "id": "S057",
+      "chapter": "final_drop",
+      "starts_s": {
+        "de": 157.8,
+        "en": 183
+      },
+      "ends_s": {
+        "de": 162.34,
+        "en": 191.42
+      },
+      "zone": "type",
+      "mode": "2D+3D",
+      "title": "VIBECODER als Bauwerk",
+      "action": "Zum finalen Hook wird aus VIBE und CODER erstmals eine ganze räumliche Wortmarke. Durch ihre offenen Buchstaben sieht man die drei eigenen Werkzeuge. Der längere EN-Zwischenraum führt die Kamera durch diese Buchstaben.",
+      "camera": "Tiefe Kamera, dann frontal lesbare Endlage.",
+      "transition": "Buchstaben werden Tor zu den Artefakten.",
+      "cues": {
+        "de": [
+          36
+        ],
+        "en": [
+          36
+        ]
+      },
+      "events": {
+        "de": [
+          "E025",
+          "E026"
+        ],
+        "en": [
+          "E026",
+          "E027",
+          "E028"
+        ]
+      }
+    },
+    {
+      "id": "S058",
+      "chapter": "final_drop",
+      "starts_s": {
+        "de": 162.34,
+        "en": 191.42
+      },
+      "ends_s": {
+        "de": 165.46,
+        "en": 195.04
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Die neue Generation ist laut",
+      "action": "Mehrere Arbeitsweisen werden als Nachbarplätze sichtbar; der Blick bleibt bei unserer Person. Die Lautstärke gehört der Musik und der grösseren Arbeitsfläche, nicht erfundenen Stimmen.",
+      "camera": "Weite Erweiterung um den vertrauten Tisch.",
+      "transition": "Orange Schiene führt zum ersten Beleg.",
+      "cues": {
+        "de": [
+          37
+        ],
+        "en": [
+          37
+        ]
+      },
+      "events": {
+        "de": [
+          "E027"
+        ],
+        "en": []
+      }
+    },
+    {
+      "id": "S059",
+      "chapter": "final_drop",
+      "starts_s": {
+        "de": 165.46,
+        "en": 195.04
+      },
+      "ends_s": {
+        "de": 169.48,
+        "en": 198.4
+      },
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Export trägt Klang",
+      "action": "Die geprüfte Katalogdatei liefert erst die verglichenen Kandidaten und jetzt das Format für die neue Klangkarte. Ihre Datei-ID bleibt beim Dimensionswechsel gleich; der sichtbare Pfad löst den frühen 99-Prozent-Stopp ein.",
+      "camera": "Seitfahrt mit Match auf die linke Kartenkante.",
+      "transition": "Dateikante wird Sequencer-Grundlinie.",
+      "cues": {
+        "de": [
+          38
+        ],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E029"
+        ]
+      }
+    },
+    {
+      "id": "S060",
+      "chapter": "final_drop",
+      "starts_s": {
+        "de": 169.48,
+        "en": 198.4
+      },
+      "ends_s": {
+        "de": 170.5,
+        "en": 200.36
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Klang trägt App",
+      "action": "Die Klangkarte wird in der App gewählt. Genau derselbe Trackname erscheint auf räumlicher Karte und 2D-Screen. Der Bassimpuls bewegt nur die lange orange Verbindung.",
+      "camera": "Fahrt entlang der Verbindung, kein Kameraschütteln.",
+      "transition": "Verbindung biegt ins App-Fenster.",
+      "cues": {
+        "de": [
+          39
+        ],
+        "en": [
+          38
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E030"
+        ]
+      }
+    },
+    {
+      "id": "S061",
+      "chapter": "final_drop",
+      "starts_s": {
+        "de": 170.5,
+        "en": 200.36
+      },
+      "ends_s": {
+        "de": 173.02,
+        "en": 203.74
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Bass durch drei Werkzeuge",
+      "action": "Die tiefe Energie läuft als kontrollierter Impuls von Export über Klang zur App. Die drei Zustände bleiben unverändert; der Bass macht nur ihre Verbindung körperlich spürbar.",
+      "camera": "Bodennah an der gemeinsamen Linie entlang, ohne Kameraschütteln.",
+      "transition": "Die Linie endet am offenen Slot.",
+      "cues": {
+        "de": [],
+        "en": [
+          39
+        ]
+      },
+      "events": {
+        "de": [
+          "E028",
+          "E029"
+        ],
+        "en": []
+      }
+    },
+    {
+      "id": "S062",
+      "chapter": "final_drop",
+      "starts_s": {
+        "de": 173.02,
+        "en": 203.74
+      },
+      "ends_s": {
+        "de": 175.3,
+        "en": 207.7
+      },
+      "zone": "screen",
+      "mode": "2D+3D",
+      "title": "Ein Wunsch, ein Prompt, ein Build",
+      "action": "Eine kleine neue Idee erscheint: zuletzt genutzten Track beim Öffnen vorwählen. Sie entsteht aus dem funktionierenden Tool und bleibt ein offener nächster Schritt. EN zeigt an der unsicheren Gesangsstelle keinen wörtlichen Text.",
+      "camera": "Lesbarer Zweizeiler, dann 15 Grad um den offenen Slot; keine vorgetäuschte Fertigmeldung.",
+      "transition": "Offener Slot gibt Platz für Bassbewegung.",
+      "cues": {
+        "de": [
+          40
+        ],
+        "en": [
+          40
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E031"
+        ]
+      }
+    },
+    {
+      "id": "S063",
+      "chapter": "final_drop",
+      "starts_s": {
+        "de": 175.3,
+        "en": 207.7
+      },
+      "ends_s": {
+        "de": 178.98,
+        "en": 212.18
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Rollen, ohne zu flackern",
+      "action": "Bassreihe, Exportlinie und App-Pfad laufen als eine zusammenhängende Orangebahn durch den Raum. Tieftonenergie verändert Höhe und Licht sanft; keine Bildblitze.",
+      "camera": "Lange bodennahe Fahrt mit drei erkennbaren Stationen.",
+      "transition": "Bahn führt zurück zu VIBE/CODER.",
+      "cues": {
+        "de": [
+          41
+        ],
+        "en": [
+          41
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": []
+      }
+    },
+    {
+      "id": "S064",
+      "chapter": "final_drop",
+      "starts_s": {
+        "de": 178.98,
+        "en": 212.18
+      },
+      "ends_s": {
+        "de": 180.62,
+        "en": 214.82
+      },
+      "zone": "type",
+      "mode": "3D",
+      "title": "Letzter Ruf im ganzen Raum",
+      "action": "Die Wortmarke steht nun fest im Raum. Auf den Buchstabenflächen erscheinen kurz echte Zustände: Export fertig, Klangkarte gewählt, App-Reload bestanden.",
+      "camera": "Halbtotale und kurze Frontansicht, Zustände während des Lesens ruhig.",
+      "transition": "Schrift gibt den Tisch wieder frei.",
+      "cues": {
+        "de": [
+          42
+        ],
+        "en": [
+          42
+        ]
+      },
+      "events": {
+        "de": [
+          "E030"
+        ],
+        "en": [
+          "E032"
+        ]
+      }
+    },
+    {
+      "id": "S065",
+      "chapter": "final_drop",
+      "starts_s": {
+        "de": 180.62,
+        "en": 214.82
+      },
+      "ends_s": {
+        "de": 187.34,
+        "en": 221.68
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Drei Perspektiven, ein Stand",
+      "action": "Ein Dreifachblick zeigt Bildschirm, räumliche Karten und Hand. Alle tragen dieselben IDs und Zustände. Die grossen Karten falten sich am Ende an den Monitor zurück; kein Schnitt springt auf eine ältere Version.",
+      "camera": "Drei auf Akzente gesetzte Blickwinkel, dann Rückfahrt auf die alte Raumachse.",
+      "transition": "Letzter Blick hält auf der Hand.",
+      "cues": {
+        "de": [
+          43
+        ],
+        "en": [
+          43
+        ]
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E033"
+        ]
+      }
+    },
+    {
+      "id": "S066",
+      "chapter": "final_drop",
+      "starts_s": {
+        "de": 187.34,
+        "en": 221.68
+      },
+      "ends_s": {
+        "de": 190,
+        "en": 227
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "22:00, das Cover wird lebendig",
+      "action": "Die Uhr zeigt 22:00. Die Anordnung erinnert jetzt an das Cover: dunkler Tisch, orange Cursor, Becher, kleine Projektpaneele; alle drei Artefakte sind aber nachvollziehbar entstanden.",
+      "camera": "Ruhige bildfüllende Komposition, wenige Sekunden Luft.",
+      "transition": "Cursor zoomt in die vier Worte des Ablaufs.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [
+          "E031"
+        ],
+        "en": [
+          "E034"
+        ]
+      }
+    },
+    {
+      "id": "S067",
+      "chapter": "outro",
+      "starts_s": {
+        "de": 190,
+        "en": 227
+      },
+      "ends_s": {
+        "de": 194.92,
+        "en": 233.06
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Prompt",
+      "action": "Der neue Wunsch steht als Eingabe offen. Die gesungene Viererformel wird auf ihrem tatsächlichen Cue als ganzer kurzer Ablauf sichtbar; einzelne Wörter werden nicht auf spätere, ungesungene Sekunden verteilt.",
+      "camera": "Frontansicht, vier klare Schritte statt Untertitelwand.",
+      "transition": "Orange Linie zum Startknopf.",
+      "cues": {
+        "de": [
+          44,
+          45
+        ],
+        "en": [
+          44
+        ]
+      },
+      "events": {
+        "de": [
+          "E032",
+          "E033"
+        ],
+        "en": [
+          "E035",
+          "E036"
+        ]
+      }
+    },
+    {
+      "id": "S068",
+      "chapter": "outro",
+      "starts_s": {
+        "de": 194.92,
+        "en": 233.06
+      },
+      "ends_s": {
+        "de": 202.46,
+        "en": 236.3
+      },
+      "zone": "screen",
+      "mode": "2D+3D",
+      "title": "Run",
+      "action": "Der Auftrag läuft. Der Pfad hebt sich nur wenig aus der Fläche; Export, Klang und App bleiben als bereits geprüfte Basis erkennbar. Bei der nächsten gesungenen Formel läuft derselbe Ablauf weiter.",
+      "camera": "Seitliche Miniaturfahrt, danach zurück zum Screen.",
+      "transition": "Laufende Linie endet im Check-Feld.",
+      "cues": {
+        "de": [],
+        "en": [
+          45
+        ]
+      },
+      "events": {
+        "de": [
+          "E034",
+          "E035"
+        ],
+        "en": [
+          "E037"
+        ]
+      }
+    },
+    {
+      "id": "S069",
+      "chapter": "outro",
+      "starts_s": {
+        "de": 202.46,
+        "en": 236.3
+      },
+      "ends_s": {
+        "de": 204.18,
+        "en": 238.8
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Check",
+      "action": "Der neue Stand wird mit demselben Reload-Test verglichen. Ein Ergebnis darf nur nach sichtbarem Vergleich markiert werden; gesungene Wiederholungen erhalten neue Blickwinkel statt neue Behauptungen.",
+      "camera": "Feste Soll-Ist-Anordnung, kurze Blickwechsel.",
+      "transition": "Testfeld zieht sich zum vierteiligen Ablauf zurück.",
+      "cues": {
+        "de": [
+          46
+        ],
+        "en": []
+      },
+      "events": {
+        "de": [
+          "E036"
+        ],
+        "en": []
+      }
+    },
+    {
+      "id": "S070",
+      "chapter": "outro",
+      "starts_s": {
+        "de": 204.18,
+        "en": 238.8
+      },
+      "ends_s": {
+        "de": 209,
+        "en": 241.66
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Go",
+      "action": "Die Person entscheidet sich für den nächsten Schritt. Der Film kann enden, obwohl die Arbeit weitergeht. Im EN-Ausklang bleibt zusätzlicher Raum für einen Blick auf alle drei Artefakte.",
+      "camera": "Rückfahrt vom Monitor über Hand und Becher zum Fenster.",
+      "transition": "Lichtpunkt des Cursors bleibt im Fenster.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [],
+        "en": [
+          "E038"
+        ]
+      }
+    },
+    {
+      "id": "S071",
+      "chapter": "outro",
+      "starts_s": {
+        "de": 209,
+        "en": 241.66
+      },
+      "ends_s": {
+        "de": 215.2,
+        "en": 243.98
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Ein letzter Puls",
+      "action": "Auf die letzte gesungene Wiederholung antwortet nur ein warmer Puls entlang der Schiene. Kein zusätzlicher Text wird erfunden; DE und EN verwenden ihren eigenen letzten Stimmeinsatz.",
+      "camera": "Aussenansicht des einen beleuchteten Fensters.",
+      "transition": "Puls fällt mit dem gemessenen Ausklang ab.",
+      "cues": {
+        "de": [
+          47
+        ],
+        "en": [
+          46
+        ]
+      },
+      "events": {
+        "de": [
+          "E037",
+          "E038",
+          "E039"
+        ],
+        "en": [
+          "E039",
+          "E040"
+        ]
+      }
+    },
+    {
+      "id": "S072",
+      "chapter": "outro",
+      "starts_s": {
+        "de": 215.2,
+        "en": 243.98
+      },
+      "ends_s": {
+        "de": 216.24,
+        "en": 244.76
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Ende bei Sampleende",
+      "action": "Das Fensterlicht erlischt erst am tatsächlichen Audioende. Eine kleine orange Stelle bleibt bis zum letzten hörbaren Rest stehen, dann Schwarz.",
+      "camera": "Statische Totale; kein vorzeitiger Abspann.",
+      "transition": "Schwarz exakt am jeweiligen WAV-Ende.",
+      "cues": {
+        "de": [],
+        "en": []
+      },
+      "events": {
+        "de": [
+          "E040",
+          "E041"
+        ],
+        "en": [
+          "E041",
+          "E042"
+        ]
+      }
+    }
+  ]
+}

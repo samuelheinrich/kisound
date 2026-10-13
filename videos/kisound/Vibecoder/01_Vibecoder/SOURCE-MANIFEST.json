@@ -1,0 +1,71 @@
+{
+  "schema": "kisound.video.screenplay.sources.v1",
+  "album": "Vibecoder",
+  "track": "01_Vibecoder",
+  "path_base": "project_root",
+  "fps": 60,
+  "variants": {
+    "de": {
+      "duration_s": 216.24,
+      "samples_per_channel": 10379520,
+      "frames_60fps": 12975,
+      "inputs": {
+        "audio": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/final/01_Vibecoder_suno-0.1_50_50_exakt_off_DE.wav",
+          "sha256": "2a32ee2e01c429f1a051cfe913448576d7e6615930567220aca48feada845d97"
+        },
+        "transcript": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/final/de/01_Vibecoder_Transkript.json",
+          "sha256": "0e3742ea8099e87dfc9e01512d0f79067677fbd2e975546f2d8bec1acef52988"
+        },
+        "prompt": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/final/de/01_Vibecoder_1.0.txt",
+          "sha256": "d5d4b1288adaa28b6c47489be53eb2a671c399a54a0b1155c107f68c9c2bef37"
+        },
+        "analysis": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/final/de/ASTRA-AUDIO-ANALYSE.json",
+          "sha256": "4e0485e2ee85a3bfd5f052e44cab6e65f1f907c7a9ca766efcd1f8f8ad698328"
+        },
+        "review": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/final/de/TRANSKRIPT-PRUEFUNG.md",
+          "sha256": "0dd2c900c0dcdcd72eb803983b4ace3ccb60c05c9b6e5b1ca3a78c24cdf0a1c9"
+        },
+        "cover": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/01_Vibecoder_cover.png",
+          "sha256": "a23848ac35c6a77ad0b05e5729ac0c07284a4de25705f53c5ee7f43a20c051a4"
+        }
+      }
+    },
+    "en": {
+      "duration_s": 244.76,
+      "samples_per_channel": 11748480,
+      "frames_60fps": 14686,
+      "inputs": {
+        "audio": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/final/01_Vibecoder_suno-0.1_50_50_exakt_off_EN.wav",
+          "sha256": "0ec442b9fa84de0a6b0e781f625597192015839555d1c27d60e649df6463d514"
+        },
+        "transcript": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/final/en/01_Vibecoder_Transkript.json",
+          "sha256": "2b48a6d589147feaa6919bf1d131464424f1da1f1e8e2d49f7589ca687768f6e"
+        },
+        "prompt": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/final/en/01_Vibecoder_1.0.txt",
+          "sha256": "11ba10c093413332a32ed4348f1281481570b142307e89ce073221f21587bf24"
+        },
+        "analysis": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/final/en/ASTRA-AUDIO-ANALYSE.json",
+          "sha256": "7a0706f367e0f2bc970a5e4dcd1c218300163c09ba97ae25c48ddd87142e822d"
+        },
+        "review": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/final/en/TRANSKRIPT-PRUEFUNG.md",
+          "sha256": "4f0d5689ec25cc221f2d55c889390296a38f78884ad95dcb90117fcdc6dbf7bb"
+        },
+        "cover": {
+          "path": "../../../../music/kisound/Vibecoder/01_Vibecoder/01_Vibecoder_cover.png",
+          "sha256": "a23848ac35c6a77ad0b05e5729ac0c07284a4de25705f53c5ee7f43a20c051a4"
+        }
+      }
+    }
+  }
+}
