@@ -7,9 +7,9 @@ Bereichen bleiben dadurch erhalten.
 
 **Integrationsstand:** Musik, Video und Web sind übernommen. Der lokale
 [Web-Build und Browser-Check](docs/web-build-result.md) sind bestanden.
-Die endgültige Abnahme durch den Web-Build-Agenten und die in seiner
-[Review-Rückmeldung](docs/web-review-and-session-migration.md) beschriebene
-Claude-/Codex-Session-Migration stehen noch aus.
+Der Web-Build-Agent hat den Import und die lokale Prüfung abgenommen. Die in
+seiner [Review-Rückmeldung](docs/web-review-and-session-migration.md)
+beschriebene Claude-/Codex-Session-Migration steht separat noch aus.
 
 | Bereich | Stand |
 | --- | --- |

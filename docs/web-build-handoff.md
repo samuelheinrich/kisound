@@ -5,7 +5,8 @@ Die [Review-Rückmeldung](web-review-and-session-migration.md) bestätigt das
 37-Dateien-Manifest und beschreibt die zusätzlich erforderlichen Video-Asset-
 Vorbereitungen sowie die Claude-/Codex-Session-Migration. Der
 [Build- und Prüfbericht](web-build-result.md) dokumentiert den erfolgreichen
-Import und lokalen Check. Die endgültige Abnahme folgt nach der Session-Prüfung.
+Import und lokalen Check, die der Web-Build-Agent abgenommen hat. Die
+Session-Migration bleibt ein separater Schritt.
 
 ## Vorgesehener Import
 

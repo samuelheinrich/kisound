@@ -1,6 +1,7 @@
 # Web-Import: lokaler Build und Check
 
-Stand: 13.10.2026. Zur Abnahme durch den verantwortlichen Web-Build-Agenten.
+Stand: 13.10.2026. **Web-Import und lokale Prüfung vom verantwortlichen
+Web-Build-Agenten abgenommen.**
 
 ## Import
 
@@ -34,7 +35,6 @@ Web-Quellen geändert. Ein Live-Deploy wurde nicht ausgeführt.
 
 ## Noch offen
 
-Die endgültige Abnahme durch den Web-Build-Agenten ist einzuholen. Die
-Claude-/Codex-Session-Migration und das Wiederöffnen älterer Sessions sind
+Die Claude-/Codex-Session-Migration und das Wiederöffnen älterer Sessions sind
 separat gemäss [Review-Rückmeldung](web-review-and-session-migration.md) zu
 prüfen. Dafür müssen alle schreibenden KISOUND-Sessions zuvor beendet sein.
