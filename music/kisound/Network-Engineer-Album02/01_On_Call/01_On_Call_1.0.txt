@@ -1,0 +1,84 @@
+VERSION: 1.0
+ALBUM: Network Engineer 02
+TRACK: 01 - On Call
+THEMA: Bereitschaftsdienst, nächtlicher Alarm, erste Diagnose statt Schuldzuweisung, der Mensch hinter dem Incident
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Final
+RELEASE AUDIO: 01_On_Call_1.0.wav
+
+LYRIC PROMPT:
+[Intro]
+Display wird hell.
+Die Stadt schläft weiter.
+Ein Name auf dem Screen.
+Ich bin erreichbar.
+
+[Verse 1]
+Das Telefon tanzt auf dem Holz,
+der Kaffee von gestern ist kalt.
+Im Ticket steht: «Alles ist weg»,
+kein Standort, kein Fehler, kein Halt.
+Ich frag: Seit wann? Ich frag: Für wen?
+Ein Screenshot ersetzt keinen Test.
+Drei Dienste rot, ein vierter grün,
+ich suche den Punkt, der sie verbindet.
+
+[Pre-Chorus]
+Nicht lauter werden.
+Genauer fragen.
+Bevor ich etwas ändere,
+will ich den Fehler sehen.
+
+[Chorus]
+On Call.
+Display wird hell.
+Die Stadt schläft weiter,
+ich folg dem Signal.
+On Call.
+Noch keine Antwort.
+Doch ich bleib dran,
+bis ich die Ursache hab.
+
+[Verse 2]
+Die Route steht, der Link ist da,
+der erste Test geht sauber durch.
+Am nächsten Hop verstummt der Flow,
+ich zieh die Spur durch jeden Sprung.
+Ein Change von heute, frisch im Log,
+ein Counter steigt am falschen Port.
+Kein Neustart auf Verdacht,
+ich grenze ein und prüfe dort.
+
+[Bridge]
+Da ist der Unterschied.
+Da fängt die Spur an.
+Ein Test bestätigt,
+was das Ticket nicht sagen kann.
+Die Hand liegt auf der Taste.
+Der nächste Schritt steht fest.
+Erst verstehen, dann verändern.
+Dann derselbe Test.
+
+[Final Chorus]
+On Call.
+Display wird hell.
+Die Stadt schläft weiter,
+ich folg dem Signal.
+On Call.
+Jetzt hat der Fehler einen Namen.
+Ich halte die Spur,
+bis der Service wieder läuft.
+
+[Outro]
+Kein Applaus im leeren Zimmer.
+Nur ein Ticket, das sich schliesst.
+Display wird dunkel.
+Die Stadt weiss nichts davon.
+
+STYLE PROMPT:
+Treibender Industrial Electro mit EBM-Einfluss bei etwa 126 BPM. Der Einstieg ist sofort aufmerksam und gespannt: ein kurzer digitaler Alarm, ein trockener Basspuls und eine deutliche rhythmische Figur. Daraus wächst ein körperlicher Groove mit schwerem Bass-Sequencer, metallischer Percussion und präziser Kick. Kein ausgedehntes Ambient-Intro. Die Energie folgt der Untersuchung: zunächst tastende Einzelmotive, dann immer enger verzahnte Synths, im letzten Refrain ein entschlossener voller Groove. Der kurze Alarm wird als musikalisches Motiv wieder aufgegriffen, ohne den Gesang zu verdecken.
+
+Eine einzelne mitteltiefe Stimme, wach, ruhig und konzentriert. Strophen rhythmisch und fast gesprochen, Refrains melodisch knapp und einprägsam. «Display wird hell. Die Stadt schläft weiter» ist die zentrale wiederkehrende Phrase. Spannung durch Präzision und Druck; verständliche Worte und Luft zwischen den Zeilen. Das Outro schliesst mit dem zurückbleibenden Basspuls.
+
+Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht übersetzen. Abkürzungen wie TCP, SSH oder DSCP als einzelne englische Buchstaben aussprechen; ganze Fachwörter normal aussprechen. Abschnittsnamen und Sprecherbezeichnungen nicht singen, nur die Lyrics performen. Keine bekannten Melodie- oder Song-Referenzen.
+

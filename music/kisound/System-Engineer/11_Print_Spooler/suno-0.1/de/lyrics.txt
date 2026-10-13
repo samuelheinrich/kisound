@@ -1,0 +1,53 @@
+[Intro]
+Der Drucker druckt nicht.
+Schon wieder.
+
+[Verse 1]
+Ticket zwölf für heute: der Drucker im dritten Stock,
+in der Warteschlange siebenunddreissig Jobs, und alles steht im Block.
+Der erste Job ganz oben: „Fehler – Wird gedruckt“,
+ein PDF mit dreihundert Seiten, das sich im Spooler duckt.
+Abbrechen? Klick. Nichts passiert. Er steht und steht,
+der Status springt auf „Wird gelöscht“, und bleibt, so wie's halt geht.
+
+[Chorus]
+net stop spooler.
+Ordner leer.
+net start spooler.
+Siebenunddreissig Jobs, und keiner mehr.
+Testseite raus, das Papier ist warm,
+der dritte Stock druckt wieder, kein Alarm.
+
+[Verse 2]
+Ich geh nach System32, spool, PRINTERS, tief hinein,
+da liegen sie: SHD und SPL, Paar für Paar, ganz klein.
+Alles löschen, Dienst starten, die Schlange ist leer,
+und gleich ruft die Buchhaltung: „Wo ist mein Ausdruck? Ich find ihn nicht mehr.“
+Ich sag: Bitte nochmal drucken, aber einmal, nicht zehnmal,
+denn wer zehnmal klickt, wenn's hängt, der druckt am Ende zehnmal.
+
+[Chorus]
+net stop spooler.
+Ordner leer.
+net start spooler.
+Siebenunddreissig Jobs, und keiner mehr.
+Testseite raus, das Papier ist warm,
+der dritte Stock druckt wieder, kein Alarm.
+
+[Bridge]
+Papierstau in Fach zwei.
+Toner fast leer.
+Ein Treiber von zweitausendzwölf.
+Ich brauch einen Kaffee. Und mehr.
+
+[Chorus]
+net stop spooler.
+Ordner leer.
+net start spooler.
+Siebenunddreissig Jobs, und keiner mehr.
+Testseite raus, das Papier ist warm,
+der dritte Stock druckt wieder, kein Alarm.
+
+[Outro]
+Der Drucker druckt.
+Für heute.

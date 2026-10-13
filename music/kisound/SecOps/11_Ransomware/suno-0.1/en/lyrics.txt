@@ -1,0 +1,54 @@
+[Intro]
+All your files have been encrypted.
+Read the README file.
+
+[Verse 1]
+Friday, six-forty p.m., the warehouse calls: "The files won't open."
+Every file ends in .locked, a note in every folder, the silence broken.
+The file server's running hot, a thousand changes every second,
+a process writes, encrypts, renames, faster than we reckoned.
+Shares cut, server off the net, the writing account locked out,
+the SOC pulls the port on the switch before it spreads about.
+
+[Chorus]
+Ransomware.
+Everything encrypted. Everything still.
+Ransomware.
+We don't pay, whatever the note demands, we never will.
+Isolate. Check. Restore.
+And stand our ground through the night once more.
+
+[Verse 2]
+The backup server: encrypted too, it was joined to the domain,
+with the same admin rights the attacker got in there again.
+But the tape in the safe, from Wednesday, offline and cold,
+and the immutable copy, nobody could touch it. They hold.
+We rebuild, clean, server by server, the whole weekend through,
+and Monday morning the warehouse opens the first file, and it opens like new.
+
+[Chorus]
+Ransomware.
+Everything encrypted. Everything still.
+Ransomware.
+We don't pay, whatever the note demands, we never will.
+Isolate. Check. Restore.
+And stand our ground through the night once more.
+
+[Bridge]
+The network in zones,
+the backup out of reach,
+admin accounts separate,
+that's the lesson we teach.
+
+[Chorus]
+Ransomware.
+Everything encrypted. Everything still.
+Ransomware.
+We don't pay, whatever the note demands, we never will.
+Isolate. Check. Restore.
+And stand our ground through the night once more.
+
+[Outro]
+Monday, seven a.m.
+Files restored.
+No payment.

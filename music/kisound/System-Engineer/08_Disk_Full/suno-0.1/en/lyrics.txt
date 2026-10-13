@@ -1,0 +1,56 @@
+[Intro]
+No space left on device.
+Three a.m.
+
+[Verse 1]
+Monitoring wakes me up: /var at a hundred percent,
+the database has stopped, the web service is spent.
+df -h confirms it, not a single byte is free,
+du -sh, sorted by size, the app log's on top, I see.
+Forty gigs of debug logs since the update back in March,
+someone turned the log level up and left it, off the charts.
+
+[Chorus]
+Disk full.
+A hundred percent.
+Disk full.
+No space left on device, and nothing gets sent.
+I delete the file, and nothing moves,
+df still shows a hundred, nothing improves.
+
+[Verse 2]
+rm on the log, but the space stays gone,
+the process holds the file open, deleted, but it lingers on.
+lsof +L1 shows it: deleted, but still open wide,
+the service keeps on writing to the file it holds inside.
+I restart the service, the handle's closed, the space is free,
+seventy percent, the database is up, the web is back with me.
+Then logrotate done right: daily, seven days, compressed,
+log level back to info, an alert at eighty, so the night can rest.
+
+[Chorus]
+Disk full.
+A hundred percent.
+Disk full.
+No space left on device, and nothing gets sent.
+I delete the file, and nothing moves,
+df still shows a hundred, nothing improves.
+
+[Bridge]
+Don't delete what's still held open,
+truncate it to zero if you must.
+A colon, an arrow, a filename,
+and the space comes back without a fuss.
+
+[Chorus]
+Disk full.
+A hundred percent.
+Disk full.
+No space left on device, and nothing gets sent.
+I delete the file, and nothing moves,
+df still shows a hundred, nothing improves.
+
+[Outro]
+Seventy percent.
+Three-forty a.m.
+Back to bed.

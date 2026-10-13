@@ -1,0 +1,32 @@
+VIBECODER · Cover-Generierung
+Datum: 2026-10-10
+Werkzeug: integriertes image_gen über codex exec
+Bild: 01_Vibecoder_cover.png
+Stilreferenz: 02_Token_Burn/02_Token_Burn_cover.png (Albumserie Vibecoder, orange)
+Textgrundlage: Albumthema und Varianten suno-0.1, V1–V3
+Verwendung: gemeinsames Trackcover für Deutsch und Englisch
+
+EXAKTER GENERIERUNGSPROMPT:
+
+Use case: stylized-concept
+Asset type: finished square electronic single cover, 1:1, edge-to-edge artwork.
+Series: this is one cover in a consistent album series. Match the attached reference cover "TOKEN BURN" exactly in art direction: same typography style, same title placement, same credit layout, same palette, same lighting mood, same cinematic 3D miniature rendering of a nocturnal home coding desk. Only the title and the scene content change.
+Primary request: Create a striking, professionally art-directed cover for "VIBECODER", the opening track of the album "Vibecoder" by Samuel Heinrich. The music is a bass-heavy, confident club opener; the story: a network engineer with twenty years of experience who, after his day job, builds his own tools, apps and gadgets at night with an AI coding agent in the terminal. Ideas become working prototypes.
+
+Scene and subject: The same nocturnal home desk as in the reference, earlier in the evening. An open laptop with a dark terminal window and a glowing orange prompt cursor. Rising above the laptop, layered translucent application panels, each holding one small physical prototype as a precise 3D miniature: a Raspberry Pi board with a small camera module and two little pan-tilt servos; a tiny architectural 3D model of a building floor grown from a flat floor plan; a low-poly robot figure; a small file window with a progress bar. On the left side of the desk a compact rack-mount network switch with a few patch cables and blinking port LEDs, hinting at the day job. A ceramic coffee cup, a digital clock showing exactly "22:00", a dark window behind. No person is necessary.
+
+Composition: Bold editorial cover with an enormous stacked geometric sans-serif title occupying the upper half, exactly like the reference: "VIBE" in warm off-white on the first line, "CODER" in saturated ember orange on the second line. Strong condensed heavy typography, tight confident spacing, clean exact letterforms, subtle sculptural extrusion, instantly readable as a small streaming thumbnail. The title relates spatially to the miniature scene in the lower half without obstructing any letters. Generous dark negative space, purposeful hierarchy. At the bottom, centered and safely inset, the same tiny letter-spaced credit as the reference: "SAMUEL HEINRICH" in off-white, below it "VIBECODER" in ember orange.
+
+Style: sophisticated combination of crisp Swiss electronic-record typography and tactile cinematic 3D illustration; sharp geometry, smoked glass and matte charcoal materials, subtle analog grain. A contemporary underground electronic release, with depth and controlled graphic precision.
+
+Lighting and palette: deep midnight charcoal #10141C, off-white #F4F3EA, vivid ember orange #FF6534, small electric-cyan #44DDE5 accents on interface edges. Low-key room with strong focused orange screen light, cyan rim light and atmospheric shadows. Confident, curious, inventive and cool.
+
+Text (verbatim, only these words and the clock):
+"VIBE"
+"CODER"
+"SAMUEL HEINRICH"
+"VIBECODER"
+"22:00"
+
+Constraints: polished square cover, opaque background. Title is the dominant element. Both German and English releases use this same cover. All objects geometrically coherent. Small UI marks may be abstract graphic blocks, with no fake paragraphs of text and no readable code.
+Avoid: literal vibes like waves or psychedelic swirls, generic hooded hacker, corporate or brand logos, stock-photo look, dense cyberpunk city, magenta or purple neon, green as a main color, excessive bloom, illegible or misspelled title, extra slogans, watermarks, border, mockup of a record sleeve. Deliver the artwork itself.

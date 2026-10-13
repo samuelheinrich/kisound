@@ -1,0 +1,25 @@
+{
+  "name": "kisound-ne01-wifi-roaming",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "WiFi Roaming: deterministisches 3D-Musikvideo mit Browserplayer und gemeinsamem 1080p-/4K-Export",
+  "scripts": {
+    "prepare": "node src/tools/prepare.mjs",
+    "preview": "node src/render/serve.mjs --open",
+    "serve": "node src/render/serve.mjs",
+    "check": "node --test tests/*.test.mjs",
+    "check:browser": "node src/tools/check-browser.mjs",
+    "export:1080p": "node ../../tools/kisound-render.mjs 1080p",
+    "check:export": "node src/tools/verify-export.mjs",
+    "export": "node src/render/export.mjs",
+    "export:4k": "node ../../tools/kisound-render.mjs 4k",
+    "export:check": "node ../../tools/kisound-render.mjs --check"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.43.1"
+  }
+}

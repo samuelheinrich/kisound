@@ -1,0 +1,294 @@
+{
+  "description": "A modular block for the retreat through the scales: five towers with window grids on a ground plate. Instanced far and wide by the film; this is one tile of it. Scenes S10/S11/S15.",
+  "budgetTris": 300000,
+  "materials": {
+    "chassis": {
+      "color": [
+        0.03,
+        0.035,
+        0.042
+      ],
+      "roughness": 0.45,
+      "metallic": 0.85
+    },
+    "plastic": {
+      "color": [
+        0.045,
+        0.05,
+        0.058
+      ],
+      "roughness": 0.7
+    },
+    "led": {
+      "color": [
+        0.05,
+        0.35,
+        0.18
+      ],
+      "roughness": 0.4,
+      "emission": [
+        0.15,
+        1.0,
+        0.45
+      ],
+      "emissionStrength": 3.0
+    },
+    "cavity": {
+      "color": [
+        0.004,
+        0.006,
+        0.009
+      ],
+      "roughness": 0.9
+    }
+  },
+  "parts": [
+    {
+      "id": "ground",
+      "kind": "box",
+      "size": [
+        60.0,
+        60.0,
+        0.4
+      ],
+      "at": [
+        0,
+        0,
+        -0.2
+      ],
+      "material": "cavity"
+    },
+    {
+      "id": "towerA",
+      "kind": "box",
+      "size": [
+        11.0,
+        11.0,
+        46.0
+      ],
+      "at": [
+        -14.0,
+        -10.0,
+        23.0
+      ],
+      "material": "chassis",
+      "bevel": 0.2
+    },
+    {
+      "id": "towerB",
+      "kind": "box",
+      "size": [
+        8.0,
+        9.0,
+        29.0
+      ],
+      "at": [
+        6.0,
+        -13.0,
+        14.5
+      ],
+      "material": "chassis",
+      "bevel": 0.2
+    },
+    {
+      "id": "towerC",
+      "kind": "box",
+      "size": [
+        13.0,
+        10.0,
+        18.0
+      ],
+      "at": [
+        13.0,
+        9.0,
+        9.0
+      ],
+      "material": "chassis",
+      "bevel": 0.2
+    },
+    {
+      "id": "towerD",
+      "kind": "box",
+      "size": [
+        7.0,
+        7.0,
+        36.0
+      ],
+      "at": [
+        -9.0,
+        14.0,
+        18.0
+      ],
+      "material": "chassis",
+      "bevel": 0.2
+    },
+    {
+      "id": "towerE",
+      "kind": "box",
+      "size": [
+        9.0,
+        14.0,
+        12.0
+      ],
+      "at": [
+        2.0,
+        7.0,
+        6.0
+      ],
+      "material": "chassis",
+      "bevel": 0.2
+    },
+    {
+      "id": "winA",
+      "kind": "grid",
+      "count": [
+        7,
+        18
+      ],
+      "pitch": [
+        1.35,
+        2.35
+      ],
+      "size": [
+        0.8,
+        0.35,
+        1.1
+      ],
+      "at": [
+        -14.0,
+        -15.55,
+        23.0
+      ],
+      "material": "led",
+      "plane": "xz"
+    },
+    {
+      "id": "winB",
+      "kind": "grid",
+      "count": [
+        5,
+        11
+      ],
+      "pitch": [
+        1.35,
+        2.35
+      ],
+      "size": [
+        0.8,
+        0.35,
+        1.1
+      ],
+      "at": [
+        6.0,
+        -17.55,
+        14.5
+      ],
+      "material": "led",
+      "plane": "xz"
+    },
+    {
+      "id": "winD",
+      "kind": "grid",
+      "count": [
+        4,
+        14
+      ],
+      "pitch": [
+        1.35,
+        2.35
+      ],
+      "size": [
+        0.8,
+        0.35,
+        1.1
+      ],
+      "at": [
+        -9.0,
+        10.45,
+        18.0
+      ],
+      "material": "led",
+      "plane": "xz"
+    },
+    {
+      "id": "mast",
+      "kind": "cylinder",
+      "radius": 0.22,
+      "depth": 9.0,
+      "at": [
+        -14.0,
+        -10.0,
+        50.5
+      ],
+      "material": "chassis",
+      "verts": 10
+    },
+    {
+      "id": "beacon",
+      "kind": "sphere",
+      "radius": 0.55,
+      "at": [
+        -14.0,
+        -10.0,
+        55.2
+      ],
+      "material": "led",
+      "segments": 12,
+      "rings": 8
+    },
+    {
+      "id": "cam.street",
+      "kind": "anchor",
+      "at": [
+        0,
+        -46.0,
+        4.0
+      ],
+      "props": {
+        "fov": 50,
+        "look": "towerA"
+      }
+    },
+    {
+      "id": "cam.above",
+      "kind": "anchor",
+      "at": [
+        36.0,
+        -46.0,
+        62.0
+      ],
+      "props": {
+        "fov": 44,
+        "look": "towerA"
+      }
+    },
+    {
+      "id": "flyover",
+      "kind": "path",
+      "points": [
+        [
+          0,
+          -70,
+          26
+        ],
+        [
+          0,
+          -20,
+          30
+        ],
+        [
+          0,
+          26,
+          36
+        ],
+        [
+          0,
+          70,
+          46
+        ]
+      ]
+    }
+  ],
+  "id": "city-block",
+  "mergeByMaterial": true
+}

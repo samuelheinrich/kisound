@@ -1,0 +1,575 @@
+{
+  "source_audio_sha256": "fd70e12809ce18389d194a1f3829c98deced25b1c24ade5a24ae81ecf2b05408",
+  "frame": 6000,
+  "next_frame": 9000,
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 65.8,
+      "text": "Bass hits bold German first and English, I check both of them through",
+      "words": [
+        {
+          "word": "Bass",
+          "start": 60.32,
+          "end": 60.68
+        },
+        {
+          "word": "hits",
+          "start": 60.68,
+          "end": 61.2
+        },
+        {
+          "word": "bold",
+          "start": 61.2,
+          "end": 62.38
+        },
+        {
+          "word": "German",
+          "start": 62.38,
+          "end": 62.88
+        },
+        {
+          "word": "first",
+          "start": 62.88,
+          "end": 63.24
+        },
+        {
+          "word": "and",
+          "start": 63.24,
+          "end": 63.72
+        },
+        {
+          "word": "English",
+          "start": 63.72,
+          "end": 63.8
+        },
+        {
+          "word": ",",
+          "start": 63.8,
+          "end": 63.96
+        },
+        {
+          "word": "I",
+          "start": 63.96,
+          "end": 64.2
+        },
+        {
+          "word": "check",
+          "start": 64.2,
+          "end": 64.46
+        },
+        {
+          "word": "both",
+          "start": 64.46,
+          "end": 64.64
+        },
+        {
+          "word": "of",
+          "start": 64.64,
+          "end": 64.92
+        },
+        {
+          "word": "them",
+          "start": 64.92,
+          "end": 65.3
+        },
+        {
+          "word": "through",
+          "start": 65.3,
+          "end": 65.8
+        }
+      ],
+      "tokens": [
+        50365,
+        29626,
+        8664,
+        11928,
+        6521,
+        700,
+        293,
+        3669,
+        11,
+        286,
+        1520,
+        1293,
+        295,
+        552,
+        807,
+        50655
+      ]
+    },
+    {
+      "start": 65.8,
+      "end": 70.08,
+      "text": "The lyrics keep their language just the way I wrote them too",
+      "words": [
+        {
+          "word": "The",
+          "start": 65.94,
+          "end": 66.3
+        },
+        {
+          "word": "lyrics",
+          "start": 66.3,
+          "end": 66.58
+        },
+        {
+          "word": "keep",
+          "start": 66.58,
+          "end": 66.76
+        },
+        {
+          "word": "their",
+          "start": 66.76,
+          "end": 67.12
+        },
+        {
+          "word": "language",
+          "start": 67.12,
+          "end": 67.44
+        },
+        {
+          "word": "just",
+          "start": 67.44,
+          "end": 67.64
+        },
+        {
+          "word": "the",
+          "start": 67.64,
+          "end": 67.86
+        },
+        {
+          "word": "way",
+          "start": 67.86,
+          "end": 68.06
+        },
+        {
+          "word": "I",
+          "start": 68.06,
+          "end": 68.3
+        },
+        {
+          "word": "wrote",
+          "start": 68.3,
+          "end": 68.48
+        },
+        {
+          "word": "them",
+          "start": 68.48,
+          "end": 68.74
+        },
+        {
+          "word": "too",
+          "start": 68.74,
+          "end": 70.06
+        }
+      ],
+      "tokens": [
+        50655,
+        440,
+        12189,
+        1066,
+        641,
+        2856,
+        445,
+        264,
+        636,
+        286,
+        4114,
+        552,
+        886,
+        50869
+      ]
+    },
+    {
+      "start": 70.08,
+      "end": 73.52,
+      "text": "Committed, ship it Bill check live",
+      "words": [
+        {
+          "word": "Committed",
+          "start": 70.28,
+          "end": 70.74
+        },
+        {
+          "word": ",",
+          "start": 70.74,
+          "end": 70.9
+        },
+        {
+          "word": "ship",
+          "start": 70.9,
+          "end": 71.14
+        },
+        {
+          "word": "it",
+          "start": 71.14,
+          "end": 72.14
+        },
+        {
+          "word": "Bill",
+          "start": 72.14,
+          "end": 72.34
+        },
+        {
+          "word": "check",
+          "start": 72.34,
+          "end": 72.72
+        },
+        {
+          "word": "live",
+          "start": 72.72,
+          "end": 73.36
+        }
+      ],
+      "tokens": [
+        50869,
+        3046,
+        3944,
+        11,
+        5374,
+        309,
+        5477,
+        1520,
+        1621,
+        51041
+      ]
+    },
+    {
+      "start": 73.52,
+      "end": 76.96000000000001,
+      "text": "Committed, ship it Album, album three",
+      "words": [
+        {
+          "word": "Committed",
+          "start": 73.72,
+          "end": 74.14
+        },
+        {
+          "word": ",",
+          "start": 74.14,
+          "end": 74.3
+        },
+        {
+          "word": "ship",
+          "start": 74.3,
+          "end": 74.5
+        },
+        {
+          "word": "it",
+          "start": 74.5,
+          "end": 74.78
+        },
+        {
+          "word": "Album",
+          "start": 74.78,
+          "end": 75.2
+        },
+        {
+          "word": ",",
+          "start": 75.2,
+          "end": 75.68
+        },
+        {
+          "word": "album",
+          "start": 75.68,
+          "end": 76.04
+        },
+        {
+          "word": "three",
+          "start": 76.04,
+          "end": 76.92
+        }
+      ],
+      "tokens": [
+        51041,
+        3046,
+        3944,
+        11,
+        5374,
+        309,
+        967,
+        5559,
+        11,
+        6030,
+        1045,
+        51213
+      ]
+    },
+    {
+      "start": 76.96000000000001,
+      "end": 80.4,
+      "text": "The link goes out, the link goes out The page holds fast",
+      "words": [
+        {
+          "word": "The",
+          "start": 77.14,
+          "end": 77.32
+        },
+        {
+          "word": "link",
+          "start": 77.32,
+          "end": 77.58
+        },
+        {
+          "word": "goes",
+          "start": 77.58,
+          "end": 77.78
+        },
+        {
+          "word": "out",
+          "start": 77.78,
+          "end": 77.86
+        },
+        {
+          "word": ",",
+          "start": 77.86,
+          "end": 77.96
+        },
+        {
+          "word": "the",
+          "start": 77.96,
+          "end": 78.16
+        },
+        {
+          "word": "link",
+          "start": 78.16,
+          "end": 78.44
+        },
+        {
+          "word": "goes",
+          "start": 78.44,
+          "end": 78.62
+        },
+        {
+          "word": "out",
+          "start": 78.62,
+          "end": 78.78
+        },
+        {
+          "word": "The",
+          "start": 78.78,
+          "end": 79.04
+        },
+        {
+          "word": "page",
+          "start": 79.04,
+          "end": 79.22
+        },
+        {
+          "word": "holds",
+          "start": 79.22,
+          "end": 79.64
+        },
+        {
+          "word": "fast",
+          "start": 79.64,
+          "end": 80.2
+        }
+      ],
+      "tokens": [
+        51213,
+        440,
+        2113,
+        1709,
+        484,
+        11,
+        264,
+        2113,
+        1709,
+        484,
+        440,
+        3028,
+        9190,
+        2370,
+        51385
+      ]
+    },
+    {
+      "start": 80.4,
+      "end": 84.8,
+      "text": "Ah, ah, ah Hit play, the bass comes in at last",
+      "words": [
+        {
+          "word": "Ah",
+          "start": 80.62,
+          "end": 80.86
+        },
+        {
+          "word": ",",
+          "start": 80.86,
+          "end": 81.02
+        },
+        {
+          "word": "ah",
+          "start": 81.02,
+          "end": 81.2
+        },
+        {
+          "word": ",",
+          "start": 81.2,
+          "end": 81.4
+        },
+        {
+          "word": "ah",
+          "start": 81.4,
+          "end": 81.76
+        },
+        {
+          "word": "Hit",
+          "start": 81.76,
+          "end": 82.02
+        },
+        {
+          "word": "play",
+          "start": 82.02,
+          "end": 82.14
+        },
+        {
+          "word": ",",
+          "start": 82.14,
+          "end": 82.22
+        },
+        {
+          "word": "the",
+          "start": 82.22,
+          "end": 82.46
+        },
+        {
+          "word": "bass",
+          "start": 82.46,
+          "end": 82.68
+        },
+        {
+          "word": "comes",
+          "start": 82.68,
+          "end": 82.92
+        },
+        {
+          "word": "in",
+          "start": 82.92,
+          "end": 83.1
+        },
+        {
+          "word": "at",
+          "start": 83.1,
+          "end": 83.46
+        },
+        {
+          "word": "last",
+          "start": 83.46,
+          "end": 85.24
+        }
+      ],
+      "tokens": [
+        51385,
+        2438,
+        11,
+        3716,
+        11,
+        3716,
+        9217,
+        862,
+        11,
+        264,
+        10136,
+        1487,
+        294,
+        412,
+        1036,
+        51605,
+        51605
+      ]
+    },
+    {
+      "start": 84.8,
+      "end": 89.36,
+      "text": "Tracks, covers, numbers, build, check, deploy, reload",
+      "words": [
+        {
+          "word": "Tracks",
+          "start": 85.02,
+          "end": 85.34
+        },
+        {
+          "word": ",",
+          "start": 85.34,
+          "end": 86.08
+        },
+        {
+          "word": "covers",
+          "start": 86.08,
+          "end": 86.2
+        },
+        {
+          "word": ",",
+          "start": 86.2,
+          "end": 86.48
+        },
+        {
+          "word": "numbers",
+          "start": 86.48,
+          "end": 86.76
+        },
+        {
+          "word": ",",
+          "start": 86.76,
+          "end": 86.86
+        },
+        {
+          "word": "build",
+          "start": 86.86,
+          "end": 87.02
+        },
+        {
+          "word": ",",
+          "start": 87.02,
+          "end": 87.6
+        },
+        {
+          "word": "check",
+          "start": 87.6,
+          "end": 87.82
+        },
+        {
+          "word": ",",
+          "start": 87.82,
+          "end": 88.48
+        },
+        {
+          "word": "deploy",
+          "start": 88.48,
+          "end": 88.74
+        },
+        {
+          "word": ",",
+          "start": 88.74,
+          "end": 89.3
+        },
+        {
+          "word": "reload",
+          "start": 89.3,
+          "end": 89.98
+        }
+      ],
+      "tokens": [
+        50365,
+        1765,
+        7424,
+        11,
+        10538,
+        11,
+        3547,
+        11,
+        1322,
+        11,
+        1520,
+        11,
+        7274,
+        11,
+        25628,
+        50593
+      ]
+    }
+  ]
+}

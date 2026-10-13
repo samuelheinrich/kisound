@@ -1,0 +1,54 @@
+[Intro]
+Security Operations Center.
+Schicht beginnt.
+
+[Verse 1]
+Achtzehn Uhr, Übergabe, die Tagschicht packt zusammen,
+drei offene Fälle, Notizen, ein Kaffee, und neue Alarme kommen.
+Acht Bildschirme, eine Queue, rot, orange und gelb,
+Tier eins sortiert, was nur rauscht und was wirklich zählt.
+Ein Login in Basel, zwölf Minuten später in São Paulo,
+so schnell fliegt kein Flugzeug, ich eskalier's an Tier zwo.
+
+[Chorus]
+S-O-C.
+Wir schlafen nicht.
+S-O-C.
+Wir halten die Nacht in Sicht.
+Erkennen. Bewerten. Reagieren.
+Und keinen Alarm verlieren.
+
+[Verse 2]
+Zwei Uhr, zweihundert Alarme, das meiste davon Lärm,
+doch einer passt nicht ins Muster, und den behalt ich im Schirm.
+Word startet PowerShell, kodiert, um zwei Uhr in der Nacht,
+das macht kein Buchhalter, ich isolier den Host, mit Bedacht.
+Fall an Tier drei, mit Prozessbaum, Hash und Zeit,
+um sechs die Übergabe, die Tagschicht steht bereit.
+
+[Chorus]
+S-O-C.
+Wir schlafen nicht.
+S-O-C.
+Wir halten die Nacht in Sicht.
+Erkennen. Bewerten. Reagieren.
+Und keinen Alarm verlieren.
+
+[Bridge]
+Wenn ihr schlaft, sind wir wach.
+Wenn ihr klickt, sehen wir nach.
+Kein Held, kein Film, kein Glanz,
+nur Logs und Kaffee, die Nacht im Ganzen.
+
+[Chorus]
+S-O-C.
+Wir schlafen nicht.
+S-O-C.
+Wir halten die Nacht in Sicht.
+Erkennen. Bewerten. Reagieren.
+Und keinen Alarm verlieren.
+
+[Outro]
+Übergabe.
+Drei Fälle offen.
+Schicht vorbei.

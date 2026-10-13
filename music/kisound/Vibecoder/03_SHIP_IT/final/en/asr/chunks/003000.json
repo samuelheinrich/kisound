@@ -1,0 +1,700 @@
+{
+  "source_audio_sha256": "fd70e12809ce18389d194a1f3829c98deced25b1c24ade5a24ae81ecf2b05408",
+  "frame": 3000,
+  "next_frame": 6000,
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 34.06,
+      "text": "Name it back, check again, zero errors, now the final track",
+      "words": [
+        {
+          "word": "Name",
+          "start": 30.16,
+          "end": 30.34
+        },
+        {
+          "word": "it",
+          "start": 30.34,
+          "end": 30.66
+        },
+        {
+          "word": "back",
+          "start": 30.66,
+          "end": 30.9
+        },
+        {
+          "word": ",",
+          "start": 30.9,
+          "end": 31.42
+        },
+        {
+          "word": "check",
+          "start": 31.42,
+          "end": 31.92
+        },
+        {
+          "word": "again",
+          "start": 31.92,
+          "end": 32.16
+        },
+        {
+          "word": ",",
+          "start": 32.16,
+          "end": 32.42
+        },
+        {
+          "word": "zero",
+          "start": 32.42,
+          "end": 32.88
+        },
+        {
+          "word": "errors",
+          "start": 32.88,
+          "end": 33.04
+        },
+        {
+          "word": ",",
+          "start": 33.04,
+          "end": 33.14
+        },
+        {
+          "word": "now",
+          "start": 33.14,
+          "end": 33.34
+        },
+        {
+          "word": "the",
+          "start": 33.34,
+          "end": 33.7
+        },
+        {
+          "word": "final",
+          "start": 33.7,
+          "end": 34.02
+        },
+        {
+          "word": "track",
+          "start": 34.02,
+          "end": 34.1
+        }
+      ],
+      "tokens": [
+        50365,
+        13866,
+        309,
+        646,
+        11,
+        1520,
+        797,
+        11,
+        4018,
+        13603,
+        11,
+        586,
+        264,
+        2572,
+        2837,
+        50568
+      ]
+    },
+    {
+      "start": 34.06,
+      "end": 36.82,
+      "text": "Committed, ship it, bill check live",
+      "words": [
+        {
+          "word": "Committed",
+          "start": 34.28,
+          "end": 34.72
+        },
+        {
+          "word": ",",
+          "start": 34.72,
+          "end": 34.9
+        },
+        {
+          "word": "ship",
+          "start": 34.9,
+          "end": 35.06
+        },
+        {
+          "word": "it",
+          "start": 35.06,
+          "end": 35.96
+        },
+        {
+          "word": ",",
+          "start": 35.96,
+          "end": 36.14
+        },
+        {
+          "word": "bill",
+          "start": 36.14,
+          "end": 36.34
+        },
+        {
+          "word": "check",
+          "start": 36.34,
+          "end": 36.74
+        },
+        {
+          "word": "live",
+          "start": 36.74,
+          "end": 37.16
+        }
+      ],
+      "tokens": [
+        50568,
+        3046,
+        3944,
+        11,
+        5374,
+        309,
+        11,
+        2961,
+        1520,
+        1621,
+        50706
+      ]
+    },
+    {
+      "start": 36.82,
+      "end": 40.08,
+      "text": "Committed, ship it, album, album three",
+      "words": [
+        {
+          "word": "Committed",
+          "start": 37.72,
+          "end": 38.14
+        },
+        {
+          "word": ",",
+          "start": 38.14,
+          "end": 38.3
+        },
+        {
+          "word": "ship",
+          "start": 38.3,
+          "end": 38.48
+        },
+        {
+          "word": "it",
+          "start": 38.48,
+          "end": 38.62
+        },
+        {
+          "word": ",",
+          "start": 38.62,
+          "end": 38.94
+        },
+        {
+          "word": "album",
+          "start": 38.94,
+          "end": 39.16
+        },
+        {
+          "word": ",",
+          "start": 39.16,
+          "end": 39.66
+        },
+        {
+          "word": "album",
+          "start": 39.66,
+          "end": 40.04
+        },
+        {
+          "word": "three",
+          "start": 40.04,
+          "end": 40.62
+        }
+      ],
+      "tokens": [
+        50706,
+        3046,
+        3944,
+        11,
+        5374,
+        309,
+        11,
+        6030,
+        11,
+        6030,
+        1045,
+        50869
+      ]
+    },
+    {
+      "start": 40.08,
+      "end": 43.72,
+      "text": "The link goes three, the link goes out, the page loads fast",
+      "words": [
+        {
+          "word": "The",
+          "start": 41.08,
+          "end": 41.34
+        },
+        {
+          "word": "link",
+          "start": 41.34,
+          "end": 41.56
+        },
+        {
+          "word": "goes",
+          "start": 41.56,
+          "end": 41.74
+        },
+        {
+          "word": "three",
+          "start": 41.74,
+          "end": 41.84
+        },
+        {
+          "word": ",",
+          "start": 41.84,
+          "end": 41.96
+        },
+        {
+          "word": "the",
+          "start": 41.96,
+          "end": 42.2
+        },
+        {
+          "word": "link",
+          "start": 42.2,
+          "end": 42.44
+        },
+        {
+          "word": "goes",
+          "start": 42.44,
+          "end": 42.62
+        },
+        {
+          "word": "out",
+          "start": 42.62,
+          "end": 42.66
+        },
+        {
+          "word": ",",
+          "start": 42.66,
+          "end": 42.78
+        },
+        {
+          "word": "the",
+          "start": 42.78,
+          "end": 43.04
+        },
+        {
+          "word": "page",
+          "start": 43.04,
+          "end": 43.22
+        },
+        {
+          "word": "loads",
+          "start": 43.22,
+          "end": 43.62
+        },
+        {
+          "word": "fast",
+          "start": 43.62,
+          "end": 44.34
+        }
+      ],
+      "tokens": [
+        50869,
+        440,
+        2113,
+        1709,
+        1045,
+        11,
+        264,
+        2113,
+        1709,
+        484,
+        11,
+        264,
+        3028,
+        12668,
+        2370,
+        51051
+      ]
+    },
+    {
+      "start": 43.72,
+      "end": 47.519999999999996,
+      "text": "Ah, ah, ah, ah, it play, the bass comes in at last",
+      "words": [
+        {
+          "word": "Ah",
+          "start": 44.58,
+          "end": 44.86
+        },
+        {
+          "word": ",",
+          "start": 44.86,
+          "end": 45.02
+        },
+        {
+          "word": "ah",
+          "start": 45.02,
+          "end": 45.28
+        },
+        {
+          "word": ",",
+          "start": 45.28,
+          "end": 45.34
+        },
+        {
+          "word": "ah",
+          "start": 45.34,
+          "end": 45.46
+        },
+        {
+          "word": ",",
+          "start": 45.46,
+          "end": 45.46
+        },
+        {
+          "word": "ah",
+          "start": 45.46,
+          "end": 45.66
+        },
+        {
+          "word": ",",
+          "start": 45.66,
+          "end": 45.78
+        },
+        {
+          "word": "it",
+          "start": 45.78,
+          "end": 46.02
+        },
+        {
+          "word": "play",
+          "start": 46.02,
+          "end": 46.12
+        },
+        {
+          "word": ",",
+          "start": 46.12,
+          "end": 46.2
+        },
+        {
+          "word": "the",
+          "start": 46.2,
+          "end": 46.46
+        },
+        {
+          "word": "bass",
+          "start": 46.46,
+          "end": 46.68
+        },
+        {
+          "word": "comes",
+          "start": 46.68,
+          "end": 46.94
+        },
+        {
+          "word": "in",
+          "start": 46.94,
+          "end": 47.12
+        },
+        {
+          "word": "at",
+          "start": 47.12,
+          "end": 47.46
+        },
+        {
+          "word": "last",
+          "start": 47.46,
+          "end": 48.64
+        }
+      ],
+      "tokens": [
+        51051,
+        2438,
+        11,
+        3716,
+        11,
+        3716,
+        11,
+        3716,
+        11,
+        309,
+        862,
+        11,
+        264,
+        10136,
+        1487,
+        294,
+        412,
+        1036,
+        51241
+      ]
+    },
+    {
+      "start": 47.519999999999996,
+      "end": 51.72,
+      "text": "Deploy to live the upload, accounts each file",
+      "words": [
+        {
+          "word": "Deploy",
+          "start": 48.76,
+          "end": 49.2
+        },
+        {
+          "word": "to",
+          "start": 49.2,
+          "end": 49.46
+        },
+        {
+          "word": "live",
+          "start": 49.46,
+          "end": 49.66
+        },
+        {
+          "word": "the",
+          "start": 49.66,
+          "end": 50.26
+        },
+        {
+          "word": "upload",
+          "start": 50.26,
+          "end": 50.34
+        },
+        {
+          "word": ",",
+          "start": 50.34,
+          "end": 50.82
+        },
+        {
+          "word": "accounts",
+          "start": 50.82,
+          "end": 51.24
+        },
+        {
+          "word": "each",
+          "start": 51.24,
+          "end": 51.7
+        },
+        {
+          "word": "file",
+          "start": 51.7,
+          "end": 51.88
+        }
+      ],
+      "tokens": [
+        51241,
+        1346,
+        2384,
+        281,
+        1621,
+        264,
+        6580,
+        11,
+        9402,
+        1184,
+        3991,
+        51451
+      ]
+    },
+    {
+      "start": 51.72,
+      "end": 55.18,
+      "text": "Covers audio lyrics, I watch the counter climb a while",
+      "words": [
+        {
+          "word": "Covers",
+          "start": 52.02,
+          "end": 52.62
+        },
+        {
+          "word": "audio",
+          "start": 52.62,
+          "end": 53.22
+        },
+        {
+          "word": "lyrics",
+          "start": 53.22,
+          "end": 53.38
+        },
+        {
+          "word": ",",
+          "start": 53.38,
+          "end": 53.5
+        },
+        {
+          "word": "I",
+          "start": 53.5,
+          "end": 53.74
+        },
+        {
+          "word": "watch",
+          "start": 53.74,
+          "end": 53.96
+        },
+        {
+          "word": "the",
+          "start": 53.96,
+          "end": 54.24
+        },
+        {
+          "word": "counter",
+          "start": 54.24,
+          "end": 54.62
+        },
+        {
+          "word": "climb",
+          "start": 54.62,
+          "end": 54.84
+        },
+        {
+          "word": "a",
+          "start": 54.84,
+          "end": 55.14
+        },
+        {
+          "word": "while",
+          "start": 55.14,
+          "end": 55.26
+        }
+      ],
+      "tokens": [
+        51451,
+        3066,
+        840,
+        6278,
+        12189,
+        11,
+        286,
+        1159,
+        264,
+        5682,
+        10724,
+        257,
+        1339,
+        51624
+      ]
+    },
+    {
+      "start": 55.18,
+      "end": 58.54,
+      "text": "I reload the page, the browser shows the old hard reload",
+      "words": [
+        {
+          "word": "I",
+          "start": 55.44,
+          "end": 55.86
+        },
+        {
+          "word": "reload",
+          "start": 55.86,
+          "end": 56.08
+        },
+        {
+          "word": "the",
+          "start": 56.08,
+          "end": 56.32
+        },
+        {
+          "word": "page",
+          "start": 56.32,
+          "end": 56.4
+        },
+        {
+          "word": ",",
+          "start": 56.4,
+          "end": 56.52
+        },
+        {
+          "word": "the",
+          "start": 56.52,
+          "end": 56.82
+        },
+        {
+          "word": "browser",
+          "start": 56.82,
+          "end": 57.18
+        },
+        {
+          "word": "shows",
+          "start": 57.18,
+          "end": 57.38
+        },
+        {
+          "word": "the",
+          "start": 57.38,
+          "end": 57.8
+        },
+        {
+          "word": "old",
+          "start": 57.8,
+          "end": 58.04
+        },
+        {
+          "word": "hard",
+          "start": 58.04,
+          "end": 58.44
+        },
+        {
+          "word": "reload",
+          "start": 58.44,
+          "end": 58.78
+        }
+      ],
+      "tokens": [
+        51624,
+        286,
+        25628,
+        264,
+        3028,
+        11,
+        264,
+        11185,
+        3110,
+        264,
+        1331,
+        1152,
+        25628,
+        51792,
+        51792
+      ]
+    },
+    {
+      "start": 58.54,
+      "end": 59.8,
+      "text": "Album 3 is up",
+      "words": [
+        {
+          "word": "Album",
+          "start": 58.94,
+          "end": 59.3
+        },
+        {
+          "word": "3",
+          "start": 59.3,
+          "end": 59.56
+        },
+        {
+          "word": "is",
+          "start": 59.56,
+          "end": 59.8
+        },
+        {
+          "word": "up",
+          "start": 59.8,
+          "end": 59.98
+        }
+      ],
+      "tokens": [
+        50365,
+        967,
+        5559,
+        805,
+        307,
+        493,
+        50428
+      ]
+    }
+  ]
+}

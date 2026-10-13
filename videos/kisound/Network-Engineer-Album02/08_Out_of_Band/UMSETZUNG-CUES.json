@@ -1,0 +1,1514 @@
+{
+ "schema": "kisound.oob.cues.v1",
+ "duration_s": 264.4135,
+ "fade_start_s": 258.5,
+ "titles": {
+  "intro": [
+   0.6,
+   1.4,
+   5.4,
+   6.4
+  ],
+  "outro": [
+   244.4,
+   245.2,
+   249.4,
+   250.4
+  ]
+ },
+ "drops_s": [
+  30.75,
+  46.05,
+  106.95,
+  137.45,
+  198.45,
+  244.15
+ ],
+ "gaps_s": [
+  [
+   22.2,
+   22.3
+  ],
+  [
+   243.85,
+   243.95
+  ]
+ ],
+ "milestones": {
+  "inband": [
+   8.48,
+   9.48,
+   11.48,
+   46.2,
+   47.2,
+   49.2,
+   53.2
+  ],
+  "timeout": 56,
+  "mgmtSsh": 66.78,
+  "picocom": 68.6,
+  "ready": 70.3,
+  "prompt": 71.06,
+  "image": 117.8,
+  "showRun": 136.32,
+  "diff": 140.4,
+  "noShut": 147.88,
+  "shutterOpen": 148.9,
+  "linkUp": 150.48,
+  "lineUp": 151.48,
+  "route": 153.84,
+  "po1": 158.88,
+  "po1Srv": 161.2,
+  "po1Ok": 163.48,
+  "traffic": 166.98,
+  "trafficFull": 189.84,
+  "save": 182.8,
+  "saved": 186,
+  "po2": 212.06,
+  "po2Srv": 213.96,
+  "po2Back": 216.6,
+  "po2Ok": 218.64,
+  "po2Doc": 221.06,
+  "phone": 236.2,
+  "city": 240.34
+ },
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Kein Login",
+   "start": 0,
+   "end": 22.58,
+   "action": "Gi0/0/1 ist seit Filmbeginn administrativ down; In-band-SSH bleibt ohne Antwort."
+  },
+  {
+   "id": "C02",
+   "title": "Der getrennte Weg",
+   "start": 22.58,
+   "end": 46.2,
+   "action": "Hinter dem Rack: Managementtrasse, Console-Server und serieller Kanal 7 – schon vorher gebaut."
+  },
+  {
+   "id": "C03",
+   "title": "SSH wartet",
+   "start": 46.2,
+   "end": 66.78,
+   "action": "Timeout auf dem Produktionspfad, Dashboard steht still, CHG-2088 als Ursache."
+  },
+  {
+   "id": "C04",
+   "title": "Console",
+   "start": 66.78,
+   "end": 90.08,
+   "action": "SSH zum Console-Server im Managementnetz, picocom 9600/8N1, R-EDGE# über Kanal 7."
+  },
+  {
+   "id": "C05",
+   "title": "Out of Band",
+   "start": 90.08,
+   "end": 117.8,
+   "action": "Eine Tür bleibt offen: der schmale Weg, während der grosse Weg schweigt."
+  },
+  {
+   "id": "C06",
+   "title": "Vorabbild",
+   "start": 117.8,
+   "end": 136.32,
+   "action": "Gesichertes Pre-Change-Abbild im Managementspeicher, aktuelle Konfiguration über die Console."
+  },
+  {
+   "id": "C07",
+   "title": "Rücknahme",
+   "start": 136.32,
+   "end": 158.88,
+   "action": "Diff + shutdown, gezielt no shutdown bei 147,88 s; erst Link, dann Route."
+  },
+  {
+   "id": "C08",
+   "title": "Service-Test",
+   "start": 158.88,
+   "end": 166.98,
+   "action": "P-O1 vom Client bis zum Ziel: TLS geprüft, HTTP 200."
+  },
+  {
+   "id": "C09",
+   "title": "Vorher gebaut",
+   "start": 166.98,
+   "end": 196.88,
+   "action": "Backup, Rollback, getrennter Zugang; speichern erst nach den Tests."
+  },
+  {
+   "id": "C10",
+   "title": "Final Chorus",
+   "start": 196.88,
+   "end": 229.64,
+   "action": "Offener Uplink, P-O2 bestätigt erneut; die Console bleibt erreichbar."
+  },
+  {
+   "id": "C11",
+   "title": "Die Stadt schläft",
+   "start": 229.64,
+   "end": 264.4135,
+   "action": "Dokumentiert, das Telefon liegt still, die Stadt schläft weiter."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 8.48,
+   "zone": "world",
+   "camera": "fly",
+   "mode": "zoom_in",
+   "event_ids": [
+    "E001",
+    "E002",
+    "E003"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S002",
+   "start_s": 8.48,
+   "end_s": 10.42,
+   "zone": "world",
+   "camera": "front",
+   "mode": "port",
+   "event_ids": [
+    "E004",
+    "E005"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S003",
+   "start_s": 10.42,
+   "end_s": 14.46,
+   "zone": "world",
+   "camera": "service",
+   "mode": "nbr",
+   "event_ids": [],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 14.46,
+   "end_s": 18.48,
+   "zone": "world",
+   "camera": "front",
+   "mode": "wide",
+   "event_ids": [],
+   "lyric_ids": [
+    "L003"
+   ]
+  },
+  {
+   "id": "S005",
+   "start_s": 18.48,
+   "end_s": 22.58,
+   "zone": "world",
+   "camera": "back",
+   "mode": "reveal",
+   "event_ids": [],
+   "lyric_ids": [
+    "L004"
+   ]
+  },
+  {
+   "id": "S006",
+   "start_s": 22.58,
+   "end_s": 30.4533,
+   "zone": "world",
+   "camera": "fly",
+   "mode": "fly_hall",
+   "event_ids": [
+    "E006",
+    "E007"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S007",
+   "start_s": 30.4533,
+   "end_s": 38.3267,
+   "zone": "world",
+   "camera": "aisle",
+   "mode": "east_to",
+   "event_ids": [
+    "E008"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S008",
+   "start_s": 38.3267,
+   "end_s": 46.2,
+   "zone": "world",
+   "camera": "console",
+   "mode": "ports",
+   "event_ids": [
+    "E009"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S009",
+   "start_s": 46.2,
+   "end_s": 48.18,
+   "zone": "world",
+   "camera": "service",
+   "mode": "nbr",
+   "event_ids": [
+    "E010"
+   ],
+   "lyric_ids": [
+    "L005"
+   ]
+  },
+  {
+   "id": "S010",
+   "start_s": 48.18,
+   "end_s": 52.68,
+   "zone": "world",
+   "camera": "noc",
+   "mode": "dash",
+   "event_ids": [],
+   "lyric_ids": [
+    "L006"
+   ]
+  },
+  {
+   "id": "S011",
+   "start_s": 52.68,
+   "end_s": 56.48,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [],
+   "lyric_ids": [
+    "L007"
+   ]
+  },
+  {
+   "id": "S012",
+   "start_s": 56.48,
+   "end_s": 60.08,
+   "zone": "world",
+   "camera": "front",
+   "mode": "sfp",
+   "event_ids": [],
+   "lyric_ids": [
+    "L008"
+   ]
+  },
+  {
+   "id": "S013",
+   "start_s": 60.08,
+   "end_s": 63.36,
+   "zone": "world",
+   "camera": "aisle",
+   "mode": "west_to",
+   "event_ids": [],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S014",
+   "start_s": 63.36,
+   "end_s": 66.78,
+   "zone": "world",
+   "camera": "back",
+   "mode": "gap",
+   "event_ids": [
+    "E011"
+   ],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S015",
+   "start_s": 66.78,
+   "end_s": 71.06,
+   "zone": "world",
+   "camera": "console",
+   "mode": "ch7",
+   "event_ids": [],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S016",
+   "start_s": 71.06,
+   "end_s": 75.3,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [
+    "E012"
+   ],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 75.3,
+   "end_s": 78.02,
+   "zone": "world",
+   "camera": "engineer",
+   "mode": "typing",
+   "event_ids": [
+    "E013"
+   ],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 78.02,
+   "end_s": 82.6,
+   "zone": "world",
+   "camera": "console",
+   "mode": "bytes",
+   "event_ids": [],
+   "lyric_ids": [
+    "L014"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 82.6,
+   "end_s": 85.84,
+   "zone": "world",
+   "camera": "aisle",
+   "mode": "away_east",
+   "event_ids": [],
+   "lyric_ids": [
+    "L015"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 85.84,
+   "end_s": 90.08,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [
+    "E014"
+   ],
+   "lyric_ids": [
+    "L016"
+   ]
+  },
+  {
+   "id": "S021",
+   "start_s": 90.08,
+   "end_s": 91.98,
+   "zone": "world",
+   "camera": "engineer",
+   "mode": "hook",
+   "event_ids": [
+    "E015",
+    "E016"
+   ],
+   "lyric_ids": [
+    "L017"
+   ]
+  },
+  {
+   "id": "S022",
+   "start_s": 91.98,
+   "end_s": 95.86,
+   "zone": "world",
+   "camera": "console",
+   "mode": "ch7",
+   "event_ids": [],
+   "lyric_ids": [
+    "L018"
+   ]
+  },
+  {
+   "id": "S023",
+   "start_s": 95.86,
+   "end_s": 100.04,
+   "zone": "world",
+   "camera": "fly",
+   "mode": "fly_duct",
+   "event_ids": [],
+   "lyric_ids": [
+    "L019"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 100.04,
+   "end_s": 105.16,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [
+    "E017"
+   ],
+   "lyric_ids": [
+    "L020"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 105.16,
+   "end_s": 107.38,
+   "zone": "world",
+   "camera": "back",
+   "mode": "both",
+   "event_ids": [],
+   "lyric_ids": [
+    "L021"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 107.38,
+   "end_s": 111.16,
+   "zone": "world",
+   "camera": "console",
+   "mode": "con",
+   "event_ids": [
+    "E018"
+   ],
+   "lyric_ids": [
+    "L022"
+   ]
+  },
+  {
+   "id": "S027",
+   "start_s": 111.16,
+   "end_s": 114.68,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [],
+   "lyric_ids": [
+    "L023"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 114.68,
+   "end_s": 117.8,
+   "zone": "world",
+   "camera": "front",
+   "mode": "port",
+   "event_ids": [],
+   "lyric_ids": [
+    "L024"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 117.8,
+   "end_s": 127.06,
+   "zone": "world",
+   "camera": "aisle",
+   "mode": "front_to",
+   "event_ids": [
+    "E019",
+    "E020"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S030",
+   "start_s": 127.06,
+   "end_s": 136.32,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [
+    "E021",
+    "E022"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S031",
+   "start_s": 136.32,
+   "end_s": 140.26,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [
+    "E023"
+   ],
+   "lyric_ids": [
+    "L025"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 140.26,
+   "end_s": 144.1,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [
+    "E024"
+   ],
+   "lyric_ids": [
+    "L026"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 144.1,
+   "end_s": 147.88,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [],
+   "lyric_ids": [
+    "L027"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 147.88,
+   "end_s": 150.48,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [],
+   "lyric_ids": [
+    "L028"
+   ]
+  },
+  {
+   "id": "S035",
+   "start_s": 150.48,
+   "end_s": 155.08,
+   "zone": "world",
+   "camera": "front",
+   "mode": "link",
+   "event_ids": [
+    "E025"
+   ],
+   "lyric_ids": [
+    "L029"
+   ]
+  },
+  {
+   "id": "S036",
+   "start_s": 155.08,
+   "end_s": 158.88,
+   "zone": "world",
+   "camera": "noc",
+   "mode": "tiles",
+   "event_ids": [],
+   "lyric_ids": [
+    "L030"
+   ]
+  },
+  {
+   "id": "S037",
+   "start_s": 158.88,
+   "end_s": 163.48,
+   "zone": "world",
+   "camera": "service",
+   "mode": "follow",
+   "event_ids": [
+    "E026"
+   ],
+   "lyric_ids": [
+    "L031"
+   ]
+  },
+  {
+   "id": "S038",
+   "start_s": 163.48,
+   "end_s": 166.98,
+   "zone": "world",
+   "camera": "service",
+   "mode": "server",
+   "event_ids": [
+    "E027"
+   ],
+   "lyric_ids": [
+    "L032"
+   ]
+  },
+  {
+   "id": "S039",
+   "start_s": 166.98,
+   "end_s": 169.32,
+   "zone": "world",
+   "camera": "aisle",
+   "mode": "away_west",
+   "event_ids": [
+    "E028"
+   ],
+   "lyric_ids": [
+    "L033"
+   ]
+  },
+  {
+   "id": "S040",
+   "start_s": 169.32,
+   "end_s": 170.86,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [],
+   "lyric_ids": [
+    "L034"
+   ]
+  },
+  {
+   "id": "S041",
+   "start_s": 170.86,
+   "end_s": 173,
+   "zone": "world",
+   "camera": "back",
+   "mode": "both",
+   "event_ids": [],
+   "lyric_ids": [
+    "L035"
+   ]
+  },
+  {
+   "id": "S042",
+   "start_s": 173,
+   "end_s": 174.8,
+   "zone": "world",
+   "camera": "fly",
+   "mode": "fly_duct_warm",
+   "event_ids": [],
+   "lyric_ids": [
+    "L036"
+   ]
+  },
+  {
+   "id": "S043",
+   "start_s": 174.8,
+   "end_s": 177.08,
+   "zone": "world",
+   "camera": "console",
+   "mode": "bytes",
+   "event_ids": [],
+   "lyric_ids": [
+    "L037"
+   ]
+  },
+  {
+   "id": "S044",
+   "start_s": 177.08,
+   "end_s": 178.64,
+   "zone": "world",
+   "camera": "back",
+   "mode": "label",
+   "event_ids": [],
+   "lyric_ids": [
+    "L038"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 178.64,
+   "end_s": 180.54,
+   "zone": "world",
+   "camera": "console",
+   "mode": "ch7",
+   "event_ids": [
+    "E029"
+   ],
+   "lyric_ids": [
+    "L039"
+   ]
+  },
+  {
+   "id": "S046",
+   "start_s": 180.54,
+   "end_s": 182.8,
+   "zone": "world",
+   "camera": "fly",
+   "mode": "fly_dc",
+   "event_ids": [],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S047",
+   "start_s": 182.8,
+   "end_s": 189.84,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [
+    "E030"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S048",
+   "start_s": 189.84,
+   "end_s": 196.88,
+   "zone": "world",
+   "camera": "aisle",
+   "mode": "hall_to",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S049",
+   "start_s": 196.88,
+   "end_s": 199.82,
+   "zone": "world",
+   "camera": "engineer",
+   "mode": "low",
+   "event_ids": [
+    "E031",
+    "E032"
+   ],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S050",
+   "start_s": 199.82,
+   "end_s": 203.6,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S051",
+   "start_s": 203.6,
+   "end_s": 206.6,
+   "zone": "world",
+   "camera": "front",
+   "mode": "port",
+   "event_ids": [],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S052",
+   "start_s": 206.6,
+   "end_s": 212.06,
+   "zone": "world",
+   "camera": "aisle",
+   "mode": "away_low",
+   "event_ids": [],
+   "lyric_ids": [
+    "L044"
+   ]
+  },
+  {
+   "id": "S053",
+   "start_s": 212.06,
+   "end_s": 213.96,
+   "zone": "world",
+   "camera": "service",
+   "mode": "follow",
+   "event_ids": [],
+   "lyric_ids": [
+    "L045"
+   ]
+  },
+  {
+   "id": "S054",
+   "start_s": 213.96,
+   "end_s": 218.64,
+   "zone": "world",
+   "camera": "service",
+   "mode": "follow",
+   "event_ids": [],
+   "lyric_ids": [
+    "L046"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 218.64,
+   "end_s": 221.06,
+   "zone": "world",
+   "camera": "service",
+   "mode": "server",
+   "event_ids": [],
+   "lyric_ids": [
+    "L047"
+   ]
+  },
+  {
+   "id": "S056",
+   "start_s": 221.06,
+   "end_s": 225.3,
+   "zone": "world",
+   "camera": "noc",
+   "mode": "tiles",
+   "event_ids": [],
+   "lyric_ids": [
+    "L048"
+   ]
+  },
+  {
+   "id": "S057",
+   "start_s": 225.3,
+   "end_s": 229.64,
+   "zone": "world",
+   "camera": "fly",
+   "mode": "fly_hot",
+   "event_ids": [
+    "E033",
+    "E034"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S058",
+   "start_s": 229.64,
+   "end_s": 232.2,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [
+    "E035"
+   ],
+   "lyric_ids": [
+    "L049"
+   ]
+  },
+  {
+   "id": "S059",
+   "start_s": 232.2,
+   "end_s": 236.2,
+   "zone": "config",
+   "camera": "laptop",
+   "mode": "screen",
+   "event_ids": [],
+   "lyric_ids": [
+    "L050"
+   ]
+  },
+  {
+   "id": "S060",
+   "start_s": 236.2,
+   "end_s": 240.34,
+   "zone": "world",
+   "camera": "engineer",
+   "mode": "phone",
+   "event_ids": [],
+   "lyric_ids": [
+    "L051"
+   ]
+  },
+  {
+   "id": "S061",
+   "start_s": 240.34,
+   "end_s": 243.56,
+   "zone": "world",
+   "camera": "fly",
+   "mode": "zoom_out",
+   "event_ids": [],
+   "lyric_ids": [
+    "L052"
+   ]
+  },
+  {
+   "id": "S062",
+   "start_s": 243.56,
+   "end_s": 250.5112,
+   "zone": "world",
+   "camera": "fly",
+   "mode": "zoom_out",
+   "event_ids": [
+    "E036",
+    "E037",
+    "E038",
+    "E039",
+    "E040"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S063",
+   "start_s": 250.5112,
+   "end_s": 257.4623,
+   "zone": "world",
+   "camera": "fly",
+   "mode": "top",
+   "event_ids": [
+    "E041"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S064",
+   "start_s": 257.4623,
+   "end_s": 264.4135,
+   "zone": "world",
+   "camera": "engineer",
+   "mode": "final",
+   "event_ids": [
+    "E042",
+    "E043",
+    "E044"
+   ],
+   "lyric_ids": []
+  }
+ ],
+ "flights": [
+  {
+   "id": "SYN-1",
+   "kind": "syn",
+   "label": "SYN → 10.0.12.1:22",
+   "src": "198.51.100.10",
+   "dst": "10.0.12.1",
+   "start_s": 8.48,
+   "end_s": 9.78,
+   "fate": "drop"
+  },
+  {
+   "id": "SYN-2",
+   "kind": "syn",
+   "label": "SYN → 10.0.12.1:22",
+   "src": "198.51.100.10",
+   "dst": "10.0.12.1",
+   "start_s": 9.48,
+   "end_s": 10.78,
+   "fate": "drop"
+  },
+  {
+   "id": "SYN-3",
+   "kind": "syn",
+   "label": "SYN → 10.0.12.1:22",
+   "src": "198.51.100.10",
+   "dst": "10.0.12.1",
+   "start_s": 11.48,
+   "end_s": 12.78,
+   "fate": "drop"
+  },
+  {
+   "id": "SYN-4",
+   "kind": "syn",
+   "label": "SYN → 10.0.12.1:22",
+   "src": "198.51.100.10",
+   "dst": "10.0.12.1",
+   "start_s": 46.2,
+   "end_s": 47.5,
+   "fate": "drop"
+  },
+  {
+   "id": "SYN-5",
+   "kind": "syn",
+   "label": "SYN → 10.0.12.1:22",
+   "src": "198.51.100.10",
+   "dst": "10.0.12.1",
+   "start_s": 47.2,
+   "end_s": 48.5,
+   "fate": "drop"
+  },
+  {
+   "id": "SYN-6",
+   "kind": "syn",
+   "label": "SYN → 10.0.12.1:22",
+   "src": "198.51.100.10",
+   "dst": "10.0.12.1",
+   "start_s": 49.2,
+   "end_s": 50.5,
+   "fate": "drop"
+  },
+  {
+   "id": "SYN-7",
+   "kind": "syn",
+   "label": "SYN → 10.0.12.1:22",
+   "src": "198.51.100.10",
+   "dst": "10.0.12.1",
+   "start_s": 53.2,
+   "end_s": 54.5,
+   "fate": "drop"
+  },
+  {
+   "id": "P-O1",
+   "kind": "req",
+   "label": "P-O1 · HTTPS GET /health",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20:443",
+   "start_s": 158.88,
+   "end_s": 161.2,
+   "fate": "deliver"
+  },
+  {
+   "id": "P-O1R",
+   "kind": "resp",
+   "label": "P-O1 · HTTP 200 · TLS geprüft",
+   "src": "198.51.100.20:443",
+   "dst": "192.0.2.10",
+   "start_s": 161.2,
+   "end_s": 163.48,
+   "fate": "deliver"
+  },
+  {
+   "id": "P-O2",
+   "kind": "req",
+   "label": "P-O2 · Bestätigungstest",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20:443",
+   "start_s": 212.06,
+   "end_s": 213.96,
+   "fate": "deliver"
+  },
+  {
+   "id": "P-O2R",
+   "kind": "resp",
+   "label": "P-O2 · HTTP 200",
+   "src": "198.51.100.20:443",
+   "dst": "192.0.2.10",
+   "start_s": 213.96,
+   "end_s": 216.6,
+   "fate": "deliver"
+  }
+ ],
+ "simulation": {
+  "flights": 427,
+  "management": 219,
+  "traffic": 197
+ },
+ "blocks": [
+  {
+   "id": "B01",
+   "title": "Produktionspfad (prod-client 198.51.100.10)",
+   "window_s": [
+    46.2,
+    60.08
+   ],
+   "lines": [
+    {
+     "reveal_s": 46.3,
+     "text": "In-band-Versuch (Produktionspfad)",
+     "kind": "ov"
+    },
+    {
+     "reveal_s": 46.4,
+     "text": "prod-client$ ssh ops@10.0.12.1",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 48.18,
+     "text": "Dashboard: letzter erfolgreicher Abruf vor CHG-2088",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 52.68,
+     "text": "Gi0/0/1 administratively down",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 56,
+     "text": "ssh: connect to host 10.0.12.1 port 22: Connection timed out",
+     "kind": "bad"
+    }
+   ]
+  },
+  {
+   "id": "B02",
+   "title": "Managementstation 10.99.0.10 → Console-Server",
+   "window_s": [
+    66.78,
+    90.08
+   ],
+   "lines": [
+    {
+     "reveal_s": 66.9,
+     "text": "management$ ssh consoleops@10.99.0.20",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 68.6,
+     "text": "console$ picocom --baud 9600 --databits 8 --parity n --stopbits 1 /dev/ttyUSB7",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 70.3,
+     "text": "Terminal ready",
+     "kind": null
+    },
+    {
+     "reveal_s": 71.06,
+     "text": "R-EDGE#",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 75.3,
+     "text": "Overlay: SSH im separaten Managementnetz; danach seriell 9600/8N1",
+     "kind": "ov"
+    },
+    {
+     "reveal_s": 78.02,
+     "text": "Kanal 7 -> R-EDGE Console",
+     "kind": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B03",
+   "title": "Console (Kanal 7) und Managementspeicher",
+   "window_s": [
+    136.32,
+    147.88
+   ],
+   "lines": [
+    {
+     "reveal_s": 136.4,
+     "text": "R-EDGE# show running-config interface GigabitEthernet0/0/1",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 137.4,
+     "text": "interface GigabitEthernet0/0/1",
+     "kind": null
+    },
+    {
+     "reveal_s": 137.4,
+     "text": " ip address 10.0.12.1 255.255.255.252",
+     "kind": null
+    },
+    {
+     "reveal_s": 137.4,
+     "text": " shutdown",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 140.4,
+     "text": "Change-Diff CHG-2088 (Managementstation, gespeicherte Dateien)",
+     "kind": "ov"
+    },
+    {
+     "reveal_s": 140.4,
+     "text": "interface GigabitEthernet0/0/1",
+     "kind": null
+    },
+    {
+     "reveal_s": 140.4,
+     "text": "+ shutdown",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 141,
+     "text": "Vorabbild: Interface aktiv; Route via 10.0.12.2 unverändert",
+     "kind": "ok"
+    }
+   ]
+  },
+  {
+   "id": "B04",
+   "title": "Console (Kanal 7) · gezielte Rücknahme",
+   "window_s": [
+    147.88,
+    155.08
+   ],
+   "lines": [
+    {
+     "reveal_s": 147.88,
+     "text": "R-EDGE# configure terminal",
+     "kind": "done"
+    },
+    {
+     "reveal_s": 147.88,
+     "text": "R-EDGE(config)# interface GigabitEthernet0/0/1",
+     "kind": "done"
+    },
+    {
+     "reveal_s": 147.88,
+     "text": "R-EDGE(config-if)# no shutdown",
+     "kind": "done"
+    },
+    {
+     "reveal_s": 148.6,
+     "text": "R-EDGE(config-if)# end",
+     "kind": "done"
+    },
+    {
+     "reveal_s": 150.48,
+     "text": "%LINK-3-UPDOWN: Interface GigabitEthernet0/0/1, changed state to up",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 151.48,
+     "text": "%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0/1, changed state to up",
+     "kind": "ok"
+    }
+   ]
+  },
+  {
+   "id": "B05",
+   "title": "Console (Kanal 7) · Link, dann Route",
+   "window_s": [
+    150.48,
+    158.88
+   ],
+   "lines": [
+    {
+     "reveal_s": 151.7,
+     "text": "R-EDGE# show ip interface brief",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 152.3,
+     "text": "GigabitEthernet0/0/1  10.0.12.1  YES manual  up  up",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 152.8,
+     "text": "R-EDGE# show ip route 198.51.100.20",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 153.84,
+     "text": "Routing entry for 198.51.100.0/24",
+     "kind": null
+    },
+    {
+     "reveal_s": 153.84,
+     "text": "  Known via \"static\", distance 1, metric 0",
+     "kind": null
+    },
+    {
+     "reveal_s": 153.84,
+     "text": "  * 10.0.12.2",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 154.6,
+     "text": "Routing entry for 198.51.100.0/24",
+     "kind": null
+    },
+    {
+     "reveal_s": 154.6,
+     "text": "  Known via \"static\", distance 1, metric 0",
+     "kind": null
+    },
+    {
+     "reveal_s": 154.6,
+     "text": "  * 10.0.12.2",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 154.6,
+     "text": "Overlay: LINK bestätigt -> ROUTE installiert -> SERVICE noch prüfen",
+     "kind": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B06",
+   "title": "Client 192.0.2.10 · Service-Test P-O1",
+   "window_s": [
+    158.88,
+    170.86
+   ],
+   "lines": [
+    {
+     "reveal_s": 158.98,
+     "text": "client$ curl --connect-timeout 3 --max-time 5 --resolve app.example:443:198.51.100.20 --write-out '\\nHTTP %{http_code}\\n' https://app.example/health",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 163.48,
+     "text": "{\"status\":\"ok\"}",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 163.48,
+     "text": "HTTP 200",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 163.88,
+     "text": "P-O1: HTTP 200 | TLS-Zertifikat geprüft",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 164.28,
+     "text": "Client 192.0.2.10 -> 198.51.100.20:443",
+     "kind": "ov"
+    },
+    {
+     "reveal_s": 164.28,
+     "text": "Kein Datenverkehr über Console-Kanal 7",
+     "kind": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B07",
+   "title": "Console (Kanal 7) · speichern und dokumentieren",
+   "window_s": [
+    182.8,
+    243.56
+   ],
+   "lines": [
+    {
+     "reveal_s": 182.9,
+     "text": "R-EDGE# copy running-config startup-config",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 184,
+     "text": "Destination filename [startup-config]?",
+     "kind": null
+    },
+    {
+     "reveal_s": 184.8,
+     "text": "Building configuration...",
+     "kind": null
+    },
+    {
+     "reveal_s": 186,
+     "text": "[OK]",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 189.9,
+     "text": "CHG-2088 | Rücknahme dokumentiert",
+     "kind": "ov"
+    },
+    {
+     "reveal_s": 190.3,
+     "text": "Gi0/0/1: no shutdown | Route via 10.0.12.2 installiert",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 221.06,
+     "text": "P-O1 erfolgreich | P-O2 im Finale erneut HTTP 200",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 190.7,
+     "text": "Management 10.99.0.20 / Console Kanal 7 weiterhin erreichbar",
+     "kind": null
+    }
+   ]
+  }
+ ],
+ "logs": [
+  {
+   "time_s": 8.48,
+   "tag": "prod",
+   "message": "SSH 198.51.100.10 → 10.0.12.1: keine Antwort (Gi0/0/1 down)"
+  },
+  {
+   "time_s": 18.48,
+   "tag": "mgmt",
+   "message": "Managementnetz 10.99.0.0/24 unabhängig vorhanden"
+  },
+  {
+   "time_s": 46.2,
+   "tag": "prod",
+   "message": "ssh ops@10.0.12.1 · SYN ohne Antwort"
+  },
+  {
+   "time_s": 56,
+   "tag": "prod",
+   "message": "Connection timed out"
+  },
+  {
+   "time_s": 66.78,
+   "tag": "mgmt",
+   "message": "SSH 10.99.0.10 → 10.99.0.20 (Console-Server)"
+  },
+  {
+   "time_s": 68.6,
+   "tag": "con",
+   "message": "picocom /dev/ttyUSB7 · 9600 8N1 · Kanal 7"
+  },
+  {
+   "time_s": 71.06,
+   "tag": "con",
+   "message": "R-EDGE# über Kanal 7 erreichbar"
+  },
+  {
+   "time_s": 117.8,
+   "tag": "mgmt",
+   "message": "Vorabbild R-EDGE vor CHG-2088 gefunden"
+  },
+  {
+   "time_s": 136.32,
+   "tag": "con",
+   "message": "show running-config Gi0/0/1 → shutdown"
+  },
+  {
+   "time_s": 140.4,
+   "tag": "mgmt",
+   "message": "Diff CHG-2088: + shutdown (einzige Abweichung)"
+  },
+  {
+   "time_s": 147.88,
+   "tag": "con",
+   "message": "no shutdown an Gi0/0/1"
+  },
+  {
+   "time_s": 150.48,
+   "tag": "link",
+   "message": "Gi0/0/1 changed state to up"
+  },
+  {
+   "time_s": 151.48,
+   "tag": "link",
+   "message": "Line protocol up"
+  },
+  {
+   "time_s": 153.84,
+   "tag": "route",
+   "message": "198.51.100.0/24 via 10.0.12.2 installiert"
+  },
+  {
+   "time_s": 158.88,
+   "tag": "svc",
+   "message": "P-O1 192.0.2.10 → 198.51.100.20:443"
+  },
+  {
+   "time_s": 163.48,
+   "tag": "ok",
+   "message": "P-O1 HTTP 200 · TLS geprüft"
+  },
+  {
+   "time_s": 182.8,
+   "tag": "con",
+   "message": "copy running-config startup-config"
+  },
+  {
+   "time_s": 186,
+   "tag": "ok",
+   "message": "[OK] · CHG-2088 dokumentiert"
+  },
+  {
+   "time_s": 212.06,
+   "tag": "svc",
+   "message": "P-O2 Bestätigungstest"
+  },
+  {
+   "time_s": 218.64,
+   "tag": "ok",
+   "message": "P-O2 HTTP 200"
+  },
+  {
+   "time_s": 229.64,
+   "tag": "con",
+   "message": "Console Kanal 7 weiterhin erreichbar"
+  }
+ ]
+}

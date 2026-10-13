@@ -1,0 +1,142 @@
+{
+  "source_audio_sha256": "689d662c3d10ba9bd08c787315635ff4bba6d97f8a5db54343486dd4c7958259",
+  "frame": 0,
+  "next_frame": 3000,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "text": "Album 3 geht raus",
+      "words": [
+        {
+          "word": "Album",
+          "start": 7.42,
+          "end": 7.86
+        },
+        {
+          "word": "3",
+          "start": 7.86,
+          "end": 9.56
+        },
+        {
+          "word": "geht",
+          "start": 9.56,
+          "end": 9.98
+        },
+        {
+          "word": "raus",
+          "start": 9.98,
+          "end": 11.1
+        }
+      ],
+      "tokens": [
+        50365,
+        967,
+        5559,
+        805,
+        7095,
+        17202,
+        50865
+      ]
+    },
+    {
+      "start": 10.0,
+      "end": 27.22,
+      "text": "Album 3 geht raus",
+      "words": [
+        {
+          "word": "Album",
+          "start": 19.18,
+          "end": 20.22
+        },
+        {
+          "word": "3",
+          "start": 20.22,
+          "end": 26.68
+        },
+        {
+          "word": "geht",
+          "start": 26.68,
+          "end": 27.12
+        },
+        {
+          "word": "raus",
+          "start": 27.12,
+          "end": 27.52
+        }
+      ],
+      "tokens": [
+        50865,
+        967,
+        5559,
+        805,
+        7095,
+        17202,
+        51726,
+        51726
+      ]
+    },
+    {
+      "start": 27.22,
+      "end": 29.98,
+      "text": "Neue Tracks im Ordner, jedes Cover liegt",
+      "words": [
+        {
+          "word": "Neue",
+          "start": 27.74,
+          "end": 28.14
+        },
+        {
+          "word": "Tracks",
+          "start": 28.14,
+          "end": 28.48
+        },
+        {
+          "word": "im",
+          "start": 28.48,
+          "end": 28.66
+        },
+        {
+          "word": "Ordner",
+          "start": 28.66,
+          "end": 28.96
+        },
+        {
+          "word": ",",
+          "start": 28.96,
+          "end": 29.22
+        },
+        {
+          "word": "jedes",
+          "start": 29.22,
+          "end": 29.64
+        },
+        {
+          "word": "Cover",
+          "start": 29.64,
+          "end": 29.98
+        },
+        {
+          "word": "liegt",
+          "start": 29.98,
+          "end": 29.98
+        }
+      ],
+      "tokens": [
+        50365,
+        1734,
+        622,
+        1765,
+        7424,
+        566,
+        29388,
+        1193,
+        11,
+        36119,
+        19106,
+        22421,
+        50503
+      ]
+    }
+  ]
+}

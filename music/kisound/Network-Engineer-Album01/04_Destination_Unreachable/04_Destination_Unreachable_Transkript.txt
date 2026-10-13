@@ -1,0 +1,79 @@
+DESTINATION UNREACHABLE – TRANSKRIPT
+
+Audio: 04_Destination_Unreachable_0.3-1.wav
+Gesamtdauer: 00:04:19.801
+Sprache: Englisch
+Zeitformat: HH:MM:SS.mmm
+Zeitbezug: Start und Ende ab Beginn der WAV-Datei.
+
+[Pulse]
+
+010  [00:00:03.660 --> 00:00:05.060]  Destination unreachable.
+011  [00:00:06.460 --> 00:00:09.680]  Time exceeded.
+012  [00:00:09.680 --> 00:00:11.460]  No reply.
+013  [00:00:14.860 --> 00:00:15.960]  Packet lost.
+014  [00:00:15.960 --> 00:00:17.920]  Blackhole route.
+015  [00:00:17.920 --> 00:00:19.740]  TTL expired.
+016  [00:00:20.640 --> 00:00:23.440]  Trace the path.
+017  [00:00:23.440 --> 00:00:24.800]  Hop by hop.
+018  [00:00:27.060 --> 00:00:28.340]  No return.
+
+[Spoken]
+
+022  [00:00:30.740 --> 00:00:32.520]  I sent a signal into the core.
+023  [00:00:33.100 --> 00:00:35.240]  It crossed the edge and vanished.
+024  [00:00:36.780 --> 00:00:38.080]  No alarm.
+025  [00:00:38.080 --> 00:00:39.420]  No answer.
+026  [00:00:41.440 --> 00:00:43.200]  Only silence from the next hop.
+
+[Hook]
+
+030  [00:00:45.360 --> 00:00:46.680]  Where did the packet go?
+031  [00:00:49.280 --> 00:00:50.760]  Nobody knows.
+032  [00:00:52.540 --> 00:00:53.940]  Where did the packet go?
+033  [00:00:55.200 --> 00:00:58.300]  The blackhole grows.
+034  [00:00:58.440 --> 00:00:59.060]  Send it again.
+035  [00:00:59.880 --> 00:01:01.460]  Watch it fall.
+036  [00:01:01.980 --> 00:01:03.020]  Destination unreachable.
+037  [00:01:05.260 --> 00:01:09.360]  No route at all.
+
+[Verse 2]
+
+041  [00:01:21.720 --> 00:01:23.360]  Traceroute counting through the dark,
+042  [00:01:23.360 --> 00:01:25.800]  every hop leaves a fading mark.
+043  [00:01:27.060 --> 00:01:30.600]  Firewall quiet, routing cold,
+044  [00:01:30.600 --> 00:01:33.420]  one lost prefix breaks the road.
+045  [00:01:34.260 --> 00:01:37.260]  Echo request into the night,
+046  [00:01:37.800 --> 00:01:40.680]  echo reply stays out of sight.
+047  [00:01:41.400 --> 00:01:44.460]  Metrics shift and tables turn,
+048  [00:01:44.980 --> 00:01:46.700]  still no path for the packet to return.
+
+[Break]
+
+052  [00:01:50.180 --> 00:01:50.800]  TTL expired.
+053  [00:01:51.100 --> 00:01:51.800]  Next hop gone.
+054  [00:01:52.320 --> 00:01:54.420]  Silent gateway.
+055  [00:01:54.880 --> 00:01:55.560]  Moving on.
+056  [00:01:56.100 --> 00:01:58.040]  ICMP.
+057  [00:01:58.540 --> 00:01:58.980]  No reply.
+058  [00:01:59.680 --> 00:02:01.480]  Packets fall.
+059  [00:02:02.080 --> 00:02:02.820]  Signals die.
+
+[Final Hook]
+
+063  [00:02:12.340 --> 00:02:13.960]  Where did the packet go?
+064  [00:02:16.260 --> 00:02:18.040]  Nobody knows.
+065  [00:02:19.540 --> 00:02:21.220]  Where did the packet go?
+066  [00:02:23.200 --> 00:02:25.560]  The blackhole grows.
+067  [00:02:25.560 --> 00:02:26.320]  Send it again.
+068  [00:02:26.780 --> 00:02:28.720]  Watch it fall.
+069  [00:02:28.720 --> 00:02:30.660]  Destination unreachable.
+070  [00:02:33.680 --> 00:02:36.620]  No route at all.
+
+[Finale]
+
+074  [00:02:43.800 --> 00:02:45.200]  Destination unreachable.
+075  [00:02:45.200 --> 00:02:46.500]  Destination unreachable.
+076  [00:02:51.060 --> 00:02:52.460]  Destination unreachable.
+077  [00:04:11.080 --> 00:04:12.800]  Destination unreachable.
+078  [00:04:14.540 --> 00:04:15.940]  Destination unreachable.

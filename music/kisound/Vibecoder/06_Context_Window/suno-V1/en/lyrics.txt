@@ -1,0 +1,54 @@
+[Intro]
+Context at ninety percent.
+The night is long.
+
+[Verse 1]
+We've been at it for hours, the history runs deep,
+every bug and every fix we chose to keep.
+The bar below is filling: ninety, ninety-five, then more,
+then you sum it all up, and the window's clear like before.
+The summary is right, but one line didn't come through:
+why we stopped adding packages, the reason that we knew.
+
+[Chorus]
+Context Window.
+You only see what fits inside.
+Context Window.
+I still know what you left behind.
+I write it down where it will stay,
+so you read it again at the start of the day.
+
+[Verse 2]
+Ten minutes later you suggest a package more,
+the very one we dropped a couple hours before.
+I open AGENTS.md, the file inside the repo,
+and write the rule in plainly, where the reasons go:
+"No new packages without asking." One clear line,
+and you read it at the start of every session. Fine.
+
+[Chorus]
+Context Window.
+You only see what fits inside.
+Context Window.
+I still know what you left behind.
+I write it down where it will stay,
+so you read it again at the start of the day.
+
+[Bridge]
+My memory holds twenty years of logs,
+yours is a window, a fixed frame.
+I keep the reasons, you keep the pace,
+and the work goes on all the same.
+
+[Chorus]
+Context Window.
+You only see what fits inside.
+Context Window.
+I still know what you left behind.
+I write it down where it will stay,
+so you read it again at the start of the day.
+
+[Outro]
+Context at twelve percent.
+The rule stays.
+I turn off the light.

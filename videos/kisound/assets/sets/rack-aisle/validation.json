@@ -1,0 +1,16 @@
+{
+  "setId": "rack-aisle",
+  "status": "OK",
+  "triangles": 11100,
+  "budget": 200000,
+  "meshes": 221,
+  "anchors": 6,
+  "materials": [
+    "cavity",
+    "chassis",
+    "led",
+    "plastic"
+  ],
+  "errors": [],
+  "warnings": []
+}

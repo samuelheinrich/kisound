@@ -1,0 +1,8 @@
+Genre: Liquid Drum & Bass, warm und melancholisch, kein Techno.
+Tempo: 172 BPM
+Sound: Weiche rollende Breakbeats mit Ghost-Notes, tiefer runder Sub-Bass mit melodischen Läufen, warme Rhodes- und Pad-Akkorde, leise Morgenvögel als Field-Recording, Kaffeemaschinen-Zischen als Textur, gläserne Plucks; viel Raum, sanfter Hall.
+Vocals: Einzelner weiblicher Alt; nah, warm, ruhig, klare Worte; Strophen erzählend, Refrain weit und schlicht melodisch.
+Vibe: Morgengrauen nach einer langen Nacht, sanfter Neubeginn.
+Mood: Melancholisch, zärtlich.
+Ablauf: Acht Takte Pads und Stimme ohne Drums; nach Refrain zwei sechzehn Takte Bass-Melodie; Bridge nur Rhodes und Stimme; nach den letzten Worten 30–40 Sekunden ausklingende Pads, Breaks lösen sich vorher auf. Ziel 4:20.
+Hinweise: Gesang auf Deutsch; Context Window, git log und Commit-Texte englisch aussprechen. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

@@ -1,0 +1,24 @@
+{
+  "name": "kisound-ne02-out-of-band",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Out of Band: deterministische Recovery über einen getrennten Managementzugang – Console-Server, serieller Kanal 7, no shutdown, Link, Route und Service-Test, lokaler Browserplayer",
+  "scripts": {
+    "prepare": "node src/tools/prepare.mjs",
+    "preview": "node src/render/serve.mjs --open",
+    "serve": "node src/render/serve.mjs",
+    "check": "node --test tests/*.test.mjs",
+    "check:browser": "node src/tools/check-browser.mjs",
+    "cues": "node src/tools/write-cues.mjs",
+    "export:1080p": "node ../../tools/kisound-render.mjs 1080p",
+    "export:4k": "node ../../tools/kisound-render.mjs 4k",
+    "export:check": "node ../../tools/kisound-render.mjs --check"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.43.1"
+  }
+}

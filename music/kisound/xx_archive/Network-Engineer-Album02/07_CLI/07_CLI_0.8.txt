@@ -1,0 +1,89 @@
+VERSION: 0.8
+ALBUM: Network Engineer 02
+TRACK: 07 - C-L-I
+THEMA: Ein ungeduldiger GUI-User trifft auf die souveräne CLI; Kinderstimme und Gothic-Bariton im Dialog über Ladekreise, direkten Gerätestatus und eine bereits fertige Config
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+GENERATOR: Suno Custom Mode
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+[Intro]
+[Child Vocal]
+Ich hab da ein Fenster.
+Da müsste was sein.
+
+[Deep Male Vocal]
+Ich hab eine Console.
+Ich bin schon drin.
+
+[Verse 1]
+[Child Vocal]
+Ich klick auf das Zahnrad,
+jetzt geht etwas auf.
+Da sind so viele Reiter.
+Wo war der Knopf noch gleich?
+
+[Deep Male Vocal]
+Ein heller Cursor auf schwarzem Grund.
+Ich frage das Gerät und kenne seinen Stand.
+Die Änderung steht, der Port ist geprüft.
+Du suchst noch im Menü, ich bin längst durch.
+
+[Chorus]
+[Child Vocal]
+Warte mal!
+Es lädt noch!
+
+[Deep Male Vocal]
+C-L-I.
+Ich bin längst drin.
+Dein Kreis dreht weiter.
+Meine Config steht.
+Source of Truth.
+Ich frag das Gerät.
+
+[Verse 2]
+[Child Vocal]
+Das Bildchen ist doch grün.
+Dann läuft doch alles gut?
+Jetzt hängt das ganze Fenster.
+Was mach ich denn jetzt?
+
+[Deep Male Vocal]
+Dein Bild ist noch von vorhin.
+Ich sehe, was jetzt wirklich läuft.
+Der Counter zählt, der Port verliert.
+Ich hab den Fehler schon korrigiert.
+
+[Verse 3]
+[Child Vocal]
+Und wo ist Speichern?
+Bin ich jetzt fertig?
+
+[Deep Male Vocal]
+Mein Stand ist längst gesichert.
+Geprüft und dokumentiert.
+
+[Final Chorus]
+[Child Vocal]
+Warte mal!
+Schon fertig?
+
+[Deep Male Vocal]
+C-L-I.
+Ich bin längst durch.
+Dein Kreis dreht weiter.
+Meine Config steht.
+Source of Truth.
+Hier steht, was wirklich läuft.
+
+[Outro]
+[Child Vocal]
+Bei mir lädt's noch.
+
+[Deep Male Vocal]
+Bei mir läuft's schon.
+
+STYLE PROMPT:
+Duett auf Deutsch: GUI-User mit heller natürlicher Kinderstimme, neugierig und ungeduldig; CLI mit sehr tiefer Männerstimme, sonorem Gothic-Bariton, gelassen und trocken ironisch. Klare Solo-Wechsel gemäß [Child Vocal] und [Deep Male Vocal], feste Stimmrollen, verständlicher Gesang mit voller Stimme. Gothic Electro-Pop, Darkwave, 120 BPM. Federnder analoger Synth-Bass, runde Kick, trockene Claps, präzise Hi-Hats, kurze dunkle Moll-Melodie. Helle Plucks und Menü-Klicks für die GUI, tiefe Synth-Akzente für die CLI; ein gemeinsamer tanzbarer Groove. Markante tiefe Hook auf C-L-I und Source of Truth. Kompakter Frage-Antwort-Aufbau, kurze Übergänge. Kein Flüstern, kein Growling, kein Chor, keine harte Techno-Kick. Gesang auf Deutsch, Fachbegriffe englisch; C-L-I als englische Einzelbuchstaben. Klammeranweisungen und Abschnittsnamen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

@@ -1,0 +1,54 @@
+[Intro]
+Works for me.
+Not for you.
+
+[Verse 1]
+localhost three thousand, all green on my Mac,
+I send you the repo, you clone, and it breaks right back.
+The import says "Utils," the file is "utils," small,
+my Mac doesn't care, your Linux won't load it at all.
+Then .env is missing, it only lives on my side,
+and your Node is eighteen, mine's twenty-two. The gap is wide.
+
+[Chorus]
+Works on my machine.
+On mine it all runs right.
+Works on my machine.
+On yours it's red, and I search all night.
+Upper and lower, old and new,
+my laptop's not the world. That's true.
+
+[Verse 2]
+A Dockerfile with a pinned Node version, line one,
+an .env.example with names, but secrets? None.
+The import matches now, lowercase like the file,
+the pipeline builds on Linux, so I'll see it every time.
+You clone again, docker compose up, a container's alive,
+localhost three thousand, on yours. Now it's live.
+
+[Chorus]
+Works on my machine.
+On mine it all runs right.
+Works on my machine.
+On yours it's red, and I search all night.
+Upper and lower, old and new,
+my laptop's not the world. That's true.
+
+[Bridge]
+Mine. Yours.
+Every device.
+When it runs somewhere else,
+then it's done.
+
+[Chorus]
+Works on my machine.
+On mine it all runs right.
+Works on my machine.
+On yours it's red, and I search all night.
+Upper and lower, old and new,
+my laptop's not the world. That's true.
+
+[Outro]
+Works for me.
+Works for you.
+Works on every machine.

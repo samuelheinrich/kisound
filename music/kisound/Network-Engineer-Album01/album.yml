@@ -1,0 +1,182 @@
+# Album configuration.
+#
+# Single source of truth for release automation (WAV tagging, MP3/FLAC export,
+# YouTube video rendering and upload). Copy this file into a new album folder
+# and adjust it -- no script needs to be edited for a new album.
+
+album: Network Engineer
+artist: Samuel Heinrich
+year: 2026
+cover: cover/kisound_network-engineer-cover.png
+
+# Rendering of the cover videos. Applies to every track video and the
+# concatenated full-album video.
+video:
+  width: 1920
+  height: 1080
+  fps: 25
+  # Size of the centred cover square, in output pixels.
+  cover_size: 1000
+  # Length of the rendered animation loop. Every track video repeats this loop,
+  # so rendering cost is independent of track length. Set to 0 to encode each
+  # track over its full length instead.
+  loop_seconds: 20
+  # Slow "breathing" zoom of the cover: amplitude and cycle length in seconds.
+  # Every period below must divide loop_seconds or the loop will jump.
+  zoom_amount: 0.035
+  zoom_period: 10
+  # Colour wave over the whole frame: max hue shift in degrees and cycle length.
+  hue_degrees: 10
+  hue_period: 20
+  # Blurred, darkened background built from the same cover.
+  background_blur: 36
+  background_brightness: -0.08
+  background_saturation: 1.2
+  # Pulsing vignette.
+  vignette_amount: 0.06
+  vignette_period: 5
+  # Encoder settings. YouTube re-encodes anyway; these are its recommendations.
+  crf: 18
+  preset: medium
+  audio_bitrate: 384k
+
+youtube:
+  # 10 = Music. https://developers.google.com/youtube/v3/docs/videoCategories/list
+  category_id: "10"
+  default_language: en
+  # Uploads from an unaudited API client are forced to private by YouTube.
+  # See script/youtube/README.md before changing this.
+  privacy: private
+  made_for_kids: false
+  # "youtube" = standard licence, "creativeCommon" = CC-BY.
+  license: youtube
+
+  title_template: "{artist} - {title} | {album}"
+  album_title_template: "{artist} - {album} (Full Album)"
+
+  # {tracklist} is replaced by the chapter list, {chapters} only exists in the
+  # album video description.
+  description_template: |
+    {theme}
+
+    Style: {style}
+
+    From the album "{album}" by {artist} ({year}).
+    Track {track_number} of {track_total}.
+
+    {tracklist}
+
+    {footer}
+
+  album_description_template: |
+    {album_description}
+
+    Chapters:
+    {chapters}
+
+    {footer}
+
+  footer: |
+    Music and lyrics: {artist}
+    Produced with AI-assisted music generation.
+    (c) {year} {artist}. All rights reserved.
+
+  album_description: >-
+    "Network Engineer" is an electronic album about the hidden infrastructure
+    behind modern digital life: switching, routing, DNS, WiFi, multicast,
+    firewalls, MTU problems and the final hop to the destination. Each track
+    turns a real network engineering concept into bass-heavy electronic music,
+    moving from cinematic industrial electro and hard techno through trance,
+    drum and bass, psytrance and UK garage. Built for people who know that
+    behind every cloud, stream, app and connection, there is a network keeping
+    the signal alive.
+
+  # Merged into every video's tag list. YouTube caps all tags at 500 characters
+  # in total, so the builder truncates if needed.
+  common_tags:
+    - electronic
+    - network engineering
+    - infrastructure
+    - IT
+    - AI music
+    - Samuel Heinrich
+    - Network Engineer album
+
+  playlist:
+    title: Network Engineer
+    privacy: private
+
+# Per-track metadata, keyed by the two-digit track number used in the folder
+# and prompt file names. genre feeds the audio tags and the YouTube category,
+# theme and style feed the video descriptions.
+tracks:
+  "00":
+    genre: Industrial Electro
+    theme: >-
+      Network engineers as the invisible operators behind cloud, WiFi, apps, routing and uptime.
+    style: >-
+      Cinematic industrial-electro intro with heavy sub-bass, slow build and serious spoken vocals.
+    tags: [industrial electro, cinematic techno, network engineers, NOC, cloud, uptime, heavy bass]
+  "01":
+    genre: Techno
+    theme: >-
+      Switching between Layer 1 and Layer 3: MAC tables, V-LANs, trunks, STP and loop prevention.
+    style: >-
+      Hard electro-techno with relay-like transients, dry bassline and half-spoken technical vocals.
+    tags: [techno, electro techno, layer 2, switching, vlan, stp, mac address, hard bass]
+  "02":
+    genre: Trance
+    theme: >-
+      OSPF hello packets, neighbors, DR/BDR, DROTHER, LSAs, SPF and ECMP.
+    style: >-
+      Uplifting/dark trance with rolling bass, supersaws, arpeggios and routing call-and-response vocals.
+    tags: [trance, OSPF, routing, ECMP, DR, BDR, LSA, area zero]
+  "03":
+    genre: Electronic
+    theme: >-
+      DNS troubleshooting humor: resolver, cache, TTL, NXDOMAIN and the classic blame cycle.
+    style: >-
+      Bouncy tech-house/electro-techno with a playful hook and funky bass-driven club energy.
+    tags: [tech house, electro, DNS, resolver, cache, TTL, NXDOMAIN, network humor]
+  "04":
+    genre: Industrial Techno
+    theme: >-
+      ICMP, no reply, TTL expired, blackhole routes, traceroute and lost packets.
+    style: >-
+      Dark industrial techno with cold vocoder phrases, heavy sub-bass and empty-backbone atmosphere.
+    tags: [industrial techno, ICMP, traceroute, destination unreachable, blackhole route, packet loss]
+  "05":
+    genre: Drum & Bass
+    theme: >-
+      WiFi roaming, RSSI, SNR, DFS, access points, handoff and 802.11 movement.
+    style: >-
+      Drum and Bass with Reese bass, fast breaks, WiFi connect sounds, signal pings and radio noise.
+    tags: [drum and bass, wifi, roaming, RSSI, SNR, DFS, 802.11, access point]
+  "06":
+    genre: Progressive Trance
+    theme: >-
+      Multicast groups, IGMP, membership reports, querier, PIM, RP and one-to-many delivery.
+    style: >-
+      Dark progressive trance/techno hybrid with rolling bass, branching arpeggios and group-call vocals.
+    tags: [progressive trance, multicast, IGMP, PIM, rendezvous point, membership reports]
+  "07":
+    genre: Psytrance
+    theme: >-
+      Firewall sessions, ACLs, TCP, UDP, source NAT, destination NAT and deep inspection.
+    style: >-
+      Goa/psytrance firewall track with hypnotic acid sequences and a chant-like Drop/Log/Block hook.
+    tags: [goa, psytrance, firewall, ACL, TCP, UDP, NAT, security zone, state table]
+  "08":
+    genre: UK Garage
+    theme: >-
+      MTU, DF bit, path MTU discovery, fragmentation, tunnel overhead and packet sizing.
+    style: >-
+      Brighter UK garage/electro breaks with bouncy bass, playful vocals and ping/glitch details.
+    tags: [UK garage, electro breaks, MTU, fragmentation, DF bit, path MTU, tunnel overhead]
+  "09":
+    genre: Progressive Trance
+    theme: >-
+      Final hop, destination reached, clean routes, stable links and the end of the album journey.
+    style: >-
+      Epic cinematic progressive trance/melodic techno closer with large builds and euphoric finale.
+    tags: [progressive trance, melodic techno, last hop, routing, destination reached, album closer]

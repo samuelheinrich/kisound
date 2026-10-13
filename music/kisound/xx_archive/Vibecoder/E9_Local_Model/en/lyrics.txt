@@ -1,0 +1,52 @@
+[Intro]
+Wi-Fi off.
+It still answers.
+
+[Verse 1]
+A customer config, a thousand lines of names and nets,
+I don't send that anywhere, it's a rule that never bends.
+So I pull a model down to run on my own machine,
+eight billion parameters, quantized to four bits, a little rough, a little lean.
+ollama run, the fans spin up, the memory gets tight,
+forty tokens a second, the answer flows into the night.
+
+[Chorus]
+Local model.
+No cable, no cloud.
+Local model.
+What I ask here stays here, safe and sound.
+The fans run hot, the case gets warm,
+and not one line goes out. No alarm.
+
+[Verse 2]
+It's slower, and it's wrong a little more,
+reads an ACL backwards, so I check it, like before.
+But it sums up my logs, finds patterns, line by line,
+and no customer data ever leaves this box of mine.
+
+[Chorus]
+Local model.
+No cable, no cloud.
+Local model.
+What I ask here stays here, safe and sound.
+The fans run hot, the case gets warm,
+and not one line goes out. No alarm.
+
+[Bridge]
+I pull the cable.
+I switch the Wi-Fi off.
+I ask again.
+It answers. Right here.
+
+[Chorus]
+Local model.
+No cable, no cloud.
+Local model.
+What I ask here stays here, safe and sound.
+The fans run hot, the case gets warm,
+and not one line goes out. No alarm.
+
+[Outro]
+Wi-Fi off.
+Fans on.
+It all stays here.

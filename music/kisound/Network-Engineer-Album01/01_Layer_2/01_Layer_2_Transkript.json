@@ -1,0 +1,411 @@
+{
+  "title": "Layer 2",
+  "source_audio": "01_Layer_2_0.3-1.wav",
+  "source_audio_sha256": "15b1566f6863945032ca9ca508b26d71b86d594a8d81d9f5ffd2753a28800e8c",
+  "duration_seconds": 209.960167,
+  "languages": [
+    "en"
+  ],
+  "time_origin": "Beginn der WAV-Datei bei 0 Sekunden",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 0.0,
+      "last_vocal_end": 19.5
+    },
+    {
+      "title": "Verse",
+      "first_vocal_start": 38.94,
+      "last_vocal_end": 46.08
+    },
+    {
+      "title": "Pre-Chorus",
+      "first_vocal_start": 46.62,
+      "last_vocal_end": 50.26
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 53.8,
+      "last_vocal_end": 60.88
+    },
+    {
+      "title": "Bridge",
+      "first_vocal_start": 61.3,
+      "last_vocal_end": 70.5
+    },
+    {
+      "title": "Intro – Reprise",
+      "first_vocal_start": 119.42,
+      "last_vocal_end": 133.62
+    },
+    {
+      "title": "Intro",
+      "first_vocal_start": 125.08,
+      "last_vocal_end": 138.84
+    },
+    {
+      "title": "Verse",
+      "first_vocal_start": 142.5,
+      "last_vocal_end": 149.32
+    },
+    {
+      "title": "Pre-Chorus",
+      "first_vocal_start": 150.16,
+      "last_vocal_end": 153.92
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 157.02,
+      "last_vocal_end": 164.08
+    },
+    {
+      "title": "Bridge",
+      "first_vocal_start": 165.92,
+      "last_vocal_end": 171.76
+    }
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 5.52,
+      "start_timecode": "00:00:00.000",
+      "end_timecode": "00:00:05.520",
+      "text": "In the OSI model, Layer Two lives between raw signal and routed path.",
+      "section": "Intro"
+    },
+    {
+      "id": 2,
+      "start": 9.02,
+      "end": 19.5,
+      "start_timecode": "00:00:09.020",
+      "end_timecode": "00:00:19.500",
+      "text": "Above the cable, below the network, the switching domain wakes up.",
+      "section": "Intro"
+    },
+    {
+      "id": 3,
+      "start": 38.94,
+      "end": 40.48,
+      "start_timecode": "00:00:38.940",
+      "end_timecode": "00:00:40.480",
+      "text": "MAC table learning in the neon light,",
+      "section": "Verse"
+    },
+    {
+      "id": 4,
+      "start": 41.02,
+      "end": 42.52,
+      "start_timecode": "00:00:41.020",
+      "end_timecode": "00:00:42.520",
+      "text": "frames on the wire, moving through the night.",
+      "section": "Verse"
+    },
+    {
+      "id": 5,
+      "start": 42.9,
+      "end": 44.8,
+      "start_timecode": "00:00:42.900",
+      "end_timecode": "00:00:44.800",
+      "text": "Tag it, trunk it, V-LAN in the flow,",
+      "section": "Verse"
+    },
+    {
+      "id": 6,
+      "start": 44.8,
+      "end": 46.08,
+      "start_timecode": "00:00:44.800",
+      "end_timecode": "00:00:46.080",
+      "text": "broadcast domain where the packets go.",
+      "section": "Verse"
+    },
+    {
+      "id": 7,
+      "start": 46.62,
+      "end": 47.84,
+      "start_timecode": "00:00:46.620",
+      "end_timecode": "00:00:47.840",
+      "text": "Root bridge calling,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 8,
+      "start": 48.0,
+      "end": 48.38,
+      "start_timecode": "00:00:48.000",
+      "end_timecode": "00:00:48.380",
+      "text": "ports are falling,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 9,
+      "start": 48.76,
+      "end": 49.8,
+      "start_timecode": "00:00:48.760",
+      "end_timecode": "00:00:49.800",
+      "text": "blocking, forwarding,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 10,
+      "start": 49.9,
+      "end": 50.26,
+      "start_timecode": "00:00:49.900",
+      "end_timecode": "00:00:50.260",
+      "text": "loop is crawling.",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 11,
+      "start": 53.8,
+      "end": 55.42,
+      "start_timecode": "00:00:53.800",
+      "end_timecode": "00:00:55.420",
+      "text": "Layer two, keep it clean,",
+      "section": "Chorus"
+    },
+    {
+      "id": 12,
+      "start": 55.74,
+      "end": 56.86,
+      "start_timecode": "00:00:55.740",
+      "end_timecode": "00:00:56.860",
+      "text": "no loop storm in the switching machine.",
+      "section": "Chorus"
+    },
+    {
+      "id": 13,
+      "start": 57.58,
+      "end": 59.14,
+      "start_timecode": "00:00:57.580",
+      "end_timecode": "00:00:59.140",
+      "text": "V-LAN ten, V-LAN three,",
+      "section": "Chorus"
+    },
+    {
+      "id": 14,
+      "start": 59.42,
+      "end": 60.88,
+      "start_timecode": "00:00:59.420",
+      "end_timecode": "00:01:00.880",
+      "text": "tag the frame and set it free.",
+      "section": "Chorus"
+    },
+    {
+      "id": 15,
+      "start": 61.3,
+      "end": 62.1,
+      "start_timecode": "00:01:01.300",
+      "end_timecode": "00:01:02.100",
+      "text": "BPDU.",
+      "section": "Bridge"
+    },
+    {
+      "id": 16,
+      "start": 63.5,
+      "end": 64.18,
+      "start_timecode": "00:01:03.500",
+      "end_timecode": "00:01:04.180",
+      "text": "Trunk up.",
+      "section": "Bridge"
+    },
+    {
+      "id": 17,
+      "start": 64.4,
+      "end": 66.12,
+      "start_timecode": "00:01:04.400",
+      "end_timecode": "00:01:06.120",
+      "text": "Access port.",
+      "section": "Bridge"
+    },
+    {
+      "id": 18,
+      "start": 66.92,
+      "end": 67.6,
+      "start_timecode": "00:01:06.920",
+      "end_timecode": "00:01:07.600",
+      "text": "MAC move.",
+      "section": "Bridge"
+    },
+    {
+      "id": 19,
+      "start": 68.78,
+      "end": 70.5,
+      "start_timecode": "00:01:08.780",
+      "end_timecode": "00:01:10.500",
+      "text": "Spanning tree saves the night.",
+      "section": "Bridge"
+    },
+    {
+      "id": 20,
+      "start": 119.42,
+      "end": 133.62,
+      "start_timecode": "00:01:59.420",
+      "end_timecode": "00:02:13.620",
+      "text": "In the OSI model, Layer Two lives between raw signal and routed path.",
+      "section": "Intro – Reprise"
+    },
+    {
+      "id": 21,
+      "start": 125.08,
+      "end": 132.4,
+      "start_timecode": "00:02:05.080",
+      "end_timecode": "00:02:12.400",
+      "text": "In the OSI model, Layer Two lives between raw signal and routed path.",
+      "section": "Intro"
+    },
+    {
+      "id": 22,
+      "start": 134.2,
+      "end": 138.84,
+      "start_timecode": "00:02:14.200",
+      "end_timecode": "00:02:18.840",
+      "text": "Above the cable, below the network, the switching domain wakes up.",
+      "section": "Intro"
+    },
+    {
+      "id": 23,
+      "start": 142.5,
+      "end": 143.68,
+      "start_timecode": "00:02:22.500",
+      "end_timecode": "00:02:23.680",
+      "text": "MAC table learning in the neon light,",
+      "section": "Verse"
+    },
+    {
+      "id": 24,
+      "start": 144.44,
+      "end": 145.74,
+      "start_timecode": "00:02:24.440",
+      "end_timecode": "00:02:25.740",
+      "text": "frames on the wire, moving through the night.",
+      "section": "Verse"
+    },
+    {
+      "id": 25,
+      "start": 146.48,
+      "end": 147.78,
+      "start_timecode": "00:02:26.480",
+      "end_timecode": "00:02:27.780",
+      "text": "Tag it, trunk it, V-LAN in the flow,",
+      "section": "Verse"
+    },
+    {
+      "id": 26,
+      "start": 148.18,
+      "end": 149.32,
+      "start_timecode": "00:02:28.180",
+      "end_timecode": "00:02:29.320",
+      "text": "broadcast domain where the packets go.",
+      "section": "Verse"
+    },
+    {
+      "id": 27,
+      "start": 150.16,
+      "end": 150.68,
+      "start_timecode": "00:02:30.160",
+      "end_timecode": "00:02:30.680",
+      "text": "Root bridge calling,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 28,
+      "start": 151.22,
+      "end": 152.0,
+      "start_timecode": "00:02:31.220",
+      "end_timecode": "00:02:32.000",
+      "text": "ports are falling,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 29,
+      "start": 152.16,
+      "end": 152.44,
+      "start_timecode": "00:02:32.160",
+      "end_timecode": "00:02:32.440",
+      "text": "blocking, forwarding,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 30,
+      "start": 153.1,
+      "end": 153.92,
+      "start_timecode": "00:02:33.100",
+      "end_timecode": "00:02:33.920",
+      "text": "loop is crawling.",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 31,
+      "start": 157.02,
+      "end": 158.62,
+      "start_timecode": "00:02:37.020",
+      "end_timecode": "00:02:38.620",
+      "text": "Layer two, keep it clean,",
+      "section": "Chorus"
+    },
+    {
+      "id": 32,
+      "start": 159.2,
+      "end": 160.08,
+      "start_timecode": "00:02:39.200",
+      "end_timecode": "00:02:40.080",
+      "text": "no loop storm in the switching machine.",
+      "section": "Chorus"
+    },
+    {
+      "id": 33,
+      "start": 161.08,
+      "end": 162.36,
+      "start_timecode": "00:02:41.080",
+      "end_timecode": "00:02:42.360",
+      "text": "V-LAN ten, V-LAN three,",
+      "section": "Chorus"
+    },
+    {
+      "id": 34,
+      "start": 162.88,
+      "end": 164.08,
+      "start_timecode": "00:02:42.880",
+      "end_timecode": "00:02:44.080",
+      "text": "tag the frame and set it free.",
+      "section": "Chorus"
+    },
+    {
+      "id": 35,
+      "start": 165.92,
+      "end": 166.14,
+      "start_timecode": "00:02:45.920",
+      "end_timecode": "00:02:46.140",
+      "text": "Trunk up.",
+      "section": "Bridge"
+    },
+    {
+      "id": 36,
+      "start": 166.72,
+      "end": 167.4,
+      "start_timecode": "00:02:46.720",
+      "end_timecode": "00:02:47.400",
+      "text": "Access port.",
+      "section": "Bridge"
+    },
+    {
+      "id": 37,
+      "start": 167.86,
+      "end": 168.02,
+      "start_timecode": "00:02:47.860",
+      "end_timecode": "00:02:48.020",
+      "text": "MAC move.",
+      "section": "Bridge"
+    },
+    {
+      "id": 38,
+      "start": 168.52,
+      "end": 171.76,
+      "start_timecode": "00:02:48.520",
+      "end_timecode": "00:02:51.760",
+      "text": "Spanning tree saves the night.",
+      "section": "Bridge"
+    }
+  ]
+}

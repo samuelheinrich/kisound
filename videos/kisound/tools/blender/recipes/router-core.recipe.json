@@ -1,0 +1,271 @@
+{
+  "description": "3U core router: chassis, four line cards on a backplane, a fibre bulkhead and fans. Scene S05: the routing table wall and the chosen exit. Real scale in metres.",
+  "budgetTris": 300000,
+  "materials": {
+    "chassis": {
+      "color": [
+        0.03,
+        0.035,
+        0.042
+      ],
+      "roughness": 0.45,
+      "metallic": 0.85
+    },
+    "cage": {
+      "color": [
+        0.085,
+        0.092,
+        0.1
+      ],
+      "roughness": 0.3,
+      "metallic": 1.0
+    },
+    "cavity": {
+      "color": [
+        0.004,
+        0.006,
+        0.009
+      ],
+      "roughness": 0.9
+    },
+    "glass": {
+      "color": [
+        0.02,
+        0.06,
+        0.1
+      ],
+      "roughness": 0.12,
+      "metallic": 0.2
+    },
+    "led": {
+      "color": [
+        0.05,
+        0.35,
+        0.18
+      ],
+      "roughness": 0.4,
+      "emission": [
+        0.15,
+        1.0,
+        0.45
+      ],
+      "emissionStrength": 3.0
+    },
+    "plastic": {
+      "color": [
+        0.045,
+        0.05,
+        0.058
+      ],
+      "roughness": 0.7
+    }
+  },
+  "parts": [
+    {
+      "id": "chassis",
+      "kind": "box",
+      "size": [
+        0.44,
+        0.4,
+        0.133
+      ],
+      "at": [
+        0,
+        0,
+        0
+      ],
+      "material": "chassis",
+      "bevel": 0.0016
+    },
+    {
+      "id": "cards",
+      "kind": "array",
+      "count": 4,
+      "pitch": 0.03,
+      "axis": "z",
+      "size": [
+        0.4,
+        0.37,
+        0.023
+      ],
+      "at": [
+        0,
+        0.008,
+        0.0
+      ],
+      "material": "plastic",
+      "bevel": 0.001,
+      "anchor": true
+    },
+    {
+      "id": "uplink",
+      "kind": "portRow",
+      "count": 8,
+      "pitch": 0.025,
+      "cage": [
+        0.022,
+        0.018,
+        0.018
+      ],
+      "at": [
+        0,
+        -0.205,
+        0.048
+      ],
+      "material": "cage",
+      "innerMaterial": "cavity",
+      "wall": 0.0018
+    },
+    {
+      "id": "optics",
+      "kind": "array",
+      "count": 8,
+      "pitch": 0.025,
+      "axis": "x",
+      "size": [
+        0.009,
+        0.006,
+        0.009
+      ],
+      "at": [
+        0,
+        -0.2,
+        0.048
+      ],
+      "material": "glass",
+      "anchor": true
+    },
+    {
+      "id": "fan1",
+      "kind": "cylinder",
+      "radius": 0.034,
+      "depth": 0.018,
+      "at": [
+        -0.13,
+        0.201,
+        -0.042
+      ],
+      "material": "cavity",
+      "rotation": [
+        1.5708,
+        0,
+        0
+      ],
+      "verts": 18
+    },
+    {
+      "id": "fan2",
+      "kind": "cylinder",
+      "radius": 0.034,
+      "depth": 0.018,
+      "at": [
+        0.0,
+        0.201,
+        -0.042
+      ],
+      "material": "cavity",
+      "rotation": [
+        1.5708,
+        0,
+        0
+      ],
+      "verts": 18
+    },
+    {
+      "id": "fan3",
+      "kind": "cylinder",
+      "radius": 0.034,
+      "depth": 0.018,
+      "at": [
+        0.13,
+        0.201,
+        -0.042
+      ],
+      "material": "cavity",
+      "rotation": [
+        1.5708,
+        0,
+        0
+      ],
+      "verts": 18
+    },
+    {
+      "id": "cardled",
+      "kind": "grid",
+      "count": [
+        4,
+        3
+      ],
+      "pitch": [
+        0.03,
+        0.007
+      ],
+      "size": [
+        0.0026,
+        0.0012,
+        0.0016
+      ],
+      "at": [
+        -0.19,
+        -0.201,
+        -0.02
+      ],
+      "material": "led",
+      "plane": "xz"
+    },
+    {
+      "id": "cam.front",
+      "kind": "anchor",
+      "at": [
+        0.05,
+        -0.62,
+        0.14
+      ],
+      "props": {
+        "fov": 34,
+        "look": "uplink"
+      }
+    },
+    {
+      "id": "cam.card",
+      "kind": "anchor",
+      "at": [
+        -0.3,
+        -0.24,
+        0.18
+      ],
+      "props": {
+        "fov": 30,
+        "look": "cards.02"
+      }
+    },
+    {
+      "id": "decide",
+      "kind": "path",
+      "points": [
+        [
+          0,
+          -0.34,
+          0.048
+        ],
+        [
+          0,
+          -0.21,
+          0.048
+        ],
+        [
+          0,
+          0.0,
+          0.03
+        ],
+        [
+          0,
+          0.24,
+          0.03
+        ]
+      ]
+    }
+  ],
+  "id": "router-core",
+  "mergeByMaterial": true
+}

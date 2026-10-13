@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "setId": "laptop",
+  "units": "metres",
+  "coordinateSystem": "gltf-right-handed-y-up",
+  "glb": "laptop.glb",
+  "triangles": 7960,
+  "meshes": 3,
+  "materials": [
+    "cavity",
+    "chassis",
+    "plastic"
+  ],
+  "bounds": {
+    "min": [
+      -0.155,
+      0.0,
+      -0.11
+    ],
+    "max": [
+      0.155,
+      0.213401,
+      0.164138
+    ]
+  },
+  "anchors": {
+    "antenna": {
+      "position": [
+        -0.14,
+        0.205,
+        0.136
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "radio": true
+    },
+    "cam.front": {
+      "position": [
+        0.03,
+        0.22,
+        -0.62
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fov": 34,
+      "look": "bezel"
+    },
+    "cam.screen": {
+      "position": [
+        0.0,
+        0.14,
+        -0.3
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fov": 28,
+      "look": "bezel"
+    },
+    "deliver.00": {
+      "position": [
+        -0.9,
+        0.95,
+        1.1
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "deliver",
+      "index": 0
+    },
+    "deliver.01": {
+      "position": [
+        -0.45,
+        0.5,
+        0.6
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "deliver",
+      "index": 1
+    },
+    "deliver.02": {
+      "position": [
+        -0.16,
+        0.26,
+        0.22
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "deliver",
+      "index": 2
+    },
+    "deliver.03": {
+      "position": [
+        -0.14,
+        0.205,
+        0.136
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "deliver",
+      "index": 3
+    },
+    "deliver.04": {
+      "position": [
+        0.0,
+        0.115,
+        0.129
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "deliver",
+      "index": 4
+    },
+    "screen": {
+      "position": [
+        0.0,
+        0.1146,
+        0.1292
+      ],
+      "rotation": [
+        0.129239,
+        0.0,
+        0.0,
+        0.991613
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "w": 0.288,
+      "h": 0.186
+    }
+  }
+}

@@ -1,0 +1,55 @@
+[Intro]
+Approve sign-in?
+Approve sign-in?
+Approve sign-in?
+
+[Verse 1]
+Two-thirteen, the phone on the nightstand hums,
+"Approve sign-in?" I did nothing. I deny it, and it's done.
+Two-fourteen, again, and again, and again,
+twelve times, twenty times, thirty, it won't end.
+Someone has my password, somewhere, somehow,
+and hopes that half asleep I'll tap, just to stop it now.
+
+[Chorus]
+MFA fatigue.
+Approve? No.
+MFA fatigue.
+Tap it tired, and the stranger's in, you know.
+Deny. Report. Stay awake.
+And change the password, for safety's sake.
+
+[Verse 2]
+I tap "This wasn't me," and the SOC sees the flare,
+the source: a server abroad, thirty tries in the air.
+New password, sessions killed, the account under watch,
+and from Monday, number matching, no more tapping blind, not a touch.
+A number on the screen, you type it on your phone,
+no number, no access, the stranger's left alone.
+
+[Chorus]
+MFA fatigue.
+Approve? No.
+MFA fatigue.
+Tap it tired, and the stranger's in, you know.
+Deny. Report. Stay awake.
+And change the password, for safety's sake.
+
+[Bridge]
+Thirty times no
+beats a single yes.
+A thumb half asleep
+is the door you'd never guess.
+
+[Chorus]
+MFA fatigue.
+Approve? No.
+MFA fatigue.
+Tap it tired, and the stranger's in, you know.
+Deny. Report. Stay awake.
+And change the password, for safety's sake.
+
+[Outro]
+Sign-in denied.
+Reported.
+Good night.

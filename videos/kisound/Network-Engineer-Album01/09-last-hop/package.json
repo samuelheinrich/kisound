@@ -1,0 +1,24 @@
+{
+  "name": "kisound-ne01-last-hop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Code-based music video for Network Engineer (Album 01), track 09 Last Hop. Audio is taken as-is from the music repository.",
+  "scripts": {
+    "sync-sets": "node src/tools/sync-sets.mjs",
+    "prepare-audio": "node src/tools/prepare.mjs",
+    "serve": "node src/render/serve.mjs 8125 --open",
+    "stills": "node src/render/render.mjs --width 1920 --height 1080 --stills 5,18,30,36,50,75,84,120,145,175,215,232,270,288",
+    "poster": "node src/render/render.mjs --width 1920 --height 1080 --stills 219.4 --dir output",
+    "preview": "node src/render/render.mjs --width 1920 --height 1080 --mb 4 --encoder vt --q 80 --audio assets/audio/lasthop.wav --out output/09-last-hop_preview_1080p60.mp4",
+    "final": "node src/render/render.mjs --width 3840 --height 2160 --mb 8 --encoder x264 --preset slow --audio assets/audio/lasthop.wav --out output/09-last-hop_2160p60.mp4",
+    "final:fast": "node src/render/render.mjs --width 3840 --height 2160 --mb 8 --encoder vt --q 85 --audio assets/audio/lasthop.wav --out output/09-last-hop_2160p60.mp4",
+    "export:1080p": "node ../../tools/kisound-render.mjs 1080p",
+    "export:4k": "node ../../tools/kisound-render.mjs 4k",
+    "export:check": "node ../../tools/kisound-render.mjs --check"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.0.0",
+    "three": "^0.180.0"
+  }
+}

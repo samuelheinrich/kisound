@@ -1,0 +1,55 @@
+[Intro]
+Export.
+Import.
+It's lying on its side.
+
+[Verse 1]
+Modeled in Blender: a robot, low poly, red,
+export as glTF, load it in Babylon, it's lying there dead.
+Z is up in Blender, Y is up on the web,
+the +Y Up box wasn't ticked, so it lies there like it's in bed.
+Tick it, export again, it stands, but it's gray,
+the texture wasn't with it, the path went astray.
+
+[Chorus]
+Z-up. Y-up.
+Turn the world ninety degrees.
+Z-up. Y-up.
+Export. Reload. Repeat.
+Level one loads up,
+and my robot stands up.
+
+[Verse 2]
+Packed as GLB, the texture's built inside,
+red and shiny, there it stands, just the way I had in mind.
+Then I walk into the house that came from the floor plan,
+the walls are gone from inside: normals flipped, backface culled again.
+Recalculate Outside, export, reload once more,
+now the walls stand all around, and I walk through every floor.
+
+[Chorus]
+Z-up. Y-up.
+Turn the world ninety degrees.
+Z-up. Y-up.
+Export. Reload. Repeat.
+Level one loads up,
+and my robot stands up.
+
+[Bridge]
+First a cube that spins in place.
+Then a robot standing tall.
+Then a house with every wall.
+Then a game, a world, a space.
+
+[Chorus]
+Z-up. Y-up.
+Turn the world ninety degrees.
+Z-up. Y-up.
+Export. Reload. Repeat.
+Level one loads up,
+and my robot stands up.
+
+[Outro]
+Export.
+Import.
+It stands.

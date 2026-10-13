@@ -1,0 +1,52 @@
+[Intro]
+Tag null.
+Kein Patch.
+
+[Verse 1]
+Freitag, sechzehn Uhr, ein Advisory kommt rein,
+neun Komma acht, aktiv ausgenutzt, und kein Patch. Nur ein „Bald“, ganz klein.
+Betroffen: unsere VPN-Gateways, genau die Firmware, die läuft,
+drei Geräte direkt am Internet, und das Wochenende ist verkauft.
+
+[Chorus]
+Zero Day.
+Kein Patch, nur ein Plan.
+Zero Day.
+Wir halten die Tür, so gut man's kann.
+Abschwächen, beobachten, jagen,
+bis der Patch kommt, in ein paar Tagen.
+
+[Verse 2]
+Der Workaround: das Webportal aus, nur der Client verbindet sich noch,
+Management nur intern, die neue IPS-Signatur aktiv, wir stopfen das Loch.
+Dann jagen wir die Indikatoren, dreissig Tage Logs zurück,
+zwei Anfragen auf den Pfad, beide geblockt, diesmal haben wir Glück.
+Mittwoch kommt der Patch, Wartungsfenster, Gerät für Gerät,
+Version geprüft, Portal zurück, und nichts ist zu spät.
+
+[Chorus]
+Zero Day.
+Kein Patch, nur ein Plan.
+Zero Day.
+Wir halten die Tür, so gut man's kann.
+Abschwächen, beobachten, jagen,
+bis der Patch kommt, in ein paar Tagen.
+
+[Bridge]
+Kein Patch heisst nicht kein Schutz.
+Kein Fix heisst nicht kein Plan.
+Weniger Fläche, mehr Augen,
+bis der Hersteller nachziehen kann.
+
+[Chorus]
+Zero Day.
+Kein Patch, nur ein Plan.
+Zero Day.
+Wir halten die Tür, so gut man's kann.
+Abschwächen, beobachten, jagen,
+bis der Patch kommt, in ein paar Tagen.
+
+[Outro]
+Tag sechs.
+Patch installiert.
+Zero Day geschlossen.

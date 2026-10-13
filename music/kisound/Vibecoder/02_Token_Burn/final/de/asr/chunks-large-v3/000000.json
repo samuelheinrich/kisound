@@ -1,0 +1,123 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 0,
+  "next_frame": 3000,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 14.1,
+      "text": "Nur diese eine Änderung, dann mach ich Schluss.",
+      "words": [
+        {
+          "word": "Nur",
+          "start": 9.18,
+          "end": 9.5
+        },
+        {
+          "word": "diese",
+          "start": 9.5,
+          "end": 9.74
+        },
+        {
+          "word": "eine",
+          "start": 9.74,
+          "end": 9.98
+        },
+        {
+          "word": "Änderung",
+          "start": 9.98,
+          "end": 10.5
+        },
+        {
+          "word": ",",
+          "start": 10.5,
+          "end": 13.14
+        },
+        {
+          "word": "dann",
+          "start": 13.14,
+          "end": 13.44
+        },
+        {
+          "word": "mach",
+          "start": 13.44,
+          "end": 13.6
+        },
+        {
+          "word": "ich",
+          "start": 13.6,
+          "end": 13.86
+        },
+        {
+          "word": "Schluss",
+          "start": 13.86,
+          "end": 14.14
+        },
+        {
+          "word": ".",
+          "start": 14.14,
+          "end": 15.16
+        }
+      ],
+      "tokens": [
+        50365,
+        17612,
+        6705,
+        3018,
+        13700,
+        20535,
+        1063,
+        11,
+        3594,
+        2246,
+        1893,
+        36573,
+        13,
+        51070,
+        51772
+      ]
+    },
+    {
+      "start": 14.1,
+      "end": 29.98,
+      "text": "Die Uhr zeigt einst.",
+      "words": [
+        {
+          "word": "Die",
+          "start": 28.56,
+          "end": 28.9
+        },
+        {
+          "word": "Uhr",
+          "start": 28.9,
+          "end": 29.1
+        },
+        {
+          "word": "zeigt",
+          "start": 29.1,
+          "end": 29.44
+        },
+        {
+          "word": "einst",
+          "start": 29.44,
+          "end": 29.92
+        },
+        {
+          "word": ".",
+          "start": 29.92,
+          "end": 29.98
+        }
+      ],
+      "tokens": [
+        50365,
+        3229,
+        30084,
+        29250,
+        1343,
+        372,
+        13,
+        51159
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Genre: Industrial Techno mit cineastischem Finale, schwer und maschinell.
+Tempo: 130 BPM
+Sound: Harte trockene Kick, kalter Sub-Bass, metallische Percussion, Server-Lüfter als Dröhnen, Relaisklicks, ein RAID-Piepton als Motiv; beim Shutdown im zweiten Vers fällt alles auf Stille, danach Bootklänge und ein breiter, warmer Drop mit Flächen.
+Vocals: Tiefe männliche Stimme, ernst und ruhig, halb gesprochen; Refrain getragen mit Doppelung; der englische Leitsatz im Refrain als harter Ruf.
+Vibe: Der alte Server im Keller, Ehrfurcht und Risiko.
+Mood: Angespannt, dann erleichtert und stolz.
+Ablauf: Intro mit Lüfterdröhnen; nach Refrain eins acht Takte Industrial-Drop; Shutdown-Stille im zweiten Vers; Bridge nur Flächen und Stimme; Schlussrefrain gross. Ziel 4:00.
+Hinweise: Gesang auf Deutsch; Uptime, Never touch a running system, RAID, fsck als F-S-C-K, systemctl und Fachbegriffe englisch. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

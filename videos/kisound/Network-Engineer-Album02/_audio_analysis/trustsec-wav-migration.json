@@ -1,0 +1,72 @@
+{
+  "track": "03_TrustSec",
+  "updated_at_utc": "2026-10-04T23:03:59.037645+00:00",
+  "backup_directory": "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album02/_audio_analysis/backups/trustsec-wav-migration-20261005-010147",
+  "audio_identity": {
+    "mp3": {
+      "file_sha256": "23dd181e6a22394abc0ad05a8d23a7e41bde3b9e18a7b2dfabd4dd77b1bab04d",
+      "pcm_sha256": "c66621c8b4217c4b87789bfa7ad46ae1177fbd1b9835c24694d6bcb33ee4e4ad",
+      "pcm_bytes": 55296000
+    },
+    "wav": {
+      "file_sha256": "602a77e3cfbd16ef0097dbe8619c9af74d20fb86c0523749f301c4e89383661d",
+      "pcm_sha256": "c66621c8b4217c4b87789bfa7ad46ae1177fbd1b9835c24694d6bcb33ee4e4ad",
+      "pcm_bytes": 55296000
+    }
+  },
+  "transcript_segments_unchanged": true,
+  "srt_sha256_unchanged": "58f58a9b1bcfb9eaf4d5eb65946ebfb7e450318ab644e4d3fdb97af9e5753bc2",
+  "source_snapshot_refresh": "Existing source files re-baselined after documented prior changes and intentional TrustSec transcript/source-pointer edits; removed MP3 entry retained in backup. Audio and lyrics were not changed.",
+  "preexisting_snapshot_changes": [
+    {
+      "path": "/Users/samuel.heinrich/0004_git/music/kisound/Network-Engineer-Album02/01_On_Call/01_On_Call_Video.md",
+      "previous_sha256": "edfcb6c0cdfd92d3e37021c43f8be6fefd21551313970bdd1d7050999c099a64",
+      "current_sha256": "a569a198118397f9e1ca5dbb84245b88cd9383202a95dab81310af4fa55b6663"
+    },
+    {
+      "path": "/Users/samuel.heinrich/0004_git/music/kisound/Network-Engineer-Album02/02_Active_Standby/02_Active_Standby_Video.md",
+      "previous_sha256": "206bbeee41ee815f579cbfd037bfe6992fa5f1fbc943e81700098cffd08db10d",
+      "current_sha256": "59a50a592f0c618f5985f3df8bb7567a9850fdcc5897986b8e301d198cb0b32e"
+    },
+    {
+      "path": "/Users/samuel.heinrich/0004_git/music/kisound/Network-Engineer-Album02/03_TrustSec/03_TrustSec_0.1.mp3",
+      "previous_sha256": "23dd181e6a22394abc0ad05a8d23a7e41bde3b9e18a7b2dfabd4dd77b1bab04d",
+      "current_sha256": null
+    },
+    {
+      "path": "/Users/samuel.heinrich/0004_git/music/kisound/Network-Engineer-Album02/README.md",
+      "previous_sha256": "ec0062f642b8868265271051b81e4be6e4c864c3436dcef9cc139c933b6deec7",
+      "current_sha256": "166bc62c2dbaecea5ca2e0d899b51bb155237381eade4a31c74c38ad13cba487"
+    },
+    {
+      "path": "/Users/samuel.heinrich/0004_git/music/kisound/Network-Engineer-Album02/album.yml",
+      "previous_sha256": "4ea9d36df0e18de8db16223dd3a82ebdc199861d65c563d3f93f67fa6eb868c6",
+      "current_sha256": "be17b28b1f55a65ac07ca122a14c62e137402e5ce513ee7b64c4a4794dac0e0e"
+    },
+    {
+      "path": "/Users/samuel.heinrich/0004_git/music/kisound/Network-Engineer-Album02/tracklist.txt",
+      "previous_sha256": "5af9a78209fc5e2777b15c794624808de99e511e5c38d7d323361d81fccadb25",
+      "current_sha256": "8f5b7c8e7b0322fe8b79f55aa5b9f01c810f43d623149574d981162ee199cc2b"
+    }
+  ],
+  "verification": {
+    "analysis_artifacts_validated": 24,
+    "source_files_verified_against_refreshed_snapshot": 70,
+    "website_build": "passed",
+    "generated_page": "network-engineer-02/03-trustsec/index.html",
+    "generated_page_analysis_image": "analyse.f7835e1187.webp",
+    "website_release_sha_matches_analysis": true,
+    "website_browser_check": {
+      "status": "passed",
+      "pages": 22,
+      "audio_measurements": 12,
+      "interactive_pieces": 12,
+      "trustsec_page": {
+        "page": "network-engineer-02/03-trustsec/",
+        "errors": [],
+        "broken_images": []
+      }
+    },
+    "published": false
+  }
+}

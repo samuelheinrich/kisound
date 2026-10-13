@@ -1,0 +1,15 @@
+System Engineer — Entwurf 0.1, 2026-10-10, Deutsch und Englisch
+Zwölf Vorschläge, noch keine Aufnahmen.
+
+01 - Servicedesk
+02 - Wartungsfenster (EN: Maintenance Window)
+03 - Registry
+04 - Patch Tuesday
+05 - Restore
+06 - Group Policy
+07 - Time Skew
+08 - Disk Full
+09 - Snapshot
+10 - Uptime
+11 - Print Spooler
+12 - Runbook

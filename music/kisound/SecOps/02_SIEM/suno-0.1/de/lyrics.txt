@@ -1,0 +1,54 @@
+[Intro]
+Fünftausend Events pro Sekunde.
+Korrelation läuft.
+
+[Verse 1]
+Firewall, Proxy, Active Directory, EDR und Mail,
+jede Quelle schickt ihr Log, jede Zeile ein Detail.
+Normalisiert: Zeit, Quelle, Ziel, Benutzer, Aktion,
+aus tausend Formaten wird ein Feld, eine Sprache, ein Ton.
+Meine Regel: eine Quelle, fünfzig Konten, je ein Versuch,
+dann ein Login, der klappt, und der Alarm steht im Logbuch.
+
+[Chorus]
+SIEM.
+Korrelation.
+SIEM.
+Aus Rauschen wird Information.
+Ein Event allein sagt nichts,
+zusammen bringen sie's ans Licht.
+
+[Verse 2]
+Halb vier schlägt sie an: eine Adresse am VPN-Portal,
+fünfzig Konten, je ein Versuch, dasselbe Passwort jedes Mal.
+„Herbst zwanzig sechsundzwanzig“ hat beim neunundvierzigsten gepasst,
+ein altes Praktikumskonto ohne MFA, vergessen und verblasst.
+Konto gesperrt, Sitzungen beendet, die Adresse geblockt,
+jedes verwaiste Konto gelöscht, bevor's wieder klopft.
+
+[Chorus]
+SIEM.
+Korrelation.
+SIEM.
+Aus Rauschen wird Information.
+Ein Event allein sagt nichts,
+zusammen bringen sie's ans Licht.
+
+[Bridge]
+Eine Zeile ist ein Zufall,
+zwei Zeilen sind ein Verdacht,
+fünfzig Zeilen sind ein Muster,
+und das Muster hält mich wach.
+
+[Chorus]
+SIEM.
+Korrelation.
+SIEM.
+Aus Rauschen wird Information.
+Ein Event allein sagt nichts,
+zusammen bringen sie's ans Licht.
+
+[Outro]
+Fünftausend Events pro Sekunde.
+Ein Alarm.
+Der richtige.

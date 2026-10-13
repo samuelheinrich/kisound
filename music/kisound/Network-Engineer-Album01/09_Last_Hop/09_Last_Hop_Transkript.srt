@@ -1,0 +1,216 @@
+1
+00:00:03,060 --> 00:00:05,100
+Every route has an ending.
+
+2
+00:00:06,880 --> 00:00:08,960
+Every signal finds a shore.
+
+3
+00:00:12,360 --> 00:00:14,700
+After all the noise and distance,
+
+4
+00:00:17,780 --> 00:00:20,840
+there is one hop more.
+
+5
+00:00:34,460 --> 00:00:36,660
+From the access to the edge,
+
+6
+00:00:36,760 --> 00:00:38,360
+from the edge into the core,
+
+7
+00:00:38,360 --> 00:00:40,440
+through the transit and the silence,
+
+8
+00:00:41,920 --> 00:00:46,700
+past the firewalls and the doors.
+
+9
+00:00:49,440 --> 00:00:51,480
+Every metric, every prefix,
+
+10
+00:00:51,640 --> 00:00:53,180
+every table in the night,
+
+11
+00:00:53,180 --> 00:00:55,220
+points the packet to the distance,
+
+12
+00:00:57,540 --> 00:01:01,280
+keeps the destination bright.
+
+13
+00:01:01,280 --> 00:01:06,640
+Hop by hop, the path is drawn.
+
+14
+00:01:07,620 --> 00:01:10,380
+Link by link, we carry on.
+
+15
+00:01:11,280 --> 00:01:14,180
+TTL falling, but the signal is strong.
+
+16
+00:01:14,180 --> 00:01:18,940
+One more turn and we are home.
+
+17
+00:01:20,720 --> 00:01:22,000
+Last hop.
+
+18
+00:01:22,880 --> 00:01:24,400
+Destination reached.
+
+19
+00:01:24,400 --> 00:01:25,520
+Last hop.
+
+20
+00:01:25,700 --> 00:01:27,900
+Across the unseen.
+
+21
+00:01:27,900 --> 00:01:29,240
+Last hop.
+
+22
+00:01:29,740 --> 00:01:31,480
+The route is complete.
+
+23
+00:01:32,040 --> 00:01:33,820
+One final packet
+
+24
+00:01:34,020 --> 00:01:36,200
+through the heartbeat.
+
+25
+00:01:40,820 --> 00:01:43,520
+Through the heartbeat.
+
+26
+00:01:49,400 --> 00:01:52,200
+There were storms in the switching,
+
+27
+00:01:52,200 --> 00:01:55,820
+there were routes that disappeared.
+
+28
+00:01:55,820 --> 00:01:59,880
+There were queries without answers,
+
+29
+00:01:59,880 --> 00:02:03,900
+there were outages and fear.
+
+30
+00:02:03,900 --> 00:02:07,300
+But the graph returns to green now,
+
+31
+00:02:07,300 --> 00:02:11,180
+and the backbone starts to breathe.
+
+32
+00:02:11,180 --> 00:02:14,240
+All the layers stand together,
+
+33
+00:02:14,240 --> 00:02:18,560
+all the paths begin to meet.
+
+34
+00:02:19,140 --> 00:02:21,240
+One more hop. One more light.
+
+35
+00:02:21,240 --> 00:02:22,980
+One more route through the night.
+
+36
+00:02:22,980 --> 00:02:24,960
+One more hop. One last line.
+
+37
+00:02:24,960 --> 00:02:26,400
+Destination comes alive.
+
+38
+00:02:37,180 --> 00:02:39,640
+No alarm in the console.
+
+39
+00:02:40,820 --> 00:02:43,020
+No loss in the stream.
+
+40
+00:02:45,060 --> 00:02:46,820
+Every link is holding.
+
+41
+00:02:48,200 --> 00:02:50,200
+Every route is clean.
+
+42
+00:02:50,920 --> 00:02:53,780
+From layer one to layer four,
+
+43
+00:02:53,780 --> 00:02:57,280
+from wireless air to core,
+
+44
+00:02:57,280 --> 00:03:01,280
+the network keeps on moving,
+
+45
+00:03:01,280 --> 00:03:07,220
+then fades into the dawn.
+
+46
+00:03:27,560 --> 00:03:31,460
+Last hop. Destination reached.
+
+47
+00:03:31,460 --> 00:03:34,660
+Last hop. Across the unseen.
+
+48
+00:03:35,060 --> 00:03:38,380
+Last hop. The route is complete.
+
+49
+00:03:39,020 --> 00:03:43,000
+One final packet through the heartbeat.
+
+50
+00:03:48,040 --> 00:03:50,180
+Through the heartbeat.
+
+51
+00:03:56,260 --> 00:04:00,400
+The last hop answers.
+
+52
+00:04:00,400 --> 00:04:03,680
+The signal lands.
+
+53
+00:04:03,680 --> 00:04:07,520
+The route is silent.
+
+54
+00:04:09,360 --> 00:04:11,600
+The album ends.
+

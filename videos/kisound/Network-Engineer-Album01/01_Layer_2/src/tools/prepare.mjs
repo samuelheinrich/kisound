@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+import {SOURCE_WAV,SOURCE_SHA256,DURATION} from '../render/config.js';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..'),repo=path.resolve(root,'../../../..');
+const source=process.env.LAYER_2_SOURCE||path.join(repo,'music/kisound/Network-Engineer-Album01/01_Layer_2');
+const hash=p=>new Promise((resolve,reject)=>{const h=crypto.createHash('sha256'),s=fs.createReadStream(p);s.on('data',b=>h.update(b));s.on('error',reject);s.on('end',()=>resolve(h.digest('hex')));});
+const analysis=JSON.parse(fs.readFileSync(path.join(root,'ASTRA-AUDIO-ANALYSE.json'))),wav=path.join(source,SOURCE_WAV),transcript=path.join(source,'01_Layer_2_Transkript.json');
+if(await hash(wav)!==SOURCE_SHA256)throw Error('WAV-Prüfsumme passt nicht zur freigegebenen Analyse');
+if(await hash(transcript)!==analysis.source.transcript_sha256)throw Error('Transkript wurde seit der Analyse geändert');
+const audio=path.join(root,'assets/audio/layer-2.wav');fs.mkdirSync(path.dirname(audio),{recursive:true});if(!fs.existsSync(audio)||await hash(audio)!==SOURCE_SHA256)fs.copyFileSync(wav,audio);
+const fonts=[];for(const name of['Michroma-Regular.ttf','SpaceGrotesk.ttf','JetBrainsMono.ttf'])fonts.push({filename:name,sha256:await hash(path.join(root,'assets/fonts',name))});
+fs.writeFileSync(path.join(root,'assets/manifest.json'),JSON.stringify({schema:'kisound.layer2.assets.v1',source:wav,sha256:SOURCE_SHA256,transcript,transcript_sha256:analysis.source.transcript_sha256,analysis_sha256:await hash(path.join(root,'ASTRA-AUDIO-ANALYSE.json')),duration_s:DURATION,fonts,geometry:'Prozedurale Three.js-Geometrie; keine externen Modelle'},null,2)+'\n');
+console.log(`WAV und Transkript geprüft. Layer 2: ${DURATION.toFixed(9)} s.`);

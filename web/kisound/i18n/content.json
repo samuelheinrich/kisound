@@ -1,0 +1,439 @@
+{
+  "_note": "Translations for texts that come from the music repo or the code projects. The source text stays where it is; this file only adds the other language. Lyrics are never translated.",
+  "site": {
+    "tagline": {
+      "de": "Elektronische Musik über die Infrastruktur hinter dem Netz",
+      "en": "Electronic music about the infrastructure behind the network"
+    }
+  },
+  "albums": {
+    "network-engineer": {
+      "description": {
+        "de": "„Network Engineer“ ist ein elektronisches Album über die verborgene Infrastruktur hinter dem digitalen Alltag: Switching, Routing, DNS, WLAN, Multicast, Firewalls, MTU-Probleme und der letzte Hop zum Ziel. Jeder Track macht aus einem echten Konzept der Netzwerktechnik bassbetonte elektronische Musik – von cineastischem Industrial-Electro und hartem Techno über Trance, Drum and Bass und Psytrance bis UK Garage. Für alle, die wissen: Hinter jeder Cloud, jedem Stream, jeder App und jeder Verbindung hält ein Netz das Signal am Leben."
+      }
+    },
+    "network-engineer-02": {
+      "description": {
+        "de": "„Network Engineer 02“ folgt den Menschen und Systemen hinter einem funktionierenden Netz: einer Bereitschaftsperson, einem Active/Standby-Paar, TrustSec-Policies, einem Broadcast Storm, einem Wireshark-Mitschnitt und der unterschätzten Kraft von ICMP jenseits von Ping. Verkehrsklassen verhandeln eine gemeinsame Leitung, und ein unabhängiger Management-Weg bringt den Zugang zurück. Jede Szene formt ihren eigenen bassbetonten elektronischen Stil – von Industrial Electro und drängendem Drum and Bass über harten Acid Techno und Acid Tech House bis zu einem cineastischen Finale. Gesungen auf Deutsch, die Fachbegriffe bleiben englisch."
+      }
+    },
+    "vibecoder": {
+      "description": {
+        "en": "“Vibecoder” tells of an idea that becomes an application through agentic programming. A night session speeds up. Album three goes online after build, check and deploy, and a feed fills up with similar images, songs and apps. A verified function call contradicts a convincing answer. At the end, the saved project history meets a limited active context. The music moves from dark tech house through acid techno and hard phonk to cheerful electro house, dark trip-hop and melancholic ambient electronica."
+      }
+    }
+  },
+  "tracks": {
+    "network-engineer/00": {
+      "theme": {
+        "de": "Netzwerk-Engineers als unsichtbare Crew hinter Cloud, WLAN, Apps, Routing und Verfügbarkeit."
+      },
+      "style": {
+        "de": "Cineastisches Industrial-Electro-Intro mit schwerem Sub-Bass, langsamem Aufbau und ernster Sprechstimme."
+      }
+    },
+    "network-engineer/01": {
+      "theme": {
+        "de": "Switching zwischen Layer 1 und Layer 3: MAC-Tabellen, VLANs, Trunks, STP und Schleifenschutz."
+      },
+      "style": {
+        "de": "Harter Electro-Techno mit relaisartigen Transienten, trockener Bassline und halb gesprochenen Technik-Vocals."
+      }
+    },
+    "network-engineer/02": {
+      "theme": {
+        "de": "OSPF-Hellos, Nachbarn, DR/BDR, DROTHER, LSAs, SPF und ECMP."
+      },
+      "style": {
+        "de": "Uplifting/Dark Trance mit rollendem Bass, Supersaws, Arpeggios und Routing-Call-and-Response."
+      }
+    },
+    "network-engineer/03": {
+      "theme": {
+        "de": "DNS-Fehlersuche mit Humor: Resolver, Cache, TTL, NXDOMAIN und der klassische Schuldkreislauf."
+      },
+      "style": {
+        "de": "Federnder Tech-House/Electro-Techno mit verspielter Hook und funky, basslastiger Club-Energie."
+      }
+    },
+    "network-engineer/04": {
+      "theme": {
+        "de": "ICMP, keine Antwort, TTL abgelaufen, Blackhole-Routen, Traceroute und verlorene Pakete."
+      },
+      "style": {
+        "de": "Dunkler Industrial-Techno mit kalten Vocoder-Phrasen, schwerem Sub-Bass und der Atmosphäre eines leeren Backbones."
+      }
+    },
+    "network-engineer/05": {
+      "theme": {
+        "de": "WLAN-Roaming, RSSI, SNR, DFS, Access Points, Handoff und Bewegung nach 802.11."
+      },
+      "style": {
+        "de": "Drum and Bass mit Reese-Bass, schnellen Breaks, WLAN-Verbindungstönen, Signal-Pings und Funkrauschen."
+      }
+    },
+    "network-engineer/06": {
+      "theme": {
+        "de": "Multicast-Gruppen, IGMP, Membership Reports, Querier, PIM, RP und Zustellung an viele."
+      },
+      "style": {
+        "de": "Dunkler Progressive-Trance/Techno-Hybrid mit rollendem Bass, verzweigten Arpeggios und Gruppenruf-Vocals."
+      }
+    },
+    "network-engineer/07": {
+      "theme": {
+        "de": "Firewall-Sessions, ACLs, TCP, UDP, Source NAT, Destination NAT und Deep Inspection."
+      },
+      "style": {
+        "de": "Goa/Psytrance-Firewall-Track mit hypnotischen Acid-Sequenzen und einer Drop/Log/Block-Hook wie ein Chant."
+      }
+    },
+    "network-engineer/08": {
+      "theme": {
+        "de": "MTU, DF-Bit, Path MTU Discovery, Fragmentierung, Tunnel-Overhead und Paketgrössen."
+      },
+      "style": {
+        "de": "Hellerer UK Garage / Electro Breaks mit federndem Bass, verspielten Vocals und Ping/Glitch-Details."
+      }
+    },
+    "network-engineer/09": {
+      "theme": {
+        "de": "Der letzte Hop: Ziel erreicht, saubere Routen, stabile Links und das Ende der Albumreise."
+      },
+      "style": {
+        "de": "Epischer, cineastischer Progressive Trance / Melodic Techno als Abschluss mit grossen Builds und euphorischem Finale."
+      }
+    },
+    "network-engineer-02/01": {
+      "theme": {
+        "de": "Ein Telefon leuchtet auf, während die Stadt schläft: Eine Bereitschaftsperson verfolgt einen echten Ausfall, statt Vermutungen nachzujagen."
+      },
+      "style": {
+        "de": "Treibender Industrial Electro / EBM mit schwerer sequenzierter Bassline, abgehackten Alarmmotiven und zunehmend drängendem Groove."
+      }
+    },
+    "network-engineer-02/02": {
+      "theme": {
+        "de": "Ein Active/Standby-HA-Paar teilt seinen Zustand und überwacht den Heartbeat. Verlorene Kommunikation führt zum Split Brain, bis klare Rollen wiederhergestellt sind."
+      },
+      "style": {
+        "de": "Kompaktes, dunkles Electro-Techno-Duett mit Herzmonitor-Pieptönen, einem Flatline-Ton beim Ausfall des Heartbeat-Links, konkurrierenden Synth-Motiven und einem Rollentausch, wenn der Puls zurückkehrt."
+      }
+    },
+    "network-engineer-02/03": {
+      "theme": {
+        "de": "Ein Network Engineer folgt dem Verkehr durch Routing, TrustSec-Policies, Firewalls, Automatisierung und Wartung und prüft jede Änderung vor der Produktion."
+      },
+      "style": {
+        "de": "Dunkler, treibender Hard/Progressive Techno mit tiefer männlicher Leadstimme, kalten Computerstimmen, rollendem Bass und industrieller Percussion."
+      }
+    },
+    "network-engineer-02/04": {
+      "theme": {
+        "de": "Eine Schleife ohne Ende: Flooding, ausgelastete CPUs, ein Netz, das sich selbst auffrisst."
+      },
+      "style": {
+        "de": "Eskalierender Industrial Drum and Bass mit zackigem Neurofunk-Bass, sich vervielfachenden Loops, drängendem Gesang und einem harten Schnitt, wenn die Schleife unterbrochen wird."
+      }
+    },
+    "network-engineer-02/05": {
+      "theme": {
+        "de": "Ein Paketmitschnitt macht aus widersprüchlichen Störungsmeldungen Beweise: Capture-Position, Display-Filter, TCP-Streams und Retransmissions zeigen den nächsten sinnvollen Test."
+      },
+      "style": {
+        "de": "Gespannter, dunkler Breakbeat mit Trip-Hop-Atmosphäre, präzisem ermittelndem Gesang und einem wiederkehrenden Motiv, das klarer wird, je enger der Mitschnitt wird."
+      }
+    },
+    "network-engineer-02/06": {
+      "theme": {
+        "de": "Die unterschätzte Stimme des Netzes: Jenseits von Echo Reply zeigt ICMP Path-MTU-Grenzen, abgelaufene TTLs, unerreichbare Ziele und einen direkteren lokalen Next Hop."
+      },
+      "style": {
+        "de": "Hart treibender Acid Techno mit beissender 303-Sequenz, kurzen Synth-Signalen und Antworten, schwerer Kick und einem bestimmten, vollstimmigen Hook."
+      }
+    },
+    "network-engineer-02/07": {
+      "theme": {
+        "de": "Echtzeitverkehr und ein Massentransfer teilen sich eine knappe Leitung. Klassifizierung, DSCP-Markierungen, Queues, Policing und Shaping entscheiden, wie jeder Flow behandelt wird."
+      },
+      "style": {
+        "de": "Federndes Acid-Tech-House-Duett: Eine drängende Echtzeitstimme trifft auf eine entspannte Bulk-Transfer-Stimme, mit scharfen Policing-Schnitten und weicheren Shaping-Passagen."
+      }
+    },
+    "network-engineer-02/08": {
+      "theme": {
+        "de": "Das Produktionsnetz ist nicht erreichbar. Ein getrennter Out-of-Band-Weg erreicht die Konsole und ermöglicht einen kontrollierten Rollback mit geprüfter Wiederherstellung."
+      },
+      "style": {
+        "de": "Cineastischer Progressive-Techno-Abschluss, der sich von engen, angespannten Pulsen zu einem warmen, offenen Finale öffnet, wenn der unabhängige Management-Weg den Zugang wiederherstellt."
+      }
+    },
+    "vibecoder/01": {
+      "theme": {
+        "en": "A vibecoder of the new generation solves everyday problems with a script, creates his own sound and has a matching app built. He does not know every technical layer and takes the hardcoders' scepticism with humour."
+      },
+      "style": {
+        "en": "Peak-time tech house and dark electro targeting 132 BPM: rolling syncopated bass, hard kick, sparse distorted stabs and a very deep, rough male bass voice that roars the hook in the drop."
+      }
+    },
+    "vibecoder/02": {
+      "theme": {
+        "en": "A night-time development session grows with every prompt: new features, repeated tests, rising usage and ever later hours."
+      },
+      "style": {
+        "en": "Driving acid techno at around 136 BPM, with rhythmic male vocals, rolling bass and a restless 303 sequence."
+      }
+    },
+    "vibecoder/03": {
+      "theme": {
+        "en": "Album three goes out. The build passes, but the check finds a missing cover: one underscore too many in the file name. After renaming it back, the same check reports zero errors. Commit, deploy, a hard reload past the old cache, German and English checked, link out, play – and the next commit is already waiting."
+      },
+      "style": {
+        "en": "Hard phonk and industrial bass at 140 BPM: overdriven 808s with glides, a stuttering cowbell motif, hard trap snare, metallic industrial hits and tape stops before the drops; a single very deep, rough male voice with a barked, chopped hook."
+      }
+    },
+    "vibecoder/04": {
+      "theme": {
+        "en": "A feed shows repackaged images, songs and apps with similar content. The narrator recognises his own AI-produced song in it."
+      },
+      "style": {
+        "en": "Cheerful electro house with French-house funk at around 144 BPM, bright female voice, bouncing bass and a self-ironic hook."
+      }
+    },
+    "vibecoder/05": {
+      "theme": {
+        "en": "A convincing answer claims an export call. Documentation, a test and a missing proof show that it is absent from the tested demo version."
+      },
+      "style": {
+        "en": "Dark trip-hop and downtempo electronica at around 108 BPM, with a close male baritone, pauses and restrained dissonance."
+      }
+    },
+    "vibecoder/06": {
+      "theme": {
+        "en": "The full history stays saved, while a short summary leaves out individual design reasons. The first sketch helps to restore the active context."
+      },
+      "style": {
+        "en": "Melancholic ambient electronica and gentle downtempo at around 88 BPM, with a female alto and a long fading synth outro."
+      }
+    }
+  },
+  "chapters": {
+    "00_Network_Engineers": {
+      "Nachtwache": "Night watch",
+      "Die Stadt": "The city",
+      "Redundanz": "Redundancy",
+      "Diagnose": "Diagnosis",
+      "Verbindung": "Connection",
+      "Systemcheck": "System check",
+      "Belastungsprobe": "Stress test",
+      "Zwei Perspektiven": "Two perspectives",
+      "Gemeinsam": "Together",
+      "Weiter wach": "Still awake",
+      "Die ganze Stadt": "The whole city",
+      "Letztes Licht": "Last light"
+    },
+    "03_Its_Always_DNS": {
+      "Der Anruf": "The call",
+      "Symptome": "Symptoms",
+      "Ausschluss": "Ruling out",
+      "Hook: Beweise": "Hook: evidence",
+      "Urteil": "Verdict",
+      "Indizien": "Clues",
+      "Fall geschlossen": "Case closed",
+      "Nachttour": "Night tour",
+      "Fallwand": "Case wall",
+      "Fall #4041": "Case #4041",
+      "Indizien II": "Clues II",
+      "Fix und Abspann": "Fix and credits",
+      "Fall #4042": "Case #4042"
+    },
+    "04_Destination_Unreachable": {
+      "Ein Signal in den Kern": "A signal into the core",
+      "Wo ist das Paket?": "Where is the packet?",
+      "Nacht": "Night",
+      "Leerer Backbone": "Empty backbone",
+      "Kein Weg": "No way"
+    },
+    "05_WiFi_Roaming": {
+      "Verbindung": "Connection",
+      "In Bewegung": "On the move",
+      "An der Tür": "At the door",
+      "Stärkeres Licht": "Stronger light",
+      "Gleiche SSID": "Same SSID",
+      "Durch Wände": "Through walls",
+      "Verbindungsaufbau": "Connecting",
+      "Sauberer Wechsel": "Clean handoff",
+      "Weiterziehen": "Moving on"
+    },
+    "06_Multicast": {
+      "Eine Quelle": "One source",
+      "Register / leere Reihen": "Register / empty rows",
+      "Erster Empfänger": "First receiver",
+      "Replikation": "Replication",
+      "Replikation II": "Replication II",
+      "Totale": "Wide shot"
+    },
+    "07_Firewall_State_Table": {
+      "Verkehr": "Traffic",
+      "Policy und State": "Policy and state",
+      "NAT und Inspection": "NAT and inspection",
+      "Übersetzung": "Translation",
+      "Rausch": "Rush",
+      "Sessions schliessen": "Sessions close"
+    },
+    "08_MTU": {
+      "Die Grenze": "The limit",
+      "Alles erreichbar": "Everything reachable",
+      "Ein Byte zu viel": "One byte too many",
+      "Kleine Tests täuschen": "Small tests deceive",
+      "Das Tor bekommt einen Namen": "The gate gets a name",
+      "Die Hüllen": "The wrappers",
+      "Vermessen": "Measuring",
+      "Jetzt passt es": "Now it fits"
+    },
+    "09-last-hop": {
+      "Titel": "Title",
+      "Rückzug": "Retreat"
+    },
+    "01_On_Call": {
+      "Nacht": "Night",
+      "Display wird hell": "The display lights up",
+      "Rackgang": "Rack aisle",
+      "Alles ist weg": "Everything is down",
+      "Genauer fragen": "Ask more precisely",
+      "Ich folg dem Signal": "I follow the signal",
+      "Die Spur": "The trace",
+      "Erst verstehen": "Understand first",
+      "Derselbe Test": "The same test",
+      "Ticket geschlossen": "Ticket closed",
+      "Die Stadt weiss nichts": "The city knows nothing"
+    },
+    "02_Active_Standby": {
+      "Gemeinsame Adresse": "Shared address",
+      "Ich trag den Traffic": "I carry the traffic",
+      "Heartbeat und Sync": "Heartbeat and sync",
+      "Active · Standby": "Active · standby",
+      "Der Link ist weg": "The link is gone",
+      "Beide Active": "Both active",
+      "Isoliert": "Isolated",
+      "Rollen neu": "Roles reassessed",
+      "Ein Pfad": "One path",
+      "Active · Standby, neu": "Active · standby, reversed",
+      "Neuer Test": "New test",
+      "Klarer Pfad": "Clear path"
+    },
+    "04_Broadcast_Storm": {
+      "Offene Kette": "Open chain",
+      "Falscher Port": "Wrong port",
+      "B-001": "B-001",
+      "Kopien wachsen": "Copies multiply",
+      "Alle Lampen grün": "All lights green",
+      "Broadcast Storm": "Broadcast storm",
+      "Loop · Flood": "Loop · flood",
+      "Zieh das Kabel": "Pull the cable",
+      "Console-Weg": "Console path",
+      "Ein Port down": "One port down",
+      "Die Flut zieht ab": "The flood recedes",
+      "Stille": "Silence"
+    },
+    "05_Wireshark": {
+      "Bei mir geht’s": "Works for me",
+      "Capture läuft": "Capture running",
+      "Fremde Flows": "Foreign flows",
+      "Der richtige Stream": "The right stream",
+      "Zeig mir, was passiert": "Show me what happens",
+      "Retransmission": "Retransmission",
+      "TLS bleibt dicht": "TLS stays sealed",
+      "Der Befund": "The finding",
+      "Kontrollierter Versuch": "Controlled test",
+      "Die Antwort kommt zurück": "The answer comes back",
+      "Capture stoppen": "Stop the capture",
+      "Warum": "Why"
+    },
+    "06_ICMP": {
+      "Mehr als ein Ping": "More than a ping",
+      "Echo": "Echo",
+      "Der Host antwortet": "The host answers",
+      "Hör hin": "Listen",
+      "Don’t Fragment": "Don’t fragment",
+      "Fragmentation Needed": "Fragmentation needed",
+      "Hook": "Hook",
+      "Traceroute": "Traceroute",
+      "Port Unreachable": "Port unreachable",
+      "Stimme aus der Leitung": "Voice from the wire",
+      "Redirect": "Redirect",
+      "Jetzt hörst du hin": "Now you listen"
+    },
+    "07_QoS": {
+      "Zwei Flows, ein Draht": "Two flows, one wire",
+      "Quality of Service": "Quality of Service",
+      "Die Policy": "The policy",
+      "Bulk": "Bulk",
+      "Policing": "Policing",
+      "Shaping": "Shaping",
+      "Classify · Mark · Queue": "Classify · Mark · Queue",
+      "Schedule · Shape · Send": "Schedule · Shape · Send",
+      "Final Chorus": "Final chorus",
+      "Hörst du mich?": "Can you hear me?"
+    },
+    "08_Out_of_Band": {
+      "Kein Login": "No login",
+      "Der getrennte Weg": "The separate path",
+      "SSH wartet": "SSH waits",
+      "Console": "Console",
+      "Out of Band": "Out of band",
+      "Vorabbild": "Pre-change image",
+      "Rücknahme": "Rollback",
+      "Service-Test": "Service test",
+      "Vorher gebaut": "Built beforehand",
+      "Final Chorus": "Final chorus",
+      "Die Stadt schläft": "The city sleeps"
+    },
+    "03_TrustSec": {
+      "Intro": "Intro",
+      "Drop": "Drop",
+      "Strophe 1": "Verse 1",
+      "Hook 1": "Hook 1",
+      "Strophe 2": "Verse 2",
+      "Permit": "Permit",
+      "Hook 2": "Hook 2",
+      "Unknown": "Unknown",
+      "Dialog": "Dialogue",
+      "Strophe 3": "Verse 3",
+      "Build": "Build",
+      "Final Hook": "Final hook",
+      "Outro": "Outro",
+      "Finale": "Finale"
+    },
+    "02_Token_Burn": {
+      "Nur ein Regler": "Just one slider",
+      "01:00": "01:00",
+      "Bassspur leer": "Empty bass lane",
+      "02:00": "02:00",
+      "Token Burn": "Token Burn",
+      "Der Stand von eben": "The state from before",
+      "03:00 · Export": "03:00 · Export",
+      "Nutzungsjournal": "Usage journal",
+      "Noch ein Prompt": "One more prompt",
+      "Kalter Kaffee": "Cold coffee",
+      "Tageslicht": "Daylight",
+      "Preset speichern": "Save a preset",
+      "Morgen": "Morning"
+    },
+    "03_SHIP_IT": {
+      "Der Release wartet": "The release is waiting",
+      "COMMIT IT. SHIP IT.": "COMMIT IT. SHIP IT.",
+      "npm run build": "npm run build",
+      "Ein Unterstrich zu viel": "One underscore too many",
+      "Null Fehler": "Zero errors",
+      "Build. Check. Live.": "Build. Check. Live.",
+      "Deploy": "Deploy",
+      "Harter Reload": "Hard reload",
+      "DE und EN": "DE and EN",
+      "Link und Play": "Link and play",
+      "Bridge": "Bridge",
+      "Die ganze Kette": "The whole chain",
+      "Nächster Commit": "Next commit"
+    }
+  }
+}

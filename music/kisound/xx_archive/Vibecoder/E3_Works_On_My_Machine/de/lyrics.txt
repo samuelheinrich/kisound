@@ -1,0 +1,54 @@
+[Intro]
+Bei mir läuft's.
+Bei dir nicht.
+
+[Verse 1]
+localhost dreitausend, alles grün auf meinem Mac,
+ich schick dir das Repo, du klonst, und dann der erste Schreck.
+Im Import steht „Utils“, die Datei heisst „utils“, klein,
+meinem Mac ist das egal, dein Linux sagt: Nein.
+Dann fehlt die .env, die liegt nur bei mir lokal,
+und dein Node ist älter, achtzehn statt zweiundzwanzig. Fatal.
+
+[Chorus]
+Works on my machine.
+Bei mir läuft es rund.
+Works on my machine.
+Bei dir rot, und ich such den Grund.
+Gross und klein. Alt und neu.
+Mein Rechner ist nicht die Welt.
+
+[Verse 2]
+Ein Dockerfile mit fester Node-Version, Zeile eins,
+eine .env.example mit Namen, doch Geheimnisse: keins.
+Der Import heisst jetzt richtig, klein wie die Datei,
+und die Pipeline baut auf Linux, so merk ich's selbst dabei.
+Du klonst nochmal, docker compose up, ein Container steht,
+localhost dreitausend, bei dir. Jetzt weiss ich, dass es geht.
+
+[Chorus]
+Works on my machine.
+Bei mir läuft es rund.
+Works on my machine.
+Bei dir rot, und ich such den Grund.
+Gross und klein. Alt und neu.
+Mein Rechner ist nicht die Welt.
+
+[Bridge]
+Bei mir. Bei dir.
+Auf jedem Gerät.
+Erst wenn es woanders läuft,
+ist es wirklich fertig.
+
+[Chorus]
+Works on my machine.
+Bei mir läuft es rund.
+Works on my machine.
+Bei dir rot, und ich such den Grund.
+Gross und klein. Alt und neu.
+Mein Rechner ist nicht die Welt.
+
+[Outro]
+Bei mir läuft's.
+Bei dir auch.
+Works on every machine.

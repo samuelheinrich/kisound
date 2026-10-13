@@ -1,0 +1,554 @@
+{
+  "title": "Broadcast Storm",
+  "source_audio": "04_Broadcast_Storm_1.0.wav",
+  "source_audio_sha256": "00a640de0f76551e27719ad0c4c0f106133fd26c4d33f4f7e3d5b71cbadec352",
+  "duration_seconds": 208.8135,
+  "languages": [
+    "de",
+    "en"
+  ],
+  "time_origin": "Beginn der unveränderten WAV-Datei bei 0 Sekunden",
+  "timing_source": "Lokaler ASR-Wortabgleich mit whisper-large-v3 und whisper-large-v3-turbo; zusätzliche ASR-Ausschnitte bei schwierigen Stellen; keine manuelle Hörprüfung",
+  "text_source": "Akustisch zugeordnete Zeilen aus dem beibehaltenen Lyric-Prompt; zusätzliche erkannte Wiederholungen und abweichende Kurzzeilen aus dem ASR-Modellvergleich",
+  "review_status": "Automatisch erstellt; Hörprüfung offener Text- und Zeitkonflikte aus TRANSKRIPT-PRUEFUNG.md steht aus.",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 9.66,
+      "last_vocal_end": 22.3
+    },
+    {
+      "title": "Verse",
+      "first_vocal_start": 43.96,
+      "last_vocal_end": 65.44
+    },
+    {
+      "title": "Pre-Chorus",
+      "first_vocal_start": 66.52,
+      "last_vocal_end": 83.1
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 86.52,
+      "last_vocal_end": 107.62
+    },
+    {
+      "title": "Break",
+      "first_vocal_start": 110.54,
+      "last_vocal_end": 137.38
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 142.48,
+      "last_vocal_end": 164.18
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 166.56,
+      "last_vocal_end": 186.72
+    }
+  ],
+  "segments": [
+    {
+      "start": 9.66,
+      "end": 10.44,
+      "start_timecode": "00:00:09.660",
+      "end_timecode": "00:00:10.440",
+      "text": "Ein Kabel.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 1
+    },
+    {
+      "start": 15.58,
+      "end": 16.74,
+      "start_timecode": "00:00:15.580",
+      "end_timecode": "00:00:16.740",
+      "text": "Falscher Port.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 2
+    },
+    {
+      "start": 20.8,
+      "end": 22.3,
+      "start_timecode": "00:00:20.800",
+      "end_timecode": "00:00:22.300",
+      "text": "Mehr braucht es nicht.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 3
+    },
+    {
+      "start": 43.96,
+      "end": 46.34,
+      "start_timecode": "00:00:43.960",
+      "end_timecode": "00:00:46.340",
+      "text": "Frame geht raus und kommt zurück,",
+      "section": "Verse",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 4
+    },
+    {
+      "start": 46.34,
+      "end": 49.32,
+      "start_timecode": "00:00:46.340",
+      "end_timecode": "00:00:49.320",
+      "text": "derselbe Frame, wo ist das Ende.",
+      "section": "Verse",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 5
+    },
+    {
+      "start": 49.88,
+      "end": 51.88,
+      "start_timecode": "00:00:49.880",
+      "end_timecode": "00:00:51.880",
+      "text": "Kein Time to Live hier unten drin,",
+      "section": "Verse",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 6
+    },
+    {
+      "start": 51.88,
+      "end": 54.56,
+      "start_timecode": "00:00:51.880",
+      "end_timecode": "00:00:54.560",
+      "text": "nichts sagt ihm, wohin er soll.",
+      "section": "Verse",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 7
+    },
+    {
+      "start": 54.56,
+      "end": 56.76,
+      "start_timecode": "00:00:54.560",
+      "end_timecode": "00:00:56.760",
+      "text": "Flooding raus auf jeden Port,",
+      "section": "Verse",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 8
+    },
+    {
+      "start": 56.76,
+      "end": 59.64,
+      "start_timecode": "00:00:56.760",
+      "end_timecode": "00:00:59.640",
+      "text": "Kopien wachsen, keiner stoppt.",
+      "section": "Verse",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 9
+    },
+    {
+      "start": 60.14,
+      "end": 62.3,
+      "start_timecode": "00:01:00.140",
+      "end_timecode": "00:01:02.300",
+      "text": "Der Switch schreit, C-P-U rot,",
+      "section": "Verse",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 10
+    },
+    {
+      "start": 62.3,
+      "end": 65.44,
+      "start_timecode": "00:01:02.300",
+      "end_timecode": "00:01:05.440",
+      "text": "die Control Plane ist längst tot.",
+      "section": "Verse",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 11
+    },
+    {
+      "start": 66.52,
+      "end": 69.12,
+      "start_timecode": "00:01:06.520",
+      "end_timecode": "00:01:09.120",
+      "text": "Alle Lampen leuchten grün.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 12
+    },
+    {
+      "start": 69.66,
+      "end": 72.26,
+      "start_timecode": "00:01:09.660",
+      "end_timecode": "00:01:12.260",
+      "text": "Das ist kein gutes Zeichen.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 13
+    },
+    {
+      "start": 76.02,
+      "end": 80.02,
+      "start_timecode": "00:01:16.020",
+      "end_timecode": "00:01:20.020",
+      "text": "Hier kommt gar nichts mehr durch.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 14
+    },
+    {
+      "start": 80.02,
+      "end": 83.1,
+      "start_timecode": "00:01:20.020",
+      "end_timecode": "00:01:23.100",
+      "text": "Hier steht alles auf dem Spiel.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 15
+    },
+    {
+      "start": 86.52,
+      "end": 88.08,
+      "start_timecode": "00:01:26.520",
+      "end_timecode": "00:01:28.080",
+      "text": "Broadcast Storm.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 16
+    },
+    {
+      "start": 88.08,
+      "end": 90.94,
+      "start_timecode": "00:01:28.080",
+      "end_timecode": "00:01:30.940",
+      "text": "Kein Root, kein Pfad.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 17
+    },
+    {
+      "start": 92.0,
+      "end": 93.64,
+      "start_timecode": "00:01:32.000",
+      "end_timecode": "00:01:33.640",
+      "text": "Broadcast Storm.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 18
+    },
+    {
+      "start": 93.64,
+      "end": 96.14,
+      "start_timecode": "00:01:33.640",
+      "end_timecode": "00:01:36.140",
+      "text": "Spür den Schaden.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 19
+    },
+    {
+      "start": 98.28,
+      "end": 99.56,
+      "start_timecode": "00:01:38.280",
+      "end_timecode": "00:01:39.560",
+      "text": "Es flutet,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 20
+    },
+    {
+      "start": 99.56,
+      "end": 100.84,
+      "start_timecode": "00:01:39.560",
+      "end_timecode": "00:01:40.840",
+      "text": "verdoppelt,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 21
+    },
+    {
+      "start": 100.84,
+      "end": 102.16,
+      "start_timecode": "00:01:40.840",
+      "end_timecode": "00:01:42.160",
+      "text": "ertränkt den Draht,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 22
+    },
+    {
+      "start": 102.92,
+      "end": 106.5,
+      "start_timecode": "00:01:42.920",
+      "end_timecode": "00:01:46.500",
+      "text": "ein Loop, der sich",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 23
+    },
+    {
+      "start": 106.5,
+      "end": 107.62,
+      "start_timecode": "00:01:46.500",
+      "end_timecode": "00:01:47.620",
+      "text": "selber frisst.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 24
+    },
+    {
+      "text": "Loop.",
+      "start": 110.54,
+      "end": 111.82,
+      "section": "Break",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Large-v3 erkennt an dieser Stelle «Lob». Als kurze Loop-Zeile dem Prompt zugeordnet; Wortlaut ist unsicher und muss gehört werden.",
+      "id": 25,
+      "start_timecode": "00:01:50.540",
+      "end_timecode": "00:01:51.820"
+    },
+    {
+      "text": "Flood.",
+      "start": 119.4,
+      "end": 120.1,
+      "section": "Break",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Zusätzlicher englischer ASR-Lauf des gefilterten Breaks erkennt Flood mit Wortwahrscheinlichkeit 0.79. Die genaue Reihenfolge der Loop/Flood-Rufe bleibt offen.",
+      "id": 26,
+      "start_timecode": "00:01:59.400",
+      "end_timecode": "00:02:00.100"
+    },
+    {
+      "text": "Flood.",
+      "start": 120.84,
+      "end": 121.56,
+      "section": "Break",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Der englische ASR-Lauf erkennt eine weitere Flood-Zeile mit Wortwahrscheinlichkeit 0.79; keine unerkannte Loop-Zeile zwischen die Rufe ergänzt.",
+      "id": 27,
+      "start_timecode": "00:02:00.840",
+      "end_timecode": "00:02:01.560"
+    },
+    {
+      "start": 130.06,
+      "end": 131.74,
+      "start_timecode": "00:02:10.060",
+      "end_timecode": "00:02:11.740",
+      "text": "Zieh das Kabel.",
+      "section": "Break",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 28
+    },
+    {
+      "text": "Yes.",
+      "start": 135.98,
+      "end": 137.38,
+      "section": "Break",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Die vollständigen deutschen Läufe und der englische Ausschnitt lesen Yes. Der Prompt nennt Jetzt. Übernommen ist die ASR-Lesart; die Wortentscheidung bleibt offen.",
+      "id": 29,
+      "start_timecode": "00:02:15.980",
+      "end_timecode": "00:02:17.380"
+    },
+    {
+      "start": 142.48,
+      "end": 144.98,
+      "start_timecode": "00:02:22.480",
+      "end_timecode": "00:02:24.980",
+      "text": "Management weg, kein Login mehr,",
+      "section": "Verse 2",
+      "timing_model": "turbo",
+      "review_required": true,
+      "id": 30,
+      "review_note": "Überlappende ASR-Wortzeiten an der nächsten Cue-Grenze gekürzt."
+    },
+    {
+      "start": 144.98,
+      "end": 147.74,
+      "start_timecode": "00:02:24.980",
+      "end_timecode": "00:02:27.740",
+      "text": "der Console Port ist unser Weg.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 31
+    },
+    {
+      "start": 147.92,
+      "end": 150.66,
+      "start_timecode": "00:02:27.920",
+      "end_timecode": "00:02:30.660",
+      "text": "Blocking State, der niemals kam,",
+      "section": "Verse 2",
+      "timing_model": "turbo",
+      "review_required": true,
+      "id": 32
+    },
+    {
+      "start": 150.68,
+      "end": 152.84,
+      "start_timecode": "00:02:30.680",
+      "end_timecode": "00:02:32.840",
+      "text": "eine Bridge ohne Root, ohne Namen.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 33
+    },
+    {
+      "start": 153.84,
+      "end": 155.12,
+      "start_timecode": "00:02:33.840",
+      "end_timecode": "00:02:35.120",
+      "text": "Konsolenkabel, Taschenlampe,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 34
+    },
+    {
+      "start": 155.12,
+      "end": 157.88,
+      "start_timecode": "00:02:35.120",
+      "end_timecode": "00:02:37.880",
+      "text": "durch die Reihen im Serverraum.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 35
+    },
+    {
+      "start": 158.92,
+      "end": 161.28,
+      "start_timecode": "00:02:38.920",
+      "end_timecode": "00:02:41.280",
+      "text": "Finde den Link, der den Ring schliesst,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 36
+    },
+    {
+      "start": 161.38,
+      "end": 164.18,
+      "start_timecode": "00:02:41.380",
+      "end_timecode": "00:02:44.180",
+      "text": "ein Port down und Stille kommt.",
+      "section": "Verse 2",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 37
+    },
+    {
+      "start": 166.56,
+      "end": 167.6,
+      "start_timecode": "00:02:46.560",
+      "end_timecode": "00:02:47.600",
+      "text": "Broadcast Storm.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 38
+    },
+    {
+      "start": 168.96,
+      "end": 170.78,
+      "start_timecode": "00:02:48.960",
+      "end_timecode": "00:02:50.780",
+      "text": "Kein Root, kein Pfad.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 39
+    },
+    {
+      "start": 171.96,
+      "end": 173.12,
+      "start_timecode": "00:02:51.960",
+      "end_timecode": "00:02:53.120",
+      "text": "Broadcast Storm.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 40
+    },
+    {
+      "start": 174.34,
+      "end": 175.62,
+      "start_timecode": "00:02:54.340",
+      "end_timecode": "00:02:55.620",
+      "text": "Spür den Schaden.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 41
+    },
+    {
+      "text": "Ein Port down,",
+      "start": 177.16,
+      "end": 178.5,
+      "section": "Final Chorus",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Ausschnitt und vollständiger Turbo-Lauf lesen «Ein Problem». Schreibweise aus dem Prompt dem akustischen Kurzsatz zugeordnet; exakter Wortlaut muss gehört werden.",
+      "id": 42,
+      "start_timecode": "00:02:57.160",
+      "end_timecode": "00:02:58.500"
+    },
+    {
+      "start": 179.76,
+      "end": 181.52,
+      "start_timecode": "00:02:59.760",
+      "end_timecode": "00:03:01.520",
+      "text": "die Flut zieht ab,",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 43
+    },
+    {
+      "start": 181.7,
+      "end": 184.48,
+      "start_timecode": "00:03:01.700",
+      "end_timecode": "00:03:04.480",
+      "text": "das Netz lernt,",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 44
+    },
+    {
+      "start": 184.5,
+      "end": 186.72,
+      "start_timecode": "00:03:04.500",
+      "end_timecode": "00:03:06.720",
+      "text": "was Stille heisst.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 45
+    }
+  ]
+}

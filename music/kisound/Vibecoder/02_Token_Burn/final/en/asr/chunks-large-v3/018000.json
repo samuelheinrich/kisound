@@ -1,0 +1,391 @@
+{
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "frame": 18000,
+  "next_frame": 21000,
+  "segments": [
+    {
+      "start": 180.0,
+      "end": 184.7,
+      "text": "Cold coffee, daylight, through the glass.",
+      "words": [
+        {
+          "word": "Cold",
+          "start": 182.3,
+          "end": 182.88
+        },
+        {
+          "word": "coffee",
+          "start": 182.88,
+          "end": 183.02
+        },
+        {
+          "word": ",",
+          "start": 183.02,
+          "end": 183.68
+        },
+        {
+          "word": "daylight",
+          "start": 183.68,
+          "end": 183.84
+        },
+        {
+          "word": ",",
+          "start": 183.84,
+          "end": 184.0
+        },
+        {
+          "word": "through",
+          "start": 184.0,
+          "end": 184.1
+        },
+        {
+          "word": "the",
+          "start": 184.1,
+          "end": 184.44
+        },
+        {
+          "word": "glass",
+          "start": 184.44,
+          "end": 184.7
+        },
+        {
+          "word": ".",
+          "start": 184.7,
+          "end": 185.18
+        }
+      ],
+      "tokens": [
+        50365,
+        16918,
+        4982,
+        11,
+        29964,
+        11,
+        807,
+        264,
+        4276,
+        13,
+        50600
+      ]
+    },
+    {
+      "start": 185.44,
+      "end": 188.24,
+      "text": "Another answer, minutes past.",
+      "words": [
+        {
+          "word": "Another",
+          "start": 185.66,
+          "end": 186.22
+        },
+        {
+          "word": "answer",
+          "start": 186.22,
+          "end": 186.56
+        },
+        {
+          "word": ",",
+          "start": 186.56,
+          "end": 187.54
+        },
+        {
+          "word": "minutes",
+          "start": 187.54,
+          "end": 187.92
+        },
+        {
+          "word": "past",
+          "start": 187.92,
+          "end": 188.02
+        },
+        {
+          "word": ".",
+          "start": 188.02,
+          "end": 188.4
+        }
+      ],
+      "tokens": [
+        50637,
+        3996,
+        1867,
+        11,
+        2077,
+        1791,
+        13,
+        50777
+      ]
+    },
+    {
+      "start": 188.24,
+      "end": 191.54,
+      "text": "That little phrase comes back so clear.",
+      "words": [
+        {
+          "word": "That",
+          "start": 188.98,
+          "end": 189.26
+        },
+        {
+          "word": "little",
+          "start": 189.26,
+          "end": 189.64
+        },
+        {
+          "word": "phrase",
+          "start": 189.64,
+          "end": 190.14
+        },
+        {
+          "word": "comes",
+          "start": 190.14,
+          "end": 190.5
+        },
+        {
+          "word": "back",
+          "start": 190.5,
+          "end": 190.76
+        },
+        {
+          "word": "so",
+          "start": 190.76,
+          "end": 191.26
+        },
+        {
+          "word": "clear",
+          "start": 191.26,
+          "end": 191.38
+        },
+        {
+          "word": ".",
+          "start": 191.38,
+          "end": 192.02
+        }
+      ],
+      "tokens": [
+        50777,
+        663,
+        707,
+        9535,
+        1487,
+        646,
+        370,
+        1850,
+        13,
+        50942
+      ]
+    },
+    {
+      "start": 192.12,
+      "end": 195.98,
+      "text": "A little while, I'll stay right here.",
+      "words": [
+        {
+          "word": "A",
+          "start": 192.48,
+          "end": 192.76
+        },
+        {
+          "word": "little",
+          "start": 192.76,
+          "end": 193.06
+        },
+        {
+          "word": "while",
+          "start": 193.06,
+          "end": 193.36
+        },
+        {
+          "word": ",",
+          "start": 193.36,
+          "end": 194.62
+        },
+        {
+          "word": "I'll",
+          "start": 194.62,
+          "end": 194.84
+        },
+        {
+          "word": "stay",
+          "start": 194.84,
+          "end": 195.16
+        },
+        {
+          "word": "right",
+          "start": 195.16,
+          "end": 195.7
+        },
+        {
+          "word": "here",
+          "start": 195.7,
+          "end": 195.9
+        },
+        {
+          "word": ".",
+          "start": 195.9,
+          "end": 196.38
+        }
+      ],
+      "tokens": [
+        50971,
+        316,
+        707,
+        1339,
+        11,
+        286,
+        603,
+        1754,
+        558,
+        510,
+        13,
+        51164
+      ]
+    },
+    {
+      "start": 198.36,
+      "end": 199.32,
+      "text": "Talking burn.",
+      "words": [
+        {
+          "word": "Talking",
+          "start": 198.56,
+          "end": 199.16
+        },
+        {
+          "word": "burn",
+          "start": 199.16,
+          "end": 199.24
+        },
+        {
+          "word": ".",
+          "start": 199.24,
+          "end": 200.2
+        }
+      ],
+      "tokens": [
+        51283,
+        22445,
+        5064,
+        13,
+        51331
+      ]
+    },
+    {
+      "start": 201.16,
+      "end": 204.64,
+      "text": "One more prompt before I go.",
+      "words": [
+        {
+          "word": "One",
+          "start": 201.7,
+          "end": 202.16
+        },
+        {
+          "word": "more",
+          "start": 202.16,
+          "end": 202.74
+        },
+        {
+          "word": "prompt",
+          "start": 202.74,
+          "end": 203.4
+        },
+        {
+          "word": "before",
+          "start": 203.4,
+          "end": 203.9
+        },
+        {
+          "word": "I",
+          "start": 203.9,
+          "end": 204.3
+        },
+        {
+          "word": "go",
+          "start": 204.3,
+          "end": 204.56
+        },
+        {
+          "word": ".",
+          "start": 204.56,
+          "end": 205.12
+        }
+      ],
+      "tokens": [
+        51423,
+        1485,
+        544,
+        12391,
+        949,
+        286,
+        352,
+        13,
+        51597
+      ]
+    },
+    {
+      "start": 205.22,
+      "end": 206.5,
+      "text": "Talking burn.",
+      "words": [
+        {
+          "word": "Talking",
+          "start": 205.58,
+          "end": 206.18
+        },
+        {
+          "word": "burn",
+          "start": 206.18,
+          "end": 206.4
+        },
+        {
+          "word": ".",
+          "start": 206.4,
+          "end": 207.2
+        }
+      ],
+      "tokens": [
+        51626,
+        22445,
+        5064,
+        13,
+        51690,
+        51784
+      ]
+    },
+    {
+      "start": 206.5,
+      "end": 209.98,
+      "text": "One more thing.",
+      "words": [
+        {
+          "word": "One",
+          "start": 208.68,
+          "end": 209.16
+        },
+        {
+          "word": "more",
+          "start": 209.16,
+          "end": 209.74
+        },
+        {
+          "word": "thing",
+          "start": 209.74,
+          "end": 209.74
+        },
+        {
+          "word": ".",
+          "start": 209.74,
+          "end": 209.98
+        }
+      ],
+      "tokens": [
+        50365,
+        1485,
+        544,
+        551,
+        13,
+        50539
+      ]
+    }
+  ]
+}

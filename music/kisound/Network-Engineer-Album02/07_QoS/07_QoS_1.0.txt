@@ -1,0 +1,103 @@
+VERSION: 1.0
+ALBUM: Network Engineer 02
+TRACK: 07 - QoS
+THEMA: QoS-Klassen, DSCP-Markierungen, Queues und Scheduling, Policing versus Shaping, Echtzeitverkehr und Bulk-Transfer
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Final
+RELEASE AUDIO: 07_QoS_1.0.wav
+
+LYRIC PROMPT:
+[Intro - Voice A]
+Ich bin die Stimme im Gespräch.
+Ich kann nicht warten.
+
+[Intro - Voice B]
+Ich bin der Transfer nebenan.
+Ich komm auch später an.
+
+[Verse 1 - Voice A]
+Dein Backup schiebt den Link jetzt voll,
+mein Satz zerbricht am andern Ende.
+Ein Wort zu spät, ein Stück fehlt ganz,
+ich sprech und hör nur Lücken.
+Erst die Klasse, dann die Markierung,
+DSCP zeigt, wer ich bin.
+Doch nur die passende Policy
+gibt diesem Zeichen einen Sinn.
+
+[Pre-Chorus - Voice B]
+Wir teilen uns denselben Draht.
+Er wird durch Tags nicht breiter.
+Ordne uns in die Queues,
+dann läuft das Gespräch weiter.
+
+[Chorus - Both Voices]
+Quality of Service.
+Nicht alles gleich.
+Echtzeit zuerst,
+was warten kann, reiht sich ein.
+Quality of Service.
+Wir teilen diesen Draht.
+Die Klasse setzt den Rahmen,
+die Policy hält den Takt.
+
+[Verse 2 - Voice B]
+Ich trag die Dateien Stück für Stück,
+TCP zählt meine Bytes.
+Geht ein Segment verloren,
+schick ich es noch mal auf die Reise.
+Gib mir den Anteil, der mir bleibt,
+ich muss nicht vor dir durch die Tür.
+Du brauchst den Satz im Augenblick,
+ich brauch den Rest der Strecke hier.
+
+[Bridge - Voice A]
+Policing zieht die Grenze.
+Zu viel wird markiert oder fällt.
+Kein Warten auf den nächsten Platz,
+wenn diese Policy es so bestellt.
+
+[Bridge - Voice B]
+Shaping hält den Überschuss zurück,
+im Puffer wartet mein Paket.
+Es glättet meinen Strom,
+bis der nächste Anteil geht.
+
+[Break - Voice A]
+Classify.
+Mark.
+Queue.
+Mein Wort muss jetzt hinaus.
+
+[Break - Voice B]
+Schedule.
+Shape.
+Send.
+Ich nutze, was noch bleibt.
+
+[Final Chorus - Both Voices]
+Quality of Service.
+Nicht alles gleich.
+Echtzeit zuerst,
+was warten kann, reiht sich ein.
+Quality of Service.
+Wir teilen diesen Draht.
+Dein Satz kommt wieder klar,
+mein Transfer läuft danach.
+
+[Outro - Voice A]
+Hörst du mich?
+
+[Outro - Voice B]
+Klar und deutlich.
+Mein Transfer läuft noch.
+Passt.
+
+STYLE PROMPT:
+Wilder, federnder Acid Tech House bei etwa 128 BPM. Elastischer, tief rollender Bass, druckvolle klare Kick, versetzte Percussion und freche synkopierte Stabs. Deutlich stärkere, prägende 303-Acid-Lines: bissige Resonanz, saftiger Overdrive, schnelle Slides, markante Accents und wilde Filterfahrten. Die Acid-Figuren wechseln zwischen kurzen quäkenden Antworten und längeren, hypnotisch eskalierenden Sequenzen. In instrumentalen Lücken dürfen sie kreischen und sich aufschaukeln; unter den Stimmen bleiben sie kontrolliert, damit jedes Wort verständlich ist. Kurze Breaks, knackige Drops und überraschende rhythmische Stopps steigern die Energie.
+
+Zwei rhythmische Ebenen stellen die Verkehrsarten dar: eine knappe dringliche Figur mit nervösen Acid-Akzenten für Echtzeitverkehr und eine entspannte längere Bassbewegung für Bulk-Transfer. Beide teilen sich denselben hörbaren Groove. In der Policing-Bridge harte Gates, abrupt abgeschnittene Synth-Enden und zerhackte Acid-Bursts einsetzen. In der Shaping-Bridge dieselbe Energie in gleichmässige, geglättete Figuren mit fliessenden Slides und kontinuierlicher Filterbewegung überführen. Im letzten Refrain greifen die Ebenen sauber ineinander; eine zusätzliche Acid-Steigerung bringt den Höhepunkt. Tanzbar, wild und frech, mit federndem Groove und ausreichend Platz für den Text.
+
+Exakt zwei unterschiedliche Stimmen: Voice A ist eine klare weibliche Stimme, rhythmisch knapp und dringend, als Echtzeitverkehr. Voice B ist eine tiefe männliche Stimme, entspannt und trocken humorvoll, als Bulk-Transfer. Die Rollen über den gesamten Track beibehalten. Voice A und Voice B in den Abschnittsmarkierungen weisen die Textzeilen zu; Both Voices bedeutet gemeinsam gesungene Zeilen. Der gemeinsame Hook «Quality of Service» soll sofort erkennbar sein. Keine dritte Stimme und kein zusätzlicher Chor.
+
+Gesang auf Deutsch, klar artikuliert und stets gut verständlich. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht übersetzen. Abkürzungen wie TCP, SSH oder DSCP als einzelne englische Buchstaben aussprechen; ganze Fachwörter normal aussprechen. Abschnittsnamen und Sprecherbezeichnungen nicht singen, nur die Lyrics performen. Keine bekannten Melodie- oder Song-Referenzen.

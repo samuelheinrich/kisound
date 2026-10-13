@@ -1,0 +1,502 @@
+{
+  "source_audio_sha256": "fd70e12809ce18389d194a1f3829c98deced25b1c24ade5a24ae81ecf2b05408",
+  "frame": 9000,
+  "next_frame": 12000,
+  "segments": [
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "Play, Committed, Chippit",
+      "words": [
+        {
+          "word": "Play",
+          "start": 90.18,
+          "end": 90.3
+        },
+        {
+          "word": ",",
+          "start": 90.3,
+          "end": 90.86
+        },
+        {
+          "word": "Committed",
+          "start": 90.86,
+          "end": 91.3
+        },
+        {
+          "word": ",",
+          "start": 91.3,
+          "end": 91.38
+        },
+        {
+          "word": "Chippit",
+          "start": 91.38,
+          "end": 91.82
+        }
+      ],
+      "tokens": [
+        50365,
+        5506,
+        11,
+        3046,
+        3944,
+        11,
+        761,
+        2488,
+        270,
+        50465
+      ]
+    },
+    {
+      "start": 92.0,
+      "end": 95.0,
+      "text": "Bill check live, Committed, Chippit",
+      "words": [
+        {
+          "word": "Bill",
+          "start": 92.7,
+          "end": 92.9
+        },
+        {
+          "word": "check",
+          "start": 92.9,
+          "end": 93.3
+        },
+        {
+          "word": "live",
+          "start": 93.3,
+          "end": 93.44
+        },
+        {
+          "word": ",",
+          "start": 93.44,
+          "end": 94.24
+        },
+        {
+          "word": "Committed",
+          "start": 94.24,
+          "end": 94.7
+        },
+        {
+          "word": ",",
+          "start": 94.7,
+          "end": 94.82
+        },
+        {
+          "word": "Chippit",
+          "start": 94.82,
+          "end": 95.2
+        }
+      ],
+      "tokens": [
+        50465,
+        5477,
+        1520,
+        1621,
+        11,
+        3046,
+        3944,
+        11,
+        761,
+        2488,
+        270,
+        50615
+      ]
+    },
+    {
+      "start": 95.0,
+      "end": 97.0,
+      "text": "Album, Album 3",
+      "words": [
+        {
+          "word": "Album",
+          "start": 95.36,
+          "end": 95.7
+        },
+        {
+          "word": ",",
+          "start": 95.7,
+          "end": 96.2
+        },
+        {
+          "word": "Album",
+          "start": 96.2,
+          "end": 96.58
+        },
+        {
+          "word": "3",
+          "start": 96.58,
+          "end": 97.14
+        }
+      ],
+      "tokens": [
+        50615,
+        967,
+        5559,
+        11,
+        967,
+        5559,
+        805,
+        50715
+      ]
+    },
+    {
+      "start": 97.0,
+      "end": 100.0,
+      "text": "The link goes out, the link goes out, the page loads fast",
+      "words": [
+        {
+          "word": "The",
+          "start": 97.62,
+          "end": 97.88
+        },
+        {
+          "word": "link",
+          "start": 97.88,
+          "end": 98.16
+        },
+        {
+          "word": "goes",
+          "start": 98.16,
+          "end": 98.32
+        },
+        {
+          "word": "out",
+          "start": 98.32,
+          "end": 98.4
+        },
+        {
+          "word": ",",
+          "start": 98.4,
+          "end": 98.52
+        },
+        {
+          "word": "the",
+          "start": 98.52,
+          "end": 98.74
+        },
+        {
+          "word": "link",
+          "start": 98.74,
+          "end": 98.98
+        },
+        {
+          "word": "goes",
+          "start": 98.98,
+          "end": 99.18
+        },
+        {
+          "word": "out",
+          "start": 99.18,
+          "end": 99.24
+        },
+        {
+          "word": ",",
+          "start": 99.24,
+          "end": 99.36
+        },
+        {
+          "word": "the",
+          "start": 99.36,
+          "end": 99.64
+        },
+        {
+          "word": "page",
+          "start": 99.64,
+          "end": 99.8
+        },
+        {
+          "word": "loads",
+          "start": 99.8,
+          "end": 100.18
+        },
+        {
+          "word": "fast",
+          "start": 100.18,
+          "end": 100.96
+        }
+      ],
+      "tokens": [
+        50715,
+        440,
+        2113,
+        1709,
+        484,
+        11,
+        264,
+        2113,
+        1709,
+        484,
+        11,
+        264,
+        3028,
+        12668,
+        2370,
+        50865
+      ]
+    },
+    {
+      "start": 100.0,
+      "end": 102.0,
+      "text": "Ah, ah, ah, ah, ah",
+      "words": [
+        {
+          "word": "Ah",
+          "start": 101.16,
+          "end": 101.4
+        },
+        {
+          "word": ",",
+          "start": 101.4,
+          "end": 101.5
+        },
+        {
+          "word": "ah",
+          "start": 101.5,
+          "end": 101.74
+        },
+        {
+          "word": ",",
+          "start": 101.74,
+          "end": 101.8
+        },
+        {
+          "word": "ah",
+          "start": 101.8,
+          "end": 101.8
+        },
+        {
+          "word": ",",
+          "start": 101.8,
+          "end": 101.92
+        },
+        {
+          "word": "ah",
+          "start": 101.92,
+          "end": 101.92
+        },
+        {
+          "word": ",",
+          "start": 101.92,
+          "end": 102.0
+        },
+        {
+          "word": "ah",
+          "start": 102.0,
+          "end": 102.1
+        }
+      ],
+      "tokens": [
+        50865,
+        2438,
+        11,
+        3716,
+        11,
+        3716,
+        11,
+        3716,
+        11,
+        3716,
+        50965
+      ]
+    },
+    {
+      "start": 102.0,
+      "end": 104.0,
+      "text": "Hit play, the bass comes in at last",
+      "words": [
+        {
+          "word": "Hit",
+          "start": 102.36,
+          "end": 102.58
+        },
+        {
+          "word": "play",
+          "start": 102.58,
+          "end": 102.7
+        },
+        {
+          "word": ",",
+          "start": 102.7,
+          "end": 102.78
+        },
+        {
+          "word": "the",
+          "start": 102.78,
+          "end": 103.04
+        },
+        {
+          "word": "bass",
+          "start": 103.04,
+          "end": 103.24
+        },
+        {
+          "word": "comes",
+          "start": 103.24,
+          "end": 103.5
+        },
+        {
+          "word": "in",
+          "start": 103.5,
+          "end": 103.68
+        },
+        {
+          "word": "at",
+          "start": 103.68,
+          "end": 104.02
+        },
+        {
+          "word": "last",
+          "start": 104.02,
+          "end": 104.18
+        }
+      ],
+      "tokens": [
+        50965,
+        9217,
+        862,
+        11,
+        264,
+        10136,
+        1487,
+        294,
+        412,
+        1036,
+        51065
+      ]
+    },
+    {
+      "start": 104.0,
+      "end": 106.0,
+      "text": "Last, last, last",
+      "words": [
+        {
+          "word": "Last",
+          "start": 104.42,
+          "end": 104.42
+        },
+        {
+          "word": ",",
+          "start": 104.42,
+          "end": 104.86
+        },
+        {
+          "word": "last",
+          "start": 104.86,
+          "end": 104.92
+        },
+        {
+          "word": ",",
+          "start": 104.92,
+          "end": 105.28
+        },
+        {
+          "word": "last",
+          "start": 105.28,
+          "end": 105.56
+        }
+      ],
+      "tokens": [
+        51065,
+        5264,
+        11,
+        1036,
+        11,
+        1036,
+        51165
+      ]
+    },
+    {
+      "start": 107.0,
+      "end": 109.0,
+      "text": "Committed, Chippit",
+      "words": [
+        {
+          "word": "Committed",
+          "start": 108.0,
+          "end": 108.42
+        },
+        {
+          "word": ",",
+          "start": 108.42,
+          "end": 108.52
+        },
+        {
+          "word": "Chippit",
+          "start": 108.52,
+          "end": 109.7
+        }
+      ],
+      "tokens": [
+        51215,
+        3046,
+        3944,
+        11,
+        761,
+        2488,
+        270,
+        51315
+      ]
+    },
+    {
+      "start": 112.0,
+      "end": 114.0,
+      "text": "Next album, next commit",
+      "words": [
+        {
+          "word": "Next",
+          "start": 112.62,
+          "end": 113.02
+        },
+        {
+          "word": "album",
+          "start": 113.02,
+          "end": 113.12
+        },
+        {
+          "word": ",",
+          "start": 113.12,
+          "end": 113.32
+        },
+        {
+          "word": "next",
+          "start": 113.32,
+          "end": 113.68
+        },
+        {
+          "word": "commit",
+          "start": 113.68,
+          "end": 114.76
+        }
+      ],
+      "tokens": [
+        51465,
+        3087,
+        6030,
+        11,
+        958,
+        5599,
+        51565,
+        51815
+      ]
+    },
+    {
+      "start": 114.0,
+      "end": 119.94,
+      "text": "Album",
+      "words": [
+        {
+          "word": "Album",
+          "start": 119.8,
+          "end": 119.98
+        }
+      ],
+      "tokens": [
+        50365,
+        967,
+        5559,
+        50662
+      ]
+    }
+  ]
+}

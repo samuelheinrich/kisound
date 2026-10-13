@@ -1,0 +1,427 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 12000,
+  "next_frame": 15000,
+  "segments": [
+    {
+      "start": 120.0,
+      "end": 125.02,
+      "text": "Pass, nein, nein, ein Nutzbord fehlt, der nächste Lauf.",
+      "words": [
+        {
+          "word": "Pass",
+          "start": 120.54,
+          "end": 120.54
+        },
+        {
+          "word": ",",
+          "start": 120.54,
+          "end": 120.84
+        },
+        {
+          "word": "nein",
+          "start": 120.84,
+          "end": 120.88
+        },
+        {
+          "word": ",",
+          "start": 120.88,
+          "end": 121.26
+        },
+        {
+          "word": "nein",
+          "start": 121.26,
+          "end": 121.38
+        },
+        {
+          "word": ",",
+          "start": 121.38,
+          "end": 122.16
+        },
+        {
+          "word": "ein",
+          "start": 122.16,
+          "end": 122.38
+        },
+        {
+          "word": "Nutzbord",
+          "start": 122.38,
+          "end": 122.98
+        },
+        {
+          "word": "fehlt",
+          "start": 122.98,
+          "end": 123.3
+        },
+        {
+          "word": ",",
+          "start": 123.3,
+          "end": 124.0
+        },
+        {
+          "word": "der",
+          "start": 124.0,
+          "end": 124.3
+        },
+        {
+          "word": "nächste",
+          "start": 124.3,
+          "end": 124.56
+        },
+        {
+          "word": "Lauf",
+          "start": 124.56,
+          "end": 124.94
+        },
+        {
+          "word": ".",
+          "start": 124.94,
+          "end": 125.12
+        }
+      ],
+      "tokens": [
+        50365,
+        10319,
+        11,
+        40041,
+        11,
+        40041,
+        11,
+        1343,
+        426,
+        12950,
+        65,
+        765,
+        47994,
+        11,
+        1163,
+        30661,
+        441,
+        9507,
+        13,
+        50616
+      ]
+    },
+    {
+      "start": 125.44,
+      "end": 131.72,
+      "text": "Und meine letzte Frage auf ein Nutzungsfeld zeigt mir den Stand.",
+      "words": [
+        {
+          "word": "Und",
+          "start": 125.48,
+          "end": 125.9
+        },
+        {
+          "word": "meine",
+          "start": 125.9,
+          "end": 126.72
+        },
+        {
+          "word": "letzte",
+          "start": 126.72,
+          "end": 127.44
+        },
+        {
+          "word": "Frage",
+          "start": 127.44,
+          "end": 128.08
+        },
+        {
+          "word": "auf",
+          "start": 128.08,
+          "end": 128.58
+        },
+        {
+          "word": "ein",
+          "start": 128.58,
+          "end": 128.94
+        },
+        {
+          "word": "Nutzungsfeld",
+          "start": 128.94,
+          "end": 130.4
+        },
+        {
+          "word": "zeigt",
+          "start": 130.4,
+          "end": 130.8
+        },
+        {
+          "word": "mir",
+          "start": 130.8,
+          "end": 131.08
+        },
+        {
+          "word": "den",
+          "start": 131.08,
+          "end": 131.5
+        },
+        {
+          "word": "Stand",
+          "start": 131.5,
+          "end": 131.58
+        },
+        {
+          "word": ".",
+          "start": 131.58,
+          "end": 131.86
+        }
+      ],
+      "tokens": [
+        50637,
+        2719,
+        10946,
+        35236,
+        13685,
+        2501,
+        1343,
+        426,
+        12950,
+        5846,
+        25115,
+        29250,
+        3149,
+        1441,
+        9133,
+        13,
+        50951
+      ]
+    },
+    {
+      "start": 131.96,
+      "end": 138.98,
+      "text": "Die nächste Frage, längst so handig, wollte für fertig sein.",
+      "words": [
+        {
+          "word": "Die",
+          "start": 131.9,
+          "end": 132.82
+        },
+        {
+          "word": "nächste",
+          "start": 132.82,
+          "end": 133.66
+        },
+        {
+          "word": "Frage",
+          "start": 133.66,
+          "end": 133.7
+        },
+        {
+          "word": ",",
+          "start": 133.7,
+          "end": 134.38
+        },
+        {
+          "word": "längst",
+          "start": 134.38,
+          "end": 134.62
+        },
+        {
+          "word": "so",
+          "start": 134.62,
+          "end": 134.98
+        },
+        {
+          "word": "handig",
+          "start": 134.98,
+          "end": 135.62
+        },
+        {
+          "word": ",",
+          "start": 135.62,
+          "end": 136.22
+        },
+        {
+          "word": "wollte",
+          "start": 136.22,
+          "end": 136.92
+        },
+        {
+          "word": "für",
+          "start": 136.92,
+          "end": 138.02
+        },
+        {
+          "word": "fertig",
+          "start": 138.02,
+          "end": 138.72
+        },
+        {
+          "word": "sein",
+          "start": 138.72,
+          "end": 138.76
+        },
+        {
+          "word": ".",
+          "start": 138.76,
+          "end": 139.6
+        }
+      ],
+      "tokens": [
+        50963,
+        3229,
+        30661,
+        13685,
+        11,
+        22566,
+        372,
+        370,
+        1011,
+        328,
+        11,
+        24509,
+        2959,
+        31362,
+        6195,
+        13,
+        51314
+      ]
+    },
+    {
+      "start": 139.84,
+      "end": 143.3,
+      "text": "Jetzt fällt mir immer mehr noch ein Token Burn.",
+      "words": [
+        {
+          "word": "Jetzt",
+          "start": 139.88,
+          "end": 140.08
+        },
+        {
+          "word": "fällt",
+          "start": 140.08,
+          "end": 140.34
+        },
+        {
+          "word": "mir",
+          "start": 140.34,
+          "end": 140.72
+        },
+        {
+          "word": "immer",
+          "start": 140.72,
+          "end": 141.18
+        },
+        {
+          "word": "mehr",
+          "start": 141.18,
+          "end": 141.64
+        },
+        {
+          "word": "noch",
+          "start": 141.64,
+          "end": 142.12
+        },
+        {
+          "word": "ein",
+          "start": 142.12,
+          "end": 142.26
+        },
+        {
+          "word": "Token",
+          "start": 142.26,
+          "end": 143.1
+        },
+        {
+          "word": "Burn",
+          "start": 143.1,
+          "end": 143.22
+        },
+        {
+          "word": ".",
+          "start": 143.22,
+          "end": 143.8
+        }
+      ],
+      "tokens": [
+        51357,
+        12592,
+        42870,
+        3149,
+        5578,
+        5417,
+        3514,
+        1343,
+        314,
+        8406,
+        18328,
+        13,
+        51530,
+        51615
+      ]
+    },
+    {
+      "start": 143.3,
+      "end": 149.8,
+      "text": "Noch ein Punkt, bevor ich geh' tot.",
+      "words": [
+        {
+          "word": "Noch",
+          "start": 145.82,
+          "end": 146.16
+        },
+        {
+          "word": "ein",
+          "start": 146.16,
+          "end": 146.6
+        },
+        {
+          "word": "Punkt",
+          "start": 146.6,
+          "end": 146.66
+        },
+        {
+          "word": ",",
+          "start": 146.66,
+          "end": 147.32
+        },
+        {
+          "word": "bevor",
+          "start": 147.32,
+          "end": 147.94
+        },
+        {
+          "word": "ich",
+          "start": 147.94,
+          "end": 148.3
+        },
+        {
+          "word": "geh",
+          "start": 148.3,
+          "end": 148.4
+        },
+        {
+          "word": "'",
+          "start": 148.4,
+          "end": 149.42
+        },
+        {
+          "word": "tot",
+          "start": 149.42,
+          "end": 149.46
+        },
+        {
+          "word": ".",
+          "start": 149.46,
+          "end": 149.98
+        }
+      ],
+      "tokens": [
+        50365,
+        38116,
+        1343,
+        25487,
+        11,
+        37591,
+        1893,
+        13218,
+        6,
+        1993,
+        13,
+        50690
+      ]
+    }
+  ]
+}

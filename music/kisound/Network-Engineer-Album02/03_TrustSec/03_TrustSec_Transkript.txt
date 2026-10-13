@@ -1,0 +1,135 @@
+CISCO TRUSTSEC – TRANSKRIPT
+
+Audio: 03_TrustSec_1.0.wav
+Gesamtdauer: 00:04:48.000
+Sprache: Deutsch / Englisch
+Zeitformat: HH:MM:SS.mmm
+Zeitbezug: Start und Ende ab Sample 0 der finalen WAV.
+
+[Intro – Systemmeldungen]
+
+001  [00:00:03.670 --> 00:00:05.880]  Cisco TrustSec.
+002  [00:00:08.010 --> 00:00:09.660]  Client connected.
+003  [00:00:11.850 --> 00:00:13.240]  Identity requested.
+004  [00:00:15.400 --> 00:00:16.800]  ISE is checking.
+005  [00:00:17.920 --> 00:00:19.000]  Who are you?
+006  [00:00:22.480 --> 00:00:24.520]  Identity verified.
+007  [00:00:27.300 --> 00:00:28.660]  SGT assigned.
+
+[Strophe 1 – Identität und Zugriff]
+
+008  [00:00:41.210 --> 00:00:44.620]  Ein Client kommt, der Switch fragt an.
+009  [00:00:45.130 --> 00:00:48.060]  ISE prüft nach, wer das sein kann.
+010  [00:00:48.460 --> 00:00:51.460]  Gerät erkannt, der Nutzer klar.
+011  [00:00:51.780 --> 00:00:54.940]  Die Rolle stimmt, der Zugriff da.
+012  [00:00:55.170 --> 00:00:58.540]  Die Adresse wechselt, der Kontext bleibt.
+013  [00:00:58.630 --> 00:01:02.160]  Der SGT zeigt, wer sich hier treibt.
+
+[Pre-Hook – Rollenzuweisung]
+
+014  [00:01:02.260 --> 00:01:03.480]  Identity known.
+015  [00:01:03.810 --> 00:01:05.200]  Role defined.
+016  [00:01:05.600 --> 00:01:06.780]  SGT assigned.
+017  [00:01:07.310 --> 00:01:08.600]  Access aligned.
+
+[Hook 1]
+
+018  [00:01:09.590 --> 00:01:11.120]  TrustSec.
+019  [00:01:11.570 --> 00:01:13.300]  Know the client.
+020  [00:01:13.610 --> 00:01:14.720]  TrustSec.
+021  [00:01:14.810 --> 00:01:15.780]  Attack the flow.
+022  [00:01:16.520 --> 00:01:20.120]  ISE kennt dich, ISE weiß Bescheid.
+023  [00:01:20.520 --> 00:01:23.400]  Deine Rolle steht bereit.
+024  [00:01:23.860 --> 00:01:27.230]  Source und Ziel, die Policy zählt.
+025  [00:01:27.230 --> 00:01:30.480]  TrustSec prüft, was wirklich gilt.
+
+[Strophe 2 – Gruppen und Policy]
+
+026  [00:01:30.880 --> 00:01:33.860]  Client oder Server, Phone oder Print.
+027  [00:01:34.360 --> 00:01:37.300]  Jeder bekommt, was passend bestimmt.
+028  [00:01:37.820 --> 00:01:40.680]  Der SGT geht mit dem Verkehr.
+029  [00:01:41.120 --> 00:01:44.520]  Die IP allein entscheidet nicht mehr.
+030  [00:01:45.120 --> 00:01:47.800]  Source Group hier, Destination dort.
+031  [00:01:48.170 --> 00:01:51.340]  Die Policy prüft an jedem Ort.
+
+[Systemmeldungen – Zugriff erlaubt]
+
+032  [00:01:52.890 --> 00:01:55.020]  Source SGT detected.
+033  [00:01:55.420 --> 00:01:58.360]  Destination SGT detected.
+034  [00:01:58.910 --> 00:02:01.200]  SGT-ACL matched.
+035  [00:02:01.710 --> 00:02:04.200]  Access permitted.
+
+[Hook 2]
+
+036  [00:02:05.240 --> 00:02:06.740]  TrustSec.
+037  [00:02:06.980 --> 00:02:08.780]  Know the client.
+038  [00:02:09.250 --> 00:02:10.180]  TrustSec.
+039  [00:02:10.480 --> 00:02:11.400]  Detect the flow.
+040  [00:02:12.200 --> 00:02:15.540]  Nicht nur Adresse, nicht nur Port.
+041  [00:02:15.810 --> 00:02:19.100]  Deine Identität bestimmt den Ort.
+042  [00:02:19.460 --> 00:02:22.880]  Source und Ziel, die Policy zählt.
+043  [00:02:23.120 --> 00:02:26.220]  Nur was erlaubt ist, wird weitergewählt.
+
+[Break – Unbekannte Identität]
+
+044  [00:02:26.520 --> 00:02:28.140]  Unknown client.
+045  [00:02:28.190 --> 00:02:29.600]  ISE checks again.
+046  [00:02:29.830 --> 00:02:31.540]  No identity.
+047  [00:02:31.710 --> 00:02:33.060]  Unknown endpoint.
+048  [00:02:33.230 --> 00:02:34.460]  Keine Rolle.
+049  [00:02:34.680 --> 00:02:36.320]  Kein Match bereit.
+050  [00:02:36.690 --> 00:02:39.840]  Keine bekannte Identität.
+051  [00:02:39.980 --> 00:02:41.540]  No trusted group.
+052  [00:02:41.640 --> 00:02:43.480]  No access found.
+053  [00:02:43.660 --> 00:02:45.440]  SGT-ACL.
+054  [00:02:45.570 --> 00:02:47.560]  Access denied.
+
+[Dialog – Zugriff verweigert]
+
+055  [00:02:52.100 --> 00:02:53.920]  Who are you?
+056  [00:02:54.160 --> 00:02:54.640]  Unknown.
+057  [00:02:55.510 --> 00:02:57.340]  What is your role?
+058  [00:02:57.760 --> 00:02:58.120]  Unknown.
+059  [00:02:59.740 --> 00:03:01.340]  Access denied.
+060  [00:03:03.700 --> 00:03:04.880]  Stay outside.
+
+[Strophe 3 – Bekannter Client]
+
+061  [00:03:07.930 --> 00:03:11.340]  Bekannter Client, bekannte Pflicht.
+062  [00:03:11.380 --> 00:03:14.300]  ISE kennt die Rolle, verwechselt sie nicht.
+063  [00:03:14.960 --> 00:03:17.500]  SGT gesetzt, die Gruppe steht.
+064  [00:03:17.890 --> 00:03:21.180]  Die Policy sagt, wohin es geht.
+065  [00:03:21.360 --> 00:03:24.540]  Nicht deine IP entscheidet allein.
+066  [00:03:24.880 --> 00:03:28.440]  Deine Identität lässt dich hinein.
+
+[Build – Systemmeldungen]
+
+067  [00:03:29.490 --> 00:03:30.800]  Identity confirmed.
+068  [00:03:32.140 --> 00:03:33.260]  SGT assigned.
+069  [00:03:34.160 --> 00:03:36.140]  SGT-ACL active.
+070  [00:03:36.770 --> 00:03:38.060]  Policy enforced.
+071  [00:03:39.070 --> 00:03:41.000]  Network protected.
+
+[Final Hook]
+
+072  [00:03:41.770 --> 00:03:43.300]  TrustSec.
+073  [00:03:43.510 --> 00:03:45.420]  Know the client.
+074  [00:03:45.750 --> 00:03:46.460]  TrustSec.
+075  [00:03:46.920 --> 00:03:47.940]  Control the flow.
+076  [00:03:48.260 --> 00:03:50.570]  ISE kennt den Client.
+077  [00:03:50.570 --> 00:03:52.280]  ISE kennt sein Ziel.
+078  [00:03:52.290 --> 00:03:53.520]  Bekannte Rolle.
+079  [00:03:53.600 --> 00:03:55.320]  Definiertes Spiel.
+080  [00:03:55.500 --> 00:03:58.580]  Unknown identity.
+081  [00:03:59.120 --> 00:04:01.160]  Access denied.
+082  [00:04:01.550 --> 00:04:05.420]  Unknown identity.
+083  [00:04:05.620 --> 00:04:08.480]  Access defined.
+
+[Outro – Systemmeldungen]
+
+084  [00:04:11.800 --> 00:04:15.680]  Identity verified.
+085  [00:04:18.140 --> 00:04:19.780]  SGT active.
+086  [00:04:19.820 --> 00:04:22.380]  SGT-ACL active.
+087  [00:04:22.560 --> 00:04:25.700]  Policy enforced.
+088  [00:04:26.350 --> 00:04:28.800]  Access control.
+089  [00:04:29.160 --> 00:04:33.120]  Cisco TrustSec.

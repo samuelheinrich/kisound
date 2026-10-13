@@ -1,0 +1,8 @@
+Genre: Chiptune-Bass / Bitpop-Electro, verspielt und bassbetont, kein Techno.
+Tempo: 140 BPM
+Sound: 8-Bit-Pulswellen-Leads und Arpeggios über modernem tiefem Sub und verzerrtem Wobble-Bass, punchige Kick, gebrochene Electro-Drums, Rauschkanal-Snares, kurze eigene Level-Up-Motive, Dreh-Sweeps, Glitch-Pitch-Drops vor den Refrains.
+Vocals: Helle weibliche Stimme, verspielt, schnell und klar; Strophen rhythmisch halb gesprochen, Refrain hüpfend und gedoppelt; Bridge als Aufzählung.
+Vibe: Spielzimmer-Werkstatt, Debugging als Spiel.
+Mood: Fröhlich, neugierig, triumphierend.
+Ablauf: Intro gesprochen über 8-Bit-Arpeggio; nach jedem Refrain acht Takte Chip-Bass-Drop; Bridge nur Pulswelle und Stimme; Schlussrefrain voll mit allen Ebenen. Ziel 3:20.
+Hinweise: Gesang auf Deutsch; Z-Up, Y-Up, Export, Backface Culling und Programmnamen englisch, glTF als G-L-T-F, GLB als G-L-B. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

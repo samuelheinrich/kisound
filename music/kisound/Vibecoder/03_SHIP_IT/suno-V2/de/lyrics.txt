@@ -1,0 +1,57 @@
+[Intro]
+COMMIT IT. SHIP IT.
+Pipeline läuft.
+
+[Verse 1]
+Branch erstellt, Feature fertig, der Pull Request steht,
+vier Jobs in der Pipeline: Lint, Test, Build, Deploy. Es geht.
+Lint wird rot: eine Variable, die keiner braucht,
+eine Zeile raus, Commit, Push, und der Runner raucht.
+Test wird rot: ein Zeitstempel eine Stunde verschoben,
+UTC fehlt im Parser. Fix, Push, Pipeline von oben.
+
+[Chorus]
+COMMIT IT. SHIP IT.
+Rot. Rot. Grün.
+COMMIT IT. SHIP IT.
+Merge. Tag. Deploy.
+Vier grüne Haken, Merge ist frei,
+Tag v1.1, und live dabei.
+
+[Verse 2]
+Build ist grün, das Artefakt liegt bereit,
+Deploy rollt aus, der Healthcheck pollt die ganze Zeit.
+Zweihundert OK, der neue Stand nimmt Anfragen an,
+der alte bleibt als Rollback, falls was brechen kann.
+Kein Force-Push, kein Risiko, kein Hotfix in der Nacht,
+die Pipeline hat geprüft, was ich mit dem Agent gemacht.
+
+[Chorus]
+COMMIT IT. SHIP IT.
+Rot. Rot. Grün.
+COMMIT IT. SHIP IT.
+Merge. Tag. Deploy.
+Vier grüne Haken, Merge ist frei,
+Tag v1.1, und live dabei.
+
+[Bridge]
+Lint. Grün.
+Test. Grün.
+Build. Grün.
+Deploy. Grün.
+Healthcheck: zweihundert.
+Rollback: bereit.
+Nächster Branch.
+Ship it.
+
+[Chorus]
+COMMIT IT. SHIP IT.
+Rot. Rot. Grün.
+COMMIT IT. SHIP IT.
+Merge. Tag. Deploy.
+Vier grüne Haken, Merge ist frei,
+Tag v1.1, und live dabei.
+
+[Outro]
+COMMIT IT. SHIP IT.
+Rot. Rot. Grün.

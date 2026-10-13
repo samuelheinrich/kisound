@@ -1,0 +1,55 @@
+[Intro]
+gpupdate /force.
+User Policy update has completed successfully.
+
+[Verse 1]
+A new wallpaper for the whole company, logo, blue,
+GPO built, linked to the OU, I know what to do.
+Next morning, marketing calls: "Ours is still the old,"
+yesterday's background, and the policy leaves them cold.
+gpresult /r, I read what the machine reports:
+"Denied (Security)," the filtering cut it short.
+I removed Authenticated Users, left just the group inside,
+but the computer needs to read the GPO, or it's denied.
+
+[Chorus]
+Group Policy.
+L. S. D. O. U.
+Group Policy.
+Local, site, domain, OU.
+The last one wins, the closest counts,
+gpupdate /force, till it all turns out.
+
+[Verse 2]
+I give the computers read rights, delegation, one click,
+gpupdate /force, log off, log on, the logo's back, quick.
+But accounting stays gray, that OU blocks inheritance,
+someone set it years ago and left no evidence.
+I link the GPO right there, clean, without "Enforced,"
+'cause if you force it all, the structure's lost its course.
+
+[Chorus]
+Group Policy.
+L. S. D. O. U.
+Group Policy.
+Local, site, domain, OU.
+The last one wins, the closest counts,
+gpupdate /force, till it all turns out.
+
+[Bridge]
+Computer at startup,
+user at logon,
+every ninety minutes in the background,
+plus up to thirty minutes random on top.
+
+[Chorus]
+Group Policy.
+L. S. D. O. U.
+Group Policy.
+Local, site, domain, OU.
+The last one wins, the closest counts,
+gpupdate /force, till it all turns out.
+
+[Outro]
+User Policy update has completed successfully.
+Wallpaper: blue.

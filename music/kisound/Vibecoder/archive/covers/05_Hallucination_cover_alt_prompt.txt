@@ -1,0 +1,30 @@
+HALLUCINATION · Cover-Generierung
+Datum: 2026-10-10
+Werkzeug: integriertes image_gen (Built-in), keine CLI
+Bild: 05_Hallucination_cover.png
+Textgrundlage: suno-V1/de/lyrics.txt und suno-V1/en/lyrics.txt
+Verwendung: gemeinsames Trackcover für Deutsch und Englisch
+
+EXAKTER GENERIERUNGSPROMPT:
+
+Use case: stylized-concept
+Asset type: finished square electronic single cover, 1:1, edge-to-edge artwork.
+Primary request: Create a striking, professionally art-directed cover for the track "HALLUCINATION" by Samuel Heinrich from the album "Vibecoder". The lyrics describe an AI answer that confidently invents a network-switch command; the real switch rejects it, and the narrator trusts the command reference and the switch output. Music is slow dark trip-hop with dub bass: skeptical, controlled, nocturnal.
+
+Scene and subject: a tactile cinematic 3D miniature of a network engineer's night desk in a dim server room. In the lower portion, a compact physically plausible Ethernet switch with a clear row of ports, a laptop terminal, and a closed reference book. A flawless translucent answer pane floats beside the laptop, made of neat abstract line blocks, looking deceptively authoritative. The laptop terminal reveals one precise muted-red caret below an abstract command line, with the error text "Invalid input detected". A small cyan question-mark cursor suggests the narrator checking the real command options. The tension is between the confident glass pane and the sober physical switch. No person.
+
+Composition: cohesive with an electronic album-cover series: gigantic condensed geometric sans-serif title "HALLUCINATION" in warm off-white across the upper quarter, spelled exactly H-A-L-L-U-C-I-N-A-T-I-O-N, extremely legible at thumbnail size. Let the physical desk scene occupy the lower two thirds. Strong simple silhouette, clean purposeful hierarchy, title dominant. Small, restrained artist and album credit safely inset at the bottom.
+
+Style and mood: sophisticated Swiss electronic-record typography combined with crisp cinematic 3D miniature illustration. Matte charcoal, smoked glass, brushed black metal, subtle analog grain. Calm, ominous, intelligent, not horror. Low-key cool screen light and controlled shadows.
+
+Palette: deep midnight charcoal #10141C, off-white #F4F3EA, cold cyan #44DDE5 for verified terminal glow, one restrained warning red #D74D52 for the invalid-input caret. Avoid the orange emphasis used on more energetic tracks.
+
+Text (verbatim, only these words):
+"HALLUCINATION"
+"Invalid input detected"
+"SAMUEL HEINRICH"
+"VIBECODER"
+A lone question-mark character and caret may appear as terminal symbols.
+
+Constraints: polished opaque square cover, artwork itself rather than a sleeve mockup. Exact title spelling is essential. Terminal should feel technically plausible; use abstract line blocks instead of invented readable command syntax.
+Avoid: generic hooded hacker, robots, faces, psychedelic melting objects, flames, stock-photo look, dense cyberpunk city, magenta neon, excessive glow, extra slogans, watermarks, border, illegible title.

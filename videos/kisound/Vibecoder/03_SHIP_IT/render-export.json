@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "03_SHIP_IT_DE",
+  "title": "SHIP IT",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/ship-it-de.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

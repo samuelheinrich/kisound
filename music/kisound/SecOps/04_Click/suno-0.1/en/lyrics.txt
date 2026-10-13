@@ -1,0 +1,54 @@
+[Intro]
+Monday, eight-twelve.
+One click.
+
+[Verse 1]
+An email: "Open invoice, please review," a link, a PDF sign,
+accounting clicks, like every Monday, nothing looks out of line.
+A login page that looks like ours, the logo and the field,
+password in, MFA push on the phone, approved. The trap is sealed.
+Ten minutes later, a login from a data center far away,
+a new inbox rule moves every mail with "payment" to the RSS folder, out of the way.
+
+[Chorus]
+Click.
+One click, and the door swings wide.
+Click.
+One call, and we follow the trail inside.
+The user isn't the weakness here,
+they're the sensor, and when they call, it's clear.
+
+[Verse 2]
+Nine o'clock, accounting calls: "I think I clicked something wrong."
+No blame, just thanks, and we get going, it won't take long.
+Password reset, sessions killed, tokens revoked,
+rule removed, domain blocked, the mail pulled out of every inbox before more are hooked.
+Twenty-seven got the mail, three had clicked the link,
+all three checked, no other logins, closer than you'd think.
+
+[Chorus]
+Click.
+One click, and the door swings wide.
+Click.
+One call, and we follow the trail inside.
+The user isn't the weakness here,
+they're the sensor, and when they call, it's clear.
+
+[Bridge]
+A click is not a crime,
+silence is the risk.
+Whoever calls right away
+buys us the time, and that's it.
+
+[Chorus]
+Click.
+One click, and the door swings wide.
+Click.
+One call, and we follow the trail inside.
+The user isn't the weakness here,
+they're the sensor, and when they call, it's clear.
+
+[Outro]
+Monday, nine-forty.
+Door closed.
+Thanks for reporting.

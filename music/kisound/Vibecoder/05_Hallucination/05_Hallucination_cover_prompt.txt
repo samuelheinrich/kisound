@@ -1,0 +1,31 @@
+HALLUCINATION · Cover-Generierung
+Datum: 2026-10-10
+Werkzeug: integriertes image_gen über codex exec
+Bild: 05_Hallucination_cover.png
+Stilreferenz: 02_Token_Burn/02_Token_Burn_cover.png (Albumserie Vibecoder, orange)
+Textgrundlage: suno-V1/de/lyrics.txt und suno-V1/en/lyrics.txt (finale Aufnahme V1 DE)
+Verwendung: gemeinsames Trackcover für Deutsch und Englisch
+
+EXAKTER GENERIERUNGSPROMPT:
+
+Use case: stylized-concept
+Asset type: finished square electronic single cover, 1:1, edge-to-edge artwork.
+Series: this is one cover in a consistent album series. Match the attached reference cover "TOKEN BURN" exactly in art direction: same typography style, same title placement, same credit layout, same palette, same lighting mood, same cinematic 3D miniature rendering of a nocturnal home coding desk. Only the title and the scene content change.
+Primary request: Create a striking, professionally art-directed cover for "HALLUCINATION" by Samuel Heinrich, from the album "Vibecoder". The music is slow dark trip-hop with dub bass; the story: an AI answer confidently invents a network switch command, the real switch rejects it, and the narrator checks the official command reference and the switch itself.
+
+Scene and subject: The same nocturnal home desk as in the reference. In the foreground a compact rack-mount network switch with a row of ports and small status LEDs, connected by a light-blue console cable to the open laptop. The laptop screen shows a dark terminal with one command line, a small caret mark "^" under one word and a short orange error line drawn as an abstract bar. Floating above the laptop a translucent smoked-glass answer panel, elegant and confident, with abstract text bars, slightly dissolving and glitching at its edges into fragments, as if it was never real. Next to the laptop a thick open printed command reference book with abstract lines and a small orange bookmark. A coffee cup, dark window behind. Skeptical, quiet tension. No person is necessary.
+
+Composition: Bold editorial cover with an enormous stacked geometric sans-serif title occupying the upper half, exactly like the reference: "HALLUCINATION" as one single full-width line in warm off-white, with a small sharp ember-orange caret mark "^" placed just below one letter of the title like a console error marker. Strong condensed heavy typography, tight confident spacing, clean exact letterforms, subtle sculptural extrusion, instantly readable as a small streaming thumbnail. The title relates spatially to the miniature scene in the lower half without obstructing any letters. Generous dark negative space, purposeful hierarchy. At the bottom, centered and safely inset, the same tiny letter-spaced credit as the reference: "SAMUEL HEINRICH" in off-white, below it "VIBECODER" in ember orange.
+
+Style: sophisticated combination of crisp Swiss electronic-record typography and tactile cinematic 3D illustration; sharp geometry, smoked glass and matte charcoal materials, subtle analog grain. A contemporary underground electronic release, with depth and controlled graphic precision.
+
+Lighting and palette: deep midnight charcoal #10141C, off-white #F4F3EA, vivid ember orange #FF6534, small electric-cyan #44DDE5 accents on interface edges. Low-key room with strong focused orange screen light, cyan rim light and atmospheric shadows. Skeptical, nocturnal, controlled and cool.
+
+Text (verbatim, only these words and the caret mark):
+"HALLUCINATION"
+"SAMUEL HEINRICH"
+"VIBECODER"
+"^"
+
+Constraints: polished square cover, opaque background. Title is the dominant element. Both German and English releases use this same cover. All objects geometrically coherent. Small UI marks may be abstract graphic blocks, with no fake paragraphs of text and no readable code.
+Avoid: psychedelic imagery, eyes, faces, melting surreal objects, generic hooded hacker, corporate or brand logos, stock-photo look, dense cyberpunk city, magenta or purple neon, green as a main color, excessive bloom, illegible or misspelled title, extra slogans, watermarks, border, mockup of a record sleeve. Deliver the artwork itself.

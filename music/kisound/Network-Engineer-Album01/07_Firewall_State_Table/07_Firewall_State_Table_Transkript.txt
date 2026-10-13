@@ -1,0 +1,94 @@
+FIREWALL STATE TABLE – TRANSKRIPT
+
+Audio: 07_Firewall_State_Table_0.4-2.wav
+Gesamtdauer: 00:04:19.321
+Sprache: Englisch
+Zeitformat: HH:MM:SS.mmm
+Zeitbezug: Start und Ende ab Beginn der WAV-Datei.
+
+[Intro]
+
+010  [00:00:09.940 --> 00:00:10.820]  Session open.
+011  [00:00:13.100 --> 00:00:14.560]  State is known.
+012  [00:00:20.040 --> 00:00:20.920]  Every packet.
+013  [00:00:22.700 --> 00:00:24.000]  stands alone.
+
+[Verse]
+
+017  [00:00:50.600 --> 00:00:52.080]  Default deny in the security zone,
+018  [00:00:54.000 --> 00:00:55.540]  policy chain decides what can be known.
+019  [00:00:57.160 --> 00:00:58.940]  Source and destination, port and state,
+020  [00:00:59.260 --> 00:01:00.500]  one wrong packet hits the gate.
+021  [00:01:04.460 --> 00:01:05.600]  T-C-P handshake, sequence aligned,
+022  [00:01:05.600 --> 00:01:06.580]  U-D-P moving with no reply.
+023  [00:01:07.260 --> 00:01:08.540]  Policy checks what rules allow,
+024  [00:01:08.920 --> 00:01:10.400]  state table decides right now.
+
+[Pre-Hook]
+
+028  [00:01:10.740 --> 00:01:12.840]  Source NAT hides the inside name.
+029  [00:01:12.840 --> 00:01:14.040]  Destination NAT redirects the frame.
+030  [00:01:14.580 --> 00:01:15.860]  Deep inspection reads what flows,
+031  [00:01:16.180 --> 00:01:17.200]  permit or deny, the firewall knows.
+
+[Hook]
+
+035  [00:01:18.640 --> 00:01:24.360]  Drop it.
+036  [00:01:24.640 --> 00:01:24.780]  Log it.
+037  [00:01:24.780 --> 00:01:25.280]  Block it.
+038  [00:01:25.360 --> 00:01:26.000]  State table lock it.
+039  [00:01:26.340 --> 00:01:26.500]  Drop it.
+040  [00:01:27.540 --> 00:01:27.760]  Log it.
+041  [00:01:27.800 --> 00:01:28.020]  Block it.
+042  [00:01:29.080 --> 00:01:29.940]  Packet hit, stop it.
+043  [00:01:30.500 --> 00:01:30.900]  Drop it.
+044  [00:01:30.900 --> 00:01:31.100]  Log it.
+045  [00:01:31.180 --> 00:01:31.400]  Block it.
+046  [00:01:32.100 --> 00:01:33.300]  No match, knock it.
+047  [00:01:33.860 --> 00:01:34.260]  Drop it.
+048  [00:01:34.260 --> 00:01:34.480]  Log it.
+049  [00:01:34.560 --> 00:01:34.780]  Block it.
+050  [00:01:35.420 --> 00:01:36.460]  Write the rule and lock it.
+
+[Chorus]
+
+054  [00:01:51.240 --> 00:01:53.340]  Trust no packet in the night,
+055  [00:01:53.960 --> 00:01:56.900]  least privilege, hold the line.
+056  [00:01:57.340 --> 00:01:59.660]  Source to destination,
+057  [00:02:00.160 --> 00:02:00.700]  port to application,
+058  [00:02:01.600 --> 00:02:03.500]  every session leaves a sign.
+
+[Verse 2]
+
+062  [00:02:10.440 --> 00:02:13.420]  A-C-L cuts through the stream,
+063  [00:02:13.720 --> 00:02:15.020]  NAT reflection bends the scene.
+064  [00:02:15.380 --> 00:02:16.660]  Inside local, outside global,
+065  [00:02:17.100 --> 00:02:18.240]  translation keeps the traffic mobile.
+066  [00:02:18.520 --> 00:02:19.900]  Deep packet inspection in the flow,
+067  [00:02:20.380 --> 00:02:21.720]  headers high and payload low.
+068  [00:02:22.100 --> 00:02:23.240]  Match the rule, confirm the state,
+069  [00:02:23.760 --> 00:02:25.200]  permit clean or close the gate.
+
+[Break]
+
+073  [00:02:26.920 --> 00:02:27.560]  SYN.
+074  [00:02:28.800 --> 00:02:29.440]  ACK.
+075  [00:02:30.500 --> 00:02:31.140]  Session match.
+076  [00:02:33.040 --> 00:02:33.680]  Deny.
+077  [00:02:34.600 --> 00:02:35.240]  Permit.
+078  [00:02:35.240 --> 00:02:36.020]  Log.
+079  [00:02:36.020 --> 00:02:37.000]  Source NAT.
+080  [00:02:38.380 --> 00:02:39.020]  Destination NAT.
+081  [00:02:42.140 --> 00:02:42.780]  T-C-P.
+082  [00:02:44.140 --> 00:02:44.780]  U-D-P.
+
+[Final Hook]
+
+086  [00:03:03.100 --> 00:03:06.400]  State table. Lock it.
+087  [00:03:04.380 --> 00:03:04.540]  Drop it.
+088  [00:03:06.500 --> 00:03:09.700]  Packet hits. Stop it.
+089  [00:03:07.700 --> 00:03:07.920]  Log it.
+090  [00:03:09.820 --> 00:03:11.600]  No match. Knock it.
+091  [00:03:11.080 --> 00:03:11.680]  Block it.
+092  [00:03:11.680 --> 00:03:15.000]  Write rule. Lock it.
+093  [00:03:14.240 --> 00:03:14.660]  State table lock it.

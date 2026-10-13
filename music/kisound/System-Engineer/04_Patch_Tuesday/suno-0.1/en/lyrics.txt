@@ -1,0 +1,56 @@
+[Intro]
+Second Tuesday of the month.
+Seven p.m.
+
+[Verse 1]
+The calendar knows it, every admin knows it too,
+tonight the updates land, and I know what to do.
+Seven p.m. our time, the release notes open wide,
+sixty holes fixed, three already exploited, those go to the top of the line.
+Ring zero: the test machines, my own, they go first,
+ring one: IT and pilots, whoever patches first feels the worst.
+Ring two: the rest of the company, once nothing's on fire,
+and last of all the servers, in the window they require.
+
+[Chorus]
+Patch Tuesday.
+Test. Pilot. Rollout.
+Patch Tuesday.
+Reboot pending, and nobody logs out.
+Every month the same old game,
+every month a little safer, that's the aim.
+
+[Verse 2]
+Thursday, a pilot calls: "Accounting won't start."
+The old business app has crashed since the update, it falls apart.
+I pause the ring and check the known issues there,
+the bug is listed, one registry value, the fix is already there.
+Set, tested, ring two goes out on Monday at eight,
+ninety percent are done by Friday, the rest come late.
+
+[Chorus]
+Patch Tuesday.
+Test. Pilot. Rollout.
+Patch Tuesday.
+Reboot pending, and nobody logs out.
+Every month the same old game,
+every month a little safer, that's the aim.
+
+[Bridge]
+The laptop in a backpack, weeks without the net,
+the PC in the storeroom that everyone forgets.
+The compliance report shows them red,
+I chase them one by one until it's green instead.
+
+[Chorus]
+Patch Tuesday.
+Test. Pilot. Rollout.
+Patch Tuesday.
+Reboot pending, and nobody logs out.
+Every month the same old game,
+every month a little safer, that's the aim.
+
+[Outro]
+Ninety-nine percent.
+Next month.
+Second Tuesday.

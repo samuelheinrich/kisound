@@ -1,0 +1,53 @@
+[Intro]
+Backup erfolgreich.
+Seit siebenhundert Nächten.
+
+[Verse 1]
+Jeden Morgen eine Mail: Backup erfolgreich, grüner Haken,
+siebenhundert Mal dasselbe, ich hab aufgehört, sie aufzumachen.
+Heute ist Restore-Test, so steht's im Plan,
+ein ganzer Fileserver, isoliertes Netz, ich fang an.
+Die VM bootet, C ist da, doch D ist nicht dabei,
+die Platte kam vor einem Jahr dazu, der Job sichert eins, nicht zwei.
+
+[Chorus]
+Drei. Zwei. Eins.
+Drei Kopien, zwei Medien, eine ausser Haus.
+Restore.
+Ein grüner Haken sagt nicht viel.
+Restore.
+Erst was zurückkommt, ist das Ziel.
+
+[Verse 2]
+Ich nehm die zweite Platte auf, Vollbackup über Nacht,
+am Morgen nochmal Restore: D ist da, die Shares sind wach.
+Eine Kopie auf Band, im Tresor im anderen Haus,
+eine unveränderbar, dreissig Tage, da löscht sie keiner raus.
+Und jeden Monat ein Restore-Test, im Kalender fest,
+denn nur was ich zurückhol, besteht den echten Test.
+
+[Chorus]
+Drei. Zwei. Eins.
+Drei Kopien, zwei Medien, eine ausser Haus.
+Restore.
+Ein grüner Haken sagt nicht viel.
+Restore.
+Erst was zurückkommt, ist das Ziel.
+
+[Bridge]
+Das Backup ist ein Versprechen,
+der Restore ist der Beweis.
+Siebenhundert grüne Haken,
+doch nur ein Restore schliesst den Kreis.
+
+[Chorus]
+Drei. Zwei. Eins.
+Drei Kopien, zwei Medien, eine ausser Haus.
+Restore.
+Ein grüner Haken sagt nicht viel.
+Restore.
+Erst was zurückkommt, ist das Ziel.
+
+[Outro]
+Restore erfolgreich.
+Laufwerk D ist da.

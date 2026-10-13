@@ -1,0 +1,87 @@
+ON CALL – TRANSKRIPT
+
+Audio: 01_On_Call_1.0.wav
+Audio-SHA-256: 6d10bbfdf8af4a390e4e12e9775a93b1bea7f2838d68f7bd75046ca0a290bcd1
+Gesamtdauer: 00:03:36.774
+Sprache: Deutsch mit englischen Fachbegriffen
+Zeitformat: HH:MM:SS.mmm
+Zeitbezug: Beginn der unveränderten WAV-Datei bei 0 Sekunden
+Zeitquelle: lokaler ASR-Wortabgleich; keine manuelle Hörprüfung
+Prüfhinweise: ../TRANSKRIPT-PRUEFUNG.md
+
+
+[Intro]
+
+001  [00:00:16.580 --> 00:00:18.320]  Display wird hell.
+002  [00:00:18.540 --> 00:00:22.400]  Die Stadt schläft weiter.
+003  [00:00:22.620 --> 00:00:25.580]  Ein Name auf dem Screen.
+004  [00:00:28.140 --> 00:00:30.020]  Ich bin erreichbar.
+
+[Verse 1]
+
+005  [00:00:44.560 --> 00:00:47.160]  Das Telefon tanzt auf dem Holz,
+006  [00:00:48.560 --> 00:00:51.000]  der Kaffee von gestern ist kalt.
+007  [00:00:52.280 --> 00:00:54.640]  Im Ticket steht: «Alles ist weg»,
+008  [00:00:55.580 --> 00:00:58.700]  kein Standort, kein Fehler, kein Halt.
+009  [00:00:58.700 --> 00:01:02.680]  Ich frag: Seit wann? Ich frag: Für wen?
+010  [00:01:02.680 --> 00:01:06.160]  Ein Screenshot ersetzt keinen Test.
+011  [00:01:06.160 --> 00:01:09.200]  Drei Dienste rot, ein vierter grün,
+012  [00:01:09.200 --> 00:01:12.420]  ich suche den Punkt, der sie verbindet.
+
+[Pre-Chorus]
+
+013  [00:01:15.400 --> 00:01:17.760]  Nicht lauter werden.
+014  [00:01:18.420 --> 00:01:21.420]  Genauer fragen.
+015  [00:01:21.420 --> 00:01:24.660]  Bevor ich etwas ändere,
+016  [00:01:24.780 --> 00:01:27.860]  will ich den Fehler sehen.
+
+[Chorus]
+
+017  [00:01:29.320 --> 00:01:30.860]  On Call.
+018  [00:01:31.160 --> 00:01:34.500]  Display wird hell.
+019  [00:01:35.920 --> 00:01:38.760]  Die Stadt schläft weiter,
+020  [00:01:39.180 --> 00:01:41.780]  ich folg dem Signal.
+021  [00:01:41.780 --> 00:01:45.920]  On Call.
+022  [00:01:46.320 --> 00:01:49.820]  Noch keine Antwort.
+023  [00:01:51.920 --> 00:01:53.480]  Doch ich bleib dran,
+024  [00:01:53.740 --> 00:01:56.980]  bis ich die Ursache hab.
+
+[Verse 2]
+
+025  [00:02:00.120 --> 00:02:02.260]  Die Route steht, der Link ist da,
+026  [00:02:02.380 --> 00:02:04.140]  der erste Test geht sauber durch.
+027  [00:02:04.140 --> 00:02:06.120]  Am nächsten Hop verstummt der Flow,
+028  [00:02:06.200 --> 00:02:08.000]  ich zieh die Spur durch jeden Sprung.
+029  [00:02:08.000 --> 00:02:09.800]  Ein Change von heute, frisch im Log,
+030  [00:02:09.940 --> 00:02:11.700]  ein Counter steigt am falschen Port.
+031  [00:02:11.780 --> 00:02:13.200]  Kein Neustart auf Verdacht,
+032  [00:02:13.220 --> 00:02:15.000]  ich grenze ein und prüfe dort.
+
+[Bridge]
+
+033  [00:02:15.680 --> 00:02:17.260]  Da ist der Unterschied.
+034  [00:02:17.640 --> 00:02:19.400]  Da fängt die Spur an.
+035  [00:02:19.400 --> 00:02:20.900]  Ein Test bestätigt,
+036  [00:02:20.900 --> 00:02:23.020]  was das Ticket nicht sagen kann.
+037  [00:02:23.020 --> 00:02:25.160]  Die Hand liegt auf der Taste.
+038  [00:02:25.220 --> 00:02:26.820]  Der nächste Schritt steht fest.
+039  [00:02:26.820 --> 00:02:28.760]  Erst verstehen, dann verändern.
+040  [00:02:28.780 --> 00:02:30.140]  Dann derselbe Test.
+
+[Final Chorus]
+
+041  [00:02:33.520 --> 00:02:34.700]  On Call.
+042  [00:02:36.800 --> 00:02:38.340]  Display wird hell.
+043  [00:02:40.200 --> 00:02:42.560]  Die Stadt schläft weiter,
+044  [00:02:43.980 --> 00:02:45.580]  ich folg dem Signal.
+045  [00:02:49.880 --> 00:02:50.840]  On Call.
+046  [00:02:51.660 --> 00:02:53.740]  Jetzt hat der Fehler einen Namen.
+047  [00:02:55.020 --> 00:02:57.440]  Ich halte die Spur,
+048  [00:02:57.460 --> 00:03:01.160]  bis der Service wieder läuft.
+
+[Outro]
+
+049  [00:03:04.280 --> 00:03:07.460]  Kein Applaus im leeren Zimmer.
+050  [00:03:07.460 --> 00:03:11.520]  Nur ein Ticket, das sich schliesst.
+051  [00:03:12.560 --> 00:03:14.160]  Display wird dunkel.
+052  [00:03:15.840 --> 00:03:19.040]  Die Stadt weiss nichts davon.

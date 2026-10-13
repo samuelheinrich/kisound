@@ -1,0 +1,54 @@
+[Intro]
+Drei Uhr zwölf.
+Der Cluster ist down.
+
+[Verse 1]
+Das Handy vibriert, Pikett, ich bin allein,
+Failover fehlgeschlagen, beide Knoten offline, keiner lässt mich rein.
+Ich öffne das Wiki, such den Namen, find ein Dokument,
+Runbook: Cluster-Failover, von mir, vor zwei Jahren, ich erkenn's am Akzent.
+Schritt eins: Ruhe bewahren. Schritt zwei: das Quorum prüfen, zuerst.
+Schritt drei: Nie beide Knoten gleichzeitig starten, sonst wird es ernst.
+
+[Chorus]
+Runbook.
+Schritt für Schritt durch die Nacht.
+Runbook.
+Ein Brief von mir an mich, damals gemacht.
+Für den, der nach mir kommt,
+vielleicht bin das ich.
+
+[Verse 2]
+Die Quorum-Disk ist offline, ein Pfad zum Storage fehlt,
+Schritt vier beschreibt genau das, als hätt ich's mir damals erzählt.
+Pfad zurück, Quorum online, Knoten eins zuerst,
+dann Knoten zwei, die Rollen kommen hoch, und um vier ist nichts mehr verkehrt.
+Ich schreib Schritt sieben dazu, was heute anders war,
+damit der Nächste weniger sucht als ich, im nächsten Jahr.
+
+[Chorus]
+Runbook.
+Schritt für Schritt durch die Nacht.
+Runbook.
+Ein Brief von mir an mich, damals gemacht.
+Für den, der nach mir kommt,
+vielleicht bin das ich.
+
+[Bridge]
+Zwanzig Jahre, tausend Nächte,
+was ich weiss, steht nicht nur in mir.
+Ich schreib es auf, Zeile für Zeile,
+und lass es hier.
+
+[Chorus]
+Runbook.
+Schritt für Schritt durch die Nacht.
+Runbook.
+Ein Brief von mir an mich, damals gemacht.
+Für den, der nach mir kommt,
+vielleicht bin das ich.
+
+[Outro]
+Vier Uhr null drei.
+Cluster online.
+Runbook gespeichert.

@@ -1,0 +1,63 @@
+[Intro]
+Vier. Zwei. Neun.
+Too Many Requests.
+
+[Verse 1]
+Ein Skript, eine Schleife, fünfhundert Logs im Stapel,
+ich schick sie alle parallel, und dann steht alles still im Kabel.
+Die ersten zwanzig laufen, dann kommt Rot auf Rot,
+vierhundertneunundzwanzig, und mein Batch ist tot.
+Im Header steht Retry-After: dreissig Sekunden,
+die API sagt klar: zu viele Anfragen in zu kurzen Runden.
+
+[Pre-Chorus]
+Eins. Zwei. Vier. Acht. Sechzehn.
+Warten. Und nochmal.
+
+[Chorus]
+Vier-Zwei-Neun.
+Too Many Requests.
+Vier-Zwei-Neun.
+Ich wart doppelt so lang wie zuletzt.
+Eins, zwei, vier, acht, sechzehn,
+dann komm ich wieder rein.
+
+[Verse 2]
+Kenn ich vom Netz: Wenn ein Paket verloren geht,
+verdoppelt TCP die Wartezeit, bis die Leitung wieder steht.
+Also bau ich's genauso, Backoff mit etwas Zufall drin,
+damit nicht alle gleichzeitig zurückkommen. Das ist der Sinn.
+Vier gleichzeitig statt fünfhundert, eine Queue, die alles trägt,
+der Zähler steigt gleichmässig, bis die letzte Zeile steht.
+
+[Pre-Chorus]
+Eins. Zwei. Vier. Acht. Sechzehn.
+Warten. Und nochmal.
+
+[Chorus]
+Vier-Zwei-Neun.
+Too Many Requests.
+Vier-Zwei-Neun.
+Ich wart doppelt so lang wie zuletzt.
+Eins, zwei, vier, acht, sechzehn,
+dann komm ich wieder rein.
+
+[Bridge]
+Nicht schneller.
+Gleichmässiger.
+Nicht mehr.
+Klüger.
+Kein Flood.
+Ein Fluss.
+
+[Chorus]
+Vier-Zwei-Neun.
+Too Many Requests.
+Vier-Zwei-Neun.
+Ich wart doppelt so lang wie zuletzt.
+Eins, zwei, vier, acht, sechzehn,
+dann komm ich wieder rein.
+
+[Outro]
+Zweihundert. Zweihundert. Zweihundert.
+Fünfhundert von fünfhundert.

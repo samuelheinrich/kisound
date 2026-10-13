@@ -1,0 +1,584 @@
+{
+  "schema": "kisound.video.screenplay.v1",
+  "status": "authored screenplay, not implemented",
+  "shots": [
+    {
+      "id": "S001",
+      "starts_s": {
+        "de": 0,
+        "en": 0
+      },
+      "ends_s": {
+        "de": 8.36,
+        "en": 0.9
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Der Release wartet",
+      "action": "Ein nächtlicher Arbeitsplatz. Auf dem Monitor steht die neue Albumkarte neben dem alten Live-Stand. Die fünf Stationen der Release-Schiene sind dunkel.",
+      "camera": "Langsame Fahrt von der Fensterkante zum Laptop, 35 mm.",
+      "transition": "Monitorrahmen wird zur Titelkante."
+    },
+    {
+      "id": "S002",
+      "starts_s": {
+        "de": 8.36,
+        "en": 0.9
+      },
+      "ends_s": {
+        "de": 22.14,
+        "en": 10.68
+      },
+      "zone": "type",
+      "mode": "2D",
+      "title": "COMMIT IT. SHIP IT.",
+      "action": "Die Titelmarke erscheint in zwei Zeilen. Darunter liegt Album drei als noch ungeöffnete Karte. DE zeigt zuerst den hörbaren Album-drei-Einsatz; EN folgt dem frühen Hook-Ruf.",
+      "camera": "Frontal; ein kurzer Eintritt, dann ruhige Lesephase.",
+      "transition": "Titel zieht sich in die Dateileiste zurück."
+    },
+    {
+      "id": "S003",
+      "starts_s": {
+        "de": 22.14,
+        "en": 10.68
+      },
+      "ends_s": {
+        "de": 27.16,
+        "en": 14.08
+      },
+      "zone": "desk",
+      "mode": "3D",
+      "title": "Alles liegt bereit",
+      "action": "Tracks, Cover, Audio und Lyrics liegen als vier reale Ordnerkarten am Bildschirmrand. Der Cursor steht vor dem ersten Befehl.",
+      "camera": "Über-die-Schulter-Fahrt; kurzer Halt auf den vier Namen.",
+      "transition": "Ordnerkante als Match Cut zur Dateiansicht."
+    },
+    {
+      "id": "S004",
+      "starts_s": {
+        "de": 27.16,
+        "en": 14.08
+      },
+      "ends_s": {
+        "de": 30.26,
+        "en": 17.5
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Neue Tracks",
+      "action": "Neue Trackdateien und zugehörige Cover erscheinen in einer gemeinsamen Liste. Jede Zeile hat genau eine Coverreferenz.",
+      "camera": "Orthogonale Gesamtansicht, dann ein lesbarer Ausschnitt.",
+      "transition": "Listenzeile schiebt zum Terminal."
+    },
+    {
+      "id": "S005",
+      "starts_s": {
+        "de": 30.26,
+        "en": 17.5
+      },
+      "ends_s": {
+        "de": 33.76,
+        "en": 20.92
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Build läuft",
+      "action": "`npm run build` erzeugt Seiten. Der Prozess endet mit `BUILD PASS`; der Check steht noch aus.",
+      "camera": "Ruhiges Terminal mit höchstens drei grossen Statuszeilen.",
+      "transition": "Grüne Build-Zeile bleibt beim folgenden Rot sichtbar."
+    },
+    {
+      "id": "S006",
+      "starts_s": {
+        "de": 33.76,
+        "en": 20.92
+      },
+      "ends_s": {
+        "de": 36.94,
+        "en": 25.2
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ein roter Check",
+      "action": "`npm run check` meldet genau einen fehlenden Coverpfad. Build bleibt grün; Check ist rot.",
+      "camera": "Feste Frontalansicht, eine einzige Fehlermeldung dominant.",
+      "transition": "Fehlerpfad wird als Linie in den Dateivergleich geführt."
+    },
+    {
+      "id": "S007",
+      "starts_s": {
+        "de": 36.94,
+        "en": 25.2
+      },
+      "ends_s": {
+        "de": 40.38,
+        "en": 27.56
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Der Coverpfad",
+      "action": "Referenz und wirklicher Dateiname stehen nebeneinander. Das Cover selbst liegt da, wird aber unter dem falschen Namen gesucht.",
+      "camera": "Zwei breite Spalten; keine scrollende Logwand.",
+      "transition": "Beide Namen decken sich bis zu einer Stelle."
+    },
+    {
+      "id": "S008",
+      "starts_s": {
+        "de": 40.38,
+        "en": 27.56
+      },
+      "ends_s": {
+        "de": 46.5,
+        "en": 30.54
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Der Unterstrich",
+      "action": "Ein zusätzlicher Unterstrich leuchtet auf und wird entfernt. Die Dateireferenz bleibt sichtbar, während der Name sich angleicht.",
+      "camera": "Makro auf genau eine Zeichenposition; danach wieder beide Namen.",
+      "transition": "Die geschlossene Lücke wird zum grünen Check-Rahmen."
+    },
+    {
+      "id": "S009",
+      "starts_s": {
+        "de": 46.5,
+        "en": 30.54
+      },
+      "ends_s": {
+        "de": 51.32,
+        "en": 33.96
+      },
+      "zone": "project",
+      "mode": "hybrid",
+      "title": "Null Fehler",
+      "action": "Derselbe Check läuft erneut und meldet null Fehler. Erst jetzt entsteht der Release-Commit als neue Karte auf der Schiene.",
+      "camera": "Seitliche Fahrt vom Terminal zum Commit; beide Zustände bleiben lesbar.",
+      "transition": "Commit-Karte fährt in die erste Hook-Fläche."
+    },
+    {
+      "id": "S010",
+      "starts_s": {
+        "de": 51.32,
+        "en": 33.96
+      },
+      "ends_s": {
+        "de": 55.12,
+        "en": 35
+      },
+      "zone": "type",
+      "mode": "2D",
+      "title": "Hook eins",
+      "action": "COMMIT IT. SHIP IT. füllt das Bild. Der Commit ist sichtbar; das LIVE-Tor steht noch als Ausblick hinter der Schiene.",
+      "camera": "Frontal, Titel mindestens etwa eine Sekunde ruhig.",
+      "transition": "Unterkante der Schrift wird zur Schiene."
+    },
+    {
+      "id": "S011",
+      "starts_s": {
+        "de": 55.12,
+        "en": 35
+      },
+      "ends_s": {
+        "de": 58.34,
+        "en": 37.4
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Build. Check. Live.",
+      "action": "BUILD und CHECK sind grün. LIVE leuchtet als Projektion in der Ferne, ohne einen erfolgten Upload zu behaupten. Eine kurze COMMIT-IT/SHIP-IT-Reprise steht vor den Toren.",
+      "camera": "Dolly entlang der Stationen; Stopps auf den ersten beiden.",
+      "transition": "Projektion klappt in die nächste Hook-Zeile."
+    },
+    {
+      "id": "S012",
+      "starts_s": {
+        "de": 58.34,
+        "en": 37.4
+      },
+      "ends_s": {
+        "de": 61.44,
+        "en": 39.92
+      },
+      "zone": "type",
+      "mode": "hybrid",
+      "title": "Der Ruf kehrt zurück",
+      "action": "Die Titelmarke kehrt mit derselben Form zurück. Die Schiene bleibt darunter im echten Zustand; Album drei steht am Ende.",
+      "camera": "Erst frontal, danach geringe Parallaxe.",
+      "transition": "Die Albumkarte löst sich aus dem Wort."
+    },
+    {
+      "id": "S013",
+      "starts_s": {
+        "de": 61.44,
+        "en": 39.92
+      },
+      "ends_s": {
+        "de": 67,
+        "en": 44.04
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Album drei",
+      "action": "Albumkarte und Cover werden gross. Der öffentliche Link ist als kommende Aktion sichtbar, aber noch nicht freigegeben.",
+      "camera": "Statische Albumansicht mit klarer Statusmarke `READY`.",
+      "transition": "Coverfarbe fliesst in das Linkfeld."
+    },
+    {
+      "id": "S014",
+      "starts_s": {
+        "de": 67,
+        "en": 44.04
+      },
+      "ends_s": {
+        "de": 72,
+        "en": 45.38
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Der Weg nach draussen",
+      "action": "Die Kamera verlässt kurz den Monitor und verfolgt eine orange Linie zur dunklen LIVE-Station. Der Refrain darf seine instrumentale Fläche ausspielen.",
+      "camera": "Eine kontinuierliche, langsame Fahrt am Tisch entlang.",
+      "transition": "Linie führt zurück zur Play-Vorschau."
+    },
+    {
+      "id": "S015",
+      "starts_s": {
+        "de": 72,
+        "en": 45.38
+      },
+      "ends_s": {
+        "de": 78.66,
+        "en": 48.38
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Link und Play als Ausblick",
+      "action": "Ein Linkfeld und ein Playknopf erscheinen als Vorschau. Die echte Browserprüfung folgt erst nach Deploy und Reload.",
+      "camera": "Frontal, zwei klar getrennte Flächen.",
+      "transition": "Upload-Zähler übernimmt den freien Platz."
+    },
+    {
+      "id": "S016",
+      "starts_s": {
+        "de": 78.66,
+        "en": 48.38
+      },
+      "ends_s": {
+        "de": 81.94,
+        "en": 51.56
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Deploy startet",
+      "action": "Der geprüfte Stand wird hochgeladen. Ein Paket fährt aus dem Commit-Tor durch DEPLOY; LIVE bleibt noch unbestätigt.",
+      "camera": "Seitliche 35-mm-Fahrt parallel zur Schiene.",
+      "transition": "Paketkante wird zur Upload-Liste."
+    },
+    {
+      "id": "S017",
+      "starts_s": {
+        "de": 81.94,
+        "en": 51.56
+      },
+      "ends_s": {
+        "de": 85.2,
+        "en": 55.02
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Drei Dateigruppen",
+      "action": "Cover, Audio und Texte werden einzeln gezählt und als übertragen markiert. Kein Passwort und keine reale Provider-Oberfläche.",
+      "camera": "Frontaler Dreispaltenaufbau, kurze Haltezeit auf der Vollständigkeit.",
+      "transition": "Vollständigkeitsrahmen wird zum Browserrahmen."
+    },
+    {
+      "id": "S018",
+      "starts_s": {
+        "de": 85.2,
+        "en": 55.02
+      },
+      "ends_s": {
+        "de": 88.7,
+        "en": 57.6
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Noch der alte Stand",
+      "action": "Normaler Reload: Der Browser zeigt weiter die alte Albumübersicht. Uploadstatus bleibt separat grün.",
+      "camera": "Unbewegter Vorher-Blick, alter Albumstand klar erkennbar.",
+      "transition": "Reload-Pfeil wird kurz angehalten."
+    },
+    {
+      "id": "S019",
+      "starts_s": {
+        "de": 88.7,
+        "en": 57.6
+      },
+      "ends_s": {
+        "de": 92.26,
+        "en": 61.68
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Harter Reload",
+      "action": "Der Cache wird umgangen. Dieselbe Browserposition zeigt nun Album drei; Cover und Trackliste wechseln gemeinsam.",
+      "camera": "Identischer Bildausschnitt vor und nach dem Reload.",
+      "transition": "Neue Coverfläche öffnet die Sprachansicht."
+    },
+    {
+      "id": "S020",
+      "starts_s": {
+        "de": 92.26,
+        "en": 61.68
+      },
+      "ends_s": {
+        "de": 95.38,
+        "en": 65.18
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Deutsch, dann Englisch",
+      "action": "Die DE-Seite wird geprüft, dann die EN-Seite. Navigation und Beschreibung wechseln; beide Tracklisten zeigen denselben Release.",
+      "camera": "Zwei grosse Browserflächen nacheinander, gleiche Position.",
+      "transition": "Sprachschalter zieht zur Lyrics-Zeile."
+    },
+    {
+      "id": "S021",
+      "starts_s": {
+        "de": 95.38,
+        "en": 65.18
+      },
+      "ends_s": {
+        "de": 98.78,
+        "en": 70.02
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Lyrics im Original",
+      "action": "Die Sprache der UI wechselt, die Lyrics der jeweiligen Aufnahme bleiben in ihrer Originalsprache. Eine einzelne erkennbare Zeile belegt das.",
+      "camera": "Ruhige Vergleichsansicht, keine winzigen Volltexte.",
+      "transition": "Die bestätigte Seite wird zum LIVE-Tor."
+    },
+    {
+      "id": "S022",
+      "starts_s": {
+        "de": 98.78,
+        "en": 70.02
+      },
+      "ends_s": {
+        "de": 102.92,
+        "en": 73.46
+      },
+      "zone": "type",
+      "mode": "2D",
+      "title": "Hook zwei",
+      "action": "COMMIT IT. SHIP IT. erscheint erneut. Jetzt ist das LIVE-Tor keine Projektion mehr: im Hintergrund steht der geöffnete Browser.",
+      "camera": "Gleiche Titelgeometrie wie zuvor, stärkerer Kontrast.",
+      "transition": "Titelkante wird zu drei Torrahmen."
+    },
+    {
+      "id": "S023",
+      "starts_s": {
+        "de": 102.92,
+        "en": 73.46
+      },
+      "ends_s": {
+        "de": 105.62,
+        "en": 77.78
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Alle drei Tore",
+      "action": "BUILD, CHECK und LIVE sind grün, in dieser Reihenfolge. Der Browserstatus ist aus der echten Reload-Prüfung gespeist. Die Hook-Schrift kehrt kurz vor den Toren zurück.",
+      "camera": "Dolly mit drei klaren Stationen, kein Flug durch Text.",
+      "transition": "Letztes Tor rahmt Album drei."
+    },
+    {
+      "id": "S024",
+      "starts_s": {
+        "de": 105.62,
+        "en": 77.78
+      },
+      "ends_s": {
+        "de": 109.14,
+        "en": 80.88
+      },
+      "zone": "type",
+      "mode": "hybrid",
+      "title": "Album drei ist da",
+      "action": "Die zweite Hook und die Albumkarte stehen zusammen. Der Link kann jetzt kopiert werden.",
+      "camera": "Titel frontal, dann kurzer Rückzug auf den Browser.",
+      "transition": "Linkfeld bleibt als einziges aktives Element."
+    },
+    {
+      "id": "S025",
+      "starts_s": {
+        "de": 109.14,
+        "en": 80.88
+      },
+      "ends_s": {
+        "de": 110.72,
+        "en": 81.5
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Link geht raus",
+      "action": "Der öffentliche Link wird kopiert und geteilt. Die Zielseite lädt aus demselben geprüften Stand.",
+      "camera": "Frontaler Link-zu-Browser-Match-Cut.",
+      "transition": "Geladene Seite hält den Playknopf frei."
+    },
+    {
+      "id": "S026",
+      "starts_s": {
+        "de": 110.72,
+        "en": 81.5
+      },
+      "ends_s": {
+        "de": 113,
+        "en": 83
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Play",
+      "action": "Ein Klick auf Play schliesst die zweite Hook. Die gewählte Original-WAV bleibt die einzige Filmtonspur.",
+      "camera": "Nahsicht auf Player und Cover, kein zusätzlicher Soundeffekt.",
+      "transition": "Play-Dreieck wird zur ersten Bridge-Karte."
+    },
+    {
+      "id": "S027",
+      "starts_s": {
+        "de": 113,
+        "en": 83
+      },
+      "ends_s": {
+        "de": 116.1,
+        "en": 86.4
+      },
+      "zone": "project",
+      "mode": "hybrid",
+      "title": "Tracks. Covers.",
+      "action": "Die Bridge beginnt mit zwei grossen Karten. Beide übernehmen die schon gesehenen echten Dateien.",
+      "camera": "Frontale Karten, kurze seitliche Verschiebung pro Wort.",
+      "transition": "Kartenkante setzt die nächste Station frei."
+    },
+    {
+      "id": "S028",
+      "starts_s": {
+        "de": 116.1,
+        "en": 86.4
+      },
+      "ends_s": {
+        "de": 120.28,
+        "en": 87.96
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Build. Check.",
+      "action": "Build und Check stehen nebeneinander; unter Check ist die korrigierte Coverreferenz als kleiner Beleg sichtbar.",
+      "camera": "Kurze Achsenfahrt, jeder Status frontal lesbar.",
+      "transition": "Grüner Check-Rahmen gleitet auf Deploy."
+    },
+    {
+      "id": "S029",
+      "starts_s": {
+        "de": 120.28,
+        "en": 87.96
+      },
+      "ends_s": {
+        "de": 126,
+        "en": 90.7
+      },
+      "zone": "project",
+      "mode": "3D",
+      "title": "Deploy. Reload.",
+      "action": "Upload und Browserprüfung bleiben getrennte Stationen. Erst der Reload macht den neuen Stand im Browser sichtbar.",
+      "camera": "Fahrt entlang der Schiene, dann Halt am Browserrahmen.",
+      "transition": "Rahmen öffnet den Schlussbogen."
+    },
+    {
+      "id": "S030",
+      "starts_s": {
+        "de": 126,
+        "en": 90.7
+      },
+      "ends_s": {
+        "de": 137.5,
+        "en": 94.02
+      },
+      "zone": "room",
+      "mode": "3D",
+      "title": "Die Kette im Raum",
+      "action": "Die Kamera zieht weit zurück: alle Stationen führen zu Album drei. DE nutzt die lange instrumentale Fläche; EN zeigt am frühen Schlussruf eine kurze Titel-Reprise.",
+      "camera": "Eine kontinuierliche Rückfahrt, keine eingefrorene Endkarte.",
+      "transition": "Orange Linie faltet sich zur Titelkontur."
+    },
+    {
+      "id": "S031",
+      "starts_s": {
+        "de": 137.5,
+        "en": 94.02
+      },
+      "ends_s": {
+        "de": 140.28,
+        "en": 96.48
+      },
+      "zone": "type",
+      "mode": "hybrid",
+      "title": "Schlussrefrain",
+      "action": "Die Titelmarke öffnet die vollständige Release-Kette. Bei DE ist der Titel in der langen Schlussfläche redaktionell gesetzt; ein exakter gesungener Hook ist dort nicht belegt.",
+      "camera": "Frontaler Titel, dann langsame räumliche Öffnung.",
+      "transition": "Buchstaben geben die Live-Seite frei."
+    },
+    {
+      "id": "S032",
+      "starts_s": {
+        "de": 140.28,
+        "en": 96.48
+      },
+      "ends_s": {
+        "de": 150.6,
+        "en": 107.74
+      },
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Die Veröffentlichung läuft",
+      "action": "Link, Albumkarte, DE/EN-Prüfung und Player erscheinen als ein konsistenter Stand. Die Musik trägt die längere Schlussfahrt weiter.",
+      "camera": "Langsame Fahrt über dieselbe Seite, nicht über neue erfundene Inhalte.",
+      "transition": "Aktueller Commit rückt an den Rand."
+    },
+    {
+      "id": "S033",
+      "starts_s": {
+        "de": 150.6,
+        "en": 107.74
+      },
+      "ends_s": {
+        "de": 154,
+        "en": 113.6
+      },
+      "zone": "desk",
+      "mode": "3D",
+      "title": "Nächster Commit",
+      "action": "Eine neue Notiz erscheint am Tisch. Die aktuelle Veröffentlichung bleibt grün; die nächste Arbeit ist noch offen. Die EN-Outro-Hook prägt die Titelmarke kurz in den Rand der Commit-Karte.",
+      "camera": "Rückfahrt vom Monitor zur Hand, dann kurzer Halt.",
+      "transition": "Notiz bleibt als kleiner Lichtpunkt stehen."
+    },
+    {
+      "id": "S034",
+      "starts_s": {
+        "de": 154,
+        "en": 113.6
+      },
+      "ends_s": {
+        "de": 155.96,
+        "en": 120.68
+      },
+      "zone": "end",
+      "mode": "3D",
+      "title": "Bis zum Audioende",
+      "action": "Die Kamera fährt aus dem Fenster zurück. Im Monitor bleibt der fertige Release sichtbar; der neue Auftrag ist offen. Blende nach dem letzten belegten Wort und innerhalb des gemessenen Endabfalls.",
+      "camera": "Ruhige Rückfahrt, letztes Bild bis zum Originalende.",
+      "transition": "Schwarz exakt am Ende der WAV."
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+1
+00:00:11,380 --> 00:00:12,860
+One source speaks.
+
+2
+00:00:13,840 --> 00:00:16,840
+Many receivers wait.
+
+3
+00:00:17,240 --> 00:00:19,340
+Not every packet needs.
+
+4
+00:00:20,700 --> 00:00:24,040
+to cross every gate.
+
+5
+00:00:38,280 --> 00:00:39,600
+Unicast walks alone,
+
+6
+00:00:40,340 --> 00:00:41,860
+one path, one name.
+
+7
+00:00:45,520 --> 00:00:47,020
+Anycast finds the closest,
+
+8
+00:00:47,020 --> 00:00:48,440
+different route, same flame.
+
+9
+00:00:51,360 --> 00:00:54,100
+But multicast is listening,
+
+10
+00:00:54,100 --> 00:00:55,900
+join the group and stay.
+
+11
+00:00:58,740 --> 00:01:00,500
+Tune into the stream,
+
+12
+00:01:01,340 --> 00:01:03,360
+let the packets find the way.
+
+13
+00:01:07,580 --> 00:01:08,300
+I-G-M-P report,
+
+14
+00:01:09,200 --> 00:01:10,340
+membership in sight.
+
+15
+00:01:10,340 --> 00:01:11,800
+Layer two is listening.
+
+16
+00:01:12,300 --> 00:01:13,360
+to the group tonight.
+
+17
+00:01:15,100 --> 00:01:15,800
+Querier asks the question,
+
+18
+00:01:15,980 --> 00:01:16,760
+who is still alive?
+
+19
+00:01:17,780 --> 00:01:19,360
+Receivers answer softly,
+
+20
+00:01:19,360 --> 00:01:19,840
+keep the flow online.
+
+21
+00:01:21,480 --> 00:01:22,100
+Join the group.
+
+22
+00:01:22,440 --> 00:01:23,460
+Hear the stream.
+
+23
+00:01:24,840 --> 00:01:26,840
+Multicast inside the machine.
+
+24
+00:01:27,440 --> 00:01:29,300
+One to many,
+
+25
+00:01:29,600 --> 00:01:30,340
+not one by one.
+
+26
+00:01:31,100 --> 00:01:32,480
+Listen in.
+
+27
+00:01:33,940 --> 00:01:36,380
+when the source has begun.
+
+28
+00:01:49,760 --> 00:01:51,180
+P-I-M moves the signal.
+
+29
+00:01:51,800 --> 00:01:52,780
+through layer three.
+
+30
+00:01:53,860 --> 00:01:55,300
+R-P knows the source,
+
+31
+00:01:55,300 --> 00:01:56,280
+knows where it will be.
+
+32
+00:01:57,180 --> 00:01:58,660
+Rendezvous in the core,
+
+33
+00:01:58,660 --> 00:02:00,080
+tree begins to grow.
+
+34
+00:02:01,000 --> 00:02:02,500
+Branches split the traffic.
+
+35
+00:02:02,500 --> 00:02:03,700
+only where it needs to go.
+
+36
+00:02:08,580 --> 00:02:09,100
+Membership report.
+
+37
+00:02:09,820 --> 00:02:10,100
+Join.
+
+38
+00:02:10,100 --> 00:02:10,540
+Leave.
+
+39
+00:02:10,740 --> 00:02:10,980
+Query.
+
+40
+00:02:11,220 --> 00:02:11,360
+Group.
+
+41
+00:02:11,580 --> 00:02:11,820
+Source.
+
+42
+00:02:12,120 --> 00:02:12,400
+R-P.
+
+43
+00:02:12,540 --> 00:02:13,400
+P-I-M.
+
+44
+00:02:13,580 --> 00:02:14,940
+I-G-M-P.
+
+45
+00:02:29,000 --> 00:02:30,560
+No flood for the silent.
+
+46
+00:02:31,360 --> 00:02:32,540
+No stream for the blind.
+
+47
+00:02:33,060 --> 00:02:34,620
+Only those who ask it.
+
+48
+00:02:34,800 --> 00:02:35,680
+get the signal assigned.
+
+49
+00:02:36,380 --> 00:02:37,760
+From switch to router,
+
+50
+00:02:38,480 --> 00:02:39,680
+from access to core,
+
+51
+00:02:40,180 --> 00:02:42,940
+one transmission opens.
+
+52
+00:02:42,940 --> 00:02:43,640
+many doors.
+
+53
+00:02:46,720 --> 00:02:47,760
+Join the group.
+
+54
+00:02:46,720 --> 00:02:47,760
+Join the group.
+
+55
+00:02:48,180 --> 00:02:49,940
+Hear the stream.
+
+56
+00:02:48,180 --> 00:02:49,940
+Hear the stream.
+
+57
+00:02:50,940 --> 00:02:52,300
+Multicast inside the machine.
+
+58
+00:02:50,940 --> 00:02:52,300
+Multicast inside the machine.
+
+59
+00:02:53,400 --> 00:02:55,300
+One to many,
+
+60
+00:02:53,400 --> 00:02:55,300
+One to many,
+
+61
+00:02:55,540 --> 00:02:56,340
+not one by one.
+
+62
+00:02:55,540 --> 00:02:56,340
+not one by one.
+
+63
+00:02:57,060 --> 00:02:58,540
+Listen in.
+
+64
+00:03:00,040 --> 00:03:02,320
+when the source has begun.
+
+65
+00:03:00,040 --> 00:03:02,320
+when the source has begun.
+
+66
+00:03:17,180 --> 00:03:19,500
+The querier calls.
+
+67
+00:03:19,500 --> 00:03:22,100
+The members reply.
+
+68
+00:03:22,700 --> 00:03:26,520
+The R-P remembers.
+
+69
+00:03:28,080 --> 00:03:29,700
+where the sources lie.

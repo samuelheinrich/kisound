@@ -1,0 +1,52 @@
+[Intro]
+WLAN aus.
+Er antwortet trotzdem.
+
+[Verse 1]
+Eine Kundenkonfig, tausend Zeilen, voller Namen und Netze,
+die schick ich nirgendwo hin, das sind meine Grundsätze.
+Also hol ich mir ein Modell auf meinen eigenen Rechner,
+acht Milliarden Parameter, vier Bit quantisiert, ein bisschen schwächer.
+ollama run, die Lüfter drehen hoch, der Speicher wird knapp,
+vierzig Tokens pro Sekunde, die Antwort läuft langsam ab.
+
+[Chorus]
+Local Model.
+Keine Cloud. Nur mein Gerät.
+Local Model.
+Was ich frag, bleibt, wo es steht.
+Die Lüfter laufen, das Alu wird warm,
+und keine Zeile geht raus. Kein Alarm.
+
+[Verse 2]
+Es ist langsamer und irrt sich öfter mal,
+eine ACL verkehrt gelesen, ich prüf sie nach, Zahl für Zahl.
+Doch es fasst mir Logs zusammen, sucht Muster, Zeile für Zeile,
+und keine Kundenzeile verlässt die Kiste. Keine Eile.
+
+[Chorus]
+Local Model.
+Keine Cloud. Nur mein Gerät.
+Local Model.
+Was ich frag, bleibt, wo es steht.
+Die Lüfter laufen, das Alu wird warm,
+und keine Zeile geht raus. Kein Alarm.
+
+[Bridge]
+Ich zieh das Kabel.
+Ich schalt das WLAN aus.
+Ich frag noch einmal.
+Er antwortet. Hier im Haus.
+
+[Chorus]
+Local Model.
+Keine Cloud. Nur mein Gerät.
+Local Model.
+Was ich frag, bleibt, wo es steht.
+Die Lüfter laufen, das Alu wird warm,
+und keine Zeile geht raus. Kein Alarm.
+
+[Outro]
+WLAN aus.
+Lüfter an.
+Alles bleibt hier.

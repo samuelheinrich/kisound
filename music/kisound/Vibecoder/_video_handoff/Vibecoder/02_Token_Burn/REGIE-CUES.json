@@ -1,0 +1,760 @@
+{
+  "schema": "kisound.video.screenplay.v1",
+  "status": "authored screenplay, not implemented",
+  "shots": [
+    {
+      "id": "S001",
+      "starts_s": {
+        "de": 0,
+        "en": 0
+      },
+      "mode": "3D",
+      "zone": "room",
+      "title": "Das einzige helle Fenster",
+      "action": "Eine schlafende Häuserfront. Hinter einem einzigen Fenster bewegen sich die vier Spuren einer Sequencer-Demo. Die Kamera findet den Arbeitsplatz; die Person sitzt bereits dort. Eine offene Änderungsnotiz ist der einzige unerledigte Punkt.",
+      "camera": "Langsame Fahrt von der Fassade durch das offene Fenster, 35 mm; am Ende über der rechten Schulter.",
+      "transition": "Die rechteckige Fensteröffnung wird zum Monitorrahmen."
+    },
+    {
+      "id": "S002",
+      "starts_s": {
+        "de": 9.18,
+        "en": 12.68
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Eine winzige Bitte",
+      "action": "Die Notiz öffnet sich: „Nur ein Regler“ / „Just one slider“. Daneben steht ein fertig getesteter Stand. Der Cursor zieht die Notiz in das Promptfeld; der fertige Stand bleibt sichtbar.",
+      "camera": "Orthogonal, keinerlei Perspektivverzerrung. Zwei grosse Flächen, eine eindeutige Cursorbewegung.",
+      "transition": "Match Cut: Notizrand auf Eingabefeld."
+    },
+    {
+      "id": "S003",
+      "starts_s": {
+        "de": 13.14,
+        "en": 16.64
+      },
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Gleich Schluss",
+      "action": "Die Hand rückt zur Kante des Laptops, als würde sie zuklappen wollen. Die Kamera hält den dünnen Spalt zwischen Display und Tastatur. Der Bildschirm bleibt offen.",
+      "camera": "85-mm-Detail seitlich, sehr geringe Fahrt; Hand und Scharnier bleiben klar lesbar.",
+      "transition": "Kurzer Dunkelimpuls folgt der gemessenen Pegeländerung der jeweiligen Fassung."
+    },
+    {
+      "id": "S004",
+      "starts_s": {
+        "de": 14.3,
+        "en": 17.9
+      },
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Der Rückweg zur Taste",
+      "action": "Vom Scharnier gleitet die Kamera flach über die Tastatur zur Sendetaste. Die Hand kehrt zurück. Auf dem Display erscheint der erste Auftrag P01; der erste kleine Arbeitsschritt wird in Gang gesetzt.",
+      "camera": "24-mm-Makrofahrt knapp über den Tasten, kein Flug durch Geometrie.",
+      "transition": "Rechteck der Sendetaste auf den ersten Pattern-Schritt."
+    },
+    {
+      "id": "S005",
+      "starts_s": {
+        "de": 21,
+        "en": 28
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Vier Spuren, ein Projekt",
+      "action": "Die Demo stellt sich selbst vor: vier Reihen, sechzehn Schritte. Ein Regler bekommt seinen Platz, der Playhead läuft. Drei Projektstände liegen als kleine Vorher-/Nachher-Karten darunter.",
+      "camera": "Statische Aufsicht; zuerst Gesamtraster, dann ein klarer Ausschnitt.",
+      "transition": "Die Kartenkante klappt in eine räumliche Ebene."
+    },
+    {
+      "id": "S006",
+      "starts_s": {
+        "de": 25,
+        "en": 38.5
+      },
+      "mode": "hybrid",
+      "zone": "project",
+      "title": "Erster Blick in die Tiefe",
+      "action": "Dieselbe Oberfläche staffelt sich in drei lesbare Ebenen: Auftrag, Änderung, laufende Vorschau. Der Blick fährt hindurch und landet wieder am echten Monitor. Die längere EN-Passage zeigt zusätzlich Save und Reload als stumme Vorwegnahme des späteren Tests.",
+      "camera": "Perspektive 35 mm mit sanfter Parallaxe; pro Variante eigener Fahrtweg und Haltepunkt.",
+      "transition": "Rückkehr in identische Monitorposition, dann Blick zur Uhr."
+    },
+    {
+      "id": "S007",
+      "starts_s": {
+        "de": 28.56,
+        "en": 45.24
+      },
+      "mode": "3D",
+      "zone": "desk",
+      "title": "01:00",
+      "action": "Die Schreibtischuhr zeigt 01:00. Im selben Bild leuchtet der fertige Build grün. Ein Finger tippt neben die Uhr: Es ist noch Zeit.",
+      "camera": "50-mm-Seitenansicht, Uhr vorne links, Build-Anzeige hinten rechts; kurzer Fokuswechsel.",
+      "transition": "Die grüne Statuskante wird zum Rand einer neuen Karte."
+    },
+    {
+      "id": "S008",
+      "starts_s": {
+        "de": 32.2,
+        "en": 49.54
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Noch eine Idee",
+      "action": "Eine einzige neue Funktionskarte schiebt den bisherigen Abschluss zur Seite. Die Demo bleibt dieselbe; ergänzt wird ein Regler für die vorhandene Bassspur.",
+      "camera": "Feste Bildschirmansicht mit Platz für genau eine neue Karte.",
+      "transition": "Die runde Reglerfläche füllt den nächsten Ausschnitt."
+    },
+    {
+      "id": "S009",
+      "starts_s": {
+        "de": 35.7,
+        "en": 52.86
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Der zweite Klang",
+      "action": "Ein Regler bewegt sich. In der zweiten aktiven Spur gehen vier Schritte an; daneben bleibt die ursprüngliche Spur sichtbar. Die Aktion erzeugt einen überprüfbaren Unterschied zwischen den zwei Projektständen.",
+      "camera": "Aufsicht auf das 4×16-Raster; eine kontrollierte Vergrösserung zum betroffenen Bereich.",
+      "transition": "Auf leeren Raum rechts schneiden; dort wächst der nächste Auftrag."
+    },
+    {
+      "id": "S010",
+      "starts_s": {
+        "de": 39.2,
+        "en": 56.58
+      },
+      "mode": "hybrid",
+      "zone": "project",
+      "title": "Der Prompt wird länger",
+      "action": "Das neue Promptfeld erweitert sich um zwei konkrete Anforderungen: speichern und nach Reload wiederherstellen. Die Karte schiebt die ältere räumlich nach hinten; Kontext ist als Stapel nachvollziehbarer Aufträge sichtbar.",
+      "camera": "Seitliche 50-mm-Fahrt an drei beschrifteten Flächen; Textflächen drehen erst nach ihrer Lesezeit.",
+      "transition": "Die Vorderseite der obersten Karte wird wieder zum flachen Browser."
+    },
+    {
+      "id": "S011",
+      "starts_s": {
+        "de": 42.8,
+        "en": 60.2
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Reload. Bassspur leer.",
+      "action": "Der Reload-Test läuft. Kick, Snare und Hats bleiben gespeichert; nur die Bassreihe ist leer. Ein kleiner Meter mit der Beschriftung „BASS PREVIEW“ bleibt unten. Das Problem wird sofort lokalisiert.",
+      "camera": "Unbewegte Nahsicht: Reload oben, leere vierte Reihe unten. Kein Rot auf dem ganzen Bildschirm.",
+      "transition": "Die leere Bassreihe zieht als Umriss in den Codevergleich."
+    },
+    {
+      "id": "S012",
+      "starts_s": {
+        "de": 46.26,
+        "en": 63.64
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Die fehlende Zeile",
+      "action": "Links fehlt beim Laden die Zuweisung der Bassspur. Rechts ergänzt der Agent genau diese Zuweisung. Ein Verbindungspfad zeigt gespeichertes Basspattern → geladene Bassspur.",
+      "camera": "Drei grosse, ruhige Elemente: Speicherwert, eine Diff-Zeile, Pattern.",
+      "transition": "Die neue Codezeile schiebt die Bassreihe zurück ins Raster."
+    },
+    {
+      "id": "S013",
+      "starts_s": {
+        "de": 49.82,
+        "en": 67.18
+      },
+      "mode": "3D",
+      "zone": "project",
+      "title": "Derselbe Test besteht",
+      "action": "Die zuvor leere Bassreihe enthält wieder ihre vier Schritte. Die Kamera steht jetzt schräg vor dem als flachem Modell dargestellten Raster. Save → Reload → Compare wird einmal vollständig durchlaufen; erst danach erscheint PASS.",
+      "camera": "35-mm-Dolly entlang derselben vier Basszellen; deutlich erkennbare Vorher-/Nachher-Positionen.",
+      "transition": "Ein grüner PASS-Rahmen wird zur Kontur der Uhr."
+    },
+    {
+      "id": "S014",
+      "starts_s": {
+        "de": 52.92,
+        "en": 70.66
+      },
+      "mode": "3D",
+      "zone": "desk",
+      "title": "02:00",
+      "action": "Zurück am Tisch: dieselbe Uhr zeigt 02:00. Die Hand lässt die Bildschirmkante los und greift wieder zur Tastatur. Die vorherige Notiz ist erledigt; eine neue liegt bereit.",
+      "camera": "Langsame Rückfahrt von Uhr zu Hand, 50 mm; kein neuer Raum.",
+      "transition": "Die Rückfahrt setzt sich in der Instrumentalpassage fort."
+    },
+    {
+      "id": "S015",
+      "starts_s": {
+        "de": 56.56,
+        "en": 74.5
+      },
+      "mode": "3D",
+      "zone": "room",
+      "title": "Erster Erfolg",
+      "action": "Eine halbe Umkreisung zeigt den ganzen Arbeitsplatz. Die Demo läuft; der Kaffeebecher steht noch voll daneben. In der Monitorreflexion gleitet bereits die nächste Idee ins Bild.",
+      "camera": "Einmalige 120°-Fahrt, Radius 1,4 m; anschliessend kurzer Halt über der Schulter.",
+      "transition": "Reflexion und Bildschirmfläche decken sich."
+    },
+    {
+      "id": "S016",
+      "starts_s": {
+        "de": 63.04,
+        "en": 81.32
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Raus und rein",
+      "action": "Der Auftrag P03 verlässt links das Eingabefeld. Rechts entstehen Antwort, Änderung und Testresultat in dieser Reihenfolge. Kleine IN- und OUT-Zahlen gehören sichtbar zu diesem Auftrag.",
+      "camera": "Zwei Spalten mit einer gemeinsamen horizontalen Achse; keine laufende Textwand.",
+      "transition": "Die Antwort endet, aber unter ihr bleibt eine neue Frage offen."
+    },
+    {
+      "id": "S017",
+      "starts_s": {
+        "de": 66.62,
+        "en": 84.82
+      },
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Der freie Platz",
+      "action": "Der Cursor fährt kurz zum Schliessen-Knopf. Daneben entsteht eine freie Funktionsfläche; die Hand entscheidet sich für das Eingabefeld. Der Stuhl rollt wenige Zentimeter näher an den Tisch.",
+      "camera": "Seitliche 70-mm-Nahaufnahme auf Hand, Trackpad und unteren Monitorrand.",
+      "transition": "Eine vertikale Monitorlinie zieht ins nächste Bild."
+    },
+    {
+      "id": "S018",
+      "starts_s": {
+        "de": 70.1,
+        "en": 88.3
+      },
+      "mode": "hybrid",
+      "zone": "project",
+      "title": "Weniger Nacht, mehr Text",
+      "action": "Links wandert ein Lichtstreifen am Fenster. Rechts wächst der Auftragstapel um bereits bekannte Anforderungen. Beide Bewegungen laufen gegeneinander; die Uhr bleibt die zeitliche Referenz.",
+      "camera": "Ruhige symmetrische Komposition: reales Fenster und schematische Projektflächen. EN-Schnitt ist redaktionell, keine ergänzte Lyric-Zeit.",
+      "transition": "Die Karten ziehen auf eine gemeinsame Frontalebene."
+    },
+    {
+      "id": "S019",
+      "starts_s": {
+        "de": 73.7,
+        "en": 91.88
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Die Sekunde vor dem Titel",
+      "action": "Alles ordnet sich. Der Cursor blinkt einmal, die Demo bleibt sichtbar, und der Nutzungsstreifen sammelt sich als schmale orange Linie am unteren Rand. Der Titel wird noch zurückgehalten.",
+      "camera": "Zentral und nahezu still; keine Kamerapumpe vor dem Einsatz.",
+      "transition": "Harter Schnitt auf H01, an der tatsächlichen Stimme verankert."
+    },
+    {
+      "id": "S020",
+      "starts_s": {
+        "de": 78.66,
+        "en": 96.48
+      },
+      "mode": "2D",
+      "zone": "type",
+      "title": "H01 · TOKEN BURN",
+      "action": "TOKEN steht weiss, BURN orange, beide gross in zwei Zeilen. Die Buchstaben kommen als ein zusammenhängender Schlag ins Bild. In ihren Flächen läuft für einen Moment das bekannte Pattern weiter.",
+      "camera": "Frontal; Schrift bis 72 % Bildbreite, anschliessend mindestens 0,9 s ruhig lesbar.",
+      "transition": "Die untere BURN-Kante wird zum Promptfeld."
+    },
+    {
+      "id": "S021",
+      "starts_s": {
+        "de": 82.56,
+        "en": 99.86
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Noch ein Prompt",
+      "action": "Das Titelgewicht bleibt in der Komposition: Darunter steht eine einzige neue Eingabe. Auf „noch ein“ / „one more“ rastet eine zusätzliche Auftragskarte ein. Die neue Karte verdeckt den Feierabend-Knopf.",
+      "camera": "Feste Mittelachse; kurzer horizontaler Einschub mit klarer Endposition.",
+      "transition": "Ein Kartenrahmen wird zum Umriss des zweiten Titelbilds."
+    },
+    {
+      "id": "S022",
+      "starts_s": {
+        "de": 85.74,
+        "en": 103.52
+      },
+      "mode": "hybrid",
+      "zone": "type",
+      "title": "H02 · Hinter dem Wort",
+      "action": "TOKEN BURN kehrt als dieselbe klare Kontur zurück. Nach der Lesepause erhält die Schrift eine geringe Tiefe; die Kamera fährt an der rechten Kante vorbei zur laufenden Demo dahinter.",
+      "camera": "Erst frontal, danach höchstens 15° Schrägsicht. Keine unlesbare Fahrt durch Buchstaben.",
+      "transition": "Kontur deckungsgleich mit Monitorrahmen; Rückkehr zur Handlung."
+    },
+    {
+      "id": "S023",
+      "starts_s": {
+        "de": 89.14,
+        "en": 106.9
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Den nächsten Stand sehen",
+      "action": "Ein neuer Build wird neben dem vorigen Stand geöffnet. Genau ein zusätzlicher Regler ist sichtbar. Der Blick darf den Unterschied erkennen; der Bildinhalt trägt die Szene auch bei der unsicheren DE-Zeile.",
+      "camera": "Zwei ruhige Ansichten, identisches Raster und identischer Zoom.",
+      "transition": "Die beiden Ansichten werden zu Browser-Tabs."
+    },
+    {
+      "id": "S024",
+      "starts_s": {
+        "de": 92.7,
+        "en": 110.82
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Minus eins, plus zwei",
+      "action": "Ein Browser-Tab schliesst sich. Zwei neue öffnen sich: Vorschau und Export. Die Anzahl erhöht sich sichtbar um eins. Der Nutzungszähler bleibt bestehen.",
+      "camera": "Horizontale Tab-Leiste, grosse Namen, keine winzigen Browserdetails.",
+      "transition": "Der zweite neue Tab kippt als Karte auf den Schreibtisch."
+    },
+    {
+      "id": "S025",
+      "starts_s": {
+        "de": 96.16,
+        "en": 114.34
+      },
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Dieser eine",
+      "action": "Neben dem Laptop liegt eine einzelne Karte: Export. Alle erledigten Karten sind ordentlich gestapelt. Die Hand zieht genau diese letzte Karte wieder vor sich.",
+      "camera": "70-mm-Detail, Hand kommt aus derselben Bildseite wie zuvor.",
+      "transition": "Kartenecke als Match Cut in die folgende Kreisfahrt."
+    },
+    {
+      "id": "S026",
+      "starts_s": {
+        "de": 100.84,
+        "en": 117
+      },
+      "mode": "3D",
+      "zone": "project",
+      "title": "Der Stand von eben",
+      "action": "Die Kamera umkreist drei gespeicherte Projektstände. Das erste kleine Pattern, der ergänzte Regler und die reparierte Bassspur sind gleichzeitig erkennbar. Fortschritt wird räumlich sichtbar.",
+      "camera": "Langsame Kreisbahn mit klarer Vorderseite der Versionen; eine einzige kontinuierliche Fahrt.",
+      "transition": "Die Kamera steigt zur Aufsicht."
+    },
+    {
+      "id": "S027",
+      "starts_s": {
+        "de": 107.9,
+        "en": 120.1
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Der nächste freie Slot",
+      "action": "In der Aufsicht werden die drei Stände zu drei nebeneinanderliegenden Karten. Rechts erscheint ein leerer vierter Slot. Der Cursor fährt genau dorthin. In der kürzeren EN-Passage nur dieser eine Vorgang.",
+      "camera": "Orthogonal, ruhige horizontale Bewegung.",
+      "transition": "Der leere Slot schneidet auf die Uhr."
+    },
+    {
+      "id": "S028",
+      "starts_s": {
+        "de": 115.08,
+        "en": 123.32
+      },
+      "mode": "3D",
+      "zone": "room",
+      "title": "03:00",
+      "action": "Die Uhr steht auf 03:00. Die Totale zeigt dieselben Raumgrenzen, denselben Stuhl und dieselbe Person. Das Projekt ist gewachsen, der Raum nicht.",
+      "camera": "Weite 28-mm-Totale vom Fenster zum Tisch; keine übertriebene Weitwinkelverzerrung.",
+      "transition": "Gerader Vorstoss auf den Monitor."
+    },
+    {
+      "id": "S029",
+      "starts_s": {
+        "de": 118.68,
+        "en": 128.88
+      },
+      "mode": "hybrid",
+      "zone": "project",
+      "title": "Mehr Platz auf dem Screen",
+      "action": "Der Monitor öffnet sich zu einer übersichtlichen Projektansicht mit Versionen, Vorschau und Export. Nur die Darstellung wird räumlich auseinandergezogen; der Schreibtisch bleibt als Referenz im unteren Bild.",
+      "camera": "35-mm-Vorwärtsfahrt, die auf eine orthogonale Übersicht übergeht.",
+      "transition": "Der Exportbereich wächst zur Vollbildfläche."
+    },
+    {
+      "id": "S030",
+      "starts_s": {
+        "de": 122.16,
+        "en": 132.4
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Der Export fehlt",
+      "action": "DE: Der Exportknopf ist noch nicht bereit. EN: Ein Versuch endet mit FAILED. Beide Fassungen zeigen anschliessend dieselbe konkrete Ursache: Der Bassbereich fehlt im Exportdatenmodell.",
+      "camera": "Zwei grosse Blöcke: vier Spuren links, drei exportierte Spuren rechts; fehlende Basszeile als Leerraum.",
+      "transition": "Der Leerraum zieht den Blick zur Antwort des Agenten."
+    },
+    {
+      "id": "S031",
+      "starts_s": {
+        "de": 125.48,
+        "en": 135.88
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Eine gezielte Reparatur",
+      "action": "Der Agent nimmt die fehlende Bassspur in den Export auf. Vier Eingabespuren stehen vier exportierten Spuren gegenüber. Der Vergleich prüft dieselben 64 Schritte; dann erst wird die Datei als fertig angezeigt.",
+      "camera": "Statische geteilte Ansicht; zuerst Änderung, dann Test, dann Ergebnis.",
+      "transition": "Die abgeschlossene Auftragskarte schiebt sich in das Nutzungsjournal."
+    },
+    {
+      "id": "S032",
+      "starts_s": {
+        "de": 128.58,
+        "en": 139.42
+      },
+      "mode": "2D",
+      "zone": "ledger",
+      "title": "Was die Session verbraucht",
+      "action": "Das Nutzungsjournal zeigt Aufträge mit getrennten IN-/OUT-Werten und eine laufende Summe. Darunter stehen Kosten in fiktiven Demo-Credits. Der neue Eintrag ist die gerade abgeschlossene Arbeit, kein beatgesteuerter Fantasiezähler.",
+      "camera": "Frontal, drei klar ausgerichtete Zahlenkolonnen, die älteren Aufträge verblassen leicht.",
+      "transition": "Die Zeitspalte wird zur Schreibtischuhr."
+    },
+    {
+      "id": "S033",
+      "starts_s": {
+        "de": 132.1,
+        "en": 142.94
+      },
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Die Zeit liegt daneben",
+      "action": "Die Kamera zeigt Uhr, Kaffeetasse und den neuen Export in einer ruhigen Diagonale. Neben dem erledigten Auftrag liegt schon die nächste Notiz. Der Cursor bleibt in deren Nähe.",
+      "camera": "50-mm-Fahrt von der Uhr über die Tasse zum Monitor; Motive bleiben im gleichen Raum.",
+      "transition": "Blickanschluss zum Schliessen-Knopf."
+    },
+    {
+      "id": "S034",
+      "starts_s": {
+        "de": 135.96,
+        "en": 146.48
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Speichern, dann gehen",
+      "action": "Save wird bestätigt. Der Cursor hält über Schliessen. Die fertige Demo und die Exportdatei sind vollständig sichtbar. Der nächste Auftrag steht bereits in einer zweiten Zeile, ohne abgesendet zu sein.",
+      "camera": "Unbewegtes Bild mit einer auffälligen Pause in der Cursorbewegung.",
+      "transition": "Die zweite Zeile erhält Fokus und verdrängt den Abschluss."
+    },
+    {
+      "id": "S035",
+      "starts_s": {
+        "de": 139.88,
+        "en": 149.62
+      },
+      "mode": "hybrid",
+      "zone": "project",
+      "title": "Ein weiterer Auftrag",
+      "action": "Die Eingabe wird aktiviert. Ein leerer Antwortbereich öffnet sich hinter ihr. Die Kamera beginnt sich abzusenken; die zweite Refrainrunde bekommt erstmals eine deutlich tiefere Perspektive.",
+      "camera": "Kurze Absenkung von Bildschirmhöhe zur Tischkante; Blick bleibt auf derselben Karte.",
+      "transition": "DE: kurzer Energieeinbruch um 141,9 s, dann H03; EN folgt eigenem Einsatz."
+    },
+    {
+      "id": "S036",
+      "starts_s": {
+        "de": 142.26,
+        "en": 153
+      },
+      "mode": "3D",
+      "zone": "type",
+      "title": "H03 · Die Dimension wächst",
+      "action": "TOKEN BURN steht als kompakte, flache 3D-Schrift vor dem Schreibtisch. Der orange Nutzungsstreifen setzt sich unter den Buchstaben fort. Die Schrift verdeckt kurz den Monitor, danach wird das gewachsene Projekt dahinter sichtbar.",
+      "camera": "Tiefe 35-mm-Sicht, Schrift frontal lesbar; kleiner Dolly zurück statt Orbit.",
+      "transition": "Die Unterkante der Schrift wird zum Auftragsjournal."
+    },
+    {
+      "id": "S037",
+      "starts_s": {
+        "de": 145.82,
+        "en": 156.14
+      },
+      "mode": "2D",
+      "zone": "ledger",
+      "title": "Einer passt noch",
+      "action": "Im Journal schiebt sich eine neue Auftragszeile ein. Die älteren Zeilen bleiben erhalten. „NOCH EIN PROMPT“ / „ONE MORE PROMPT“ steht kurz als klare Zwischenüberschrift über der neuen Zeile.",
+      "camera": "Feste Aufsicht, rhythmischer Einschub; keine Zahl läuft ohne zugehörigen Auftrag.",
+      "transition": "Der neue Zeilenrand streckt sich zum nächsten Titel."
+    },
+    {
+      "id": "S038",
+      "starts_s": {
+        "de": 149.42,
+        "en": 159.8
+      },
+      "mode": "hybrid",
+      "zone": "type",
+      "title": "H04 · Der Titel wird ein Raumteiler",
+      "action": "Ein zweiter TOKEN-BURN-Schlag teilt das Bild vertikal: links Eingabe, rechts Ergebnis. Nach der Lesepause zieht die Kamera seitlich an der Schrift vorbei und verbindet beide Flächen wieder.",
+      "camera": "Erst orthogonal, danach kurze seitliche 40-mm-Fahrt. DE-Anker ist ein unsicheres ASR-Unterfenster und bleibt markiert.",
+      "transition": "Die zwei Flächen werden zum Vorher-/Nachher-Vergleich."
+    },
+    {
+      "id": "S039",
+      "starts_s": {
+        "de": 152.6,
+        "en": 163.18
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Das Resultat",
+      "action": "Der neue Stand enthält Export plus gespeicherte Einstellungen. Ein einzelner Vergleich bestätigt die Änderung. Der Film hält lange genug, um das Ergebnis zu verstehen.",
+      "camera": "Frontaler Vergleich in derselben Geometrie wie S023, jetzt mit erweitertem Inhalt.",
+      "transition": "Die beiden Vergleichskarten rücken nach oben in die Tab-Leiste."
+    },
+    {
+      "id": "S040",
+      "starts_s": {
+        "de": 156.16,
+        "en": 166.9
+      },
+      "mode": "3D",
+      "zone": "project",
+      "title": "Tabs mit Geschichte",
+      "action": "Die Tab-Karten stehen nun räumlich hintereinander. Eine schliesst sich, zwei kommen hinzu. Ihre Vorschaubilder zeigen echte frühere Zustände dieser Demo; keine zufälligen Fenster.",
+      "camera": "Seitlicher 50-mm-Tracking-Shot entlang der Kartenreihe; neue Karten bleiben vorne.",
+      "transition": "Vorderste Karte fährt deckungsgleich auf den Tisch."
+    },
+    {
+      "id": "S041",
+      "starts_s": {
+        "de": 159.68,
+        "en": 170.58
+      },
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Die Hand bleibt",
+      "action": "Die Hand liegt an der Laptopkante, zieht sich zurück und greift erneut zum Trackpad. Die Kamera fährt in die Gegenrichtung zum ersten Refrain: diesmal näher heran.",
+      "camera": "70-mm-Nahfahrt auf Hand und Scharnier, dann kurzer ruhiger Halt.",
+      "transition": "Die Hand verlässt das Bild; Tageslicht übernimmt den Rand."
+    },
+    {
+      "id": "S042",
+      "starts_s": {
+        "de": 164.28,
+        "en": 173.08
+      },
+      "mode": "3D",
+      "zone": "room",
+      "title": "Die Nacht kippt",
+      "action": "Vom Monitor weg öffnet sich erstmals der Blick ganz zum Fenster. Die Hausfassade gegenüber bekommt Konturen. Der Raum bleibt derselbe; die Kamera entdeckt jetzt, wie spät es geworden ist.",
+      "camera": "Eine langsame 90°-Schwenkfahrt vom Bildschirm zur Aussenwelt, kein Kamerawackeln.",
+      "transition": "Lichtstreifen auf Glas wird zur Kante der Kaffeetasse."
+    },
+    {
+      "id": "S043",
+      "starts_s": {
+        "de": 171.58,
+        "en": 182.3
+      },
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Kalter Kaffee",
+      "action": "Der Becher steht unbewegt. Die Oberfläche ist ruhig, Dampf ist nicht mehr vorhanden. Im Glas daneben liegt das helle Fenster. Im Hintergrund arbeitet der Bildschirm weiter.",
+      "camera": "85-mm-Makro, langsame Fokusfahrt von Tassenrand zu Fensterreflexion.",
+      "transition": "Der helle Reflex führt zurück auf eine neue Antwort."
+    },
+    {
+      "id": "S044",
+      "starts_s": {
+        "de": 175.12,
+        "en": 185.66
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Eine Antwort, die man wirklich liest",
+      "action": "Eine kurze Antwort mit genau einer Änderung und einem Testergebnis erscheint. Die Cursorposition wandert zeilenweise. Drei weitere UI-Flächen bleiben still; der Film gönnt dem Lesen Raum.",
+      "camera": "Orthogonal, breite Zeilenabstände, höchstens drei Zeilen gleichzeitig.",
+      "transition": "Unter der Antwort taucht die ursprüngliche Notiz wieder auf."
+    },
+    {
+      "id": "S045",
+      "starts_s": {
+        "de": 178.66,
+        "en": 188.98
+      },
+      "mode": "hybrid",
+      "zone": "desk",
+      "title": "Die gleiche kleine Bitte",
+      "action": "Die Notiz vom Anfang liegt neben dem aktuellen Stand. Ihre Position stimmt mit S002 überein. Die Kamera zieht so weit zurück, dass die vielen erledigten Karten dahinter sichtbar werden.",
+      "camera": "50-mm-Zug rückwärts aus flacher UI in räumlichen Tisch; leichter Schatten macht den Übergang lesbar.",
+      "transition": "Die ursprüngliche Notiz bleibt vorne im Bild."
+    },
+    {
+      "id": "S046",
+      "starts_s": {
+        "de": 182.22,
+        "en": 192.48
+      },
+      "mode": "3D",
+      "zone": "room",
+      "title": "Ich bleib noch hier",
+      "action": "Ein grosses, ruhiges Bild: heller werdendes Fenster, Person am Tisch, laufendes Projekt. Die Person richtet sich auf und bleibt. Der nächste Titel kündigt sich nur durch eine orange Kante am Monitor an.",
+      "camera": "Feste 35-mm-Halbtotale; sechs Sekunden dürfen ohne neuen Schnitt tragen.",
+      "transition": "Harter Wechsel von räumlicher Ruhe auf helle Typografie."
+    },
+    {
+      "id": "S047",
+      "starts_s": {
+        "de": 188.46,
+        "en": 198.56
+      },
+      "mode": "2D",
+      "zone": "type",
+      "title": "H05 · Tageslicht-Version",
+      "action": "TOKEN BURN füllt das helle Bild. TOKEN ist jetzt tiefschwarz, BURN orange. Die Form ist dieselbe wie H01, die Wirkung grösser durch die Umkehr des Kontrasts. Der Fensterschatten läuft langsam unter der Schrift weiter.",
+      "camera": "Rein frontal und gross; kein Bloom auf der hellen Fläche.",
+      "transition": "Der Fensterschatten wird zur Trennlinie des Promptfelds."
+    },
+    {
+      "id": "S048",
+      "starts_s": {
+        "de": 191.68,
+        "en": 201.7
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Noch immer ein Prompt",
+      "action": "Die neue Eingabe erscheint auf der hellen Oberfläche. Ein kleiner Stapel erledigter Aufträge steht links; rechts bleibt Platz für genau die neue Zeile. Die Session ist produktiv und offen.",
+      "camera": "Frontal, gleiche Mittelachse wie S021, andere Helligkeit und grösserer sichtbarer Fortschritt.",
+      "transition": "Die Eingabe klappt nach hinten, der letzte grosse Titel bleibt vorn."
+    },
+    {
+      "id": "S049",
+      "starts_s": {
+        "de": 195.18,
+        "en": 205.58
+      },
+      "mode": "hybrid",
+      "zone": "type",
+      "title": "H06 · Das ganze Projekt dahinter",
+      "action": "TOKEN BURN steht ein letztes Mal dominant in zwei Zeilen. In den Buchstaben ist kurz eine zusammenhängende Übersicht aller Projektstände zu sehen. Dann fahren die Buchstaben nach oben aus dem Bild und geben den fertigen aktuellen Stand frei.",
+      "camera": "Frontaler Titel; danach 35-mm-Rückfahrt, während die Schrift als lesbare Fläche aufrecht bleibt.",
+      "transition": "Die Projektübersicht füllt die freigegebene Bildfläche."
+    },
+    {
+      "id": "S050",
+      "starts_s": {
+        "de": 198.58,
+        "en": 208.68
+      },
+      "mode": "3D",
+      "zone": "project",
+      "title": "Alles ist derselbe Stand",
+      "action": "Die Kamera streift am Export vorbei, passiert die gespeicherten Einstellungen und endet bei der laufenden Vorschau. Alle drei zeigen dieselbe Versionsnummer.",
+      "camera": "Kontinuierliche diagonale Fahrt mit drei klaren Stationen; keine neuen abstrakten Räume.",
+      "transition": "Die Versionsnummer wird zum aktiven Browser-Tab."
+    },
+    {
+      "id": "S051",
+      "starts_s": {
+        "de": 202.06,
+        "en": 212.42
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Ein Tab zu, zwei offen",
+      "action": "Der Tab-Wechsel wiederholt das bekannte Motiv exakt: einer schliesst, zwei kommen hinein. Diesmal stehen die neuen Tabs ruhig nebeneinander. Beide gehören zur nächsten Idee; der Verbrauchszähler läuft weiter.",
+      "camera": "Die Bewegung beginnt schnell und endet in vollständiger Ruhe.",
+      "transition": "Der rechte Tab reduziert sich auf eine einzelne Notiz."
+    },
+    {
+      "id": "S052",
+      "starts_s": {
+        "de": 205.54,
+        "en": 216.04
+      },
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Nur dieser eine",
+      "action": "Eine einzige Notiz liegt wieder vorne am Tisch. Hinter ihr liegen die vielen erledigten Karten aus der Nacht. Die Kamera fährt nach oben und zeigt den Unterschied zwischen dem kleinen neuen Wunsch und dem bereits gebauten Projekt.",
+      "camera": "Vertikaler Kran von 70-mm-Detail zur klaren Tischaufsicht, keine zusätzliche Drehung.",
+      "transition": "Die Aufsicht hält über den folgenden Instrumentaltakten."
+    },
+    {
+      "id": "S053",
+      "starts_s": {
+        "de": 209.98,
+        "en": 218.42
+      },
+      "mode": "3D",
+      "zone": "room",
+      "title": "Der fast fertige Abschied",
+      "action": "Die Kamera fährt langsam aus dem Arbeitsplatz zurück. Die Hand bleibt einen Moment ganz still. Gerade als sich die Komposition wie ein Schlussbild anfühlt, bewegt sich der Cursor wieder.",
+      "camera": "Rückfahrt von Halbtotale zur Raumtotalen, dann Halt; die EN-Passage bekommt einen längeren Ruhepunkt.",
+      "transition": "Schnitt zurück auf den einen aktiven Cursor."
+    },
+    {
+      "id": "S054",
+      "starts_s": {
+        "de": 215.6,
+        "en": 225.64
+      },
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Der letzte Auftrag steht bereit",
+      "action": "Die neue Eingabe steht vollständig da: „Preset speichern“ / „Save a preset“. Der Sendeknopf ist noch unberührt. Im Hintergrund bleibt der gerade erreichte Stand sichtbar; es wird nichts zurückgesetzt.",
+      "camera": "Eine grosse ruhige Eingabefläche, Cursor am Ende, ausreichend Lesezeit.",
+      "transition": "Der Cursor bewegt sich zur Sendetaste und löst den nächsten Shot aus."
+    },
+    {
+      "id": "S055",
+      "starts_s": {
+        "de": 223.26,
+        "en": 232.58
+      },
+      "mode": "hybrid",
+      "zone": "desk",
+      "title": "SEND",
+      "action": "Der Auftrag P06 wird abgesendet. SEND ist für einen kurzen Moment gross und prägnant, dann rückt die Schrift in den echten Knopf zurück. Die Kamera verlässt den Bildschirm und zeigt wieder die Hand am Trackpad.",
+      "camera": "Match Cut vom 2D-Knopf zum realen Trackpad; leichte 50-mm-Rückfahrt.",
+      "transition": "Die Bewegung geht ohne neuen Impuls in den Ausklang über."
+    },
+    {
+      "id": "S056",
+      "starts_s": {
+        "de": 227.84,
+        "en": 234.34
+      },
+      "mode": "3D",
+      "zone": "room",
+      "title": "Es läuft weiter",
+      "action": "Der Bildschirm zeigt eine laufende Antwort. Die Person bleibt sitzen, die Kamera zieht rückwärts Richtung Fenster. Die neue Aufgabe wird bewusst noch nicht abgeschlossen.",
+      "camera": "35-mm-Rückfahrt auf dem umgekehrten Weg von S001, aber im Morgenlicht.",
+      "transition": "Der Fensterrahmen rahmt den Arbeitsplatz ein."
+    },
+    {
+      "id": "S057",
+      "starts_s": {
+        "de": 234,
+        "en": 239.3
+      },
+      "mode": "3D",
+      "zone": "exterior",
+      "title": "Dasselbe Fenster am Morgen",
+      "action": "Die Kamera ist wieder vor der Fassade. Das zuvor einzige helle Fenster ist nun eines von vielen sichtbaren Fenstern im Tageslicht. Im eigenen Fenster bleibt der Cursor als kleiner Lichtpunkt erkennbar.",
+      "camera": "Langsamer gerader Rückzug; keine neue Stadtlandschaft, kein weiterer Titelblock.",
+      "transition": "Der Lichtpunkt bleibt bis zur gemessenen Schlussabnahme stehen."
+    },
+    {
+      "id": "S058",
+      "starts_s": {
+        "de": 240,
+        "en": 244.8
+      },
+      "mode": "2D",
+      "zone": "end",
+      "title": "Der Cursor bleibt zuletzt",
+      "action": "Die Fassade und das Fenster gehen mit dem gemessenen Endabfall zurück. Ein kleiner Cursor bleibt kurz stehen und verschwindet erst am Audioende. Keine zusätzliche Schlussbehauptung, keine fertige Antwort.",
+      "camera": "Feste Komposition; globale Blende aus tatsächlichem Pegelverlauf mit monotonichem Endverschluss.",
+      "transition": "Schwarz exakt am Ende der jeweiligen WAV; letztes Rasterbild vollständig halten."
+    }
+  ]
+}

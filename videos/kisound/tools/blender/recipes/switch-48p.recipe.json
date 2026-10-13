@@ -1,0 +1,263 @@
+{
+  "description": "1U access switch, 48 hollow RJ45 cages in two rows plus four SFP bays. Scene S04 hop 1/8: the frame leaves and re-enters the copper here. Real scale in metres (19\" chassis, 44.5 mm high).",
+  "budgetTris": 400000,
+  "materials": {
+    "chassis": {
+      "color": [
+        0.03,
+        0.035,
+        0.042
+      ],
+      "roughness": 0.45,
+      "metallic": 0.85
+    },
+    "cage": {
+      "color": [
+        0.085,
+        0.092,
+        0.1
+      ],
+      "roughness": 0.3,
+      "metallic": 1.0
+    },
+    "cavity": {
+      "color": [
+        0.004,
+        0.006,
+        0.009
+      ],
+      "roughness": 0.9
+    },
+    "contact": {
+      "color": [
+        0.72,
+        0.55,
+        0.18
+      ],
+      "roughness": 0.25,
+      "metallic": 1.0
+    },
+    "led": {
+      "color": [
+        0.05,
+        0.35,
+        0.18
+      ],
+      "roughness": 0.4,
+      "emission": [
+        0.15,
+        1.0,
+        0.45
+      ],
+      "emissionStrength": 3.0
+    },
+    "plastic": {
+      "color": [
+        0.045,
+        0.05,
+        0.058
+      ],
+      "roughness": 0.7
+    }
+  },
+  "parts": [
+    {
+      "id": "chassis",
+      "kind": "box",
+      "size": [
+        0.44,
+        0.3,
+        0.0445
+      ],
+      "at": [
+        0,
+        0,
+        0
+      ],
+      "material": "chassis",
+      "bevel": 0.0012
+    },
+    {
+      "id": "ear_l",
+      "kind": "box",
+      "size": [
+        0.016,
+        0.03,
+        0.0445
+      ],
+      "at": [
+        -0.228,
+        -0.134,
+        0
+      ],
+      "material": "chassis",
+      "bevel": 0.0008
+    },
+    {
+      "id": "ear_r",
+      "kind": "box",
+      "size": [
+        0.016,
+        0.03,
+        0.0445
+      ],
+      "at": [
+        0.228,
+        -0.134,
+        0
+      ],
+      "material": "chassis",
+      "bevel": 0.0008
+    },
+    {
+      "id": "sw",
+      "kind": "portRow",
+      "count": 24,
+      "rows": 2,
+      "pitch": 0.0152,
+      "rowPitch": 0.0176,
+      "cage": [
+        0.0134,
+        0.0102,
+        0.015
+      ],
+      "at": [
+        -0.0455,
+        -0.1465,
+        -0.0088
+      ],
+      "material": "cage",
+      "innerMaterial": "cavity",
+      "wall": 0.0013
+    },
+    {
+      "id": "sfp",
+      "kind": "portRow",
+      "count": 4,
+      "pitch": 0.0152,
+      "cage": [
+        0.0138,
+        0.014,
+        0.0108
+      ],
+      "at": [
+        0.1755,
+        -0.148,
+        0.0
+      ],
+      "material": "cage",
+      "innerMaterial": "cavity",
+      "wall": 0.0014
+    },
+    {
+      "id": "vents",
+      "kind": "grid",
+      "count": [
+        26,
+        2
+      ],
+      "pitch": [
+        0.0062,
+        0.009
+      ],
+      "size": [
+        0.003,
+        0.018,
+        0.003
+      ],
+      "at": [
+        0.0,
+        0.115,
+        0.0
+      ],
+      "material": "cavity",
+      "plane": "xz"
+    },
+    {
+      "id": "sysled",
+      "kind": "array",
+      "count": 4,
+      "pitch": 0.009,
+      "axis": "x",
+      "size": [
+        0.003,
+        0.0012,
+        0.0018
+      ],
+      "at": [
+        -0.2,
+        -0.1505,
+        0.014
+      ],
+      "material": "led",
+      "anchor": true
+    },
+    {
+      "id": "cam.front",
+      "kind": "anchor",
+      "at": [
+        0.02,
+        -0.42,
+        0.09
+      ],
+      "props": {
+        "fov": 32,
+        "look": "faceplate"
+      }
+    },
+    {
+      "id": "cam.macro",
+      "kind": "anchor",
+      "at": [
+        -0.046,
+        -0.085,
+        0.02
+      ],
+      "props": {
+        "fov": 26,
+        "look": "sw.port.13"
+      }
+    },
+    {
+      "id": "cam.rack",
+      "kind": "anchor",
+      "at": [
+        0.55,
+        -0.7,
+        0.34
+      ],
+      "props": {
+        "fov": 40,
+        "look": "chassis"
+      }
+    },
+    {
+      "id": "through",
+      "kind": "path",
+      "points": [
+        [
+          -0.0455,
+          -0.24,
+          -0.0088
+        ],
+        [
+          -0.0455,
+          -0.155,
+          -0.0088
+        ],
+        [
+          -0.0455,
+          -0.1,
+          -0.0088
+        ],
+        [
+          -0.0455,
+          0.16,
+          -0.0088
+        ]
+      ]
+    }
+  ],
+  "id": "switch-48p",
+  "mergeByMaterial": true
+}

@@ -1,0 +1,8 @@
+Genre: Grime / UK Bass, elektronischer 140-BPM-Rap, kein Techno.
+Tempo: 140 BPM, halbe Zeit im Gefühl
+Sound: Kantiger Square-Wave-Bass, tiefe 808-Subs mit Slides, trockene Snare auf drei, schnelle Hi-Hat-Rolls, eisige Synth-Pizzicati, kurze Stille-Lücken vor den Drops, Terminal-Piepser und Tastenanschläge als Rhythmusakzente.
+Vocals: Männlicher Rap, schnell, präzise, trocken und nah, leicht rau; Hook rhythmisch gechantet mit Doppelung; Bridge als hartes Wortstakkato.
+Vibe: Kalt, schnell, verspielt-präzise.
+Mood: Fokussiert, zuversichtlich.
+Ablauf: Kurzes trockenes Intro, dann voller Beat; nach jedem Refrain acht Takte Bass-Riff; Bridge nur Kick, Bass und Wortstakkato; Schlussrefrain voll. Ziel 3:15.
+Hinweise: Gesang auf Englisch; npm als N-P-M, klare Konsonanten. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

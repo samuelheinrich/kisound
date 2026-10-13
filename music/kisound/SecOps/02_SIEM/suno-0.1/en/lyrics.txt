@@ -1,0 +1,54 @@
+[Intro]
+Five thousand events per second.
+Correlation running.
+
+[Verse 1]
+Firewall, proxy, Active Directory, EDR and mail,
+every source sends its log, every line a small detail.
+Normalized: time, source, target, user and action,
+a thousand formats folded into one clean abstraction.
+My rule: one source, fifty accounts, one try each,
+then a login that works, and the alert's within reach.
+
+[Chorus]
+SIEM.
+Correlation.
+SIEM.
+Noise turned into information.
+One event alone says nothing at all,
+together they show the pattern, that's all.
+
+[Verse 2]
+Half past three it fires: one address on the VPN portal,
+fifty accounts, one try each, one password for them all.
+"Autumn twenty twenty-six" worked on account forty-nine,
+an old intern account, no MFA, forgotten down the line.
+Account locked, sessions killed, the address blocked,
+every orphaned account removed before the next door's knocked.
+
+[Chorus]
+SIEM.
+Correlation.
+SIEM.
+Noise turned into information.
+One event alone says nothing at all,
+together they show the pattern, that's all.
+
+[Bridge]
+One line is chance,
+two lines raise a doubt,
+fifty lines a pattern,
+and that's what it's about.
+
+[Chorus]
+SIEM.
+Correlation.
+SIEM.
+Noise turned into information.
+One event alone says nothing at all,
+together they show the pattern, that's all.
+
+[Outro]
+Five thousand events per second.
+One alert.
+The right one.

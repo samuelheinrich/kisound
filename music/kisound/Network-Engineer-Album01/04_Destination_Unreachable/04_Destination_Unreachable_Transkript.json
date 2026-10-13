@@ -1,0 +1,508 @@
+{
+  "title": "Destination Unreachable",
+  "source_audio": "04_Destination_Unreachable_0.3-1.wav",
+  "source_audio_sha256": "883d8e9f06995b5c82548cfb54a74ecf08ae89f825a1f92ab8613dd1807ef9c3",
+  "duration_seconds": 259.800979,
+  "languages": [
+    "en"
+  ],
+  "time_origin": "Beginn der WAV-Datei bei 0 Sekunden",
+  "sections": [
+    {
+      "title": "Pulse",
+      "first_vocal_start": 3.6600000000000006,
+      "last_vocal_end": 28.34
+    },
+    {
+      "title": "Spoken",
+      "first_vocal_start": 30.739999999999995,
+      "last_vocal_end": 43.2
+    },
+    {
+      "title": "Hook",
+      "first_vocal_start": 45.35999999999999,
+      "last_vocal_end": 69.36
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 81.72,
+      "last_vocal_end": 106.7
+    },
+    {
+      "title": "Break",
+      "first_vocal_start": 110.18,
+      "last_vocal_end": 122.82
+    },
+    {
+      "title": "Final Hook",
+      "first_vocal_start": 132.34,
+      "last_vocal_end": 156.62
+    },
+    {
+      "title": "Finale",
+      "first_vocal_start": 163.79999999999998,
+      "last_vocal_end": 255.94
+    }
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "start": 3.66,
+      "end": 5.06,
+      "start_timecode": "00:00:03.660",
+      "end_timecode": "00:00:05.060",
+      "text": "Destination unreachable.",
+      "section": "Pulse"
+    },
+    {
+      "id": 2,
+      "start": 6.46,
+      "end": 9.68,
+      "start_timecode": "00:00:06.460",
+      "end_timecode": "00:00:09.680",
+      "text": "Time exceeded.",
+      "section": "Pulse"
+    },
+    {
+      "id": 3,
+      "start": 9.68,
+      "end": 11.46,
+      "start_timecode": "00:00:09.680",
+      "end_timecode": "00:00:11.460",
+      "text": "No reply.",
+      "section": "Pulse"
+    },
+    {
+      "id": 4,
+      "start": 14.86,
+      "end": 15.96,
+      "start_timecode": "00:00:14.860",
+      "end_timecode": "00:00:15.960",
+      "text": "Packet lost.",
+      "section": "Pulse"
+    },
+    {
+      "id": 5,
+      "start": 15.96,
+      "end": 17.92,
+      "start_timecode": "00:00:15.960",
+      "end_timecode": "00:00:17.920",
+      "text": "Blackhole route.",
+      "section": "Pulse"
+    },
+    {
+      "id": 6,
+      "start": 17.92,
+      "end": 19.74,
+      "start_timecode": "00:00:17.920",
+      "end_timecode": "00:00:19.740",
+      "text": "TTL expired.",
+      "section": "Pulse"
+    },
+    {
+      "id": 7,
+      "start": 20.64,
+      "end": 23.44,
+      "start_timecode": "00:00:20.640",
+      "end_timecode": "00:00:23.440",
+      "text": "Trace the path.",
+      "section": "Pulse"
+    },
+    {
+      "id": 8,
+      "start": 23.44,
+      "end": 24.8,
+      "start_timecode": "00:00:23.440",
+      "end_timecode": "00:00:24.800",
+      "text": "Hop by hop.",
+      "section": "Pulse"
+    },
+    {
+      "id": 9,
+      "start": 27.06,
+      "end": 28.34,
+      "start_timecode": "00:00:27.060",
+      "end_timecode": "00:00:28.340",
+      "text": "No return.",
+      "section": "Pulse"
+    },
+    {
+      "id": 10,
+      "start": 30.74,
+      "end": 32.52,
+      "start_timecode": "00:00:30.740",
+      "end_timecode": "00:00:32.520",
+      "text": "I sent a signal into the core.",
+      "section": "Spoken"
+    },
+    {
+      "id": 11,
+      "start": 33.1,
+      "end": 35.24,
+      "start_timecode": "00:00:33.100",
+      "end_timecode": "00:00:35.240",
+      "text": "It crossed the edge and vanished.",
+      "section": "Spoken"
+    },
+    {
+      "id": 12,
+      "start": 36.78,
+      "end": 38.08,
+      "start_timecode": "00:00:36.780",
+      "end_timecode": "00:00:38.080",
+      "text": "No alarm.",
+      "section": "Spoken"
+    },
+    {
+      "id": 13,
+      "start": 38.08,
+      "end": 39.42,
+      "start_timecode": "00:00:38.080",
+      "end_timecode": "00:00:39.420",
+      "text": "No answer.",
+      "section": "Spoken"
+    },
+    {
+      "id": 14,
+      "start": 41.44,
+      "end": 43.2,
+      "start_timecode": "00:00:41.440",
+      "end_timecode": "00:00:43.200",
+      "text": "Only silence from the next hop.",
+      "section": "Spoken"
+    },
+    {
+      "id": 15,
+      "start": 45.36,
+      "end": 46.68,
+      "start_timecode": "00:00:45.360",
+      "end_timecode": "00:00:46.680",
+      "text": "Where did the packet go?",
+      "section": "Hook"
+    },
+    {
+      "id": 16,
+      "start": 49.28,
+      "end": 50.76,
+      "start_timecode": "00:00:49.280",
+      "end_timecode": "00:00:50.760",
+      "text": "Nobody knows.",
+      "section": "Hook"
+    },
+    {
+      "id": 17,
+      "start": 52.54,
+      "end": 53.94,
+      "start_timecode": "00:00:52.540",
+      "end_timecode": "00:00:53.940",
+      "text": "Where did the packet go?",
+      "section": "Hook"
+    },
+    {
+      "id": 18,
+      "start": 55.2,
+      "end": 58.3,
+      "start_timecode": "00:00:55.200",
+      "end_timecode": "00:00:58.300",
+      "text": "The blackhole grows.",
+      "section": "Hook"
+    },
+    {
+      "id": 19,
+      "start": 58.44,
+      "end": 59.06,
+      "start_timecode": "00:00:58.440",
+      "end_timecode": "00:00:59.060",
+      "text": "Send it again.",
+      "section": "Hook"
+    },
+    {
+      "id": 20,
+      "start": 59.88,
+      "end": 61.46,
+      "start_timecode": "00:00:59.880",
+      "end_timecode": "00:01:01.460",
+      "text": "Watch it fall.",
+      "section": "Hook"
+    },
+    {
+      "id": 21,
+      "start": 61.98,
+      "end": 63.02,
+      "start_timecode": "00:01:01.980",
+      "end_timecode": "00:01:03.020",
+      "text": "Destination unreachable.",
+      "section": "Hook"
+    },
+    {
+      "id": 22,
+      "start": 65.26,
+      "end": 69.36,
+      "start_timecode": "00:01:05.260",
+      "end_timecode": "00:01:09.360",
+      "text": "No route at all.",
+      "section": "Hook"
+    },
+    {
+      "id": 23,
+      "start": 81.72,
+      "end": 83.36,
+      "start_timecode": "00:01:21.720",
+      "end_timecode": "00:01:23.360",
+      "text": "Traceroute counting through the dark,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 24,
+      "start": 83.36,
+      "end": 85.8,
+      "start_timecode": "00:01:23.360",
+      "end_timecode": "00:01:25.800",
+      "text": "every hop leaves a fading mark.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 25,
+      "start": 87.06,
+      "end": 90.6,
+      "start_timecode": "00:01:27.060",
+      "end_timecode": "00:01:30.600",
+      "text": "Firewall quiet, routing cold,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 26,
+      "start": 90.6,
+      "end": 93.42,
+      "start_timecode": "00:01:30.600",
+      "end_timecode": "00:01:33.420",
+      "text": "one lost prefix breaks the road.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 27,
+      "start": 94.26,
+      "end": 97.26,
+      "start_timecode": "00:01:34.260",
+      "end_timecode": "00:01:37.260",
+      "text": "Echo request into the night,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 28,
+      "start": 97.8,
+      "end": 100.68,
+      "start_timecode": "00:01:37.800",
+      "end_timecode": "00:01:40.680",
+      "text": "echo reply stays out of sight.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 29,
+      "start": 101.4,
+      "end": 104.46,
+      "start_timecode": "00:01:41.400",
+      "end_timecode": "00:01:44.460",
+      "text": "Metrics shift and tables turn,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 30,
+      "start": 104.98,
+      "end": 106.7,
+      "start_timecode": "00:01:44.980",
+      "end_timecode": "00:01:46.700",
+      "text": "still no path for the packet to return.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 31,
+      "start": 110.18,
+      "end": 110.8,
+      "start_timecode": "00:01:50.180",
+      "end_timecode": "00:01:50.800",
+      "text": "TTL expired.",
+      "section": "Break"
+    },
+    {
+      "id": 32,
+      "start": 111.1,
+      "end": 111.8,
+      "start_timecode": "00:01:51.100",
+      "end_timecode": "00:01:51.800",
+      "text": "Next hop gone.",
+      "section": "Break"
+    },
+    {
+      "id": 33,
+      "start": 112.32,
+      "end": 114.42,
+      "start_timecode": "00:01:52.320",
+      "end_timecode": "00:01:54.420",
+      "text": "Silent gateway.",
+      "section": "Break"
+    },
+    {
+      "id": 34,
+      "start": 114.88,
+      "end": 115.56,
+      "start_timecode": "00:01:54.880",
+      "end_timecode": "00:01:55.560",
+      "text": "Moving on.",
+      "section": "Break"
+    },
+    {
+      "id": 35,
+      "start": 116.1,
+      "end": 118.04,
+      "start_timecode": "00:01:56.100",
+      "end_timecode": "00:01:58.040",
+      "text": "ICMP.",
+      "section": "Break"
+    },
+    {
+      "id": 36,
+      "start": 118.54,
+      "end": 118.98,
+      "start_timecode": "00:01:58.540",
+      "end_timecode": "00:01:58.980",
+      "text": "No reply.",
+      "section": "Break"
+    },
+    {
+      "id": 37,
+      "start": 119.68,
+      "end": 121.48,
+      "start_timecode": "00:01:59.680",
+      "end_timecode": "00:02:01.480",
+      "text": "Packets fall.",
+      "section": "Break"
+    },
+    {
+      "id": 38,
+      "start": 122.08,
+      "end": 122.82,
+      "start_timecode": "00:02:02.080",
+      "end_timecode": "00:02:02.820",
+      "text": "Signals die.",
+      "section": "Break"
+    },
+    {
+      "id": 39,
+      "start": 132.34,
+      "end": 133.96,
+      "start_timecode": "00:02:12.340",
+      "end_timecode": "00:02:13.960",
+      "text": "Where did the packet go?",
+      "section": "Final Hook"
+    },
+    {
+      "id": 40,
+      "start": 136.26,
+      "end": 138.04,
+      "start_timecode": "00:02:16.260",
+      "end_timecode": "00:02:18.040",
+      "text": "Nobody knows.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 41,
+      "start": 139.54,
+      "end": 141.22,
+      "start_timecode": "00:02:19.540",
+      "end_timecode": "00:02:21.220",
+      "text": "Where did the packet go?",
+      "section": "Final Hook"
+    },
+    {
+      "id": 42,
+      "start": 143.2,
+      "end": 145.56,
+      "start_timecode": "00:02:23.200",
+      "end_timecode": "00:02:25.560",
+      "text": "The blackhole grows.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 43,
+      "start": 145.56,
+      "end": 146.32,
+      "start_timecode": "00:02:25.560",
+      "end_timecode": "00:02:26.320",
+      "text": "Send it again.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 44,
+      "start": 146.78,
+      "end": 148.72,
+      "start_timecode": "00:02:26.780",
+      "end_timecode": "00:02:28.720",
+      "text": "Watch it fall.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 45,
+      "start": 148.72,
+      "end": 150.66,
+      "start_timecode": "00:02:28.720",
+      "end_timecode": "00:02:30.660",
+      "text": "Destination unreachable.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 46,
+      "start": 153.68,
+      "end": 156.62,
+      "start_timecode": "00:02:33.680",
+      "end_timecode": "00:02:36.620",
+      "text": "No route at all.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 47,
+      "start": 163.8,
+      "end": 165.2,
+      "start_timecode": "00:02:43.800",
+      "end_timecode": "00:02:45.200",
+      "text": "Destination unreachable.",
+      "section": "Finale"
+    },
+    {
+      "id": 48,
+      "start": 165.2,
+      "end": 166.5,
+      "start_timecode": "00:02:45.200",
+      "end_timecode": "00:02:46.500",
+      "text": "Destination unreachable.",
+      "section": "Finale"
+    },
+    {
+      "id": 49,
+      "start": 171.06,
+      "end": 172.46,
+      "start_timecode": "00:02:51.060",
+      "end_timecode": "00:02:52.460",
+      "text": "Destination unreachable.",
+      "section": "Finale"
+    },
+    {
+      "id": 50,
+      "start": 251.08,
+      "end": 252.8,
+      "start_timecode": "00:04:11.080",
+      "end_timecode": "00:04:12.800",
+      "text": "Destination unreachable.",
+      "section": "Finale"
+    },
+    {
+      "id": 51,
+      "start": 254.54,
+      "end": 255.94,
+      "start_timecode": "00:04:14.540",
+      "end_timecode": "00:04:15.940",
+      "text": "Destination unreachable.",
+      "section": "Finale"
+    }
+  ]
+}

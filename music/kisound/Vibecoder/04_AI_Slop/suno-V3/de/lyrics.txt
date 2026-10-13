@@ -1,0 +1,59 @@
+[Intro]
+Ich wollt nur einen Knopf.
+Plus dreitausend Zeilen.
+
+[Verse 1]
+Ich frag nach einem Knopf, der die Liste sortiert,
+der Agent baut vierzehn Dateien, alles schön strukturiert.
+Ein Helper für den Helper, ein Service für den Klick,
+eine Factory, ein Adapter, und der Knopf ist noch nicht fit.
+Kommentare über jeder Zeile: „Diese Funktion addiert“,
+darunter steht die Addition, falls man's nicht kapiert.
+
+[Pre-Chorus]
+formatDate, formatDate2,
+formatDateNew ist auch dabei.
+Ich scroll den Diff, er hört nicht auf,
+plus dreitausend, minus zwölf, und weiter rauf.
+
+[Chorus]
+AI Slop.
+Plus dreitausend, minus zwölf.
+AI Slop.
+Vierzehn Files, und keins, das hilft.
+Ich lösch und lösch, der Diff wird klein:
+ein Knopf, zehn Zeilen. So soll's sein.
+
+[Verse 2]
+console.log „hier“, console.log „hier zwei“,
+ein try-catch um alles, schluckt jeden Fehler still dabei.
+Drei Pakete für ein Datum, node_modules wird schwer,
+der Ordner wächst und wächst, der Knopf kann noch nicht mehr.
+Und ehrlich: Letzte Woche hab ich so was durchgewinkt,
+jetzt les ich meinen eignen Diff und merk, dass er nach mir klingt.
+
+[Chorus]
+AI Slop.
+Plus dreitausend, minus zwölf.
+AI Slop.
+Vierzehn Files, und keins, das hilft.
+Ich lösch und lösch, der Diff wird klein:
+ein Knopf, zehn Zeilen. So soll's sein.
+
+[Bridge]
+Lösch den Helper. Lösch den Wrapper.
+Lösch die Factory. Lösch den Mapper.
+Ein Knopf. Eine Funktion. Ein Test.
+Commit.
+
+[Chorus]
+AI Slop.
+Plus dreitausend, minus zwölf.
+AI Slop.
+Vierzehn Files, und keins, das hilft.
+Ich lösch und lösch, der Diff wird klein:
+ein Knopf, zehn Zeilen. So soll's sein.
+
+[Outro]
+Plus zehn. Minus dreitausend.
+Der Knopf sortiert.

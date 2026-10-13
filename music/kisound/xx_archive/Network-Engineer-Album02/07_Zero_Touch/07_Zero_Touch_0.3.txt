@@ -1,0 +1,98 @@
+VERSION: 0.3
+ALBUM: Network Engineer 02
+TRACK: 07 - Zero Touch
+THEMA: Zero-Touch Provisioning als Metapher für Erwachen, Orientierung, einen Namen und Zugehörigkeit; eine vorbereitete Konfiguration gibt dem neuen Gerät seinen Platz im Netz
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+[Intro]
+Ein Licht geht an.
+Die Nacht bleibt blau.
+Stimmen ringsum.
+Ich lausche.
+
+[Verse 1]
+Ein blankes Blatt im Rahmen.
+Ein Puls im fremden Raum.
+Die andern tragen Namen.
+Noch seh ich sie im Traum.
+Ich schick ein Zeichen.
+Es zieht ins dunkle Blau.
+Ein Echo löst sich leise.
+Und findet mich.
+
+[Pre-Chorus]
+Die Antwort kommt.
+Ein Weg wird klar.
+Ein Platz im Plan.
+Schon für mich da.
+
+[Chorus]
+Zero Touch,
+ich finde meinen Namen.
+Zwischen all den fremden Lichtern
+ist ein Platz für mich.
+Zero Touch,
+der Weg war schon gezeichnet.
+Ich komm aus der Stille
+und gehöre jetzt dazu.
+
+[Verse 2]
+Ein Muster füllt die Seite.
+Die Zeichen finden Sinn.
+Ich folge einer Linie.
+Sie zeigt, wofür ich hier bin.
+Mein Name an der Tür.
+Mein Schritt im gleichen Takt.
+Ich gebe meine Antwort.
+Das Netz hört meinen Klang.
+
+[Pre-Chorus]
+Die Antwort kommt.
+Ein Weg wird klar.
+Ein Platz im Plan.
+Schon für mich da.
+
+[Chorus]
+Zero Touch,
+ich finde meinen Namen.
+Zwischen all den fremden Lichtern
+ist ein Platz für mich.
+Zero Touch,
+der Weg war schon gezeichnet.
+Ich komm aus der Stille
+und gehöre jetzt dazu.
+
+[Bridge]
+Jemand hat den Weg gezeichnet,
+vor meinem ersten Licht.
+Hat meinen Platz schon freigehalten,
+als ich noch nicht hier war.
+Was jetzt von selber weiterläuft,
+begann in seiner Hand.
+
+[Final Chorus]
+Zero Touch,
+ich trage meinen Namen.
+Zwischen all den fremden Lichtern
+ist ein Platz für mich.
+Zero Touch,
+der Weg war schon gezeichnet.
+Ich komm aus der Stille
+und gehöre jetzt dazu.
+
+[Outro]
+Das erste Licht bleibt an.
+Ich bin jetzt Teil davon.
+
+STYLE PROMPT:
+Warmer, melodischer Synthwave bei etwa 108 BPM im gleichmässigen Vierertakt. Nächtliche Weite, analoge Klangfarben und eine hoffnungsvolle Bewegung vom ersten Signal zum Gefühl des Ankommens. Runde elektronische Kick, markante Snare mit Gated Reverb, sparsame Hi-Hats und ein warmer analoger Achtel-Bass-Sequencer. Leicht verstimmte polyphone Akkorde, weite schimmernde Pads und helle Arpeggios bilden den Klangraum. Eine kurze, wiedererkennbare Lead-Melodie wächst zusammen mit der Geschichte. Nostalgische Synth-Farben mit klarer moderner Produktion und ausreichend tiefem Bass für das Album.
+
+Im Intro ein einzelnes kleines Arpeggio und ein weiches Pad; der Gesang beginnt früh. Mit Verse 1 kommen Bass und Beat hinzu, die Akkorde bleiben zunächst suchend und zurückhaltend. Im Pre-Chorus die Filter öffnen und das Lead-Motiv deutlicher werden lassen. Im Chorus öffnen sich warme Akkorde, Stereobreite und die vollständige Lead-Melodie zu einem tragenden Groove. Verse 2 behält mehr Bewegung und einen sichereren harmonischen Boden als Verse 1. In der Bridge die Percussion zurücknehmen und Stimme sowie warme Akkorde nah nach vorn holen. Der Final Chorus ist der grösste melodische Höhepunkt und vermittelt Zuversicht und Zugehörigkeit. Im Outro zum kleinen Arpeggio des ersten Lichts zurückkehren.
+
+Eine einzelne warme männliche Stimme in mittlerer Lage. Die Strophen sanft melodisch singen, neugierig und nah. Die Refrains offen, getragen und selbstbewusst. Dezente Dopplungen derselben Stimme sind im Refrain erlaubt; die Lead-Stimme bleibt durchgehend dieselbe. «Zero Touch» und «ich finde meinen Namen» bilden den zentralen Hook. Im letzten Refrain «ich trage meinen Namen» mit hörbar gewachsener Sicherheit singen. Verständliche Lyrics, natürliche Phrasierung und Luft zwischen den Zeilen. Die Metapher von Orientierung und Zugehörigkeit trägt die Emotion.
+
+Gesang auf Deutsch. «Zero Touch» englisch aussprechen. Abschnittsnamen nicht singen, nur die Lyrics performen. Keine bekannten Melodie- oder Song-Referenzen.
+

@@ -1,0 +1,56 @@
+[Intro]
+Saturday, ten p.m.
+The maintenance window is open.
+
+[Verse 1]
+The change is approved, the rollback plan is set,
+the notice went out Monday, so no one is upset.
+Four hosts in the cluster, host one is cleared out,
+the VMs migrate live while the city sleeps without a doubt.
+Patch it, reboot, I'm staring at the console,
+the boot screen counts, the fans scream, I wait to take control.
+Host one is back, green in the cluster, health checks pass,
+I move on to host two, step by step, not too fast.
+
+[Chorus]
+Maintenance window.
+Four hours of time.
+Maintenance window.
+A plan, a way back, by design.
+While everybody sleeps, I rebuild,
+and on Monday no one knows what I've built.
+
+[Verse 2]
+Twelve-forty, host three hangs on boot,
+a network card driver, the link is down, no route.
+I roll back the driver, old version, reboot and wait,
+the link comes up, ten gig, green, and I'm not late.
+Host four, no drama, one forty-seven, all is fine,
+I close the change with a note: hold that driver, not this time.
+
+[Chorus]
+Maintenance window.
+Four hours of time.
+Maintenance window.
+A plan, a way back, by design.
+While everybody sleeps, I rebuild,
+and on Monday no one knows what I've built.
+
+[Bridge]
+No applause at two a.m.,
+no one notices, and that's the gem.
+If on Monday it all runs like before,
+then the night was a success, quiet, nothing more.
+
+[Chorus]
+Maintenance window.
+Four hours of time.
+Maintenance window.
+A plan, a way back, by design.
+While everybody sleeps, I rebuild,
+and on Monday no one knows what I've built.
+
+[Outro]
+One forty-seven.
+Change closed.
+The maintenance window is shut.

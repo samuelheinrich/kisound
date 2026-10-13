@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "languages": {
+    "de": {
+      "duration_s": 155.96,
+      "frames": 9358,
+      "shots": 34,
+      "lyrics": 39,
+      "events": 37,
+      "hook_windows": 4,
+      "audio_sha256": "689d662c3d10ba9bd08c787315635ff4bba6d97f8a5db54343486dd4c7958259"
+    },
+    "en": {
+      "duration_s": 120.68,
+      "frames": 7241,
+      "shots": 34,
+      "lyrics": 55,
+      "events": 52,
+      "hook_windows": 9,
+      "audio_sha256": "fd70e12809ce18389d194a1f3829c98deced25b1c24ade5a24ae81ecf2b05408"
+    }
+  }
+}

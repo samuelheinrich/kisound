@@ -1,0 +1,92 @@
+VERSION: 0.7
+ALBUM: Network Engineer 02
+TRACK: 07 - C-L-I
+THEMA: Ein ungeduldiger GUI-User trifft auf die souveräne CLI; Kinderstimme und Gothic-Bariton im Dialog über Ladekreise, direkten Gerätestatus und eine bereits fertige Config
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+[Vocal Instructions - nicht singen: Exakt zwei Stimmen im Wechsel. GUI-User = helle natürliche Kinderstimme. CLI = sehr tiefe Männerstimme, Gothic-Bariton. Jeden Abschnitt ausschließlich mit der dort genannten Stimme singen. Kein Flüstern.]
+[Intro - Kinderstimme, hell und neugierig - GUI-User]
+Ich hab da ein Fenster.
+Da müsste was sein.
+
+[Intro - Männerstimme, sehr tiefer Gothic-Bariton - CLI]
+Ich hab eine Console.
+Ich bin schon drin.
+
+[Verse 1 - Kinderstimme, hell und neugierig - GUI-User]
+Ich klick auf das Zahnrad,
+jetzt geht etwas auf.
+Da sind so viele Reiter.
+Wo war der Knopf noch gleich?
+
+[Verse 1 - Männerstimme, sehr tiefer Gothic-Bariton - CLI]
+Ein heller Cursor auf schwarzem Grund.
+Ich frage das Gerät und kenne seinen Stand.
+Die Änderung steht, der Port ist geprüft.
+Du suchst noch im Menü, ich bin längst durch.
+
+[Chorus - Kinderstimme, hell und neugierig - GUI-User]
+Warte mal!
+Es lädt noch!
+
+[Chorus - Männerstimme, sehr tiefer Gothic-Bariton - CLI]
+C-L-I.
+Ich bin längst drin.
+Dein Kreis dreht weiter.
+Meine Config steht.
+Source of Truth.
+Ich frag das Gerät.
+
+[Verse 2 - Kinderstimme, hell und neugierig - GUI-User]
+Das Bildchen ist doch grün.
+Dann läuft doch alles gut?
+Jetzt hängt das ganze Fenster.
+Was mach ich denn jetzt?
+
+[Verse 2 - Männerstimme, sehr tiefer Gothic-Bariton - CLI]
+Dein Bild ist noch von vorhin.
+Ich sehe, was jetzt wirklich läuft.
+Der Counter zählt, der Port verliert.
+Ich hab den Fehler schon korrigiert.
+
+[Verse 3 - Kinderstimme, hell und neugierig - GUI-User]
+Und wo ist Speichern?
+Bin ich jetzt fertig?
+
+[Verse 3 - Männerstimme, sehr tiefer Gothic-Bariton - CLI]
+Mein Stand ist längst gesichert.
+Geprüft und dokumentiert.
+
+[Final Chorus - Kinderstimme, hell und neugierig - GUI-User]
+Warte mal!
+Schon fertig?
+
+[Final Chorus - Männerstimme, sehr tiefer Gothic-Bariton - CLI]
+C-L-I.
+Ich bin längst durch.
+Dein Kreis dreht weiter.
+Meine Config steht.
+Source of Truth.
+Hier steht, was wirklich läuft.
+
+[Outro - Kinderstimme, hell und neugierig - GUI-User]
+Bei mir lädt's noch.
+
+[Outro - Männerstimme, sehr tiefer Gothic-Bariton - CLI]
+Bei mir läuft's schon.
+
+STYLE PROMPT:
+Grooviger Gothic Electro-Pop mit Darkwave-Charakter bei etwa 120 BPM. Eine runde elektronische Kick, trockene Claps, präzise Hi-Hats und ein federnder analoger Synth-Bass tragen einen klaren tanzbaren Rhythmus. Eine kurze dunkle Synth-Melodie und sparsame Moll-Akkorde geben dem Track seine Gothic-Farbe. Der Groove bleibt leicht beweglich und lässt viel Raum für den Dialog. Der Humor entsteht aus dem Kontrast zwischen neugierigem Klicken und tiefer, gelassener Souveränität.
+
+Exakt zwei deutlich unterschiedliche Stimmen mit fester Rollenverteilung. Der GUI-User wird von einer hellen natürlichen Kinderstimme gesungen, neugierig, etwas ungeduldig und leicht verwundert. Die Fragen klar und einfach melodisch singen, lebendig und mit hörbarem Staunen. Die CLI-Seite wird von einer sehr tiefen Männerstimme gesungen: eine männliche Gothic-Stimme, ein sonorer resonanter Bariton mit dunklem Timbre und ruhiger Autorität. Die Antworten melodisch und rhythmisch singen, trocken, selbstbewusst und mit dezentem Spott. Besonders «C-L-I» und «Source of Truth» erhalten eine markante tiefe Hook-Melodie. Kein Metal-Growling, kein aggressives Brüllen. Beide Stimmen behalten ihre Rolle und ihre Klangfarbe über den gesamten Track.
+
+Die Stimmzuordnung steht direkt in jeder Abschnittsmarkierung im LYRIC PROMPT. Jeder mit Kinderstimme markierte Abschnitt wird ausschließlich von der hellen Kinderstimme gesungen. Jeder mit Männerstimme markierte Abschnitt wird ausschließlich von der sehr tiefen männlichen Gothic-Stimme gesungen. Bei jedem Wechsel die andere Stimme klar hörbar einsetzen; diese beiden Stimmen niemals zu einer einzigen Lead-Stimme zusammenführen. Die direkt aufeinanderfolgenden Chorus-Abschnitte sind jeweils ein zusammenhängender Frage-Antwort-Refrain. Keine gemeinsamen Unisono-Passagen, kein Chor und keine dritte Stimme. Alle Zeilen mit natürlicher voller Stimme und deutlich verständlich performen, auch Intro, Verse 3 und Outro. Kein Flüstern, kein Hauchen und keine ASMR-Passagen.
+
+Die GUI-Passagen bekommen kurze helle Pluck-Töne und kleine verspielte Menü-Klicks. Ein kreisendes Synth-Motiv begleitet «Es lädt noch» und steht für den wartenden Ladekreis. Bei den CLI-Antworten greifen der tiefe Bass und ein klarer trockener Synth-Akzent sofort. Beide Figuren gehören zum selben Groove; das Arrangement hält den Dialog zusammen. Im Final Chorus die tiefe CLI-Hook etwas breiter führen, während die Kinderstimme unverändert hell fragt. Nach «Bei mir läuft's schon» folgt ein entschlossener kurzer Schlussakkord.
+
+Kompakter Aufbau und kurze Übergänge. Keine zusätzlichen Wiederholungen, keine langen Instrumentalpassagen und keine großen Drops. Keine harte Industrial-Kick, kein Rumble-Bass und keine kreischenden Dubstep-Wobbles. Dunkle Klangfarben mit federndem Groove; die Stimmen stehen klar im Vordergrund.
+
+Gesang auf Deutsch. Englische Fachbegriffe wie Console, Config, Counter, Port und Source of Truth im Wortlaut behalten und englisch aussprechen. C-L-I als einzelne englische Buchstaben C, L, I aussprechen. Alle eckigen Klammern einschließlich Vocal Instructions, Kinderstimme, Männerstimme, GUI-User und Gothic-Bariton sind reine Anweisungen und werden nicht gesungen. Nur die Lyric-Zeilen außerhalb der Klammern singen. Keine bekannten Melodie- oder Song-Referenzen.

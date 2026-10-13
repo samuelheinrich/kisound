@@ -1,0 +1,208 @@
+1
+00:00:08,480 --> 00:00:10,420
+Kein Login.
+
+2
+00:00:10,420 --> 00:00:14,020
+Keine Antwort.
+
+3
+00:00:14,460 --> 00:00:18,180
+Das Netz ist weg.
+
+4
+00:00:18,480 --> 00:00:22,580
+Der andere Weg bleibt.
+
+5
+00:00:46,200 --> 00:00:48,180
+SSH wartet, bis es aufgibt,
+
+6
+00:00:48,180 --> 00:00:51,320
+kein Dashboard lädt noch einen Wert.
+
+7
+00:00:52,680 --> 00:00:55,680
+Die Änderung hat den Pfad zerschnitten,
+
+8
+00:00:56,480 --> 00:00:58,820
+über den ich sie geschickt hab.
+
+9
+00:01:00,080 --> 00:01:03,360
+Doch hinten am Rack hängt eine Leitung,
+
+10
+00:01:03,360 --> 00:01:06,780
+getrennt von diesem Traffic hier.
+
+11
+00:01:06,780 --> 00:01:11,060
+Ein eigener Zugang zur Console,
+
+12
+00:01:11,060 --> 00:01:13,420
+die letzte offene Tür.
+
+13
+00:01:15,300 --> 00:01:18,020
+Ich brauch nicht erst das Netz zurück,
+
+14
+00:01:18,020 --> 00:01:20,900
+um wieder ranzukommen.
+
+15
+00:01:22,600 --> 00:01:25,840
+Ich nehme den getrennten Weg.
+
+16
+00:01:25,840 --> 00:01:28,080
+Der Prompt ist noch zu hören.
+
+17
+00:01:30,080 --> 00:01:31,720
+Out of Band.
+
+18
+00:01:31,980 --> 00:01:35,660
+Eine Tür bleibt offen.
+
+19
+00:01:35,860 --> 00:01:40,040
+Wenn der grosse Weg verstummt,
+
+20
+00:01:40,040 --> 00:01:43,220
+komm ich hier noch an.
+
+21
+00:01:45,160 --> 00:01:46,960
+Out of Band.
+
+22
+00:01:47,380 --> 00:01:51,160
+Ich erreiche die Console.
+
+23
+00:01:51,160 --> 00:01:54,260
+Ein schmaler Weg zurück,
+
+24
+00:01:54,680 --> 00:01:57,800
+bis das Netz wieder trägt.
+
+25
+00:02:16,320 --> 00:02:19,380
+Die Console zeigt den letzten Change,
+
+26
+00:02:20,260 --> 00:02:22,900
+der Diff liegt neben meinem Plan.
+
+27
+00:02:24,100 --> 00:02:26,940
+Ich prüfe, was den Weg gekappt hat,
+
+28
+00:02:27,880 --> 00:02:30,120
+und setze den Fehler zurück.
+
+29
+00:02:30,480 --> 00:02:33,840
+Erst steht der Link, dann kommt die Route,
+
+30
+00:02:35,080 --> 00:02:37,520
+doch grün allein reicht mir nicht.
+
+31
+00:02:38,880 --> 00:02:41,500
+Ich teste den betroffenen Service
+
+32
+00:02:43,480 --> 00:02:45,700
+vom Client bis zum Ziel.
+
+33
+00:02:46,980 --> 00:02:49,320
+Ein Backup, das erreichbar ist.
+
+34
+00:02:49,320 --> 00:02:50,860
+Ein Rollback, den wir kennen.
+
+35
+00:02:50,860 --> 00:02:52,920
+Ein Zugang, der getrennt bleibt,
+
+36
+00:02:53,000 --> 00:02:54,800
+wenn sich die andern Wege trennen.
+
+37
+00:02:54,800 --> 00:02:56,960
+Kein Zauber hinter dieser Tür,
+
+38
+00:02:57,080 --> 00:02:58,640
+wir haben sie vorher gebaut.
+
+39
+00:02:58,640 --> 00:03:00,540
+Jetzt trägt die kleine Leitung
+
+40
+00:03:00,540 --> 00:03:02,800
+die Arbeit für das grosse Netz.
+
+41
+00:03:16,880 --> 00:03:18,660
+Out of Band.
+
+42
+00:03:19,820 --> 00:03:22,320
+Eine Tür bleibt offen.
+
+43
+00:03:23,600 --> 00:03:26,600
+Wenn der grosse Weg verstummt,
+
+44
+00:03:26,600 --> 00:03:29,920
+komm ich hier noch an.
+
+45
+00:03:32,060 --> 00:03:33,960
+Out of Band.
+
+46
+00:03:33,960 --> 00:03:37,660
+Die Antwort ist zurück.
+
+47
+00:03:38,640 --> 00:03:41,060
+Der Test erreicht sein Ziel,
+
+48
+00:03:41,060 --> 00:03:45,300
+und das Netz trägt wieder.
+
+49
+00:03:49,640 --> 00:03:52,200
+Console bleibt erreichbar.
+
+50
+00:03:52,200 --> 00:03:56,200
+Die letzte Änderung dokumentiert.
+
+51
+00:03:56,200 --> 00:04:00,340
+Das Telefon liegt still.
+
+52
+00:04:00,340 --> 00:04:03,560
+Die Stadt schläft weiter.
+

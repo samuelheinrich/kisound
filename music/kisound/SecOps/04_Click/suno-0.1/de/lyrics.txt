@@ -1,0 +1,54 @@
+[Intro]
+Montag, acht Uhr zwölf.
+Ein Klick.
+
+[Verse 1]
+Eine Mail: „Offene Rechnung, bitte prüfen“, ein Link, ein PDF-Symbol,
+die Buchhaltung klickt, wie jeden Montag, alles wirkt normal.
+Eine Login-Seite, genau wie unsere, Logo, Farben, Feld für Feld,
+Passwort rein, MFA-Push aufs Handy, bestätigt. Die Falle hält.
+Zehn Minuten später ein Login, fremdes Rechenzentrum, fremdes Land,
+eine neue Postfachregel schiebt jede Mail mit „Zahlung“ in den RSS-Ordner, unbekannt.
+
+[Chorus]
+Click.
+Ein Klick, und die Tür geht auf.
+Click.
+Ein Anruf, und wir nehmen die Spur auf.
+Der User ist nicht der Fehler im System,
+er ist der Sensor, und wenn er anruft, können wir's sehn.
+
+[Verse 2]
+Neun Uhr ruft die Buchhaltung an: „Ich glaub, da war was falsch.“
+Kein Vorwurf, nur ein Danke, und dann geht's los, und zwar rasch.
+Passwort zurück, Sitzungen beendet, Tokens widerrufen,
+Regel gelöscht, Domain gesperrt, die Mail aus jedem Postfach geholt, bevor andre sie aufrufen.
+Siebenundzwanzig hatten sie bekommen, drei hatten geklickt,
+alle drei geprüft, kein weiterer Login, die Lücke ist geflickt.
+
+[Chorus]
+Click.
+Ein Klick, und die Tür geht auf.
+Click.
+Ein Anruf, und wir nehmen die Spur auf.
+Der User ist nicht der Fehler im System,
+er ist der Sensor, und wenn er anruft, können wir's sehn.
+
+[Bridge]
+Ein Klick ist kein Verbrechen,
+Schweigen ist das Risiko.
+Wer sofort anruft,
+gewinnt uns die Zeit. Genau so.
+
+[Chorus]
+Click.
+Ein Klick, und die Tür geht auf.
+Click.
+Ein Anruf, und wir nehmen die Spur auf.
+Der User ist nicht der Fehler im System,
+er ist der Sensor, und wenn er anruft, können wir's sehn.
+
+[Outro]
+Montag, neun Uhr vierzig.
+Tür zu.
+Danke fürs Melden.

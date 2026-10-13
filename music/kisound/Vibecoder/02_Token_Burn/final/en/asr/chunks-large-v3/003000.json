@@ -1,0 +1,261 @@
+{
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "frame": 3000,
+  "next_frame": 6000,
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 48.980000000000004,
+      "text": "The clock says one, the build runs clean.",
+      "words": [
+        {
+          "word": "The",
+          "start": 45.24,
+          "end": 46.26
+        },
+        {
+          "word": "clock",
+          "start": 46.26,
+          "end": 46.52
+        },
+        {
+          "word": "says",
+          "start": 46.52,
+          "end": 46.9
+        },
+        {
+          "word": "one",
+          "start": 46.9,
+          "end": 47.12
+        },
+        {
+          "word": ",",
+          "start": 47.12,
+          "end": 47.76
+        },
+        {
+          "word": "the",
+          "start": 47.76,
+          "end": 48.1
+        },
+        {
+          "word": "build",
+          "start": 48.1,
+          "end": 48.28
+        },
+        {
+          "word": "runs",
+          "start": 48.28,
+          "end": 48.7
+        },
+        {
+          "word": "clean",
+          "start": 48.7,
+          "end": 48.88
+        },
+        {
+          "word": ".",
+          "start": 48.88,
+          "end": 49.26
+        }
+      ],
+      "tokens": [
+        50365,
+        440,
+        7830,
+        1619,
+        472,
+        11,
+        264,
+        1322,
+        6676,
+        2541,
+        13,
+        51314
+      ]
+    },
+    {
+      "start": 48.980000000000004,
+      "end": 51.980000000000004,
+      "text": "A new idea lights up my screen.",
+      "words": [
+        {
+          "word": "A",
+          "start": 49.54,
+          "end": 49.8
+        },
+        {
+          "word": "new",
+          "start": 49.8,
+          "end": 50.42
+        },
+        {
+          "word": "idea",
+          "start": 50.42,
+          "end": 50.92
+        },
+        {
+          "word": "lights",
+          "start": 50.92,
+          "end": 51.4
+        },
+        {
+          "word": "up",
+          "start": 51.4,
+          "end": 51.78
+        },
+        {
+          "word": "my",
+          "start": 51.78,
+          "end": 52.28
+        },
+        {
+          "word": "screen",
+          "start": 52.28,
+          "end": 52.34
+        },
+        {
+          "word": ".",
+          "start": 52.34,
+          "end": 52.7
+        }
+      ],
+      "tokens": [
+        51314,
+        316,
+        777,
+        1558,
+        5811,
+        493,
+        452,
+        2568,
+        13,
+        51464
+      ]
+    },
+    {
+      "start": 52.8,
+      "end": 55.86,
+      "text": "One slider more, a second lane.",
+      "words": [
+        {
+          "word": "One",
+          "start": 52.86,
+          "end": 53.46
+        },
+        {
+          "word": "slider",
+          "start": 53.46,
+          "end": 53.74
+        },
+        {
+          "word": "more",
+          "start": 53.74,
+          "end": 54.06
+        },
+        {
+          "word": ",",
+          "start": 54.06,
+          "end": 54.82
+        },
+        {
+          "word": "a",
+          "start": 54.82,
+          "end": 55.26
+        },
+        {
+          "word": "second",
+          "start": 55.26,
+          "end": 55.6
+        },
+        {
+          "word": "lane",
+          "start": 55.6,
+          "end": 56.4
+        },
+        {
+          "word": ".",
+          "start": 56.4,
+          "end": 56.4
+        }
+      ],
+      "tokens": [
+        51505,
+        1485,
+        26046,
+        544,
+        11,
+        257,
+        1150,
+        12705,
+        13,
+        51658
+      ]
+    },
+    {
+      "start": 56.58,
+      "end": 59.36,
+      "text": "The prompt grows long, I try again.",
+      "words": [
+        {
+          "word": "The",
+          "start": 56.58,
+          "end": 56.9
+        },
+        {
+          "word": "prompt",
+          "start": 56.9,
+          "end": 57.16
+        },
+        {
+          "word": "grows",
+          "start": 57.16,
+          "end": 57.7
+        },
+        {
+          "word": "long",
+          "start": 57.7,
+          "end": 57.78
+        },
+        {
+          "word": ",",
+          "start": 57.78,
+          "end": 58.02
+        },
+        {
+          "word": "I",
+          "start": 58.02,
+          "end": 58.34
+        },
+        {
+          "word": "try",
+          "start": 58.34,
+          "end": 59.04
+        },
+        {
+          "word": "again",
+          "start": 59.04,
+          "end": 59.22
+        },
+        {
+          "word": ".",
+          "start": 59.22,
+          "end": 59.76
+        }
+      ],
+      "tokens": [
+        51694,
+        440,
+        12391,
+        13156,
+        938,
+        11,
+        286,
+        853,
+        797,
+        13,
+        51833
+      ]
+    }
+  ]
+}

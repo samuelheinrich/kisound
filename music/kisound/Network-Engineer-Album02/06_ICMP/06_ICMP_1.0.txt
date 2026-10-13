@@ -1,0 +1,108 @@
+VERSION: 1.0
+ALBUM: Network Engineer 02
+TRACK: 06 - ICMP
+THEMA: ICMP als unterschätzte Stimme des Netzes: Echo Reply, Path MTU Discovery, Time Exceeded, Destination Unreachable und Redirect; weit mehr als Ping
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Final
+RELEASE AUDIO: 06_ICMP_1.0.wav
+
+LYRIC PROMPT:
+[Intro - Full Voice]
+Du kennst mich als Ping.
+Du kennst nur den Anfang.
+ICMP.
+Hör hin.
+
+[Verse 1]
+Du tippst vier Zeichen, wartest kurz,
+ein Echo kommt zu dir zurück.
+Echo Request.
+Echo Reply.
+Du misst die Zeit und gehst vorbei.
+Der Host gibt Antwort, doch dein Dienst steht still.
+Ein Ping sagt nicht, ob deine App auch will.
+Du kennst mein Echo, übersiehst den Rest.
+Ich spreche dort, wo dich das Netz im Dunkeln lässt.
+
+[Chorus - Full Voice]
+ICMP.
+Mehr als ein Ping.
+Jeder ruft mich.
+Kaum einer hört hin.
+ICMP.
+Unterschätz meine Stimme nicht.
+Wo dein Paket an Grenzen stößt,
+bring ich den Grund ans Licht.
+
+[Verse 2]
+Ping kommt durch, der Transfer steht,
+weil das große Paket nicht weitergeht.
+Don't Fragment.
+Der Router wirft es raus.
+Fragmentation Needed.
+Die Antwort zeigt den Engpass auf.
+Path MTU Discovery.
+Der Sender passt die Größe an.
+Sperrst du die Meldung, fehlt der Hinweis,
+und dein Transfer hängt daran.
+
+[Hook - Full Voice]
+Echo Reply.
+Time Exceeded.
+Redirect.
+Hör, was das Netz dir sagt.
+ICMP.
+Mehr als ein Ping.
+
+[Verse 3 - Full Voice]
+Du schickst die Probe weiter raus,
+die TTL läuft unterwegs aus.
+Time Exceeded.
+Ein Router meldet sich.
+Traceroute folgt diesen Spuren,
+Hop für Hop wird sichtbar für dich.
+Destination Unreachable.
+Lies den Code, bevor du rätst.
+Ein Fehler hat dir mehr zu sagen
+als ein Kreis, der sich nur dreht.
+
+[Chorus - Full Voice]
+ICMP.
+Mehr als ein Ping.
+Jeder ruft mich.
+Kaum einer hört hin.
+ICMP.
+Unterschätz meine Stimme nicht.
+Wo dein Paket an Grenzen stößt,
+bring ich den Grund ans Licht.
+
+[Verse 4 - Full Voice]
+Dein Gateway kennt den nächsten Router,
+im selben Netz wie dein Gerät.
+Redirect sagt deinem Host,
+dass es für dieses Ziel direkter geht.
+Du prüfst den Hinweis, prüfst die Quelle,
+bevor dein Host den Weg neu wählt.
+Ich bin die Stimme aus der Leitung.
+Jetzt hörst du, was das Netz erzählt.
+
+[Final Chorus - Full Voice]
+ICMP.
+Mehr als ein Ping.
+Jeder ruft mich.
+Jetzt hörst du hin.
+ICMP.
+Unterschätz meine Stimme nicht.
+Das Netz hat dir genug zu sagen.
+Hör zu, wenn es mit dir spricht.
+
+[Outro - Full Voice]
+Request.
+Reply.
+Du kennst jetzt mehr.
+ICMP.
+Hör hin.
+
+STYLE PROMPT:
+
+EDM, Energetic, Tense, Male, treibende Synthesizer, 128 BPM, digitale Glitch-Effekte, tiefer Bass, Sidechain-Kompression, klarer männlicher Gesang, technischer Sound, pulsierender Rhythmus.

@@ -1,0 +1,25 @@
+{
+  "name": "kisound-ne01-ospf-neighbors",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OSPF Neighbors: deterministischer 3D-Netzwerkatlas mit Multi-Area und lokalem Browserplayer",
+  "scripts": {
+    "prepare": "node src/tools/prepare.mjs",
+    "preview": "node src/render/serve.mjs --open",
+    "serve": "node src/render/serve.mjs",
+    "check": "node --test tests/*.test.mjs",
+    "check:browser": "node src/tools/check-browser.mjs",
+    "export:1080p": "node ../../tools/kisound-render.mjs 1080p",
+    "export:4k": "node ../../tools/kisound-render.mjs 4k",
+    "export:check": "node ../../tools/kisound-render.mjs --check",
+    "check:layout": "node src/tools/check-browser.mjs --layout",
+    "cues": "node src/tools/write-cues.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.43.1"
+  }
+}

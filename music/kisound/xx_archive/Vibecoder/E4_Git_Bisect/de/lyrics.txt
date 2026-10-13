@@ -1,0 +1,51 @@
+[Intro]
+Gestern ging's.
+Heute nicht.
+
+[Verse 1]
+Vierundsechzig Commits seit dem letzten guten Stand,
+der Agent war fleissig, Zeile um Zeile, Hand in Hand.
+Jetzt startet der Upload nicht, kein Fehler, nur ein Hänger,
+ich frag: Was hast du geändert? Er sagt: Nichts. Der Abend wird länger.
+git bisect start. Heute: bad. Der Stand von gestern: good.
+Git springt in die Mitte, und ich teste, was er tut.
+
+[Chorus]
+Bisect.
+Halb. Halb. Halb. Halb.
+Bisect.
+Vierundsechzig, zweiunddreissig, sechzehn, acht.
+Good. Bad. Good. Bad.
+Vier. Zwei. Eins. Gefunden in der Nacht.
+
+[Verse 2]
+Sechs Mal getestet, kein Raten, keine Theorie,
+dann zeigt Git den ersten schlechten Commit, so klar wie nie.
+„refactor: simplify config“, eine Zeile sah harmlos aus,
+der Timeout von dreissig auf drei, und der Upload bricht raus.
+git revert, ein Test dazu, der den Wert festhält,
+damit der nächste Refactor nicht nochmal darüber fällt.
+
+[Chorus]
+Bisect.
+Halb. Halb. Halb. Halb.
+Bisect.
+Vierundsechzig, zweiunddreissig, sechzehn, acht.
+Good. Bad. Good. Bad.
+Vier. Zwei. Eins. Gefunden in der Nacht.
+
+[Bridge]
+Zwanzig Jahre Fehlersuche, immer dasselbe Spiel:
+Halbier den Weg, Layer, Hop, Commit, bis zum Ziel.
+
+[Chorus]
+Bisect.
+Halb. Halb. Halb. Halb.
+Bisect.
+Vierundsechzig, zweiunddreissig, sechzehn, acht.
+Good. Bad. Good. Bad.
+Vier. Zwei. Eins. Gefunden in der Nacht.
+
+[Outro]
+git bisect reset.
+Heute geht's.

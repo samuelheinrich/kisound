@@ -1,0 +1,42 @@
+SHIP IT · DE
+Zeitnull: Beginn der finalen WAV. Automatisches Transkript; Prüffragen im JSON und TRANSKRIPT-PRUEFUNG.md.
+
+[00:00:08.360–00:00:09.780] Album drei geht raus.
+[00:00:22.140–00:00:23.540] Album 3 geht raus
+[00:00:27.160–00:00:30.260] Neue Tracks im Ordner, jedes Cover liegt bereit,
+[00:00:30.260–00:00:33.760] npm run build, die Seiten stehen nach kurzer Zeit.
+[00:00:33.760–00:00:36.940] npm run check: ein Fehler, rot und klar,
+[00:00:36.940–00:00:40.380] ein Cover fehlt, der Dateiname nicht so, wie er war.
+[00:00:40.380–00:00:44.700] Ein Unterstrich zu viel, ich benenn die Datei zurück,
+[00:00:46.500–00:00:51.320] Check nochmal: null Fehler. Jetzt kommt das letzte Stück.
+[00:00:51.320–00:00:54.440] Komedische B -B -B -Budget -Live
+[00:00:55.120–00:00:56.620] Komedische B -B -B -B
+[00:00:56.820–00:00:58.220] Album drei.
+[00:00:58.340–00:01:01.440] Link geht raus, die Seite lebt
+[00:01:01.440–00:01:05.000] Play gedrückt, und der Bass still
+[00:01:07.000–00:01:10.340] Schlecht live, komm mit den Schippen mit den
+[00:01:10.340–00:01:11.540] Albumen rein
+[00:01:12.000–00:01:15.340] Der Lied geht raus, die Seite lebt
+[00:01:15.340–00:01:16.480] Play gedrückt
+[00:01:17.000–00:01:18.660] Und der Bass still
+[00:01:18.660–00:01:21.940] Deploy auf live, der Upload zählt die Dateien,
+[00:01:21.940–00:01:25.200] Cover, Audio, Texte, alles muss dabei sein.
+[00:01:25.200–00:01:28.700] Ich lad die Seite neu, der Browser zeigt noch alt,
+[00:01:28.700–00:01:31.280] Data Reload und Album 3 steht da, der
+[00:01:31.280–00:01:32.260] Bass knallt
+[00:01:32.260–00:01:35.380] Erst Deutsch, dann Englisch, jede Sprache prüf ich nach,
+[00:01:35.380–00:01:38.780] die Lyrics bleiben im Original, so wie ich sie gemacht.
+[00:01:38.780–00:01:42.240] Comedy Shippe -Pippe -Pippe -Pippe Check live
+[00:01:42.920–00:01:45.620] Comedy Shippe -Pippe -Pippe Album 3
+[00:01:45.620–00:01:49.140] Der Link geht raus, die Seite leer
+[00:01:49.140–00:01:50.720] Kegel drückt
+[00:01:50.720–00:01:52.960] Und der Bass steht
+[00:01:53.000–00:01:53.620] Tracks.
+[00:01:53.680–00:01:54.240] Covers.
+[00:01:54.400–00:01:58.440] Doppelbild, Tische, Pro, Lilo, Lilo, Bäh, Bäh, Bäh,
+[00:01:58.520–00:01:58.980] Almen.
+[00:02:00.280–00:02:04.760] Tricks, Cover, Doppelbild, Tische, Pro, Lilo, Lilo, Bäh,
+[00:02:04.900–00:02:05.720] Bäh, Bäh, Almen.
+[00:02:17.500–00:02:20.280] Und der Bastel
+[00:02:30.600–00:02:32.620] Nächste Zeit und nächste
+[00:02:32.620–00:02:34.000] Komm' auf

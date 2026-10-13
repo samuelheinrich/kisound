@@ -1,0 +1,172 @@
+# Album configuration.
+#
+# Single source of truth for release automation (WAV tagging, MP3/FLAC export,
+# YouTube video rendering and upload). Copy this file into a new album folder
+# and adjust it -- no script needs to be edited for a new album.
+
+# Lyrics on this album are German with the technical vocabulary left in
+# English; album 01 was sung in English. The per-track style prompts state this
+# explicitly, otherwise the generator sings them in English.
+album: Network Engineer 02
+artist: Samuel Heinrich
+year: 2026
+cover: cover/kisound_network-engineer-02-cover.png
+
+# Rendering of the cover videos. Applies to every track video and the
+# concatenated full-album video.
+video:
+  width: 1920
+  height: 1080
+  fps: 25
+  # Length of the rendered animation loop. Every track video repeats this loop,
+  # so rendering cost is independent of track length. Set to 0 to encode each
+  # track over its full length instead.
+  loop_seconds: 20
+  # Slow "breathing" zoom of the cover: amplitude and cycle length in seconds.
+  # Every period below must divide loop_seconds or the loop will jump.
+  zoom_amount: 0.035
+  zoom_period: 10
+  # Colour wave over the whole frame: max hue shift in degrees and cycle length.
+  hue_degrees: 10
+  hue_period: 20
+  # Blurred, darkened background built from the same cover.
+  background_blur: 36
+  background_brightness: -0.08
+  background_saturation: 1.2
+  # Pulsing vignette.
+  vignette_amount: 0.06
+  vignette_period: 5
+  # Encoder settings. YouTube re-encodes anyway; these are its recommendations.
+  crf: 18
+  preset: medium
+  audio_bitrate: 384k
+
+youtube:
+  # 10 = Music. https://developers.google.com/youtube/v3/docs/videoCategories/list
+  category_id: "10"
+  default_language: de
+  default_audio_language: de
+  # Uploads from an unaudited API client are forced to private by YouTube.
+  # See script/youtube/README.md before changing this.
+  privacy: private
+  made_for_kids: false
+  # "youtube" = standard licence, "creativeCommon" = CC-BY.
+  license: youtube
+
+  title_template: "{artist} - {title} | {album}"
+  album_title_template: "{artist} - {album} (Gesamtes Album)"
+
+  # {tracklist} is replaced by the chapter list, {chapters} only exists in the
+  # album video description.
+  description_template: |
+    {theme}
+
+    Stil: {style}
+
+    Aus dem Album "{album}" von {artist} ({year}).
+    Track {track_number} von {track_total}.
+
+    {tracklist}
+
+    {footer}
+
+  album_description_template: |
+    {album_description}
+
+    Kapitel:
+    {chapters}
+
+    {footer}
+
+  footer: |
+    Musik und Texte: {artist}
+    Produziert mit KI-gestützter Musikgenerierung.
+    (c) {year} {artist}. Alle Rechte vorbehalten.
+
+  album_description: >-
+    "Network Engineer 02" erzählt von den Menschen und Systemen hinter einem
+    funktionierenden Netzwerk: einem Engineer im Bereitschaftsdienst, einem
+    Active/Standby-Paar, TrustSec-Regeln, einem Broadcast Storm, einer
+    Wireshark-Analyse und der unterschätzten Kraft von ICMP jenseits von Ping.
+    Verkehrsklassen teilen sich eine begrenzte Verbindung, ein unabhängiger
+    Managementpfad stellt den Zugriff wieder her.
+    Jede Szene prägt ihren eigenen bassbetonten elektronischen Stil:
+    Industrial Electro, treibender Drum & Bass, harter Acid Techno,
+    Acid Tech House und ein filmisches Finale.
+    Gesungen auf Deutsch, mit englischen Netzwerk-Fachbegriffen.
+
+  # Merged into every video's tag list. YouTube caps all tags at 500 characters
+  # in total, so the builder truncates if needed.
+  common_tags:
+    - electronic
+    - network engineering
+    - infrastructure
+    - IT
+    - AI music
+    - Samuel Heinrich
+    - Network Engineer 02
+
+  playlist:
+    title: Network Engineer 02
+    privacy: private
+
+# Per-track metadata, keyed by the two-digit track number used in the folder
+# and prompt file names. genre feeds the audio tags and the YouTube category,
+# theme and style feed the video descriptions.
+tracks:
+  "01":
+    genre: Industrial Electro
+    theme: >-
+      Ein Telefon leuchtet auf, während die Stadt schläft: Ein Engineer im Bereitschaftsdienst verfolgt die Spur einer echten Störung und prüft Vermutungen anhand von Fakten.
+    style: >-
+      Treibender Industrial Electro / EBM mit einer schweren sequenzierten Basslinie, kurzen Alarmmotiven und einem zunehmend drängenden Groove.
+    tags: ["industrial electro", "EBM", "on call", "incident response", "network operations", "troubleshooting", "network engineering"]
+  "02":
+    genre: Electro Techno
+    theme: >-
+      Ein Active/Standby-HA-Paar synchronisiert seinen Zustand und überwacht den Heartbeat. Als die Kommunikation abbricht, entsteht Split Brain, bevor klare Rollen wiederhergestellt werden.
+    style: >-
+      Kompaktes, dunkles Electro-Techno-Duett mit Heartbeat-Pieptönen eines Krankenhausmonitors, einem Dauerton beim Ausfall des Heartbeat-Links, konkurrierenden Synth-Motiven und einem abschliessenden Rollenwechsel, sobald der Puls zurückkehrt.
+    tags: ["electro techno", "HA", "active standby", "heartbeat", "hospital monitor", "flatline", "session sync", "failover", "split brain", "dual vocals"]
+  "03":
+    genre: Hard Techno
+    theme: >-
+      Ein Network Engineer verfolgt den Datenverkehr durch Routing, TrustSec-Regeln, Firewalls, Automatisierung und Wartung und prüft jede Änderung vor dem Einsatz im Produktivnetz.
+    style: >-
+      Dunkler, treibender Hard / Progressive Techno mit einer tiefen männlichen Hauptstimme, kalten Systemmeldungen einer Computerstimme, rollenden Bässen und industrieller Percussion.
+    tags: ["hard techno", "progressive techno", "industrial techno", "TrustSec", "SGT", "network security", "network operations", "automation"]
+  "04":
+    genre: Drum & Bass
+    theme: >-
+      Eine Schleife ohne Ende: Flooding, ausgelastete CPUs und ein Netzwerk, das sich selbst lahmlegt.
+    style: >-
+      Eskalierender Industrial Drum & Bass mit kantigem Neurofunk-Bass, sich vervielfachenden Loops, drängendem Gesang und einem harten Schnitt, sobald die Schleife unterbrochen wird.
+    tags: ["industrial drum and bass", "neurofunk", "broadcast storm", "layer 2 loop", "flooding", "outage"]
+  "05":
+    genre: Dark Breakbeat
+    theme: >-
+      Eine Paketaufzeichnung macht aus widersprüchlichen Störungsmeldungen überprüfbare Hinweise: Aufzeichnungspunkt, Display-Filter, TCP-Streams und Retransmissions zeigen, welcher Test als Nächstes sinnvoll ist.
+    style: >-
+      Angespannter Dark Breakbeat mit Trip-Hop-Atmosphäre, einer präzisen, untersuchenden Gesangsstimme und einem wiederkehrenden Motiv, das mit der Eingrenzung der Spur klarer wird.
+    tags: ["dark breakbeat", "trip hop", "Wireshark", "packet capture", "TCP stream", "retransmission", "network troubleshooting"]
+  "06":
+    genre: Acid Techno
+    theme: >-
+      Die unterschätzte Stimme des Netzwerks: Über Echo Reply hinaus meldet ICMP Grenzen der Path MTU, abgelaufene TTLs, unerreichbare Ziele und einen direkteren lokalen Next Hop.
+    style: >-
+      Hart treibender Acid Techno mit einer bissigen 303-Sequenz, kurzen Synth-Signalen und Antworten, einer schweren Kick und einer kraftvollen, selbstbewussten Hook.
+    tags: ["acid techno", "ICMP", "ping", "echo reply", "path MTU discovery", "fragmentation needed", "time exceeded", "traceroute", "destination unreachable", "redirect"]
+  "07":
+    genre: Acid Tech House
+    theme: >-
+      Echtzeitverkehr und eine grosse Datenübertragung teilen sich eine begrenzte Verbindung. Klassifizierung, DSCP-Markierungen, Queues, Policing und Shaping bestimmen, wie jeder Datenstrom behandelt wird.
+    style: >-
+      Federndes Acid-Tech-House-Duett: Eine drängende Echtzeitstimme trifft auf eine entspannte Stimme für grosse Datenübertragungen, mit abrupten Policing-Schnitten und weicheren Shaping-Passagen.
+    tags: ["acid tech house", "QoS", "DSCP", "classification", "queuing", "policing", "shaping", "dual vocals"]
+  "08":
+    genre: Progressive Techno
+    theme: >-
+      Das Produktivnetz ist nicht erreichbar. Ein separater Out-of-Band-Pfad führt zur Konsole und ermöglicht einen kontrollierten Rollback mit anschliessend überprüfter Wiederherstellung.
+    style: >-
+      Filmischer Progressive Techno zum Albumabschluss: Enge, angespannte Pulse öffnen sich zu einem warmen Finale, während der unabhängige Managementpfad den Zugriff wiederherstellt.
+    tags: ["progressive techno", "cinematic techno", "out of band", "console server", "network recovery", "rollback", "album closer"]

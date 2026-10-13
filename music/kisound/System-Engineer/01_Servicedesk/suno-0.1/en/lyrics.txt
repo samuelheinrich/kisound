@@ -1,0 +1,57 @@
+[Intro]
+Welcome to the service desk.
+You are caller number seven.
+
+[Verse 1]
+Monday, seven a.m., twenty calls in line,
+ticket one: account locked out, three wrong tries, no sign-in.
+Ticket two: "The internet is gone."
+The network cable's on the floor; I plug it in, it's on.
+Ticket three: black screen, the PC looks dead,
+the monitor's switched off; one button, and it's fixed instead.
+
+[Pre-Chorus]
+The SLA is running, the clock keeps track,
+one ticket closed, two tickets back.
+
+[Chorus]
+Service desk.
+Have you tried a restart yet?
+Service desk.
+One ticket per problem, and everyone waits.
+First level, second level, and in the end it's me,
+service desk, good morning, how can I help? Let's see.
+
+[Verse 2]
+Ticket nine: the boss calls, priority one,
+the mailbox is full, fifty gigs, and an archive? None.
+I connect remotely, and they watch me as I go,
+archive on, one rule in place, five minutes, and it flows.
+I write it in the knowledge base, step by step, explained,
+so next time it goes faster. That's the time we gained.
+
+[Chorus]
+Service desk.
+Have you tried a restart yet?
+Service desk.
+One ticket per problem, and everyone waits.
+First level, second level, and in the end it's me,
+service desk, good morning, how can I help? Let's see.
+
+[Bridge]
+Behind each ticket sits a person who just wants to work,
+behind each "doesn't work" there's a reason, small, that lurks.
+I listen, I ask questions, till I see what's wrong,
+and a "Thanks, it works now" is my favorite song.
+
+[Chorus]
+Service desk.
+Have you tried a restart yet?
+Service desk.
+One ticket per problem, and everyone waits.
+First level, second level, and in the end it's me,
+service desk, good morning, how can I help? Let's see.
+
+[Outro]
+Ticket closed.
+You are caller number eight.

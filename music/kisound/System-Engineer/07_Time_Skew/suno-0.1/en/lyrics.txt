@@ -1,0 +1,56 @@
+[Intro]
+Five minutes.
+No more.
+
+[Verse 1]
+Monday morning, second floor, no one can sign in,
+the password's right, the account's unlocked, so where do I begin?
+The event log shows an error: clock skew, too wide,
+the file server's clock runs seven minutes fast, there's the divide.
+Kerberos forgives five minutes, not a second more,
+the tickets look too old, too new, and access shuts the door.
+
+[Chorus]
+Time skew.
+Five minutes, no more.
+Time skew.
+One clock is wrong, and the domain hits the floor.
+The PDC keeps the beat, and all the rest fall in,
+w32tm /resync, second by second, back in sync again.
+
+[Verse 2]
+w32tm /query /status: the source is the local clock,
+"Local CMOS Clock," the server ticking on its own, stubborn as a rock.
+The VM takes its time from the host, the host has no NTP,
+so it's drifted for weeks, a little every day, quietly.
+Host sync off, domain hierarchy on,
+the PDC asks the time server outside, and the drift is gone.
+Seven minutes shrink to zero, slow and clean,
+and by nine the second floor is back on the screen.
+
+[Chorus]
+Time skew.
+Five minutes, no more.
+Time skew.
+One clock is wrong, and the domain hits the floor.
+The PDC keeps the beat, and all the rest fall in,
+w32tm /resync, second by second, back in sync again.
+
+[Bridge]
+A ticket is a timestamp,
+a log is a line of time.
+If the clocks don't agree,
+then nothing else is fine.
+
+[Chorus]
+Time skew.
+Five minutes, no more.
+Time skew.
+One clock is wrong, and the domain hits the floor.
+The PDC keeps the beat, and all the rest fall in,
+w32tm /resync, second by second, back in sync again.
+
+[Outro]
+Offset: zero point two seconds.
+Five minutes.
+No more.

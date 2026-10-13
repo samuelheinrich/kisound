@@ -1,0 +1,55 @@
+[Intro]
+Anmeldung genehmigen?
+Anmeldung genehmigen?
+Anmeldung genehmigen?
+
+[Verse 1]
+Zwei Uhr dreizehn, das Handy auf dem Nachttisch brummt,
+„Anmeldung genehmigen?“ Ich hab nichts gemacht, ich drück Ablehnen, und es verstummt.
+Zwei Uhr vierzehn, wieder, und wieder, und wieder,
+zwölf Mal, zwanzig Mal, dreissig, es hört nicht auf, es legt sich nicht nieder.
+Jemand hat mein Passwort, irgendwo, irgendwann,
+und hofft, dass ich im Halbschlaf einfach drück, damit er rein kann.
+
+[Chorus]
+MFA Fatigue.
+Genehmigen? Nein.
+MFA Fatigue.
+Wer müde drückt, lässt den Fremden rein.
+Ablehnen. Melden. Wach bleiben.
+Und das Passwort noch heute neu schreiben.
+
+[Verse 2]
+Ich drück „Das war ich nicht“, im SOC springt ein Alarm,
+die Quelle: ein Server im Ausland, dreissig Versuche, es wird warm.
+Passwort neu, Sitzungen beendet, das Konto unter Blick,
+und ab Montag gilt Number Matching, Schluss mit dem blinden Klick.
+Auf dem Bildschirm eine Zahl, auf dem Handy tippst du sie ein,
+wer die Zahl nicht sieht, kommt nicht rein, so einfach kann es sein.
+
+[Chorus]
+MFA Fatigue.
+Genehmigen? Nein.
+MFA Fatigue.
+Wer müde drückt, lässt den Fremden rein.
+Ablehnen. Melden. Wach bleiben.
+Und das Passwort noch heute neu schreiben.
+
+[Bridge]
+Dreissig Mal Nein
+ist besser als einmal Ja.
+Ein Daumen im Halbschlaf
+ist die Tür, die keiner sah.
+
+[Chorus]
+MFA Fatigue.
+Genehmigen? Nein.
+MFA Fatigue.
+Wer müde drückt, lässt den Fremden rein.
+Ablehnen. Melden. Wach bleiben.
+Und das Passwort noch heute neu schreiben.
+
+[Outro]
+Anmeldung abgelehnt.
+Gemeldet.
+Gute Nacht.

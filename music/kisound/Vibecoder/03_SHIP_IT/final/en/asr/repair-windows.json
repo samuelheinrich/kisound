@@ -1,0 +1,477 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx",
+  "runtime": "MLX GPU, short independent windows",
+  "language": "en",
+  "source_audio": "/Users/samuel.heinrich/0004_git/music/kisound/Vibecoder/03_SHIP_IT/final/03_SHIP_IT_suno-v3_50_50_exakt_off_EN.wav",
+  "windows": [
+    {
+      "start_s": 83,
+      "end_s": 92,
+      "elapsed_s": 14.88,
+      "segments": [
+        {
+          "start": 83.0,
+          "end": 84.48,
+          "text": "Last, best, best, best",
+          "words": [
+            {
+              "word": "Last,",
+              "start": 83.0,
+              "end": 83.42
+            },
+            {
+              "word": "best,",
+              "start": 83.46,
+              "end": 83.86
+            },
+            {
+              "word": "best,",
+              "start": 83.88,
+              "end": 84.1
+            },
+            {
+              "word": "best",
+              "start": 84.24,
+              "end": 84.48
+            }
+          ],
+          "tokens": [
+            50365,
+            5264,
+            11,
+            1151,
+            11,
+            1151,
+            11,
+            1151,
+            50451
+          ],
+          "avg_logprob": -0.3066377639770508,
+          "no_speech_prob": 0.4715897738933563,
+          "repair_window": [
+            83,
+            92
+          ]
+        },
+        {
+          "start": 84.48,
+          "end": 86.4,
+          "text": "Tracks, covers, covers",
+          "words": [
+            {
+              "word": "Tracks,",
+              "start": 84.48,
+              "end": 85.2
+            },
+            {
+              "word": "covers,",
+              "start": 85.2,
+              "end": 85.72
+            },
+            {
+              "word": "covers",
+              "start": 86.08,
+              "end": 86.4
+            }
+          ],
+          "tokens": [
+            50451,
+            1765,
+            7424,
+            11,
+            10538,
+            11,
+            10538,
+            50542
+          ],
+          "avg_logprob": -0.3066377639770508,
+          "no_speech_prob": 0.4715897738933563,
+          "repair_window": [
+            83,
+            92
+          ]
+        },
+        {
+          "start": 86.4,
+          "end": 87.96,
+          "text": "Build, build, check, check",
+          "words": [
+            {
+              "word": "Build,",
+              "start": 86.4,
+              "end": 86.72
+            },
+            {
+              "word": "build,",
+              "start": 86.88,
+              "end": 87.18
+            },
+            {
+              "word": "check,",
+              "start": 87.2,
+              "end": 87.48
+            },
+            {
+              "word": "check",
+              "start": 87.66,
+              "end": 87.96
+            }
+          ],
+          "tokens": [
+            50542,
+            11875,
+            11,
+            1322,
+            11,
+            1520,
+            11,
+            1520,
+            50620
+          ],
+          "avg_logprob": -0.3066377639770508,
+          "no_speech_prob": 0.4715897738933563,
+          "repair_window": [
+            83,
+            92
+          ]
+        },
+        {
+          "start": 87.96,
+          "end": 89.74,
+          "text": "Deploy, deploy, reload, reload",
+          "words": [
+            {
+              "word": "Deploy,",
+              "start": 87.96,
+              "end": 88.46
+            },
+            {
+              "word": "deploy,",
+              "start": 88.56,
+              "end": 88.9
+            },
+            {
+              "word": "reload,",
+              "start": 88.96,
+              "end": 89.24
+            },
+            {
+              "word": "reload",
+              "start": 89.34,
+              "end": 89.74
+            }
+          ],
+          "tokens": [
+            50620,
+            1346,
+            2384,
+            11,
+            7274,
+            11,
+            25628,
+            11,
+            25628,
+            50705
+          ],
+          "avg_logprob": -0.3066377639770508,
+          "no_speech_prob": 0.4715897738933563,
+          "repair_window": [
+            83,
+            92
+          ]
+        },
+        {
+          "start": 89.74,
+          "end": 90.7,
+          "text": "Play, play, play",
+          "words": [
+            {
+              "word": "Play,",
+              "start": 89.74,
+              "end": 90.08
+            },
+            {
+              "word": "play,",
+              "start": 90.2,
+              "end": 90.48
+            },
+            {
+              "word": "play",
+              "start": 90.58,
+              "end": 90.7
+            }
+          ],
+          "tokens": [
+            50705,
+            5506,
+            11,
+            862,
+            11,
+            862,
+            50749
+          ],
+          "avg_logprob": -0.3066377639770508,
+          "no_speech_prob": 0.4715897738933563,
+          "repair_window": [
+            83,
+            92
+          ]
+        },
+        {
+          "start": 90.7,
+          "end": 91.42,
+          "text": "Committed shipping",
+          "words": [
+            {
+              "word": "Committed",
+              "start": 90.7,
+              "end": 91.1
+            },
+            {
+              "word": "shipping",
+              "start": 91.1,
+              "end": 91.42
+            }
+          ],
+          "tokens": [
+            50749,
+            3046,
+            3944,
+            14122,
+            50793
+          ],
+          "avg_logprob": -0.3066377639770508,
+          "no_speech_prob": 0.4715897738933563,
+          "repair_window": [
+            83,
+            92
+          ]
+        }
+      ]
+    },
+    {
+      "start_s": 92,
+      "end_s": 101,
+      "elapsed_s": 14.59,
+      "segments": [
+        {
+          "start": 92.0,
+          "end": 93.16,
+          "text": "Bill check live",
+          "words": [
+            {
+              "word": "Bill",
+              "start": 92.0,
+              "end": 92.7
+            },
+            {
+              "word": "check",
+              "start": 92.7,
+              "end": 92.8
+            },
+            {
+              "word": "live",
+              "start": 92.8,
+              "end": 93.16
+            }
+          ],
+          "tokens": [
+            50365,
+            5477,
+            1520,
+            1621,
+            50434
+          ],
+          "avg_logprob": -0.27290305575808965,
+          "no_speech_prob": 0.502164900302887,
+          "repair_window": [
+            92,
+            101
+          ]
+        },
+        {
+          "start": 94.02,
+          "end": 94.98,
+          "text": "Committed, ship it",
+          "words": [
+            {
+              "word": "Committed,",
+              "start": 94.02,
+              "end": 94.52
+            },
+            {
+              "word": "ship",
+              "start": 94.56,
+              "end": 94.78
+            },
+            {
+              "word": "it",
+              "start": 94.78,
+              "end": 94.98
+            }
+          ],
+          "tokens": [
+            50434,
+            3046,
+            3944,
+            11,
+            5374,
+            309,
+            50520
+          ],
+          "avg_logprob": -0.27290305575808965,
+          "no_speech_prob": 0.502164900302887,
+          "repair_window": [
+            92,
+            101
+          ]
+        },
+        {
+          "start": 94.98,
+          "end": 96.48,
+          "text": "Album, album three",
+          "words": [
+            {
+              "word": "Album,",
+              "start": 94.98,
+              "end": 95.5
+            },
+            {
+              "word": "album",
+              "start": 95.52,
+              "end": 95.98
+            },
+            {
+              "word": "three",
+              "start": 95.98,
+              "end": 96.48
+            }
+          ],
+          "tokens": [
+            50520,
+            967,
+            5559,
+            11,
+            6030,
+            1045,
+            50596
+          ],
+          "avg_logprob": -0.27290305575808965,
+          "no_speech_prob": 0.502164900302887,
+          "repair_window": [
+            92,
+            101
+          ]
+        },
+        {
+          "start": 96.48,
+          "end": 99.14,
+          "text": "The link goes out, the link goes out",
+          "words": [
+            {
+              "word": "The",
+              "start": 96.48,
+              "end": 97.38
+            },
+            {
+              "word": "link",
+              "start": 97.38,
+              "end": 97.8
+            },
+            {
+              "word": "goes",
+              "start": 97.8,
+              "end": 98.0
+            },
+            {
+              "word": "out,",
+              "start": 98.0,
+              "end": 98.26
+            },
+            {
+              "word": "the",
+              "start": 98.36,
+              "end": 98.4
+            },
+            {
+              "word": "link",
+              "start": 98.4,
+              "end": 98.66
+            },
+            {
+              "word": "goes",
+              "start": 98.66,
+              "end": 98.9
+            },
+            {
+              "word": "out",
+              "start": 98.9,
+              "end": 99.14
+            }
+          ],
+          "tokens": [
+            50596,
+            440,
+            2113,
+            1709,
+            484,
+            11,
+            264,
+            2113,
+            1709,
+            484,
+            50726
+          ],
+          "avg_logprob": -0.27290305575808965,
+          "no_speech_prob": 0.502164900302887,
+          "repair_window": [
+            92,
+            101
+          ]
+        },
+        {
+          "start": 99.14,
+          "end": 100.02,
+          "text": "The page rolls fast",
+          "words": [
+            {
+              "word": "The",
+              "start": 99.14,
+              "end": 99.28
+            },
+            {
+              "word": "page",
+              "start": 99.28,
+              "end": 99.54
+            },
+            {
+              "word": "rolls",
+              "start": 99.54,
+              "end": 99.72
+            },
+            {
+              "word": "fast",
+              "start": 99.72,
+              "end": 100.02
+            }
+          ],
+          "tokens": [
+            50726,
+            440,
+            3028,
+            15767,
+            2370,
+            50774
+          ],
+          "avg_logprob": -0.27290305575808965,
+          "no_speech_prob": 0.502164900302887,
+          "repair_window": [
+            92,
+            101
+          ]
+        }
+      ]
+    }
+  ],
+  "source_audio_sha256": "fd70e12809ce18389d194a1f3829c98deced25b1c24ade5a24ae81ecf2b05408"
+}

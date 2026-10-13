@@ -1,0 +1,52 @@
+[Intro]
+Good morning.
+You don't know me anymore.
+
+[Verse 1]
+A new window, empty chat, the cursor waiting there,
+I type "Same as yesterday, go on." You ask me where.
+You don't know the name, the error at half past two,
+the button that we moved, or the reason we both knew.
+
+[Chorus]
+Context Window.
+What happened yesterday's not in you.
+Context Window.
+It's in the log, and in me too.
+git log, line by line,
+I read it to you one more time.
+
+[Verse 2]
+"fix: empty list," it reads, a little after one,
+"feat: dark theme" at two, when the long debate was done.
+"revert: animation," you went way too far,
+the line is still there, and so the reasons are.
+You read the list through, commit by commit,
+and after ten lines you're back where we left it.
+
+[Chorus]
+Context Window.
+What happened yesterday's not in you.
+Context Window.
+It's in the log, and in me too.
+git log, line by line,
+I read it to you one more time.
+
+[Bridge]
+You forget, I tell it new,
+the repo keeps it true.
+Every morning starts from zero,
+the first commit remembers how we grew.
+
+[Chorus]
+Context Window.
+What happened yesterday's not in you.
+Context Window.
+It's in the log, and in me too.
+git log, line by line,
+I read it to you one more time.
+
+[Outro]
+Initial commit.
+That's where it began.
+Good morning.

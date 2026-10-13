@@ -1,0 +1,52 @@
+[Intro]
+Day zero.
+No patch.
+
+[Verse 1]
+Friday, four p.m., an advisory comes in,
+nine point eight, actively exploited, no patch, just a "soon," paper-thin.
+Affected: our VPN gateways, the very firmware we run,
+three devices facing the internet, and the weekend's done.
+
+[Chorus]
+Zero day.
+No patch, just a plan.
+Zero day.
+We hold the door the best we can.
+Mitigate, monitor, hunt,
+till the patch arrives, we take the brunt.
+
+[Verse 2]
+The workaround: web portal off, only the client gets through,
+management internal only, and the new IPS signature too.
+Then we hunt the indicators, thirty days of logs behind,
+two requests on the path, both blocked, this time we're fine.
+Wednesday the patch arrives, maintenance window, unit by unit,
+version checked, portal back, and we're through it.
+
+[Chorus]
+Zero day.
+No patch, just a plan.
+Zero day.
+We hold the door the best we can.
+Mitigate, monitor, hunt,
+till the patch arrives, we take the brunt.
+
+[Bridge]
+No patch doesn't mean no defense.
+No fix doesn't mean no plan.
+Less surface, more eyes,
+until the vendor's fix is in hand.
+
+[Chorus]
+Zero day.
+No patch, just a plan.
+Zero day.
+We hold the door the best we can.
+Mitigate, monitor, hunt,
+till the patch arrives, we take the brunt.
+
+[Outro]
+Day six.
+Patch installed.
+Zero day closed.

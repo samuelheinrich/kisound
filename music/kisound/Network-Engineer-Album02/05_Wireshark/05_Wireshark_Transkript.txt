@@ -1,0 +1,87 @@
+WIRESHARK – TRANSKRIPT
+
+Audio: 05_Wireshark_1.0.wav
+Audio-SHA-256: 243d6ab2160abfa883bfb86a53a73019e406f6f63986de0ebb3659570e83128c
+Gesamtdauer: 00:03:15.734
+Sprache: Deutsch mit englischen Fachbegriffen
+Zeitformat: HH:MM:SS.mmm
+Zeitbezug: Beginn der unveränderten WAV-Datei bei 0 Sekunden
+Zeitquelle: lokaler ASR-Wortabgleich; keine manuelle Hörprüfung
+Prüfhinweise: ../TRANSKRIPT-PRUEFUNG.md
+
+
+[Intro]
+
+001  [00:00:11.780 --> 00:00:13.140]  «Bei mir geht's.»
+002  [00:00:13.220 --> 00:00:17.440]  «Bei mir nicht.»
+003  [00:00:24.960 --> 00:00:26.540]  Capture läuft.
+004  [00:00:26.540 --> 00:00:31.000]  Zeig mir die Spur.
+
+[Verse 1]
+
+005  [00:00:33.220 --> 00:00:36.140]  Der Browser dreht im Kreis,
+006  [00:00:36.140 --> 00:00:40.140]  der Server sei bereit.
+007  [00:00:41.740 --> 00:00:44.500]  Im Chat hat jeder eine These,
+008  [00:00:44.500 --> 00:00:48.960]  doch keine passt zum Bild.
+009  [00:00:50.640 --> 00:00:53.760]  Ich spiegle den betroffenen Port,
+010  [00:00:53.760 --> 00:00:57.740]  der Mitschnitt füllt den Screen.
+011  [00:01:00.000 --> 00:01:02.720]  Zwischen all den fremden Flows
+012  [00:01:02.720 --> 00:01:06.700]  muss unser Fehler liegen.
+
+[Pre-Chorus]
+
+013  [00:01:10.340 --> 00:01:13.460]  Source und Destination.
+014  [00:01:13.460 --> 00:01:15.520]  Den richtigen Stream.
+015  [00:01:18.040 --> 00:01:21.020]  Ich blende fremde Frames aus,
+016  [00:01:21.020 --> 00:01:24.740]  die Spur bleibt im Mitschnitt drin.
+
+[Chorus]
+
+017  [00:01:29.320 --> 00:01:30.180]  Wireshark.
+018  [00:01:30.180 --> 00:01:32.500]  Zeig mir, was passiert.
+019  [00:01:32.500 --> 00:01:34.860]  Paket für Paket,
+020  [00:01:34.860 --> 00:01:36.920]  bis die Spur zum Fehler führt.
+021  [00:01:37.160 --> 00:01:38.860]  Wireshark.
+022  [00:01:38.860 --> 00:01:41.440]  Keine These hält mich auf.
+023  [00:01:41.440 --> 00:01:43.480]  Ich folge diesem Stream,
+024  [00:01:43.660 --> 00:01:45.840]  dann prüfe ich den nächsten Schritt.
+
+[Verse 2]
+
+025  [00:01:45.940 --> 00:01:48.780]  Der Request geht raus, dann Stille,
+026  [00:01:48.780 --> 00:01:50.960]  ein Segment erscheint erneut.
+027  [00:01:50.960 --> 00:01:53.360]  Retransmission auf dem Bildschirm,
+028  [00:01:53.400 --> 00:01:55.320]  doch die Ursache ist noch weit.
+029  [00:01:55.320 --> 00:01:57.760]  Was dieser Port nicht sehen kann,
+030  [00:01:57.840 --> 00:01:59.620]  wird hier auch nicht zum Beweis.
+031  [00:01:59.620 --> 00:02:02.140]  Ein zweiter Capture auf der Strecke
+032  [00:02:02.140 --> 00:02:04.160]  grenzt die Lücke für uns ein.
+
+[Bridge]
+
+033  [00:02:04.680 --> 00:02:06.480]  TLS hält seinen Inhalt zu,
+034  [00:02:06.740 --> 00:02:09.100]  ohne passende Secrets bleibt er dicht.
+035  [00:02:09.100 --> 00:02:11.600]  Ich seh die sichtbaren Header,
+036  [00:02:11.600 --> 00:02:13.520]  doch die Nachricht les ich nicht.
+037  [00:02:13.520 --> 00:02:15.660]  Ein Reset ist ein Hinweis,
+038  [00:02:15.700 --> 00:02:17.300]  kein Urteil über Schuld.
+039  [00:02:17.300 --> 00:02:19.720]  Erst wenn die Spuren zusammenpassen,
+040  [00:02:19.800 --> 00:02:21.440]  hat die nächste Änderung Grund.
+
+[Final Chorus]
+
+041  [00:02:22.720 --> 00:02:23.380]  Wireshark.
+042  [00:02:23.380 --> 00:02:25.740]  Zeig mir, was passiert.
+043  [00:02:25.740 --> 00:02:28.280]  Paket für Paket,
+044  [00:02:28.280 --> 00:02:30.280]  bis die Spur zum Fehler führt.
+045  [00:02:31.660 --> 00:02:32.360]  Wireshark.
+046  [00:02:32.380 --> 00:02:34.880]  Jetzt passt der Test zur Spur.
+047  [00:02:34.940 --> 00:02:37.180]  Der nächste Mitschnitt zeigt:
+048  [00:02:37.260 --> 00:02:39.160]  Die Antwort kommt zurück.
+
+[Outro]
+
+049  [00:02:48.220 --> 00:02:50.260]  Capture stoppen.
+050  [00:02:52.380 --> 00:02:53.400]  Spur sichern.
+051  [00:02:53.500 --> 00:02:57.040]  Nicht nur «geht wieder».
+052  [00:03:13.340 --> 00:03:15.060]  Auch: Warum.

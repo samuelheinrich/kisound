@@ -1,0 +1,69 @@
+VERSION: 0.1
+ALBUM: Network Engineer 02
+TRACK: 07 - Dark Fiber
+THEMA: Licht in Glas, Seekabel, unbeleuchtete Fasern, lange Strecken, Latenz
+VORGESCHLAGENE ZEIT: 5:00
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+Intro:
+Unter dem Ozean.
+Kein Licht im Strang.
+Warten.
+
+Verse:
+Glas im Boden, dünner als Haar,
+trägt nichts und liegt einfach da.
+Verlegt für eine Zukunft, die keiner kennt,
+dunkel und geduldig, während alles wächst.
+Irgendwo findet ein Laser sein Zuhause,
+Photonen gehen los und nie allein.
+Sechzehnhundert Kilometer tief
+hält der Ozean, was die Städte reden.
+
+Pre-Chorus:
+Licht geht rein.
+Licht kommt raus.
+Dazwischen
+ist nichts als Distanz.
+
+Chorus:
+Dark Fiber.
+Licht im Glas.
+Dark Fiber.
+Lass die Stille ziehen.
+Unter dem Wasser,
+unter der Strasse,
+die ganze Welt redet,
+wo die Meere sich treffen.
+
+Break:
+Unlit.
+Ungenutzt.
+Wartend.
+Dann Licht.
+
+Verse 2:
+Verstärker alle achtzig Kilometer
+heben ein Signal, das leiser wird.
+Wellenlängen gestapelt in einem Kern,
+Farben, die immer mehr tragen.
+Ein Bagger findet es am Nachmittag,
+ein Kontinent routet um bis Mittag.
+Spleissen, messen, zurückholen,
+das Licht kommt heim auf seine Spur.
+
+Final Chorus:
+Dark Fiber.
+Licht im Glas.
+Dark Fiber.
+Lass die Stille ziehen.
+Jede Nachricht,
+jeder Anruf,
+ein dünner Strang
+unter allem.
+
+STYLE PROMPT:
+Weiter, atmosphaerischer Dub Techno mit viel Raum und wenigen Elementen. Tempo ca. 118-122 BPM. Tiefer, warmer Sub-Bass, lange Hall-Fahnen, gedaempfte Chords im Offbeat, sehr reduzierte Percussion. Unterwasser-Charakter: gefiltert, dumpf, langsam sich oeffnend. Der Track darf lange brauchen und lebt von Geduld, nicht von Energie. Stimme leise, fast gefluestert, viel Raum um sie herum. Abschnittsnamen nicht singen. Keine bekannten Melodie- oder Song-Referenzen. Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht uebersetzen. Buchstabenfolgen wie S-Y-N oder V-N-I einzeln buchstabiert singen.

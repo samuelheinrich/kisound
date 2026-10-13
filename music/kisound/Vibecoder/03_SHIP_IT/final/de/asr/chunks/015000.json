@@ -1,0 +1,69 @@
+{
+  "source_audio_sha256": "689d662c3d10ba9bd08c787315635ff4bba6d97f8a5db54343486dd4c7958259",
+  "frame": 15000,
+  "next_frame": 18000,
+  "segments": [
+    {
+      "start": 150.0,
+      "end": 153.06,
+      "text": "Nächstes Album, nächster",
+      "words": [
+        {
+          "word": "Nächstes",
+          "start": 151.02,
+          "end": 151.84
+        },
+        {
+          "word": "Album",
+          "start": 151.84,
+          "end": 152.28
+        },
+        {
+          "word": ",",
+          "start": 152.28,
+          "end": 152.56
+        },
+        {
+          "word": "nächster",
+          "start": 152.56,
+          "end": 153.26
+        }
+      ],
+      "tokens": [
+        50365,
+        426,
+        28679,
+        279,
+        967,
+        5559,
+        11,
+        13201,
+        3120,
+        50518
+      ]
+    },
+    {
+      "start": 153.06,
+      "end": 154.2,
+      "text": "Come on",
+      "words": [
+        {
+          "word": "Come",
+          "start": 153.9,
+          "end": 154.08
+        },
+        {
+          "word": "on",
+          "start": 154.08,
+          "end": 155.38
+        }
+      ],
+      "tokens": [
+        50518,
+        2492,
+        322,
+        50575
+      ]
+    }
+  ]
+}

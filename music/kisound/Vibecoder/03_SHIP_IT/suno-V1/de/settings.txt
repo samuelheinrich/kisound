@@ -1,0 +1,7 @@
+Titel:
+03_SHIP_IT_suno-v1_50_50_exakt_off_DE
+
+Weirdness: 50%
+Style Influence: 50%
+variety: exakt
+max mode: off

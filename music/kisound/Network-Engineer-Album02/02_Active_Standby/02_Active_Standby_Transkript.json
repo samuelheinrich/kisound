@@ -1,0 +1,549 @@
+{
+  "title": "Active / Standby",
+  "source_audio": "02_Active_Standby_1.0.wav",
+  "source_audio_sha256": "42750eb28bf676ef697bc26cddb9c28ec62390336e462783111b69db2446c86c",
+  "duration_seconds": 203.1735,
+  "languages": [
+    "de",
+    "en"
+  ],
+  "time_origin": "Beginn der unveränderten WAV-Datei bei 0 Sekunden",
+  "timing_source": "Lokaler ASR-Wortabgleich mit whisper-large-v3 und whisper-large-v3-turbo; zusätzliche ASR-Ausschnitte bei schwierigen Stellen; keine manuelle Hörprüfung",
+  "text_source": "Akustisch zugeordnete Zeilen aus dem beibehaltenen Lyric-Prompt; zusätzliche erkannte Wiederholungen und abweichende Kurzzeilen aus dem ASR-Modellvergleich",
+  "review_status": "Automatisch erstellt; Hörprüfung offener Text- und Zeitkonflikte aus TRANSKRIPT-PRUEFUNG.md steht aus.",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 12.4,
+      "last_vocal_end": 25.58
+    },
+    {
+      "title": "Verse 1",
+      "first_vocal_start": 39.14,
+      "last_vocal_end": 66.8
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 67.42,
+      "last_vocal_end": 82.34
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 89.1,
+      "last_vocal_end": 102.56
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 102.74,
+      "last_vocal_end": 110.58
+    },
+    {
+      "title": "Verse 3",
+      "first_vocal_start": 111.38,
+      "last_vocal_end": 139.78
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 139.86,
+      "last_vocal_end": 171.92
+    },
+    {
+      "title": "Outro – Wiederholung",
+      "first_vocal_start": 189.66,
+      "last_vocal_end": 193.68
+    }
+  ],
+  "segments": [
+    {
+      "start": 12.4,
+      "end": 13.96,
+      "start_timecode": "00:00:12.400",
+      "end_timecode": "00:00:13.960",
+      "text": "Ich trag den Traffic.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 1
+    },
+    {
+      "start": 23.72,
+      "end": 25.58,
+      "start_timecode": "00:00:23.720",
+      "end_timecode": "00:00:25.580",
+      "text": "Ich hör deinen Puls.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 2
+    },
+    {
+      "start": 39.14,
+      "end": 41.92,
+      "start_timecode": "00:00:39.140",
+      "end_timecode": "00:00:41.920",
+      "text": "Die Sessions laufen, unser Sync steht.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 3
+    },
+    {
+      "start": 42.84,
+      "end": 45.28,
+      "start_timecode": "00:00:42.840",
+      "end_timecode": "00:00:45.280",
+      "text": "Ein Heartbeat sagt dir: Ich bin hier.",
+      "section": "Verse 1",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 4
+    },
+    {
+      "start": 46.4,
+      "end": 48.72,
+      "start_timecode": "00:00:46.400",
+      "end_timecode": "00:00:48.720",
+      "text": "Ich halte unsern Datenpfad,",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 5
+    },
+    {
+      "start": 49.54,
+      "end": 52.24,
+      "start_timecode": "00:00:49.540",
+      "end_timecode": "00:00:52.240",
+      "text": "du hältst den Stand von mir.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 6
+    },
+    {
+      "start": 53.48,
+      "end": 55.78,
+      "start_timecode": "00:00:53.480",
+      "end_timecode": "00:00:55.780",
+      "text": "Die Flows sind auch bei mir bekannt.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 7
+    },
+    {
+      "start": 57.24,
+      "end": 59.46,
+      "start_timecode": "00:00:57.240",
+      "end_timecode": "00:00:59.460",
+      "text": "Dein Heartbeat hält uns im Kontakt.",
+      "section": "Verse 1",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 8
+    },
+    {
+      "start": 60.48,
+      "end": 63.12,
+      "start_timecode": "00:01:00.480",
+      "end_timecode": "00:01:03.120",
+      "text": "Ich bleibe wach und hör dich an.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 9
+    },
+    {
+      "start": 64.1,
+      "end": 66.8,
+      "start_timecode": "00:01:04.100",
+      "end_timecode": "00:01:06.800",
+      "text": "Bereit, wenn ich übernehmen kann.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 10
+    },
+    {
+      "start": 67.42,
+      "end": 68.48,
+      "start_timecode": "00:01:07.420",
+      "end_timecode": "00:01:08.480",
+      "text": "Active.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 11
+    },
+    {
+      "start": 70.44,
+      "end": 71.94,
+      "start_timecode": "00:01:10.440",
+      "end_timecode": "00:01:11.940",
+      "text": "Standby.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 12
+    },
+    {
+      "start": 74.24,
+      "end": 75.88,
+      "start_timecode": "00:01:14.240",
+      "end_timecode": "00:01:15.880",
+      "text": "Einer trägt,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 13
+    },
+    {
+      "start": 77.52,
+      "end": 79.1,
+      "start_timecode": "00:01:17.520",
+      "end_timecode": "00:01:19.100",
+      "text": "einer steht bereit.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 14
+    },
+    {
+      "start": 79.1,
+      "end": 80.82,
+      "start_timecode": "00:01:19.100",
+      "end_timecode": "00:01:20.820",
+      "text": "Dein Heartbeat sagt:",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 15
+    },
+    {
+      "start": 81.22,
+      "end": 82.34,
+      "start_timecode": "00:01:21.220",
+      "end_timecode": "00:01:22.340",
+      "text": "Ich bin noch hier.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 16
+    },
+    {
+      "start": 89.1,
+      "end": 91.22,
+      "start_timecode": "00:01:29.100",
+      "end_timecode": "00:01:31.220",
+      "text": "Dein Heartbeat fehlt, der Link ist weg.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 17
+    },
+    {
+      "start": 91.26,
+      "end": 92.62,
+      "start_timecode": "00:01:31.260",
+      "end_timecode": "00:01:32.620",
+      "text": "Der letzte Check läuft aus.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 18
+    },
+    {
+      "start": 92.62,
+      "end": 94.48,
+      "start_timecode": "00:01:32.620",
+      "end_timecode": "00:01:34.480",
+      "text": "Ich schalte um, ich bin jetzt Active.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 19
+    },
+    {
+      "start": 94.58,
+      "end": 96.14,
+      "start_timecode": "00:01:34.580",
+      "end_timecode": "00:01:36.140",
+      "text": "Doch du sendest weiter raus.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 20
+    },
+    {
+      "start": 96.14,
+      "end": 98.94,
+      "start_timecode": "00:01:36.140",
+      "end_timecode": "00:01:38.940",
+      "text": "Mein Datenpfad ist immer offen.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 21
+    },
+    {
+      "start": 99.66,
+      "end": 102.56,
+      "start_timecode": "00:01:39.660",
+      "end_timecode": "00:01:42.560",
+      "text": "Ich bin noch da. Ich bin Active.",
+      "section": "Verse 2",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Ende auf das erste vollständige «Ich bin Active» begrenzt. Folgende Laute werden von den vollständigen Läufen als Wiederholung, im Ausschnitt als Split Brain erkannt.",
+      "id": 22
+    },
+    {
+      "start": 102.74,
+      "end": 104.86,
+      "start_timecode": "00:01:42.740",
+      "end_timecode": "00:01:44.860",
+      "text": "Split Brain.",
+      "section": "Chorus",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Ausschnitt erkennt Split Brain mit sehr niedriger Wortwahrscheinlichkeit; beide vollständigen Läufe erkennen hier «ich bin Active». Zeit und Prompt-Schreibweise sind vorläufig und müssen gehört werden.",
+      "id": 23
+    },
+    {
+      "start": 105.94,
+      "end": 107.02,
+      "start_timecode": "00:01:45.940",
+      "end_timecode": "00:01:47.020",
+      "text": "Beide Active.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 24
+    },
+    {
+      "start": 107.34,
+      "end": 108.8,
+      "start_timecode": "00:01:47.340",
+      "end_timecode": "00:01:48.800",
+      "text": "Eine Adresse.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 25
+    },
+    {
+      "start": 108.82,
+      "end": 110.58,
+      "start_timecode": "00:01:48.820",
+      "end_timecode": "00:01:50.580",
+      "text": "Kein gemeinsamer Takt.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 26
+    },
+    {
+      "start": 111.38,
+      "end": 113.26,
+      "start_timecode": "00:01:51.380",
+      "end_timecode": "00:01:53.260",
+      "text": "Mein Datenpfad wird isoliert.",
+      "section": "Verse 3",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Überlappende ASR-Wortzeiten an der nächsten Cue-Grenze gekürzt.",
+      "id": 27
+    },
+    {
+      "start": 113.26,
+      "end": 116.82,
+      "start_timecode": "00:01:53.260",
+      "end_timecode": "00:01:56.820",
+      "text": "Ich gebe meine Führung ab.",
+      "section": "Verse 3",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 28
+    },
+    {
+      "start": 117.9,
+      "end": 120.44,
+      "start_timecode": "00:01:57.900",
+      "end_timecode": "00:02:00.440",
+      "text": "Der Link steht wieder zwischen uns.",
+      "section": "Verse 3",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 29
+    },
+    {
+      "start": 120.44,
+      "end": 123.48,
+      "start_timecode": "00:02:00.440",
+      "end_timecode": "00:02:03.480",
+      "text": "Wir prüfen unsre Rollen neu.",
+      "section": "Verse 3",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 30
+    },
+    {
+      "start": 125.58,
+      "end": 128.82,
+      "start_timecode": "00:02:05.580",
+      "end_timecode": "00:02:08.820",
+      "text": "Dein Puls ist wieder da, der Sync steht.",
+      "section": "Verse 3",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 31
+    },
+    {
+      "start": 128.82,
+      "end": 132.04,
+      "start_timecode": "00:02:08.820",
+      "end_timecode": "00:02:12.040",
+      "text": "Ein Pfad trägt unsern Traffic jetzt.",
+      "section": "Verse 3",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 32
+    },
+    {
+      "start": 132.26,
+      "end": 135.14,
+      "start_timecode": "00:02:12.260",
+      "end_timecode": "00:02:15.140",
+      "text": "Du hältst als Standby unsern Stand.",
+      "section": "Verse 3",
+      "timing_model": "turbo",
+      "review_required": true,
+      "id": 33,
+      "review_note": "Überlappende ASR-Wortzeiten an der nächsten Cue-Grenze gekürzt."
+    },
+    {
+      "start": 135.14,
+      "end": 139.78,
+      "start_timecode": "00:02:15.140",
+      "end_timecode": "00:02:19.780",
+      "text": "Ich führe, während du mich hörst.",
+      "section": "Verse 3",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 34
+    },
+    {
+      "start": 139.86,
+      "end": 140.18,
+      "start_timecode": "00:02:19.860",
+      "end_timecode": "00:02:20.180",
+      "text": "Active.",
+      "section": "Final Chorus",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Nur Large-v3 erkennt hier «Du bist aktiv», mit kurzen/teilweise kollabierten Wortzeiten. Im Transkript bleibt das Prompt-Stichwort Active; Beginn und Ende müssen gehört werden.",
+      "id": 35
+    },
+    {
+      "start": 142.42,
+      "end": 143.76,
+      "start_timecode": "00:02:22.420",
+      "end_timecode": "00:02:23.760",
+      "text": "Ich trag den Traffic.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 36
+    },
+    {
+      "start": 146.66,
+      "end": 147.34,
+      "start_timecode": "00:02:26.660",
+      "end_timecode": "00:02:27.340",
+      "text": "Standby.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 37
+    },
+    {
+      "start": 147.34,
+      "end": 150.72,
+      "start_timecode": "00:02:27.340",
+      "end_timecode": "00:02:30.720",
+      "text": "Ich halte mich bereit.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 38
+    },
+    {
+      "start": 161.4,
+      "end": 161.86,
+      "start_timecode": "00:02:41.400",
+      "end_timecode": "00:02:41.860",
+      "text": "Active.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 39
+    },
+    {
+      "start": 163.64,
+      "end": 165.36,
+      "start_timecode": "00:02:43.640",
+      "end_timecode": "00:02:45.360",
+      "text": "Standby.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 40
+    },
+    {
+      "start": 167.06,
+      "end": 168.38,
+      "start_timecode": "00:02:47.060",
+      "end_timecode": "00:02:48.380",
+      "text": "Ein klarer Pfad.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 41
+    },
+    {
+      "start": 170.3,
+      "end": 171.92,
+      "start_timecode": "00:02:50.300",
+      "end_timecode": "00:02:51.920",
+      "text": "Dein Puls ist wieder da.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 42
+    },
+    {
+      "text": "Active.",
+      "start": 189.66,
+      "end": 190.54,
+      "section": "Outro – Wiederholung",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Beide vollständigen Modelle erkennen diese zusätzliche Wiederholung nach dem vorgesehenen letzten Refrain.",
+      "id": 43,
+      "start_timecode": "00:03:09.660",
+      "end_timecode": "00:03:10.540"
+    },
+    {
+      "text": "Standby.",
+      "start": 192.4,
+      "end": 193.68,
+      "section": "Outro – Wiederholung",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Beide vollständigen Modelle erkennen diese zusätzliche Wiederholung; Start und Ende umfassen die getrennt erkannten Wörter Stand/by.",
+      "id": 44,
+      "start_timecode": "00:03:12.400",
+      "end_timecode": "00:03:13.680"
+    }
+  ]
+}

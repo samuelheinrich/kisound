@@ -1,0 +1,1056 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx",
+  "runtime": "MLX GPU, short independent windows",
+  "language": "de",
+  "source_audio": "/Users/samuel.heinrich/0004_git/music/kisound/Vibecoder/03_SHIP_IT/final/03_SHIP_IT_suno-v3_50_50_exakt_off_DE.wav",
+  "windows": [
+    {
+      "start_s": 67,
+      "end_s": 77,
+      "elapsed_s": 33.37,
+      "segments": [
+        {
+          "start": 67.0,
+          "end": 71.54,
+          "text": "Schlecht live, komm mit den Schippen mit den Albumen rein",
+          "words": [
+            {
+              "word": "Schlecht",
+              "start": 67.0,
+              "end": 67.62
+            },
+            {
+              "word": "live,",
+              "start": 67.62,
+              "end": 68.22
+            },
+            {
+              "word": "komm",
+              "start": 68.62,
+              "end": 69.0
+            },
+            {
+              "word": "mit",
+              "start": 69.0,
+              "end": 69.24
+            },
+            {
+              "word": "den",
+              "start": 69.24,
+              "end": 69.48
+            },
+            {
+              "word": "Schippen",
+              "start": 69.48,
+              "end": 69.96
+            },
+            {
+              "word": "mit",
+              "start": 69.96,
+              "end": 70.12
+            },
+            {
+              "word": "den",
+              "start": 70.12,
+              "end": 70.34
+            },
+            {
+              "word": "Albumen",
+              "start": 70.34,
+              "end": 71.14
+            },
+            {
+              "word": "rein",
+              "start": 71.14,
+              "end": 71.54
+            }
+          ],
+          "tokens": [
+            50365,
+            2065,
+            306,
+            4701,
+            1621,
+            11,
+            6669,
+            2194,
+            1441,
+            2065,
+            2488,
+            268,
+            2194,
+            1441,
+            967,
+            5559,
+            268,
+            6561,
+            50623
+          ],
+          "avg_logprob": -0.4986650065371865,
+          "no_speech_prob": 0.6525810956954956,
+          "repair_window": [
+            67,
+            77
+          ]
+        },
+        {
+          "start": 72.16,
+          "end": 75.34,
+          "text": "Der Lied geht raus, die Seite lebt",
+          "words": [
+            {
+              "word": "Der",
+              "start": 72.0,
+              "end": 72.4
+            },
+            {
+              "word": "Lied",
+              "start": 72.4,
+              "end": 72.76
+            },
+            {
+              "word": "geht",
+              "start": 72.76,
+              "end": 72.9
+            },
+            {
+              "word": "raus,",
+              "start": 72.9,
+              "end": 73.24
+            },
+            {
+              "word": "die",
+              "start": 73.36,
+              "end": 73.5
+            },
+            {
+              "word": "Seite",
+              "start": 73.5,
+              "end": 74.14
+            },
+            {
+              "word": "lebt",
+              "start": 74.14,
+              "end": 75.34
+            }
+          ],
+          "tokens": [
+            50623,
+            5618,
+            441,
+            1091,
+            7095,
+            17202,
+            11,
+            978,
+            19748,
+            476,
+            4517,
+            50785
+          ],
+          "avg_logprob": -0.4986650065371865,
+          "no_speech_prob": 0.6525810956954956,
+          "repair_window": [
+            67,
+            77
+          ]
+        },
+        {
+          "start": 75.34,
+          "end": 76.48,
+          "text": "Play gedrückt",
+          "words": [
+            {
+              "word": "Play",
+              "start": 75.34,
+              "end": 75.78
+            },
+            {
+              "word": "gedrückt",
+              "start": 75.78,
+              "end": 76.48
+            }
+          ],
+          "tokens": [
+            50785,
+            5506,
+            19238,
+            81,
+            37532,
+            50846
+          ],
+          "avg_logprob": -0.4986650065371865,
+          "no_speech_prob": 0.6525810956954956,
+          "repair_window": [
+            67,
+            77
+          ]
+        }
+      ]
+    },
+    {
+      "start_s": 77,
+      "end_s": 87,
+      "elapsed_s": 19.13,
+      "segments": [
+        {
+          "start": 77.0,
+          "end": 78.66,
+          "text": "Und der Bass still",
+          "words": [
+            {
+              "word": "Und",
+              "start": 77.0,
+              "end": 77.82
+            },
+            {
+              "word": "der",
+              "start": 77.82,
+              "end": 78.02
+            },
+            {
+              "word": "Bass",
+              "start": 78.02,
+              "end": 78.3
+            },
+            {
+              "word": "still",
+              "start": 78.3,
+              "end": 78.66
+            }
+          ],
+          "tokens": [
+            50365,
+            2719,
+            1163,
+            29626,
+            920,
+            50460
+          ],
+          "avg_logprob": -0.12018310192019441,
+          "no_speech_prob": 0.2823576033115387,
+          "repair_window": [
+            77,
+            87
+          ]
+        },
+        {
+          "start": 78.66,
+          "end": 81.94,
+          "text": "Deploy auf Live, der Upload zählt die Dateien",
+          "words": [
+            {
+              "word": "Deploy",
+              "start": 78.66,
+              "end": 79.58
+            },
+            {
+              "word": "auf",
+              "start": 79.58,
+              "end": 79.78
+            },
+            {
+              "word": "Live,",
+              "start": 79.78,
+              "end": 80.04
+            },
+            {
+              "word": "der",
+              "start": 80.22,
+              "end": 80.36
+            },
+            {
+              "word": "Upload",
+              "start": 80.36,
+              "end": 80.9
+            },
+            {
+              "word": "zählt",
+              "start": 80.9,
+              "end": 81.06
+            },
+            {
+              "word": "die",
+              "start": 81.06,
+              "end": 81.22
+            },
+            {
+              "word": "Dateien",
+              "start": 81.22,
+              "end": 81.94
+            }
+          ],
+          "tokens": [
+            50460,
+            1346,
+            2384,
+            2501,
+            10385,
+            11,
+            1163,
+            624,
+            21132,
+            345,
+            710,
+            43376,
+            978,
+            31805,
+            1053,
+            50616
+          ],
+          "avg_logprob": -0.12018310192019441,
+          "no_speech_prob": 0.2823576033115387,
+          "repair_window": [
+            77,
+            87
+          ]
+        },
+        {
+          "start": 81.94,
+          "end": 85.2,
+          "text": "Cover, Audio, Texte, alles muss dabei sein",
+          "words": [
+            {
+              "word": "Cover,",
+              "start": 81.94,
+              "end": 82.64
+            },
+            {
+              "word": "Audio,",
+              "start": 82.72,
+              "end": 83.08
+            },
+            {
+              "word": "Texte,",
+              "start": 83.22,
+              "end": 83.86
+            },
+            {
+              "word": "alles",
+              "start": 83.86,
+              "end": 84.16
+            },
+            {
+              "word": "muss",
+              "start": 84.16,
+              "end": 84.44
+            },
+            {
+              "word": "dabei",
+              "start": 84.44,
+              "end": 84.76
+            },
+            {
+              "word": "sein",
+              "start": 84.76,
+              "end": 85.2
+            }
+          ],
+          "tokens": [
+            50616,
+            19106,
+            11,
+            25706,
+            11,
+            18643,
+            68,
+            11,
+            7874,
+            6425,
+            14967,
+            6195,
+            50787
+          ],
+          "avg_logprob": -0.12018310192019441,
+          "no_speech_prob": 0.2823576033115387,
+          "repair_window": [
+            77,
+            87
+          ]
+        },
+        {
+          "start": 85.2,
+          "end": 86.8,
+          "text": "Ich lad die Seite neu",
+          "words": [
+            {
+              "word": "Ich",
+              "start": 85.2,
+              "end": 85.74
+            },
+            {
+              "word": "lad",
+              "start": 85.74,
+              "end": 85.86
+            },
+            {
+              "word": "die",
+              "start": 85.86,
+              "end": 86.14
+            },
+            {
+              "word": "Seite",
+              "start": 86.14,
+              "end": 86.5
+            },
+            {
+              "word": "neu",
+              "start": 86.5,
+              "end": 86.8
+            }
+          ],
+          "tokens": [
+            50787,
+            3141,
+            6632,
+            978,
+            19748,
+            22510,
+            50864
+          ],
+          "avg_logprob": -0.12018310192019441,
+          "no_speech_prob": 0.2823576033115387,
+          "repair_window": [
+            77,
+            87
+          ]
+        }
+      ]
+    },
+    {
+      "start_s": 87,
+      "end_s": 97,
+      "elapsed_s": 20.28,
+      "segments": [
+        {
+          "start": 87.0,
+          "end": 88.7,
+          "text": "Der Browser zeigt noch alt",
+          "words": [
+            {
+              "word": "Der",
+              "start": 87.0,
+              "end": 87.4
+            },
+            {
+              "word": "Browser",
+              "start": 87.4,
+              "end": 87.84
+            },
+            {
+              "word": "zeigt",
+              "start": 87.84,
+              "end": 88.12
+            },
+            {
+              "word": "noch",
+              "start": 88.12,
+              "end": 88.32
+            },
+            {
+              "word": "alt",
+              "start": 88.32,
+              "end": 88.7
+            }
+          ],
+          "tokens": [
+            50365,
+            5618,
+            1603,
+            30947,
+            29250,
+            3514,
+            4955,
+            50458
+          ],
+          "avg_logprob": -0.1887233482216889,
+          "no_speech_prob": 0.22688277065753937,
+          "repair_window": [
+            87,
+            97
+          ]
+        },
+        {
+          "start": 88.7,
+          "end": 92.26,
+          "text": "Data Reload und Album 3 steht da, der Bass knallt",
+          "words": [
+            {
+              "word": "Data",
+              "start": 88.7,
+              "end": 89.06
+            },
+            {
+              "word": "Reload",
+              "start": 89.06,
+              "end": 89.86
+            },
+            {
+              "word": "und",
+              "start": 89.86,
+              "end": 90.0
+            },
+            {
+              "word": "Album",
+              "start": 90.0,
+              "end": 90.46
+            },
+            {
+              "word": "3",
+              "start": 90.46,
+              "end": 90.62
+            },
+            {
+              "word": "steht",
+              "start": 90.62,
+              "end": 90.86
+            },
+            {
+              "word": "da,",
+              "start": 90.86,
+              "end": 91.12
+            },
+            {
+              "word": "der",
+              "start": 91.16,
+              "end": 91.28
+            },
+            {
+              "word": "Bass",
+              "start": 91.28,
+              "end": 91.6
+            },
+            {
+              "word": "knallt",
+              "start": 91.6,
+              "end": 92.26
+            }
+          ],
+          "tokens": [
+            50458,
+            11888,
+            8738,
+            78,
+            345,
+            674,
+            967,
+            5559,
+            805,
+            16361,
+            1120,
+            11,
+            1163,
+            29626,
+            444,
+            336,
+            83,
+            50632
+          ],
+          "avg_logprob": -0.1887233482216889,
+          "no_speech_prob": 0.22688277065753937,
+          "repair_window": [
+            87,
+            97
+          ]
+        },
+        {
+          "start": 92.26,
+          "end": 95.38,
+          "text": "Erst Deutsch, dann Englisch, jede Sprache prüf ich nach",
+          "words": [
+            {
+              "word": "Erst",
+              "start": 92.26,
+              "end": 92.48
+            },
+            {
+              "word": "Deutsch,",
+              "start": 92.48,
+              "end": 93.0
+            },
+            {
+              "word": "dann",
+              "start": 93.04,
+              "end": 93.24
+            },
+            {
+              "word": "Englisch,",
+              "start": 93.24,
+              "end": 94.0
+            },
+            {
+              "word": "jede",
+              "start": 94.0,
+              "end": 94.18
+            },
+            {
+              "word": "Sprache",
+              "start": 94.18,
+              "end": 94.66
+            },
+            {
+              "word": "prüf",
+              "start": 94.66,
+              "end": 95.06
+            },
+            {
+              "word": "ich",
+              "start": 95.06,
+              "end": 95.14
+            },
+            {
+              "word": "nach",
+              "start": 95.14,
+              "end": 95.38
+            }
+          ],
+          "tokens": [
+            50632,
+            31183,
+            12699,
+            11,
+            3594,
+            2469,
+            75,
+            5494,
+            11,
+            34039,
+            7702,
+            6000,
+            582,
+            39733,
+            1893,
+            5168,
+            50790
+          ],
+          "avg_logprob": -0.1887233482216889,
+          "no_speech_prob": 0.22688277065753937,
+          "repair_window": [
+            87,
+            97
+          ]
+        },
+        {
+          "start": 95.38,
+          "end": 96.88,
+          "text": "Die Lyrics bleiben im Mord",
+          "words": [
+            {
+              "word": "Die",
+              "start": 95.38,
+              "end": 95.56
+            },
+            {
+              "word": "Lyrics",
+              "start": 95.56,
+              "end": 96.02
+            },
+            {
+              "word": "bleiben",
+              "start": 96.02,
+              "end": 96.34
+            },
+            {
+              "word": "im",
+              "start": 96.34,
+              "end": 96.66
+            },
+            {
+              "word": "Mord",
+              "start": 96.66,
+              "end": 96.88
+            }
+          ],
+          "tokens": [
+            50790,
+            3229,
+            441,
+            11381,
+            24912,
+            566,
+            376,
+            765,
+            50865
+          ],
+          "avg_logprob": -0.1887233482216889,
+          "no_speech_prob": 0.22688277065753937,
+          "repair_window": [
+            87,
+            97
+          ]
+        }
+      ]
+    },
+    {
+      "start_s": 113,
+      "end_s": 126,
+      "elapsed_s": 24.62,
+      "segments": [
+        {
+          "start": 113.0,
+          "end": 118.98,
+          "text": "Tricks, Cover, Doppelbild, Tische, Pro, Lilo, Lilo, Bäh, Bäh, Bäh, Almen.",
+          "words": [
+            {
+              "word": "Tricks,",
+              "start": 113.0,
+              "end": 113.62
+            },
+            {
+              "word": "Cover,",
+              "start": 113.68,
+              "end": 114.24
+            },
+            {
+              "word": "Doppelbild,",
+              "start": 114.4,
+              "end": 115.18
+            },
+            {
+              "word": "Tische,",
+              "start": 115.22,
+              "end": 115.78
+            },
+            {
+              "word": "Pro,",
+              "start": 115.98,
+              "end": 116.46
+            },
+            {
+              "word": "Lilo,",
+              "start": 116.58,
+              "end": 117.04
+            },
+            {
+              "word": "Lilo,",
+              "start": 117.06,
+              "end": 117.5
+            },
+            {
+              "word": "Bäh,",
+              "start": 117.5,
+              "end": 117.92
+            },
+            {
+              "word": "Bäh,",
+              "start": 118.06,
+              "end": 118.28
+            },
+            {
+              "word": "Bäh,",
+              "start": 118.28,
+              "end": 118.44
+            },
+            {
+              "word": "Almen.",
+              "start": 118.52,
+              "end": 118.98
+            }
+          ],
+          "tokens": [
+            50365,
+            1765,
+            7663,
+            11,
+            19106,
+            11,
+            413,
+            17158,
+            338,
+            16248,
+            11,
+            314,
+            7864,
+            11,
+            1705,
+            11,
+            441,
+            10720,
+            11,
+            441,
+            10720,
+            11,
+            363,
+            6860,
+            11,
+            363,
+            6860,
+            11,
+            363,
+            6860,
+            11,
+            967,
+            2558,
+            13,
+            50668
+          ],
+          "avg_logprob": -0.4218893991389745,
+          "no_speech_prob": 0.27845871448516846,
+          "repair_window": [
+            113,
+            126
+          ]
+        },
+        {
+          "start": 120.28,
+          "end": 125.72,
+          "text": "Tricks, Cover, Doppelbild, Tische, Pro, Lilo, Lilo, Bäh, Bäh, Bäh, Almen.",
+          "words": [
+            {
+              "word": "Tricks,",
+              "start": 120.28,
+              "end": 120.7
+            },
+            {
+              "word": "Cover,",
+              "start": 120.7,
+              "end": 121.12
+            },
+            {
+              "word": "Doppelbild,",
+              "start": 121.24,
+              "end": 121.96
+            },
+            {
+              "word": "Tische,",
+              "start": 122.1,
+              "end": 122.6
+            },
+            {
+              "word": "Pro,",
+              "start": 122.8,
+              "end": 123.3
+            },
+            {
+              "word": "Lilo,",
+              "start": 123.42,
+              "end": 123.88
+            },
+            {
+              "word": "Lilo,",
+              "start": 123.88,
+              "end": 124.32
+            },
+            {
+              "word": "Bäh,",
+              "start": 124.32,
+              "end": 124.76
+            },
+            {
+              "word": "Bäh,",
+              "start": 124.9,
+              "end": 125.08
+            },
+            {
+              "word": "Bäh,",
+              "start": 125.08,
+              "end": 125.22
+            },
+            {
+              "word": "Almen.",
+              "start": 125.28,
+              "end": 125.72
+            }
+          ],
+          "tokens": [
+            50710,
+            1765,
+            7663,
+            11,
+            19106,
+            11,
+            413,
+            17158,
+            338,
+            16248,
+            11,
+            314,
+            7864,
+            11,
+            1705,
+            11,
+            441,
+            10720,
+            11,
+            441,
+            10720,
+            11,
+            363,
+            6860,
+            11,
+            363,
+            6860,
+            11,
+            363,
+            6860,
+            11,
+            967,
+            2558,
+            13,
+            51010
+          ],
+          "avg_logprob": -0.4218893991389745,
+          "no_speech_prob": 0.27845871448516846,
+          "repair_window": [
+            113,
+            126
+          ]
+        }
+      ]
+    },
+    {
+      "start_s": 126,
+      "end_s": 136,
+      "elapsed_s": 26.57,
+      "segments": [
+        {
+          "start": 126.0,
+          "end": 126.24,
+          "text": "!",
+          "words": [
+            {
+              "word": "!",
+              "start": 126.0,
+              "end": 126.24
+            }
+          ],
+          "tokens": [
+            50365,
+            0,
+            50865
+          ],
+          "avg_logprob": null,
+          "no_speech_prob": 0.2707769274711609,
+          "repair_window": [
+            126,
+            136
+          ]
+        }
+      ]
+    },
+    {
+      "start_s": 136,
+      "end_s": 146,
+      "elapsed_s": 11.38,
+      "segments": [
+        {
+          "start": 137.5,
+          "end": 140.28,
+          "text": "Und der Bastel",
+          "words": [
+            {
+              "word": "Und",
+              "start": 137.5,
+              "end": 138.9
+            },
+            {
+              "word": "der",
+              "start": 138.9,
+              "end": 139.6
+            },
+            {
+              "word": "Bastel",
+              "start": 139.6,
+              "end": 140.28
+            }
+          ],
+          "tokens": [
+            50365,
+            2719,
+            1163,
+            31915,
+            338,
+            50591
+          ],
+          "avg_logprob": -0.9165259769984654,
+          "no_speech_prob": 0.7400832176208496,
+          "repair_window": [
+            136,
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "start_s": 146,
+      "end_s": 155.96,
+      "elapsed_s": 11.04,
+      "segments": [
+        {
+          "start": 150.6,
+          "end": 152.62,
+          "text": "Nächste Zeit und nächste",
+          "words": [
+            {
+              "word": "Nächste",
+              "start": 150.6,
+              "end": 151.36
+            },
+            {
+              "word": "Zeit",
+              "start": 151.36,
+              "end": 151.62
+            },
+            {
+              "word": "und",
+              "start": 151.62,
+              "end": 152.0
+            },
+            {
+              "word": "nächste",
+              "start": 152.0,
+              "end": 152.62
+            }
+          ],
+          "tokens": [
+            50365,
+            426,
+            10168,
+            2941,
+            9394,
+            674,
+            30661,
+            50706
+          ],
+          "avg_logprob": -0.8261440140860421,
+          "no_speech_prob": 0.36729130148887634,
+          "repair_window": [
+            146,
+            155.96
+          ]
+        },
+        {
+          "start": 152.62,
+          "end": 154.0,
+          "text": "Komm' auf",
+          "words": [
+            {
+              "word": "Komm'",
+              "start": 152.62,
+              "end": 153.62
+            },
+            {
+              "word": "auf",
+              "start": 153.78,
+              "end": 154.0
+            }
+          ],
+          "tokens": [
+            50706,
+            18400,
+            6,
+            2501,
+            50775
+          ],
+          "avg_logprob": -0.8261440140860421,
+          "no_speech_prob": 0.36729130148887634,
+          "repair_window": [
+            146,
+            155.96
+          ]
+        }
+      ]
+    }
+  ],
+  "source_audio_sha256": "689d662c3d10ba9bd08c787315635ff4bba6d97f8a5db54343486dd4c7958259"
+}

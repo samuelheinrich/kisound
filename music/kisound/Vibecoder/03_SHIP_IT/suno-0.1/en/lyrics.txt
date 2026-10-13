@@ -1,0 +1,59 @@
+[Intro]
+GIT IT, SHIP IT.
+The link goes out tonight.
+
+[Verse 1]
+I drop the file into the view,
+one click, the JSON's coming through.
+The agent builds the export screen,
+I check the fields; the output's clean.
+I amend the last commit once more,
+the new export replaces what ran before.
+I push to main. The job is queued,
+it builds the code I've just reviewed.
+
+[Chorus]
+GIT IT, SHIP IT.
+Force push to main.
+GIT IT, SHIP IT.
+Build. Deploy. Again.
+I send the link. You load the site.
+My latest build goes live tonight.
+
+[Verse 2]
+The URL's missing. I set it right.
+I restart the service, reload the site.
+I make a call; the response comes through.
+I load the CSV and test that too.
+I save the JSON. The export's done.
+I send the link. Go try this one.
+
+[Chorus]
+GIT IT, SHIP IT.
+Force push to main.
+GIT IT, SHIP IT.
+Build. Deploy. Again.
+I send the link. You load the site.
+My latest build goes live tonight.
+
+[Bridge]
+Commit.
+Push.
+Build.
+Deploy.
+I send you the link.
+My app is online.
+A new idea?
+The next commit is mine.
+
+[Chorus]
+GIT IT, SHIP IT.
+Force push to main.
+GIT IT, SHIP IT.
+Build. Deploy. Again.
+I send the link. You load the site.
+My latest build goes live tonight.
+
+[Outro]
+GIT IT, SHIP IT.
+The next commit.

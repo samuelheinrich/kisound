@@ -1,0 +1,23 @@
+{
+  "name": "kisound-ne02-trustsec",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Network Engineer 02 – Track 03 „Cisco TrustSec“: codebasiertes Musikvideo (Three.js, 60 fps)",
+  "scripts": {
+    "prepare-audio": "node src/tools/prepare.mjs",
+    "serve": "node src/render/serve.mjs 8124 --open",
+    "stills": "node src/render/render.mjs --width 1920 --height 1080 --stills 5,20,28.5,57,115,160,176,240,280",
+    "poster": "node src/render/render.mjs --width 1920 --height 1080 --stills 219.6 --dir output",
+    "preview": "node src/render/render.mjs --width 1920 --height 1080 --mb 4 --encoder vt --q 80 --audio assets/audio/trustsec.wav --out output/03-trustsec_preview_1080p60.mp4",
+    "final": "node src/render/render.mjs --width 3840 --height 2160 --mb 8 --encoder x264 --preset slow --audio assets/audio/trustsec.wav --out output/03-trustsec_2160p60.mp4",
+    "final:fast": "node src/render/render.mjs --width 3840 --height 2160 --mb 8 --encoder vt --q 85 --audio assets/audio/trustsec.wav --out output/03-trustsec_2160p60.mp4",
+    "export:1080p": "node ../../tools/kisound-render.mjs 1080p",
+    "export:4k": "node ../../tools/kisound-render.mjs 4k",
+    "export:check": "node ../../tools/kisound-render.mjs --check"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.0.0",
+    "three": "^0.180.0"
+  }
+}

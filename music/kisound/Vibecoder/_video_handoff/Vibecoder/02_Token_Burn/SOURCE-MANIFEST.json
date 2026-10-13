@@ -1,0 +1,64 @@
+{
+  "schema": "kisound.video.screenplay.sources.v1",
+  "album": "Vibecoder",
+  "track": "02_Token_Burn",
+  "intended_project_root": "/Users/samuel.heinrich/0004_git/videos/kisound/Vibecoder/02_Token_Burn",
+  "path_base": "intended_project_root",
+  "fps": 60,
+  "variants": {
+    "de": {
+      "duration_s": 245.9335,
+      "samples_per_channel": 11804808,
+      "frames_60fps": 14757,
+      "inputs": {
+        "transcript": {
+          "path": "../../../../music/kisound/Vibecoder/02_Token_Burn/final/de/02_Token_Burn_Transkript.json",
+          "sha256": "e60f24d8101f41f1f55480176badf1de7a18dd773eb83241ac2594bc4ee87257"
+        },
+        "prompt": {
+          "path": "../../../../music/kisound/Vibecoder/02_Token_Burn/final/de/02_Token_Burn_1.0.txt",
+          "sha256": "5410d4d6f415f59c01c5241de6e1a93bcc411929aca70b3721b5116ea20bc252"
+        },
+        "analysis": {
+          "path": "../../../../music/kisound/Vibecoder/02_Token_Burn/final/de/ASTRA-AUDIO-ANALYSE.json",
+          "sha256": "0f12c105d186fa03ed602caccee9a250d8fdef3ffd4de9454805b2e353d8a9e9"
+        },
+        "review": {
+          "path": "../../../../music/kisound/Vibecoder/02_Token_Burn/final/de/TRANSKRIPT-PRUEFUNG.md",
+          "sha256": "eff7296dbaf15bf889bef656377cfff6df3e69aa91ecbc2dd9305c122fc2e99c"
+        },
+        "audio": {
+          "path": "../../../../music/kisound/Vibecoder/02_Token_Burn/suno-0.1/de/Token Burn - DE.wav",
+          "sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de"
+        }
+      }
+    },
+    "en": {
+      "duration_s": 250.8,
+      "samples_per_channel": 12038400,
+      "frames_60fps": 15048,
+      "inputs": {
+        "transcript": {
+          "path": "../../../../music/kisound/Vibecoder/02_Token_Burn/final/en/02_Token_Burn_Transkript.json",
+          "sha256": "47f46d3780e5f70fa308ca3a8c2ca53c9eed94b682d2e5a72ea7226334a13f6b"
+        },
+        "prompt": {
+          "path": "../../../../music/kisound/Vibecoder/02_Token_Burn/final/en/02_Token_Burn_1.0.txt",
+          "sha256": "2fc2a6f45a17d1615294d90cc9b7066002e2e0147a9c599769531c763c15e523"
+        },
+        "analysis": {
+          "path": "../../../../music/kisound/Vibecoder/02_Token_Burn/final/en/ASTRA-AUDIO-ANALYSE.json",
+          "sha256": "419b892abca3cff298ea912bc28063cceea817ca5cae9f569dbcb41feecdb39f"
+        },
+        "review": {
+          "path": "../../../../music/kisound/Vibecoder/02_Token_Burn/final/en/TRANSKRIPT-PRUEFUNG.md",
+          "sha256": "59e300fbc01d84ec83bccd60b3d4c43718e7900d0fe728d79dba3ad7dd67ecc1"
+        },
+        "audio": {
+          "path": "../../../../music/kisound/Vibecoder/02_Token_Burn/suno-0.1/en/Token Burn - EN.wav",
+          "sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 6000,
+  "next_frame": 9000,
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 69.38,
+      "text": "Der Prompt geht raus, die Antwort rein, noch kann es nicht das Letzte sein.",
+      "words": [
+        {
+          "word": "Der",
+          "start": 63.04,
+          "end": 63.34
+        },
+        {
+          "word": "Prompt",
+          "start": 63.34,
+          "end": 63.52
+        },
+        {
+          "word": "geht",
+          "start": 63.52,
+          "end": 63.86
+        },
+        {
+          "word": "raus",
+          "start": 63.86,
+          "end": 64.12
+        },
+        {
+          "word": ",",
+          "start": 64.12,
+          "end": 64.82
+        },
+        {
+          "word": "die",
+          "start": 64.82,
+          "end": 65.2
+        },
+        {
+          "word": "Antwort",
+          "start": 65.2,
+          "end": 65.62
+        },
+        {
+          "word": "rein",
+          "start": 65.62,
+          "end": 65.72
+        },
+        {
+          "word": ",",
+          "start": 65.72,
+          "end": 66.62
+        },
+        {
+          "word": "noch",
+          "start": 66.62,
+          "end": 66.84
+        },
+        {
+          "word": "kann",
+          "start": 66.84,
+          "end": 67.14
+        },
+        {
+          "word": "es",
+          "start": 67.14,
+          "end": 67.36
+        },
+        {
+          "word": "nicht",
+          "start": 67.36,
+          "end": 68.4
+        },
+        {
+          "word": "das",
+          "start": 68.4,
+          "end": 68.58
+        },
+        {
+          "word": "Letzte",
+          "start": 68.58,
+          "end": 69.18
+        },
+        {
+          "word": "sein",
+          "start": 69.18,
+          "end": 69.2
+        },
+        {
+          "word": ".",
+          "start": 69.2,
+          "end": 69.46
+        }
+      ],
+      "tokens": [
+        50365,
+        5618,
+        15833,
+        662,
+        7095,
+        17202,
+        11,
+        978,
+        34693,
+        6561,
+        11,
+        3514,
+        4028,
+        785,
+        1979,
+        1482,
+        961,
+        45127,
+        6195,
+        13,
+        50834
+      ]
+    },
+    {
+      "start": 69.38,
+      "end": 77.38,
+      "text": "Die Nacht wird kurz, der Text wird lang, ich hör schon wieder einen Klang.",
+      "words": [
+        {
+          "word": "Die",
+          "start": 70.1,
+          "end": 70.42
+        },
+        {
+          "word": "Nacht",
+          "start": 70.42,
+          "end": 70.6
+        },
+        {
+          "word": "wird",
+          "start": 70.6,
+          "end": 70.98
+        },
+        {
+          "word": "kurz",
+          "start": 70.98,
+          "end": 71.06
+        },
+        {
+          "word": ",",
+          "start": 71.06,
+          "end": 71.88
+        },
+        {
+          "word": "der",
+          "start": 71.88,
+          "end": 72.22
+        },
+        {
+          "word": "Text",
+          "start": 72.22,
+          "end": 72.4
+        },
+        {
+          "word": "wird",
+          "start": 72.4,
+          "end": 72.7
+        },
+        {
+          "word": "lang",
+          "start": 72.7,
+          "end": 72.88
+        },
+        {
+          "word": ",",
+          "start": 72.88,
+          "end": 73.7
+        },
+        {
+          "word": "ich",
+          "start": 73.7,
+          "end": 73.88
+        },
+        {
+          "word": "hör",
+          "start": 73.88,
+          "end": 74.08
+        },
+        {
+          "word": "schon",
+          "start": 74.08,
+          "end": 74.5
+        },
+        {
+          "word": "wieder",
+          "start": 74.5,
+          "end": 75.24
+        },
+        {
+          "word": "einen",
+          "start": 75.24,
+          "end": 75.82
+        },
+        {
+          "word": "Klang",
+          "start": 75.82,
+          "end": 76.22
+        },
+        {
+          "word": ".",
+          "start": 76.22,
+          "end": 78.14
+        }
+      ],
+      "tokens": [
+        50834,
+        3229,
+        31133,
+        4578,
+        20465,
+        11,
+        1163,
+        18643,
+        4578,
+        2265,
+        11,
+        1893,
+        42651,
+        4981,
+        6216,
+        4891,
+        16053,
+        656,
+        13,
+        51234
+      ]
+    },
+    {
+      "start": 78.72,
+      "end": 85.08,
+      "text": "Token Burn, noch ein Prompt bevor ich geh.",
+      "words": [
+        {
+          "word": "Token",
+          "start": 78.66,
+          "end": 79.56
+        },
+        {
+          "word": "Burn",
+          "start": 79.56,
+          "end": 79.9
+        },
+        {
+          "word": ",",
+          "start": 79.9,
+          "end": 82.56
+        },
+        {
+          "word": "noch",
+          "start": 82.56,
+          "end": 82.72
+        },
+        {
+          "word": "ein",
+          "start": 82.72,
+          "end": 83.04
+        },
+        {
+          "word": "Prompt",
+          "start": 83.04,
+          "end": 83.72
+        },
+        {
+          "word": "bevor",
+          "start": 83.72,
+          "end": 84.38
+        },
+        {
+          "word": "ich",
+          "start": 84.38,
+          "end": 84.78
+        },
+        {
+          "word": "geh",
+          "start": 84.78,
+          "end": 84.94
+        },
+        {
+          "word": ".",
+          "start": 84.94,
+          "end": 85.56
+        }
+      ],
+      "tokens": [
+        51301,
+        314,
+        8406,
+        18328,
+        11,
+        3514,
+        1343,
+        15833,
+        662,
+        37591,
+        1893,
+        13218,
+        13,
+        51619,
+        51654
+      ]
+    },
+    {
+      "start": 85.08,
+      "end": 89.98,
+      "text": "Token Burn, dass ich den...",
+      "words": [
+        {
+          "word": "Token",
+          "start": 85.74,
+          "end": 86.76
+        },
+        {
+          "word": "Burn",
+          "start": 86.76,
+          "end": 87.02
+        },
+        {
+          "word": ",",
+          "start": 87.02,
+          "end": 89.14
+        },
+        {
+          "word": "dass",
+          "start": 89.14,
+          "end": 89.38
+        },
+        {
+          "word": "ich",
+          "start": 89.38,
+          "end": 89.6
+        },
+        {
+          "word": "den...",
+          "start": 89.6,
+          "end": 89.98
+        }
+      ],
+      "tokens": [
+        50365,
+        314,
+        8406,
+        18328,
+        11,
+        2658,
+        1893,
+        1441,
+        485,
+        50610
+      ]
+    }
+  ]
+}

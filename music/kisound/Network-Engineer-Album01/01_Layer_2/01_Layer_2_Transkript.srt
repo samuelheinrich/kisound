@@ -1,0 +1,151 @@
+1
+00:00:00,000 --> 00:00:05,520
+In the OSI model, Layer Two lives between raw signal and routed path.
+
+2
+00:00:09,020 --> 00:00:19,500
+Above the cable, below the network, the switching domain wakes up.
+
+3
+00:00:38,940 --> 00:00:40,480
+MAC table learning in the neon light,
+
+4
+00:00:41,020 --> 00:00:42,520
+frames on the wire, moving through the night.
+
+5
+00:00:42,900 --> 00:00:44,800
+Tag it, trunk it, V-LAN in the flow,
+
+6
+00:00:44,800 --> 00:00:46,080
+broadcast domain where the packets go.
+
+7
+00:00:46,620 --> 00:00:47,840
+Root bridge calling,
+
+8
+00:00:48,000 --> 00:00:48,380
+ports are falling,
+
+9
+00:00:48,760 --> 00:00:49,800
+blocking, forwarding,
+
+10
+00:00:49,900 --> 00:00:50,260
+loop is crawling.
+
+11
+00:00:53,800 --> 00:00:55,420
+Layer two, keep it clean,
+
+12
+00:00:55,740 --> 00:00:56,860
+no loop storm in the switching machine.
+
+13
+00:00:57,580 --> 00:00:59,140
+V-LAN ten, V-LAN three,
+
+14
+00:00:59,420 --> 00:01:00,880
+tag the frame and set it free.
+
+15
+00:01:01,300 --> 00:01:02,100
+BPDU.
+
+16
+00:01:03,500 --> 00:01:04,180
+Trunk up.
+
+17
+00:01:04,400 --> 00:01:06,120
+Access port.
+
+18
+00:01:06,920 --> 00:01:07,600
+MAC move.
+
+19
+00:01:08,780 --> 00:01:10,500
+Spanning tree saves the night.
+
+20
+00:01:59,420 --> 00:02:13,620
+In the OSI model, Layer Two lives between raw signal and routed path.
+
+21
+00:02:05,080 --> 00:02:12,400
+In the OSI model, Layer Two lives between raw signal and routed path.
+
+22
+00:02:14,200 --> 00:02:18,840
+Above the cable, below the network, the switching domain wakes up.
+
+23
+00:02:22,500 --> 00:02:23,680
+MAC table learning in the neon light,
+
+24
+00:02:24,440 --> 00:02:25,740
+frames on the wire, moving through the night.
+
+25
+00:02:26,480 --> 00:02:27,780
+Tag it, trunk it, V-LAN in the flow,
+
+26
+00:02:28,180 --> 00:02:29,320
+broadcast domain where the packets go.
+
+27
+00:02:30,160 --> 00:02:30,680
+Root bridge calling,
+
+28
+00:02:31,220 --> 00:02:32,000
+ports are falling,
+
+29
+00:02:32,160 --> 00:02:32,440
+blocking, forwarding,
+
+30
+00:02:33,100 --> 00:02:33,920
+loop is crawling.
+
+31
+00:02:37,020 --> 00:02:38,620
+Layer two, keep it clean,
+
+32
+00:02:39,200 --> 00:02:40,080
+no loop storm in the switching machine.
+
+33
+00:02:41,080 --> 00:02:42,360
+V-LAN ten, V-LAN three,
+
+34
+00:02:42,880 --> 00:02:44,080
+tag the frame and set it free.
+
+35
+00:02:45,920 --> 00:02:46,140
+Trunk up.
+
+36
+00:02:46,720 --> 00:02:47,400
+Access port.
+
+37
+00:02:47,860 --> 00:02:48,020
+MAC move.
+
+38
+00:02:48,520 --> 00:02:51,760
+Spanning tree saves the night.

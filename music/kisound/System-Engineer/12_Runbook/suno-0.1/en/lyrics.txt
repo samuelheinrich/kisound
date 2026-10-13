@@ -1,0 +1,54 @@
+[Intro]
+Three-twelve a.m.
+The cluster is down.
+
+[Verse 1]
+The phone vibrates, I'm on call, I'm on my own,
+failover failed, both nodes are down, and the roles are gone.
+I open up the wiki, search, and find a doc I know,
+Runbook: Cluster Failover, written by me two years ago.
+Step one: stay calm. Step two: check the quorum first.
+Step three: never start both nodes at once, or it gets worse.
+
+[Chorus]
+Runbook.
+Step by step through the night.
+Runbook.
+A letter from me to me, to get it right.
+For whoever comes after me,
+and sometimes that's me.
+
+[Verse 2]
+The quorum disk is offline, a path to storage gone,
+step four describes exactly this, like I knew it all along.
+Path restored, quorum online, node one comes up alone,
+then node two, the roles move back, and by four the outage is gone.
+I add a step seven, what was different tonight,
+so the next one searches less, and gets it right.
+
+[Chorus]
+Runbook.
+Step by step through the night.
+Runbook.
+A letter from me to me, to get it right.
+For whoever comes after me,
+and sometimes that's me.
+
+[Bridge]
+Twenty years, a thousand nights,
+what I know isn't only in me.
+I write it down, line by line,
+and leave it here to see.
+
+[Chorus]
+Runbook.
+Step by step through the night.
+Runbook.
+A letter from me to me, to get it right.
+For whoever comes after me,
+and sometimes that's me.
+
+[Outro]
+Four-oh-three.
+Cluster online.
+Runbook saved.

@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "04_Destination_Unreachable",
+  "title": "Destination Unreachable",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/destination-unreachable.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

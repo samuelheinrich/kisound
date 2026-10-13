@@ -1,0 +1,31 @@
+CONTEXT WINDOW · Cover-Generierung
+Datum: 2026-10-10
+Werkzeug: integriertes image_gen über codex exec
+Bild: 06_Context_Window_cover.png
+Stilreferenz: 02_Token_Burn/02_Token_Burn_cover.png (Albumserie Vibecoder, orange)
+Textgrundlage: Albumthema und Varianten suno-0.1, V1–V3
+Verwendung: gemeinsames Trackcover für Deutsch und Englisch
+
+EXAKTER GENERIERUNGSPROMPT:
+
+Use case: stylized-concept
+Asset type: finished square electronic single cover, 1:1, edge-to-edge artwork.
+Series: this is one cover in a consistent album series. Match the attached reference cover "TOKEN BURN" exactly in art direction: same typography style, same title placement, same credit layout, same palette, same lighting mood, same cinematic 3D miniature rendering of a nocturnal home coding desk. Only the title and the scene content change.
+Primary request: Create a striking, professionally art-directed cover for "CONTEXT WINDOW" by Samuel Heinrich, the melancholic closing track of the album "Vibecoder". The music is slow ambient electronica with deep bass; the story: after a long session, the AI only sees what fits into its limited context window; older parts of the history fall out, and the narrator keeps and writes down the reasons that would otherwise be lost.
+
+Scene and subject: Exactly the same nocturnal home desk and room as in the reference (same desk surface, plant on the left, pen cup, large window with city skyline on the right), at the very end of the night, calmer and emptier. The laptop is half closed and glowing softly. In the lower half, between the laptop and the window, floats one sharp, glowing ember-orange rectangular frame, the context window. A short vertical strip of translucent text cards scrolls upward through it, staying entirely below the title: the cards inside the frame are lit and clear, the cards above it drift away, grow faint and dissolve into the darkness, the cards below wait unlit. On the desk lies one small paper note card with an abstract hand-drawn sketch of a grid, lit by the orange glow. A cold coffee cup. The window behind shows the first faint blue light of dawn. Generous negative space, quiet and intimate. No person is necessary.
+
+Composition: Bold editorial cover with an enormous stacked geometric sans-serif title occupying the upper half, exactly like the reference: "CONTEXT" in warm off-white on the first line, "WINDOW" in saturated ember orange on the second line. Use the very same heavy blocky geometric display typeface as the reference, with the same deep three-dimensional extrusion and orange-lit side faces (not flat lettering), tight confident spacing, clean exact letterforms, instantly readable as a small streaming thumbnail. The title relates spatially to the miniature scene in the lower half; no object, card or particle may overlap or touch any letter. Generous dark negative space, purposeful hierarchy. At the bottom, centered and safely inset, the same tiny letter-spaced credit as the reference: "SAMUEL HEINRICH" in off-white, below it "VIBECODER" in ember orange.
+
+Style: sophisticated combination of crisp Swiss electronic-record typography and tactile cinematic 3D illustration; sharp geometry, smoked glass and matte charcoal materials, subtle analog grain. A contemporary underground electronic release, with depth and controlled graphic precision.
+
+Lighting and palette: deep midnight charcoal #10141C, off-white #F4F3EA, vivid ember orange #FF6534, small electric-cyan #44DDE5 accents on interface edges. Low-key room with strong focused orange screen light, cyan rim light and atmospheric shadows. Melancholic, intimate, reconciled and calm.
+
+Text (verbatim, only these words):
+"CONTEXT"
+"WINDOW"
+"SAMUEL HEINRICH"
+"VIBECODER"
+
+Constraints: polished square cover, opaque background. Title is the dominant element. Both German and English releases use this same cover. All objects geometrically coherent. Small UI marks may be abstract graphic blocks, with no fake paragraphs of text and no readable code.
+Avoid: literal house windows as the main subject, brains, generic hooded hacker, corporate or brand logos, stock-photo look, dense cyberpunk city, magenta or purple neon, green as a main color, excessive bloom, illegible or misspelled title, extra slogans, watermarks, border, mockup of a record sleeve. Deliver the artwork itself.

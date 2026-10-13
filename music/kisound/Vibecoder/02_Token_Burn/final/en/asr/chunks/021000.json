@@ -1,0 +1,270 @@
+{
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "frame": 21000,
+  "next_frame": 24000,
+  "segments": [
+    {
+      "start": 210.0,
+      "end": 211.74,
+      "text": "I need to know",
+      "words": [
+        {
+          "word": "I",
+          "start": 210.16,
+          "end": 210.66
+        },
+        {
+          "word": "need",
+          "start": 210.66,
+          "end": 211.2
+        },
+        {
+          "word": "to",
+          "start": 211.2,
+          "end": 211.62
+        },
+        {
+          "word": "know",
+          "start": 211.62,
+          "end": 211.98
+        }
+      ],
+      "tokens": [
+        50365,
+        286,
+        643,
+        281,
+        458,
+        50452
+      ]
+    },
+    {
+      "start": 211.74,
+      "end": 215.08,
+      "text": "One tap shots, two more appear",
+      "words": [
+        {
+          "word": "One",
+          "start": 212.58,
+          "end": 213.08
+        },
+        {
+          "word": "tap",
+          "start": 213.08,
+          "end": 213.54
+        },
+        {
+          "word": "shots",
+          "start": 213.54,
+          "end": 213.9
+        },
+        {
+          "word": ",",
+          "start": 213.9,
+          "end": 214.04
+        },
+        {
+          "word": "two",
+          "start": 214.04,
+          "end": 214.4
+        },
+        {
+          "word": "more",
+          "start": 214.4,
+          "end": 214.96
+        },
+        {
+          "word": "appear",
+          "start": 214.96,
+          "end": 215.6
+        }
+      ],
+      "tokens": [
+        50452,
+        1485,
+        5119,
+        8305,
+        11,
+        732,
+        544,
+        4204,
+        50619
+      ]
+    },
+    {
+      "start": 215.08,
+      "end": 219.5,
+      "text": "I said I'd leave, I'm still right here",
+      "words": [
+        {
+          "word": "I",
+          "start": 216.2,
+          "end": 216.4
+        },
+        {
+          "word": "said",
+          "start": 216.4,
+          "end": 216.74
+        },
+        {
+          "word": "I'd",
+          "start": 216.74,
+          "end": 216.96
+        },
+        {
+          "word": "leave",
+          "start": 216.96,
+          "end": 217.28
+        },
+        {
+          "word": ",",
+          "start": 217.28,
+          "end": 217.44
+        },
+        {
+          "word": "I'm",
+          "start": 217.44,
+          "end": 217.72
+        },
+        {
+          "word": "still",
+          "start": 217.72,
+          "end": 218.08
+        },
+        {
+          "word": "right",
+          "start": 218.08,
+          "end": 218.5
+        },
+        {
+          "word": "here",
+          "start": 218.5,
+          "end": 221.66
+        }
+      ],
+      "tokens": [
+        50619,
+        286,
+        848,
+        286,
+        1116,
+        1856,
+        11,
+        286,
+        478,
+        920,
+        558,
+        510,
+        50840
+      ]
+    },
+    {
+      "start": 219.5,
+      "end": 227.28,
+      "text": "One final prompt is set to run",
+      "words": [
+        {
+          "word": "One",
+          "start": 225.78,
+          "end": 226.16
+        },
+        {
+          "word": "final",
+          "start": 226.16,
+          "end": 226.5
+        },
+        {
+          "word": "prompt",
+          "start": 226.5,
+          "end": 226.7
+        },
+        {
+          "word": "is",
+          "start": 226.7,
+          "end": 226.9
+        },
+        {
+          "word": "set",
+          "start": 226.9,
+          "end": 227.02
+        },
+        {
+          "word": "to",
+          "start": 227.02,
+          "end": 227.22
+        },
+        {
+          "word": "run",
+          "start": 227.22,
+          "end": 228.58
+        }
+      ],
+      "tokens": [
+        50840,
+        1485,
+        2572,
+        12391,
+        307,
+        992,
+        281,
+        1190,
+        51229
+      ]
+    },
+    {
+      "start": 227.28,
+      "end": 234.4,
+      "text": "I'm pressing set, I'm quite done",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 232.7,
+          "end": 233.06
+        },
+        {
+          "word": "pressing",
+          "start": 233.06,
+          "end": 233.48
+        },
+        {
+          "word": "set",
+          "start": 233.48,
+          "end": 233.74
+        },
+        {
+          "word": ",",
+          "start": 233.74,
+          "end": 233.74
+        },
+        {
+          "word": "I'm",
+          "start": 233.74,
+          "end": 234.12
+        },
+        {
+          "word": "quite",
+          "start": 234.12,
+          "end": 234.36
+        },
+        {
+          "word": "done",
+          "start": 234.36,
+          "end": 235.18
+        }
+      ],
+      "tokens": [
+        51229,
+        286,
+        478,
+        12417,
+        992,
+        11,
+        286,
+        478,
+        1596,
+        1096,
+        51585
+      ]
+    }
+  ]
+}

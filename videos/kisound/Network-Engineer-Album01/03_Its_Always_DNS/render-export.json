@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "03_Its_Always_DNS",
+  "title": "It's Always DNS",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/its-always-dns.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

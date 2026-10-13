@@ -1,0 +1,4 @@
+Weirdness: 50%
+Style Influence: 50%
+variety: exakt
+max mode: off

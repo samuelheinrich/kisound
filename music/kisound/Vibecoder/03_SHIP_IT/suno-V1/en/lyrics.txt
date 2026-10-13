@@ -1,0 +1,57 @@
+[Intro]
+GIT IT. SHIP IT.
+Version one point oh.
+
+[Verse 1]
+Tag is set, v1.0.0, the build is through,
+Xcode archives the app, the bundle's sitting there brand-new.
+Developer ID, I sign it, every binary in line,
+notarytool submit, and I'm waiting on a sign.
+Status: Invalid. I pull the JSON log,
+hardened runtime missing. I flip it on and rerun the job.
+
+[Chorus]
+GIT IT. SHIP IT.
+Sign it. Notarize.
+GIT IT. SHIP IT.
+Staple. Release.
+Gatekeeper says: accepted.
+Double-click. It opens. Done.
+
+[Verse 2]
+Re-signed, re-submitted, eyes locked on the state,
+the line flips to Accepted. No error, no wait.
+Stapler staples the ticket to the app right there,
+into a DMG, upload, link out, share.
+A colleague downloads it on their Mac, drags it into Apps,
+double-click, it opens. No workaround. No traps.
+
+[Chorus]
+GIT IT. SHIP IT.
+Sign it. Notarize.
+GIT IT. SHIP IT.
+Staple. Release.
+Gatekeeper says: accepted.
+Double-click. It opens. Done.
+
+[Bridge]
+Archive.
+Sign.
+Notarize.
+Staple.
+No right-click open.
+No detour.
+No workaround.
+Release.
+
+[Chorus]
+GIT IT. SHIP IT.
+Sign it. Notarize.
+GIT IT. SHIP IT.
+Staple. Release.
+Gatekeeper says: accepted.
+Double-click. It opens. Done.
+
+[Outro]
+GIT IT. SHIP IT.
+Version one-oh-one.

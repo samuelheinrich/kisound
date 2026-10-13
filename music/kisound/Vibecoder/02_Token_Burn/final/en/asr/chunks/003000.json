@@ -1,0 +1,262 @@
+{
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "frame": 3000,
+  "next_frame": 6000,
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 48.980000000000004,
+      "text": "The clock says one, the build runs clean",
+      "words": [
+        {
+          "word": "The",
+          "start": 46.08,
+          "end": 46.36
+        },
+        {
+          "word": "clock",
+          "start": 46.36,
+          "end": 46.72
+        },
+        {
+          "word": "says",
+          "start": 46.72,
+          "end": 47.14
+        },
+        {
+          "word": "one",
+          "start": 47.14,
+          "end": 47.5
+        },
+        {
+          "word": ",",
+          "start": 47.5,
+          "end": 47.86
+        },
+        {
+          "word": "the",
+          "start": 47.86,
+          "end": 48.16
+        },
+        {
+          "word": "build",
+          "start": 48.16,
+          "end": 48.5
+        },
+        {
+          "word": "runs",
+          "start": 48.5,
+          "end": 48.86
+        },
+        {
+          "word": "clean",
+          "start": 48.86,
+          "end": 49.32
+        }
+      ],
+      "tokens": [
+        50365,
+        440,
+        7830,
+        1619,
+        472,
+        11,
+        264,
+        1322,
+        6676,
+        2541,
+        51314
+      ]
+    },
+    {
+      "start": 48.980000000000004,
+      "end": 52.58,
+      "text": "A new idea lights up my screen",
+      "words": [
+        {
+          "word": "A",
+          "start": 49.68,
+          "end": 49.92
+        },
+        {
+          "word": "new",
+          "start": 49.92,
+          "end": 50.56
+        },
+        {
+          "word": "idea",
+          "start": 50.56,
+          "end": 51.14
+        },
+        {
+          "word": "lights",
+          "start": 51.14,
+          "end": 51.56
+        },
+        {
+          "word": "up",
+          "start": 51.56,
+          "end": 51.9
+        },
+        {
+          "word": "my",
+          "start": 51.9,
+          "end": 52.4
+        },
+        {
+          "word": "screen",
+          "start": 52.4,
+          "end": 52.8
+        }
+      ],
+      "tokens": [
+        51314,
+        316,
+        777,
+        1558,
+        5811,
+        493,
+        452,
+        2568,
+        51494
+      ]
+    },
+    {
+      "start": 52.58,
+      "end": 55.879999999999995,
+      "text": "One slide or more, a second lane",
+      "words": [
+        {
+          "word": "One",
+          "start": 53.08,
+          "end": 53.5
+        },
+        {
+          "word": "slide",
+          "start": 53.5,
+          "end": 53.72
+        },
+        {
+          "word": "or",
+          "start": 53.72,
+          "end": 54.08
+        },
+        {
+          "word": "more",
+          "start": 54.08,
+          "end": 54.76
+        },
+        {
+          "word": ",",
+          "start": 54.76,
+          "end": 54.96
+        },
+        {
+          "word": "a",
+          "start": 54.96,
+          "end": 55.34
+        },
+        {
+          "word": "second",
+          "start": 55.34,
+          "end": 55.74
+        },
+        {
+          "word": "lane",
+          "start": 55.74,
+          "end": 56.12
+        }
+      ],
+      "tokens": [
+        51494,
+        1485,
+        4137,
+        420,
+        544,
+        11,
+        257,
+        1150,
+        12705,
+        51659
+      ]
+    },
+    {
+      "start": 55.879999999999995,
+      "end": 59.379999999999995,
+      "text": "The prompt grows long, let's try again",
+      "words": [
+        {
+          "word": "The",
+          "start": 56.74,
+          "end": 56.96
+        },
+        {
+          "word": "prompt",
+          "start": 56.96,
+          "end": 57.34
+        },
+        {
+          "word": "grows",
+          "start": 57.34,
+          "end": 57.88
+        },
+        {
+          "word": "long",
+          "start": 57.88,
+          "end": 57.94
+        },
+        {
+          "word": ",",
+          "start": 57.94,
+          "end": 58.34
+        },
+        {
+          "word": "let's",
+          "start": 58.34,
+          "end": 58.58
+        },
+        {
+          "word": "try",
+          "start": 58.58,
+          "end": 59.28
+        },
+        {
+          "word": "again",
+          "start": 59.28,
+          "end": 59.66
+        }
+      ],
+      "tokens": [
+        51659,
+        440,
+        12391,
+        13156,
+        938,
+        11,
+        718,
+        311,
+        853,
+        797,
+        51834,
+        51834
+      ]
+    },
+    {
+      "start": 59.379999999999995,
+      "end": 59.879999999999995,
+      "text": "you",
+      "words": [
+        {
+          "word": "you",
+          "start": 59.8,
+          "end": 59.98
+        }
+      ],
+      "tokens": [
+        50365,
+        291,
+        50390
+      ]
+    }
+  ]
+}

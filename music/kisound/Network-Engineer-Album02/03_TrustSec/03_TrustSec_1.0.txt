@@ -1,0 +1,128 @@
+VERSION: 1.0
+ALBUM: Network Engineer 02
+TRACK: 03 - TrustSec
+THEMA: Identitätsbasierte Zugriffskontrolle mit ISE, Security Group Tags und SGACL-Policies
+SPRACHE: Deutsch mit englischen Hooks und Systemmeldungen
+STATUS: Final
+RELEASE AUDIO: 03_TrustSec_1.0.wav
+REKONSTRUKTION: Lyrics aus den vorhandenen JSON-, TXT- und SRT-Transkripten der Aufnahme 03_TrustSec_0.1.mp3; ursprüngliches Lyricfile fehlerhaft.
+PRUEFHINWEIS: Transkriptwortlaut unverändert übernommen, einschliesslich der unsicheren Stellen Attack/Detect the flow und Access denied/Access defined.
+
+LYRIC PROMPT:
+[Intro – Systemmeldungen]
+Cisco TrustSec.
+Client connected.
+Identity requested.
+ISE is checking.
+Who are you?
+Identity verified.
+SGT assigned.
+
+[Strophe 1 – Identität und Zugriff]
+Ein Client kommt, der Switch fragt an.
+ISE prüft nach, wer das sein kann.
+Gerät erkannt, der Nutzer klar.
+Die Rolle stimmt, der Zugriff da.
+Die Adresse wechselt, der Kontext bleibt.
+Der SGT zeigt, wer sich hier treibt.
+
+[Pre-Hook – Rollenzuweisung]
+Identity known.
+Role defined.
+SGT assigned.
+Access aligned.
+
+[Hook 1]
+TrustSec.
+Know the client.
+TrustSec.
+Attack the flow.
+ISE kennt dich, ISE weiß Bescheid.
+Deine Rolle steht bereit.
+Source und Ziel, die Policy zählt.
+TrustSec prüft, was wirklich gilt.
+
+[Strophe 2 – Gruppen und Policy]
+Client oder Server, Phone oder Print.
+Jeder bekommt, was passend bestimmt.
+Der SGT geht mit dem Verkehr.
+Die IP allein entscheidet nicht mehr.
+Source Group hier, Destination dort.
+Die Policy prüft an jedem Ort.
+
+[Systemmeldungen – Zugriff erlaubt]
+Source SGT detected.
+Destination SGT detected.
+SGT-ACL matched.
+Access permitted.
+
+[Hook 2]
+TrustSec.
+Know the client.
+TrustSec.
+Detect the flow.
+Nicht nur Adresse, nicht nur Port.
+Deine Identität bestimmt den Ort.
+Source und Ziel, die Policy zählt.
+Nur was erlaubt ist, wird weitergewählt.
+
+[Break – Unbekannte Identität]
+Unknown client.
+ISE checks again.
+No identity.
+Unknown endpoint.
+Keine Rolle.
+Kein Match bereit.
+Keine bekannte Identität.
+No trusted group.
+No access found.
+SGT-ACL.
+Access denied.
+
+[Dialog – Zugriff verweigert]
+Who are you?
+Unknown.
+What is your role?
+Unknown.
+Access denied.
+Stay outside.
+
+[Strophe 3 – Bekannter Client]
+Bekannter Client, bekannte Pflicht.
+ISE kennt die Rolle, verwechselt sie nicht.
+SGT gesetzt, die Gruppe steht.
+Die Policy sagt, wohin es geht.
+Nicht deine IP entscheidet allein.
+Deine Identität lässt dich hinein.
+
+[Build – Systemmeldungen]
+Identity confirmed.
+SGT assigned.
+SGT-ACL active.
+Policy enforced.
+Network protected.
+
+[Final Hook]
+TrustSec.
+Know the client.
+TrustSec.
+Control the flow.
+ISE kennt den Client.
+ISE kennt sein Ziel.
+Bekannte Rolle.
+Definiertes Spiel.
+Unknown identity.
+Access denied.
+Unknown identity.
+Access defined.
+
+[Outro – Systemmeldungen]
+Identity verified.
+SGT active.
+SGT-ACL active.
+Policy enforced.
+Access control.
+Cisco TrustSec.
+
+STYLE PROMPT:
+Der ursprüngliche Stil-Prompt ging verloren. Er lässt sich aus den vorhandenen Transkripten nicht rekonstruieren.

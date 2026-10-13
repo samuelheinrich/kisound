@@ -1,0 +1,57 @@
+[Intro]
+COMMIT IT. SHIP IT.
+Pipeline's running.
+
+[Verse 1]
+New branch, feature done, the pull request is up,
+four jobs lined up in the pipeline, and the first one's stuck.
+Lint goes red: one variable nobody needs,
+delete the line, commit, push, the runner's back up to speed.
+Test goes red: a timestamp's off by an hour,
+UTC's missing in the parser. Fix it, push, full power.
+
+[Chorus]
+COMMIT IT. SHIP IT.
+Red. Red. Green.
+COMMIT IT. SHIP IT.
+Merge. Tag. Deploy.
+Four green checks, the merge is free,
+tag v1.1, and it's live for you and me.
+
+[Verse 2]
+Build is green, the artifact's in place,
+deploy rolls out, the health check polls at a steady pace.
+Two hundred OK, the new release takes calls,
+the old one stays for rollback if anything falls.
+No force push, no gamble, no hotfix late at night,
+the pipeline checked the code the agent helped me write.
+
+[Chorus]
+COMMIT IT. SHIP IT.
+Red. Red. Green.
+COMMIT IT. SHIP IT.
+Merge. Tag. Deploy.
+Four green checks, the merge is free,
+tag v1.1, and it's live for you and me.
+
+[Bridge]
+Lint. Green.
+Test. Green.
+Build. Green.
+Deploy. Green.
+Health check: two hundred.
+Rollback: ready.
+Next branch.
+Ship it.
+
+[Chorus]
+COMMIT IT. SHIP IT.
+Red. Red. Green.
+COMMIT IT. SHIP IT.
+Merge. Tag. Deploy.
+Four green checks, the merge is free,
+tag v1.1, and it's live for you and me.
+
+[Outro]
+COMMIT IT. SHIP IT.
+Red. Red. Green.

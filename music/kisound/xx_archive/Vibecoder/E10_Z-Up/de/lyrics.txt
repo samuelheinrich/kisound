@@ -1,0 +1,55 @@
+[Intro]
+Export.
+Import.
+Er liegt auf der Seite.
+
+[Verse 1]
+In Blender modelliert: ein Roboter, Low Poly, rot,
+Export als glTF, in Babylon geladen, er liegt da wie tot.
+Z ist oben in Blender, Y ist oben im Web,
+der Haken bei Plus-Y-Up fehlt, darum kippt er weg.
+Haken rein, neu exportiert, er steht, doch er ist grau,
+die Textur liegt nicht daneben, der Pfad war nicht genau.
+
+[Chorus]
+Z-Up. Y-Up.
+Dreh die Welt um neunzig Grad.
+Z-Up. Y-Up.
+Export. Reload. Neuer Start.
+Level eins lädt,
+und mein Roboter steht.
+
+[Verse 2]
+Als GLB gepackt, die Textur steckt jetzt mit drin,
+rot und glänzend steht er da, so hatte ich's im Sinn.
+Dann geh ich in das Haus, das aus dem Grundriss entstand,
+von innen fehlen Wände: Normalen falsch, Backface Culling an der Wand.
+Recalculate Outside, neu exportiert, neu geladen,
+jetzt stehn die Wände rundherum, und ich lauf durch alle Etagen.
+
+[Chorus]
+Z-Up. Y-Up.
+Dreh die Welt um neunzig Grad.
+Z-Up. Y-Up.
+Export. Reload. Neuer Start.
+Level eins lädt,
+und mein Roboter steht.
+
+[Bridge]
+Erst ein Würfel, der sich dreht.
+Dann ein Roboter, der steht.
+Dann ein Haus mit allen Wänden.
+Dann ein Spiel in meinen Händen.
+
+[Chorus]
+Z-Up. Y-Up.
+Dreh die Welt um neunzig Grad.
+Z-Up. Y-Up.
+Export. Reload. Neuer Start.
+Level eins lädt,
+und mein Roboter steht.
+
+[Outro]
+Export.
+Import.
+Er steht.

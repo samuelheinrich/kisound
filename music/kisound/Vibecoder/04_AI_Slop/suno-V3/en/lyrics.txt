@@ -1,0 +1,59 @@
+[Intro]
+I only asked for a button.
+Plus three thousand lines.
+
+[Verse 1]
+I ask for one button that sorts the list,
+the agent builds fourteen files, and nothing's missed.
+A helper for the helper, a service for the click,
+a factory, an adapter, and still the button doesn't stick.
+A comment over every line: "This function adds two numbers,"
+and right below, the plus sign, in case somebody wonders.
+
+[Pre-Chorus]
+formatDate, formatDate2,
+formatDateNew is in there too.
+I scroll the diff, it never ends,
+plus three thousand, minus twelve, my patience bends.
+
+[Chorus]
+AI Slop.
+Plus three thousand, minus twelve.
+AI Slop.
+Fourteen files, and none that help.
+I delete and delete, the diff gets small:
+one button, ten lines. That's all.
+
+[Verse 2]
+console.log "here," console.log "here two,"
+a try-catch round the lot, so no error ever gets through.
+Three packages for one date, node_modules growing wide,
+the folder's a mountain now, the button's still inside.
+And honestly, last week I waved through code like this,
+now I read my own old diff, it's mine, I can't dismiss.
+
+[Chorus]
+AI Slop.
+Plus three thousand, minus twelve.
+AI Slop.
+Fourteen files, and none that help.
+I delete and delete, the diff gets small:
+one button, ten lines. That's all.
+
+[Bridge]
+Delete the helper. Delete the wrapper.
+Delete the factory. Delete the mapper.
+One button. One function. One test.
+Commit.
+
+[Chorus]
+AI Slop.
+Plus three thousand, minus twelve.
+AI Slop.
+Fourteen files, and none that help.
+I delete and delete, the diff gets small:
+one button, ten lines. That's all.
+
+[Outro]
+Plus ten. Minus three thousand.
+The button sorts.

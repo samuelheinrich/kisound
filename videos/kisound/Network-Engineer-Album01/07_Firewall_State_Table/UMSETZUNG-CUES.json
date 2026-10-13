@@ -1,0 +1,2533 @@
+{
+ "schema": "kisound.firewall.cues.v1",
+ "duration_s": 259.3209791666667,
+ "fade_start_s": 256.8,
+ "titles": {
+  "intro": [
+   1.2,
+   2.4,
+   8.2,
+   9.4
+  ],
+  "outro": [
+   243.6,
+   244.8,
+   252.6,
+   253.6
+  ]
+ },
+ "drops_s": [
+  24.95,
+  45.65,
+  84.95,
+  105.25,
+  126.35,
+  167.75,
+  195.25,
+  215.55,
+  229.05
+ ],
+ "breakdowns_s": [
+  [
+   0,
+   24.4
+  ],
+  [
+   37,
+   44.9
+  ],
+  [
+   63.5,
+   65.2
+  ],
+  [
+   77.5,
+   85.5
+  ],
+  [
+   97.8,
+   101.5
+  ],
+  [
+   103.5,
+   105.7
+  ],
+  [
+   122.8,
+   125.8
+  ],
+  [
+   147.7,
+   159.4
+  ],
+  [
+   165.2,
+   167.9
+  ],
+  [
+   193.2,
+   195.1
+  ],
+  [
+   209.2,
+   215.1
+  ],
+  [
+   226.7,
+   228.6
+  ]
+ ],
+ "gap_s": [
+  228.35,
+  228.45
+ ],
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Default deny",
+   "start": 0,
+   "end": 24.4,
+   "action": "Geschlossene Mauer, ruhendes Tor. Die erste Session öffnet sich, ein einzelnes unaufgefordertes Paket stirbt am Tor."
+  },
+  {
+   "id": "C02",
+   "title": "Verkehr",
+   "start": 24.4,
+   "end": 50.6,
+   "action": "Der Bass setzt ein: Clients öffnen Sessions, die State Table füllt sich, Rückpakete nehmen den Fast Path. Ein Scanner klopft."
+  },
+  {
+   "id": "C03",
+   "title": "Policy und State",
+   "start": 50.6,
+   "end": 70.74,
+   "action": "Default deny, Regeln von oben nach unten, 5-Tupel, TCP-Handshake, UDP ohne Antwort, die Tabelle entscheidet."
+  },
+  {
+   "id": "C04",
+   "title": "NAT und Inspection",
+   "start": 70.74,
+   "end": 78.64,
+   "action": "Source NAT versteckt die Inside-Adresse, Destination NAT leitet auf die DMZ, DPI liest mit."
+  },
+  {
+   "id": "C05",
+   "title": "Drop it · Log it · Block it",
+   "start": 78.64,
+   "end": 96.46,
+   "action": "Scanner-Welle ohne Bass: verwerfen, loggen, sperren. Ein ACK ohne Session findet keinen Eintrag. Eine neue Regel wird geschrieben."
+  },
+  {
+   "id": "C06",
+   "title": "Least privilege",
+   "start": 96.46,
+   "end": 123.5,
+   "action": "Das Tor dreht sich, nur wenige präzise Wege sind offen. Jede Session hinterlässt eine Spur im Log."
+  },
+  {
+   "id": "C07",
+   "title": "Übersetzung",
+   "start": 123.5,
+   "end": 146.92,
+   "action": "ACL, NAT-Reflection (Hairpin), Inside local / outside global, DPI: ein sauberer Download passiert, die EICAR-Testsignatur schliesst die Session."
+  },
+  {
+   "id": "C08",
+   "title": "Break",
+   "start": 146.92,
+   "end": 164.78,
+   "action": "SYN, ACK, Session match, Deny, Permit, Log, Source NAT, Destination NAT, TCP, UDP – je ein Bild im Kontrollraum."
+  },
+  {
+   "id": "C09",
+   "title": "Rausch",
+   "start": 164.78,
+   "end": 183.1,
+   "action": "Volle Fahrt durch das Tor, alle Sessions aktiv."
+  },
+  {
+   "id": "C10",
+   "title": "Lock it",
+   "start": 183.1,
+   "end": 195,
+   "action": "Final Hook: Der Scanner stirbt sofort an der Blocklist, die Regel steht."
+  },
+  {
+   "id": "C11",
+   "title": "Sessions schliessen",
+   "start": 195,
+   "end": 259.3209791666667,
+   "action": "FIN, Timeouts, die Tabelle leert sich. Kurzer Lichtabfall in der Pegellücke, letzte Fahrt, Titel, zurück zu default deny."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 4.8,
+   "zone": "gate",
+   "camera": "opening",
+   "mode": "intro",
+   "target": null,
+   "event_ids": [
+    "E001",
+    "E002"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S002",
+   "start_s": 4.8,
+   "end_s": 9.94,
+   "zone": "gate",
+   "camera": "portal",
+   "mode": "intro",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S003",
+   "start_s": 9.94,
+   "end_s": 13.1,
+   "zone": "ledger",
+   "camera": "table",
+   "mode": "open",
+   "target": null,
+   "event_ids": [
+    "E003"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 13.1,
+   "end_s": 16.5,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "state",
+   "target": "f:D0q",
+   "event_ids": [
+    "E004"
+   ],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S005",
+   "start_s": 16.5,
+   "end_s": 20.04,
+   "zone": "gate",
+   "camera": "wall",
+   "mode": "deny",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S006",
+   "start_s": 20.04,
+   "end_s": 23.15,
+   "zone": "gate",
+   "camera": "chase",
+   "mode": "alone",
+   "target": "f:Z0",
+   "event_ids": [
+    "E005"
+   ],
+   "lyric_ids": [
+    "L003",
+    "L004"
+   ]
+  },
+  {
+   "id": "S007",
+   "start_s": 23.15,
+   "end_s": 24.4,
+   "zone": "gate",
+   "camera": "portal",
+   "mode": "alone",
+   "target": null,
+   "event_ids": [
+    "E006",
+    "E007"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S008",
+   "start_s": 24.4,
+   "end_s": 28.35,
+   "zone": "gate",
+   "camera": "wide",
+   "mode": "flow",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S009",
+   "start_s": 28.35,
+   "end_s": 32.15,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "flow",
+   "target": "f:T1syn",
+   "event_ids": [
+    "E008"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S010",
+   "start_s": 32.15,
+   "end_s": 34.25,
+   "zone": "gate",
+   "camera": "chase",
+   "mode": "flow",
+   "target": "f:T1sa",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S011",
+   "start_s": 34.25,
+   "end_s": 37,
+   "zone": "ledger",
+   "camera": "table",
+   "mode": "flow",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S012",
+   "start_s": 37,
+   "end_s": 41,
+   "zone": "gate",
+   "camera": "orbit",
+   "mode": "calm",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S013",
+   "start_s": 41,
+   "end_s": 44.9,
+   "zone": "gate",
+   "camera": "scanner",
+   "mode": "knock",
+   "target": "f:X1",
+   "event_ids": [
+    "E009"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S014",
+   "start_s": 44.9,
+   "end_s": 48,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "flow2",
+   "target": "f:T2syn",
+   "event_ids": [
+    "E010"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S015",
+   "start_s": 48,
+   "end_s": 50.6,
+   "zone": "gate",
+   "camera": "wide2",
+   "mode": "flow2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S016",
+   "start_s": 50.6,
+   "end_s": 54,
+   "zone": "gate",
+   "camera": "wall",
+   "mode": "deny2",
+   "target": null,
+   "event_ids": [
+    "E011",
+    "E012"
+   ],
+   "lyric_ids": [
+    "L005"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 54,
+   "end_s": 57.16,
+   "zone": "ledger",
+   "camera": "policy",
+   "mode": "chain",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L006"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 57.16,
+   "end_s": 59.26,
+   "zone": "ledger",
+   "camera": "packet",
+   "mode": "tuple",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L007"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 59.26,
+   "end_s": 61.25,
+   "zone": "gate",
+   "camera": "portal",
+   "mode": "wrong",
+   "target": "f:Z1",
+   "event_ids": [
+    "E013"
+   ],
+   "lyric_ids": [
+    "L008"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 61.25,
+   "end_s": 64.46,
+   "zone": "gate",
+   "camera": "flyby",
+   "mode": "verse",
+   "target": "f:T3syn",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S021",
+   "start_s": 64.46,
+   "end_s": 65.6,
+   "zone": "ledger",
+   "camera": "ladder",
+   "mode": "tcp",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S022",
+   "start_s": 65.6,
+   "end_s": 67.26,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "udp",
+   "target": "f:U1.2",
+   "event_ids": [],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S023",
+   "start_s": 67.26,
+   "end_s": 68.92,
+   "zone": "gate",
+   "camera": "rings",
+   "mode": "policy",
+   "target": null,
+   "event_ids": [
+    "E014"
+   ],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 68.92,
+   "end_s": 70.74,
+   "zone": "ledger",
+   "camera": "table",
+   "mode": "state",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 70.74,
+   "end_s": 72.84,
+   "zone": "gate",
+   "camera": "nat",
+   "mode": "snat",
+   "target": "f:T4syn",
+   "event_ids": [
+    "E015"
+   ],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 72.84,
+   "end_s": 74.58,
+   "zone": "gate",
+   "camera": "nat",
+   "mode": "dnat",
+   "target": "f:T5syn",
+   "event_ids": [],
+   "lyric_ids": [
+    "L014"
+   ]
+  },
+  {
+   "id": "S027",
+   "start_s": 74.58,
+   "end_s": 76.18,
+   "zone": "gate",
+   "camera": "dpi",
+   "mode": "dpi",
+   "target": "f:T1d5",
+   "event_ids": [
+    "E016"
+   ],
+   "lyric_ids": [
+    "L015"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 76.18,
+   "end_s": 78.64,
+   "zone": "ledger",
+   "camera": "policy",
+   "mode": "verdict",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L016"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 78.64,
+   "end_s": 81.5,
+   "zone": "gate",
+   "camera": "portal",
+   "mode": "hook",
+   "target": null,
+   "event_ids": [
+    "E017"
+   ],
+   "lyric_ids": [
+    "L017"
+   ]
+  },
+  {
+   "id": "S030",
+   "start_s": 81.5,
+   "end_s": 84.95,
+   "zone": "gate",
+   "camera": "scanner",
+   "mode": "hook",
+   "target": "f:X3",
+   "event_ids": [
+    "E018"
+   ],
+   "lyric_ids": [
+    "L018",
+    "L019"
+   ]
+  },
+  {
+   "id": "S031",
+   "start_s": 84.95,
+   "end_s": 86.34,
+   "zone": "gate",
+   "camera": "wide",
+   "mode": "hook",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L020"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 86.34,
+   "end_s": 88.35,
+   "zone": "gate",
+   "camera": "rings",
+   "mode": "hook",
+   "target": null,
+   "event_ids": [
+    "E019"
+   ],
+   "lyric_ids": [
+    "L021",
+    "L022",
+    "L023"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 88.35,
+   "end_s": 89.08,
+   "zone": "ledger",
+   "camera": "log",
+   "mode": "hook",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S034",
+   "start_s": 89.08,
+   "end_s": 92.1,
+   "zone": "gate",
+   "camera": "portal",
+   "mode": "hook",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L024",
+    "L025",
+    "L026",
+    "L027"
+   ]
+  },
+  {
+   "id": "S035",
+   "start_s": 92.1,
+   "end_s": 93.86,
+   "zone": "gate",
+   "camera": "scanner",
+   "mode": "nomatch",
+   "target": "f:X7",
+   "event_ids": [],
+   "lyric_ids": [
+    "L028"
+   ]
+  },
+  {
+   "id": "S036",
+   "start_s": 93.86,
+   "end_s": 95.42,
+   "zone": "gate",
+   "camera": "rings",
+   "mode": "hook",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L029",
+    "L030",
+    "L031"
+   ]
+  },
+  {
+   "id": "S037",
+   "start_s": 95.42,
+   "end_s": 96.46,
+   "zone": "ledger",
+   "camera": "policy",
+   "mode": "write",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L032"
+   ]
+  },
+  {
+   "id": "S038",
+   "start_s": 96.46,
+   "end_s": 97.8,
+   "zone": "gate",
+   "camera": "orbit",
+   "mode": "chorus",
+   "target": null,
+   "event_ids": [
+    "E020"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S039",
+   "start_s": 97.8,
+   "end_s": 101.5,
+   "zone": "gate",
+   "camera": "wide",
+   "mode": "calm",
+   "target": null,
+   "event_ids": [
+    "E021",
+    "E022"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S040",
+   "start_s": 101.5,
+   "end_s": 103.5,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "chorus",
+   "target": "f:T6syn",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S041",
+   "start_s": 103.5,
+   "end_s": 105.25,
+   "zone": "gate",
+   "camera": "portal",
+   "mode": "chorus",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S042",
+   "start_s": 105.25,
+   "end_s": 108.3,
+   "zone": "gate",
+   "camera": "flyby",
+   "mode": "chorus",
+   "target": "f:T6d1",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S043",
+   "start_s": 108.3,
+   "end_s": 111.24,
+   "zone": "gate",
+   "camera": "wide2",
+   "mode": "chorus",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S044",
+   "start_s": 111.24,
+   "end_s": 113.96,
+   "zone": "gate",
+   "camera": "wall",
+   "mode": "trust",
+   "target": null,
+   "event_ids": [
+    "E023"
+   ],
+   "lyric_ids": [
+    "L033"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 113.96,
+   "end_s": 117.34,
+   "zone": "gate",
+   "camera": "topdown",
+   "mode": "least",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L034"
+   ]
+  },
+  {
+   "id": "S046",
+   "start_s": 117.34,
+   "end_s": 120.16,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "app",
+   "target": "f:T7syn",
+   "event_ids": [],
+   "lyric_ids": [
+    "L035"
+   ]
+  },
+  {
+   "id": "S047",
+   "start_s": 120.16,
+   "end_s": 121.6,
+   "zone": "ledger",
+   "camera": "packet",
+   "mode": "app",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L036"
+   ]
+  },
+  {
+   "id": "S048",
+   "start_s": 121.6,
+   "end_s": 123.5,
+   "zone": "ledger",
+   "camera": "log",
+   "mode": "sign",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L037"
+   ]
+  },
+  {
+   "id": "S049",
+   "start_s": 123.5,
+   "end_s": 126.35,
+   "zone": "gate",
+   "camera": "orbit",
+   "mode": "inst",
+   "target": null,
+   "event_ids": [
+    "E024",
+    "E025"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S050",
+   "start_s": 126.35,
+   "end_s": 130.44,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "inst",
+   "target": "f:T8syn",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S051",
+   "start_s": 130.44,
+   "end_s": 133.72,
+   "zone": "gate",
+   "camera": "acl",
+   "mode": "acl",
+   "target": null,
+   "event_ids": [
+    "E026"
+   ],
+   "lyric_ids": [
+    "L038"
+   ]
+  },
+  {
+   "id": "S052",
+   "start_s": 133.72,
+   "end_s": 135.38,
+   "zone": "gate",
+   "camera": "hairpin",
+   "mode": "hairpin",
+   "target": "f:H1syn",
+   "event_ids": [],
+   "lyric_ids": [
+    "L039"
+   ]
+  },
+  {
+   "id": "S053",
+   "start_s": 135.38,
+   "end_s": 137.1,
+   "zone": "ledger",
+   "camera": "nat",
+   "mode": "terms",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S054",
+   "start_s": 137.1,
+   "end_s": 138.52,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "mobile",
+   "target": "f:T9syn",
+   "event_ids": [],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 138.52,
+   "end_s": 140.38,
+   "zone": "gate",
+   "camera": "dpi",
+   "mode": "dpi2",
+   "target": "f:E1d1",
+   "event_ids": [],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S056",
+   "start_s": 140.38,
+   "end_s": 142.1,
+   "zone": "ledger",
+   "camera": "packet",
+   "mode": "layers",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S057",
+   "start_s": 142.1,
+   "end_s": 143.76,
+   "zone": "gate",
+   "camera": "dpi",
+   "mode": "verdict2",
+   "target": "f:E1d2",
+   "event_ids": [],
+   "lyric_ids": [
+    "L044"
+   ]
+  },
+  {
+   "id": "S058",
+   "start_s": 143.76,
+   "end_s": 146.92,
+   "zone": "gate",
+   "camera": "portal",
+   "mode": "close",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L045"
+   ]
+  },
+  {
+   "id": "S059",
+   "start_s": 146.92,
+   "end_s": 148.8,
+   "zone": "ledger",
+   "camera": "ladder",
+   "mode": "syn",
+   "target": null,
+   "event_ids": [
+    "E027"
+   ],
+   "lyric_ids": [
+    "L046"
+   ]
+  },
+  {
+   "id": "S060",
+   "start_s": 148.8,
+   "end_s": 150.5,
+   "zone": "ledger",
+   "camera": "ladder",
+   "mode": "ack",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L047"
+   ]
+  },
+  {
+   "id": "S061",
+   "start_s": 150.5,
+   "end_s": 153.04,
+   "zone": "ledger",
+   "camera": "table",
+   "mode": "match",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L048"
+   ]
+  },
+  {
+   "id": "S062",
+   "start_s": 153.04,
+   "end_s": 154.6,
+   "zone": "gate",
+   "camera": "portal",
+   "mode": "deny3",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L049"
+   ]
+  },
+  {
+   "id": "S063",
+   "start_s": 154.6,
+   "end_s": 155.24,
+   "zone": "gate",
+   "camera": "portal",
+   "mode": "permit",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L050"
+   ]
+  },
+  {
+   "id": "S064",
+   "start_s": 155.24,
+   "end_s": 156.02,
+   "zone": "ledger",
+   "camera": "log",
+   "mode": "log",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L051"
+   ]
+  },
+  {
+   "id": "S065",
+   "start_s": 156.02,
+   "end_s": 158.38,
+   "zone": "ledger",
+   "camera": "nat",
+   "mode": "snat2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L052"
+   ]
+  },
+  {
+   "id": "S066",
+   "start_s": 158.38,
+   "end_s": 159.4,
+   "zone": "ledger",
+   "camera": "nat",
+   "mode": "dnat2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L053"
+   ]
+  },
+  {
+   "id": "S067",
+   "start_s": 159.4,
+   "end_s": 162.14,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "break",
+   "target": "f:T10d2",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S068",
+   "start_s": 162.14,
+   "end_s": 164.14,
+   "zone": "ledger",
+   "camera": "table",
+   "mode": "tcp",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L054"
+   ]
+  },
+  {
+   "id": "S069",
+   "start_s": 164.14,
+   "end_s": 164.78,
+   "zone": "ledger",
+   "camera": "table",
+   "mode": "udp",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L055"
+   ]
+  },
+  {
+   "id": "S070",
+   "start_s": 164.78,
+   "end_s": 167.75,
+   "zone": "gate",
+   "camera": "orbit",
+   "mode": "inst2",
+   "target": null,
+   "event_ids": [
+    "E028",
+    "E029"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S071",
+   "start_s": 167.75,
+   "end_s": 171.2,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "rush",
+   "target": "f:T11syn",
+   "event_ids": [
+    "E030"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S072",
+   "start_s": 171.2,
+   "end_s": 174.55,
+   "zone": "gate",
+   "camera": "wide",
+   "mode": "rush",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S073",
+   "start_s": 174.55,
+   "end_s": 178.35,
+   "zone": "gate",
+   "camera": "flyby",
+   "mode": "rush",
+   "target": "f:T11d3",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S074",
+   "start_s": 178.35,
+   "end_s": 180.05,
+   "zone": "gate",
+   "camera": "rings",
+   "mode": "rush",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S075",
+   "start_s": 180.05,
+   "end_s": 183.1,
+   "zone": "gate",
+   "camera": "chase",
+   "mode": "rush",
+   "target": "f:T12syn",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S076",
+   "start_s": 183.1,
+   "end_s": 186.5,
+   "zone": "gate",
+   "camera": "portal",
+   "mode": "lock",
+   "target": null,
+   "event_ids": [
+    "E031"
+   ],
+   "lyric_ids": [
+    "L056"
+   ]
+  },
+  {
+   "id": "S077",
+   "start_s": 186.5,
+   "end_s": 189.82,
+   "zone": "gate",
+   "camera": "scanner",
+   "mode": "lock",
+   "target": "f:X17",
+   "event_ids": [],
+   "lyric_ids": [
+    "L057"
+   ]
+  },
+  {
+   "id": "S078",
+   "start_s": 189.82,
+   "end_s": 191.68,
+   "zone": "ledger",
+   "camera": "table",
+   "mode": "lock",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L058"
+   ]
+  },
+  {
+   "id": "S079",
+   "start_s": 191.68,
+   "end_s": 195.25,
+   "zone": "ledger",
+   "camera": "policy",
+   "mode": "lock",
+   "target": null,
+   "event_ids": [
+    "E032",
+    "E033",
+    "E034",
+    "E035"
+   ],
+   "lyric_ids": [
+    "L059"
+   ]
+  },
+  {
+   "id": "S080",
+   "start_s": 195.25,
+   "end_s": 200.75,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "outro",
+   "target": "f:T13syn",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S081",
+   "start_s": 200.75,
+   "end_s": 204,
+   "zone": "gate",
+   "camera": "wide",
+   "mode": "outro",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S082",
+   "start_s": 204,
+   "end_s": 206.65,
+   "zone": "gate",
+   "camera": "chase",
+   "mode": "fin",
+   "target": "f:T1fin",
+   "event_ids": [
+    "E036"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S083",
+   "start_s": 206.65,
+   "end_s": 209.2,
+   "zone": "ledger",
+   "camera": "table",
+   "mode": "close",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S084",
+   "start_s": 209.2,
+   "end_s": 212,
+   "zone": "gate",
+   "camera": "orbit",
+   "mode": "calm2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S085",
+   "start_s": 212,
+   "end_s": 215.55,
+   "zone": "ledger",
+   "camera": "table",
+   "mode": "expire",
+   "target": null,
+   "event_ids": [
+    "E037",
+    "E038"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S086",
+   "start_s": 215.55,
+   "end_s": 219.35,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "final",
+   "target": "f:T14syn",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S087",
+   "start_s": 219.35,
+   "end_s": 223.15,
+   "zone": "gate",
+   "camera": "flyby",
+   "mode": "final",
+   "target": "f:T14d2",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S088",
+   "start_s": 223.15,
+   "end_s": 226.7,
+   "zone": "gate",
+   "camera": "wide2",
+   "mode": "final",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S089",
+   "start_s": 226.7,
+   "end_s": 229.05,
+   "zone": "gate",
+   "camera": "portal",
+   "mode": "dip",
+   "target": null,
+   "event_ids": [
+    "E039",
+    "E040",
+    "E041"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S090",
+   "start_s": 229.05,
+   "end_s": 234,
+   "zone": "gate",
+   "camera": "ride",
+   "mode": "last",
+   "target": "f:T15syn",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S091",
+   "start_s": 234,
+   "end_s": 238.35,
+   "zone": "gate",
+   "camera": "rings",
+   "mode": "last",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S092",
+   "start_s": 238.35,
+   "end_s": 242.15,
+   "zone": "gate",
+   "camera": "wide",
+   "mode": "last",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S093",
+   "start_s": 242.15,
+   "end_s": 259.3209791666667,
+   "zone": "gate",
+   "camera": "final",
+   "mode": "outro",
+   "target": null,
+   "event_ids": [
+    "E042",
+    "E043",
+    "E044"
+   ],
+   "lyric_ids": []
+  }
+ ],
+ "rules": [
+  {
+   "id": 0,
+   "text": "deny ip from 198.51.100.66",
+   "note": "blocklist · written at 95.4 s",
+   "since": 96
+  },
+  {
+   "id": 1,
+   "text": "allow tcp 10.0.0.0/24 → any :443",
+   "note": "https out · snat"
+  },
+  {
+   "id": 2,
+   "text": "allow udp 10.0.0.0/24 → 192.0.2.53 :53",
+   "note": "dns · snat"
+  },
+  {
+   "id": 3,
+   "text": "allow tcp any → 203.0.113.10 :443",
+   "note": "dnat → 172.16.0.80:443"
+  },
+  {
+   "id": 4,
+   "text": "allow tcp 10.0.0.0/24 → any :80",
+   "note": "http · ips inspection"
+  },
+  {
+   "id": 5,
+   "text": "allow udp 10.0.0.12 → 192.0.2.14 :514",
+   "note": "syslog"
+  },
+  {
+   "id": 6,
+   "text": "deny any any log",
+   "note": "implicit · default deny"
+  }
+ ],
+ "blocklist_s": 96,
+ "sessions": [
+  {
+   "id": "T0",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.23:53834",
+   "nat": "203.0.113.10:40001",
+   "destination": "198.51.100.20:443",
+   "rule": 1,
+   "opened_s": 10.2,
+   "closed_s": 244.798,
+   "states": [
+    [
+     10.2,
+     "SYN_SENT"
+    ],
+    [
+     13.095,
+     "SYN_RECV"
+    ],
+    [
+     15.921,
+     "ESTABLISHED"
+    ],
+    [
+     237.883,
+     "FIN_WAIT"
+    ],
+    [
+     240.798,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "D0",
+   "proto": "udp",
+   "app": "dns",
+   "inside": "10.0.0.31:41478",
+   "nat": "203.0.113.10:40002",
+   "destination": "192.0.2.53:53",
+   "rule": 2,
+   "opened_s": 13.989,
+   "closed_s": 46.905,
+   "states": [
+    [
+     13.989,
+     "UNREPLIED"
+    ],
+    [
+     16.905,
+     "REPLIED"
+    ]
+   ]
+  },
+  {
+   "id": "T1",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.23:53931",
+   "nat": "203.0.113.10:40003",
+   "destination": "198.51.100.20:443",
+   "rule": 1,
+   "opened_s": 29.4,
+   "closed_s": 211.898,
+   "states": [
+    [
+     29.4,
+     "SYN_SENT"
+    ],
+    [
+     32.295,
+     "SYN_RECV"
+    ],
+    [
+     35.121,
+     "ESTABLISHED"
+    ],
+    [
+     204.983,
+     "FIN_WAIT"
+    ],
+    [
+     207.898,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "D1",
+   "proto": "udp",
+   "app": "dns",
+   "inside": "10.0.0.45:41495",
+   "nat": "203.0.113.10:40004",
+   "destination": "192.0.2.53:53",
+   "rule": 2,
+   "opened_s": 32.322,
+   "closed_s": 65.238,
+   "states": [
+    [
+     32.322,
+     "UNREPLIED"
+    ],
+    [
+     35.238,
+     "REPLIED"
+    ]
+   ]
+  },
+  {
+   "id": "T2",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.45:54028",
+   "nat": "203.0.113.10:40005",
+   "destination": "198.51.100.40:443",
+   "rule": 1,
+   "opened_s": 46.6,
+   "closed_s": 230.15,
+   "states": [
+    [
+     46.6,
+     "SYN_SENT"
+    ],
+    [
+     49.408,
+     "SYN_RECV"
+    ],
+    [
+     52.112,
+     "ESTABLISHED"
+    ],
+    [
+     223.322,
+     "FIN_WAIT"
+    ],
+    [
+     226.15,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "T3",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.31:54125",
+   "nat": "203.0.113.10:40006",
+   "destination": "198.51.100.20:443",
+   "rule": 1,
+   "opened_s": 62.4,
+   "closed_s": 218.903,
+   "states": [
+    [
+     62.4,
+     "SYN_SENT"
+    ],
+    [
+     65.295,
+     "SYN_RECV"
+    ],
+    [
+     68.132,
+     "ESTABLISHED"
+    ],
+    [
+     211.989,
+     "FIN_WAIT"
+    ],
+    [
+     214.903,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "U1",
+   "proto": "udp",
+   "app": "syslog",
+   "inside": "10.0.0.12:41495",
+   "nat": "203.0.113.10:40007",
+   "destination": "192.0.2.14:514",
+   "rule": 5,
+   "opened_s": 62.586,
+   "closed_s": 213.586,
+   "states": [
+    [
+     62.586,
+     "UNREPLIED"
+    ],
+    [
+     64.786,
+     "UNREPLIED"
+    ],
+    [
+     66.986,
+     "UNREPLIED"
+    ],
+    [
+     69.186,
+     "UNREPLIED"
+    ],
+    [
+     71.386,
+     "UNREPLIED"
+    ],
+    [
+     73.586,
+     "UNREPLIED"
+    ],
+    [
+     75.786,
+     "UNREPLIED"
+    ],
+    [
+     77.986,
+     "UNREPLIED"
+    ],
+    [
+     80.186,
+     "UNREPLIED"
+    ],
+    [
+     82.386,
+     "UNREPLIED"
+    ],
+    [
+     84.586,
+     "UNREPLIED"
+    ],
+    [
+     86.786,
+     "UNREPLIED"
+    ],
+    [
+     88.986,
+     "UNREPLIED"
+    ],
+    [
+     91.186,
+     "UNREPLIED"
+    ],
+    [
+     93.386,
+     "UNREPLIED"
+    ],
+    [
+     95.586,
+     "UNREPLIED"
+    ],
+    [
+     97.786,
+     "UNREPLIED"
+    ],
+    [
+     99.986,
+     "UNREPLIED"
+    ],
+    [
+     102.186,
+     "UNREPLIED"
+    ],
+    [
+     104.386,
+     "UNREPLIED"
+    ],
+    [
+     106.586,
+     "UNREPLIED"
+    ],
+    [
+     108.786,
+     "UNREPLIED"
+    ],
+    [
+     110.986,
+     "UNREPLIED"
+    ],
+    [
+     113.186,
+     "UNREPLIED"
+    ],
+    [
+     115.386,
+     "UNREPLIED"
+    ],
+    [
+     117.586,
+     "UNREPLIED"
+    ],
+    [
+     119.786,
+     "UNREPLIED"
+    ],
+    [
+     121.986,
+     "UNREPLIED"
+    ],
+    [
+     124.186,
+     "UNREPLIED"
+    ],
+    [
+     126.386,
+     "UNREPLIED"
+    ],
+    [
+     128.586,
+     "UNREPLIED"
+    ],
+    [
+     130.786,
+     "UNREPLIED"
+    ],
+    [
+     132.986,
+     "UNREPLIED"
+    ],
+    [
+     135.186,
+     "UNREPLIED"
+    ],
+    [
+     137.386,
+     "UNREPLIED"
+    ],
+    [
+     139.586,
+     "UNREPLIED"
+    ],
+    [
+     141.786,
+     "UNREPLIED"
+    ],
+    [
+     143.986,
+     "UNREPLIED"
+    ],
+    [
+     146.186,
+     "UNREPLIED"
+    ],
+    [
+     148.386,
+     "UNREPLIED"
+    ],
+    [
+     150.586,
+     "UNREPLIED"
+    ],
+    [
+     152.786,
+     "UNREPLIED"
+    ],
+    [
+     154.986,
+     "UNREPLIED"
+    ],
+    [
+     157.186,
+     "UNREPLIED"
+    ],
+    [
+     159.386,
+     "UNREPLIED"
+    ],
+    [
+     161.586,
+     "UNREPLIED"
+    ],
+    [
+     163.786,
+     "UNREPLIED"
+    ],
+    [
+     165.986,
+     "UNREPLIED"
+    ],
+    [
+     168.186,
+     "UNREPLIED"
+    ],
+    [
+     170.386,
+     "UNREPLIED"
+    ],
+    [
+     172.586,
+     "UNREPLIED"
+    ],
+    [
+     174.786,
+     "UNREPLIED"
+    ],
+    [
+     176.986,
+     "UNREPLIED"
+    ],
+    [
+     179.186,
+     "UNREPLIED"
+    ],
+    [
+     181.386,
+     "UNREPLIED"
+    ],
+    [
+     183.586,
+     "UNREPLIED"
+    ]
+   ]
+  },
+  {
+   "id": "T4",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.31:54222",
+   "nat": "203.0.113.10:40008",
+   "destination": "198.51.100.40:443",
+   "rule": 1,
+   "opened_s": 71,
+   "closed_s": 220.616,
+   "states": [
+    [
+     71,
+     "SYN_SENT"
+    ],
+    [
+     73.808,
+     "SYN_RECV"
+    ],
+    [
+     76.645,
+     "ESTABLISHED"
+    ],
+    [
+     213.789,
+     "FIN_WAIT"
+    ],
+    [
+     216.616,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "T5",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "192.0.2.77:54319",
+   "nat": null,
+   "destination": "203.0.113.10:443 → 172.16.0.80:443",
+   "rule": 3,
+   "opened_s": 73.3,
+   "closed_s": 215.969,
+   "states": [
+    [
+     73.3,
+     "SYN_SENT"
+    ],
+    [
+     76.488,
+     "SYN_RECV"
+    ],
+    [
+     80.471,
+     "ESTABLISHED"
+    ],
+    [
+     208.762,
+     "FIN_WAIT"
+    ],
+    [
+     211.969,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "D2",
+   "proto": "udp",
+   "app": "dns",
+   "inside": "10.0.0.23:41512",
+   "nat": "203.0.113.10:40009",
+   "destination": "192.0.2.53:53",
+   "rule": 2,
+   "opened_s": 99.983,
+   "closed_s": 132.899,
+   "states": [
+    [
+     99.983,
+     "UNREPLIED"
+    ],
+    [
+     102.899,
+     "REPLIED"
+    ]
+   ]
+  },
+  {
+   "id": "T6",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.23:54416",
+   "nat": "203.0.113.10:40010",
+   "destination": "198.51.100.40:443",
+   "rule": 1,
+   "opened_s": 102.7,
+   "closed_s": 233.211,
+   "states": [
+    [
+     102.7,
+     "SYN_SENT"
+    ],
+    [
+     105.508,
+     "SYN_RECV"
+    ],
+    [
+     108.334,
+     "ESTABLISHED"
+    ],
+    [
+     226.383,
+     "FIN_WAIT"
+    ],
+    [
+     229.211,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "T7",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.45:54513",
+   "nat": "203.0.113.10:40011",
+   "destination": "198.51.100.20:443",
+   "rule": 1,
+   "opened_s": 118.4,
+   "closed_s": 236.237,
+   "states": [
+    [
+     118.4,
+     "SYN_SENT"
+    ],
+    [
+     121.295,
+     "SYN_RECV"
+    ],
+    [
+     123.999,
+     "ESTABLISHED"
+    ],
+    [
+     229.322,
+     "FIN_WAIT"
+    ],
+    [
+     232.237,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "T8",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.31:54610",
+   "nat": "203.0.113.10:40012",
+   "destination": "198.51.100.40:443",
+   "rule": 1,
+   "opened_s": 127.4,
+   "closed_s": 239.216,
+   "states": [
+    [
+     127.4,
+     "SYN_SENT"
+    ],
+    [
+     130.208,
+     "SYN_RECV"
+    ],
+    [
+     133.045,
+     "ESTABLISHED"
+    ],
+    [
+     232.389,
+     "FIN_WAIT"
+    ],
+    [
+     235.216,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "H1",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.23:53931",
+   "nat": "203.0.113.10:40013",
+   "destination": "203.0.113.10:443 → 172.16.0.80:443",
+   "rule": 3,
+   "opened_s": 134.4,
+   "closed_s": 241.953,
+   "states": [
+    [
+     134.4,
+     "SYN_SENT"
+    ],
+    [
+     137.95,
+     "SYN_RECV"
+    ],
+    [
+     141.125,
+     "ESTABLISHED"
+    ],
+    [
+     234.383,
+     "FIN_WAIT"
+    ],
+    [
+     237.953,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "T9",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.45:54707",
+   "nat": "203.0.113.10:40014",
+   "destination": "198.51.100.40:443",
+   "rule": 1,
+   "opened_s": 138.2,
+   "closed_s": 228.15,
+   "states": [
+    [
+     138.2,
+     "SYN_SENT"
+    ],
+    [
+     141.008,
+     "SYN_RECV"
+    ],
+    [
+     143.712,
+     "ESTABLISHED"
+    ],
+    [
+     221.322,
+     "FIN_WAIT"
+    ],
+    [
+     224.15,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "E1",
+   "proto": "tcp",
+   "app": "http",
+   "inside": "10.0.0.31:53931",
+   "nat": "203.0.113.10:40015",
+   "destination": "198.51.100.40:80",
+   "rule": 4,
+   "opened_s": 136.4,
+   "closed_s": 144.602,
+   "states": [
+    [
+     136.4,
+     "SYN_SENT"
+    ],
+    [
+     139.208,
+     "SYN_RECV"
+    ],
+    [
+     142.045,
+     "ESTABLISHED"
+    ],
+    [
+     143.402,
+     "RESET"
+    ]
+   ]
+  },
+  {
+   "id": "T10",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.45:53944",
+   "nat": "203.0.113.10:40016",
+   "destination": "198.51.100.20:443",
+   "rule": 1,
+   "opened_s": 146.95,
+   "closed_s": 243.4,
+   "states": [
+    [
+     146.95,
+     "SYN_SENT"
+    ],
+    [
+     147.915,
+     "SYN_RECV"
+    ],
+    [
+     148.806,
+     "ESTABLISHED"
+    ],
+    [
+     238.415,
+     "FIN_WAIT"
+    ],
+    [
+     239.4,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "T16",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.23:53944",
+   "nat": "203.0.113.10:40017",
+   "destination": "198.51.100.40:443",
+   "rule": 1,
+   "opened_s": 154.9,
+   "closed_s": 223.211,
+   "states": [
+    [
+     154.9,
+     "SYN_SENT"
+    ],
+    [
+     157.708,
+     "SYN_RECV"
+    ],
+    [
+     160.534,
+     "ESTABLISHED"
+    ],
+    [
+     216.383,
+     "FIN_WAIT"
+    ],
+    [
+     219.211,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "D3",
+   "proto": "udp",
+   "app": "dns",
+   "inside": "10.0.0.45:41529",
+   "nat": "203.0.113.10:40018",
+   "destination": "192.0.2.53:53",
+   "rule": 2,
+   "opened_s": 164.722,
+   "closed_s": 197.638,
+   "states": [
+    [
+     164.722,
+     "UNREPLIED"
+    ],
+    [
+     167.638,
+     "REPLIED"
+    ]
+   ]
+  },
+  {
+   "id": "T11",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.23:53944",
+   "nat": "203.0.113.10:40019",
+   "destination": "198.51.100.20:443",
+   "rule": 1,
+   "opened_s": 168.9,
+   "closed_s": 249.298,
+   "states": [
+    [
+     168.9,
+     "SYN_SENT"
+    ],
+    [
+     171.795,
+     "SYN_RECV"
+    ],
+    [
+     174.621,
+     "ESTABLISHED"
+    ],
+    [
+     242.383,
+     "FIN_WAIT"
+    ],
+    [
+     245.298,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "T12",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.31:53944",
+   "nat": "203.0.113.10:40020",
+   "destination": "198.51.100.40:443",
+   "rule": 1,
+   "opened_s": 181.3,
+   "closed_s": 226.216,
+   "states": [
+    [
+     181.3,
+     "SYN_SENT"
+    ],
+    [
+     184.108,
+     "SYN_RECV"
+    ],
+    [
+     186.945,
+     "ESTABLISHED"
+    ],
+    [
+     219.389,
+     "FIN_WAIT"
+    ],
+    [
+     222.216,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "T13",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.45:53944",
+   "nat": "203.0.113.10:40021",
+   "destination": "198.51.100.20:443",
+   "rule": 1,
+   "opened_s": 196.4,
+   "closed_s": 252.237,
+   "states": [
+    [
+     196.4,
+     "SYN_SENT"
+    ],
+    [
+     199.295,
+     "SYN_RECV"
+    ],
+    [
+     201.999,
+     "ESTABLISHED"
+    ],
+    [
+     245.322,
+     "FIN_WAIT"
+    ],
+    [
+     248.237,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "T14",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.23:53944",
+   "nat": "203.0.113.10:40022",
+   "destination": "198.51.100.40:443",
+   "rule": 1,
+   "opened_s": 216.7,
+   "closed_s": 255.211,
+   "states": [
+    [
+     216.7,
+     "SYN_SENT"
+    ],
+    [
+     219.508,
+     "SYN_RECV"
+    ],
+    [
+     222.334,
+     "ESTABLISHED"
+    ],
+    [
+     248.383,
+     "FIN_WAIT"
+    ],
+    [
+     251.211,
+     "TIME_WAIT"
+    ]
+   ]
+  },
+  {
+   "id": "T15",
+   "proto": "tcp",
+   "app": "tls",
+   "inside": "10.0.0.31:53944",
+   "nat": "203.0.113.10:40023",
+   "destination": "198.51.100.20:443",
+   "rule": 1,
+   "opened_s": 230.2,
+   "closed_s": 257.303,
+   "states": [
+    [
+     230.2,
+     "SYN_SENT"
+    ],
+    [
+     233.095,
+     "SYN_RECV"
+    ],
+    [
+     235.932,
+     "ESTABLISHED"
+    ],
+    [
+     250.389,
+     "FIN_WAIT"
+    ],
+    [
+     253.303,
+     "TIME_WAIT"
+    ]
+   ]
+  }
+ ],
+ "drops": [
+  {
+   "time_s": 23.15,
+   "id": "Z0",
+   "from": "192.0.2.77",
+   "reason": "deny",
+   "label": "SYN 192.0.2.77:51104 → 203.0.113.10:8080"
+  },
+  {
+   "time_s": 42.6,
+   "id": "X1",
+   "from": "198.51.100.66",
+   "reason": "deny",
+   "label": "SYN 198.51.100.66:51022 → 203.0.113.10:22"
+  },
+  {
+   "time_s": 44.1,
+   "id": "X2",
+   "from": "198.51.100.66",
+   "reason": "deny",
+   "label": "SYN 198.51.100.66:51398 → 203.0.113.10:3389"
+  },
+  {
+   "time_s": 60,
+   "id": "Z1",
+   "from": "192.0.2.77",
+   "reason": "deny",
+   "label": "SYN 192.0.2.77:51445 → 203.0.113.10:445"
+  },
+  {
+   "time_s": 82.6,
+   "id": "X3",
+   "from": "198.51.100.66",
+   "reason": "deny",
+   "label": "SYN 198.51.100.66:51023 → 203.0.113.10:23"
+  },
+  {
+   "time_s": 84.2,
+   "id": "X4",
+   "from": "198.51.100.66",
+   "reason": "deny",
+   "label": "SYN 198.51.100.66:51398 → 203.0.113.10:3389"
+  },
+  {
+   "time_s": 86.6,
+   "id": "X5",
+   "from": "198.51.100.66",
+   "reason": "deny",
+   "label": "SYN 198.51.100.66:51022 → 203.0.113.10:22"
+  },
+  {
+   "time_s": 89.6,
+   "id": "X6",
+   "from": "198.51.100.66",
+   "reason": "deny",
+   "label": "SYN 198.51.100.66:51915 → 203.0.113.10:5900"
+  },
+  {
+   "time_s": 92.7,
+   "id": "X7",
+   "from": "198.51.100.66",
+   "reason": "nostate",
+   "label": "ACK 198.51.100.66:51443 → 203.0.113.10:443"
+  },
+  {
+   "time_s": 94.4,
+   "id": "X8",
+   "from": "198.51.100.66",
+   "reason": "deny",
+   "label": "SYN 198.51.100.66:51467 → 203.0.113.10:8443"
+  },
+  {
+   "time_s": 99.2,
+   "id": "X9",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51022 → 203.0.113.10:22"
+  },
+  {
+   "time_s": 104.3,
+   "id": "X10",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51398 → 203.0.113.10:3389"
+  },
+  {
+   "time_s": 120.4,
+   "id": "X11",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51023 → 203.0.113.10:23"
+  },
+  {
+   "time_s": 131.2,
+   "id": "X12",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51445 → 203.0.113.10:445"
+  },
+  {
+   "time_s": 143.282,
+   "id": "E1d2",
+   "from": "198.51.100.40",
+   "reason": "ips",
+   "label": "DATA GET /eicar.com · EICAR-Test-Signature"
+  },
+  {
+   "time_s": 153.35,
+   "id": "X15",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51315 → 203.0.113.10:3306"
+  },
+  {
+   "time_s": 153.4,
+   "id": "X13",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51021 → 203.0.113.10:21"
+  },
+  {
+   "time_s": 176,
+   "id": "X14",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51104 → 203.0.113.10:8080"
+  },
+  {
+   "time_s": 184.6,
+   "id": "X16",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51022 → 203.0.113.10:22"
+  },
+  {
+   "time_s": 187.3,
+   "id": "X17",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51398 → 203.0.113.10:3389"
+  },
+  {
+   "time_s": 190.3,
+   "id": "X18",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51023 → 203.0.113.10:23"
+  },
+  {
+   "time_s": 193.6,
+   "id": "X19",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51445 → 203.0.113.10:445"
+  },
+  {
+   "time_s": 198,
+   "id": "X20",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51915 → 203.0.113.10:5900"
+  },
+  {
+   "time_s": 232,
+   "id": "X21",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51104 → 203.0.113.10:8080"
+  },
+  {
+   "time_s": 246,
+   "id": "X22",
+   "from": "198.51.100.66",
+   "reason": "blocklist",
+   "label": "SYN 198.51.100.66:51022 → 203.0.113.10:22"
+  }
+ ]
+}

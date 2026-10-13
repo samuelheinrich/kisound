@@ -1,0 +1,365 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 15000,
+  "next_frame": 18000,
+  "segments": [
+    {
+      "start": 150.0,
+      "end": 155.72,
+      "text": "Burn, dass ich den nächsten Stand hier seh.",
+      "words": [
+        {
+          "word": "Burn",
+          "start": 150.34,
+          "end": 150.34
+        },
+        {
+          "word": ",",
+          "start": 150.34,
+          "end": 152.6
+        },
+        {
+          "word": "dass",
+          "start": 152.6,
+          "end": 152.9
+        },
+        {
+          "word": "ich",
+          "start": 152.9,
+          "end": 153.12
+        },
+        {
+          "word": "den",
+          "start": 153.12,
+          "end": 153.9
+        },
+        {
+          "word": "nächsten",
+          "start": 153.9,
+          "end": 154.48
+        },
+        {
+          "word": "Stand",
+          "start": 154.48,
+          "end": 154.94
+        },
+        {
+          "word": "hier",
+          "start": 154.94,
+          "end": 155.2
+        },
+        {
+          "word": "seh",
+          "start": 155.2,
+          "end": 155.54
+        },
+        {
+          "word": ".",
+          "start": 155.54,
+          "end": 156.02
+        }
+      ],
+      "tokens": [
+        50365,
+        18328,
+        11,
+        2658,
+        1893,
+        1441,
+        19101,
+        9133,
+        3296,
+        369,
+        71,
+        13,
+        50651
+      ]
+    },
+    {
+      "start": 156.14,
+      "end": 159.24,
+      "text": "Ein Papp geht zu, zwei kommen rein.",
+      "words": [
+        {
+          "word": "Ein",
+          "start": 156.16,
+          "end": 156.34
+        },
+        {
+          "word": "Papp",
+          "start": 156.34,
+          "end": 156.64
+        },
+        {
+          "word": "geht",
+          "start": 156.64,
+          "end": 157.08
+        },
+        {
+          "word": "zu",
+          "start": 157.08,
+          "end": 157.5
+        },
+        {
+          "word": ",",
+          "start": 157.5,
+          "end": 157.96
+        },
+        {
+          "word": "zwei",
+          "start": 157.96,
+          "end": 158.3
+        },
+        {
+          "word": "kommen",
+          "start": 158.3,
+          "end": 158.88
+        },
+        {
+          "word": "rein",
+          "start": 158.88,
+          "end": 159.04
+        },
+        {
+          "word": ".",
+          "start": 159.04,
+          "end": 159.4
+        }
+      ],
+      "tokens": [
+        50672,
+        6391,
+        430,
+        1746,
+        7095,
+        2164,
+        11,
+        12002,
+        11729,
+        6561,
+        13,
+        50827
+      ]
+    },
+    {
+      "start": 159.68,
+      "end": 164.5,
+      "text": "Nur dieser eine muss noch sein.",
+      "words": [
+        {
+          "word": "Nur",
+          "start": 159.68,
+          "end": 160.16
+        },
+        {
+          "word": "dieser",
+          "start": 160.16,
+          "end": 160.76
+        },
+        {
+          "word": "eine",
+          "start": 160.76,
+          "end": 163.42
+        },
+        {
+          "word": "muss",
+          "start": 163.42,
+          "end": 163.74
+        },
+        {
+          "word": "noch",
+          "start": 163.74,
+          "end": 164.18
+        },
+        {
+          "word": "sein",
+          "start": 164.18,
+          "end": 164.28
+        },
+        {
+          "word": ".",
+          "start": 164.28,
+          "end": 165.28
+        }
+      ],
+      "tokens": [
+        50849,
+        17612,
+        9053,
+        3018,
+        6425,
+        3514,
+        6195,
+        13,
+        51090
+      ]
+    },
+    {
+      "start": 170.88,
+      "end": 174.18,
+      "text": "Der Kaffee kalt, das Fenster hell.",
+      "words": [
+        {
+          "word": "Der",
+          "start": 171.58,
+          "end": 171.78
+        },
+        {
+          "word": "Kaffee",
+          "start": 171.78,
+          "end": 172.12
+        },
+        {
+          "word": "kalt",
+          "start": 172.12,
+          "end": 172.52
+        },
+        {
+          "word": ",",
+          "start": 172.52,
+          "end": 173.4
+        },
+        {
+          "word": "das",
+          "start": 173.4,
+          "end": 173.54
+        },
+        {
+          "word": "Fenster",
+          "start": 173.54,
+          "end": 174.04
+        },
+        {
+          "word": "hell",
+          "start": 174.04,
+          "end": 174.16
+        },
+        {
+          "word": ".",
+          "start": 174.16,
+          "end": 174.9
+        }
+      ],
+      "tokens": [
+        51409,
+        5618,
+        591,
+        2518,
+        1653,
+        350,
+        3198,
+        11,
+        1482,
+        30993,
+        3120,
+        4921,
+        13,
+        51574
+      ]
+    },
+    {
+      "start": 175.12,
+      "end": 177.78,
+      "text": "Die Antwort kommt, ich lese schnell.",
+      "words": [
+        {
+          "word": "Die",
+          "start": 175.12,
+          "end": 175.52
+        },
+        {
+          "word": "Antwort",
+          "start": 175.52,
+          "end": 175.92
+        },
+        {
+          "word": "kommt",
+          "start": 175.92,
+          "end": 176.14
+        },
+        {
+          "word": ",",
+          "start": 176.14,
+          "end": 176.94
+        },
+        {
+          "word": "ich",
+          "start": 176.94,
+          "end": 177.06
+        },
+        {
+          "word": "lese",
+          "start": 177.06,
+          "end": 177.6
+        },
+        {
+          "word": "schnell",
+          "start": 177.6,
+          "end": 177.78
+        },
+        {
+          "word": ".",
+          "start": 177.78,
+          "end": 178.22
+        }
+      ],
+      "tokens": [
+        51621,
+        3229,
+        34693,
+        10047,
+        11,
+        1893,
+        287,
+        1130,
+        17589,
+        13,
+        51754,
+        51797
+      ]
+    },
+    {
+      "start": 177.78,
+      "end": 179.78,
+      "text": "Der Satz von vorhin.",
+      "words": [
+        {
+          "word": "Der",
+          "start": 178.66,
+          "end": 178.86
+        },
+        {
+          "word": "Satz",
+          "start": 178.86,
+          "end": 179.14
+        },
+        {
+          "word": "von",
+          "start": 179.14,
+          "end": 179.42
+        },
+        {
+          "word": "vorhin",
+          "start": 179.42,
+          "end": 179.7
+        },
+        {
+          "word": ".",
+          "start": 179.7,
+          "end": 179.98
+        }
+      ],
+      "tokens": [
+        50365,
+        5618,
+        5344,
+        89,
+        2957,
+        4245,
+        10876,
+        13,
+        50465
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Titel:
+E3_Works_On_My_Machine_50_50_exakt_off_DE
+
+Weirdness: 50%
+Style Influence: 50%
+variety: exakt
+max mode: off

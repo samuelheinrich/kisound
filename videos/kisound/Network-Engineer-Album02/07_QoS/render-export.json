@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "07_QoS",
+  "title": "QoS",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/qos.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

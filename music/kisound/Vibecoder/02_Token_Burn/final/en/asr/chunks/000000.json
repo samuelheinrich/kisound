@@ -1,0 +1,84 @@
+{
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "frame": 0,
+  "next_frame": 3000,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 14.620000000000001,
+      "text": "Just this one change",
+      "words": [
+        {
+          "word": "Just",
+          "start": 13.4,
+          "end": 13.66
+        },
+        {
+          "word": "this",
+          "start": 13.66,
+          "end": 13.88
+        },
+        {
+          "word": "one",
+          "start": 13.88,
+          "end": 14.44
+        },
+        {
+          "word": "change",
+          "start": 14.44,
+          "end": 14.86
+        }
+      ],
+      "tokens": [
+        50365,
+        1449,
+        341,
+        472,
+        1319,
+        51096
+      ]
+    },
+    {
+      "start": 14.620000000000001,
+      "end": 17.8,
+      "text": "Then I'll shut it down",
+      "words": [
+        {
+          "word": "Then",
+          "start": 16.78,
+          "end": 16.88
+        },
+        {
+          "word": "I'll",
+          "start": 16.88,
+          "end": 17.2
+        },
+        {
+          "word": "shut",
+          "start": 17.2,
+          "end": 17.4
+        },
+        {
+          "word": "it",
+          "start": 17.4,
+          "end": 17.74
+        },
+        {
+          "word": "down",
+          "start": 17.74,
+          "end": 18.24
+        }
+      ],
+      "tokens": [
+        51096,
+        1396,
+        286,
+        603,
+        5309,
+        309,
+        760,
+        51255
+      ]
+    }
+  ]
+}

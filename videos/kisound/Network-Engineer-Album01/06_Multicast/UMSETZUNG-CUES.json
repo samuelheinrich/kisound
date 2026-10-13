@@ -1,0 +1,3133 @@
+{
+ "schema": "kisound.multicast.cues.v1",
+ "duration_s": 260.60016666666667,
+ "fade_start_s": 258.4,
+ "titles": {
+  "intro": [
+   0.7,
+   1.9,
+   8.6,
+   9.9
+  ],
+  "outro": [
+   250.2,
+   251.8
+  ]
+ },
+ "drops_s": [
+  31.35,
+  81.85,
+  96.25,
+  110.65,
+  135.75,
+  164.35,
+  182.25,
+  210.75,
+  230.45
+ ],
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Eine Quelle",
+   "start": 0,
+   "end": 11.38,
+   "action": "Bühne und leere Reihen öffnen; Titel über dem ruhigen Quellpuls."
+  },
+  {
+   "id": "C02",
+   "title": "Register / leere Reihen",
+   "start": 11.38,
+   "end": 24.04,
+   "action": "Quelle sendet; R1 registriert beim RP; ohne Empfänger Register-Stop, Pakete enden an R1."
+  },
+  {
+   "id": "C03",
+   "title": "Erster Empfänger",
+   "start": 24.04,
+   "end": 38.28,
+   "action": "Ein Host meldet sich; (*,G)-Join zum RP, (S,G)-Join zur Quelle; erster Strom auf dem Drop."
+  },
+  {
+   "id": "C04",
+   "title": "Unicast · Anycast · Multicast",
+   "start": 38.28,
+   "end": 58.74,
+   "action": "Drei Zustellarten getrennt: drei Kopien, nächste Instanz, eine replizierte Kopie."
+  },
+  {
+   "id": "C05",
+   "title": "Tune into the stream",
+   "start": 58.74,
+   "end": 67.58,
+   "action": "Weitere Sitze treten bei; der Baum wächst nur zu ihnen."
+  },
+  {
+   "id": "C06",
+   "title": "IGMP / Snooping / Querier",
+   "start": 67.58,
+   "end": 81.48,
+   "action": "Report, Snooping-Eintrag, General Query und Antworten im Access-Segment."
+  },
+  {
+   "id": "C07",
+   "title": "Join the group",
+   "start": 81.48,
+   "end": 96.38,
+   "action": "Chorus-Welle neuer Mitglieder; eine Kopie pro Link, viele Empfänger."
+  },
+  {
+   "id": "C08",
+   "title": "Replikation",
+   "start": 96.38,
+   "end": 109.76,
+   "action": "Ein Paket verzweigt an jedem Replikationspunkt."
+  },
+  {
+   "id": "C09",
+   "title": "PIM-SM / RP",
+   "start": 109.76,
+   "end": 128.58,
+   "action": "PIM-Nachbarn, RP kennt die Quelle, Join steigt zum Core, neuer Ast wächst."
+  },
+  {
+   "id": "C10",
+   "title": "Hook",
+   "start": 128.58,
+   "end": 135.7,
+   "action": "Report, Join, Leave, Query, Group, Source, RP, PIM, IGMP als schnelle Schläge."
+  },
+  {
+   "id": "C11",
+   "title": "SPT-Switchover",
+   "start": 135.7,
+   "end": 149,
+   "action": "R3 wechselt auf den kürzesten Pfad zur Quelle; RP-Ast für S wird gepruned."
+  },
+  {
+   "id": "C12",
+   "title": "No flood for the silent",
+   "start": 149,
+   "end": 166.72,
+   "action": "Flooding ohne Snooping gegen selektive Ports; von Access bis Core; viele Türen."
+  },
+  {
+   "id": "C13",
+   "title": "Final Chorus",
+   "start": 166.72,
+   "end": 182.25,
+   "action": "Vogelperspektive über die lebendige Gemeinschaft."
+  },
+  {
+   "id": "C14",
+   "title": "Replikation II",
+   "start": 182.25,
+   "end": 197.18,
+   "action": "Paketverfolgung und periodische Queries."
+  },
+  {
+   "id": "C15",
+   "title": "Querier / RP",
+   "start": 197.18,
+   "end": 210.75,
+   "action": "Querier fragt, Mitglieder antworten, RP erinnert sich an die Quelle."
+  },
+  {
+   "id": "C16",
+   "title": "Totale",
+   "start": 210.75,
+   "end": 249.2,
+   "action": "Weite Totale, an- und abmeldende Plätze; der stille Ast bleibt dunkel."
+  },
+  {
+   "id": "C17",
+   "title": "Finale",
+   "start": 249.2,
+   "end": 260.60016666666667,
+   "action": "Schlusstitel; Queries laufen bis zum tatsächlichen Endabfall weiter."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 7.731,
+   "zone": "arena",
+   "camera": "opening",
+   "mode": "intro",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E001",
+    "E002",
+    "E003",
+    "E004"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S002",
+   "start_s": 7.731,
+   "end_s": 11.38,
+   "zone": "arena",
+   "camera": "stands",
+   "mode": "intro",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E005"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S003",
+   "start_s": 11.38,
+   "end_s": 13.84,
+   "zone": "arena",
+   "camera": "source",
+   "mode": "register",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E006"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 13.84,
+   "end_s": 17.24,
+   "zone": "arena",
+   "camera": "stands",
+   "mode": "register",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S005",
+   "start_s": 17.24,
+   "end_s": 20.7,
+   "zone": "arena",
+   "camera": "gate",
+   "mode": "register",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L003"
+   ]
+  },
+  {
+   "id": "S006",
+   "start_s": 20.7,
+   "end_s": 24.04,
+   "zone": "arena",
+   "camera": "rise",
+   "mode": "register",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E007",
+    "E008"
+   ],
+   "lyric_ids": [
+    "L004"
+   ]
+  },
+  {
+   "id": "S007",
+   "start_s": 24.04,
+   "end_s": 27.2,
+   "zone": "segment",
+   "camera": "host",
+   "mode": "firstjoin",
+   "target": "2",
+   "seat": null,
+   "event_ids": [
+    "E009"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S008",
+   "start_s": 27.2,
+   "end_s": 29.6,
+   "zone": "arena",
+   "camera": "climb",
+   "mode": "firstjoin",
+   "target": "key:first",
+   "seat": {
+    "ip": "10.1.3.13",
+    "tier": "lower",
+    "core": "R2",
+    "switch": "SW3"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S009",
+   "start_s": 29.6,
+   "end_s": 31.3,
+   "zone": "arena",
+   "camera": "core",
+   "mode": "firstjoin",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S010",
+   "start_s": 31.3,
+   "end_s": 34,
+   "zone": "arena",
+   "camera": "ride",
+   "mode": "firstjoin",
+   "target": "key:first",
+   "seat": {
+    "ip": "10.1.3.13",
+    "tier": "lower",
+    "core": "R2",
+    "switch": "SW3"
+   },
+   "event_ids": [
+    "E010"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S011",
+   "start_s": 34,
+   "end_s": 35.9,
+   "zone": "arena",
+   "camera": "seat",
+   "mode": "stream",
+   "target": "key:first",
+   "seat": {
+    "ip": "10.1.3.13",
+    "tier": "lower",
+    "core": "R2",
+    "switch": "SW3"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S012",
+   "start_s": 35.9,
+   "end_s": 38.28,
+   "zone": "arena",
+   "camera": "orbit",
+   "mode": "stream",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S013",
+   "start_s": 38.28,
+   "end_s": 41.86,
+   "zone": "compare",
+   "camera": "wide",
+   "mode": "unicast",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E011"
+   ],
+   "lyric_ids": [
+    "L005",
+    "L006"
+   ]
+  },
+  {
+   "id": "S014",
+   "start_s": 41.86,
+   "end_s": 45.52,
+   "zone": "compare",
+   "camera": "source",
+   "mode": "unicast",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E012"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S015",
+   "start_s": 45.52,
+   "end_s": 48.44,
+   "zone": "compare",
+   "camera": "wide",
+   "mode": "anycast",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L007",
+    "L008"
+   ]
+  },
+  {
+   "id": "S016",
+   "start_s": 48.44,
+   "end_s": 51.36,
+   "zone": "compare",
+   "camera": "path",
+   "mode": "anycast",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S017",
+   "start_s": 51.36,
+   "end_s": 54.1,
+   "zone": "compare",
+   "camera": "wide",
+   "mode": "multicast",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 54.1,
+   "end_s": 58.74,
+   "zone": "compare",
+   "camera": "branch",
+   "mode": "multicast",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E013"
+   ],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 58.74,
+   "end_s": 61.34,
+   "zone": "arena",
+   "camera": "bird",
+   "mode": "stream",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 61.34,
+   "end_s": 64,
+   "zone": "arena",
+   "camera": "chase",
+   "mode": "stream",
+   "target": "pick:upper:R5",
+   "seat": {
+    "ip": "10.1.24.17",
+    "tier": "upper",
+    "core": "R5",
+    "switch": "SW24"
+   },
+   "event_ids": [],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S021",
+   "start_s": 64,
+   "end_s": 66.7,
+   "zone": "arena",
+   "camera": "stands",
+   "mode": "stream",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S022",
+   "start_s": 66.7,
+   "end_s": 67.58,
+   "zone": "arena",
+   "camera": "rise",
+   "mode": "stream",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E014"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S023",
+   "start_s": 67.58,
+   "end_s": 69.2,
+   "zone": "segment",
+   "camera": "host",
+   "mode": "igmp-report",
+   "target": "6",
+   "seat": null,
+   "event_ids": [
+    "E015"
+   ],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 69.2,
+   "end_s": 70.34,
+   "zone": "segment",
+   "camera": "switch",
+   "mode": "igmp-report",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L014"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 70.34,
+   "end_s": 72.3,
+   "zone": "segment",
+   "camera": "ports",
+   "mode": "snooping",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L015"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 72.3,
+   "end_s": 75.1,
+   "zone": "segment",
+   "camera": "wide",
+   "mode": "snooping",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L016"
+   ]
+  },
+  {
+   "id": "S027",
+   "start_s": 75.1,
+   "end_s": 77.78,
+   "zone": "segment",
+   "camera": "uplink",
+   "mode": "igmp-query",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L017",
+    "L018"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 77.78,
+   "end_s": 79.84,
+   "zone": "segment",
+   "camera": "wide",
+   "mode": "igmp-query",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L019",
+    "L020"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 79.84,
+   "end_s": 81.48,
+   "zone": "arena",
+   "camera": "source",
+   "mode": "stream",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E016"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S030",
+   "start_s": 81.48,
+   "end_s": 84.84,
+   "zone": "arena",
+   "camera": "rise",
+   "mode": "chorus",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E017",
+    "E018",
+    "E019"
+   ],
+   "lyric_ids": [
+    "L021",
+    "L022"
+   ]
+  },
+  {
+   "id": "S031",
+   "start_s": 84.84,
+   "end_s": 87.44,
+   "zone": "arena",
+   "camera": "flyby",
+   "mode": "chorus",
+   "target": "pick:lower:R2",
+   "seat": {
+    "ip": "10.1.3.16",
+    "tier": "lower",
+    "core": "R2",
+    "switch": "SW3"
+   },
+   "event_ids": [],
+   "lyric_ids": [
+    "L023"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 87.44,
+   "end_s": 89.6,
+   "zone": "arena",
+   "camera": "bird",
+   "mode": "count",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L024"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 89.6,
+   "end_s": 91.1,
+   "zone": "arena",
+   "camera": "chase",
+   "mode": "chorus",
+   "target": "pick:field:R2",
+   "seat": {
+    "ip": "10.1.25.21",
+    "tier": "field",
+    "core": "R2",
+    "switch": "SW25"
+   },
+   "event_ids": [],
+   "lyric_ids": [
+    "L025"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 91.1,
+   "end_s": 93.94,
+   "zone": "arena",
+   "camera": "orbit",
+   "mode": "chorus",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E020"
+   ],
+   "lyric_ids": [
+    "L026"
+   ]
+  },
+  {
+   "id": "S035",
+   "start_s": 93.94,
+   "end_s": 96.25,
+   "zone": "arena",
+   "camera": "reverse",
+   "mode": "chorus",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L027"
+   ]
+  },
+  {
+   "id": "S036",
+   "start_s": 96.25,
+   "end_s": 99.8,
+   "zone": "arena",
+   "camera": "chase",
+   "mode": "replicate",
+   "target": "pick:upper:R2",
+   "seat": {
+    "ip": "10.1.4.15",
+    "tier": "upper",
+    "core": "R2",
+    "switch": "SW4"
+   },
+   "event_ids": [
+    "E021",
+    "E022"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S037",
+   "start_s": 99.8,
+   "end_s": 103.36,
+   "zone": "arena",
+   "camera": "branch",
+   "mode": "replicate",
+   "target": "R2",
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S038",
+   "start_s": 103.36,
+   "end_s": 106.5,
+   "zone": "arena",
+   "camera": "stands",
+   "mode": "calm",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S039",
+   "start_s": 106.5,
+   "end_s": 109.76,
+   "zone": "arena",
+   "camera": "bird",
+   "mode": "calm",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E023"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S040",
+   "start_s": 109.76,
+   "end_s": 113.86,
+   "zone": "arena",
+   "camera": "core",
+   "mode": "pim-hello",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E024",
+    "E025"
+   ],
+   "lyric_ids": [
+    "L028",
+    "L029"
+   ]
+  },
+  {
+   "id": "S041",
+   "start_s": 113.86,
+   "end_s": 117.18,
+   "zone": "arena",
+   "camera": "rp",
+   "mode": "rp-source",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L030",
+    "L031"
+   ]
+  },
+  {
+   "id": "S042",
+   "start_s": 117.18,
+   "end_s": 119.4,
+   "zone": "arena",
+   "camera": "climb",
+   "mode": "pim-join",
+   "target": "key:verse2",
+   "seat": {
+    "ip": "10.1.16.13",
+    "tier": "upper",
+    "core": "R4",
+    "switch": "SW16"
+   },
+   "event_ids": [],
+   "lyric_ids": [
+    "L032",
+    "L033"
+   ]
+  },
+  {
+   "id": "S043",
+   "start_s": 119.4,
+   "end_s": 121,
+   "zone": "arena",
+   "camera": "grow",
+   "mode": "tree",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S044",
+   "start_s": 121,
+   "end_s": 123.1,
+   "zone": "arena",
+   "camera": "branch",
+   "mode": "tree",
+   "target": "R3",
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L034",
+    "L035"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 123.1,
+   "end_s": 126.4,
+   "zone": "arena",
+   "camera": "ride",
+   "mode": "tree",
+   "target": "key:verse2",
+   "seat": {
+    "ip": "10.1.16.13",
+    "tier": "upper",
+    "core": "R4",
+    "switch": "SW16"
+   },
+   "event_ids": [
+    "E026"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S046",
+   "start_s": 126.4,
+   "end_s": 128.58,
+   "zone": "arena",
+   "camera": "segment",
+   "mode": "tree",
+   "target": "S17",
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S047",
+   "start_s": 128.58,
+   "end_s": 129.82,
+   "zone": "arena",
+   "camera": "seat",
+   "mode": "hook",
+   "target": "key:hookReport",
+   "seat": {
+    "ip": "10.1.5.12",
+    "tier": "lower",
+    "core": "R2",
+    "switch": "SW5"
+   },
+   "event_ids": [
+    "E027"
+   ],
+   "lyric_ids": [
+    "L036"
+   ]
+  },
+  {
+   "id": "S048",
+   "start_s": 129.82,
+   "end_s": 130.1,
+   "zone": "arena",
+   "camera": "seat",
+   "mode": "hook",
+   "target": "key:hookJoin",
+   "seat": {
+    "ip": "10.1.1.18",
+    "tier": "lower",
+    "core": "R2",
+    "switch": "SW1"
+   },
+   "event_ids": [],
+   "lyric_ids": [
+    "L037"
+   ]
+  },
+  {
+   "id": "S049",
+   "start_s": 130.1,
+   "end_s": 130.74,
+   "zone": "arena",
+   "camera": "seat",
+   "mode": "hook",
+   "target": "key:hookLeave",
+   "seat": {
+    "ip": "10.1.2.14",
+    "tier": "upper",
+    "core": "R2",
+    "switch": "SW2"
+   },
+   "event_ids": [],
+   "lyric_ids": [
+    "L038"
+   ]
+  },
+  {
+   "id": "S050",
+   "start_s": 130.74,
+   "end_s": 131.22,
+   "zone": "arena",
+   "camera": "segment",
+   "mode": "hook",
+   "target": "key:hookLeave",
+   "seat": {
+    "ip": "10.1.2.14",
+    "tier": "upper",
+    "core": "R2",
+    "switch": "SW2"
+   },
+   "event_ids": [],
+   "lyric_ids": [
+    "L039"
+   ]
+  },
+  {
+   "id": "S051",
+   "start_s": 131.22,
+   "end_s": 131.58,
+   "zone": "arena",
+   "camera": "bird",
+   "mode": "hook",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S052",
+   "start_s": 131.58,
+   "end_s": 132.12,
+   "zone": "arena",
+   "camera": "source",
+   "mode": "hook",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S053",
+   "start_s": 132.12,
+   "end_s": 132.54,
+   "zone": "arena",
+   "camera": "rp",
+   "mode": "hook",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S054",
+   "start_s": 132.54,
+   "end_s": 133.58,
+   "zone": "arena",
+   "camera": "core",
+   "mode": "hook",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 133.58,
+   "end_s": 135.7,
+   "zone": "arena",
+   "camera": "rise",
+   "mode": "hook",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E028",
+    "E029",
+    "E030"
+   ],
+   "lyric_ids": [
+    "L044"
+   ]
+  },
+  {
+   "id": "S056",
+   "start_s": 135.7,
+   "end_s": 137.6,
+   "zone": "arena",
+   "camera": "core",
+   "mode": "spt",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S057",
+   "start_s": 137.6,
+   "end_s": 140.3,
+   "zone": "arena",
+   "camera": "ride",
+   "mode": "spt",
+   "target": "pick:upper:R4",
+   "seat": {
+    "ip": "10.1.16.20",
+    "tier": "upper",
+    "core": "R4",
+    "switch": "SW16"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S058",
+   "start_s": 140.3,
+   "end_s": 142.5,
+   "zone": "arena",
+   "camera": "orbit",
+   "mode": "stream",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S059",
+   "start_s": 142.5,
+   "end_s": 145.3,
+   "zone": "arena",
+   "camera": "flyby",
+   "mode": "stream",
+   "target": "pick:lower:R3",
+   "seat": {
+    "ip": "10.1.11.17",
+    "tier": "lower",
+    "core": "R3",
+    "switch": "SW11"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S060",
+   "start_s": 145.3,
+   "end_s": 147.06,
+   "zone": "arena",
+   "camera": "bird",
+   "mode": "stream",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S061",
+   "start_s": 147.06,
+   "end_s": 149,
+   "zone": "arena",
+   "camera": "chase",
+   "mode": "stream",
+   "target": "pick:field:R4",
+   "seat": {
+    "ip": "10.1.27.11",
+    "tier": "field",
+    "core": "R4",
+    "switch": "SW27"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S062",
+   "start_s": 149,
+   "end_s": 151.36,
+   "zone": "segment",
+   "camera": "wide",
+   "mode": "flood",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E031"
+   ],
+   "lyric_ids": [
+    "L045"
+   ]
+  },
+  {
+   "id": "S063",
+   "start_s": 151.36,
+   "end_s": 153.06,
+   "zone": "segment",
+   "camera": "ports",
+   "mode": "snoop-on",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L046"
+   ]
+  },
+  {
+   "id": "S064",
+   "start_s": 153.06,
+   "end_s": 154.8,
+   "zone": "segment",
+   "camera": "host",
+   "mode": "snoop-on",
+   "target": "9",
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L047"
+   ]
+  },
+  {
+   "id": "S065",
+   "start_s": 154.8,
+   "end_s": 156.38,
+   "zone": "segment",
+   "camera": "switch",
+   "mode": "snoop-on",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L048"
+   ]
+  },
+  {
+   "id": "S066",
+   "start_s": 156.38,
+   "end_s": 160.18,
+   "zone": "arena",
+   "camera": "ascend",
+   "mode": "layers",
+   "target": "key:bridge",
+   "seat": {
+    "ip": "10.1.3.20",
+    "tier": "lower",
+    "core": "R2",
+    "switch": "SW3"
+   },
+   "event_ids": [],
+   "lyric_ids": [
+    "L049",
+    "L050"
+   ]
+  },
+  {
+   "id": "S067",
+   "start_s": 160.18,
+   "end_s": 166.72,
+   "zone": "arena",
+   "camera": "reveal",
+   "mode": "doors",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E032"
+   ],
+   "lyric_ids": [
+    "L051",
+    "L052"
+   ]
+  },
+  {
+   "id": "S068",
+   "start_s": 166.72,
+   "end_s": 168.9,
+   "zone": "arena",
+   "camera": "bird",
+   "mode": "chorus",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E033",
+    "E034"
+   ],
+   "lyric_ids": [
+    "L053",
+    "L054"
+   ]
+  },
+  {
+   "id": "S069",
+   "start_s": 168.9,
+   "end_s": 170.94,
+   "zone": "arena",
+   "camera": "ride",
+   "mode": "chorus",
+   "target": "pick:upper:R3",
+   "seat": {
+    "ip": "10.1.12.14",
+    "tier": "upper",
+    "core": "R3",
+    "switch": "SW12"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S070",
+   "start_s": 170.94,
+   "end_s": 173.4,
+   "zone": "arena",
+   "camera": "flyby",
+   "mode": "chorus",
+   "target": "pick:lower:R5",
+   "seat": {
+    "ip": "10.1.21.15",
+    "tier": "lower",
+    "core": "R5",
+    "switch": "SW21"
+   },
+   "event_ids": [
+    "E035"
+   ],
+   "lyric_ids": [
+    "L055"
+   ]
+  },
+  {
+   "id": "S071",
+   "start_s": 173.4,
+   "end_s": 175.5,
+   "zone": "arena",
+   "camera": "total",
+   "mode": "count",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E036"
+   ],
+   "lyric_ids": [
+    "L056"
+   ]
+  },
+  {
+   "id": "S072",
+   "start_s": 175.5,
+   "end_s": 177.06,
+   "zone": "arena",
+   "camera": "chase",
+   "mode": "chorus",
+   "target": "pick:upper:R5",
+   "seat": {
+    "ip": "10.1.22.16",
+    "tier": "upper",
+    "core": "R5",
+    "switch": "SW22"
+   },
+   "event_ids": [
+    "E037"
+   ],
+   "lyric_ids": [
+    "L057"
+   ]
+  },
+  {
+   "id": "S073",
+   "start_s": 177.06,
+   "end_s": 180.04,
+   "zone": "arena",
+   "camera": "orbit",
+   "mode": "chorus",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L058"
+   ]
+  },
+  {
+   "id": "S074",
+   "start_s": 180.04,
+   "end_s": 182.25,
+   "zone": "arena",
+   "camera": "reverse",
+   "mode": "chorus",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E038",
+    "E039"
+   ],
+   "lyric_ids": [
+    "L059"
+   ]
+  },
+  {
+   "id": "S075",
+   "start_s": 182.25,
+   "end_s": 185.5,
+   "zone": "arena",
+   "camera": "ride",
+   "mode": "replicate",
+   "target": "pick:upper:R2",
+   "seat": {
+    "ip": "10.1.6.18",
+    "tier": "upper",
+    "core": "R2",
+    "switch": "SW6"
+   },
+   "event_ids": [
+    "E040"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S076",
+   "start_s": 185.5,
+   "end_s": 187.2,
+   "zone": "arena",
+   "camera": "rise",
+   "mode": "stream",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S077",
+   "start_s": 187.2,
+   "end_s": 188.8,
+   "zone": "arena",
+   "camera": "flyby",
+   "mode": "stream",
+   "target": "pick:upper:R4",
+   "seat": {
+    "ip": "10.1.14.14",
+    "tier": "upper",
+    "core": "R4",
+    "switch": "SW14"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S078",
+   "start_s": 188.8,
+   "end_s": 190.64,
+   "zone": "arena",
+   "camera": "stands",
+   "mode": "stream",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S079",
+   "start_s": 190.64,
+   "end_s": 193.3,
+   "zone": "arena",
+   "camera": "bird",
+   "mode": "query",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E041"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S080",
+   "start_s": 193.3,
+   "end_s": 195.4,
+   "zone": "arena",
+   "camera": "chase",
+   "mode": "stream",
+   "target": "pick:lower:R4",
+   "seat": {
+    "ip": "10.1.13.19",
+    "tier": "lower",
+    "core": "R4",
+    "switch": "SW13"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S081",
+   "start_s": 195.4,
+   "end_s": 197.18,
+   "zone": "arena",
+   "camera": "orbit",
+   "mode": "stream",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S082",
+   "start_s": 197.18,
+   "end_s": 199.5,
+   "zone": "arena",
+   "camera": "querier",
+   "mode": "outro-query",
+   "target": "R7",
+   "seat": null,
+   "event_ids": [
+    "E042",
+    "E043",
+    "E044"
+   ],
+   "lyric_ids": [
+    "L060"
+   ]
+  },
+  {
+   "id": "S083",
+   "start_s": 199.5,
+   "end_s": 202.7,
+   "zone": "arena",
+   "camera": "stands",
+   "mode": "outro-query",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L061"
+   ]
+  },
+  {
+   "id": "S084",
+   "start_s": 202.7,
+   "end_s": 206.52,
+   "zone": "arena",
+   "camera": "rp",
+   "mode": "rp-memory",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L062"
+   ]
+  },
+  {
+   "id": "S085",
+   "start_s": 206.52,
+   "end_s": 210.75,
+   "zone": "arena",
+   "camera": "rpsource",
+   "mode": "rp-memory",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E045",
+    "E046",
+    "E047"
+   ],
+   "lyric_ids": [
+    "L063"
+   ]
+  },
+  {
+   "id": "S086",
+   "start_s": 210.75,
+   "end_s": 213.5,
+   "zone": "arena",
+   "camera": "total",
+   "mode": "wide",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S087",
+   "start_s": 213.5,
+   "end_s": 216,
+   "zone": "arena",
+   "camera": "ride",
+   "mode": "wide",
+   "target": "pick:upper:any",
+   "seat": {
+    "ip": "10.1.16.12",
+    "tier": "upper",
+    "core": "R4",
+    "switch": "SW16"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S088",
+   "start_s": 216,
+   "end_s": 219,
+   "zone": "arena",
+   "camera": "orbit",
+   "mode": "wide",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S089",
+   "start_s": 219,
+   "end_s": 222.4,
+   "zone": "arena",
+   "camera": "flyby",
+   "mode": "wide",
+   "target": "pick:field:R3",
+   "seat": {
+    "ip": "10.1.26.19",
+    "tier": "field",
+    "core": "R3",
+    "switch": "SW26"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S090",
+   "start_s": 222.4,
+   "end_s": 226,
+   "zone": "arena",
+   "camera": "chase",
+   "mode": "wide",
+   "target": "pick:upper:R4",
+   "seat": {
+    "ip": "10.1.14.19",
+    "tier": "upper",
+    "core": "R4",
+    "switch": "SW14"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S091",
+   "start_s": 226,
+   "end_s": 228.5,
+   "zone": "arena",
+   "camera": "branch",
+   "mode": "wide",
+   "target": "R12",
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S092",
+   "start_s": 228.5,
+   "end_s": 230.45,
+   "zone": "arena",
+   "camera": "ride",
+   "mode": "wide",
+   "target": "pick:lower:R5",
+   "seat": {
+    "ip": "10.1.19.11",
+    "tier": "lower",
+    "core": "R5",
+    "switch": "SW19"
+   },
+   "event_ids": [
+    "E048"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S093",
+   "start_s": 230.45,
+   "end_s": 233.5,
+   "zone": "arena",
+   "camera": "rise",
+   "mode": "wide",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S094",
+   "start_s": 233.5,
+   "end_s": 236,
+   "zone": "arena",
+   "camera": "chase",
+   "mode": "wide",
+   "target": "pick:upper:R2",
+   "seat": {
+    "ip": "10.1.6.12",
+    "tier": "upper",
+    "core": "R2",
+    "switch": "SW6"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S095",
+   "start_s": 236,
+   "end_s": 240,
+   "zone": "arena",
+   "camera": "stands",
+   "mode": "wide",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S096",
+   "start_s": 240,
+   "end_s": 242.5,
+   "zone": "arena",
+   "camera": "reverse",
+   "mode": "wide",
+   "target": null,
+   "seat": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S097",
+   "start_s": 242.5,
+   "end_s": 244.8,
+   "zone": "arena",
+   "camera": "ride",
+   "mode": "wide",
+   "target": "pick:upper:R3",
+   "seat": {
+    "ip": "10.1.10.12",
+    "tier": "upper",
+    "core": "R3",
+    "switch": "SW10"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S098",
+   "start_s": 244.8,
+   "end_s": 247,
+   "zone": "arena",
+   "camera": "seat",
+   "mode": "wide",
+   "target": "pick:lower:any",
+   "seat": {
+    "ip": "10.1.15.17",
+    "tier": "lower",
+    "core": "R4",
+    "switch": "SW15"
+   },
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S099",
+   "start_s": 247,
+   "end_s": 249.2,
+   "zone": "arena",
+   "camera": "flyby",
+   "mode": "wide",
+   "target": "pick:upper:R5",
+   "seat": {
+    "ip": "10.1.20.14",
+    "tier": "upper",
+    "core": "R5",
+    "switch": "SW20"
+   },
+   "event_ids": [
+    "E049"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S100",
+   "start_s": 249.2,
+   "end_s": 260.60016666666667,
+   "zone": "arena",
+   "camera": "final",
+   "mode": "final",
+   "target": null,
+   "seat": null,
+   "event_ids": [
+    "E050",
+    "E051",
+    "E052",
+    "E053"
+   ],
+   "lyric_ids": []
+  }
+ ],
+ "network": [
+  {
+   "time_s": 11.38,
+   "action": "Quelle sendet an R1 (erste Gesangszeile)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 11.55,
+   "action": "R1 → RP: Register",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 15.2,
+   "action": "RP → R1: Register-Stop (keine Empfänger)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 26,
+   "action": "Join 10.1.3.13 (SW3, VLAN 103)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 29.45,
+   "action": "R7 → R2: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 31.3,
+   "action": "R2 → R1: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 33.07,
+   "action": "Join 10.1.25.20 (SW25, VLAN 125)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 34.427,
+   "action": "Join 10.1.20.20 (SW20, VLAN 120)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 35.477,
+   "action": "R15 → R5: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 35.785,
+   "action": "Join 10.1.24.19 (SW24, VLAN 124)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 35.927,
+   "action": "R5 → R2: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 36.835,
+   "action": "R17 → R5: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 37.142,
+   "action": "Join 10.1.21.11 (SW21, VLAN 121)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 38.192,
+   "action": "R16 → R5: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 43,
+   "action": "Join 10.1.2.14 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 44.05,
+   "action": "R6 → R2: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 44.382,
+   "action": "Join 10.1.24.17 (SW24, VLAN 124)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 46.192,
+   "action": "Join 10.1.6.20 (SW6, VLAN 106)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 47.242,
+   "action": "R8 → R2: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 48.002,
+   "action": "Join 10.1.20.16 (SW20, VLAN 120)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 49.812,
+   "action": "Join 10.1.3.12 (SW3, VLAN 103)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 51.622,
+   "action": "Join 10.1.20.15 (SW20, VLAN 120)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 53.432,
+   "action": "Join 10.1.6.14 (SW6, VLAN 106)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 55.242,
+   "action": "Join 10.1.4.20 (SW4, VLAN 104)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 57.052,
+   "action": "Join 10.1.5.20 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 58.862,
+   "action": "Join 10.1.22.12 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 60.671,
+   "action": "Join 10.1.2.18 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 62.481,
+   "action": "Join 10.1.19.13 (SW19, VLAN 119)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 64.291,
+   "action": "Join 10.1.21.14 (SW21, VLAN 121)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 67.58,
+   "action": "Join 10.1.3.17 (SW3, VLAN 103)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 75.1,
+   "action": "General Query auf allen 8 VLANs",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 81.938,
+   "action": "Join 10.1.3.16 (SW3, VLAN 103)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 81.998,
+   "action": "Join 10.1.3.11 (SW3, VLAN 103)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 82.511,
+   "action": "Join 10.1.1.20 (SW1, VLAN 101)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 82.843,
+   "action": "Join 10.1.2.20 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 82.903,
+   "action": "Join 10.1.19.16 (SW19, VLAN 119)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 83.416,
+   "action": "Join 10.1.4.15 (SW4, VLAN 104)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 83.748,
+   "action": "Join 10.1.6.15 (SW6, VLAN 106)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 83.808,
+   "action": "Join 10.1.25.17 (SW25, VLAN 125)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 84.321,
+   "action": "Join 10.1.2.12 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 84.653,
+   "action": "Join 10.1.19.18 (SW19, VLAN 119)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 85.166,
+   "action": "Join 10.1.25.21 (SW25, VLAN 125)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 85.226,
+   "action": "Join 10.1.2.17 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 85.558,
+   "action": "Join 10.1.22.14 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 86.071,
+   "action": "Join 10.1.4.19 (SW4, VLAN 104)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 86.131,
+   "action": "Join 10.1.20.17 (SW20, VLAN 120)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 86.463,
+   "action": "Join 10.1.19.17 (SW19, VLAN 119)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 86.976,
+   "action": "Join 10.1.1.14 (SW1, VLAN 101)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 87.036,
+   "action": "Join 10.1.25.19 (SW25, VLAN 125)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 87.368,
+   "action": "Join 10.1.19.14 (SW19, VLAN 119)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 87.881,
+   "action": "Join 10.1.21.15 (SW21, VLAN 121)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 88.273,
+   "action": "Join 10.1.19.20 (SW19, VLAN 119)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 88.393,
+   "action": "Join 10.1.1.15 (SW1, VLAN 101)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 88.786,
+   "action": "Join 10.1.25.15 (SW25, VLAN 125)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 89.178,
+   "action": "Join 10.1.21.16 (SW21, VLAN 121)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 89.298,
+   "action": "Join 10.1.25.14 (SW25, VLAN 125)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 89.691,
+   "action": "Join 10.1.5.11 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 90.203,
+   "action": "Join 10.1.25.16 (SW25, VLAN 125)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 90.536,
+   "action": "Join 10.1.24.18 (SW24, VLAN 124)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 90.596,
+   "action": "Join 10.1.20.12 (SW20, VLAN 120)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 91.108,
+   "action": "Join 10.1.24.12 (SW24, VLAN 124)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 91.441,
+   "action": "Join 10.1.6.13 (SW6, VLAN 106)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 91.501,
+   "action": "Join 10.1.5.14 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 92.013,
+   "action": "Join 10.1.19.19 (SW19, VLAN 119)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 92.346,
+   "action": "Join 10.1.4.16 (SW4, VLAN 104)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 92.406,
+   "action": "Join 10.1.25.22 (SW25, VLAN 125)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 92.918,
+   "action": "Join 10.1.24.14 (SW24, VLAN 124)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 93.251,
+   "action": "Join 10.1.20.11 (SW20, VLAN 120)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 93.763,
+   "action": "Join 10.1.6.12 (SW6, VLAN 106)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 93.823,
+   "action": "Join 10.1.4.13 (SW4, VLAN 104)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 94.156,
+   "action": "Join 10.1.22.13 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 94.668,
+   "action": "Join 10.1.20.14 (SW20, VLAN 120)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 94.728,
+   "action": "Join 10.1.24.15 (SW24, VLAN 124)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 95.061,
+   "action": "Join 10.1.22.19 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 95.573,
+   "action": "Join 10.1.6.19 (SW6, VLAN 106)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 97.323,
+   "action": "Join 10.1.6.11 (SW6, VLAN 106)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 98.228,
+   "action": "Join 10.1.3.14 (SW3, VLAN 103)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 99.586,
+   "action": "Join 10.1.22.18 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 100.49,
+   "action": "Join 10.1.22.16 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 101.848,
+   "action": "Join 10.1.19.11 (SW19, VLAN 119)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 102.753,
+   "action": "Join 10.1.4.17 (SW4, VLAN 104)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 104.11,
+   "action": "Join 10.1.1.11 (SW1, VLAN 101)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 105.015,
+   "action": "Join 10.1.6.16 (SW6, VLAN 106)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 106.373,
+   "action": "Join 10.1.1.13 (SW1, VLAN 101)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 107.278,
+   "action": "Join 10.1.21.20 (SW21, VLAN 121)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 117.18,
+   "action": "Join 10.1.16.13 (SW16, VLAN 116)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 118.58,
+   "action": "R13 → R4: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 119.18,
+   "action": "R4 → R3: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 119.78,
+   "action": "R3 → R2: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 120.6,
+   "action": "Join 10.1.9.14 (SW9, VLAN 109)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 121.65,
+   "action": "R10 → R3: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 121.757,
+   "action": "Join 10.1.8.14 (SW8, VLAN 108)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 122.21,
+   "action": "Join 10.1.17.13 (SW17, VLAN 117)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 122.807,
+   "action": "R9 → R3: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 123.115,
+   "action": "Join 10.1.16.20 (SW16, VLAN 116)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 123.26,
+   "action": "R14 → R4: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 124.02,
+   "action": "Join 10.1.9.15 (SW9, VLAN 109)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 124.925,
+   "action": "Join 10.1.26.12 (SW26, VLAN 126)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 125.377,
+   "action": "Join 10.1.14.17 (SW14, VLAN 114)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 126.282,
+   "action": "Join 10.1.11.15 (SW11, VLAN 111)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 126.427,
+   "action": "R12 → R4: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 127.187,
+   "action": "Join 10.1.11.16 (SW11, VLAN 111)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 127.332,
+   "action": "R11 → R3: (*,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 128.58,
+   "action": "Join 10.1.5.12 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 129.82,
+   "action": "Join 10.1.1.18 (SW1, VLAN 101)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 130.1,
+   "action": "Leave 10.1.2.14 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 130.74,
+   "action": "Group-specific Query VLAN 102",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 135.7,
+   "action": "SPT-Switchover R6/R7 (Drop)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136,
+   "action": "R9 → R3: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136,
+   "action": "R10 → R3: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136,
+   "action": "R11 → R3: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136,
+   "action": "R12 → R4: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136,
+   "action": "R13 → R4: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136,
+   "action": "R14 → R4: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136,
+   "action": "R15 → R5: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136,
+   "action": "R16 → R5: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136,
+   "action": "R17 → R5: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136.237,
+   "action": "Join 10.1.11.17 (SW11, VLAN 111)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136.297,
+   "action": "Join 10.1.7.17 (SW7, VLAN 107)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136.45,
+   "action": "R3 → R1: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136.45,
+   "action": "R4 → R1: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136.45,
+   "action": "R5 → R1: (S,G) JOIN",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136.81,
+   "action": "Join 10.1.20.19 (SW20, VLAN 120)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136.9,
+   "action": "R4 → R3: (S,G,rpt) PRUNE",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 136.9,
+   "action": "R5 → R2: (S,G,rpt) PRUNE",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 137.142,
+   "action": "Join 10.1.10.13 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 137.35,
+   "action": "R3 → R2: (S,G,rpt) PRUNE",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 137.655,
+   "action": "Join 10.1.22.11 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 138.167,
+   "action": "Join 10.1.12.19 (SW12, VLAN 112)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 138.5,
+   "action": "Join 10.1.8.12 (SW8, VLAN 108)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 139.012,
+   "action": "Join 10.1.13.13 (SW13, VLAN 113)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 139.525,
+   "action": "Join 10.1.19.12 (SW19, VLAN 119)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 139.857,
+   "action": "Join 10.1.5.19 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 140.369,
+   "action": "Join 10.1.27.11 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 140.882,
+   "action": "Join 10.1.2.19 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 141.214,
+   "action": "Join 10.1.7.16 (SW7, VLAN 107)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 141.727,
+   "action": "Join 10.1.22.17 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 142.239,
+   "action": "Join 10.1.12.12 (SW12, VLAN 112)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 142.572,
+   "action": "Join 10.1.4.14 (SW4, VLAN 104)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 142.632,
+   "action": "Join 10.1.14.12 (SW14, VLAN 114)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 143.144,
+   "action": "Join 10.1.7.20 (SW7, VLAN 107)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 143.477,
+   "action": "Join 10.1.15.13 (SW15, VLAN 115)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 143.989,
+   "action": "Join 10.1.9.19 (SW9, VLAN 109)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 144.502,
+   "action": "Join 10.1.26.14 (SW26, VLAN 126)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 144.834,
+   "action": "Join 10.1.27.14 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 145.347,
+   "action": "Join 10.1.6.18 (SW6, VLAN 106)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 145.859,
+   "action": "Join 10.1.27.15 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 146.192,
+   "action": "Join 10.1.7.11 (SW7, VLAN 107)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 146.704,
+   "action": "Join 10.1.24.16 (SW24, VLAN 124)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 147.217,
+   "action": "Join 10.1.7.19 (SW7, VLAN 107)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 147.549,
+   "action": "Join 10.1.27.20 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 148.062,
+   "action": "Join 10.1.22.20 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 148.574,
+   "action": "Join 10.1.27.22 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 153.06,
+   "action": "Join 10.1.3.20 (SW3, VLAN 103)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.35,
+   "action": "Join 10.1.17.11 (SW17, VLAN 117)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.384,
+   "action": "Join 10.1.26.17 (SW26, VLAN 126)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.417,
+   "action": "Join 10.1.15.19 (SW15, VLAN 115)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.451,
+   "action": "Join 10.1.16.18 (SW16, VLAN 116)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.485,
+   "action": "Join 10.1.15.17 (SW15, VLAN 115)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.518,
+   "action": "Join 10.1.5.17 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.552,
+   "action": "Join 10.1.26.15 (SW26, VLAN 126)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.586,
+   "action": "Join 10.1.2.13 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.62,
+   "action": "Join 10.1.17.20 (SW17, VLAN 117)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.653,
+   "action": "Join 10.1.12.20 (SW12, VLAN 112)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.687,
+   "action": "Join 10.1.13.19 (SW13, VLAN 113)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.721,
+   "action": "Join 10.1.9.12 (SW9, VLAN 109)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.754,
+   "action": "Join 10.1.26.13 (SW26, VLAN 126)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.788,
+   "action": "Join 10.1.14.14 (SW14, VLAN 114)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.822,
+   "action": "Join 10.1.15.12 (SW15, VLAN 115)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.855,
+   "action": "Join 10.1.27.16 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.889,
+   "action": "Join 10.1.13.15 (SW13, VLAN 113)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.923,
+   "action": "Join 10.1.13.14 (SW13, VLAN 113)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.957,
+   "action": "Join 10.1.2.15 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 164.99,
+   "action": "Join 10.1.4.18 (SW4, VLAN 104)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.024,
+   "action": "Join 10.1.12.14 (SW12, VLAN 112)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.058,
+   "action": "Join 10.1.26.22 (SW26, VLAN 126)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.091,
+   "action": "Join 10.1.2.16 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.125,
+   "action": "Join 10.1.11.19 (SW11, VLAN 111)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.159,
+   "action": "Join 10.1.8.18 (SW8, VLAN 108)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.192,
+   "action": "Join 10.1.15.20 (SW15, VLAN 115)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.226,
+   "action": "Join 10.1.17.15 (SW17, VLAN 117)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.26,
+   "action": "Join 10.1.5.15 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.293,
+   "action": "Join 10.1.2.11 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.327,
+   "action": "Join 10.1.1.19 (SW1, VLAN 101)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.361,
+   "action": "Join 10.1.16.14 (SW16, VLAN 116)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.395,
+   "action": "Join 10.1.8.19 (SW8, VLAN 108)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.428,
+   "action": "Join 10.1.12.18 (SW12, VLAN 112)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.462,
+   "action": "Join 10.1.6.17 (SW6, VLAN 106)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.496,
+   "action": "Join 10.1.13.18 (SW13, VLAN 113)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.529,
+   "action": "Join 10.1.15.15 (SW15, VLAN 115)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.563,
+   "action": "Join 10.1.1.12 (SW1, VLAN 101)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.597,
+   "action": "Join 10.1.12.11 (SW12, VLAN 112)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.63,
+   "action": "Join 10.1.14.19 (SW14, VLAN 114)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.664,
+   "action": "Join 10.1.16.19 (SW16, VLAN 116)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.698,
+   "action": "Join 10.1.17.16 (SW17, VLAN 117)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.732,
+   "action": "Join 10.1.8.16 (SW8, VLAN 108)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.765,
+   "action": "Join 10.1.9.18 (SW9, VLAN 109)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.799,
+   "action": "Join 10.1.27.18 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.833,
+   "action": "Join 10.1.12.15 (SW12, VLAN 112)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 165.866,
+   "action": "Join 10.1.3.15 (SW3, VLAN 103)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 167.006,
+   "action": "Join 10.1.11.20 (SW11, VLAN 111)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 167.459,
+   "action": "Join 10.1.21.17 (SW21, VLAN 121)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 168.364,
+   "action": "Join 10.1.16.12 (SW16, VLAN 116)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 168.816,
+   "action": "Join 10.1.15.11 (SW15, VLAN 115)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 169.721,
+   "action": "Join 10.1.25.12 (SW25, VLAN 125)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 170.174,
+   "action": "Join 10.1.27.17 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 171.079,
+   "action": "Join 10.1.10.16 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 171.531,
+   "action": "Join 10.1.4.12 (SW4, VLAN 104)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 172.436,
+   "action": "Join 10.1.21.18 (SW21, VLAN 121)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 172.889,
+   "action": "Join 10.1.3.19 (SW3, VLAN 103)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 173.794,
+   "action": "Join 10.1.12.13 (SW12, VLAN 112)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 174.246,
+   "action": "Join 10.1.9.16 (SW9, VLAN 109)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 175.151,
+   "action": "Join 10.1.5.18 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 175.604,
+   "action": "Join 10.1.26.19 (SW26, VLAN 126)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 176.509,
+   "action": "Join 10.1.11.12 (SW11, VLAN 111)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 176.961,
+   "action": "Join 10.1.10.14 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 177.866,
+   "action": "Join 10.1.16.16 (SW16, VLAN 116)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 178.319,
+   "action": "Join 10.1.24.20 (SW24, VLAN 124)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 179.224,
+   "action": "Join 10.1.16.15 (SW16, VLAN 116)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 179.676,
+   "action": "Join 10.1.7.18 (SW7, VLAN 107)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 180.581,
+   "action": "Join 10.1.26.11 (SW26, VLAN 126)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 181.033,
+   "action": "Join 10.1.7.14 (SW7, VLAN 107)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 182.391,
+   "action": "Join 10.1.27.12 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 182.617,
+   "action": "Leave 10.1.2.18 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 183.296,
+   "action": "Join 10.1.22.15 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 184.201,
+   "action": "Join 10.1.27.19 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 185.106,
+   "action": "Join 10.1.21.12 (SW21, VLAN 121)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 185.332,
+   "action": "Leave 10.1.5.15 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 186.463,
+   "action": "Join 10.1.10.18 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 187.368,
+   "action": "Join 10.1.24.13 (SW24, VLAN 124)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 188.047,
+   "action": "Leave 10.1.22.14 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 188.273,
+   "action": "Join 10.1.13.12 (SW13, VLAN 113)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 189.631,
+   "action": "Join 10.1.17.14 (SW17, VLAN 117)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 190.536,
+   "action": "Join 10.1.12.17 (SW12, VLAN 112)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 190.64,
+   "action": "General Query auf allen 8 VLANs",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 191.214,
+   "action": "Leave 10.1.2.13 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 191.441,
+   "action": "Join 10.1.21.19 (SW21, VLAN 121)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 192.346,
+   "action": "Join 10.1.16.17 (SW16, VLAN 116)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 193.703,
+   "action": "Join 10.1.10.20 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 193.929,
+   "action": "Leave 10.1.10.13 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 194.608,
+   "action": "Join 10.1.12.16 (SW12, VLAN 112)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 195.513,
+   "action": "Join 10.1.14.20 (SW14, VLAN 114)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 197.18,
+   "action": "General Query auf allen 8 VLANs",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 210.898,
+   "action": "Join 10.1.5.16 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 211.124,
+   "action": "Leave 10.1.13.18 (SW13, VLAN 113)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 212.255,
+   "action": "Join 10.1.17.17 (SW17, VLAN 117)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 213.386,
+   "action": "Leave 10.1.22.19 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 214.065,
+   "action": "Join 10.1.13.17 (SW13, VLAN 113)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 215.423,
+   "action": "Join 10.1.27.13 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 215.649,
+   "action": "Leave 10.1.2.20 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 217.233,
+   "action": "Join 10.1.8.17 (SW8, VLAN 108)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 217.911,
+   "action": "Leave 10.1.27.16 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 218.59,
+   "action": "Join 10.1.10.17 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 220.4,
+   "action": "Join 10.1.14.13 (SW14, VLAN 114)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 220.626,
+   "action": "Leave 10.1.6.11 (SW6, VLAN 106)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 221.757,
+   "action": "Join 10.1.10.12 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 222.888,
+   "action": "Leave 10.1.24.18 (SW24, VLAN 124)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 223.567,
+   "action": "Join 10.1.9.17 (SW9, VLAN 109)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 224.925,
+   "action": "Join 10.1.17.18 (SW17, VLAN 117)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 225.151,
+   "action": "Leave 10.1.8.18 (SW8, VLAN 108)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 226.735,
+   "action": "Join 10.1.17.19 (SW17, VLAN 117)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 227.866,
+   "action": "Leave 10.1.25.12 (SW25, VLAN 125)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 228.092,
+   "action": "Join 10.1.5.13 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 229.902,
+   "action": "Join 10.1.10.11 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 230.128,
+   "action": "Leave 10.1.22.20 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 231.712,
+   "action": "Join 10.1.2.18 (SW2, VLAN 102)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 232.391,
+   "action": "Leave 10.1.5.20 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 233.07,
+   "action": "Join 10.1.24.11 (SW24, VLAN 124)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 234.88,
+   "action": "Join 10.1.10.19 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 235.106,
+   "action": "Leave 10.1.22.12 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 236.237,
+   "action": "Join 10.1.7.13 (SW7, VLAN 107)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 237.368,
+   "action": "Leave 10.1.16.18 (SW16, VLAN 116)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 238.047,
+   "action": "Join 10.1.5.20 (SW5, VLAN 105)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 239.405,
+   "action": "Join 10.1.11.14 (SW11, VLAN 111)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 239.631,
+   "action": "Leave 10.1.21.11 (SW21, VLAN 121)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 241.214,
+   "action": "Join 10.1.16.11 (SW16, VLAN 116)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 242.345,
+   "action": "Leave 10.1.25.15 (SW25, VLAN 125)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 242.572,
+   "action": "Join 10.1.13.16 (SW13, VLAN 113)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 244.382,
+   "action": "Join 10.1.22.14 (SW22, VLAN 122)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 244.608,
+   "action": "Leave 10.1.10.12 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 245.739,
+   "action": "Join 10.1.27.16 (SW27, VLAN 127)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 246.87,
+   "action": "Leave 10.1.10.14 (SW10, VLAN 110)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 247.549,
+   "action": "Join 10.1.21.11 (SW21, VLAN 121)",
+   "origin": "redaktionell (Netzwerkszenario)"
+  },
+  {
+   "time_s": 252,
+   "action": "General Query auf allen 8 VLANs",
+   "origin": "redaktionell (Netzwerkszenario)"
+  }
+ ],
+ "spt": {
+  "join_s": 136.45,
+  "prune_s": 136.89999999999998
+ }
+}

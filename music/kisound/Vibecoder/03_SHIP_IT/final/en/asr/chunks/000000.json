@@ -1,0 +1,701 @@
+{
+  "source_audio_sha256": "fd70e12809ce18389d194a1f3829c98deced25b1c24ade5a24ae81ecf2b05408",
+  "frame": 0,
+  "next_frame": 3000,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.26,
+      "text": "Made it, ship it, ay, ay, ay, ay, ay, ay, ay, bill check live",
+      "words": [
+        {
+          "word": "Made",
+          "start": 0.24,
+          "end": 0.38
+        },
+        {
+          "word": "it",
+          "start": 0.38,
+          "end": 0.42
+        },
+        {
+          "word": ",",
+          "start": 0.42,
+          "end": 0.58
+        },
+        {
+          "word": "ship",
+          "start": 0.58,
+          "end": 0.78
+        },
+        {
+          "word": "it",
+          "start": 0.78,
+          "end": 0.86
+        },
+        {
+          "word": ",",
+          "start": 0.86,
+          "end": 1.06
+        },
+        {
+          "word": "ay",
+          "start": 1.06,
+          "end": 1.26
+        },
+        {
+          "word": ",",
+          "start": 1.26,
+          "end": 1.9
+        },
+        {
+          "word": "ay",
+          "start": 1.9,
+          "end": 2.08
+        },
+        {
+          "word": ",",
+          "start": 2.08,
+          "end": 2.34
+        },
+        {
+          "word": "ay",
+          "start": 2.34,
+          "end": 2.46
+        },
+        {
+          "word": ",",
+          "start": 2.46,
+          "end": 2.78
+        },
+        {
+          "word": "ay",
+          "start": 2.78,
+          "end": 2.96
+        },
+        {
+          "word": ",",
+          "start": 2.96,
+          "end": 3.08
+        },
+        {
+          "word": "ay",
+          "start": 3.08,
+          "end": 3.08
+        },
+        {
+          "word": ",",
+          "start": 3.08,
+          "end": 3.18
+        },
+        {
+          "word": "ay",
+          "start": 3.18,
+          "end": 3.3
+        },
+        {
+          "word": ",",
+          "start": 3.3,
+          "end": 3.3
+        },
+        {
+          "word": "ay",
+          "start": 3.3,
+          "end": 3.44
+        },
+        {
+          "word": ",",
+          "start": 3.44,
+          "end": 3.56
+        },
+        {
+          "word": "bill",
+          "start": 3.56,
+          "end": 3.78
+        },
+        {
+          "word": "check",
+          "start": 3.78,
+          "end": 4.16
+        },
+        {
+          "word": "live",
+          "start": 4.16,
+          "end": 4.42
+        }
+      ],
+      "tokens": [
+        50365,
+        18330,
+        309,
+        11,
+        5374,
+        309,
+        11,
+        7494,
+        11,
+        7494,
+        11,
+        7494,
+        11,
+        7494,
+        11,
+        7494,
+        11,
+        7494,
+        11,
+        7494,
+        11,
+        2961,
+        1520,
+        1621,
+        50578
+      ]
+    },
+    {
+      "start": 4.26,
+      "end": 8.16,
+      "text": "Made it, ship it",
+      "words": [
+        {
+          "word": "Made",
+          "start": 7.04,
+          "end": 7.2
+        },
+        {
+          "word": "it",
+          "start": 7.2,
+          "end": 7.24
+        },
+        {
+          "word": ",",
+          "start": 7.24,
+          "end": 7.42
+        },
+        {
+          "word": "ship",
+          "start": 7.42,
+          "end": 7.66
+        },
+        {
+          "word": "it",
+          "start": 7.66,
+          "end": 8.66
+        }
+      ],
+      "tokens": [
+        50578,
+        18330,
+        309,
+        11,
+        5374,
+        309,
+        50773
+      ]
+    },
+    {
+      "start": 8.16,
+      "end": 13.9,
+      "text": "Out on stream, camp frame, run, am, tring, add a steady pace",
+      "words": [
+        {
+          "word": "Out",
+          "start": 10.1,
+          "end": 10.26
+        },
+        {
+          "word": "on",
+          "start": 10.26,
+          "end": 10.56
+        },
+        {
+          "word": "stream",
+          "start": 10.56,
+          "end": 10.94
+        },
+        {
+          "word": ",",
+          "start": 10.94,
+          "end": 11.12
+        },
+        {
+          "word": "camp",
+          "start": 11.12,
+          "end": 11.4
+        },
+        {
+          "word": "frame",
+          "start": 11.4,
+          "end": 11.62
+        },
+        {
+          "word": ",",
+          "start": 11.62,
+          "end": 11.78
+        },
+        {
+          "word": "run",
+          "start": 11.78,
+          "end": 12.16
+        },
+        {
+          "word": ",",
+          "start": 12.16,
+          "end": 12.26
+        },
+        {
+          "word": "am",
+          "start": 12.26,
+          "end": 12.48
+        },
+        {
+          "word": ",",
+          "start": 12.48,
+          "end": 12.6
+        },
+        {
+          "word": "tring",
+          "start": 12.6,
+          "end": 12.92
+        },
+        {
+          "word": ",",
+          "start": 12.92,
+          "end": 13.04
+        },
+        {
+          "word": "add",
+          "start": 13.04,
+          "end": 13.24
+        },
+        {
+          "word": "a",
+          "start": 13.24,
+          "end": 13.56
+        },
+        {
+          "word": "steady",
+          "start": 13.56,
+          "end": 13.86
+        },
+        {
+          "word": "pace",
+          "start": 13.86,
+          "end": 14.28
+        }
+      ],
+      "tokens": [
+        50773,
+        5925,
+        322,
+        4309,
+        11,
+        2255,
+        3920,
+        11,
+        1190,
+        11,
+        669,
+        11,
+        504,
+        278,
+        11,
+        909,
+        257,
+        13211,
+        11638,
+        51060
+      ]
+    },
+    {
+      "start": 13.9,
+      "end": 17.52,
+      "text": "New tracks in the folder, every cover in its place",
+      "words": [
+        {
+          "word": "New",
+          "start": 14.7,
+          "end": 14.98
+        },
+        {
+          "word": "tracks",
+          "start": 14.98,
+          "end": 15.22
+        },
+        {
+          "word": "in",
+          "start": 15.22,
+          "end": 15.34
+        },
+        {
+          "word": "the",
+          "start": 15.34,
+          "end": 15.7
+        },
+        {
+          "word": "folder",
+          "start": 15.7,
+          "end": 15.92
+        },
+        {
+          "word": ",",
+          "start": 15.92,
+          "end": 16.14
+        },
+        {
+          "word": "every",
+          "start": 16.14,
+          "end": 16.58
+        },
+        {
+          "word": "cover",
+          "start": 16.58,
+          "end": 16.92
+        },
+        {
+          "word": "in",
+          "start": 16.92,
+          "end": 17.06
+        },
+        {
+          "word": "its",
+          "start": 17.06,
+          "end": 17.4
+        },
+        {
+          "word": "place",
+          "start": 17.4,
+          "end": 17.6
+        }
+      ],
+      "tokens": [
+        51060,
+        1873,
+        10218,
+        294,
+        264,
+        10820,
+        11,
+        633,
+        2060,
+        294,
+        1080,
+        1081,
+        51241
+      ]
+    },
+    {
+      "start": 17.52,
+      "end": 20.96,
+      "text": "NPM run, build the pages, stack up, add a steady pace",
+      "words": [
+        {
+          "word": "NPM",
+          "start": 17.78,
+          "end": 18.34
+        },
+        {
+          "word": "run",
+          "start": 18.34,
+          "end": 18.5
+        },
+        {
+          "word": ",",
+          "start": 18.5,
+          "end": 18.62
+        },
+        {
+          "word": "build",
+          "start": 18.62,
+          "end": 18.78
+        },
+        {
+          "word": "the",
+          "start": 18.78,
+          "end": 19.1
+        },
+        {
+          "word": "pages",
+          "start": 19.1,
+          "end": 19.32
+        },
+        {
+          "word": ",",
+          "start": 19.32,
+          "end": 19.48
+        },
+        {
+          "word": "stack",
+          "start": 19.48,
+          "end": 19.68
+        },
+        {
+          "word": "up",
+          "start": 19.68,
+          "end": 19.8
+        },
+        {
+          "word": ",",
+          "start": 19.8,
+          "end": 19.94
+        },
+        {
+          "word": "add",
+          "start": 19.94,
+          "end": 20.1
+        },
+        {
+          "word": "a",
+          "start": 20.1,
+          "end": 20.42
+        },
+        {
+          "word": "steady",
+          "start": 20.42,
+          "end": 20.84
+        },
+        {
+          "word": "pace",
+          "start": 20.84,
+          "end": 20.96
+        }
+      ],
+      "tokens": [
+        51241,
+        426,
+        18819,
+        1190,
+        11,
+        1322,
+        264,
+        7183,
+        11,
+        8630,
+        493,
+        11,
+        909,
+        257,
+        13211,
+        11638,
+        51413
+      ]
+    },
+    {
+      "start": 20.96,
+      "end": 25.18,
+      "text": "NPM run, check, one error, ready, clear, covers missing",
+      "words": [
+        {
+          "word": "NPM",
+          "start": 21.2,
+          "end": 22.04
+        },
+        {
+          "word": "run",
+          "start": 22.04,
+          "end": 22.28
+        },
+        {
+          "word": ",",
+          "start": 22.28,
+          "end": 22.46
+        },
+        {
+          "word": "check",
+          "start": 22.46,
+          "end": 22.78
+        },
+        {
+          "word": ",",
+          "start": 22.78,
+          "end": 22.96
+        },
+        {
+          "word": "one",
+          "start": 22.96,
+          "end": 23.44
+        },
+        {
+          "word": "error",
+          "start": 23.44,
+          "end": 23.64
+        },
+        {
+          "word": ",",
+          "start": 23.64,
+          "end": 23.76
+        },
+        {
+          "word": "ready",
+          "start": 23.76,
+          "end": 23.78
+        },
+        {
+          "word": ",",
+          "start": 23.78,
+          "end": 24.16
+        },
+        {
+          "word": "clear",
+          "start": 24.16,
+          "end": 24.46
+        },
+        {
+          "word": ",",
+          "start": 24.46,
+          "end": 24.78
+        },
+        {
+          "word": "covers",
+          "start": 24.78,
+          "end": 25.18
+        },
+        {
+          "word": "missing",
+          "start": 25.18,
+          "end": 25.34
+        }
+      ],
+      "tokens": [
+        51413,
+        426,
+        18819,
+        1190,
+        11,
+        1520,
+        11,
+        472,
+        6713,
+        11,
+        1919,
+        11,
+        1850,
+        11,
+        10538,
+        5361,
+        51624
+      ]
+    },
+    {
+      "start": 25.18,
+      "end": 27.68,
+      "text": "The file ain't changed, so it's not here",
+      "words": [
+        {
+          "word": "The",
+          "start": 25.64,
+          "end": 25.92
+        },
+        {
+          "word": "file",
+          "start": 25.92,
+          "end": 26.04
+        },
+        {
+          "word": "ain't",
+          "start": 26.04,
+          "end": 26.5
+        },
+        {
+          "word": "changed",
+          "start": 26.5,
+          "end": 26.66
+        },
+        {
+          "word": ",",
+          "start": 26.66,
+          "end": 26.94
+        },
+        {
+          "word": "so",
+          "start": 26.94,
+          "end": 27.12
+        },
+        {
+          "word": "it's",
+          "start": 27.12,
+          "end": 27.38
+        },
+        {
+          "word": "not",
+          "start": 27.38,
+          "end": 27.64
+        },
+        {
+          "word": "here",
+          "start": 27.64,
+          "end": 27.94
+        }
+      ],
+      "tokens": [
+        51624,
+        440,
+        3991,
+        7862,
+        380,
+        3105,
+        11,
+        370,
+        309,
+        311,
+        406,
+        510,
+        51749,
+        51749
+      ]
+    },
+    {
+      "start": 27.68,
+      "end": 30.0,
+      "text": "One underscore too many, I renew",
+      "words": [
+        {
+          "word": "One",
+          "start": 28.28,
+          "end": 28.68
+        },
+        {
+          "word": "underscore",
+          "start": 28.68,
+          "end": 29.04
+        },
+        {
+          "word": "too",
+          "start": 29.04,
+          "end": 29.46
+        },
+        {
+          "word": "many",
+          "start": 29.46,
+          "end": 29.66
+        },
+        {
+          "word": ",",
+          "start": 29.66,
+          "end": 29.8
+        },
+        {
+          "word": "I",
+          "start": 29.8,
+          "end": 29.98
+        },
+        {
+          "word": "renew",
+          "start": 29.98,
+          "end": 29.98
+        }
+      ],
+      "tokens": [
+        50365,
+        1485,
+        37556,
+        886,
+        867,
+        11,
+        286,
+        10162,
+        50481
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[Intro]
+Kein Alarm.
+Und trotzdem suchen wir.
+
+[Verse 1]
+Die Hypothese: Jemand nistet sich ein mit einer geplanten Aufgabe, still,
+läuft jede Nacht, tarnt sich als Update, und tut, was er will.
+Event-ID vier-sechs-neun-acht: eine Aufgabe wurde erstellt,
+dreihundert Server, neunzig Tage, ich zieh sie alle ins Feld.
+Die meisten kenn ich: Backup, Virenscanner, Inventar,
+und dann eine namens „Updater“, die aus AppData startet, das ist sonderbar.
+
+[Chorus]
+Threat Hunt.
+Hypothese. Abfrage. Spur.
+Threat Hunt.
+Kein Alarm, wir suchen trotzdem, stur.
+Finden wir was, wird's zur Regel.
+Finden wir nichts, sehen wir klarer durch den Nebel.
+
+[Verse 2]
+Der Hash ist unbekannt, die Datei zwei Tage alt,
+ein Testtool eines Entwicklers? Ich frag nach. Die Antwort: Nein. Mir wird kalt.
+Ich übergeb an Incident Response, mit Pfad, Hash und Zeit,
+der Hunt war schneller als jede Regel, und die neue Regel steht bereit.
+
+[Chorus]
+Threat Hunt.
+Hypothese. Abfrage. Spur.
+Threat Hunt.
+Kein Alarm, wir suchen trotzdem, stur.
+Finden wir was, wird's zur Regel.
+Finden wir nichts, sehen wir klarer durch den Nebel.
+
+[Bridge]
+Kein Alarm heisst nicht kein Angreifer.
+Ruhe heisst nicht leer.
+Wer nur wartet, bis es piept,
+sieht ihn erst, wenn er geht, nicht mehr.
+
+[Chorus]
+Threat Hunt.
+Hypothese. Abfrage. Spur.
+Threat Hunt.
+Kein Alarm, wir suchen trotzdem, stur.
+Finden wir was, wird's zur Regel.
+Finden wir nichts, sehen wir klarer durch den Nebel.
+
+[Outro]
+Neue Regel aktiv.
+Event-ID vier-sechs-neun-acht.
+Wir suchen weiter.

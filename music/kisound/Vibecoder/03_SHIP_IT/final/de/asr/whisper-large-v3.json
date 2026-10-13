@@ -1,0 +1,2410 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx",
+  "model_snapshot": "/Users/samuel.heinrich/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-mlx/snapshots/49e6aa286ad60c14352c404340ded53710378a11",
+  "weights_sha256": "05ff791ce3630fae47e7c51004e9666204d786246ec07cac6110af768099b40d",
+  "runtime": "MLX GPU / mlx-whisper",
+  "package_versions": {
+    "mlx_whisper": "0.4.3",
+    "mlx": "0.32.3"
+  },
+  "source_audio": "/Users/samuel.heinrich/0004_git/music/kisound/Vibecoder/03_SHIP_IT/final/03_SHIP_IT_suno-v3_50_50_exakt_off_DE.wav",
+  "source_audio_sha256": "689d662c3d10ba9bd08c787315635ff4bba6d97f8a5db54343486dd4c7958259",
+  "language": "de",
+  "duration_seconds": 155.96,
+  "parameters": {
+    "temperature": 0,
+    "condition_on_prev_tokens": false,
+    "return_token_timestamps": true,
+    "lyrics_prompt": null,
+    "vocabulary_hint": "Commit it, ship it, build, check, live, album drei.",
+    "chunk_seconds": 30,
+    "word_timing": "decoder cross-attention DTW via mlx-whisper"
+  },
+  "elapsed_seconds": 177.89,
+  "segments": [
+    {
+      "start": 8.36,
+      "end": 9.78,
+      "text": "Album drei geht raus.",
+      "words": [
+        {
+          "word": "Album",
+          "start": 8.36,
+          "end": 9.0
+        },
+        {
+          "word": "drei",
+          "start": 9.0,
+          "end": 9.22
+        },
+        {
+          "word": "geht",
+          "start": 9.22,
+          "end": 9.46
+        },
+        {
+          "word": "raus.",
+          "start": 9.46,
+          "end": 9.78
+        }
+      ],
+      "tokens": [
+        50365,
+        967,
+        5559,
+        16809,
+        7095,
+        17202,
+        13,
+        50865
+      ],
+      "avg_logprob": -0.7646672248840332,
+      "no_speech_prob": 0.11656064540147781
+    },
+    {
+      "start": 22.14,
+      "end": 23.54,
+      "text": "Album 3 geht raus",
+      "words": [
+        {
+          "word": "Album",
+          "start": 22.14,
+          "end": 22.76
+        },
+        {
+          "word": "3",
+          "start": 22.76,
+          "end": 22.92
+        },
+        {
+          "word": "geht",
+          "start": 22.92,
+          "end": 23.18
+        },
+        {
+          "word": "raus",
+          "start": 23.18,
+          "end": 23.54
+        }
+      ],
+      "tokens": [
+        50365,
+        967,
+        5559,
+        805,
+        7095,
+        17202,
+        51065
+      ],
+      "avg_logprob": -0.19324539257929876,
+      "no_speech_prob": 0.6918137669563293
+    },
+    {
+      "start": 27.16,
+      "end": 30.26,
+      "text": "Neue Tracks im Ordner, jedes Cover liegt bereit",
+      "words": [
+        {
+          "word": "Neue",
+          "start": 27.16,
+          "end": 27.78
+        },
+        {
+          "word": "Tracks",
+          "start": 27.78,
+          "end": 28.2
+        },
+        {
+          "word": "im",
+          "start": 28.2,
+          "end": 28.36
+        },
+        {
+          "word": "Ordner,",
+          "start": 28.36,
+          "end": 28.74
+        },
+        {
+          "word": "jedes",
+          "start": 28.74,
+          "end": 29.06
+        },
+        {
+          "word": "Cover",
+          "start": 29.06,
+          "end": 29.48
+        },
+        {
+          "word": "liegt",
+          "start": 29.48,
+          "end": 29.8
+        },
+        {
+          "word": "bereit",
+          "start": 29.8,
+          "end": 30.26
+        }
+      ],
+      "tokens": [
+        51065,
+        1734,
+        622,
+        1765,
+        7424,
+        566,
+        29388,
+        1193,
+        11,
+        36119,
+        19106,
+        22421,
+        38758,
+        51404
+      ],
+      "avg_logprob": -0.19324539257929876,
+      "no_speech_prob": 0.6918137669563293
+    },
+    {
+      "start": 30.26,
+      "end": 33.76,
+      "text": "NPM Run, Bild, die Seiten stehen nach kurzer Zeit",
+      "words": [
+        {
+          "word": "NPM",
+          "start": 30.26,
+          "end": 31.06
+        },
+        {
+          "word": "Run,",
+          "start": 31.06,
+          "end": 31.58
+        },
+        {
+          "word": "Bild,",
+          "start": 31.74,
+          "end": 32.0
+        },
+        {
+          "word": "die",
+          "start": 32.1,
+          "end": 32.18
+        },
+        {
+          "word": "Seiten",
+          "start": 32.18,
+          "end": 32.48
+        },
+        {
+          "word": "stehen",
+          "start": 32.48,
+          "end": 32.82
+        },
+        {
+          "word": "nach",
+          "start": 32.82,
+          "end": 33.04
+        },
+        {
+          "word": "kurzer",
+          "start": 33.04,
+          "end": 33.4
+        },
+        {
+          "word": "Zeit",
+          "start": 33.4,
+          "end": 33.76
+        }
+      ],
+      "tokens": [
+        51404,
+        426,
+        18819,
+        8950,
+        11,
+        15746,
+        11,
+        978,
+        45200,
+        19777,
+        5168,
+        10072,
+        4527,
+        9394,
+        51575
+      ],
+      "avg_logprob": -0.19324539257929876,
+      "no_speech_prob": 0.6918137669563293
+    },
+    {
+      "start": 33.76,
+      "end": 36.94,
+      "text": "NPM Run, Check, ein Fehler, rot und klar",
+      "words": [
+        {
+          "word": "NPM",
+          "start": 33.76,
+          "end": 34.46
+        },
+        {
+          "word": "Run,",
+          "start": 34.46,
+          "end": 35.0
+        },
+        {
+          "word": "Check,",
+          "start": 35.14,
+          "end": 35.42
+        },
+        {
+          "word": "ein",
+          "start": 35.48,
+          "end": 35.66
+        },
+        {
+          "word": "Fehler,",
+          "start": 35.66,
+          "end": 35.96
+        },
+        {
+          "word": "rot",
+          "start": 36.04,
+          "end": 36.32
+        },
+        {
+          "word": "und",
+          "start": 36.32,
+          "end": 36.56
+        },
+        {
+          "word": "klar",
+          "start": 36.56,
+          "end": 36.94
+        }
+      ],
+      "tokens": [
+        51575,
+        426,
+        18819,
+        8950,
+        11,
+        6881,
+        11,
+        1343,
+        48101,
+        11,
+        4297,
+        674,
+        14743,
+        51731
+      ],
+      "avg_logprob": -0.19324539257929876,
+      "no_speech_prob": 0.6918137669563293
+    },
+    {
+      "start": 36.94,
+      "end": 40.38,
+      "text": "Ein Cover fehlt, der dat die Name nicht so wie er war",
+      "words": [
+        {
+          "word": "Ein",
+          "start": 36.94,
+          "end": 37.26
+        },
+        {
+          "word": "Cover",
+          "start": 37.26,
+          "end": 37.6
+        },
+        {
+          "word": "fehlt,",
+          "start": 37.6,
+          "end": 38.0
+        },
+        {
+          "word": "der",
+          "start": 38.1,
+          "end": 38.24
+        },
+        {
+          "word": "dat",
+          "start": 38.24,
+          "end": 38.42
+        },
+        {
+          "word": "die",
+          "start": 38.42,
+          "end": 38.56
+        },
+        {
+          "word": "Name",
+          "start": 38.56,
+          "end": 38.88
+        },
+        {
+          "word": "nicht",
+          "start": 38.88,
+          "end": 39.26
+        },
+        {
+          "word": "so",
+          "start": 39.26,
+          "end": 39.44
+        },
+        {
+          "word": "wie",
+          "start": 39.44,
+          "end": 39.7
+        },
+        {
+          "word": "er",
+          "start": 39.7,
+          "end": 40.0
+        },
+        {
+          "word": "war",
+          "start": 40.0,
+          "end": 40.38
+        }
+      ],
+      "tokens": [
+        50365,
+        6391,
+        19106,
+        47994,
+        11,
+        1163,
+        1137,
+        978,
+        13866,
+        1979,
+        370,
+        3355,
+        1189,
+        1516,
+        50547
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983
+    },
+    {
+      "start": 40.38,
+      "end": 42.32,
+      "text": "Ein Unterstrich, zu viel",
+      "words": [
+        {
+          "word": "Ein",
+          "start": 40.38,
+          "end": 40.82
+        },
+        {
+          "word": "Unterstrich,",
+          "start": 40.82,
+          "end": 41.66
+        },
+        {
+          "word": "zu",
+          "start": 41.66,
+          "end": 41.76
+        },
+        {
+          "word": "viel",
+          "start": 41.76,
+          "end": 42.32
+        }
+      ],
+      "tokens": [
+        50547,
+        6391,
+        12065,
+        9733,
+        480,
+        11,
+        2164,
+        5891,
+        50658
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983
+    },
+    {
+      "start": 42.32,
+      "end": 44.7,
+      "text": "Ich bin in die Datei zurück",
+      "words": [
+        {
+          "word": "Ich",
+          "start": 42.32,
+          "end": 43.28
+        },
+        {
+          "word": "bin",
+          "start": 43.28,
+          "end": 43.48
+        },
+        {
+          "word": "in",
+          "start": 43.48,
+          "end": 43.76
+        },
+        {
+          "word": "die",
+          "start": 43.76,
+          "end": 43.94
+        },
+        {
+          "word": "Datei",
+          "start": 43.94,
+          "end": 44.42
+        },
+        {
+          "word": "zurück",
+          "start": 44.42,
+          "end": 44.7
+        }
+      ],
+      "tokens": [
+        50658,
+        3141,
+        5171,
+        294,
+        978,
+        31805,
+        72,
+        15089,
+        50770
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983
+    },
+    {
+      "start": 46.5,
+      "end": 49.4,
+      "text": "Check nochmal, null Fehler",
+      "words": [
+        {
+          "word": "Check",
+          "start": 46.5,
+          "end": 47.26
+        },
+        {
+          "word": "nochmal,",
+          "start": 47.26,
+          "end": 47.7
+        },
+        {
+          "word": "null",
+          "start": 48.1,
+          "end": 48.74
+        },
+        {
+          "word": "Fehler",
+          "start": 48.74,
+          "end": 49.4
+        }
+      ],
+      "tokens": [
+        50770,
+        6881,
+        26509,
+        11,
+        18184,
+        48101,
+        50998
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983
+    },
+    {
+      "start": 49.4,
+      "end": 51.32,
+      "text": "Jetzt kommt das letzte Stück",
+      "words": [
+        {
+          "word": "Jetzt",
+          "start": 49.4,
+          "end": 50.04
+        },
+        {
+          "word": "kommt",
+          "start": 50.04,
+          "end": 50.42
+        },
+        {
+          "word": "das",
+          "start": 50.42,
+          "end": 50.62
+        },
+        {
+          "word": "letzte",
+          "start": 50.62,
+          "end": 50.92
+        },
+        {
+          "word": "Stück",
+          "start": 50.92,
+          "end": 51.32
+        }
+      ],
+      "tokens": [
+        50998,
+        12592,
+        10047,
+        1482,
+        35236,
+        31146,
+        51091
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983
+    },
+    {
+      "start": 51.32,
+      "end": 54.44,
+      "text": "Komedische B-B-B-Budget-Live",
+      "words": [
+        {
+          "word": "Komedische",
+          "start": 51.32,
+          "end": 52.4
+        },
+        {
+          "word": "B",
+          "start": 52.4,
+          "end": 52.72
+        },
+        {
+          "word": "-B",
+          "start": 52.72,
+          "end": 52.88
+        },
+        {
+          "word": "-B",
+          "start": 52.88,
+          "end": 53.16
+        },
+        {
+          "word": "-Budget",
+          "start": 53.16,
+          "end": 53.72
+        },
+        {
+          "word": "-Live",
+          "start": 53.72,
+          "end": 54.44
+        }
+      ],
+      "tokens": [
+        51091,
+        14286,
+        292,
+        7864,
+        363,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        532,
+        847,
+        12,
+        43,
+        488,
+        51274
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983
+    },
+    {
+      "start": 55.12,
+      "end": 58.18,
+      "text": "Komedische B-B-B-B-Album-Dreieck",
+      "words": [
+        {
+          "word": "Komedische",
+          "start": 55.12,
+          "end": 55.82
+        },
+        {
+          "word": "B",
+          "start": 55.82,
+          "end": 56.12
+        },
+        {
+          "word": "-B",
+          "start": 56.12,
+          "end": 56.32
+        },
+        {
+          "word": "-B",
+          "start": 56.32,
+          "end": 56.48
+        },
+        {
+          "word": "-B",
+          "start": 56.48,
+          "end": 56.62
+        },
+        {
+          "word": "-Album",
+          "start": 56.62,
+          "end": 57.34
+        },
+        {
+          "word": "-Dreieck",
+          "start": 57.34,
+          "end": 58.18
+        }
+      ],
+      "tokens": [
+        51274,
+        14286,
+        292,
+        7864,
+        363,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        9171,
+        5559,
+        12,
+        35,
+        265,
+        414,
+        547,
+        51429
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983
+    },
+    {
+      "start": 58.18,
+      "end": 61.44,
+      "text": "Der Link geht raus, die Seite lebt",
+      "words": [
+        {
+          "word": "Der",
+          "start": 58.18,
+          "end": 58.34
+        },
+        {
+          "word": "Link",
+          "start": 58.34,
+          "end": 58.62
+        },
+        {
+          "word": "geht",
+          "start": 58.62,
+          "end": 58.98
+        },
+        {
+          "word": "raus,",
+          "start": 58.98,
+          "end": 59.36
+        },
+        {
+          "word": "die",
+          "start": 59.64,
+          "end": 59.76
+        },
+        {
+          "word": "Seite",
+          "start": 59.76,
+          "end": 60.48
+        },
+        {
+          "word": "lebt",
+          "start": 60.48,
+          "end": 61.44
+        }
+      ],
+      "tokens": [
+        51429,
+        5618,
+        8466,
+        7095,
+        17202,
+        11,
+        978,
+        19748,
+        476,
+        4517,
+        51565
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983
+    },
+    {
+      "start": 61.44,
+      "end": 65.0,
+      "text": "Play gedrückt, und der Bass still",
+      "words": [
+        {
+          "word": "Play",
+          "start": 61.44,
+          "end": 62.1
+        },
+        {
+          "word": "gedrückt,",
+          "start": 62.1,
+          "end": 62.78
+        },
+        {
+          "word": "und",
+          "start": 62.84,
+          "end": 63.26
+        },
+        {
+          "word": "der",
+          "start": 63.26,
+          "end": 64.2
+        },
+        {
+          "word": "Bass",
+          "start": 64.2,
+          "end": 64.62
+        },
+        {
+          "word": "still",
+          "start": 64.62,
+          "end": 65.0
+        }
+      ],
+      "tokens": [
+        51600,
+        5506,
+        19238,
+        81,
+        37532,
+        11,
+        674,
+        1163,
+        29626,
+        920,
+        51776
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983
+    },
+    {
+      "start": 67.18,
+      "end": 96.92,
+      "text": "Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp",
+      "words": [
+        {
+          "word": "Schlepp,",
+          "start": 67.18,
+          "end": 67.68
+        },
+        {
+          "word": "Schlepp,",
+          "start": 67.88,
+          "end": 67.88
+        },
+        {
+          "word": "Schlepp,",
+          "start": 68.16,
+          "end": 68.78
+        },
+        {
+          "word": "Schlepp,",
+          "start": 68.78,
+          "end": 69.86
+        },
+        {
+          "word": "Schlepp,",
+          "start": 70.0,
+          "end": 70.1
+        },
+        {
+          "word": "Schlepp,",
+          "start": 70.1,
+          "end": 70.18
+        },
+        {
+          "word": "Schlepp,",
+          "start": 70.18,
+          "end": 70.22
+        },
+        {
+          "word": "Schlepp,",
+          "start": 70.22,
+          "end": 70.36
+        },
+        {
+          "word": "Schlepp,",
+          "start": 70.38,
+          "end": 70.62
+        },
+        {
+          "word": "Schlepp,",
+          "start": 70.62,
+          "end": 70.66
+        },
+        {
+          "word": "Schlepp,",
+          "start": 70.96,
+          "end": 71.22
+        },
+        {
+          "word": "Schlepp,",
+          "start": 71.46,
+          "end": 71.68
+        },
+        {
+          "word": "Schlepp,",
+          "start": 71.68,
+          "end": 71.68
+        },
+        {
+          "word": "Schlepp,",
+          "start": 71.68,
+          "end": 71.68
+        },
+        {
+          "word": "Schlepp,",
+          "start": 71.68,
+          "end": 71.68
+        },
+        {
+          "word": "Schlepp,",
+          "start": 71.68,
+          "end": 71.9
+        },
+        {
+          "word": "Schlepp,",
+          "start": 71.9,
+          "end": 71.9
+        },
+        {
+          "word": "Schlepp,",
+          "start": 72.12,
+          "end": 72.12
+        },
+        {
+          "word": "Schlepp,",
+          "start": 72.12,
+          "end": 72.12
+        },
+        {
+          "word": "Schlepp,",
+          "start": 72.12,
+          "end": 72.12
+        },
+        {
+          "word": "Schlepp,",
+          "start": 72.12,
+          "end": 72.12
+        },
+        {
+          "word": "Schlepp,",
+          "start": 72.16,
+          "end": 72.18
+        },
+        {
+          "word": "Schlepp,",
+          "start": 72.6,
+          "end": 72.72
+        },
+        {
+          "word": "Schlepp,",
+          "start": 72.78,
+          "end": 73.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 73.6,
+          "end": 74.24
+        },
+        {
+          "word": "Schlepp,",
+          "start": 75.0,
+          "end": 75.08
+        },
+        {
+          "word": "Schlepp,",
+          "start": 75.14,
+          "end": 75.14
+        },
+        {
+          "word": "Schlepp,",
+          "start": 75.2,
+          "end": 75.32
+        },
+        {
+          "word": "Schlepp,",
+          "start": 75.32,
+          "end": 75.84
+        },
+        {
+          "word": "Schlepp,",
+          "start": 75.88,
+          "end": 76.28
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.46,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.6
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.6,
+          "end": 76.86
+        },
+        {
+          "word": "Schlepp,",
+          "start": 76.86,
+          "end": 78.58
+        },
+        {
+          "word": "Schlepp,",
+          "start": 78.94,
+          "end": 79.24
+        },
+        {
+          "word": "Schlepp,",
+          "start": 79.82,
+          "end": 80.04
+        },
+        {
+          "word": "Schlepp,",
+          "start": 80.18,
+          "end": 81.06
+        },
+        {
+          "word": "Schlepp,",
+          "start": 81.34,
+          "end": 82.74
+        },
+        {
+          "word": "Schlepp,",
+          "start": 82.74,
+          "end": 86.48
+        },
+        {
+          "word": "Schlepp,",
+          "start": 87.1,
+          "end": 89.46
+        },
+        {
+          "word": "Schlepp,",
+          "start": 89.76,
+          "end": 92.96
+        },
+        {
+          "word": "Schlepp",
+          "start": 92.96,
+          "end": 96.92
+        }
+      ],
+      "tokens": [
+        50365,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427,
+        11,
+        2065,
+        306,
+        427
+      ],
+      "avg_logprob": -0.07019001007080078,
+      "no_speech_prob": 0.6798977255821228
+    },
+    {
+      "start": 96.92,
+      "end": 98.78,
+      "text": "So wie ich sie gemacht",
+      "words": [
+        {
+          "word": "So",
+          "start": 96.92,
+          "end": 97.64
+        },
+        {
+          "word": "wie",
+          "start": 97.64,
+          "end": 97.94
+        },
+        {
+          "word": "ich",
+          "start": 97.94,
+          "end": 98.18
+        },
+        {
+          "word": "sie",
+          "start": 98.18,
+          "end": 98.32
+        },
+        {
+          "word": "gemacht",
+          "start": 98.32,
+          "end": 98.78
+        }
+      ],
+      "tokens": [
+        50365,
+        407,
+        3355,
+        1893,
+        2804,
+        12293,
+        50465
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168
+    },
+    {
+      "start": 98.78,
+      "end": 102.24,
+      "text": "Comedy Shippe-Pippe-Pippe-Pippe Check live",
+      "words": [
+        {
+          "word": "Comedy",
+          "start": 98.78,
+          "end": 99.94
+        },
+        {
+          "word": "Shippe",
+          "start": 99.94,
+          "end": 100.62
+        },
+        {
+          "word": "-Pippe",
+          "start": 100.62,
+          "end": 101.04
+        },
+        {
+          "word": "-Pippe",
+          "start": 101.04,
+          "end": 101.32
+        },
+        {
+          "word": "-Pippe",
+          "start": 101.32,
+          "end": 101.46
+        },
+        {
+          "word": "Check",
+          "start": 101.46,
+          "end": 101.7
+        },
+        {
+          "word": "live",
+          "start": 101.7,
+          "end": 102.24
+        }
+      ],
+      "tokens": [
+        50465,
+        47217,
+        1160,
+        2488,
+        68,
+        12,
+        47,
+        2488,
+        68,
+        12,
+        47,
+        2488,
+        68,
+        12,
+        47,
+        2488,
+        68,
+        6881,
+        1621,
+        50665
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168
+    },
+    {
+      "start": 102.92,
+      "end": 105.62,
+      "text": "Comedy Shippe-Pippe-Pippe Album 3",
+      "words": [
+        {
+          "word": "Comedy",
+          "start": 102.92,
+          "end": 103.36
+        },
+        {
+          "word": "Shippe",
+          "start": 103.36,
+          "end": 104.02
+        },
+        {
+          "word": "-Pippe",
+          "start": 104.02,
+          "end": 104.42
+        },
+        {
+          "word": "-Pippe",
+          "start": 104.42,
+          "end": 104.6
+        },
+        {
+          "word": "Album",
+          "start": 104.6,
+          "end": 105.2
+        },
+        {
+          "word": "3",
+          "start": 105.2,
+          "end": 105.62
+        }
+      ],
+      "tokens": [
+        50665,
+        47217,
+        1160,
+        2488,
+        68,
+        12,
+        47,
+        2488,
+        68,
+        12,
+        47,
+        2488,
+        68,
+        967,
+        5559,
+        805,
+        50815
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168
+    },
+    {
+      "start": 105.62,
+      "end": 109.14,
+      "text": "Der Link geht raus, die Seite leer",
+      "words": [
+        {
+          "word": "Der",
+          "start": 105.62,
+          "end": 106.24
+        },
+        {
+          "word": "Link",
+          "start": 106.24,
+          "end": 106.58
+        },
+        {
+          "word": "geht",
+          "start": 106.58,
+          "end": 106.96
+        },
+        {
+          "word": "raus,",
+          "start": 106.96,
+          "end": 107.42
+        },
+        {
+          "word": "die",
+          "start": 107.58,
+          "end": 107.72
+        },
+        {
+          "word": "Seite",
+          "start": 107.72,
+          "end": 108.38
+        },
+        {
+          "word": "leer",
+          "start": 108.38,
+          "end": 109.14
+        }
+      ],
+      "tokens": [
+        50815,
+        5618,
+        8466,
+        7095,
+        17202,
+        11,
+        978,
+        19748,
+        34172,
+        50965
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168
+    },
+    {
+      "start": 109.14,
+      "end": 110.72,
+      "text": "Kegel drückt",
+      "words": [
+        {
+          "word": "Kegel",
+          "start": 109.14,
+          "end": 110.36
+        },
+        {
+          "word": "drückt",
+          "start": 110.36,
+          "end": 110.72
+        }
+      ],
+      "tokens": [
+        50965,
+        591,
+        1146,
+        338,
+        1224,
+        37532,
+        51065
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168
+    },
+    {
+      "start": 110.72,
+      "end": 112.96,
+      "text": "Und der Bass steht",
+      "words": [
+        {
+          "word": "Und",
+          "start": 110.72,
+          "end": 111.66
+        },
+        {
+          "word": "der",
+          "start": 111.66,
+          "end": 112.22
+        },
+        {
+          "word": "Bass",
+          "start": 112.22,
+          "end": 112.56
+        },
+        {
+          "word": "steht",
+          "start": 112.56,
+          "end": 112.96
+        }
+      ],
+      "tokens": [
+        51065,
+        2719,
+        1163,
+        29626,
+        16361,
+        51165
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168
+    },
+    {
+      "start": 112.96,
+      "end": 116.06,
+      "text": "Tracks, Cover, Dabble, Will, Trap, Shack",
+      "words": [
+        {
+          "word": "Tracks,",
+          "start": 112.96,
+          "end": 113.6
+        },
+        {
+          "word": "Cover,",
+          "start": 113.66,
+          "end": 114.26
+        },
+        {
+          "word": "Dabble,",
+          "start": 114.44,
+          "end": 114.9
+        },
+        {
+          "word": "Will,",
+          "start": 115.0,
+          "end": 115.2
+        },
+        {
+          "word": "Trap,",
+          "start": 115.2,
+          "end": 115.66
+        },
+        {
+          "word": "Shack",
+          "start": 115.66,
+          "end": 116.06
+        }
+      ],
+      "tokens": [
+        51165,
+        1765,
+        7424,
+        11,
+        19106,
+        11,
+        413,
+        455,
+        638,
+        11,
+        3099,
+        11,
+        314,
+        4007,
+        11,
+        1160,
+        501,
+        51315
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168
+    },
+    {
+      "start": 116.06,
+      "end": 119.36,
+      "text": "Blue, Yellow, Willow, Black, Black, Black, Album 3",
+      "words": [
+        {
+          "word": "Blue,",
+          "start": 116.06,
+          "end": 116.44
+        },
+        {
+          "word": "Yellow,",
+          "start": 116.6,
+          "end": 116.94
+        },
+        {
+          "word": "Willow,",
+          "start": 117.02,
+          "end": 117.5
+        },
+        {
+          "word": "Black,",
+          "start": 117.5,
+          "end": 117.92
+        },
+        {
+          "word": "Black,",
+          "start": 117.96,
+          "end": 118.14
+        },
+        {
+          "word": "Black,",
+          "start": 118.14,
+          "end": 118.36
+        },
+        {
+          "word": "Album",
+          "start": 118.36,
+          "end": 118.84
+        },
+        {
+          "word": "3",
+          "start": 118.84,
+          "end": 119.36
+        }
+      ],
+      "tokens": [
+        51315,
+        8510,
+        11,
+        17550,
+        11,
+        3099,
+        305,
+        11,
+        4076,
+        11,
+        4076,
+        11,
+        4076,
+        11,
+        967,
+        5559,
+        805,
+        51515
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168
+    },
+    {
+      "start": 119.92,
+      "end": 122.9,
+      "text": "Tracks, Cover, Dabble, Will, Trap, Shack",
+      "words": [
+        {
+          "word": "Tracks,",
+          "start": 119.92,
+          "end": 120.44
+        },
+        {
+          "word": "Cover,",
+          "start": 120.5,
+          "end": 121.14
+        },
+        {
+          "word": "Dabble,",
+          "start": 121.26,
+          "end": 121.7
+        },
+        {
+          "word": "Will,",
+          "start": 121.8,
+          "end": 122.06
+        },
+        {
+          "word": "Trap,",
+          "start": 122.06,
+          "end": 122.44
+        },
+        {
+          "word": "Shack",
+          "start": 122.44,
+          "end": 122.9
+        }
+      ],
+      "tokens": [
+        51515,
+        1765,
+        7424,
+        11,
+        19106,
+        11,
+        413,
+        455,
+        638,
+        11,
+        3099,
+        11,
+        314,
+        4007,
+        11,
+        1160,
+        501,
+        51665
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168
+    },
+    {
+      "start": 122.9,
+      "end": 126.14,
+      "text": "Blue, Yellow, Will, Lock, Black, Black, Black, Album 3",
+      "words": [
+        {
+          "word": "Blue,",
+          "start": 122.9,
+          "end": 123.32
+        },
+        {
+          "word": "Yellow,",
+          "start": 123.44,
+          "end": 123.82
+        },
+        {
+          "word": "Will,",
+          "start": 123.86,
+          "end": 124.08
+        },
+        {
+          "word": "Lock,",
+          "start": 124.12,
+          "end": 124.4
+        },
+        {
+          "word": "Black,",
+          "start": 124.4,
+          "end": 124.76
+        },
+        {
+          "word": "Black,",
+          "start": 124.88,
+          "end": 124.96
+        },
+        {
+          "word": "Black,",
+          "start": 124.96,
+          "end": 125.06
+        },
+        {
+          "word": "Album",
+          "start": 125.06,
+          "end": 125.68
+        },
+        {
+          "word": "3",
+          "start": 125.68,
+          "end": 126.14
+        }
+      ],
+      "tokens": [
+        51665,
+        8510,
+        11,
+        17550,
+        11,
+        3099,
+        11,
+        16736,
+        11,
+        4076,
+        11,
+        4076,
+        11,
+        4076,
+        11,
+        967,
+        5559,
+        805,
+        51815
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168
+    },
+    {
+      "start": 126.7,
+      "end": 155.9,
+      "text": "Komm mit, ich schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe",
+      "words": [
+        {
+          "word": "Komm",
+          "start": 126.7,
+          "end": 127.14
+        },
+        {
+          "word": "mit,",
+          "start": 127.14,
+          "end": 127.44
+        },
+        {
+          "word": "ich",
+          "start": 127.5,
+          "end": 127.7
+        },
+        {
+          "word": "schippe,",
+          "start": 127.7,
+          "end": 128.1
+        },
+        {
+          "word": "schippe,",
+          "start": 128.1,
+          "end": 128.34
+        },
+        {
+          "word": "schippe,",
+          "start": 128.34,
+          "end": 128.72
+        },
+        {
+          "word": "schippe,",
+          "start": 128.86,
+          "end": 129.7
+        },
+        {
+          "word": "schippe,",
+          "start": 129.7,
+          "end": 129.7
+        },
+        {
+          "word": "schippe,",
+          "start": 129.7,
+          "end": 130.56
+        },
+        {
+          "word": "schippe,",
+          "start": 130.56,
+          "end": 130.72
+        },
+        {
+          "word": "schippe,",
+          "start": 130.8,
+          "end": 131.36
+        },
+        {
+          "word": "schippe,",
+          "start": 131.5,
+          "end": 132.06
+        },
+        {
+          "word": "schippe,",
+          "start": 132.06,
+          "end": 132.06
+        },
+        {
+          "word": "schippe,",
+          "start": 132.32,
+          "end": 132.32
+        },
+        {
+          "word": "schippe,",
+          "start": 132.38,
+          "end": 132.54
+        },
+        {
+          "word": "schippe,",
+          "start": 132.54,
+          "end": 132.54
+        },
+        {
+          "word": "schippe,",
+          "start": 132.58,
+          "end": 132.88
+        },
+        {
+          "word": "schippe,",
+          "start": 133.04,
+          "end": 133.16
+        },
+        {
+          "word": "schippe,",
+          "start": 133.16,
+          "end": 133.24
+        },
+        {
+          "word": "schippe,",
+          "start": 133.24,
+          "end": 133.26
+        },
+        {
+          "word": "schippe,",
+          "start": 133.26,
+          "end": 133.36
+        },
+        {
+          "word": "schippe,",
+          "start": 133.72,
+          "end": 134.18
+        },
+        {
+          "word": "schippe,",
+          "start": 134.34,
+          "end": 138.22
+        },
+        {
+          "word": "schippe,",
+          "start": 138.24,
+          "end": 140.8
+        },
+        {
+          "word": "schippe,",
+          "start": 141.1,
+          "end": 146.24
+        },
+        {
+          "word": "schippe,",
+          "start": 146.24,
+          "end": 146.24
+        },
+        {
+          "word": "schippe,",
+          "start": 146.24,
+          "end": 146.26
+        },
+        {
+          "word": "schippe,",
+          "start": 146.26,
+          "end": 146.26
+        },
+        {
+          "word": "schippe,",
+          "start": 146.26,
+          "end": 147.12
+        },
+        {
+          "word": "schippe,",
+          "start": 147.12,
+          "end": 147.74
+        },
+        {
+          "word": "schippe,",
+          "start": 147.92,
+          "end": 148.44
+        },
+        {
+          "word": "schippe,",
+          "start": 148.66,
+          "end": 148.78
+        },
+        {
+          "word": "schippe,",
+          "start": 148.98,
+          "end": 149.02
+        },
+        {
+          "word": "schippe,",
+          "start": 149.02,
+          "end": 149.02
+        },
+        {
+          "word": "schippe,",
+          "start": 149.02,
+          "end": 149.02
+        },
+        {
+          "word": "schippe,",
+          "start": 149.02,
+          "end": 149.02
+        },
+        {
+          "word": "schippe,",
+          "start": 149.02,
+          "end": 149.12
+        },
+        {
+          "word": "schippe,",
+          "start": 149.34,
+          "end": 149.74
+        },
+        {
+          "word": "schippe,",
+          "start": 149.96,
+          "end": 150.42
+        },
+        {
+          "word": "schippe,",
+          "start": 150.42,
+          "end": 150.42
+        },
+        {
+          "word": "schippe,",
+          "start": 150.42,
+          "end": 150.42
+        },
+        {
+          "word": "schippe,",
+          "start": 150.42,
+          "end": 150.64
+        },
+        {
+          "word": "schippe,",
+          "start": 150.64,
+          "end": 150.64
+        },
+        {
+          "word": "schippe,",
+          "start": 150.64,
+          "end": 150.64
+        },
+        {
+          "word": "schippe,",
+          "start": 150.64,
+          "end": 150.66
+        },
+        {
+          "word": "schippe,",
+          "start": 150.66,
+          "end": 150.76
+        },
+        {
+          "word": "schippe,",
+          "start": 150.88,
+          "end": 151.28
+        },
+        {
+          "word": "schippe,",
+          "start": 151.28,
+          "end": 151.28
+        },
+        {
+          "word": "schippe,",
+          "start": 151.28,
+          "end": 151.28
+        },
+        {
+          "word": "schippe,",
+          "start": 151.28,
+          "end": 151.28
+        },
+        {
+          "word": "schippe,",
+          "start": 151.28,
+          "end": 151.28
+        },
+        {
+          "word": "schippe,",
+          "start": 151.28,
+          "end": 151.28
+        },
+        {
+          "word": "schippe,",
+          "start": 151.28,
+          "end": 151.28
+        },
+        {
+          "word": "schippe,",
+          "start": 151.28,
+          "end": 151.4
+        },
+        {
+          "word": "schippe,",
+          "start": 151.4,
+          "end": 151.88
+        },
+        {
+          "word": "schippe,",
+          "start": 151.98,
+          "end": 153.08
+        },
+        {
+          "word": "schippe,",
+          "start": 153.08,
+          "end": 154.04
+        },
+        {
+          "word": "schippe",
+          "start": 154.28,
+          "end": 155.9
+        }
+      ],
+      "tokens": [
+        50365,
+        18400,
+        2194,
+        11,
+        1893,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68,
+        11,
+        956,
+        2488,
+        68
+      ],
+      "avg_logprob": -0.11070014105902778,
+      "no_speech_prob": 0.45849817991256714
+    },
+    {
+      "start": 155.9,
+      "end": 155.92,
+      "text": "Vielen Dank.",
+      "words": [
+        {
+          "word": "Vielen",
+          "start": 155.9,
+          "end": 155.92
+        },
+        {
+          "word": "Dank.",
+          "start": 155.92,
+          "end": 155.92
+        }
+      ],
+      "tokens": [
+        50365,
+        22502,
+        14148,
+        13,
+        51864
+      ],
+      "avg_logprob": -0.35758058230082196,
+      "no_speech_prob": 0.9348263144493103
+    }
+  ]
+}

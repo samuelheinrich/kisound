@@ -1,0 +1,48 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 24000,
+  "next_frame": 27000,
+  "segments": [
+    {
+      "start": 240.0,
+      "end": 245.9,
+      "text": "Bis zum nächsten Mal.",
+      "words": [
+        {
+          "word": "Bis",
+          "start": 245.9,
+          "end": 245.9
+        },
+        {
+          "word": "zum",
+          "start": 245.9,
+          "end": 245.9
+        },
+        {
+          "word": "nächsten",
+          "start": 245.9,
+          "end": 245.9
+        },
+        {
+          "word": "Mal",
+          "start": 245.9,
+          "end": 245.9
+        },
+        {
+          "word": ".",
+          "start": 245.9,
+          "end": 245.9
+        }
+      ],
+      "tokens": [
+        50365,
+        25271,
+        5919,
+        19101,
+        5746,
+        13,
+        50660
+      ]
+    }
+  ]
+}

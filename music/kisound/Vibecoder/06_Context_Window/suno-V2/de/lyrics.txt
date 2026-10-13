@@ -1,0 +1,52 @@
+[Intro]
+Guten Morgen.
+Du kennst mich nicht mehr.
+
+[Verse 1]
+Neues Fenster, leerer Chat, der Cursor wartet still,
+ich schreib: „Wie gestern, weiter.“ Du fragst, was ich will.
+Du kennst den Namen nicht, nicht den Fehler um halb drei,
+nicht den Knopf, den wir verschoben haben, nicht das Warum dabei.
+
+[Chorus]
+Context Window.
+Was gestern war, liegt nicht in dir.
+Context Window.
+Es liegt im Log, es liegt bei mir.
+git log, Zeile für Zeile,
+ich les dir vor unxd bleib noch eine Weile.
+
+[Verse 2]
+„fix: leere Liste“, steht da, kurz nach eins,
+„feat: dunkles Theme“ um zwei, der Kommentar ist meins.
+„revert: Animation“, da hast du übertrieben,
+die Zeile steht noch da, die Gründe sind geblieben.
+Du liest die Liste durch, Commit für Commit,
+und nach zehn Zeilen nimmst du meinen Gedanken mit.
+
+[Chorus]
+Context Window.
+Was gestern war, liegt nicht in dir.
+Context Window.
+Es liegt im Log, es liegt bei mir.
+git log, Zeile für Zeile,
+ich les dir vor und bleib noch eine Weile.
+
+[Bridge]
+Du vergisst, ich erzähl's dir neu,
+das Repo bleibt sich treu.
+Jeder Morgen fängt bei null an,
+der erste Commit weiss noch, wie's begann.
+
+[Chorus]
+Context Window.
+Was gestern war, liegt nicht in dir.
+Context Window.
+Es liegt im Log, es liegt bei mir.
+git log, Zeile für Zeile,
+ich les dir vor und bleib noch eine Weile.
+
+[Outro]
+Initial commit.
+Da hat's angefangen.
+Guten Morgen.

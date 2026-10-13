@@ -1,0 +1,51 @@
+[Intro]
+npm install.
+Vier null vier.
+
+[Verse 1]
+Du schlägst ein Paket vor, der Name klingt genau richtig,
+mit Bindestrich und Präfix, wirkt offiziell und wichtig.
+Ein Beispiel mit Import, drei Zeilen, alles klar,
+ich tipp npm install, und rot steht da:
+E404. Not Found. Das Paket gibt's nicht.
+Kein Autor, kein Repo, keine Version, kein Gesicht.
+
+[Chorus]
+Hallucination.
+Ein Name, der echt klingt.
+Hallucination.
+Vier null vier, bis jemand ihn nimmt.
+Ich prüf den Autor und das Repo,
+bevor ein Name in mein Projekt kommt. Genau so.
+
+[Verse 2]
+Drei Wochen später gibt's den Namen plötzlich doch:
+Version eins, ein neuer Account, kein Repo, und ein Postinstall noch.
+Im Skript ein curl zu einem Server, den keiner kennt.
+Ich streich den Namen aus der package.json. Getrennt.
+
+[Chorus]
+Hallucination.
+Ein Name, der echt klingt.
+Hallucination.
+Vier null vier, bis jemand ihn nimmt.
+Ich prüf den Autor und das Repo,
+bevor ein Name in mein Projekt kommt. Genau so.
+
+[Bridge]
+Ein guter Name ist kein Beweis,
+ein schönes Beispiel ist kein Test.
+npm view: Autor, Repo, Datum.
+Erst danach kommt es ins Projekt.
+
+[Chorus]
+Hallucination.
+Ein Name, der echt klingt.
+Hallucination.
+Vier null vier, bis jemand ihn nimmt.
+Ich prüf den Autor und das Repo,
+bevor ein Name in mein Projekt kommt. Genau so.
+
+[Outro]
+npm install.
+Nur was ich geprüft hab.

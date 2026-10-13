@@ -1,0 +1,79 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 24000,
+  "next_frame": 27000,
+  "segments": [
+    {
+      "start": 240.0,
+      "end": 245.9,
+      "text": "Burn, Prompt, Build, Export, Screen.",
+      "words": [
+        {
+          "word": "Burn",
+          "start": 242.1,
+          "end": 242.1
+        },
+        {
+          "word": ",",
+          "start": 242.1,
+          "end": 243.42
+        },
+        {
+          "word": "Prompt",
+          "start": 243.42,
+          "end": 243.42
+        },
+        {
+          "word": ",",
+          "start": 243.42,
+          "end": 243.72
+        },
+        {
+          "word": "Build",
+          "start": 243.72,
+          "end": 244.56
+        },
+        {
+          "word": ",",
+          "start": 244.56,
+          "end": 244.56
+        },
+        {
+          "word": "Export",
+          "start": 244.56,
+          "end": 244.56
+        },
+        {
+          "word": ",",
+          "start": 244.56,
+          "end": 244.56
+        },
+        {
+          "word": "Screen",
+          "start": 244.56,
+          "end": 244.56
+        },
+        {
+          "word": ".",
+          "start": 244.56,
+          "end": 244.56
+        }
+      ],
+      "tokens": [
+        50365,
+        18328,
+        11,
+        15833,
+        662,
+        11,
+        11875,
+        11,
+        50130,
+        11,
+        25823,
+        13,
+        50660
+      ]
+    }
+  ]
+}

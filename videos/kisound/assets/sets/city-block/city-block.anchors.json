@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "setId": "city-block",
+  "units": "metres",
+  "coordinateSystem": "gltf-right-handed-y-up",
+  "glb": "city-block.glb",
+  "triangles": 3600,
+  "meshes": 3,
+  "materials": [
+    "cavity",
+    "chassis",
+    "led"
+  ],
+  "bounds": {
+    "min": [
+      -30.0,
+      -0.4,
+      -30.0
+    ],
+    "max": [
+      30.0,
+      55.75,
+      30.0
+    ]
+  },
+  "anchors": {
+    "cam.above": {
+      "position": [
+        36.0,
+        62.0,
+        46.0
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fov": 44,
+      "look": "towerA"
+    },
+    "cam.street": {
+      "position": [
+        0.0,
+        4.0,
+        46.0
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fov": 50,
+      "look": "towerA"
+    },
+    "flyover.00": {
+      "position": [
+        0.0,
+        26.0,
+        70.0
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "flyover",
+      "index": 0
+    },
+    "flyover.01": {
+      "position": [
+        0.0,
+        30.0,
+        20.0
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "flyover",
+      "index": 1
+    },
+    "flyover.02": {
+      "position": [
+        0.0,
+        36.0,
+        -26.0
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "flyover",
+      "index": 2
+    },
+    "flyover.03": {
+      "position": [
+        0.0,
+        46.0,
+        -70.0
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "flyover",
+      "index": 3
+    }
+  }
+}

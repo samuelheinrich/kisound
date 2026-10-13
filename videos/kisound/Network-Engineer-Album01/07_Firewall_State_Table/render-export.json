@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "07_Firewall_State_Table",
+  "title": "Firewall State Table",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/firewall-state-table.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

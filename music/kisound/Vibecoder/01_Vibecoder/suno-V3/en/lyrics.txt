@@ -1,0 +1,59 @@
+[Intro]
+I talk. It types.
+I test. It fixes.
+
+[Verse 1]
+Terminal open, cursor blinking in the dark,
+three lines from me: the goal, the input, where to start.
+It reads the repo, makes a plan, wants to install a few,
+I read the command before I say yes, I don't just click through.
+Localhost three thousand, page loads, the layout breaks,
+one div's too wide, the button's gone, the whole row shakes.
+Screenshot in: "The button on the right is gone, see here?"
+Two seconds later it's back where it was. Clear.
+
+[Chorus]
+Vibecoder.
+I talk, it types, I test, it fixes.
+Vibecoder.
+If it fails, it goes back till nothing's missing.
+Vibecoder.
+I talk, it types, I test, it fixes.
+One diff, one test, one commit, next idea on the list.
+
+[Verse 2]
+Later it gets bold, three features in one go,
+four hundred lines in a diff. Hold up, take it slow.
+Yesterday the export worked, today it throws an error,
+I paste the stack trace in: "What did you change? Be clearer."
+It finds the line, removes it, and the test goes green,
+I commit the small, clean state before the next routine.
+
+[Chorus]
+Vibecoder.
+I talk, it types, I test, it fixes.
+Vibecoder.
+If it fails, it goes back till nothing's missing.
+Vibecoder.
+I talk, it types, I test, it fixes.
+One diff, one test, one commit, next idea on the list.
+
+[Bridge]
+Prompt. Plan. Diff. Approve.
+Run. Fail. Paste. Improve.
+Run. Pass. Commit. Push.
+Next idea. Go.
+
+[Chorus]
+Vibecoder.
+I talk, it types, I test, it fixes.
+Vibecoder.
+If it fails, it goes back till nothing's missing.
+Vibecoder.
+I talk, it types, I test, it fixes.
+One diff, one test, one commit, next idea on the list.
+
+[Outro]
+I talk. It types.
+I test. It fixes.
+Commit.

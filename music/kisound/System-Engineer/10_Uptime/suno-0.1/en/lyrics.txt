@@ -1,0 +1,56 @@
+[Intro]
+Uptime:
+one thousand four hundred and twelve days.
+
+[Verse 1]
+A server in the basement, dust on the case, gray,
+almost four years running, what it does, no one can say.
+The colleague who built it left the company long ago,
+a note on the door: "Don't switch off!" Nobody did. And so it goes.
+Now the room is moving, the rack goes to the new site,
+the server has to go down, once off, once on, tonight.
+
+[Chorus]
+Uptime.
+Fourteen hundred days.
+Uptime.
+Never touch a running system, that's what they say.
+But one day comes when you have to go in,
+and then you'll see if it boots again.
+
+[Verse 2]
+Shutdown. The fans go quiet, then the silence falls.
+Moved, new rack, power on, I watch the boot screen crawl.
+The RAID controller beeps: battery dead, cache off, but the disks spin,
+fsck runs through it all, an hour long, before it lets me in.
+Login. The server's alive. But the service isn't there,
+someone started it by hand back then, never enabled anywhere.
+systemctl enable, systemctl start, and now I know its role:
+it hands out the licenses for the CAD software. I breathe. It's whole.
+
+[Chorus]
+Uptime.
+Fourteen hundred days.
+Uptime.
+Never touch a running system, that's what they say.
+But one day comes when you have to go in,
+and then you'll see if it boots again.
+
+[Bridge]
+A reboot isn't a risk,
+a reboot is a test.
+What only runs 'cause no one touches it
+runs only until it's put to rest.
+
+[Chorus]
+Uptime.
+Fourteen hundred days.
+Uptime.
+Never touch a running system, that's what they say.
+But one day comes when you have to go in,
+and then you'll see if it boots again.
+
+[Outro]
+Uptime:
+zero days, twelve minutes.
+And it runs.

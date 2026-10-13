@@ -1,0 +1,494 @@
+{
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "frame": 12000,
+  "next_frame": 15000,
+  "segments": [
+    {
+      "start": 120.0,
+      "end": 128.08,
+      "text": "It's 3 o'clock, the room stays small.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 123.32,
+          "end": 125.6
+        },
+        {
+          "word": "3",
+          "start": 125.6,
+          "end": 125.76
+        },
+        {
+          "word": "o",
+          "start": 125.76,
+          "end": 125.84
+        },
+        {
+          "word": "'clock",
+          "start": 125.84,
+          "end": 126.18
+        },
+        {
+          "word": ",",
+          "start": 126.18,
+          "end": 127.08
+        },
+        {
+          "word": "the",
+          "start": 127.08,
+          "end": 127.3
+        },
+        {
+          "word": "room",
+          "start": 127.3,
+          "end": 127.54
+        },
+        {
+          "word": "stays",
+          "start": 127.54,
+          "end": 127.88
+        },
+        {
+          "word": "small",
+          "start": 127.88,
+          "end": 128.34
+        },
+        {
+          "word": ".",
+          "start": 128.34,
+          "end": 128.72
+        }
+      ],
+      "tokens": [
+        50365,
+        467,
+        311,
+        805,
+        277,
+        6,
+        9023,
+        11,
+        264,
+        1808,
+        10834,
+        1359,
+        13,
+        50769
+      ]
+    },
+    {
+      "start": 128.88,
+      "end": 131.4,
+      "text": "The screen has room to fit it all.",
+      "words": [
+        {
+          "word": "The",
+          "start": 128.88,
+          "end": 129.18
+        },
+        {
+          "word": "screen",
+          "start": 129.18,
+          "end": 129.42
+        },
+        {
+          "word": "has",
+          "start": 129.42,
+          "end": 129.62
+        },
+        {
+          "word": "room",
+          "start": 129.62,
+          "end": 130.48
+        },
+        {
+          "word": "to",
+          "start": 130.48,
+          "end": 130.9
+        },
+        {
+          "word": "fit",
+          "start": 130.9,
+          "end": 131.06
+        },
+        {
+          "word": "it",
+          "start": 131.06,
+          "end": 131.18
+        },
+        {
+          "word": "all",
+          "start": 131.18,
+          "end": 132.06
+        },
+        {
+          "word": ".",
+          "start": 132.06,
+          "end": 132.16
+        }
+      ],
+      "tokens": [
+        50809,
+        440,
+        2568,
+        575,
+        1808,
+        281,
+        3318,
+        309,
+        439,
+        13,
+        50935
+      ]
+    },
+    {
+      "start": 132.24,
+      "end": 134.98,
+      "text": "An export fails, I run it through.",
+      "words": [
+        {
+          "word": "An",
+          "start": 132.4,
+          "end": 132.76
+        },
+        {
+          "word": "export",
+          "start": 132.76,
+          "end": 133.26
+        },
+        {
+          "word": "fails",
+          "start": 133.26,
+          "end": 133.44
+        },
+        {
+          "word": ",",
+          "start": 133.44,
+          "end": 134.18
+        },
+        {
+          "word": "I",
+          "start": 134.18,
+          "end": 134.42
+        },
+        {
+          "word": "run",
+          "start": 134.42,
+          "end": 134.54
+        },
+        {
+          "word": "it",
+          "start": 134.54,
+          "end": 134.74
+        },
+        {
+          "word": "through",
+          "start": 134.74,
+          "end": 134.86
+        },
+        {
+          "word": ".",
+          "start": 134.86,
+          "end": 135.42
+        }
+      ],
+      "tokens": [
+        50977,
+        1107,
+        10725,
+        18199,
+        11,
+        286,
+        1190,
+        309,
+        807,
+        13,
+        51114
+      ]
+    },
+    {
+      "start": 135.66,
+      "end": 138.82,
+      "text": "The agent has one more thing to do.",
+      "words": [
+        {
+          "word": "The",
+          "start": 135.88,
+          "end": 136.34
+        },
+        {
+          "word": "agent",
+          "start": 136.34,
+          "end": 136.6
+        },
+        {
+          "word": "has",
+          "start": 136.6,
+          "end": 137.06
+        },
+        {
+          "word": "one",
+          "start": 137.06,
+          "end": 137.32
+        },
+        {
+          "word": "more",
+          "start": 137.32,
+          "end": 137.72
+        },
+        {
+          "word": "thing",
+          "start": 137.72,
+          "end": 138.12
+        },
+        {
+          "word": "to",
+          "start": 138.12,
+          "end": 138.68
+        },
+        {
+          "word": "do",
+          "start": 138.68,
+          "end": 138.7
+        },
+        {
+          "word": ".",
+          "start": 138.7,
+          "end": 139.14
+        }
+      ],
+      "tokens": [
+        51148,
+        440,
+        9461,
+        575,
+        472,
+        544,
+        551,
+        281,
+        360,
+        13,
+        51306
+      ]
+    },
+    {
+      "start": 138.82,
+      "end": 142.06,
+      "text": "The usage panel shows the cost.",
+      "words": [
+        {
+          "word": "The",
+          "start": 139.42,
+          "end": 139.84
+        },
+        {
+          "word": "usage",
+          "start": 139.84,
+          "end": 140.2
+        },
+        {
+          "word": "panel",
+          "start": 140.2,
+          "end": 141.18
+        },
+        {
+          "word": "shows",
+          "start": 141.18,
+          "end": 141.64
+        },
+        {
+          "word": "the",
+          "start": 141.64,
+          "end": 141.88
+        },
+        {
+          "word": "cost",
+          "start": 141.88,
+          "end": 142.66
+        },
+        {
+          "word": ".",
+          "start": 142.66,
+          "end": 142.66
+        }
+      ],
+      "tokens": [
+        51306,
+        440,
+        14924,
+        4831,
+        3110,
+        264,
+        2063,
+        13,
+        51468
+      ]
+    },
+    {
+      "start": 142.88,
+      "end": 145.72,
+      "text": "I check the time that I have lost.",
+      "words": [
+        {
+          "word": "I",
+          "start": 142.94,
+          "end": 143.24
+        },
+        {
+          "word": "check",
+          "start": 143.24,
+          "end": 143.44
+        },
+        {
+          "word": "the",
+          "start": 143.44,
+          "end": 143.8
+        },
+        {
+          "word": "time",
+          "start": 143.8,
+          "end": 144.54
+        },
+        {
+          "word": "that",
+          "start": 144.54,
+          "end": 144.8
+        },
+        {
+          "word": "I",
+          "start": 144.8,
+          "end": 145.18
+        },
+        {
+          "word": "have",
+          "start": 145.18,
+          "end": 145.5
+        },
+        {
+          "word": "lost",
+          "start": 145.5,
+          "end": 146.26
+        },
+        {
+          "word": ".",
+          "start": 146.26,
+          "end": 146.26
+        }
+      ],
+      "tokens": [
+        51509,
+        286,
+        1520,
+        264,
+        565,
+        300,
+        286,
+        362,
+        2731,
+        13,
+        51651
+      ]
+    },
+    {
+      "start": 146.46,
+      "end": 149.24,
+      "text": "I meant to finish, save and leave.",
+      "words": [
+        {
+          "word": "I",
+          "start": 146.48,
+          "end": 146.74
+        },
+        {
+          "word": "meant",
+          "start": 146.74,
+          "end": 146.92
+        },
+        {
+          "word": "to",
+          "start": 146.92,
+          "end": 147.3
+        },
+        {
+          "word": "finish",
+          "start": 147.3,
+          "end": 147.48
+        },
+        {
+          "word": ",",
+          "start": 147.48,
+          "end": 148.34
+        },
+        {
+          "word": "save",
+          "start": 148.34,
+          "end": 148.7
+        },
+        {
+          "word": "and",
+          "start": 148.7,
+          "end": 148.98
+        },
+        {
+          "word": "leave",
+          "start": 148.98,
+          "end": 149.08
+        },
+        {
+          "word": ".",
+          "start": 149.08,
+          "end": 149.42
+        }
+      ],
+      "tokens": [
+        51688,
+        286,
+        4140,
+        281,
+        2413,
+        11,
+        3155,
+        293,
+        1856,
+        13,
+        51827,
+        51838
+      ]
+    },
+    {
+      "start": 149.24,
+      "end": 150.0,
+      "text": "Now this is my",
+      "words": [
+        {
+          "word": "Now",
+          "start": 149.62,
+          "end": 149.86
+        },
+        {
+          "word": "this",
+          "start": 149.86,
+          "end": 149.88
+        },
+        {
+          "word": "is",
+          "start": 149.88,
+          "end": 149.98
+        },
+        {
+          "word": "my",
+          "start": 149.98,
+          "end": 149.98
+        }
+      ],
+      "tokens": [
+        50365,
+        823,
+        341,
+        307,
+        452,
+        50403
+      ]
+    }
+  ]
+}

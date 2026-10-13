@@ -1,0 +1,53 @@
+[Intro]
+Backup successful.
+Seven hundred nights in a row.
+
+[Verse 1]
+Every morning an email: backup successful, green check,
+seven hundred times the same, I stopped reading, never checked.
+Today's the restore test, it's there in the plan,
+a whole file server into an isolated lab, and I begin where I can.
+The VM boots, C is there, but D is not inside,
+the disk was added last year, the job saw one, never the other side.
+
+[Chorus]
+Three. Two. One.
+Three copies, two media, one offsite.
+Restore.
+A green check doesn't say a lot.
+Restore.
+Only what comes back is what you've got.
+
+[Verse 2]
+I add the second disk, a full backup overnight,
+next morning restore again: D is there, the shares come up right.
+One copy goes to tape, in a safe across the road,
+one stays immutable, thirty days, locked and stowed.
+And every month a restore test, fixed in the calendar line,
+because only what I bring back proves the backup's fine.
+
+[Chorus]
+Three. Two. One.
+Three copies, two media, one offsite.
+Restore.
+A green check doesn't say a lot.
+Restore.
+Only what comes back is what you've got.
+
+[Bridge]
+The backup is a promise,
+the restore is the proof.
+Seven hundred green checks,
+and only one restore tells the truth.
+
+[Chorus]
+Three. Two. One.
+Three copies, two media, one offsite.
+Restore.
+A green check doesn't say a lot.
+Restore.
+Only what comes back is what you've got.
+
+[Outro]
+Restore successful.
+Drive D is back.

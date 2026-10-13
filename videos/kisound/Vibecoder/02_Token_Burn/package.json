@@ -1,0 +1,24 @@
+{
+  "name": "kisound-vibecoder-token-burn",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Token Burn: eine nächtliche Coding-Session als Live-Code – Sequencer-Demo, Bass-Reload-Fehler, Export, Nutzungsjournal, sechs TOKEN-BURN-Titel; zwei Fassungen DE/EN mit eigenen Zeitlisten, lokaler Browserplayer",
+  "scripts": {
+    "prepare": "node src/tools/prepare.mjs",
+    "preview": "node src/render/serve.mjs --open",
+    "serve": "node src/render/serve.mjs",
+    "check": "node --test tests/*.test.mjs",
+    "check:browser": "node src/tools/check-browser.mjs",
+    "cues": "node src/tools/write-cues.mjs",
+    "export:1080p": "node ../../tools/kisound-render.mjs 1080p",
+    "export:4k": "node ../../tools/kisound-render.mjs 4k",
+    "export:check": "node ../../tools/kisound-render.mjs --check"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.43.1"
+  }
+}

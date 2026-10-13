@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "05_Wireshark",
+  "title": "Wireshark",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/wireshark.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

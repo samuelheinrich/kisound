@@ -1,0 +1,89 @@
+VERSION: 1.0
+ALBUM: Network Engineer 02
+TRACK: 02 - Active / Standby
+THEMA: HA-Paar mit Heartbeat als Krankenhaus-Monitor-Puls; Verlust des Heartbeat-Links als Flatline, Split Brain und kontrollierter Rollenwechsel
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Final
+RELEASE AUDIO: 02_Active_Standby_1.0.wav
+
+LYRIC PROMPT:
+[Intro - Voice A - Full Voice]
+Ich trag den Traffic.
+
+[Intro - Voice B - Full Voice]
+Ich hör deinen Puls.
+
+[Verse 1 - Voice A]
+Die Sessions laufen, unser Sync steht.
+Ein Heartbeat sagt dir: Ich bin hier.
+Ich halte unsern Datenpfad,
+du hältst den Stand von mir.
+
+[Verse 1 - Voice B]
+Die Flows sind auch bei mir bekannt.
+Dein Heartbeat hält uns im Kontakt.
+Ich bleibe wach und hör dich an.
+Bereit, wenn ich übernehmen kann.
+
+[Chorus - Both Voices - Full Voice]
+Active.
+Standby.
+Einer trägt,
+einer steht bereit.
+Dein Heartbeat sagt:
+Ich bin noch hier.
+
+[Verse 2 - Voice B - Full Voice]
+Dein Heartbeat fehlt, der Link ist weg.
+Der letzte Check läuft aus.
+Ich schalte um, ich bin jetzt Active.
+Doch du sendest weiter raus.
+
+[Verse 2 - Voice A - Full Voice]
+Mein Datenpfad ist immer offen.
+Ich bin noch da. Ich bin Active.
+
+[Chorus - Both Voices - Full Voice]
+Split Brain.
+Beide Active.
+Eine Adresse.
+Kein gemeinsamer Takt.
+
+[Verse 3 - Voice A - Full Voice]
+Mein Datenpfad wird isoliert.
+Ich gebe meine Führung ab.
+Der Link steht wieder zwischen uns.
+Wir prüfen unsre Rollen neu.
+
+[Verse 3 - Voice B - Full Voice]
+Dein Puls ist wieder da, der Sync steht.
+Ein Pfad trägt unsern Traffic jetzt.
+Du hältst als Standby unsern Stand.
+Ich führe, während du mich hörst.
+
+[Final Chorus - Voice B - Full Voice]
+Active.
+Ich trag den Traffic.
+
+[Final Chorus - Voice A - Full Voice]
+Standby.
+Ich halte mich bereit.
+
+[Final Chorus - Both Voices - Full Voice]
+Active.
+Standby.
+Ein klarer Pfad.
+Dein Puls ist wieder da.
+
+STYLE PROMPT:
+Straffer, dunkler Electro-Techno bei etwa 132 BPM mit trockener Kick, gebrochener Electro-Percussion und einem tiefen federnden Bass. Zwei kurze Synth-Motive stehen für die beiden Geräte: anfangs eine führende Figur und eine sparsame Antwort, im Split Brain zwei konkurrierende Figuren, nach der Klärung wieder eine klare Führung. Den bestehenden treibenden Groove beibehalten und das Arrangement kompakt halten. Direkter Einstieg, kurze Übergänge, keine zusätzlichen Refrain-Wiederholungen und keine langen instrumentalen Solos oder ausgedehnten Builds.
+
+Das zentrale Klangmotiv ist ein deutlich erkennbares Krankenhaus-Monitor-Piepen: kurze, saubere, hohe elektronische Sinustöne als regelmäßiger Heartbeat, hörbar vom Intro an und rhythmisch in den Groove eingebettet. Dezente tiefe Doppelpulse darunter erinnern an einen Herzschlag. Wenige klinisch klare Signaltöne reichen; der Monitor bleibt ein prägnantes musikalisches Motiv und lässt den Stimmen Platz.
+
+Bei «Dein Heartbeat fehlt, der Link ist weg» in Verse 2 bricht das regelmäßige Monitor-Piepen abrupt ab und geht in einen klar hörbaren durchgehenden Flatline-Ton über, wie der Dauerton eines Krankenhaus-Monitors. Diesen Wechsel kurz freistellen, dann den Groove unter der entschlossenen Stimme wieder nach vorn holen. Den Flatline-Ton als hörbaren Übergang in den Split-Brain-Konflikt einsetzen und vor dem dichten gemeinsamen Gesang ausblenden. Die Flatline bedeutet den Verlust der Heartbeat-Verbindung; Voice A bleibt auf ihrem Datenpfad aktiv. Beide Synth-Motive drängen nun gleichzeitig nach vorn. In Verse 3 wird die Figur von Voice A zurückgenommen. Auf «Dein Puls ist wieder da» kehrt das regelmäßige Monitor-Piepen klar zurück. Im Finale führt das Motiv von Voice B, begleitet vom wieder geordneten Puls.
+
+Exakt zwei Lead-Stimmen: Voice A ist eine tiefe männliche Stimme, Voice B eine klare weibliche Stimme. Beide singen oder sprechen rhythmisch mit voller, fester und verständlicher Stimme, auch in Intro, Verse 2 und Verse 3. Kein Flüstern, kein Hauchen und keine ASMR-Passagen. Full Voice verlangt natürliche volle Projektion. Die Stimmen bleiben fest ihren Geräten zugeordnet: Im Finale ist Voice B Active und Voice A Standby, ohne die Klangfarben zu tauschen. Both Voices bedeutet gemeinsamen Gesang der gleichen Zeilen. Im Split-Brain-Refrain beide Stimmen entschlossen zusammenführen. Kein zusätzlicher Erzähler und keine dritte Computerstimme.
+
+Monitor-Piepen, Herzpuls und Flatline sind ausschließlich instrumentale Klangeffekte. Die Sänger imitieren diese Geräusche nicht. Keine gesprochenen Klinik-Durchsagen. Den Dauerton deutlich, aber kontrolliert mischen; die Lyrics bleiben verständlich.
+
+Gesang auf Deutsch. Englische Fachbegriffe wie Heartbeat, Active, Standby, Split Brain, Traffic, Sessions und Sync im Wortlaut behalten und englisch aussprechen. Abschnittsnamen, Voice A, Voice B, Both Voices und Full Voice sind reine Anweisungen und werden nicht gesungen. Keine bekannten Melodie- oder Song-Referenzen.

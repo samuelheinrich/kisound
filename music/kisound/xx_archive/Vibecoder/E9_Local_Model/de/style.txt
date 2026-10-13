@@ -1,0 +1,8 @@
+Genre: Darksynth / Synthwave mit schwerem Analogbass, nächtlich, kein Techno.
+Tempo: 112 BPM
+Sound: Treibender 16tel-Analogbass mit tiefem Sub, gated Snare mit grossem Hall, harte Kick, warme Polysynth-Flächen, glitzernde Arpeggios, Lüfterrauschen, das mit der Energie anschwillt, leises Relais-Klicken; im Breakdown nur Stille, Lüfter und Bass.
+Vocals: Männliche Stimme, tief, warm, ruhig; Strophen erzählend, Refrain melodisch und breit mit leichtem Hall.
+Vibe: Arbeitszimmer bei Nacht, offline und autark.
+Mood: Konzentriert, vertraulich, zufrieden.
+Ablauf: Acht Takte Intro mit Arpeggio; nach Refrain zwei sechzehn Takte Synth-Solo über dem Bass; Bridge nur Bass und Stimme; Schlussrefrain voll. Ziel 3:45.
+Hinweise: Gesang auf Deutsch; Local Model, Cloud, Tokens und Befehle englisch, ACL als A-C-L, ollama wie „o-lama“. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

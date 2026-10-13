@@ -1,0 +1,7 @@
+Titel:
+E7_Show_Me_The_Log_50_50_exakt_off_DE
+
+Weirdness: 50%
+Style Influence: 50%
+variety: exakt
+max mode: off

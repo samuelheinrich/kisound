@@ -1,0 +1,61 @@
+[Intro]
+Zwanzig Jahre Netzwerk.
+Heute Nacht: Terminal.
+
+[Verse 1]
+Acht Uhr. Ticket offen. Drei APs sind weg,
+der Controller sieht sie nicht, ich such den Defekt.
+ISE zeigt Access-Reject, Zeile für Zeile rot,
+ein Zertifikat ist abgelaufen, darum bleibt der Login tot.
+Mittags flappt ein Tunnel, Phase eins steht, Phase zwei nicht,
+ein Proposal passt nicht. Ich gleich es an. Tunnel up. Schicht.
+
+[Pre-Chorus]
+Laptop zu. Feierabend.
+Laptop auf. Neuer Plan.
+Gleicher Kopf, andere Welt,
+ich bau mir, was mir fehlt.
+
+[Chorus]
+Vibecoder.
+Tags im Netz, nachts im Terminal.
+Vibecoder.
+Ich sag, was ich brauch, und probier's noch mal.
+Prompt. Run. Test. Fix.
+Was nicht läuft, zählt nicht.
+
+[Verse 2]
+Zehn Uhr. Codex im Terminal,
+ich schreib, was ich will, kein Tutorial.
+Ein Fenster für Dateien, Drag-and-Drop hinein,
+der Balken bleibt bei neunundneunzig stehn, das darf nicht sein.
+Ich kopier den Error, schick die Zeile gleich mit:
+„Vorhin lief's. Was hast du geändert im letzten Commit?“
+Der Diff zeigt eine Zeile, die vorher anders war,
+zurückgesetzt, neu gestartet, hundert Prozent. Klar.
+
+[Chorus]
+Vibecoder.
+Tags im Netz, nachts im Terminal.
+Vibecoder.
+Ich sag, was ich brauch, und probier's noch mal.
+Prompt. Run. Test. Fix.
+Was nicht läuft, zählt nicht.
+
+[Bridge]
+Keine Folie, kein Versprechen auf Papier,
+erst ein Knopf, der funktioniert, dann der nächste hier.
+Klein anfangen. Sauber. Ohne Hast.
+Dann erweitern, erst wenn das Fundament passt.
+
+[Chorus]
+Vibecoder.
+Tags im Netz, nachts im Terminal.
+Vibecoder.
+Ich sag, was ich brauch, und probier's noch mal.
+Prompt. Run. Test. Fix.
+Was nicht läuft, zählt nicht.
+
+[Outro]
+Prompt. Run. Test. Fix.
+Tunnel up. App läuft. Schicht.

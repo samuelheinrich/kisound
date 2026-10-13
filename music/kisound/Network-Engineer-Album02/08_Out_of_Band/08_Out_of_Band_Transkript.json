@@ -1,0 +1,630 @@
+{
+  "title": "Out of Band",
+  "source_audio": "08_Out_of_Band_1.0.wav",
+  "source_audio_sha256": "9139796abf25839d0b7a85ee57042ebe0e1f524d5f8c0f61073e9b2b42a2427c",
+  "duration_seconds": 264.4135,
+  "languages": [
+    "de",
+    "en"
+  ],
+  "time_origin": "Beginn der unveränderten WAV-Datei bei 0 Sekunden",
+  "timing_source": "Lokaler ASR-Wortabgleich mit whisper-large-v3 und whisper-large-v3-turbo; zusätzliche ASR-Ausschnitte bei schwierigen Stellen; keine manuelle Hörprüfung",
+  "text_source": "Akustisch zugeordnete Zeilen aus dem beibehaltenen Lyric-Prompt; zusätzliche erkannte Wiederholungen und abweichende Kurzzeilen aus dem ASR-Modellvergleich",
+  "review_status": "Automatisch erstellt; Hörprüfung offener Text- und Zeitkonflikte aus TRANSKRIPT-PRUEFUNG.md steht aus.",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 8.48,
+      "last_vocal_end": 22.58
+    },
+    {
+      "title": "Verse 1",
+      "first_vocal_start": 46.2,
+      "last_vocal_end": 73.42
+    },
+    {
+      "title": "Pre-Chorus",
+      "first_vocal_start": 75.3,
+      "last_vocal_end": 88.08
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 90.08,
+      "last_vocal_end": 117.8
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 136.32,
+      "last_vocal_end": 165.7
+    },
+    {
+      "title": "Bridge",
+      "first_vocal_start": 166.98,
+      "last_vocal_end": 182.8
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 196.88,
+      "last_vocal_end": 225.3
+    },
+    {
+      "title": "Outro",
+      "first_vocal_start": 229.64,
+      "last_vocal_end": 243.56
+    }
+  ],
+  "segments": [
+    {
+      "start": 8.48,
+      "end": 10.42,
+      "start_timecode": "00:00:08.480",
+      "end_timecode": "00:00:10.420",
+      "text": "Kein Login.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 1
+    },
+    {
+      "start": 10.42,
+      "end": 14.02,
+      "start_timecode": "00:00:10.420",
+      "end_timecode": "00:00:14.020",
+      "text": "Keine Antwort.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 2
+    },
+    {
+      "start": 14.46,
+      "end": 18.18,
+      "start_timecode": "00:00:14.460",
+      "end_timecode": "00:00:18.180",
+      "text": "Das Netz ist weg.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 3
+    },
+    {
+      "start": 18.48,
+      "end": 22.58,
+      "start_timecode": "00:00:18.480",
+      "end_timecode": "00:00:22.580",
+      "text": "Der andere Weg bleibt.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 4
+    },
+    {
+      "start": 46.2,
+      "end": 48.18,
+      "start_timecode": "00:00:46.200",
+      "end_timecode": "00:00:48.180",
+      "text": "SSH wartet, bis es aufgibt,",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 5
+    },
+    {
+      "start": 48.18,
+      "end": 51.32,
+      "start_timecode": "00:00:48.180",
+      "end_timecode": "00:00:51.320",
+      "text": "kein Dashboard lädt noch einen Wert.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 6
+    },
+    {
+      "start": 52.68,
+      "end": 55.68,
+      "start_timecode": "00:00:52.680",
+      "end_timecode": "00:00:55.680",
+      "text": "Die Änderung hat den Pfad zerschnitten,",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 7
+    },
+    {
+      "start": 56.48,
+      "end": 58.82,
+      "start_timecode": "00:00:56.480",
+      "end_timecode": "00:00:58.820",
+      "text": "über den ich sie geschickt hab.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 8
+    },
+    {
+      "start": 60.08,
+      "end": 63.36,
+      "start_timecode": "00:01:00.080",
+      "end_timecode": "00:01:03.360",
+      "text": "Doch hinten am Rack hängt eine Leitung,",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 9
+    },
+    {
+      "start": 63.36,
+      "end": 66.78,
+      "start_timecode": "00:01:03.360",
+      "end_timecode": "00:01:06.780",
+      "text": "getrennt von diesem Traffic hier.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 10
+    },
+    {
+      "start": 66.78,
+      "end": 71.06,
+      "start_timecode": "00:01:06.780",
+      "end_timecode": "00:01:11.060",
+      "text": "Ein eigener Zugang zur Console,",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 11
+    },
+    {
+      "start": 71.06,
+      "end": 73.42,
+      "start_timecode": "00:01:11.060",
+      "end_timecode": "00:01:13.420",
+      "text": "die letzte offene Tür.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 12
+    },
+    {
+      "start": 75.3,
+      "end": 78.02,
+      "start_timecode": "00:01:15.300",
+      "end_timecode": "00:01:18.020",
+      "text": "Ich brauch nicht erst das Netz zurück,",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 13
+    },
+    {
+      "start": 78.02,
+      "end": 80.9,
+      "start_timecode": "00:01:18.020",
+      "end_timecode": "00:01:20.900",
+      "text": "um wieder ranzukommen.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 14
+    },
+    {
+      "start": 82.6,
+      "end": 85.84,
+      "start_timecode": "00:01:22.600",
+      "end_timecode": "00:01:25.840",
+      "text": "Ich nehme den getrennten Weg.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 15
+    },
+    {
+      "start": 85.84,
+      "end": 88.08,
+      "start_timecode": "00:01:25.840",
+      "end_timecode": "00:01:28.080",
+      "text": "Der Prompt ist noch zu hören.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 16
+    },
+    {
+      "start": 90.08,
+      "end": 91.72,
+      "start_timecode": "00:01:30.080",
+      "end_timecode": "00:01:31.720",
+      "text": "Out of Band.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 17
+    },
+    {
+      "start": 91.98,
+      "end": 95.66,
+      "start_timecode": "00:01:31.980",
+      "end_timecode": "00:01:35.660",
+      "text": "Eine Tür bleibt offen.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 18
+    },
+    {
+      "start": 95.86,
+      "end": 100.04,
+      "start_timecode": "00:01:35.860",
+      "end_timecode": "00:01:40.040",
+      "text": "Wenn der grosse Weg verstummt,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 19
+    },
+    {
+      "start": 100.04,
+      "end": 103.22,
+      "start_timecode": "00:01:40.040",
+      "end_timecode": "00:01:43.220",
+      "text": "komm ich hier noch an.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 20
+    },
+    {
+      "start": 105.16,
+      "end": 106.96,
+      "start_timecode": "00:01:45.160",
+      "end_timecode": "00:01:46.960",
+      "text": "Out of Band.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 21
+    },
+    {
+      "start": 107.38,
+      "end": 111.16,
+      "start_timecode": "00:01:47.380",
+      "end_timecode": "00:01:51.160",
+      "text": "Ich erreiche die Console.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 22
+    },
+    {
+      "start": 111.16,
+      "end": 114.26,
+      "start_timecode": "00:01:51.160",
+      "end_timecode": "00:01:54.260",
+      "text": "Ein schmaler Weg zurück,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 23
+    },
+    {
+      "start": 114.68,
+      "end": 117.8,
+      "start_timecode": "00:01:54.680",
+      "end_timecode": "00:01:57.800",
+      "text": "bis das Netz wieder trägt.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 24
+    },
+    {
+      "start": 136.32,
+      "end": 139.38,
+      "start_timecode": "00:02:16.320",
+      "end_timecode": "00:02:19.380",
+      "text": "Die Console zeigt den letzten Change,",
+      "section": "Verse 2",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 25
+    },
+    {
+      "start": 140.26,
+      "end": 142.9,
+      "start_timecode": "00:02:20.260",
+      "end_timecode": "00:02:22.900",
+      "text": "der Diff liegt neben meinem Plan.",
+      "section": "Verse 2",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 26
+    },
+    {
+      "start": 144.1,
+      "end": 146.94,
+      "start_timecode": "00:02:24.100",
+      "end_timecode": "00:02:26.940",
+      "text": "Ich prüfe, was den Weg gekappt hat,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 27
+    },
+    {
+      "start": 147.88,
+      "end": 150.12,
+      "start_timecode": "00:02:27.880",
+      "end_timecode": "00:02:30.120",
+      "text": "und setze den Fehler zurück.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 28
+    },
+    {
+      "start": 150.48,
+      "end": 153.84,
+      "start_timecode": "00:02:30.480",
+      "end_timecode": "00:02:33.840",
+      "text": "Erst steht der Link, dann kommt die Route,",
+      "section": "Verse 2",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 29
+    },
+    {
+      "start": 155.08,
+      "end": 157.52,
+      "start_timecode": "00:02:35.080",
+      "end_timecode": "00:02:37.520",
+      "text": "doch grün allein reicht mir nicht.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 30
+    },
+    {
+      "start": 158.88,
+      "end": 161.5,
+      "start_timecode": "00:02:38.880",
+      "end_timecode": "00:02:41.500",
+      "text": "Ich teste den betroffenen Service",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 31
+    },
+    {
+      "start": 163.48,
+      "end": 165.7,
+      "start_timecode": "00:02:43.480",
+      "end_timecode": "00:02:45.700",
+      "text": "vom Client bis zum Ziel.",
+      "section": "Verse 2",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 32
+    },
+    {
+      "start": 166.98,
+      "end": 169.32,
+      "start_timecode": "00:02:46.980",
+      "end_timecode": "00:02:49.320",
+      "text": "Ein Backup, das erreichbar ist.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 33
+    },
+    {
+      "start": 169.32,
+      "end": 170.86,
+      "start_timecode": "00:02:49.320",
+      "end_timecode": "00:02:50.860",
+      "text": "Ein Rollback, den wir kennen.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 34
+    },
+    {
+      "start": 170.86,
+      "end": 172.92,
+      "start_timecode": "00:02:50.860",
+      "end_timecode": "00:02:52.920",
+      "text": "Ein Zugang, der getrennt bleibt,",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 35
+    },
+    {
+      "start": 173.0,
+      "end": 174.8,
+      "start_timecode": "00:02:53.000",
+      "end_timecode": "00:02:54.800",
+      "text": "wenn sich die andern Wege trennen.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 36
+    },
+    {
+      "start": 174.8,
+      "end": 176.96,
+      "start_timecode": "00:02:54.800",
+      "end_timecode": "00:02:56.960",
+      "text": "Kein Zauber hinter dieser Tür,",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 37
+    },
+    {
+      "start": 177.08,
+      "end": 178.64,
+      "start_timecode": "00:02:57.080",
+      "end_timecode": "00:02:58.640",
+      "text": "wir haben sie vorher gebaut.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 38
+    },
+    {
+      "start": 178.64,
+      "end": 180.54,
+      "start_timecode": "00:02:58.640",
+      "end_timecode": "00:03:00.540",
+      "text": "Jetzt trägt die kleine Leitung",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 39
+    },
+    {
+      "start": 180.54,
+      "end": 182.8,
+      "start_timecode": "00:03:00.540",
+      "end_timecode": "00:03:02.800",
+      "text": "die Arbeit für das grosse Netz.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 40
+    },
+    {
+      "start": 196.88,
+      "end": 198.66,
+      "start_timecode": "00:03:16.880",
+      "end_timecode": "00:03:18.660",
+      "text": "Out of Band.",
+      "section": "Final Chorus",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 41
+    },
+    {
+      "start": 199.82,
+      "end": 202.32,
+      "start_timecode": "00:03:19.820",
+      "end_timecode": "00:03:22.320",
+      "text": "Eine Tür bleibt offen.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 42
+    },
+    {
+      "start": 203.6,
+      "end": 206.6,
+      "start_timecode": "00:03:23.600",
+      "end_timecode": "00:03:26.600",
+      "text": "Wenn der grosse Weg verstummt,",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 43
+    },
+    {
+      "start": 206.6,
+      "end": 209.92,
+      "start_timecode": "00:03:26.600",
+      "end_timecode": "00:03:29.920",
+      "text": "komm ich hier noch an.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 44
+    },
+    {
+      "start": 212.06,
+      "end": 213.96,
+      "start_timecode": "00:03:32.060",
+      "end_timecode": "00:03:33.960",
+      "text": "Out of Band.",
+      "section": "Final Chorus",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 45
+    },
+    {
+      "start": 213.96,
+      "end": 217.66,
+      "start_timecode": "00:03:33.960",
+      "end_timecode": "00:03:37.660",
+      "text": "Die Antwort ist zurück.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 46
+    },
+    {
+      "start": 218.64,
+      "end": 221.06,
+      "start_timecode": "00:03:38.640",
+      "end_timecode": "00:03:41.060",
+      "text": "Der Test erreicht sein Ziel,",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 47
+    },
+    {
+      "start": 221.06,
+      "end": 225.3,
+      "start_timecode": "00:03:41.060",
+      "end_timecode": "00:03:45.300",
+      "text": "und das Netz trägt wieder.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 48
+    },
+    {
+      "start": 229.64,
+      "end": 232.2,
+      "start_timecode": "00:03:49.640",
+      "end_timecode": "00:03:52.200",
+      "text": "Console bleibt erreichbar.",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 49
+    },
+    {
+      "start": 232.2,
+      "end": 236.2,
+      "start_timecode": "00:03:52.200",
+      "end_timecode": "00:03:56.200",
+      "text": "Die letzte Änderung dokumentiert.",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 50
+    },
+    {
+      "start": 236.2,
+      "end": 240.34,
+      "start_timecode": "00:03:56.200",
+      "end_timecode": "00:04:00.340",
+      "text": "Das Telefon liegt still.",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 51
+    },
+    {
+      "start": 240.34,
+      "end": 243.56,
+      "start_timecode": "00:04:00.340",
+      "end_timecode": "00:04:03.560",
+      "text": "Die Stadt schläft weiter.",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 52
+    }
+  ]
+}

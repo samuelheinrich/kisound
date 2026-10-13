@@ -1,0 +1,31 @@
+AI SLOP · Cover-Generierung
+Datum: 2026-10-10
+Werkzeug: integriertes image_gen über codex exec
+Bild: 04_AI_Slop_cover.png
+Stilreferenz: 02_Token_Burn/02_Token_Burn_cover.png (Albumserie Vibecoder, orange)
+Textgrundlage: Albumthema und Varianten suno-0.1, V1–V3
+Verwendung: gemeinsames Trackcover für Deutsch und Englisch
+
+EXAKTER GENERIERUNGSPROMPT:
+
+Use case: stylized-concept
+Asset type: finished square electronic single cover, 1:1, edge-to-edge artwork.
+Series: this is one cover in a consistent album series. Match the attached reference cover "TOKEN BURN" exactly in art direction: same typography style, same title placement, same credit layout, same palette, same lighting mood, same cinematic 3D miniature rendering of a nocturnal home coding desk. Only the title and the scene content change.
+Primary request: Create a striking, professionally art-directed cover for "AI SLOP" by Samuel Heinrich, from the album "Vibecoder". The music is cheerful, bouncy, bass-heavy electronic dance music with a self-ironic wink; the story: a feed overflowing with near-identical AI-generated images, songs, landing pages and code, and the narrator recognizes his own AI-made song in it.
+
+Scene and subject: The same nocturnal home desk as in the reference. The open laptop screen acts like a busy output slot: an endless stream of small glossy translucent cards pours out of it, up into the air and spilling over the desk edge, playful and abundant. The cards are nearly identical copies: square album-cover thumbnails, waveform strips, app cards with a big round button, each a tiny variation of the same design; a few cards have a small hand with one finger too many. Among them one single card is subtly highlighted with a cyan edge: the narrator's own song with a waveform. A coffee cup, a digital clock, dark window behind. Humorous, but still elegant and controlled. No person is necessary.
+
+Composition: Bold editorial cover with an enormous stacked geometric sans-serif title occupying the upper half, exactly like the reference: "AI" in warm off-white on the first line, "SLOP" in saturated ember orange on the second line. Strong condensed heavy typography, tight confident spacing, clean exact letterforms, subtle sculptural extrusion, instantly readable as a small streaming thumbnail. The title relates spatially to the miniature scene in the lower half without obstructing any letters. Generous dark negative space, purposeful hierarchy. At the bottom, centered and safely inset, the same tiny letter-spaced credit as the reference: "SAMUEL HEINRICH" in off-white, below it "VIBECODER" in ember orange.
+
+Style: sophisticated combination of crisp Swiss electronic-record typography and tactile cinematic 3D illustration; sharp geometry, smoked glass and matte charcoal materials, subtle analog grain. A contemporary underground electronic release, with depth and controlled graphic precision.
+
+Lighting and palette: deep midnight charcoal #10141C, off-white #F4F3EA, vivid ember orange #FF6534, small electric-cyan #44DDE5 accents on interface edges. Low-key room with strong focused orange screen light, cyan rim light and atmospheric shadows. Cheerful, witty, self-ironic and cool.
+
+Text (verbatim, only these words):
+"AI"
+"SLOP"
+"SAMUEL HEINRICH"
+"VIBECODER"
+
+Constraints: polished square cover, opaque background. Title is the dominant element. Both German and English releases use this same cover. All objects geometrically coherent. Small UI marks may be abstract graphic blocks, with no fake paragraphs of text and no readable code.
+Avoid: robots, garbage or trash heaps, mud or slime, cartoon style, generic hooded hacker, corporate or brand logos, stock-photo look, dense cyberpunk city, magenta or purple neon, green as a main color, excessive bloom, illegible or misspelled title, extra slogans, watermarks, border, mockup of a record sleeve. Deliver the artwork itself.

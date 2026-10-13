@@ -1,0 +1,72 @@
+VERSION: 0.1
+ALBUM: Network Engineer 02
+TRACK: 00 - Cold Start
+THEMA: Hochfahren des Netzes, Link Negotiation, Nachbarschaften, Konvergenz vor dem ersten Paket
+VORGESCHLAGENE ZEIT: 3:40
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+Intro:
+Dunkle Racks.
+Kein Licht am Panel.
+Nichts bewegt sich.
+Dann Strom.
+
+Verse:
+Lüfter ziehen an im leeren Raum,
+das erste Grün am schwarzen Rand.
+Interface down, Interface up,
+Autonegotiate, Hand in Hand.
+Noch keine Route, noch kein Ziel,
+nur eine Tabelle, die still wartet.
+Hellos gehen raus ins Dunkel
+und horchen, ob da draussen einer startet.
+
+Pre-Chorus:
+Ein Nachbar antwortet.
+Dann ein zweiter.
+Die Topologie steht,
+bevor der erste Traffic kommt.
+
+Chorus:
+Cold Start.
+Fahr sie hoch.
+Link für Link,
+Port für Port.
+Cold Start.
+Halt die Linie.
+Nichts fliesst,
+bis alles steht.
+
+Break:
+Link up.
+Neighbor full.
+Database synced.
+Routes installed.
+Forwarding ready.
+Jetzt sende.
+
+Verse 2:
+Timer zählen unter dem Boden,
+Adjacency klopft an die Tür.
+Exchange, Loading, full und clean,
+den Teil sieht nie ein User hier.
+Jeder Service wartet blind
+hinter einer Tabelle, die nur wir finden.
+Wenn die letzte Route sitzt,
+fängt das Netz an zu klingen.
+
+Final Chorus:
+Cold Start.
+Fahr sie hoch.
+Link für Link,
+Port für Port.
+Cold Start.
+Halt die Linie.
+Die Welt geht online,
+wenn wir stehen.
+
+STYLE PROMPT:
+Kalter cinematic Techno-Opener mit tiefen Sub-Baessen und langsamem, ernstem Aufbau. Tempo ca. 120-124 BPM. Beginn fast leer: entfernte Luefter, tiefes Brummen, einzelne Relais-Klicks, dann langsam wachsender Puls. Kein frueher Drop, die Energie steigt kontrolliert bis zum letzten Refrain. Stimme tief, ruhig, fast gesprochen, sachlich statt pathetisch. Klangfarbe metallisch und kalt, viel Raum und Hall, wenig Melodie. Abschnittsnamen nicht singen, nur die Lyrics performen. Keine bekannten Melodie- oder Song-Referenzen. Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht uebersetzen. Buchstabenfolgen wie S-Y-N oder V-N-I einzeln buchstabiert singen.

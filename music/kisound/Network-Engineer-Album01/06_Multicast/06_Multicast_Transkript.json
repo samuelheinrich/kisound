@@ -1,0 +1,735 @@
+{
+  "title": "Multicast",
+  "source_audio": "06_Multicast_0.1-1.wav",
+  "source_audio_sha256": "7d0f87a9f23017511848df85b035a20b14761e8da550f196064183032780794e",
+  "duration_seconds": 260.600167,
+  "languages": [
+    "en"
+  ],
+  "time_origin": "Beginn der WAV-Datei bei 0 Sekunden",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 11.380000000000003,
+      "last_vocal_end": 24.04
+    },
+    {
+      "title": "Verse",
+      "first_vocal_start": 38.28,
+      "last_vocal_end": 63.36
+    },
+    {
+      "title": "Pre-Chorus",
+      "first_vocal_start": 67.58,
+      "last_vocal_end": 79.84
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 81.48,
+      "last_vocal_end": 96.38
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 109.76,
+      "last_vocal_end": 123.7
+    },
+    {
+      "title": "Hook",
+      "first_vocal_start": 128.57999999999998,
+      "last_vocal_end": 134.94
+    },
+    {
+      "title": "Bridge",
+      "first_vocal_start": 149.0,
+      "last_vocal_end": 163.64
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 166.72,
+      "last_vocal_end": 167.76
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 166.72,
+      "last_vocal_end": 167.76
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 168.18,
+      "last_vocal_end": 169.94
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 168.18,
+      "last_vocal_end": 169.94
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 170.94,
+      "last_vocal_end": 172.3
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 170.94,
+      "last_vocal_end": 172.3
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 173.4,
+      "last_vocal_end": 175.3
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 173.4,
+      "last_vocal_end": 175.3
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 175.54,
+      "last_vocal_end": 176.34
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 175.54,
+      "last_vocal_end": 178.54
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 180.04,
+      "last_vocal_end": 182.32
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 180.04,
+      "last_vocal_end": 182.32
+    },
+    {
+      "title": "Outro",
+      "first_vocal_start": 197.18,
+      "last_vocal_end": 209.7
+    }
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "start": 11.38,
+      "end": 12.86,
+      "start_timecode": "00:00:11.380",
+      "end_timecode": "00:00:12.860",
+      "text": "One source speaks.",
+      "section": "Intro"
+    },
+    {
+      "id": 2,
+      "start": 13.84,
+      "end": 16.84,
+      "start_timecode": "00:00:13.840",
+      "end_timecode": "00:00:16.840",
+      "text": "Many receivers wait.",
+      "section": "Intro"
+    },
+    {
+      "id": 3,
+      "start": 17.24,
+      "end": 19.34,
+      "start_timecode": "00:00:17.240",
+      "end_timecode": "00:00:19.340",
+      "text": "Not every packet needs.",
+      "section": "Intro"
+    },
+    {
+      "id": 4,
+      "start": 20.7,
+      "end": 24.04,
+      "start_timecode": "00:00:20.700",
+      "end_timecode": "00:00:24.040",
+      "text": "to cross every gate.",
+      "section": "Intro"
+    },
+    {
+      "id": 5,
+      "start": 38.28,
+      "end": 39.6,
+      "start_timecode": "00:00:38.280",
+      "end_timecode": "00:00:39.600",
+      "text": "Unicast walks alone,",
+      "section": "Verse"
+    },
+    {
+      "id": 6,
+      "start": 40.34,
+      "end": 41.86,
+      "start_timecode": "00:00:40.340",
+      "end_timecode": "00:00:41.860",
+      "text": "one path, one name.",
+      "section": "Verse"
+    },
+    {
+      "id": 7,
+      "start": 45.52,
+      "end": 47.02,
+      "start_timecode": "00:00:45.520",
+      "end_timecode": "00:00:47.020",
+      "text": "Anycast finds the closest,",
+      "section": "Verse"
+    },
+    {
+      "id": 8,
+      "start": 47.02,
+      "end": 48.44,
+      "start_timecode": "00:00:47.020",
+      "end_timecode": "00:00:48.440",
+      "text": "different route, same flame.",
+      "section": "Verse"
+    },
+    {
+      "id": 9,
+      "start": 51.36,
+      "end": 54.1,
+      "start_timecode": "00:00:51.360",
+      "end_timecode": "00:00:54.100",
+      "text": "But multicast is listening,",
+      "section": "Verse"
+    },
+    {
+      "id": 10,
+      "start": 54.1,
+      "end": 55.9,
+      "start_timecode": "00:00:54.100",
+      "end_timecode": "00:00:55.900",
+      "text": "join the group and stay.",
+      "section": "Verse"
+    },
+    {
+      "id": 11,
+      "start": 58.74,
+      "end": 60.5,
+      "start_timecode": "00:00:58.740",
+      "end_timecode": "00:01:00.500",
+      "text": "Tune into the stream,",
+      "section": "Verse"
+    },
+    {
+      "id": 12,
+      "start": 61.34,
+      "end": 63.36,
+      "start_timecode": "00:01:01.340",
+      "end_timecode": "00:01:03.360",
+      "text": "let the packets find the way.",
+      "section": "Verse"
+    },
+    {
+      "id": 13,
+      "start": 67.58,
+      "end": 68.3,
+      "start_timecode": "00:01:07.580",
+      "end_timecode": "00:01:08.300",
+      "text": "I-G-M-P report,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 14,
+      "start": 69.2,
+      "end": 70.34,
+      "start_timecode": "00:01:09.200",
+      "end_timecode": "00:01:10.340",
+      "text": "membership in sight.",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 15,
+      "start": 70.34,
+      "end": 71.8,
+      "start_timecode": "00:01:10.340",
+      "end_timecode": "00:01:11.800",
+      "text": "Layer two is listening.",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 16,
+      "start": 72.3,
+      "end": 73.36,
+      "start_timecode": "00:01:12.300",
+      "end_timecode": "00:01:13.360",
+      "text": "to the group tonight.",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 17,
+      "start": 75.1,
+      "end": 75.8,
+      "start_timecode": "00:01:15.100",
+      "end_timecode": "00:01:15.800",
+      "text": "Querier asks the question,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 18,
+      "start": 75.98,
+      "end": 76.76,
+      "start_timecode": "00:01:15.980",
+      "end_timecode": "00:01:16.760",
+      "text": "who is still alive?",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 19,
+      "start": 77.78,
+      "end": 79.36,
+      "start_timecode": "00:01:17.780",
+      "end_timecode": "00:01:19.360",
+      "text": "Receivers answer softly,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 20,
+      "start": 79.36,
+      "end": 79.84,
+      "start_timecode": "00:01:19.360",
+      "end_timecode": "00:01:19.840",
+      "text": "keep the flow online.",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 21,
+      "start": 81.48,
+      "end": 82.1,
+      "start_timecode": "00:01:21.480",
+      "end_timecode": "00:01:22.100",
+      "text": "Join the group.",
+      "section": "Chorus"
+    },
+    {
+      "id": 22,
+      "start": 82.44,
+      "end": 83.46,
+      "start_timecode": "00:01:22.440",
+      "end_timecode": "00:01:23.460",
+      "text": "Hear the stream.",
+      "section": "Chorus"
+    },
+    {
+      "id": 23,
+      "start": 84.84,
+      "end": 86.84,
+      "start_timecode": "00:01:24.840",
+      "end_timecode": "00:01:26.840",
+      "text": "Multicast inside the machine.",
+      "section": "Chorus"
+    },
+    {
+      "id": 24,
+      "start": 87.44,
+      "end": 89.3,
+      "start_timecode": "00:01:27.440",
+      "end_timecode": "00:01:29.300",
+      "text": "One to many,",
+      "section": "Chorus"
+    },
+    {
+      "id": 25,
+      "start": 89.6,
+      "end": 90.34,
+      "start_timecode": "00:01:29.600",
+      "end_timecode": "00:01:30.340",
+      "text": "not one by one.",
+      "section": "Chorus"
+    },
+    {
+      "id": 26,
+      "start": 91.1,
+      "end": 92.48,
+      "start_timecode": "00:01:31.100",
+      "end_timecode": "00:01:32.480",
+      "text": "Listen in.",
+      "section": "Chorus"
+    },
+    {
+      "id": 27,
+      "start": 93.94,
+      "end": 96.38,
+      "start_timecode": "00:01:33.940",
+      "end_timecode": "00:01:36.380",
+      "text": "when the source has begun.",
+      "section": "Chorus"
+    },
+    {
+      "id": 28,
+      "start": 109.76,
+      "end": 111.18,
+      "start_timecode": "00:01:49.760",
+      "end_timecode": "00:01:51.180",
+      "text": "P-I-M moves the signal.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 29,
+      "start": 111.8,
+      "end": 112.78,
+      "start_timecode": "00:01:51.800",
+      "end_timecode": "00:01:52.780",
+      "text": "through layer three.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 30,
+      "start": 113.86,
+      "end": 115.3,
+      "start_timecode": "00:01:53.860",
+      "end_timecode": "00:01:55.300",
+      "text": "R-P knows the source,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 31,
+      "start": 115.3,
+      "end": 116.28,
+      "start_timecode": "00:01:55.300",
+      "end_timecode": "00:01:56.280",
+      "text": "knows where it will be.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 32,
+      "start": 117.18,
+      "end": 118.66,
+      "start_timecode": "00:01:57.180",
+      "end_timecode": "00:01:58.660",
+      "text": "Rendezvous in the core,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 33,
+      "start": 118.66,
+      "end": 120.08,
+      "start_timecode": "00:01:58.660",
+      "end_timecode": "00:02:00.080",
+      "text": "tree begins to grow.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 34,
+      "start": 121.0,
+      "end": 122.5,
+      "start_timecode": "00:02:01.000",
+      "end_timecode": "00:02:02.500",
+      "text": "Branches split the traffic.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 35,
+      "start": 122.5,
+      "end": 123.7,
+      "start_timecode": "00:02:02.500",
+      "end_timecode": "00:02:03.700",
+      "text": "only where it needs to go.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 36,
+      "start": 128.58,
+      "end": 129.1,
+      "start_timecode": "00:02:08.580",
+      "end_timecode": "00:02:09.100",
+      "text": "Membership report.",
+      "section": "Hook"
+    },
+    {
+      "id": 37,
+      "start": 129.82,
+      "end": 130.1,
+      "start_timecode": "00:02:09.820",
+      "end_timecode": "00:02:10.100",
+      "text": "Join.",
+      "section": "Hook"
+    },
+    {
+      "id": 38,
+      "start": 130.1,
+      "end": 130.54,
+      "start_timecode": "00:02:10.100",
+      "end_timecode": "00:02:10.540",
+      "text": "Leave.",
+      "section": "Hook"
+    },
+    {
+      "id": 39,
+      "start": 130.74,
+      "end": 130.98,
+      "start_timecode": "00:02:10.740",
+      "end_timecode": "00:02:10.980",
+      "text": "Query.",
+      "section": "Hook"
+    },
+    {
+      "id": 40,
+      "start": 131.22,
+      "end": 131.36,
+      "start_timecode": "00:02:11.220",
+      "end_timecode": "00:02:11.360",
+      "text": "Group.",
+      "section": "Hook"
+    },
+    {
+      "id": 41,
+      "start": 131.58,
+      "end": 131.82,
+      "start_timecode": "00:02:11.580",
+      "end_timecode": "00:02:11.820",
+      "text": "Source.",
+      "section": "Hook"
+    },
+    {
+      "id": 42,
+      "start": 132.12,
+      "end": 132.4,
+      "start_timecode": "00:02:12.120",
+      "end_timecode": "00:02:12.400",
+      "text": "R-P.",
+      "section": "Hook"
+    },
+    {
+      "id": 43,
+      "start": 132.54,
+      "end": 133.4,
+      "start_timecode": "00:02:12.540",
+      "end_timecode": "00:02:13.400",
+      "text": "P-I-M.",
+      "section": "Hook"
+    },
+    {
+      "id": 44,
+      "start": 133.58,
+      "end": 134.94,
+      "start_timecode": "00:02:13.580",
+      "end_timecode": "00:02:14.940",
+      "text": "I-G-M-P.",
+      "section": "Hook"
+    },
+    {
+      "id": 45,
+      "start": 149.0,
+      "end": 150.56,
+      "start_timecode": "00:02:29.000",
+      "end_timecode": "00:02:30.560",
+      "text": "No flood for the silent.",
+      "section": "Bridge"
+    },
+    {
+      "id": 46,
+      "start": 151.36,
+      "end": 152.54,
+      "start_timecode": "00:02:31.360",
+      "end_timecode": "00:02:32.540",
+      "text": "No stream for the blind.",
+      "section": "Bridge"
+    },
+    {
+      "id": 47,
+      "start": 153.06,
+      "end": 154.62,
+      "start_timecode": "00:02:33.060",
+      "end_timecode": "00:02:34.620",
+      "text": "Only those who ask it.",
+      "section": "Bridge"
+    },
+    {
+      "id": 48,
+      "start": 154.8,
+      "end": 155.68,
+      "start_timecode": "00:02:34.800",
+      "end_timecode": "00:02:35.680",
+      "text": "get the signal assigned.",
+      "section": "Bridge"
+    },
+    {
+      "id": 49,
+      "start": 156.38,
+      "end": 157.76,
+      "start_timecode": "00:02:36.380",
+      "end_timecode": "00:02:37.760",
+      "text": "From switch to router,",
+      "section": "Bridge"
+    },
+    {
+      "id": 50,
+      "start": 158.48,
+      "end": 159.68,
+      "start_timecode": "00:02:38.480",
+      "end_timecode": "00:02:39.680",
+      "text": "from access to core,",
+      "section": "Bridge"
+    },
+    {
+      "id": 51,
+      "start": 160.18,
+      "end": 162.94,
+      "start_timecode": "00:02:40.180",
+      "end_timecode": "00:02:42.940",
+      "text": "one transmission opens.",
+      "section": "Bridge"
+    },
+    {
+      "id": 52,
+      "start": 162.94,
+      "end": 163.64,
+      "start_timecode": "00:02:42.940",
+      "end_timecode": "00:02:43.640",
+      "text": "many doors.",
+      "section": "Bridge"
+    },
+    {
+      "id": 53,
+      "start": 166.72,
+      "end": 167.76,
+      "start_timecode": "00:02:46.720",
+      "end_timecode": "00:02:47.760",
+      "text": "Join the group.",
+      "section": "Chorus"
+    },
+    {
+      "id": 54,
+      "start": 166.72,
+      "end": 167.76,
+      "start_timecode": "00:02:46.720",
+      "end_timecode": "00:02:47.760",
+      "text": "Join the group.",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 55,
+      "start": 168.18,
+      "end": 169.94,
+      "start_timecode": "00:02:48.180",
+      "end_timecode": "00:02:49.940",
+      "text": "Hear the stream.",
+      "section": "Chorus"
+    },
+    {
+      "id": 56,
+      "start": 168.18,
+      "end": 169.94,
+      "start_timecode": "00:02:48.180",
+      "end_timecode": "00:02:49.940",
+      "text": "Hear the stream.",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 57,
+      "start": 170.94,
+      "end": 172.3,
+      "start_timecode": "00:02:50.940",
+      "end_timecode": "00:02:52.300",
+      "text": "Multicast inside the machine.",
+      "section": "Chorus"
+    },
+    {
+      "id": 58,
+      "start": 170.94,
+      "end": 172.3,
+      "start_timecode": "00:02:50.940",
+      "end_timecode": "00:02:52.300",
+      "text": "Multicast inside the machine.",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 59,
+      "start": 173.4,
+      "end": 175.3,
+      "start_timecode": "00:02:53.400",
+      "end_timecode": "00:02:55.300",
+      "text": "One to many,",
+      "section": "Chorus"
+    },
+    {
+      "id": 60,
+      "start": 173.4,
+      "end": 175.3,
+      "start_timecode": "00:02:53.400",
+      "end_timecode": "00:02:55.300",
+      "text": "One to many,",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 61,
+      "start": 175.54,
+      "end": 176.34,
+      "start_timecode": "00:02:55.540",
+      "end_timecode": "00:02:56.340",
+      "text": "not one by one.",
+      "section": "Chorus"
+    },
+    {
+      "id": 62,
+      "start": 175.54,
+      "end": 176.34,
+      "start_timecode": "00:02:55.540",
+      "end_timecode": "00:02:56.340",
+      "text": "not one by one.",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 63,
+      "start": 177.06,
+      "end": 178.54,
+      "start_timecode": "00:02:57.060",
+      "end_timecode": "00:02:58.540",
+      "text": "Listen in.",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 64,
+      "start": 180.04,
+      "end": 182.32,
+      "start_timecode": "00:03:00.040",
+      "end_timecode": "00:03:02.320",
+      "text": "when the source has begun.",
+      "section": "Chorus"
+    },
+    {
+      "id": 65,
+      "start": 180.04,
+      "end": 182.32,
+      "start_timecode": "00:03:00.040",
+      "end_timecode": "00:03:02.320",
+      "text": "when the source has begun.",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 66,
+      "start": 197.18,
+      "end": 199.5,
+      "start_timecode": "00:03:17.180",
+      "end_timecode": "00:03:19.500",
+      "text": "The querier calls.",
+      "section": "Outro"
+    },
+    {
+      "id": 67,
+      "start": 199.5,
+      "end": 202.1,
+      "start_timecode": "00:03:19.500",
+      "end_timecode": "00:03:22.100",
+      "text": "The members reply.",
+      "section": "Outro"
+    },
+    {
+      "id": 68,
+      "start": 202.7,
+      "end": 206.52,
+      "start_timecode": "00:03:22.700",
+      "end_timecode": "00:03:26.520",
+      "text": "The R-P remembers.",
+      "section": "Outro"
+    },
+    {
+      "id": 69,
+      "start": 208.08,
+      "end": 209.7,
+      "start_timecode": "00:03:28.080",
+      "end_timecode": "00:03:29.700",
+      "text": "where the sources lie.",
+      "section": "Outro"
+    }
+  ]
+}

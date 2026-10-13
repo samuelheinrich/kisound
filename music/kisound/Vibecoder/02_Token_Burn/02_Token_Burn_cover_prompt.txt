@@ -1,0 +1,29 @@
+TOKEN BURN · Cover-Generierung
+Datum: 2026-10-09
+Werkzeug: integriertes image_gen (Built-in), keine CLI
+Bild: 02_Token_Burn_cover.png
+Verwendung: gemeinsames Trackcover für Deutsch und Englisch
+
+EXAKTER GENERIERUNGSPROMPT:
+
+Use case: stylized-concept
+Asset type: finished square electronic single cover, 1:1, edge-to-edge artwork.
+Primary request: Create a striking, professionally art-directed cover for "TOKEN BURN" by Samuel Heinrich, from the album "Vibecoder". The music is propulsive acid techno; the story is the irresistible late-night momentum of coding with an AI agent: one more prompt, one more version, until 03:00.
+
+Scene and subject: An intimate nocturnal coding workspace, rendered as a beautifully crafted cinematic 3D miniature. A small desk with an open laptop, a keyboard, one ceramic coffee cup and a digital clock showing exactly "03:00"; a dark window behind it. Layered translucent application panels rise just above the laptop, with a restrained 16-step music-sequencer grid and abstract code blocks. Warm orange light spills from the working screen across the desk. A few precise luminous orange rectangular token fragments travel through the panels. No person is necessary.
+
+Composition: Bold editorial cover with enormous stacked geometric sans-serif title occupying the upper half: "TOKEN" in warm off-white, "BURN" in saturated ember orange. Strong condensed heavy typography, tight confident spacing, clean exact letterforms, instantly readable as a small streaming thumbnail. Give the typography a subtle sculptural extrusion and allow it to relate spatially to the miniature workspace in the lower half, without obstructing any letters. Strong simple silhouette, generous dark negative space, purposeful hierarchy; tiny restrained artist credit and album credit at the bottom, safely inset.
+
+Style: sophisticated combination of crisp Swiss electronic-record typography and tactile cinematic 3D illustration; sharp geometry, smoked glass and matte charcoal materials, subtle analog grain. A contemporary underground techno release, with depth and controlled graphic precision.
+
+Lighting and palette: deep midnight charcoal #10141C, off-white #F4F3EA, vivid ember orange #FF6534, small electric-cyan #44DDE5 accents on the interface edges. Low-key room with strong focused orange screen light, cyan rim light and atmospheric shadows. Energetic, obsessive, engrossing and cool.
+
+Text (verbatim, only these words and the clock):
+"TOKEN"
+"BURN"
+"SAMUEL HEINRICH"
+"VIBECODER"
+"03:00"
+
+Constraints: polished square cover, opaque background. Title is the dominant element. Both German and English releases use this same cover. Laptop, cup and clock should be geometrically coherent. Small UI marks may be abstract graphic blocks, with no fake paragraphs of text.
+Avoid: literal flames or burning hardware, generic hooded hacker, corporate logos, stock-photo look, dense cyberpunk city, magenta neon, excessive bloom, illegible or misspelled title, extra slogans, watermarks, border, mockup of a record sleeve. Deliver the artwork itself.

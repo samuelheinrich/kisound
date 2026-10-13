@@ -1,0 +1,55 @@
+[Intro]
+gpupdate /force.
+Die Aktualisierung der Benutzerrichtlinie wurde erfolgreich abgeschlossen.
+
+[Verse 1]
+Ein neues Hintergrundbild für die ganze Firma, Logo, blau,
+GPO gebaut, verlinkt auf die OU, ich weiss es genau.
+Am Morgen ruft das Marketing: Bei uns ist alles alt,
+der Hintergrund von gestern, und die Richtlinie lässt sie kalt.
+gpresult /r, ich lese, was der Rechner sagt:
+„Verweigert (Sicherheit)“, die Filterung hat versagt.
+Ich hab Authenticated Users rausgenommen, nur die Gruppe drin,
+doch der Computer muss die GPO lesen dürfen, sonst kommt sie nie hin.
+
+[Chorus]
+Group Policy.
+L. S. D. O. U.
+Group Policy.
+Lokal, Site, Domain, OU.
+Die letzte gewinnt, die nächste zählt,
+gpupdate /force, und die Richtlinie hält.
+
+[Verse 2]
+Ich geb den Computern Leserecht, Delegierung, ein Klick,
+gpupdate /force, abmelden, anmelden, das Logo ist wieder im Blick.
+Doch die Buchhaltung bleibt grau, die OU hat Vererbung blockiert,
+irgendwer, vor Jahren, hat's gesetzt und nie notiert.
+Ich verlinke die GPO direkt dort, sauber, ohne „Erzwungen“,
+denn wer alles erzwingt, hat am Ende nichts verstanden.
+
+[Chorus]
+Group Policy.
+L. S. D. O. U.
+Group Policy.
+Lokal, Site, Domain, OU.
+Die letzte gewinnt, die nächste zählt,
+gpupdate /force, und die Richtlinie hält.
+
+[Bridge]
+Computer beim Start,
+Benutzer beim Login,
+alle neunzig Minuten im Hintergrund,
+plus bis zu dreissig Minuten Zufall obendrin.
+
+[Chorus]
+Group Policy.
+L. S. D. O. U.
+Group Policy.
+Lokal, Site, Domain, OU.
+Die letzte gewinnt, die nächste zählt,
+gpupdate /force, und die Richtlinie hält.
+
+[Outro]
+Die Aktualisierung der Benutzerrichtlinie wurde erfolgreich abgeschlossen.
+Hintergrund: blau.

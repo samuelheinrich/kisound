@@ -1,0 +1,58 @@
+[Intro]
+regedit.
+Ja, ich will Änderungen zulassen.
+
+[Verse 1]
+Eine Einstellung fehlt im Menü, kein Häkchen, kein Knopf,
+die Doku sagt: Registry. Ich hab den Pfad im Kopf.
+HKEY_LOCAL_MACHINE, SOFTWARE, Policies, ich klick mich rein,
+ein Baum aus Schlüsseln, jeder Ast kann eine Falle sein.
+Bevor ich irgendwas ändre: Rechtsklick, Exportieren,
+eine .reg-Datei als Sicherung, ich will nichts riskieren.
+Neuer DWORD, zweiunddreissig Bit, der Name exakt nach Doku,
+der Wert von null auf eins, und ich prüf zweimal, was ich tu.
+
+[Chorus]
+H-Key Local Machine.
+Ein Schlüssel. Ein Wert.
+H-Key Local Machine.
+Ein Tippfehler, und alles läuft verkehrt.
+Export zuerst, dann ändern, dann neu starten,
+Registry, und dann aufs Ergebnis warten.
+
+[Verse 2]
+Neustart. Nichts passiert. Die Einstellung bleibt aus.
+reg query sucht den Wert, er liegt im falschen Haus.
+Ein Buchstabe vertauscht im Pfad, ein neuer Schlüssel entstand,
+„Polices“ statt „Policies“, der Fehler lag in meiner Hand.
+Ich lösch den falschen Schlüssel, setz den Wert, wo er gehört,
+Neustart, und die Einstellung greift. Nichts ist zerstört.
+Und damit's nie wieder jemand von Hand machen muss,
+verteil ich's per Gruppenrichtlinie, und mit dem Klicken ist Schluss.
+
+[Chorus]
+H-Key Local Machine.
+Ein Schlüssel. Ein Wert.
+H-Key Local Machine.
+Ein Tippfehler, und alles läuft verkehrt.
+Export zuerst, dann ändern, dann neu starten,
+Registry, und dann aufs Ergebnis warten.
+
+[Bridge]
+Hive. Key. Value. Data.
+REG_SZ. REG_DWORD. REG_BINARY.
+Wer hier blind klickt, braucht Glück.
+Wer exportiert, kommt zurück.
+
+[Chorus]
+H-Key Local Machine.
+Ein Schlüssel. Ein Wert.
+H-Key Local Machine.
+Ein Tippfehler, und alles läuft verkehrt.
+Export zuerst, dann ändern, dann neu starten,
+Registry, und dann aufs Ergebnis warten.
+
+[Outro]
+Export gespeichert.
+Wert gesetzt.
+regedit geschlossen.

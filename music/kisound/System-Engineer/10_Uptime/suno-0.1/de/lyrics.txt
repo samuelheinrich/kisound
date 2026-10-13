@@ -1,0 +1,56 @@
+[Intro]
+Uptime:
+tausendvierhundertzwölf Tage.
+
+[Verse 1]
+Ein Server im Keller, Staub auf dem Gehäuse, grau,
+seit fast vier Jahren an, was er macht, weiss keiner genau.
+Der Kollege, der ihn baute, ist längst nicht mehr im Haus,
+an der Tür ein Zettel: „Nicht ausschalten!“, und keiner schaltet aus.
+Jetzt zieht der Raum um, das Rack muss in den neuen Bau,
+der Server muss runter, einmal aus, einmal an, und dann schau.
+
+[Chorus]
+Uptime.
+Tausendvierhundert Tage.
+Uptime.
+Never touch a running system, keine Frage.
+Doch einmal kommt der Tag, da musst du ran,
+und dann zeigt sich, ob er wieder starten kann.
+
+[Verse 2]
+Shutdown. Die Lüfter werden leiser, dann ist Ruh.
+Umzug, neues Rack, Strom an, ich schau dem Bootscreen zu.
+Der RAID-Controller piept: Akku leer, Cache aus, doch die Platten drehen,
+fsck läuft über alles, eine Stunde lang, ich bleib stehen.
+Login. Der Server lebt. Doch der Dienst ist weg, nicht da,
+er wurde damals per Hand gestartet, nie aktiviert, klar.
+systemctl enable, systemctl start, und jetzt weiss ich, was er tut:
+er verteilt die Lizenzen für die CAD-Software. Ich atme durch. Gut.
+
+[Chorus]
+Uptime.
+Tausendvierhundert Tage.
+Uptime.
+Never touch a running system, keine Frage.
+Doch einmal kommt der Tag, da musst du ran,
+und dann zeigt sich, ob er wieder starten kann.
+
+[Bridge]
+Ein Neustart ist kein Risiko,
+ein Neustart ist ein Test.
+Was nur läuft, weil keiner es anfasst,
+läuft nur, bis es dich verlässt.
+
+[Chorus]
+Uptime.
+Tausendvierhundert Tage.
+Uptime.
+Never touch a running system, keine Frage.
+Doch einmal kommt der Tag, da musst du ran,
+und dann zeigt sich, ob er wieder starten kann.
+
+[Outro]
+Uptime:
+null Tage, zwölf Minuten.
+Und es läuft.

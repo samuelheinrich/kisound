@@ -1,0 +1,107 @@
+VERSION: 0.5
+ALBUM: Network Engineer 02
+TRACK: 07 - C-L-I
+THEMA: C-L-I als Source of Truth, direkter Gerätestatus und schnelle Konfiguration; die GUI lädt noch, während die Config bereits steht
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+[Intro - Full Voice]
+Cursor blinkt.
+Session steht.
+C-L-I.
+Direkt aufs Gerät.
+
+[Verse 1]
+Dein Browser lädt, der Kreis dreht weiter,
+du suchst den Punkt im dritten Reiter.
+Ich bin längst auf dem Gerät,
+seh, was wirklich in der Config steht.
+Zwei Befehle, klare Antwort,
+kein Dialog versperrt den Weg.
+Du klickst noch durch die Menüs,
+ich hab den Port schon konfiguriert.
+
+[Pre-Chorus]
+Kein Ladekreis.
+Kein Labyrinth.
+Enter.
+Die Antwort kommt.
+
+[Chorus - Full Voice]
+C-L-I.
+Das einzig Wahre.
+Source of Truth.
+Was sie zeigt, stimmt.
+C-L-I.
+Du klickst noch durch die Menüs.
+Meine Config ist schon fertig.
+Direkt auf dem Gerät.
+
+[Verse 2]
+Das grüne Icon lächelt weiter,
+doch der Counter zählt den Drop.
+Ich frag den Port nach seinem Status,
+hol den echten Zustand hoch.
+show interfaces.
+Zeig mir den Stand.
+show running-config.
+Ich hab die Wahrheit in der Hand.
+
+[Hook - Full Voice]
+Login.
+Show.
+Config.
+Enter.
+Prüfen.
+Fertig.
+
+[Verse 3 - Full Voice]
+Die GUI hängt im Timeout.
+Die Console ist bereit.
+Du suchst noch den Save-Button,
+mein Stand ist längst gesichert.
+Was läuft, steht hier.
+Was bleibt, ist gespeichert.
+Ein Befehl.
+Eine klare Antwort.
+
+[Chorus - Full Voice]
+C-L-I.
+Das einzig Wahre.
+Source of Truth.
+Was sie zeigt, stimmt.
+C-L-I.
+Du klickst noch durch die Menüs.
+Meine Config ist schon fertig.
+Direkt auf dem Gerät.
+
+[Final Chorus - Full Voice]
+C-L-I.
+Das einzig Wahre.
+Source of Truth.
+Hier steht, was wirklich läuft.
+C-L-I.
+Dein Fenster sucht die Antwort.
+Meine Config ist schon fertig.
+Der nächste Befehl steht an.
+
+[Outro - Full Voice]
+Config steht.
+Status geprüft.
+Die GUI lädt.
+Ich bin schon durch.
+
+STYLE PROMPT:
+Fröhlicher, federnder Dubstep mit funkigem Breakbeat bei etwa 140 BPM. Knackige synkopierte Drums, lebendige Ghost Notes, lockere Hi-Hats und ein runder warmer Subbass. In den Strophen rollt ein verspielter Breakbeat, im Refrain öffnet sich der Rhythmus zu einem lässigen Dubstep-Halftime-Groove mit deutlicher Snare auf dem dritten Schlag. Das Tempo bleibt gleich; der Wechsel im Rhythmus lässt den Hook größer und entspannter wirken. Helle Pluck-Synths, kurze funky Akkord-Stabs in Dur und melodische Wobble-Bass-Antworten geben dem Track gute Laune und Wiedererkennungswert. Tanzbar, frech und souverän.
+
+Die C-L-I ist der schnelle, clevere Kollege, der lächelnd schon fertig ist, während die GUI noch lädt. Diese Freude am direkten Arbeiten prägt den Sound. Dezente Tastatur-Klicks bilden kleine Percussion-Fills. Auf kurze Befehle folgen instrumentale Bass- oder Synth-Antworten, als käme die Bestätigung sofort aus dem Gerät. Der Bass wippt und singt mit kurzen melodischen Figuren; die Drums lassen Raum für den Text. Sauberer, luftiger Mix mit klaren Höhen und kräftigem, kontrolliertem Bass.
+
+Die Strophen rhythmisch und locker über den Breakbeat führen. Im Pre-Chorus mit einem kurzen Drum-Fill und steigender Synth-Figur Vorfreude erzeugen. «C-L-I. Das einzig Wahre. Source of Truth» wird ein eingängiger, leicht melodischer Refrain mit breitem Halftime-Groove. Der Drop führt diesen Hook mit fröhlichen Bass-Antworten weiter. Die sechs kurzen Worte im Hook wie eine spielerische Abfolge von Befehlen performen; jedes Wort erhält eine kleine instrumentale Reaktion. Verse 3 bringt den lebendigen Breakbeat zurück. Der Final Chorus kombiniert die helle Hook-Melodie mit zusätzlichen Drum-Fills. Das Outro endet mit einem hörbaren Grinsen auf «Ich bin schon durch» und einer kurzen musikalischen Antwort.
+
+Eine einzelne warme männliche Lead-Stimme in mittlerer bis tiefer Lage. Die Strophen als lockeren rhythmischen Sprechgesang mit klarer Aussprache und charmantem Augenzwinkern performen. Im Refrain etwas melodischer singen, selbstbewusst und gut gelaunt. Der Spott über die wartende GUI ist spielerisch. Full Voice bedeutet eine natürliche volle Stimme, locker und präsent, auch in Intro, Verse 3 und Outro. Kein Flüstern, kein Hauchen und kein Schreien. Die gesamte Lyric verständlich lassen; instrumentale Wobble-Bässe übernehmen die verspielten Antworten, keine zweite Gesangsstimme und keine zerschnittenen Vocal-Samples.
+
+Die Energie kommt aus Swing, Breakbeats, Bassbewegung und der hellen Melodie. Keine durchgehende Four-on-the-floor-Kick, kein Industrial-Rumble und keine aggressiven kreischenden Brostep-Bässe. Der Track bleibt lebendig und bassstark, mit kurzen spielerischen Übergängen.
+
+Gesang auf Deutsch. Englische Fachbegriffe und die Befehle wie im Text stehen lassen und englisch aussprechen. C-L-I als einzelne englische Buchstaben C, L, I aussprechen; GUI als einzelne englische Buchstaben G, U, I. «Source of Truth» englisch aussprechen. Abschnittsnamen und Full Voice sind reine Anweisungen und werden nicht gesungen. Keine bekannten Melodie- oder Song-Referenzen.

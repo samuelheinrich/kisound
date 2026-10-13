@@ -1,0 +1,105 @@
+VERSION: 0.4
+ALBUM: Network Engineer 02
+TRACK: 07 - CLI
+THEMA: CLI als Source of Truth, direkter Gerätestatus und schnelle Konfiguration; die GUI lädt noch, während die Config bereits steht
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+[Intro - Full Voice]
+Cursor blinkt.
+Session steht.
+CLI.
+Direkt aufs Gerät.
+
+[Verse 1]
+Dein Browser lädt, der Kreis dreht weiter,
+du suchst den Punkt im dritten Reiter.
+Ich bin längst auf dem Gerät,
+seh, was wirklich in der Config steht.
+Zwei Befehle, klare Antwort,
+kein Dialog versperrt den Weg.
+Du klickst noch durch die Menüs,
+ich hab den Port schon konfiguriert.
+
+[Pre-Chorus]
+Kein Ladekreis.
+Kein Labyrinth.
+Enter.
+Die Antwort kommt.
+
+[Chorus - Full Voice]
+CLI.
+Das einzig Wahre.
+Source of Truth.
+Was sie zeigt, stimmt.
+CLI.
+Du klickst noch durch die Menüs.
+Meine Config ist schon fertig.
+Direkt auf dem Gerät.
+
+[Verse 2]
+Das grüne Icon lächelt weiter,
+doch der Counter zählt den Drop.
+Ich frag den Port nach seinem Status,
+hol den echten Zustand hoch.
+show interfaces.
+Zeig mir den Stand.
+show running-config.
+Ich hab die Wahrheit in der Hand.
+
+[Hook - Full Voice]
+Login.
+Show.
+Config.
+Enter.
+Prüfen.
+Fertig.
+
+[Verse 3 - Full Voice]
+Die GUI hängt im Timeout.
+Die Console ist bereit.
+Du suchst noch den Save-Button,
+mein Stand ist längst gesichert.
+Was läuft, steht hier.
+Was bleibt, ist gespeichert.
+Ein Befehl.
+Eine klare Antwort.
+
+[Chorus - Full Voice]
+CLI.
+Das einzig Wahre.
+Source of Truth.
+Was sie zeigt, stimmt.
+CLI.
+Du klickst noch durch die Menüs.
+Meine Config ist schon fertig.
+Direkt auf dem Gerät.
+
+[Final Chorus - Full Voice]
+CLI.
+Das einzig Wahre.
+Source of Truth.
+Hier steht, was wirklich läuft.
+CLI.
+Dein Fenster sucht die Antwort.
+Meine Config ist schon fertig.
+Der nächste Befehl steht an.
+
+[Outro - Full Voice]
+Config steht.
+Status geprüft.
+Die GUI lädt.
+Ich bin schon durch.
+
+STYLE PROMPT:
+Harter, kompromissloser Industrial Hard Techno bei etwa 148 BPM. Massive verzerrte Four-on-the-floor-Kick, tiefer rollender Rumble-Bass und ein trockener, körperlicher Groove. Scharfe Hi-Hats, metallische Percussion, harte Claps, kurze aggressive Synth-Stabs und eine hypnotische Sequenz mit bissigen Acid-Akzenten. Von Beginn an deutlichen Druck aufbauen: Cursor-Klicks werden zu Percussion, dann greifen Kick und Bass sofort ineinander. Die Hauptenergie kommt aus Kick, Bass und Rhythmus. Dunkel, mechanisch, direkt und selbstbewusst; der Track muss nach hartem Club-Techno klingen.
+
+Die Strophen liegen über einem stabilen treibenden Groove. In den Refrains Kick, Bass und Synth-Stabs verdichten und den Hook «CLI. Das einzig Wahre. Source of Truth» rhythmisch nach vorn stellen. Die sechs Worte im Hook als kräftige, klar getrennte Schläge performen; kurze Synth-Antworten zwischen den Worten. Verse 3 bleibt ebenso hart und präsent wie die anderen Strophen. Spannung durch Filter, Percussion und kurze rhythmische Stops erzeugen. Der Final Chorus ist der druckvollste Abschnitt. Das Outro endet mit einer entschlossenen letzten Ansage und einem klaren Abschluss.
+
+Eine einzelne tiefe männliche Lead-Stimme, rau, bestimmt und voll projiziert. Die Lyrics rhythmisch mit voller Stimme sprechen oder energisch im Takt anrufen. Selbstbewusster trockener Spott gegenüber der klickenden, wartenden GUI; die CLI-Ansagen wirken wie klare Befehle. Die Stimme in allen Abschnitten kräftig und verständlich halten, ausdrücklich auch in Intro, Verse 3 und Outro. Kein Flüstern, kein Hauchen und keine ASMR-Passagen. Full Voice verlangt volle energische Stimmgebung. Eine durchgehende Lead-Stimme verwenden; keine zusätzliche Computerstimme. Die Worte dürfen nicht unter Distortion oder Bass verschwinden.
+
+Keine weichen Pads, keine Synthwave-Flächen, keine sentimentalen Akkordfolgen und keine langen ruhigen Gesangspassagen. Auch bei einem kurzen rhythmischen Stop bleibt die Stimme fest und präsent.
+
+Gesang auf Deutsch. Englische Fachbegriffe und die Befehle wie im Text stehen lassen und englisch aussprechen. CLI als einzelne englische Buchstaben C, L, I aussprechen; GUI als einzelne englische Buchstaben G, U, I. «Source of Truth» englisch aussprechen. Abschnittsnamen und Full Voice sind reine Anweisungen und werden nicht gesungen. Keine bekannten Melodie- oder Song-Referenzen.

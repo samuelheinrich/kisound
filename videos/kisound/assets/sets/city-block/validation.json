@@ -1,0 +1,15 @@
+{
+  "setId": "city-block",
+  "status": "OK",
+  "triangles": 3600,
+  "budget": 300000,
+  "meshes": 245,
+  "anchors": 6,
+  "materials": [
+    "cavity",
+    "chassis",
+    "led"
+  ],
+  "errors": [],
+  "warnings": []
+}

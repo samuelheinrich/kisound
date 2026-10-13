@@ -1,0 +1,3528 @@
+{
+  "schema": "kisound.ospf.cues.v1",
+  "source_sha256": "56fa0fd69fb22b27208f72069b7fd59b34aa74f597c2a78ff0d05bca6639790d",
+  "analysis_sha256": "c22ca2060074ce04104806c63153f1db170aa0ec64229d5d3aab667956b400eb",
+  "duration_s": 181.08097916666668,
+  "fps": 60,
+  "frames": 10865,
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "OSPF Neighbors",
+      "start": 0,
+      "end": 7.6,
+      "action": "Atlas aus der Dunkelheit öffnen; Anfangstitel über ersten Hello-Impulsen.",
+      "event_ids": [
+        "E001",
+        "E002"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "C02",
+      "title": "Area 0 / Hello",
+      "start": 7.6,
+      "end": 23.16,
+      "action": "Hello zwischen direkten Nachbarn; Routerinseln und Backbone verbinden sich.",
+      "event_ids": [
+        "E003",
+        "E004"
+      ],
+      "lyric_ids": [
+        "L001",
+        "L002",
+        "L003",
+        "L004"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "Init → Two-Way",
+      "start": 23.16,
+      "end": 36.98,
+      "action": "Router-ID im Hello-Nachbarfeld identifiziert bidirektionale Kommunikation.",
+      "event_ids": [
+        "E005",
+        "E006"
+      ],
+      "lyric_ids": [
+        "L005",
+        "L006",
+        "L007",
+        "L008"
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "DR / BDR / DROTHER",
+      "start": 36.98,
+      "end": 47.88,
+      "action": "R4 ist DR, R5 BDR; R6 und R7 bleiben DROTHER. Matrix zeigt Beziehungen.",
+      "event_ids": [
+        "E007",
+        "E008",
+        "E009",
+        "E010",
+        "E011",
+        "E012"
+      ],
+      "lyric_ids": [
+        "L009",
+        "L010",
+        "L011",
+        "L012"
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "Database aligned / SPF",
+      "start": 47.88,
+      "end": 62.38,
+      "action": "ExStart, DBD-Header, LSR, LSU und LSAck bis Full; SPF öffnet Wege.",
+      "event_ids": [
+        "E013",
+        "E014",
+        "E015",
+        "E016",
+        "E017"
+      ],
+      "lyric_ids": [
+        "L013",
+        "L014",
+        "L015",
+        "L016",
+        "L017",
+        "L018",
+        "L019",
+        "L020"
+      ]
+    },
+    {
+      "id": "C06",
+      "title": "Area 1 / ABR",
+      "start": 62.38,
+      "end": 76.58,
+      "action": "R7 verbindet Area 0 und Area 1. Getrennte LSDBs; Type-3-LSA neu erzeugen.",
+      "event_ids": [
+        "E018",
+        "E019",
+        "E020"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "C07",
+      "title": "Equal Cost / Flows",
+      "start": 76.58,
+      "end": 90.76,
+      "action": "Zwei gleich teure Wege; vier unterscheidbare Flows bleiben auf ihren gewählten Wegen.",
+      "event_ids": [
+        "E021",
+        "E022",
+        "E023"
+      ],
+      "lyric_ids": [
+        "L021",
+        "L022",
+        "L023",
+        "L024"
+      ]
+    },
+    {
+      "id": "C08",
+      "title": "Link State / Cost",
+      "start": 90.76,
+      "end": 104.84,
+      "action": "LSA aktualisieren; Metrik R1–R2 steigt 10 → 25, SPF wählt R3.",
+      "event_ids": [
+        "E024",
+        "E025",
+        "E026",
+        "E027"
+      ],
+      "lyric_ids": [
+        "L025",
+        "L026",
+        "L027",
+        "L028",
+        "L029",
+        "L030"
+      ]
+    },
+    {
+      "id": "C09",
+      "title": "Reliable flood / SPF",
+      "start": 104.84,
+      "end": 118.5,
+      "action": "LSU und Bestätigungen; SPF aus zwei Routerperspektiven, keine globale Wurzel.",
+      "event_ids": [
+        "E028"
+      ],
+      "lyric_ids": [
+        "L031",
+        "L032",
+        "L033",
+        "L034"
+      ]
+    },
+    {
+      "id": "C10",
+      "title": "Hello / ECMP reprise",
+      "start": 118.5,
+      "end": 132.68,
+      "action": "Metrik zurück auf 10; Datenbankabgleich und beide Wege erneut öffnen.",
+      "event_ids": [
+        "E029",
+        "E030"
+      ],
+      "lyric_ids": [
+        "L035",
+        "L036",
+        "L037",
+        "L038",
+        "L039",
+        "L040",
+        "L041",
+        "L042"
+      ]
+    },
+    {
+      "id": "C11",
+      "title": "Link down / Convergence",
+      "start": 132.68,
+      "end": 144.28,
+      "action": "R2–R4 fällt bei E032 aus; LSAs aktualisieren, Nutzdaten wechseln zu R3.",
+      "event_ids": [
+        "E031",
+        "E032",
+        "E033"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "C12",
+      "title": "Full / Roles / Recovery",
+      "start": 144.28,
+      "end": 168.88,
+      "action": "Passende Nachbarpaare zu Outro-Begriffen; Link ab E038 wieder aufbauen, ECMP zurück.",
+      "event_ids": [
+        "E034",
+        "E035",
+        "E036",
+        "E037",
+        "E038",
+        "E039"
+      ],
+      "lyric_ids": [
+        "L043",
+        "L044",
+        "L045",
+        "L046",
+        "L047",
+        "L048",
+        "L049"
+      ]
+    },
+    {
+      "id": "C13",
+      "title": "OSPF / Samuel Heinrich",
+      "start": 168.88,
+      "end": 178.35,
+      "action": "Aktiven Multi-Area-Atlas öffnen; Schlusstext; letzter kräftiger Lichtakzent bei E045.",
+      "event_ids": [
+        "E040",
+        "E041",
+        "E042",
+        "E043",
+        "E044",
+        "E045"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "C14",
+      "title": "Actual audio tail",
+      "start": 178.35,
+      "end": 181.08097916666668,
+      "action": "Atlas und Titel erst mit dem tatsächlichen Endabfall auflösen.",
+      "event_ids": [
+        "E046"
+      ],
+      "lyric_ids": []
+    }
+  ],
+  "shots": [
+    {
+      "id": "S001",
+      "start": 0,
+      "end": 7.6,
+      "zone": "atlas",
+      "camera": "opening",
+      "mode": "intro",
+      "eventIds": [
+        "E001",
+        "E002"
+      ],
+      "lyricIds": [],
+      "action": "Atlas öffnen; OSPF / NEIGHBORS und SAMUEL HEINRICH einblenden.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S002",
+      "start": 7.6,
+      "end": 11,
+      "zone": "atlas",
+      "camera": "chase",
+      "mode": "hello",
+      "eventIds": [
+        "E003"
+      ],
+      "lyricIds": [
+        "L001"
+      ],
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S003",
+      "start": 11,
+      "end": 14.82,
+      "zone": "atlas",
+      "camera": "wide",
+      "mode": "area0",
+      "eventIds": [],
+      "lyricIds": [
+        "L002"
+      ],
+      "action": "Backbone-Karte räumlich öffnen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S004",
+      "start": 14.82,
+      "end": 18.36,
+      "zone": "atlas",
+      "camera": "orbit",
+      "mode": "hello",
+      "eventIds": [
+        "E004"
+      ],
+      "lyricIds": [
+        "L003"
+      ],
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S005",
+      "start": 18.36,
+      "end": 23.16,
+      "zone": "atlas",
+      "camera": "rise",
+      "mode": "area0",
+      "eventIds": [],
+      "lyricIds": [
+        "L004"
+      ],
+      "action": "Backbone-Karte räumlich öffnen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S006",
+      "start": 23.16,
+      "end": 26.64,
+      "zone": "neighbour",
+      "camera": "close",
+      "mode": "hello",
+      "eventIds": [
+        "E005"
+      ],
+      "lyricIds": [
+        "L005"
+      ],
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S007",
+      "start": 26.64,
+      "end": 30.22,
+      "zone": "atlas",
+      "camera": "orbit",
+      "mode": "area0",
+      "eventIds": [
+        "E006"
+      ],
+      "lyricIds": [
+        "L006"
+      ],
+      "action": "Backbone-Karte räumlich öffnen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S008",
+      "start": 30.22,
+      "end": 33.86,
+      "zone": "neighbour",
+      "camera": "side",
+      "mode": "states",
+      "eventIds": [],
+      "lyricIds": [
+        "L007"
+      ],
+      "action": "Init und nachfolgende Nachbarzustände hervorheben.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S009",
+      "start": 33.86,
+      "end": 36.98,
+      "zone": "neighbour",
+      "camera": "close",
+      "mode": "twoway",
+      "eventIds": [],
+      "lyricIds": [
+        "L008"
+      ],
+      "action": "Eigenen Router-ID-Eintrag bestätigen; später normales DROTHER-Paar zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S010",
+      "start": 36.98,
+      "end": 39.16,
+      "zone": "atlas",
+      "camera": "lan",
+      "mode": "roles",
+      "eventIds": [
+        "E007",
+        "E008"
+      ],
+      "lyricIds": [
+        "L009"
+      ],
+      "action": "DR, BDR und DROTHER auf dem Broadcastsegment gegenüberstellen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S011",
+      "start": 39.16,
+      "end": 40.92,
+      "zone": "neighbour",
+      "camera": "matrix",
+      "mode": "drother",
+      "eventIds": [
+        "E009"
+      ],
+      "lyricIds": [
+        "L010"
+      ],
+      "action": "R6 / R7 bleiben Two-Way; Rollen von Zuständen unterscheiden.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S012",
+      "start": 40.92,
+      "end": 42.78,
+      "zone": "atlas",
+      "camera": "bdr",
+      "mode": "roles",
+      "eventIds": [
+        "E010"
+      ],
+      "lyricIds": [
+        "L011"
+      ],
+      "action": "DR, BDR und DROTHER auf dem Broadcastsegment gegenüberstellen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S013",
+      "start": 42.78,
+      "end": 45,
+      "zone": "neighbour",
+      "camera": "matrix",
+      "mode": "bdr",
+      "eventIds": [
+        "E011",
+        "E012"
+      ],
+      "lyricIds": [
+        "L012"
+      ],
+      "action": "R5 als bestehenden Backup Designated Router hervorheben.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S014",
+      "start": 45,
+      "end": 47.88,
+      "zone": "atlas",
+      "camera": "lan",
+      "mode": "roles",
+      "eventIds": [],
+      "lyricIds": [],
+      "action": "DR, BDR und DROTHER auf dem Broadcastsegment gegenüberstellen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S015",
+      "start": 47.88,
+      "end": 49.72,
+      "zone": "database",
+      "camera": "wide",
+      "mode": "exstart",
+      "eventIds": [
+        "E013",
+        "E014"
+      ],
+      "lyricIds": [
+        "L013"
+      ],
+      "action": "DBD-Sequenzaushandlung vorbereiten; ExStart zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S016",
+      "start": 49.72,
+      "end": 51.62,
+      "zone": "database",
+      "camera": "side",
+      "mode": "dbd",
+      "eventIds": [
+        "E015"
+      ],
+      "lyricIds": [
+        "L014"
+      ],
+      "action": "LSA-Header vergleichen; fehlende oder neuere Informationen markieren.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S017",
+      "start": 51.62,
+      "end": 53.36,
+      "zone": "database",
+      "camera": "track",
+      "mode": "loading",
+      "eventIds": [],
+      "lyricIds": [
+        "L015"
+      ],
+      "action": "LSR, LSU und LSAck nacheinander unterscheiden.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S018",
+      "start": 53.36,
+      "end": 55.18,
+      "zone": "database",
+      "camera": "wide",
+      "mode": "aligned",
+      "eventIds": [],
+      "lyricIds": [
+        "L016"
+      ],
+      "action": "Passende Datenbankstände derselben Area gegenüberstellen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S019",
+      "start": 55.18,
+      "end": 58.64,
+      "zone": "routing",
+      "camera": "wide",
+      "mode": "spf",
+      "eventIds": [
+        "E016"
+      ],
+      "lyricIds": [
+        "L017",
+        "L018"
+      ],
+      "action": "SPF aus lokaler Routerperspektive durchlaufen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S020",
+      "start": 58.64,
+      "end": 62.38,
+      "zone": "atlas",
+      "camera": "chase",
+      "mode": "flows",
+      "eventIds": [
+        "E017"
+      ],
+      "lyricIds": [
+        "L019",
+        "L020"
+      ],
+      "action": "Unterscheidbare Nutzdatenflows auf ausgewählten Wegen verfolgen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S021",
+      "start": 62.38,
+      "end": 65,
+      "zone": "atlas",
+      "camera": "areas",
+      "mode": "multi",
+      "eventIds": [
+        "E018"
+      ],
+      "lyricIds": [],
+      "action": "Area 1 über R7 öffnen; Area-Grenze und ABR zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S022",
+      "start": 65,
+      "end": 68,
+      "zone": "neighbour",
+      "camera": "side",
+      "mode": "area1",
+      "eventIds": [
+        "E019"
+      ],
+      "lyricIds": [],
+      "action": "Neue Punkt-zu-Punkt-Nachbarschaft R7 / R8 aufbauen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S023",
+      "start": 68,
+      "end": 71.5,
+      "zone": "database",
+      "camera": "wide",
+      "mode": "areas",
+      "eventIds": [],
+      "lyricIds": [],
+      "action": "Separate LSDBs zeigen; lokale LSA-Information endet am ABR.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S024",
+      "start": 71.5,
+      "end": 74.7,
+      "zone": "database",
+      "camera": "track",
+      "mode": "summary",
+      "eventIds": [],
+      "lyricIds": [],
+      "action": "Type-3-LSA am ABR neu erzeugen; Präfix und Metrik zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S025",
+      "start": 74.7,
+      "end": 76.58,
+      "zone": "atlas",
+      "camera": "border",
+      "mode": "multi",
+      "eventIds": [
+        "E020"
+      ],
+      "lyricIds": [],
+      "action": "Area 1 über R7 öffnen; Area-Grenze und ABR zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S026",
+      "start": 76.58,
+      "end": 79.7,
+      "zone": "routing",
+      "camera": "wide",
+      "mode": "ecmp",
+      "eventIds": [
+        "E021",
+        "E022"
+      ],
+      "lyricIds": [
+        "L021"
+      ],
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S027",
+      "start": 79.7,
+      "end": 83.22,
+      "zone": "atlas",
+      "camera": "chase",
+      "mode": "ecmp",
+      "eventIds": [],
+      "lyricIds": [
+        "L022"
+      ],
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S028",
+      "start": 83.22,
+      "end": 86.62,
+      "zone": "neighbour",
+      "camera": "matrix",
+      "mode": "adjacency",
+      "eventIds": [
+        "E023"
+      ],
+      "lyricIds": [
+        "L023"
+      ],
+      "action": "DROTHER-Nachbarschaft mit Full-Beziehungen zu DR/BDR vergleichen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S029",
+      "start": 86.62,
+      "end": 90.76,
+      "zone": "atlas",
+      "camera": "orbit",
+      "mode": "ecmp",
+      "eventIds": [],
+      "lyricIds": [
+        "L024"
+      ],
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S030",
+      "start": 90.76,
+      "end": 94.3,
+      "zone": "database",
+      "camera": "track",
+      "mode": "lsa",
+      "eventIds": [
+        "E024",
+        "E025"
+      ],
+      "lyricIds": [
+        "L025",
+        "L026"
+      ],
+      "action": "LSA-Identität und fortschreitende Sequenznummer zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S031",
+      "start": 94.3,
+      "end": 95.98,
+      "zone": "routing",
+      "camera": "side",
+      "mode": "cost",
+      "eventIds": [],
+      "lyricIds": [
+        "L027"
+      ],
+      "action": "Konfigurierte Kostenänderung R1–R2 zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S032",
+      "start": 95.98,
+      "end": 97.76,
+      "zone": "routing",
+      "camera": "wide",
+      "mode": "spf",
+      "eventIds": [],
+      "lyricIds": [
+        "L028"
+      ],
+      "action": "SPF aus lokaler Routerperspektive durchlaufen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S033",
+      "start": 97.76,
+      "end": 99.72,
+      "zone": "atlas",
+      "camera": "lan",
+      "mode": "roles",
+      "eventIds": [],
+      "lyricIds": [
+        "L029"
+      ],
+      "action": "DR, BDR und DROTHER auf dem Broadcastsegment gegenüberstellen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S034",
+      "start": 99.72,
+      "end": 103,
+      "zone": "atlas",
+      "camera": "local",
+      "mode": "drother-data",
+      "eventIds": [],
+      "lyricIds": [
+        "L030"
+      ],
+      "action": "Nutzdaten R6 → R7 direkt über das gemeinsame Ethernetsegment weiterleiten.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S035",
+      "start": 103,
+      "end": 104.84,
+      "zone": "database",
+      "camera": "wide",
+      "mode": "lsa",
+      "eventIds": [
+        "E026",
+        "E027"
+      ],
+      "lyricIds": [],
+      "action": "LSA-Identität und fortschreitende Sequenznummer zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S036",
+      "start": 104.84,
+      "end": 106.6,
+      "zone": "database",
+      "camera": "track",
+      "mode": "flood",
+      "eventIds": [
+        "E028"
+      ],
+      "lyricIds": [
+        "L031"
+      ],
+      "action": "LSU und Bestätigungen als verlässlichen Austausch zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S037",
+      "start": 106.6,
+      "end": 109,
+      "zone": "routing",
+      "camera": "side",
+      "mode": "cost",
+      "eventIds": [],
+      "lyricIds": [
+        "L032"
+      ],
+      "action": "Konfigurierte Kostenänderung R1–R2 zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S038",
+      "start": 109,
+      "end": 111.8,
+      "zone": "database",
+      "camera": "wide",
+      "mode": "aligned",
+      "eventIds": [],
+      "lyricIds": [],
+      "action": "Passende Datenbankstände derselben Area gegenüberstellen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S039",
+      "start": 111.8,
+      "end": 114.74,
+      "zone": "routing",
+      "camera": "wide",
+      "mode": "root-r1",
+      "eventIds": [],
+      "lyricIds": [
+        "L033"
+      ],
+      "action": "SPF-Baum mit Wurzel R1 berechnen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S040",
+      "start": 114.74,
+      "end": 118.5,
+      "zone": "routing",
+      "camera": "side",
+      "mode": "root-r4",
+      "eventIds": [],
+      "lyricIds": [
+        "L034"
+      ],
+      "action": "Dieselbe Topologie mit lokaler Wurzel R4 berechnen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S041",
+      "start": 118.5,
+      "end": 120.2,
+      "zone": "neighbour",
+      "camera": "close",
+      "mode": "hello",
+      "eventIds": [
+        "E029",
+        "E030"
+      ],
+      "lyricIds": [
+        "L035"
+      ],
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S042",
+      "start": 120.2,
+      "end": 123.84,
+      "zone": "atlas",
+      "camera": "rise",
+      "mode": "reprise",
+      "eventIds": [],
+      "lyricIds": [
+        "L036",
+        "L037"
+      ],
+      "action": "Atlas vergrössern; beide gleichwertigen Wege wieder öffnen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S043",
+      "start": 123.84,
+      "end": 125.58,
+      "zone": "database",
+      "camera": "wide",
+      "mode": "aligned",
+      "eventIds": [],
+      "lyricIds": [
+        "L038"
+      ],
+      "action": "Passende Datenbankstände derselben Area gegenüberstellen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S044",
+      "start": 125.58,
+      "end": 129.16,
+      "zone": "routing",
+      "camera": "wide",
+      "mode": "ecmp",
+      "eventIds": [],
+      "lyricIds": [
+        "L039",
+        "L040"
+      ],
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S045",
+      "start": 129.16,
+      "end": 132.68,
+      "zone": "atlas",
+      "camera": "orbit",
+      "mode": "flows",
+      "eventIds": [],
+      "lyricIds": [
+        "L041",
+        "L042"
+      ],
+      "action": "Unterscheidbare Nutzdatenflows auf ausgewählten Wegen verfolgen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S046",
+      "start": 132.68,
+      "end": 135,
+      "zone": "atlas",
+      "camera": "fault",
+      "mode": "fault",
+      "eventIds": [
+        "E031",
+        "E032"
+      ],
+      "lyricIds": [],
+      "action": "Carrier-Verlust R2–R4; aktualisierte LSAs und Konvergenz zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S047",
+      "start": 135,
+      "end": 138,
+      "zone": "database",
+      "camera": "track",
+      "mode": "fault",
+      "eventIds": [],
+      "lyricIds": [],
+      "action": "Carrier-Verlust R2–R4; aktualisierte LSAs und Konvergenz zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S048",
+      "start": 138,
+      "end": 141,
+      "zone": "routing",
+      "camera": "wide",
+      "mode": "failover",
+      "eventIds": [],
+      "lyricIds": [],
+      "action": "Nutzdaten nach abgeschlossener Berechnung über R3 weiterleiten.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S049",
+      "start": 141,
+      "end": 144.28,
+      "zone": "atlas",
+      "camera": "chase",
+      "mode": "failover",
+      "eventIds": [
+        "E033"
+      ],
+      "lyricIds": [],
+      "action": "Nutzdaten nach abgeschlossener Berechnung über R3 weiterleiten.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S050",
+      "start": 144.28,
+      "end": 145.4,
+      "zone": "neighbour",
+      "camera": "matrix",
+      "mode": "full",
+      "eventIds": [
+        "E034"
+      ],
+      "lyricIds": [
+        "L043"
+      ],
+      "action": "Full-Beziehung R6 / R4 hervorheben.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S051",
+      "start": 145.4,
+      "end": 147.06,
+      "zone": "neighbour",
+      "camera": "matrix",
+      "mode": "twoway",
+      "eventIds": [
+        "E035",
+        "E036"
+      ],
+      "lyricIds": [
+        "L044"
+      ],
+      "action": "Eigenen Router-ID-Eintrag bestätigen; später normales DROTHER-Paar zeigen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S052",
+      "start": 147.06,
+      "end": 150.271,
+      "zone": "atlas",
+      "camera": "local",
+      "mode": "drother-data",
+      "eventIds": [],
+      "lyricIds": [
+        "L045"
+      ],
+      "action": "Nutzdaten R6 → R7 direkt über das gemeinsame Ethernetsegment weiterleiten.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S053",
+      "start": 150.271,
+      "end": 152.68,
+      "zone": "database",
+      "camera": "wide",
+      "mode": "areas",
+      "eventIds": [
+        "E037"
+      ],
+      "lyricIds": [],
+      "action": "Separate LSDBs zeigen; lokale LSA-Information endet am ABR.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S054",
+      "start": 152.68,
+      "end": 156.64,
+      "zone": "neighbour",
+      "camera": "matrix",
+      "mode": "drother",
+      "eventIds": [],
+      "lyricIds": [
+        "L046"
+      ],
+      "action": "R6 / R7 bleiben Two-Way; Rollen von Zuständen unterscheiden.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S055",
+      "start": 156.64,
+      "end": 160.8,
+      "zone": "atlas",
+      "camera": "lan",
+      "mode": "dr",
+      "eventIds": [],
+      "lyricIds": [
+        "L047"
+      ],
+      "action": "R4 als bestehenden Designated Router hervorheben.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S056",
+      "start": 160.8,
+      "end": 164,
+      "zone": "neighbour",
+      "camera": "side",
+      "mode": "recovery",
+      "eventIds": [
+        "E038",
+        "E039"
+      ],
+      "lyricIds": [],
+      "action": "R2 / R4 erneut durch Init, Two-Way und Datenbankabgleich zu Full führen.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S057",
+      "start": 164,
+      "end": 166.36,
+      "zone": "routing",
+      "camera": "wide",
+      "mode": "ecmp",
+      "eventIds": [],
+      "lyricIds": [],
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S058",
+      "start": 166.36,
+      "end": 167.76,
+      "zone": "atlas",
+      "camera": "chase",
+      "mode": "ecmp",
+      "eventIds": [],
+      "lyricIds": [
+        "L048"
+      ],
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S059",
+      "start": 167.76,
+      "end": 168.88,
+      "zone": "atlas",
+      "camera": "bdr",
+      "mode": "bdr",
+      "eventIds": [],
+      "lyricIds": [
+        "L049"
+      ],
+      "action": "R5 als bestehenden Backup Designated Router hervorheben.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S060",
+      "start": 168.88,
+      "end": 171.671,
+      "zone": "atlas",
+      "camera": "areas",
+      "mode": "final",
+      "eventIds": [
+        "E040",
+        "E041"
+      ],
+      "lyricIds": [],
+      "action": "Aktiven Multi-Area-Atlas öffnen; Titel und Name über der Welt.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S061",
+      "start": 171.671,
+      "end": 178.35,
+      "zone": "atlas",
+      "camera": "final",
+      "mode": "final",
+      "eventIds": [
+        "E042",
+        "E043",
+        "E044",
+        "E045"
+      ],
+      "lyricIds": [],
+      "action": "Aktiven Multi-Area-Atlas öffnen; Titel und Name über der Welt.",
+      "origin": "redaktionell vorgeschlagen"
+    },
+    {
+      "id": "S062",
+      "start": 178.35,
+      "end": 181.08097916666668,
+      "zone": "atlas",
+      "camera": "final",
+      "mode": "tail",
+      "eventIds": [
+        "E046"
+      ],
+      "lyricIds": [],
+      "action": "Bild und Titel mit dem tatsächlichen Audio-Endabfall auflösen.",
+      "origin": "redaktionell vorgeschlagen"
+    }
+  ],
+  "editorial": [
+    {
+      "id": "V001",
+      "time_s": 0,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S001",
+      "action": "Atlas öffnen; OSPF / NEIGHBORS und SAMUEL HEINRICH einblenden.",
+      "event_ids": [
+        "E001",
+        "E002"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V002",
+      "time_s": 7.6,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S002",
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "event_ids": [
+        "E003"
+      ],
+      "lyric_ids": [
+        "L001"
+      ]
+    },
+    {
+      "id": "V003",
+      "time_s": 11,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S003",
+      "action": "Backbone-Karte räumlich öffnen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L002"
+      ]
+    },
+    {
+      "id": "V004",
+      "time_s": 14.82,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S004",
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "event_ids": [
+        "E004"
+      ],
+      "lyric_ids": [
+        "L003"
+      ]
+    },
+    {
+      "id": "V005",
+      "time_s": 18.36,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S005",
+      "action": "Backbone-Karte räumlich öffnen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L004"
+      ]
+    },
+    {
+      "id": "V006",
+      "time_s": 23.16,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S006",
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "event_ids": [
+        "E005"
+      ],
+      "lyric_ids": [
+        "L005"
+      ]
+    },
+    {
+      "id": "V007",
+      "time_s": 26.64,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S007",
+      "action": "Backbone-Karte räumlich öffnen.",
+      "event_ids": [
+        "E006"
+      ],
+      "lyric_ids": [
+        "L006"
+      ]
+    },
+    {
+      "id": "V008",
+      "time_s": 30.22,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S008",
+      "action": "Init und nachfolgende Nachbarzustände hervorheben.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L007"
+      ]
+    },
+    {
+      "id": "V009",
+      "time_s": 33.86,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S009",
+      "action": "Eigenen Router-ID-Eintrag bestätigen; später normales DROTHER-Paar zeigen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L008"
+      ]
+    },
+    {
+      "id": "V010",
+      "time_s": 36.98,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S010",
+      "action": "DR, BDR und DROTHER auf dem Broadcastsegment gegenüberstellen.",
+      "event_ids": [
+        "E007",
+        "E008"
+      ],
+      "lyric_ids": [
+        "L009"
+      ]
+    },
+    {
+      "id": "V011",
+      "time_s": 39.16,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S011",
+      "action": "R6 / R7 bleiben Two-Way; Rollen von Zuständen unterscheiden.",
+      "event_ids": [
+        "E009"
+      ],
+      "lyric_ids": [
+        "L010"
+      ]
+    },
+    {
+      "id": "V012",
+      "time_s": 40.92,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S012",
+      "action": "DR, BDR und DROTHER auf dem Broadcastsegment gegenüberstellen.",
+      "event_ids": [
+        "E010"
+      ],
+      "lyric_ids": [
+        "L011"
+      ]
+    },
+    {
+      "id": "V013",
+      "time_s": 42.78,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S013",
+      "action": "R5 als bestehenden Backup Designated Router hervorheben.",
+      "event_ids": [
+        "E011",
+        "E012"
+      ],
+      "lyric_ids": [
+        "L012"
+      ]
+    },
+    {
+      "id": "V014",
+      "time_s": 45,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S014",
+      "action": "DR, BDR und DROTHER auf dem Broadcastsegment gegenüberstellen.",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V015",
+      "time_s": 47.88,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S015",
+      "action": "DBD-Sequenzaushandlung vorbereiten; ExStart zeigen.",
+      "event_ids": [
+        "E013",
+        "E014"
+      ],
+      "lyric_ids": [
+        "L013"
+      ]
+    },
+    {
+      "id": "V016",
+      "time_s": 49.72,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S016",
+      "action": "LSA-Header vergleichen; fehlende oder neuere Informationen markieren.",
+      "event_ids": [
+        "E015"
+      ],
+      "lyric_ids": [
+        "L014"
+      ]
+    },
+    {
+      "id": "V017",
+      "time_s": 51.62,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S017",
+      "action": "LSR, LSU und LSAck nacheinander unterscheiden.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L015"
+      ]
+    },
+    {
+      "id": "V018",
+      "time_s": 53.36,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S018",
+      "action": "Passende Datenbankstände derselben Area gegenüberstellen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L016"
+      ]
+    },
+    {
+      "id": "V019",
+      "time_s": 55.18,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S019",
+      "action": "SPF aus lokaler Routerperspektive durchlaufen.",
+      "event_ids": [
+        "E016"
+      ],
+      "lyric_ids": [
+        "L017",
+        "L018"
+      ]
+    },
+    {
+      "id": "V020",
+      "time_s": 58.64,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S020",
+      "action": "Unterscheidbare Nutzdatenflows auf ausgewählten Wegen verfolgen.",
+      "event_ids": [
+        "E017"
+      ],
+      "lyric_ids": [
+        "L019",
+        "L020"
+      ]
+    },
+    {
+      "id": "V021",
+      "time_s": 62.38,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S021",
+      "action": "Area 1 über R7 öffnen; Area-Grenze und ABR zeigen.",
+      "event_ids": [
+        "E018"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V022",
+      "time_s": 65,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S022",
+      "action": "Neue Punkt-zu-Punkt-Nachbarschaft R7 / R8 aufbauen.",
+      "event_ids": [
+        "E019"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V023",
+      "time_s": 68,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S023",
+      "action": "Separate LSDBs zeigen; lokale LSA-Information endet am ABR.",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V024",
+      "time_s": 71.5,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S024",
+      "action": "Type-3-LSA am ABR neu erzeugen; Präfix und Metrik zeigen.",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V025",
+      "time_s": 74.7,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S025",
+      "action": "Area 1 über R7 öffnen; Area-Grenze und ABR zeigen.",
+      "event_ids": [
+        "E020"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V026",
+      "time_s": 76.58,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S026",
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "event_ids": [
+        "E021",
+        "E022"
+      ],
+      "lyric_ids": [
+        "L021"
+      ]
+    },
+    {
+      "id": "V027",
+      "time_s": 79.7,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S027",
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L022"
+      ]
+    },
+    {
+      "id": "V028",
+      "time_s": 83.22,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S028",
+      "action": "DROTHER-Nachbarschaft mit Full-Beziehungen zu DR/BDR vergleichen.",
+      "event_ids": [
+        "E023"
+      ],
+      "lyric_ids": [
+        "L023"
+      ]
+    },
+    {
+      "id": "V029",
+      "time_s": 86.62,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S029",
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L024"
+      ]
+    },
+    {
+      "id": "V030",
+      "time_s": 90.76,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S030",
+      "action": "LSA-Identität und fortschreitende Sequenznummer zeigen.",
+      "event_ids": [
+        "E024",
+        "E025"
+      ],
+      "lyric_ids": [
+        "L025",
+        "L026"
+      ]
+    },
+    {
+      "id": "V031",
+      "time_s": 94.3,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S031",
+      "action": "Konfigurierte Kostenänderung R1–R2 zeigen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L027"
+      ]
+    },
+    {
+      "id": "V032",
+      "time_s": 95.98,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S032",
+      "action": "SPF aus lokaler Routerperspektive durchlaufen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L028"
+      ]
+    },
+    {
+      "id": "V033",
+      "time_s": 97.76,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S033",
+      "action": "DR, BDR und DROTHER auf dem Broadcastsegment gegenüberstellen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L029"
+      ]
+    },
+    {
+      "id": "V034",
+      "time_s": 99.72,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S034",
+      "action": "Nutzdaten R6 → R7 direkt über das gemeinsame Ethernetsegment weiterleiten.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L030"
+      ]
+    },
+    {
+      "id": "V035",
+      "time_s": 103,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S035",
+      "action": "LSA-Identität und fortschreitende Sequenznummer zeigen.",
+      "event_ids": [
+        "E026",
+        "E027"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V036",
+      "time_s": 104.84,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S036",
+      "action": "LSU und Bestätigungen als verlässlichen Austausch zeigen.",
+      "event_ids": [
+        "E028"
+      ],
+      "lyric_ids": [
+        "L031"
+      ]
+    },
+    {
+      "id": "V037",
+      "time_s": 106.6,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S037",
+      "action": "Konfigurierte Kostenänderung R1–R2 zeigen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L032"
+      ]
+    },
+    {
+      "id": "V038",
+      "time_s": 109,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S038",
+      "action": "Passende Datenbankstände derselben Area gegenüberstellen.",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V039",
+      "time_s": 111.8,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S039",
+      "action": "SPF-Baum mit Wurzel R1 berechnen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L033"
+      ]
+    },
+    {
+      "id": "V040",
+      "time_s": 114.74,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S040",
+      "action": "Dieselbe Topologie mit lokaler Wurzel R4 berechnen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L034"
+      ]
+    },
+    {
+      "id": "V041",
+      "time_s": 118.5,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S041",
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "event_ids": [
+        "E029",
+        "E030"
+      ],
+      "lyric_ids": [
+        "L035"
+      ]
+    },
+    {
+      "id": "V042",
+      "time_s": 120.2,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S042",
+      "action": "Atlas vergrössern; beide gleichwertigen Wege wieder öffnen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L036",
+        "L037"
+      ]
+    },
+    {
+      "id": "V043",
+      "time_s": 123.84,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S043",
+      "action": "Passende Datenbankstände derselben Area gegenüberstellen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L038"
+      ]
+    },
+    {
+      "id": "V044",
+      "time_s": 125.58,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S044",
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L039",
+        "L040"
+      ]
+    },
+    {
+      "id": "V045",
+      "time_s": 129.16,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S045",
+      "action": "Unterscheidbare Nutzdatenflows auf ausgewählten Wegen verfolgen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L041",
+        "L042"
+      ]
+    },
+    {
+      "id": "V046",
+      "time_s": 132.68,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S046",
+      "action": "Carrier-Verlust R2–R4; aktualisierte LSAs und Konvergenz zeigen.",
+      "event_ids": [
+        "E031",
+        "E032"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V047",
+      "time_s": 135,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S047",
+      "action": "Carrier-Verlust R2–R4; aktualisierte LSAs und Konvergenz zeigen.",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V048",
+      "time_s": 138,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S048",
+      "action": "Nutzdaten nach abgeschlossener Berechnung über R3 weiterleiten.",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V049",
+      "time_s": 141,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S049",
+      "action": "Nutzdaten nach abgeschlossener Berechnung über R3 weiterleiten.",
+      "event_ids": [
+        "E033"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V050",
+      "time_s": 144.28,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S050",
+      "action": "Full-Beziehung R6 / R4 hervorheben.",
+      "event_ids": [
+        "E034"
+      ],
+      "lyric_ids": [
+        "L043"
+      ]
+    },
+    {
+      "id": "V051",
+      "time_s": 145.4,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S051",
+      "action": "Eigenen Router-ID-Eintrag bestätigen; später normales DROTHER-Paar zeigen.",
+      "event_ids": [
+        "E035",
+        "E036"
+      ],
+      "lyric_ids": [
+        "L044"
+      ]
+    },
+    {
+      "id": "V052",
+      "time_s": 147.06,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S052",
+      "action": "Nutzdaten R6 → R7 direkt über das gemeinsame Ethernetsegment weiterleiten.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L045"
+      ]
+    },
+    {
+      "id": "V053",
+      "time_s": 150.271,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S053",
+      "action": "Separate LSDBs zeigen; lokale LSA-Information endet am ABR.",
+      "event_ids": [
+        "E037"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V054",
+      "time_s": 152.68,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S054",
+      "action": "R6 / R7 bleiben Two-Way; Rollen von Zuständen unterscheiden.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L046"
+      ]
+    },
+    {
+      "id": "V055",
+      "time_s": 156.64,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S055",
+      "action": "R4 als bestehenden Designated Router hervorheben.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L047"
+      ]
+    },
+    {
+      "id": "V056",
+      "time_s": 160.8,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S056",
+      "action": "R2 / R4 erneut durch Init, Two-Way und Datenbankabgleich zu Full führen.",
+      "event_ids": [
+        "E038",
+        "E039"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V057",
+      "time_s": 164,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S057",
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V058",
+      "time_s": 166.36,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S058",
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L048"
+      ]
+    },
+    {
+      "id": "V059",
+      "time_s": 167.76,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S059",
+      "action": "R5 als bestehenden Backup Designated Router hervorheben.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L049"
+      ]
+    },
+    {
+      "id": "V060",
+      "time_s": 168.88,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S060",
+      "action": "Aktiven Multi-Area-Atlas öffnen; Titel und Name über der Welt.",
+      "event_ids": [
+        "E040",
+        "E041"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V061",
+      "time_s": 171.671,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S061",
+      "action": "Aktiven Multi-Area-Atlas öffnen; Titel und Name über der Welt.",
+      "event_ids": [
+        "E042",
+        "E043",
+        "E044",
+        "E045"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V062",
+      "time_s": 178.35,
+      "origin": "redaktionell vorgeschlagen",
+      "shot_id": "S062",
+      "action": "Bild und Titel mit dem tatsächlichen Audio-Endabfall auflösen.",
+      "event_ids": [
+        "E046"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V063",
+      "time_s": 7.6,
+      "timecode": "00:00:07.600",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "Area 0 / Hello received.",
+      "log_id": "LOG001",
+      "shot_id": "S002"
+    },
+    {
+      "id": "V064",
+      "time_s": 23.16,
+      "timecode": "00:00:23.160",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R1 / R2: DOWN → INIT.",
+      "log_id": "LOG002",
+      "shot_id": "S006"
+    },
+    {
+      "id": "V065",
+      "time_s": 33.86,
+      "timecode": "00:00:33.860",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "Own Router-ID found: INIT → 2-WAY.",
+      "log_id": "LOG003",
+      "shot_id": "S009"
+    },
+    {
+      "id": "V066",
+      "time_s": 36.98,
+      "timecode": "00:00:36.980",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "LAN: R4 DR / R5 BDR.",
+      "log_id": "LOG004",
+      "shot_id": "S010"
+    },
+    {
+      "id": "V067",
+      "time_s": 39.16,
+      "timecode": "00:00:39.160",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R6 is DROTHER; R6 / R7 stay 2-WAY.",
+      "log_id": "LOG005",
+      "shot_id": "S011"
+    },
+    {
+      "id": "V068",
+      "time_s": 47.88,
+      "timecode": "00:00:47.880",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R1 / R2: 2-WAY → EXSTART.",
+      "log_id": "LOG006",
+      "shot_id": "S015"
+    },
+    {
+      "id": "V069",
+      "time_s": 49.72,
+      "timecode": "00:00:49.720",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "EXCHANGE / LSA headers compared.",
+      "log_id": "LOG007",
+      "shot_id": "S016"
+    },
+    {
+      "id": "V070",
+      "time_s": 51.62,
+      "timecode": "00:00:51.620",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "LOADING / request missing LSAs.",
+      "log_id": "LOG008",
+      "shot_id": "S017"
+    },
+    {
+      "id": "V071",
+      "time_s": 53.36,
+      "timecode": "00:00:53.360",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "LSDB aligned: LOADING → FULL.",
+      "log_id": "LOG009",
+      "shot_id": "S018"
+    },
+    {
+      "id": "V072",
+      "time_s": 55.18,
+      "timecode": "00:00:55.180",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R1 / metric 21 / next hops R2,R3.",
+      "log_id": "LOG010",
+      "shot_id": "S019"
+    },
+    {
+      "id": "V073",
+      "time_s": 62.38,
+      "timecode": "00:01:02.380",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R7 ABR / Area 1 interface enabled.",
+      "log_id": "LOG011",
+      "shot_id": "S021"
+    },
+    {
+      "id": "V074",
+      "time_s": 73.2,
+      "timecode": "00:01:13.200",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "Type-3 originated / metric 11.",
+      "log_id": "LOG012",
+      "shot_id": "S024"
+    },
+    {
+      "id": "V075",
+      "time_s": 79.7,
+      "timecode": "00:01:19.700",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "Example / stable per-flow forwarding.",
+      "log_id": "LOG013",
+      "shot_id": "S027"
+    },
+    {
+      "id": "V076",
+      "time_s": 94.3,
+      "timecode": "00:01:34.300",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R1–R2 cost changed: 10 → 25.",
+      "log_id": "LOG014",
+      "shot_id": "S031"
+    },
+    {
+      "id": "V077",
+      "time_s": 95.98,
+      "timecode": "00:01:35.980",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R1 / next hop R3 selected.",
+      "log_id": "LOG015",
+      "shot_id": "S032"
+    },
+    {
+      "id": "V078",
+      "time_s": 104.84,
+      "timecode": "00:01:44.840",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "LSA flooded / acknowledgement received.",
+      "log_id": "LOG016",
+      "shot_id": "S036"
+    },
+    {
+      "id": "V079",
+      "time_s": 118.5,
+      "timecode": "00:01:58.500",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R1–R2 cost restored: 25 → 10.",
+      "log_id": "LOG017",
+      "shot_id": "S041"
+    },
+    {
+      "id": "V080",
+      "time_s": 121.68,
+      "timecode": "00:02:01.680",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "Equal-cost next hops R2,R3 restored.",
+      "log_id": "LOG018",
+      "shot_id": "S042"
+    },
+    {
+      "id": "V081",
+      "time_s": 132.7,
+      "timecode": "00:02:12.700",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R2–R4 carrier lost / neighbour DOWN.",
+      "log_id": "LOG019",
+      "shot_id": "S046"
+    },
+    {
+      "id": "V082",
+      "time_s": 135,
+      "timecode": "00:02:15.000",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "Topology change advertised.",
+      "log_id": "LOG020",
+      "shot_id": "S047"
+    },
+    {
+      "id": "V083",
+      "time_s": 138,
+      "timecode": "00:02:18.000",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "Failed link removed / next hop R3.",
+      "log_id": "LOG021",
+      "shot_id": "S048"
+    },
+    {
+      "id": "V084",
+      "time_s": 145.4,
+      "timecode": "00:02:25.400",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R6 / R7: 2-WAY is normal here.",
+      "log_id": "LOG022",
+      "shot_id": "S051"
+    },
+    {
+      "id": "V085",
+      "time_s": 160.8,
+      "timecode": "00:02:40.800",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R2–R4 carrier restored / INIT.",
+      "log_id": "LOG023",
+      "shot_id": "S056"
+    },
+    {
+      "id": "V086",
+      "time_s": 162.1,
+      "timecode": "00:02:42.100",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R2 / R4: EXCHANGE.",
+      "log_id": "LOG024",
+      "shot_id": "S056"
+    },
+    {
+      "id": "V087",
+      "time_s": 164,
+      "timecode": "00:02:44.000",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R2 / R4: FULL / routes recalculated.",
+      "log_id": "LOG025",
+      "shot_id": "S057"
+    },
+    {
+      "id": "V088",
+      "time_s": 166.36,
+      "timecode": "00:02:46.360",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "Both equal-cost paths available.",
+      "log_id": "LOG026",
+      "shot_id": "S058"
+    },
+    {
+      "id": "V089",
+      "time_s": 167.76,
+      "timecode": "00:02:47.760",
+      "origin": "redaktionell vorgeschlagen",
+      "action": "R5 remains backup designated router.",
+      "log_id": "LOG027",
+      "shot_id": "S059"
+    }
+  ],
+  "audio_events": [
+    {
+      "id": "E001",
+      "time_s": 0,
+      "timecode": "00:00:00.000",
+      "type": "start",
+      "observation": "Beginn der Original-WAV",
+      "timing_uncertainty_s": 0,
+      "lyric_id": null,
+      "image_action": "Bildwelt öffnen",
+      "origin": "gemessen",
+      "source_time_s": 0,
+      "action": "Atlas öffnen; OSPF / NEIGHBORS und SAMUEL HEINRICH einblenden.",
+      "used_as_trigger": true,
+      "shot_id": "S001"
+    },
+    {
+      "id": "E002",
+      "time_s": 1.5,
+      "timecode": "00:00:01.500",
+      "type": "energy_rise",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um +10.9 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Weitere Kartenverbindungen in der Totale öffnen",
+      "origin": "gemessen",
+      "source_time_s": 1.5,
+      "action": "Atlas bei Energieanstieg öffnen.",
+      "used_as_trigger": true,
+      "shot_id": "S001"
+    },
+    {
+      "id": "E003",
+      "time_s": 7.6,
+      "timecode": "00:00:07.600",
+      "type": "section_boundary",
+      "observation": "Beginn Intro; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L002",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 7.6,
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S002"
+    },
+    {
+      "id": "E004",
+      "time_s": 15,
+      "timecode": "00:00:15.000",
+      "type": "energy_rise",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um +2.5 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Weitere Kartenverbindungen in der Totale öffnen",
+      "origin": "gemessen",
+      "source_time_s": 15,
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S004"
+    },
+    {
+      "id": "E005",
+      "time_s": 23.16,
+      "timecode": "00:00:23.160",
+      "type": "section_boundary",
+      "observation": "Beginn Verse; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L005",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 23.16,
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S006"
+    },
+    {
+      "id": "E006",
+      "time_s": 27.261,
+      "timecode": "00:00:27.261",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.64",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 27.261,
+      "action": "Backbone-Karte räumlich öffnen.",
+      "used_as_trigger": true,
+      "shot_id": "S007"
+    },
+    {
+      "id": "E007",
+      "time_s": 36.98,
+      "timecode": "00:00:36.980",
+      "type": "section_boundary",
+      "observation": "Beginn Call; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L009",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 36.98,
+      "action": "DR, BDR und DROTHER auf dem Broadcastsegment gegenüberstellen.",
+      "used_as_trigger": true,
+      "shot_id": "S010"
+    },
+    {
+      "id": "E008",
+      "time_s": 37.8,
+      "timecode": "00:00:37.800",
+      "type": "energy_fall",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um -2.8 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Karte auf einen Link und seine Kosten verengen",
+      "origin": "gemessen",
+      "source_time_s": 37.8,
+      "action": "DR, BDR und DROTHER auf dem Broadcastsegment gegenüberstellen.",
+      "used_as_trigger": true,
+      "shot_id": "S010"
+    },
+    {
+      "id": "E009",
+      "time_s": 39.16,
+      "timecode": "00:00:39.160",
+      "type": "section_boundary",
+      "observation": "Beginn Response; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L010",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 39.16,
+      "action": "R6 / R7 bleiben Two-Way; Rollen von Zuständen unterscheiden.",
+      "used_as_trigger": true,
+      "shot_id": "S011"
+    },
+    {
+      "id": "E010",
+      "time_s": 40.92,
+      "timecode": "00:00:40.920",
+      "type": "section_boundary",
+      "observation": "Beginn Call; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L011",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 40.92,
+      "action": "DR, BDR und DROTHER auf dem Broadcastsegment gegenüberstellen.",
+      "used_as_trigger": true,
+      "shot_id": "S012"
+    },
+    {
+      "id": "E011",
+      "time_s": 42.78,
+      "timecode": "00:00:42.780",
+      "type": "section_boundary",
+      "observation": "Beginn Response; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L012",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 42.78,
+      "action": "R5 als bestehenden Backup Designated Router hervorheben.",
+      "used_as_trigger": true,
+      "shot_id": "S013"
+    },
+    {
+      "id": "E012",
+      "time_s": 42.821,
+      "timecode": "00:00:42.821",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 1.93",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 42.821,
+      "action": "R5 als bestehenden Backup Designated Router hervorheben.",
+      "used_as_trigger": true,
+      "shot_id": "S013"
+    },
+    {
+      "id": "E013",
+      "time_s": 47.88,
+      "timecode": "00:00:47.880",
+      "type": "section_boundary",
+      "observation": "Beginn Hook; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L013",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 47.88,
+      "action": "DBD-Sequenzaushandlung vorbereiten; ExStart zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S015"
+    },
+    {
+      "id": "E014",
+      "time_s": 48.2,
+      "timecode": "00:00:48.200",
+      "type": "energy_rise",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um +2.0 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Weitere Kartenverbindungen in der Totale öffnen",
+      "origin": "gemessen",
+      "source_time_s": 48.2,
+      "action": "DBD-Sequenzaushandlung vorbereiten; ExStart zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S015"
+    },
+    {
+      "id": "E015",
+      "time_s": 49.931,
+      "timecode": "00:00:49.931",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.35",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 49.931,
+      "action": "LSA-Header vergleichen; fehlende oder neuere Informationen markieren.",
+      "used_as_trigger": true,
+      "shot_id": "S016"
+    },
+    {
+      "id": "E016",
+      "time_s": 57.031,
+      "timecode": "00:00:57.031",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.20",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 57.031,
+      "action": "SPF aus lokaler Routerperspektive durchlaufen.",
+      "used_as_trigger": true,
+      "shot_id": "S019"
+    },
+    {
+      "id": "E017",
+      "time_s": 62.1,
+      "timecode": "00:01:02.100",
+      "type": "energy_rise",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um +4.3 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Weitere Kartenverbindungen in der Totale öffnen",
+      "origin": "gemessen",
+      "source_time_s": 62.1,
+      "action": "Anstieg bereitet die Öffnung nach Area 1 vor.",
+      "used_as_trigger": true,
+      "shot_id": "S020"
+    },
+    {
+      "id": "E018",
+      "time_s": 62.38,
+      "timecode": "00:01:02.380",
+      "type": "section_boundary",
+      "observation": "Beginn Instrumental; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": null,
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 62.38,
+      "action": "Area 1 über R7 öffnen; Area-Grenze und ABR zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S021"
+    },
+    {
+      "id": "E019",
+      "time_s": 66.771,
+      "timecode": "00:01:06.771",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.46",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 66.771,
+      "action": "Neue Punkt-zu-Punkt-Nachbarschaft R7 / R8 aufbauen.",
+      "used_as_trigger": true,
+      "shot_id": "S022"
+    },
+    {
+      "id": "E020",
+      "time_s": 74.7,
+      "timecode": "00:01:14.700",
+      "type": "energy_fall",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um -4.0 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Karte auf einen Link und seine Kosten verengen",
+      "origin": "gemessen",
+      "source_time_s": 74.7,
+      "action": "Area 1 über R7 öffnen; Area-Grenze und ABR zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S025"
+    },
+    {
+      "id": "E021",
+      "time_s": 76.58,
+      "timecode": "00:01:16.580",
+      "type": "section_boundary",
+      "observation": "Beginn Chorus; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L021",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 76.58,
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "used_as_trigger": true,
+      "shot_id": "S026"
+    },
+    {
+      "id": "E022",
+      "time_s": 77.351,
+      "timecode": "00:01:17.351",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.09",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 77.351,
+      "action": "Gleichwertige Wege hervorheben; Verteilung pro Flow inszenieren.",
+      "used_as_trigger": true,
+      "shot_id": "S026"
+    },
+    {
+      "id": "E023",
+      "time_s": 86.161,
+      "timecode": "00:01:26.161",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.33",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 86.161,
+      "action": "DROTHER-Nachbarschaft mit Full-Beziehungen zu DR/BDR vergleichen.",
+      "used_as_trigger": true,
+      "shot_id": "S028"
+    },
+    {
+      "id": "E024",
+      "time_s": 90.76,
+      "timecode": "00:01:30.760",
+      "type": "section_boundary",
+      "observation": "Beginn Verse 2; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L025",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 90.76,
+      "action": "LSA-Identität und fortschreitende Sequenznummer zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S030"
+    },
+    {
+      "id": "E025",
+      "time_s": 92.321,
+      "timecode": "00:01:32.321",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.05",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 92.321,
+      "action": "LSA-Identität und fortschreitende Sequenznummer zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S030"
+    },
+    {
+      "id": "E026",
+      "time_s": 103,
+      "timecode": "00:01:43.000",
+      "type": "energy_fall",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um -2.1 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Karte auf einen Link und seine Kosten verengen",
+      "origin": "gemessen",
+      "source_time_s": 103,
+      "action": "LSA-Identität und fortschreitende Sequenznummer zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S035"
+    },
+    {
+      "id": "E027",
+      "time_s": 103.761,
+      "timecode": "00:01:43.761",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.02",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 103.761,
+      "action": "LSA-Identität und fortschreitende Sequenznummer zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S035"
+    },
+    {
+      "id": "E028",
+      "time_s": 104.84,
+      "timecode": "00:01:44.840",
+      "type": "section_boundary",
+      "observation": "Beginn Bridge; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L031",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 104.84,
+      "action": "LSU und Bestätigungen als verlässlichen Austausch zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S036"
+    },
+    {
+      "id": "E029",
+      "time_s": 118.5,
+      "timecode": "00:01:58.500",
+      "type": "section_boundary",
+      "observation": "Beginn Final Hook; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L035",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 118.5,
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S041"
+    },
+    {
+      "id": "E030",
+      "time_s": 119.1,
+      "timecode": "00:01:59.100",
+      "type": "energy_fall",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um -2.8 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Karte auf einen Link und seine Kosten verengen",
+      "origin": "gemessen",
+      "source_time_s": 119.1,
+      "action": "Hello verfolgen; Sender-Router-ID und Nachbarfeld zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S041"
+    },
+    {
+      "id": "E031",
+      "time_s": 132.68,
+      "timecode": "00:02:12.680",
+      "type": "section_boundary",
+      "observation": "Beginn Instrumental; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": null,
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 132.68,
+      "action": "Carrier-Verlust R2–R4; aktualisierte LSAs und Konvergenz zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S046"
+    },
+    {
+      "id": "E032",
+      "time_s": 132.7,
+      "timecode": "00:02:12.700",
+      "type": "energy_rise",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um +4.8 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Weitere Kartenverbindungen in der Totale öffnen",
+      "origin": "gemessen",
+      "source_time_s": 132.7,
+      "action": "Link R2–R4 im redaktionellen Szenario ausfallen lassen.",
+      "used_as_trigger": true,
+      "shot_id": "S046"
+    },
+    {
+      "id": "E033",
+      "time_s": 143.711,
+      "timecode": "00:02:23.711",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.55",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 143.711,
+      "action": "Nutzdaten nach abgeschlossener Berechnung über R3 weiterleiten.",
+      "used_as_trigger": true,
+      "shot_id": "S049"
+    },
+    {
+      "id": "E034",
+      "time_s": 144.28,
+      "timecode": "00:02:24.280",
+      "type": "section_boundary",
+      "observation": "Beginn Outro; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": "L043",
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 144.28,
+      "action": "Full-Beziehung R6 / R4 hervorheben.",
+      "used_as_trigger": true,
+      "shot_id": "S050"
+    },
+    {
+      "id": "E035",
+      "time_s": 146.2,
+      "timecode": "00:02:26.200",
+      "type": "level_gap",
+      "observation": "100-ms-RMS -44.0 dBFS",
+      "timing_uncertainty_s": 0.1,
+      "lyric_id": null,
+      "image_action": "Kurz Licht zurücknehmen; danach wieder öffnen",
+      "origin": "gemessen",
+      "source_time_s": 146.2,
+      "action": "Bei kurzer Pegellücke Licht und Paketgrösse zurücknehmen; die Nachbarschaft bleibt bestehen.",
+      "used_as_trigger": true,
+      "shot_id": "S051"
+    },
+    {
+      "id": "E036",
+      "time_s": 146.7,
+      "timecode": "00:02:26.700",
+      "type": "energy_rise",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um +8.4 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Weitere Kartenverbindungen in der Totale öffnen",
+      "origin": "gemessen",
+      "source_time_s": 146.7,
+      "action": "Eigenen Router-ID-Eintrag bestätigen; später normales DROTHER-Paar zeigen.",
+      "used_as_trigger": true,
+      "shot_id": "S051"
+    },
+    {
+      "id": "E037",
+      "time_s": 150.271,
+      "timecode": "00:02:30.271",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.34",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 150.271,
+      "action": "Separate LSDBs zeigen; lokale LSA-Information endet am ABR.",
+      "used_as_trigger": true,
+      "shot_id": "S053"
+    },
+    {
+      "id": "E038",
+      "time_s": 160.8,
+      "timecode": "00:02:40.800",
+      "type": "energy_rise",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um +6.1 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Weitere Kartenverbindungen in der Totale öffnen",
+      "origin": "gemessen",
+      "source_time_s": 160.8,
+      "action": "Wiederherstellung R2–R4 inszenieren.",
+      "used_as_trigger": true,
+      "shot_id": "S056"
+    },
+    {
+      "id": "E039",
+      "time_s": 161.191,
+      "timecode": "00:02:41.191",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.55",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 161.191,
+      "action": "R2 / R4 erneut durch Init, Two-Way und Datenbankabgleich zu Full führen.",
+      "used_as_trigger": true,
+      "shot_id": "S056"
+    },
+    {
+      "id": "E040",
+      "time_s": 168.88,
+      "timecode": "00:02:48.880",
+      "type": "section_boundary",
+      "observation": "Beginn Instrumental; Abschnittsgrenze aus Transkript",
+      "timing_uncertainty_s": 0.35,
+      "lyric_id": null,
+      "image_action": "Neues Kapitel oder Kameraposition einführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 168.88,
+      "action": "Aktiven Multi-Area-Atlas öffnen; Titel und Name über der Welt.",
+      "used_as_trigger": true,
+      "shot_id": "S060"
+    },
+    {
+      "id": "E041",
+      "time_s": 168.88,
+      "timecode": "00:02:48.880",
+      "type": "last_vocal_end",
+      "observation": "Ende der letzten übernommenen Gesangszeile",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Instrumentales Ende aktiv weiterführen",
+      "origin": "aus Transkript übernommen",
+      "source_time_s": 168.88,
+      "action": "Instrumentales Ende bleibt aktiv.",
+      "used_as_trigger": true,
+      "shot_id": "S060"
+    },
+    {
+      "id": "E042",
+      "time_s": 171.671,
+      "timecode": "00:02:51.671",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.31",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 171.671,
+      "action": "Aktiven Multi-Area-Atlas öffnen; Titel und Name über der Welt.",
+      "used_as_trigger": true,
+      "shot_id": "S061"
+    },
+    {
+      "id": "E043",
+      "time_s": 174.7,
+      "timecode": "00:02:54.700",
+      "type": "energy_rise",
+      "observation": "Geglätteter RMS-Verlauf ändert sich über 1 s um +14.1 dB",
+      "timing_uncertainty_s": 0.5,
+      "lyric_id": null,
+      "image_action": "Weitere Kartenverbindungen in der Totale öffnen",
+      "origin": "gemessen",
+      "source_time_s": 174.7,
+      "action": "Schlusstotale über 500 ms weiter öffnen.",
+      "used_as_trigger": true,
+      "shot_id": "S061"
+    },
+    {
+      "id": "E044",
+      "time_s": 175.1,
+      "timecode": "00:02:55.100",
+      "type": "fade_candidate",
+      "observation": "Endpegel fällt gegenüber dem Vorlauf um mehr als 10 dB",
+      "timing_uncertainty_s": 0.3,
+      "lyric_id": null,
+      "image_action": "Schlussblende frühestens hier einsetzen",
+      "origin": "gemessen",
+      "source_time_s": 175.1,
+      "action": "Kein Blenden-Trigger: spätere Energie und Peak bei 178,225 s widersprechen einem frühen Schluss.",
+      "used_as_trigger": false,
+      "shot_id": "S061"
+    },
+    {
+      "id": "E045",
+      "time_s": 178.221,
+      "timecode": "00:02:58.221",
+      "type": "transient",
+      "observation": "Spektraler Anstieg, relative Stärke 2.47",
+      "timing_uncertainty_s": 0.04,
+      "lyric_id": null,
+      "image_action": "Einen Routerknoten im Atlas aufleuchten lassen",
+      "origin": "gemessen",
+      "source_time_s": 178.221,
+      "action": "Letzten Lichtakzent am Atlas setzen.",
+      "used_as_trigger": true,
+      "shot_id": "S061"
+    },
+    {
+      "id": "E046",
+      "time_s": 181.08097916666668,
+      "timecode": "00:03:01.081",
+      "type": "end",
+      "observation": "Ende der Original-WAV",
+      "timing_uncertainty_s": 0.000020833333333333333,
+      "lyric_id": null,
+      "image_action": "Bild bei Audioende schliessen",
+      "origin": "gemessen",
+      "source_time_s": 181.081,
+      "action": "Bild am exakten Ende der Original-WAV schliessen.",
+      "used_as_trigger": true,
+      "shot_id": "S062"
+    }
+  ],
+  "syslogs": [
+    {
+      "id": "LOG001",
+      "time_s": 7.6,
+      "tag": "OSPF-6-HELLO",
+      "message": "Area 0 / Hello received.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG002",
+      "time_s": 23.16,
+      "tag": "OSPF-5-ADJCHG",
+      "message": "R1 / R2: DOWN → INIT.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG003",
+      "time_s": 33.86,
+      "tag": "OSPF-5-ADJCHG",
+      "message": "Own Router-ID found: INIT → 2-WAY.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG004",
+      "time_s": 36.98,
+      "tag": "OSPF-5-DR",
+      "message": "LAN: R4 DR / R5 BDR.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG005",
+      "time_s": 39.16,
+      "tag": "OSPF-6-ROLE",
+      "message": "R6 is DROTHER; R6 / R7 stay 2-WAY.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG006",
+      "time_s": 47.88,
+      "tag": "OSPF-5-ADJCHG",
+      "message": "R1 / R2: 2-WAY → EXSTART.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG007",
+      "time_s": 49.72,
+      "tag": "OSPF-6-DBD",
+      "message": "EXCHANGE / LSA headers compared.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG008",
+      "time_s": 51.62,
+      "tag": "OSPF-6-LSR",
+      "message": "LOADING / request missing LSAs.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG009",
+      "time_s": 53.36,
+      "tag": "OSPF-5-ADJCHG",
+      "message": "LSDB aligned: LOADING → FULL.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG010",
+      "time_s": 55.18,
+      "tag": "OSPF-6-SPF",
+      "message": "R1 / metric 21 / next hops R2,R3.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG011",
+      "time_s": 62.38,
+      "tag": "OSPF-6-AREA",
+      "message": "R7 ABR / Area 1 interface enabled.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG012",
+      "time_s": 73.2,
+      "tag": "OSPF-6-SUMMARY",
+      "message": "Type-3 originated / metric 11.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG013",
+      "time_s": 79.7,
+      "tag": "FIB-6-ECMP",
+      "message": "Example / stable per-flow forwarding.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG014",
+      "time_s": 94.3,
+      "tag": "OSPF-5-COST",
+      "message": "R1–R2 cost changed: 10 → 25.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG015",
+      "time_s": 95.98,
+      "tag": "OSPF-6-SPF",
+      "message": "R1 / next hop R3 selected.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG016",
+      "time_s": 104.84,
+      "tag": "OSPF-6-LSU",
+      "message": "LSA flooded / acknowledgement received.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG017",
+      "time_s": 118.5,
+      "tag": "OSPF-5-COST",
+      "message": "R1–R2 cost restored: 25 → 10.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG018",
+      "time_s": 121.68,
+      "tag": "FIB-6-ECMP",
+      "message": "Equal-cost next hops R2,R3 restored.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG019",
+      "time_s": 132.7,
+      "tag": "LINK-4-DOWN",
+      "message": "R2–R4 carrier lost / neighbour DOWN.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG020",
+      "time_s": 135,
+      "tag": "OSPF-6-LSA",
+      "message": "Topology change advertised.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG021",
+      "time_s": 138,
+      "tag": "OSPF-6-SPF",
+      "message": "Failed link removed / next hop R3.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG022",
+      "time_s": 145.4,
+      "tag": "OSPF-6-NEIGHBOUR",
+      "message": "R6 / R7: 2-WAY is normal here.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG023",
+      "time_s": 160.8,
+      "tag": "LINK-5-UP",
+      "message": "R2–R4 carrier restored / INIT.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG024",
+      "time_s": 162.1,
+      "tag": "OSPF-6-DBD",
+      "message": "R2 / R4: EXCHANGE.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG025",
+      "time_s": 164,
+      "tag": "OSPF-5-ADJCHG",
+      "message": "R2 / R4: FULL / routes recalculated.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG026",
+      "time_s": 166.36,
+      "tag": "FIB-6-ECMP",
+      "message": "Both equal-cost paths available.",
+      "origin": "redaktionelles Netzwerkszenario"
+    },
+    {
+      "id": "LOG027",
+      "time_s": 167.76,
+      "tag": "OSPF-6-BDR",
+      "message": "R5 remains backup designated router.",
+      "origin": "redaktionelles Netzwerkszenario"
+    }
+  ],
+  "lyrics": [
+    {
+      "id": "L001",
+      "start_s": 7.6,
+      "end_s": 9.2,
+      "text": "Hello packets on the wire.",
+      "section": "Intro",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 1,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L002",
+      "start_s": 11,
+      "end_s": 13.34,
+      "text": "Area zero comes alive.",
+      "section": "Intro",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 2,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L003",
+      "start_s": 14.82,
+      "end_s": 16.3,
+      "text": "Every router finds a neighbor.",
+      "section": "Intro",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 3,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L004",
+      "start_s": 18.36,
+      "end_s": 20,
+      "text": "Every link begins to rise.",
+      "section": "Intro",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 4,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L005",
+      "start_s": 23.16,
+      "end_s": 26.04,
+      "text": "Hello on the link, can you hear my name?",
+      "section": "Verse",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 5,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L006",
+      "start_s": 26.64,
+      "end_s": 29.48,
+      "text": "Area zero burning like a routing flame.",
+      "section": "Verse",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 6,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L007",
+      "start_s": 30.22,
+      "end_s": 33.26,
+      "text": "Neighbor up, state is going high,",
+      "section": "Verse",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 7,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L008",
+      "start_s": 33.86,
+      "end_s": 36,
+      "text": "two-way handshake under packet sky.",
+      "section": "Verse",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 8,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L009",
+      "start_s": 36.98,
+      "end_s": 38.26,
+      "text": "Are you DR?",
+      "section": "Call",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 9,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L010",
+      "start_s": 39.16,
+      "end_s": 40.12,
+      "text": "No, DROTHER.",
+      "section": "Response",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 10,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L011",
+      "start_s": 40.92,
+      "end_s": 42.16,
+      "text": "Are you BDR?",
+      "section": "Call",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 11,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L012",
+      "start_s": 42.78,
+      "end_s": 44.48,
+      "text": "Stand by, brother.",
+      "section": "Response",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 12,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L013",
+      "start_s": 47.88,
+      "end_s": 48.86,
+      "text": "Hello, hello,",
+      "section": "Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 13,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L014",
+      "start_s": 49.72,
+      "end_s": 51.14,
+      "text": "neighbor in the light.",
+      "section": "Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 14,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L015",
+      "start_s": 51.62,
+      "end_s": 52.46,
+      "text": "Hello, hello,",
+      "section": "Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 15,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L016",
+      "start_s": 53.36,
+      "end_s": 55.18,
+      "text": "database aligned.",
+      "section": "Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 16,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L017",
+      "start_s": 55.18,
+      "end_s": 56.16,
+      "text": "Shortest path,",
+      "section": "Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 17,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L018",
+      "start_s": 56.8,
+      "end_s": 58.64,
+      "text": "open the way.",
+      "section": "Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 18,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L019",
+      "start_s": 58.64,
+      "end_s": 59.82,
+      "text": "Converge the core,",
+      "section": "Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 19,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L020",
+      "start_s": 60.28,
+      "end_s": 62.38,
+      "text": "carry the frame.",
+      "section": "Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 20,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L021",
+      "start_s": 76.58,
+      "end_s": 78.56,
+      "text": "OSPF, shortest path alive,",
+      "section": "Chorus",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 21,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L022",
+      "start_s": 79.7,
+      "end_s": 82.56,
+      "text": "equal cost load balancing, packets divide.",
+      "section": "Chorus",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 22,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L023",
+      "start_s": 83.22,
+      "end_s": 86.62,
+      "text": "Hello, neighbor, adjacency,",
+      "section": "Chorus",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 23,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L024",
+      "start_s": 86.62,
+      "end_s": 88.66,
+      "text": "link state rhythm in topology.",
+      "section": "Chorus",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 24,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L025",
+      "start_s": 90.76,
+      "end_s": 91.82,
+      "text": "LSA moving through the backbone air,",
+      "section": "Verse 2",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 25,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L026",
+      "start_s": 92.58,
+      "end_s": 93.98,
+      "text": "every router knows what changed out there.",
+      "section": "Verse 2",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 26,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L027",
+      "start_s": 94.3,
+      "end_s": 95.44,
+      "text": "Cost on the link, metric in the stream,",
+      "section": "Verse 2",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 27,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L028",
+      "start_s": 95.98,
+      "end_s": 97.76,
+      "text": "SPF calculating routes in a dream.",
+      "section": "Verse 2",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 28,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L029",
+      "start_s": 97.76,
+      "end_s": 99.2,
+      "text": "DR is elected, BDR stands near,",
+      "section": "Verse 2",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 29,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L030",
+      "start_s": 99.72,
+      "end_s": 101.02,
+      "text": "DROTHER is waiting till the path is clear.",
+      "section": "Verse 2",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 30,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L031",
+      "start_s": 104.84,
+      "end_s": 105.74,
+      "text": "LSA flood, database sync,",
+      "section": "Bridge",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 31,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L032",
+      "start_s": 106.6,
+      "end_s": 108.3,
+      "text": "cost on the interface, faster than you think.",
+      "section": "Bridge",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 32,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L033",
+      "start_s": 111.8,
+      "end_s": 114.16,
+      "text": "SPF runs in the core tonight,",
+      "section": "Bridge",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 33,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L034",
+      "start_s": 114.74,
+      "end_s": 117.7,
+      "text": "routes converge in electric light.",
+      "section": "Bridge",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 34,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L035",
+      "start_s": 118.5,
+      "end_s": 119.48,
+      "text": "Hello, hello,",
+      "section": "Final Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 35,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L036",
+      "start_s": 120.2,
+      "end_s": 121.68,
+      "text": "neighbor in the light.",
+      "section": "Final Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 36,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L037",
+      "start_s": 122.14,
+      "end_s": 122.9,
+      "text": "Hello, hello,",
+      "section": "Final Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 37,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L038",
+      "start_s": 123.84,
+      "end_s": 125.58,
+      "text": "database aligned.",
+      "section": "Final Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 38,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L039",
+      "start_s": 125.58,
+      "end_s": 126.64,
+      "text": "Shortest path,",
+      "section": "Final Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 39,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L040",
+      "start_s": 127.32,
+      "end_s": 129.16,
+      "text": "open the way.",
+      "section": "Final Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 40,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L041",
+      "start_s": 129.16,
+      "end_s": 130.26,
+      "text": "Converge the core,",
+      "section": "Final Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 41,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L042",
+      "start_s": 130.72,
+      "end_s": 132.68,
+      "text": "carry the frame.",
+      "section": "Final Hook",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 42,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L043",
+      "start_s": 144.28,
+      "end_s": 145.4,
+      "text": "Full state.",
+      "section": "Outro",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 43,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L044",
+      "start_s": 145.4,
+      "end_s": 147.06,
+      "text": "Two-way.",
+      "section": "Outro",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 44,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L045",
+      "start_s": 147.06,
+      "end_s": 147.7,
+      "text": "DROTHER.",
+      "section": "Outro",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 45,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L046",
+      "start_s": 152.68,
+      "end_s": 154.08,
+      "text": "DROTHER.",
+      "section": "Outro",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 46,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L047",
+      "start_s": 156.64,
+      "end_s": 158.04,
+      "text": "DR.",
+      "section": "Outro",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 47,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L048",
+      "start_s": 166.36,
+      "end_s": 167.76,
+      "text": "ECMP.",
+      "section": "Outro",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 48,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    },
+    {
+      "id": "L049",
+      "start_s": 167.76,
+      "end_s": 168.88,
+      "text": "BDR.",
+      "section": "Outro",
+      "origin": "vorhandenes Transkript",
+      "source_segment_id": 49,
+      "timing_status": "automatisch erstellt; nicht manuell verifiziert"
+    }
+  ],
+  "excluded_as_trigger": [
+    {
+      "id": "E044",
+      "reason": "Kein Blenden-Trigger: spätere Energie und Peak bei 178,225 s widersprechen einem frühen Schluss."
+    }
+  ],
+  "timing_notes": [
+    "Originale Gesangszeiten unverändert; automatisch erzeugt und nicht manuell hörverifiziert.",
+    "E046 hat in der Analyse eine gerundete Endzeit. Nur die Umsetzung verwendet die exakte Sampledauer.",
+    "BPM und Raster geschätzt; kein Snapping von Lyrics.",
+    "178,350 s ist eine redaktionelle Blendenentscheidung auf Basis des gemessenen Endabfalls."
+  ]
+}

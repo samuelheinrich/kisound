@@ -1,0 +1,2599 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx",
+  "model_snapshot": "/Users/samuel.heinrich/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-mlx/snapshots/49e6aa286ad60c14352c404340ded53710378a11",
+  "weights_sha256": "05ff791ce3630fae47e7c51004e9666204d786246ec07cac6110af768099b40d",
+  "runtime": "MLX GPU / mlx-whisper",
+  "package_versions": {
+    "mlx_whisper": "0.4.3",
+    "mlx": "0.32.3"
+  },
+  "source_audio": "/Users/samuel.heinrich/0004_git/music/kisound/Vibecoder/03_SHIP_IT/final/03_SHIP_IT_suno-v3_50_50_exakt_off_EN.wav",
+  "source_audio_sha256": "fd70e12809ce18389d194a1f3829c98deced25b1c24ade5a24ae81ecf2b05408",
+  "language": "en",
+  "duration_seconds": 120.68,
+  "parameters": {
+    "temperature": 0,
+    "condition_on_prev_tokens": false,
+    "return_token_timestamps": true,
+    "lyrics_prompt": null,
+    "vocabulary_hint": "Commit it, ship it, build, check, live, album three.",
+    "chunk_seconds": 30,
+    "word_timing": "decoder cross-attention DTW via mlx-whisper"
+  },
+  "elapsed_seconds": 111.43,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.4,
+      "text": "Made it, ship it, build, check, live, made it, ship it, album three.",
+      "words": [
+        {
+          "word": "Made",
+          "start": 0.0,
+          "end": 0.14
+        },
+        {
+          "word": "it,",
+          "start": 0.14,
+          "end": 0.32
+        },
+        {
+          "word": "ship",
+          "start": 0.32,
+          "end": 0.46
+        },
+        {
+          "word": "it,",
+          "start": 0.46,
+          "end": 0.74
+        },
+        {
+          "word": "build,",
+          "start": 0.76,
+          "end": 2.34
+        },
+        {
+          "word": "check,",
+          "start": 3.58,
+          "end": 3.7
+        },
+        {
+          "word": "live,",
+          "start": 3.78,
+          "end": 4.02
+        },
+        {
+          "word": "made",
+          "start": 4.22,
+          "end": 6.96
+        },
+        {
+          "word": "it,",
+          "start": 6.96,
+          "end": 7.16
+        },
+        {
+          "word": "ship",
+          "start": 7.18,
+          "end": 7.38
+        },
+        {
+          "word": "it,",
+          "start": 7.38,
+          "end": 7.66
+        },
+        {
+          "word": "album",
+          "start": 7.66,
+          "end": 10.02
+        },
+        {
+          "word": "three.",
+          "start": 10.02,
+          "end": 10.4
+        }
+      ],
+      "tokens": [
+        50365,
+        18330,
+        309,
+        11,
+        5374,
+        309,
+        11,
+        1322,
+        11,
+        1520,
+        11,
+        1621,
+        11,
+        1027,
+        309,
+        11,
+        5374,
+        309,
+        11,
+        6030,
+        1045,
+        13,
+        50897
+      ],
+      "avg_logprob": -0.24397634992412492,
+      "no_speech_prob": 0.05577516183257103
+    },
+    {
+      "start": 10.68,
+      "end": 13.8,
+      "text": "Can free em run, em tring, add a steady pace.",
+      "words": [
+        {
+          "word": "Can",
+          "start": 10.68,
+          "end": 10.96
+        },
+        {
+          "word": "free",
+          "start": 10.96,
+          "end": 11.2
+        },
+        {
+          "word": "em",
+          "start": 11.2,
+          "end": 11.42
+        },
+        {
+          "word": "run,",
+          "start": 11.42,
+          "end": 11.68
+        },
+        {
+          "word": "em",
+          "start": 11.8,
+          "end": 12.2
+        },
+        {
+          "word": "tring,",
+          "start": 12.2,
+          "end": 12.66
+        },
+        {
+          "word": "add",
+          "start": 12.66,
+          "end": 12.96
+        },
+        {
+          "word": "a",
+          "start": 12.96,
+          "end": 13.12
+        },
+        {
+          "word": "steady",
+          "start": 13.12,
+          "end": 13.4
+        },
+        {
+          "word": "pace.",
+          "start": 13.4,
+          "end": 13.8
+        }
+      ],
+      "tokens": [
+        50911,
+        1664,
+        1737,
+        846,
+        1190,
+        11,
+        846,
+        504,
+        278,
+        11,
+        909,
+        257,
+        13211,
+        11638,
+        13,
+        51059
+      ],
+      "avg_logprob": -0.24397634992412492,
+      "no_speech_prob": 0.05577516183257103
+    },
+    {
+      "start": 14.08,
+      "end": 17.34,
+      "text": "New tracks in the folder, every cover in its place.",
+      "words": [
+        {
+          "word": "New",
+          "start": 14.08,
+          "end": 14.6
+        },
+        {
+          "word": "tracks",
+          "start": 14.6,
+          "end": 14.9
+        },
+        {
+          "word": "in",
+          "start": 14.9,
+          "end": 15.1
+        },
+        {
+          "word": "the",
+          "start": 15.1,
+          "end": 15.22
+        },
+        {
+          "word": "folder,",
+          "start": 15.22,
+          "end": 15.64
+        },
+        {
+          "word": "every",
+          "start": 15.7,
+          "end": 16.02
+        },
+        {
+          "word": "cover",
+          "start": 16.02,
+          "end": 16.5
+        },
+        {
+          "word": "in",
+          "start": 16.5,
+          "end": 16.82
+        },
+        {
+          "word": "its",
+          "start": 16.82,
+          "end": 16.96
+        },
+        {
+          "word": "place.",
+          "start": 16.96,
+          "end": 17.34
+        }
+      ],
+      "tokens": [
+        51086,
+        1873,
+        10218,
+        294,
+        264,
+        10820,
+        11,
+        633,
+        2060,
+        294,
+        1080,
+        1081,
+        13,
+        51241
+      ],
+      "avg_logprob": -0.24397634992412492,
+      "no_speech_prob": 0.05577516183257103
+    },
+    {
+      "start": 17.5,
+      "end": 20.76,
+      "text": "NPM run, build the pages, stack up at a steady pace.",
+      "words": [
+        {
+          "word": "NPM",
+          "start": 17.5,
+          "end": 18.02
+        },
+        {
+          "word": "run,",
+          "start": 18.02,
+          "end": 18.28
+        },
+        {
+          "word": "build",
+          "start": 18.32,
+          "end": 18.56
+        },
+        {
+          "word": "the",
+          "start": 18.56,
+          "end": 18.72
+        },
+        {
+          "word": "pages,",
+          "start": 18.72,
+          "end": 19.06
+        },
+        {
+          "word": "stack",
+          "start": 19.12,
+          "end": 19.4
+        },
+        {
+          "word": "up",
+          "start": 19.4,
+          "end": 19.58
+        },
+        {
+          "word": "at",
+          "start": 19.58,
+          "end": 19.82
+        },
+        {
+          "word": "a",
+          "start": 19.82,
+          "end": 19.98
+        },
+        {
+          "word": "steady",
+          "start": 19.98,
+          "end": 20.24
+        },
+        {
+          "word": "pace.",
+          "start": 20.24,
+          "end": 20.76
+        }
+      ],
+      "tokens": [
+        51248,
+        426,
+        18819,
+        1190,
+        11,
+        1322,
+        264,
+        7183,
+        11,
+        8630,
+        493,
+        412,
+        257,
+        13211,
+        11638,
+        13,
+        51413
+      ],
+      "avg_logprob": -0.24397634992412492,
+      "no_speech_prob": 0.05577516183257103
+    },
+    {
+      "start": 20.92,
+      "end": 24.98,
+      "text": "NPM run, check, one error, red and clear, covers missing.",
+      "words": [
+        {
+          "word": "NPM",
+          "start": 20.92,
+          "end": 21.44
+        },
+        {
+          "word": "run,",
+          "start": 21.44,
+          "end": 21.96
+        },
+        {
+          "word": "check,",
+          "start": 22.02,
+          "end": 22.36
+        },
+        {
+          "word": "one",
+          "start": 22.56,
+          "end": 22.82
+        },
+        {
+          "word": "error,",
+          "start": 22.82,
+          "end": 23.3
+        },
+        {
+          "word": "red",
+          "start": 23.42,
+          "end": 23.7
+        },
+        {
+          "word": "and",
+          "start": 23.7,
+          "end": 23.84
+        },
+        {
+          "word": "clear,",
+          "start": 23.84,
+          "end": 24.12
+        },
+        {
+          "word": "covers",
+          "start": 24.22,
+          "end": 24.72
+        },
+        {
+          "word": "missing.",
+          "start": 24.72,
+          "end": 24.98
+        }
+      ],
+      "tokens": [
+        51418,
+        426,
+        18819,
+        1190,
+        11,
+        1520,
+        11,
+        472,
+        6713,
+        11,
+        2182,
+        293,
+        1850,
+        11,
+        10538,
+        5361,
+        13,
+        51624
+      ],
+      "avg_logprob": -0.24397634992412492,
+      "no_speech_prob": 0.05577516183257103
+    },
+    {
+      "start": 25.2,
+      "end": 27.56,
+      "text": "The filing changed, so it's not here.",
+      "words": [
+        {
+          "word": "The",
+          "start": 25.2,
+          "end": 25.52
+        },
+        {
+          "word": "filing",
+          "start": 25.52,
+          "end": 25.88
+        },
+        {
+          "word": "changed,",
+          "start": 25.88,
+          "end": 26.18
+        },
+        {
+          "word": "so",
+          "start": 26.5,
+          "end": 26.82
+        },
+        {
+          "word": "it's",
+          "start": 26.82,
+          "end": 27.12
+        },
+        {
+          "word": "not",
+          "start": 27.12,
+          "end": 27.22
+        },
+        {
+          "word": "here.",
+          "start": 27.22,
+          "end": 27.56
+        }
+      ],
+      "tokens": [
+        51624,
+        440,
+        26854,
+        3105,
+        11,
+        370,
+        309,
+        311,
+        406,
+        510,
+        13,
+        51750
+      ],
+      "avg_logprob": -0.24397634992412492,
+      "no_speech_prob": 0.05577516183257103
+    },
+    {
+      "start": 27.56,
+      "end": 30.54,
+      "text": "One underscore too many, I rename it back",
+      "words": [
+        {
+          "word": "One",
+          "start": 27.56,
+          "end": 28.1
+        },
+        {
+          "word": "underscore",
+          "start": 28.1,
+          "end": 28.66
+        },
+        {
+          "word": "too",
+          "start": 28.66,
+          "end": 28.94
+        },
+        {
+          "word": "many,",
+          "start": 28.94,
+          "end": 29.34
+        },
+        {
+          "word": "I",
+          "start": 29.4,
+          "end": 29.66
+        },
+        {
+          "word": "rename",
+          "start": 29.66,
+          "end": 29.94
+        },
+        {
+          "word": "it",
+          "start": 29.94,
+          "end": 30.26
+        },
+        {
+          "word": "back",
+          "start": 30.26,
+          "end": 30.54
+        }
+      ],
+      "tokens": [
+        50365,
+        1485,
+        37556,
+        886,
+        867,
+        11,
+        286,
+        36741,
+        309,
+        646,
+        50522
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 30.54,
+      "end": 33.96,
+      "text": "Check again, zero errors, now the final track",
+      "words": [
+        {
+          "word": "Check",
+          "start": 30.54,
+          "end": 31.3
+        },
+        {
+          "word": "again,",
+          "start": 31.3,
+          "end": 31.68
+        },
+        {
+          "word": "zero",
+          "start": 31.94,
+          "end": 32.22
+        },
+        {
+          "word": "errors,",
+          "start": 32.22,
+          "end": 32.82
+        },
+        {
+          "word": "now",
+          "start": 32.88,
+          "end": 33.04
+        },
+        {
+          "word": "the",
+          "start": 33.04,
+          "end": 33.24
+        },
+        {
+          "word": "final",
+          "start": 33.24,
+          "end": 33.6
+        },
+        {
+          "word": "track",
+          "start": 33.6,
+          "end": 33.96
+        }
+      ],
+      "tokens": [
+        50522,
+        6881,
+        797,
+        11,
+        4018,
+        13603,
+        11,
+        586,
+        264,
+        2572,
+        2837,
+        50690
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 33.96,
+      "end": 35.0,
+      "text": "Committed, ship it",
+      "words": [
+        {
+          "word": "Committed,",
+          "start": 33.96,
+          "end": 34.54
+        },
+        {
+          "word": "ship",
+          "start": 34.56,
+          "end": 34.8
+        },
+        {
+          "word": "it",
+          "start": 34.8,
+          "end": 35.0
+        }
+      ],
+      "tokens": [
+        50690,
+        3046,
+        3944,
+        11,
+        5374,
+        309,
+        50743
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 35.0,
+      "end": 36.56,
+      "text": "Go check live",
+      "words": [
+        {
+          "word": "Go",
+          "start": 35.0,
+          "end": 36.06
+        },
+        {
+          "word": "check",
+          "start": 36.06,
+          "end": 36.26
+        },
+        {
+          "word": "live",
+          "start": 36.26,
+          "end": 36.56
+        }
+      ],
+      "tokens": [
+        50743,
+        1037,
+        1520,
+        1621,
+        50828
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 37.4,
+      "end": 38.4,
+      "text": "Committed, ship it",
+      "words": [
+        {
+          "word": "Committed,",
+          "start": 37.4,
+          "end": 37.96
+        },
+        {
+          "word": "ship",
+          "start": 37.98,
+          "end": 38.18
+        },
+        {
+          "word": "it",
+          "start": 38.18,
+          "end": 38.4
+        }
+      ],
+      "tokens": [
+        50828,
+        3046,
+        3944,
+        11,
+        5374,
+        309,
+        50914
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 38.4,
+      "end": 39.92,
+      "text": "Album, album three",
+      "words": [
+        {
+          "word": "Album,",
+          "start": 38.4,
+          "end": 38.92
+        },
+        {
+          "word": "album",
+          "start": 38.96,
+          "end": 39.38
+        },
+        {
+          "word": "three",
+          "start": 39.38,
+          "end": 39.92
+        }
+      ],
+      "tokens": [
+        50914,
+        967,
+        5559,
+        11,
+        6030,
+        1045,
+        50991
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 39.92,
+      "end": 43.44,
+      "text": "The link goes three, the link goes out, the page loads fast",
+      "words": [
+        {
+          "word": "The",
+          "start": 39.92,
+          "end": 40.94
+        },
+        {
+          "word": "link",
+          "start": 40.94,
+          "end": 41.24
+        },
+        {
+          "word": "goes",
+          "start": 41.24,
+          "end": 41.46
+        },
+        {
+          "word": "three,",
+          "start": 41.46,
+          "end": 41.7
+        },
+        {
+          "word": "the",
+          "start": 41.76,
+          "end": 41.86
+        },
+        {
+          "word": "link",
+          "start": 41.86,
+          "end": 42.1
+        },
+        {
+          "word": "goes",
+          "start": 42.1,
+          "end": 42.34
+        },
+        {
+          "word": "out,",
+          "start": 42.34,
+          "end": 42.58
+        },
+        {
+          "word": "the",
+          "start": 42.62,
+          "end": 42.72
+        },
+        {
+          "word": "page",
+          "start": 42.72,
+          "end": 42.98
+        },
+        {
+          "word": "loads",
+          "start": 42.98,
+          "end": 43.14
+        },
+        {
+          "word": "fast",
+          "start": 43.14,
+          "end": 43.44
+        }
+      ],
+      "tokens": [
+        50991,
+        440,
+        2113,
+        1709,
+        1045,
+        11,
+        264,
+        2113,
+        1709,
+        484,
+        11,
+        264,
+        3028,
+        12668,
+        2370,
+        51172
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 44.04,
+      "end": 45.38,
+      "text": "Ah, ah, ah",
+      "words": [
+        {
+          "word": "Ah,",
+          "start": 44.04,
+          "end": 44.6
+        },
+        {
+          "word": "ah,",
+          "start": 44.6,
+          "end": 44.98
+        },
+        {
+          "word": "ah",
+          "start": 44.98,
+          "end": 45.38
+        }
+      ],
+      "tokens": [
+        51172,
+        2438,
+        11,
+        3716,
+        11,
+        3716,
+        51260
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 45.38,
+      "end": 47.38,
+      "text": "Hit play, the bass comes in at last",
+      "words": [
+        {
+          "word": "Hit",
+          "start": 45.38,
+          "end": 45.62
+        },
+        {
+          "word": "play,",
+          "start": 45.62,
+          "end": 45.96
+        },
+        {
+          "word": "the",
+          "start": 46.02,
+          "end": 46.1
+        },
+        {
+          "word": "bass",
+          "start": 46.1,
+          "end": 46.4
+        },
+        {
+          "word": "comes",
+          "start": 46.4,
+          "end": 46.6
+        },
+        {
+          "word": "in",
+          "start": 46.6,
+          "end": 46.8
+        },
+        {
+          "word": "at",
+          "start": 46.8,
+          "end": 47.0
+        },
+        {
+          "word": "last",
+          "start": 47.0,
+          "end": 47.38
+        }
+      ],
+      "tokens": [
+        51260,
+        9217,
+        862,
+        11,
+        264,
+        10136,
+        1487,
+        294,
+        412,
+        1036,
+        51363
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 48.38,
+      "end": 50.56,
+      "text": "Deploy to live the upload accounts",
+      "words": [
+        {
+          "word": "Deploy",
+          "start": 48.38,
+          "end": 48.94
+        },
+        {
+          "word": "to",
+          "start": 48.94,
+          "end": 49.1
+        },
+        {
+          "word": "live",
+          "start": 49.1,
+          "end": 49.36
+        },
+        {
+          "word": "the",
+          "start": 49.36,
+          "end": 49.54
+        },
+        {
+          "word": "upload",
+          "start": 49.54,
+          "end": 49.94
+        },
+        {
+          "word": "accounts",
+          "start": 49.94,
+          "end": 50.56
+        }
+      ],
+      "tokens": [
+        51363,
+        1346,
+        2384,
+        281,
+        1621,
+        264,
+        6580,
+        9402,
+        51534
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 50.56,
+      "end": 53.02,
+      "text": "Each file covers audio lyrics",
+      "words": [
+        {
+          "word": "Each",
+          "start": 50.56,
+          "end": 51.08
+        },
+        {
+          "word": "file",
+          "start": 51.08,
+          "end": 51.56
+        },
+        {
+          "word": "covers",
+          "start": 51.56,
+          "end": 52.1
+        },
+        {
+          "word": "audio",
+          "start": 52.1,
+          "end": 52.48
+        },
+        {
+          "word": "lyrics",
+          "start": 52.48,
+          "end": 53.02
+        }
+      ],
+      "tokens": [
+        51534,
+        6947,
+        3991,
+        10538,
+        6278,
+        12189,
+        51651
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 53.02,
+      "end": 55.02,
+      "text": "I watch the counter climb a while",
+      "words": [
+        {
+          "word": "I",
+          "start": 53.02,
+          "end": 53.4
+        },
+        {
+          "word": "watch",
+          "start": 53.4,
+          "end": 53.66
+        },
+        {
+          "word": "the",
+          "start": 53.66,
+          "end": 53.84
+        },
+        {
+          "word": "counter",
+          "start": 53.84,
+          "end": 54.14
+        },
+        {
+          "word": "climb",
+          "start": 54.14,
+          "end": 54.56
+        },
+        {
+          "word": "a",
+          "start": 54.56,
+          "end": 54.7
+        },
+        {
+          "word": "while",
+          "start": 54.7,
+          "end": 55.02
+        }
+      ],
+      "tokens": [
+        51651,
+        286,
+        1159,
+        264,
+        5682,
+        10724,
+        257,
+        1339,
+        51746
+      ],
+      "avg_logprob": -0.171944184736772,
+      "no_speech_prob": 0.7864322066307068
+    },
+    {
+      "start": 55.02,
+      "end": 58.32,
+      "text": "I reload the page, the browser shows the old hard reload",
+      "words": [
+        {
+          "word": "I",
+          "start": 55.02,
+          "end": 55.3
+        },
+        {
+          "word": "reload",
+          "start": 55.3,
+          "end": 55.72
+        },
+        {
+          "word": "the",
+          "start": 55.72,
+          "end": 55.96
+        },
+        {
+          "word": "page,",
+          "start": 55.96,
+          "end": 56.26
+        },
+        {
+          "word": "the",
+          "start": 56.34,
+          "end": 56.42
+        },
+        {
+          "word": "browser",
+          "start": 56.42,
+          "end": 56.76
+        },
+        {
+          "word": "shows",
+          "start": 56.76,
+          "end": 57.02
+        },
+        {
+          "word": "the",
+          "start": 57.02,
+          "end": 57.28
+        },
+        {
+          "word": "old",
+          "start": 57.28,
+          "end": 57.6
+        },
+        {
+          "word": "hard",
+          "start": 57.6,
+          "end": 57.92
+        },
+        {
+          "word": "reload",
+          "start": 57.92,
+          "end": 58.32
+        }
+      ],
+      "tokens": [
+        50365,
+        286,
+        25628,
+        264,
+        3028,
+        11,
+        264,
+        11185,
+        3110,
+        264,
+        1331,
+        1152,
+        25628,
+        50541
+      ],
+      "avg_logprob": -0.16411128890848606,
+      "no_speech_prob": 0.8070194721221924
+    },
+    {
+      "start": 58.32,
+      "end": 61.0,
+      "text": "Album 3 is up, the bass hits bold",
+      "words": [
+        {
+          "word": "Album",
+          "start": 58.32,
+          "end": 58.96
+        },
+        {
+          "word": "3",
+          "start": 58.96,
+          "end": 59.18
+        },
+        {
+          "word": "is",
+          "start": 59.18,
+          "end": 59.44
+        },
+        {
+          "word": "up,",
+          "start": 59.44,
+          "end": 59.7
+        },
+        {
+          "word": "the",
+          "start": 59.74,
+          "end": 59.86
+        },
+        {
+          "word": "bass",
+          "start": 59.86,
+          "end": 60.18
+        },
+        {
+          "word": "hits",
+          "start": 60.18,
+          "end": 60.48
+        },
+        {
+          "word": "bold",
+          "start": 60.48,
+          "end": 61.0
+        }
+      ],
+      "tokens": [
+        50541,
+        967,
+        5559,
+        805,
+        307,
+        493,
+        11,
+        264,
+        10136,
+        8664,
+        11928,
+        50675
+      ],
+      "avg_logprob": -0.16411128890848606,
+      "no_speech_prob": 0.8070194721221924
+    },
+    {
+      "start": 61.68,
+      "end": 65.18,
+      "text": "German first, then English, I check both of them through",
+      "words": [
+        {
+          "word": "German",
+          "start": 61.68,
+          "end": 62.2
+        },
+        {
+          "word": "first,",
+          "start": 62.2,
+          "end": 62.7
+        },
+        {
+          "word": "then",
+          "start": 62.9,
+          "end": 63.14
+        },
+        {
+          "word": "English,",
+          "start": 63.14,
+          "end": 63.62
+        },
+        {
+          "word": "I",
+          "start": 63.78,
+          "end": 63.92
+        },
+        {
+          "word": "check",
+          "start": 63.92,
+          "end": 64.1
+        },
+        {
+          "word": "both",
+          "start": 64.1,
+          "end": 64.38
+        },
+        {
+          "word": "of",
+          "start": 64.38,
+          "end": 64.56
+        },
+        {
+          "word": "them",
+          "start": 64.56,
+          "end": 64.82
+        },
+        {
+          "word": "through",
+          "start": 64.82,
+          "end": 65.18
+        }
+      ],
+      "tokens": [
+        50675,
+        6521,
+        700,
+        11,
+        550,
+        3669,
+        11,
+        286,
+        1520,
+        1293,
+        295,
+        552,
+        807,
+        50882
+      ],
+      "avg_logprob": -0.16411128890848606,
+      "no_speech_prob": 0.8070194721221924
+    },
+    {
+      "start": 65.18,
+      "end": 68.66,
+      "text": "The lyrics keep their language just the way I wrote them too",
+      "words": [
+        {
+          "word": "The",
+          "start": 65.18,
+          "end": 65.78
+        },
+        {
+          "word": "lyrics",
+          "start": 65.78,
+          "end": 66.24
+        },
+        {
+          "word": "keep",
+          "start": 66.24,
+          "end": 66.48
+        },
+        {
+          "word": "their",
+          "start": 66.48,
+          "end": 66.7
+        },
+        {
+          "word": "language",
+          "start": 66.7,
+          "end": 67.06
+        },
+        {
+          "word": "just",
+          "start": 67.06,
+          "end": 67.34
+        },
+        {
+          "word": "the",
+          "start": 67.34,
+          "end": 67.52
+        },
+        {
+          "word": "way",
+          "start": 67.52,
+          "end": 67.8
+        },
+        {
+          "word": "I",
+          "start": 67.8,
+          "end": 67.98
+        },
+        {
+          "word": "wrote",
+          "start": 67.98,
+          "end": 68.22
+        },
+        {
+          "word": "them",
+          "start": 68.22,
+          "end": 68.42
+        },
+        {
+          "word": "too",
+          "start": 68.42,
+          "end": 68.66
+        }
+      ],
+      "tokens": [
+        50882,
+        440,
+        12189,
+        1066,
+        641,
+        2856,
+        445,
+        264,
+        636,
+        286,
+        4114,
+        552,
+        886,
+        51062
+      ],
+      "avg_logprob": -0.16411128890848606,
+      "no_speech_prob": 0.8070194721221924
+    },
+    {
+      "start": 70.02,
+      "end": 72.6,
+      "text": "Committed, ship it, they'll check live",
+      "words": [
+        {
+          "word": "Committed,",
+          "start": 70.02,
+          "end": 70.54
+        },
+        {
+          "word": "ship",
+          "start": 70.54,
+          "end": 70.76
+        },
+        {
+          "word": "it,",
+          "start": 70.76,
+          "end": 71.06
+        },
+        {
+          "word": "they'll",
+          "start": 71.08,
+          "end": 72.08
+        },
+        {
+          "word": "check",
+          "start": 72.08,
+          "end": 72.3
+        },
+        {
+          "word": "live",
+          "start": 72.3,
+          "end": 72.6
+        }
+      ],
+      "tokens": [
+        51062,
+        3046,
+        3944,
+        11,
+        5374,
+        309,
+        11,
+        436,
+        603,
+        1520,
+        1621,
+        51255
+      ],
+      "avg_logprob": -0.16411128890848606,
+      "no_speech_prob": 0.8070194721221924
+    },
+    {
+      "start": 73.46,
+      "end": 75.9,
+      "text": "Committed, ship it, album, album 3",
+      "words": [
+        {
+          "word": "Committed,",
+          "start": 73.46,
+          "end": 73.98
+        },
+        {
+          "word": "ship",
+          "start": 74.0,
+          "end": 74.18
+        },
+        {
+          "word": "it,",
+          "start": 74.18,
+          "end": 74.46
+        },
+        {
+          "word": "album,",
+          "start": 74.46,
+          "end": 74.8
+        },
+        {
+          "word": "album",
+          "start": 74.96,
+          "end": 75.38
+        },
+        {
+          "word": "3",
+          "start": 75.38,
+          "end": 75.9
+        }
+      ],
+      "tokens": [
+        51255,
+        3046,
+        3944,
+        11,
+        5374,
+        309,
+        11,
+        6030,
+        11,
+        6030,
+        805,
+        51418
+      ],
+      "avg_logprob": -0.16411128890848606,
+      "no_speech_prob": 0.8070194721221924
+    },
+    {
+      "start": 75.9,
+      "end": 79.44,
+      "text": "The link goes out, the link goes out, the page holds fast",
+      "words": [
+        {
+          "word": "The",
+          "start": 75.9,
+          "end": 76.94
+        },
+        {
+          "word": "link",
+          "start": 76.94,
+          "end": 77.24
+        },
+        {
+          "word": "goes",
+          "start": 77.24,
+          "end": 77.46
+        },
+        {
+          "word": "out,",
+          "start": 77.46,
+          "end": 77.7
+        },
+        {
+          "word": "the",
+          "start": 77.78,
+          "end": 77.86
+        },
+        {
+          "word": "link",
+          "start": 77.86,
+          "end": 78.1
+        },
+        {
+          "word": "goes",
+          "start": 78.1,
+          "end": 78.34
+        },
+        {
+          "word": "out,",
+          "start": 78.34,
+          "end": 78.58
+        },
+        {
+          "word": "the",
+          "start": 78.62,
+          "end": 78.68
+        },
+        {
+          "word": "page",
+          "start": 78.68,
+          "end": 78.98
+        },
+        {
+          "word": "holds",
+          "start": 78.98,
+          "end": 79.16
+        },
+        {
+          "word": "fast",
+          "start": 79.16,
+          "end": 79.44
+        }
+      ],
+      "tokens": [
+        51418,
+        440,
+        2113,
+        1709,
+        484,
+        11,
+        264,
+        2113,
+        1709,
+        484,
+        11,
+        264,
+        3028,
+        9190,
+        2370,
+        51599
+      ],
+      "avg_logprob": -0.16411128890848606,
+      "no_speech_prob": 0.8070194721221924
+    },
+    {
+      "start": 80.88,
+      "end": 83.3,
+      "text": "Hit play, the bass comes in at last",
+      "words": [
+        {
+          "word": "Hit",
+          "start": 80.88,
+          "end": 81.4
+        },
+        {
+          "word": "play,",
+          "start": 81.4,
+          "end": 81.92
+        },
+        {
+          "word": "the",
+          "start": 82.0,
+          "end": 82.1
+        },
+        {
+          "word": "bass",
+          "start": 82.1,
+          "end": 82.38
+        },
+        {
+          "word": "comes",
+          "start": 82.38,
+          "end": 82.58
+        },
+        {
+          "word": "in",
+          "start": 82.58,
+          "end": 82.82
+        },
+        {
+          "word": "at",
+          "start": 82.82,
+          "end": 83.0
+        },
+        {
+          "word": "last",
+          "start": 83.0,
+          "end": 83.3
+        }
+      ],
+      "tokens": [
+        51599,
+        9217,
+        862,
+        11,
+        264,
+        10136,
+        1487,
+        294,
+        412,
+        1036,
+        51790
+      ],
+      "avg_logprob": -0.16411128890848606,
+      "no_speech_prob": 0.8070194721221924
+    },
+    {
+      "start": 83.3,
+      "end": 100.26,
+      "text": "Best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best, best",
+      "words": [
+        {
+          "word": "Best,",
+          "start": 83.3,
+          "end": 83.46
+        },
+        {
+          "word": "best,",
+          "start": 83.46,
+          "end": 83.84
+        },
+        {
+          "word": "best,",
+          "start": 83.88,
+          "end": 84.28
+        },
+        {
+          "word": "best,",
+          "start": 84.28,
+          "end": 84.62
+        },
+        {
+          "word": "best,",
+          "start": 84.62,
+          "end": 84.78
+        },
+        {
+          "word": "best,",
+          "start": 84.98,
+          "end": 84.98
+        },
+        {
+          "word": "best,",
+          "start": 85.08,
+          "end": 85.08
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.12
+        },
+        {
+          "word": "best,",
+          "start": 85.12,
+          "end": 85.32
+        },
+        {
+          "word": "best,",
+          "start": 85.32,
+          "end": 85.38
+        },
+        {
+          "word": "best,",
+          "start": 85.38,
+          "end": 85.4
+        },
+        {
+          "word": "best,",
+          "start": 85.4,
+          "end": 85.48
+        },
+        {
+          "word": "best,",
+          "start": 85.48,
+          "end": 85.68
+        },
+        {
+          "word": "best,",
+          "start": 85.68,
+          "end": 85.68
+        },
+        {
+          "word": "best,",
+          "start": 85.68,
+          "end": 85.68
+        },
+        {
+          "word": "best,",
+          "start": 85.68,
+          "end": 85.68
+        },
+        {
+          "word": "best,",
+          "start": 85.94,
+          "end": 85.94
+        },
+        {
+          "word": "best,",
+          "start": 86.0,
+          "end": 86.56
+        },
+        {
+          "word": "best,",
+          "start": 86.56,
+          "end": 86.56
+        },
+        {
+          "word": "best,",
+          "start": 86.56,
+          "end": 86.56
+        },
+        {
+          "word": "best,",
+          "start": 86.56,
+          "end": 86.56
+        },
+        {
+          "word": "best,",
+          "start": 86.56,
+          "end": 86.56
+        },
+        {
+          "word": "best,",
+          "start": 86.56,
+          "end": 86.56
+        },
+        {
+          "word": "best,",
+          "start": 86.74,
+          "end": 87.28
+        },
+        {
+          "word": "best,",
+          "start": 87.28,
+          "end": 88.14
+        },
+        {
+          "word": "best,",
+          "start": 88.44,
+          "end": 88.44
+        },
+        {
+          "word": "best,",
+          "start": 88.46,
+          "end": 88.46
+        },
+        {
+          "word": "best,",
+          "start": 88.46,
+          "end": 88.48
+        },
+        {
+          "word": "best,",
+          "start": 88.48,
+          "end": 88.48
+        },
+        {
+          "word": "best,",
+          "start": 88.48,
+          "end": 88.88
+        },
+        {
+          "word": "best,",
+          "start": 88.88,
+          "end": 90.44
+        },
+        {
+          "word": "best,",
+          "start": 90.94,
+          "end": 91.96
+        },
+        {
+          "word": "best,",
+          "start": 92.12,
+          "end": 92.42
+        },
+        {
+          "word": "best,",
+          "start": 92.42,
+          "end": 92.42
+        },
+        {
+          "word": "best,",
+          "start": 92.42,
+          "end": 92.5
+        },
+        {
+          "word": "best,",
+          "start": 92.5,
+          "end": 92.5
+        },
+        {
+          "word": "best,",
+          "start": 92.5,
+          "end": 92.5
+        },
+        {
+          "word": "best,",
+          "start": 92.5,
+          "end": 92.5
+        },
+        {
+          "word": "best,",
+          "start": 92.5,
+          "end": 92.5
+        },
+        {
+          "word": "best,",
+          "start": 92.5,
+          "end": 92.5
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.54,
+          "end": 92.54
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.66,
+          "end": 92.66
+        },
+        {
+          "word": "best,",
+          "start": 92.7,
+          "end": 92.82
+        },
+        {
+          "word": "best,",
+          "start": 92.82,
+          "end": 92.82
+        },
+        {
+          "word": "best,",
+          "start": 92.82,
+          "end": 92.84
+        },
+        {
+          "word": "best,",
+          "start": 92.84,
+          "end": 92.84
+        },
+        {
+          "word": "best,",
+          "start": 92.84,
+          "end": 92.84
+        },
+        {
+          "word": "best,",
+          "start": 92.84,
+          "end": 92.84
+        },
+        {
+          "word": "best,",
+          "start": 92.84,
+          "end": 92.84
+        },
+        {
+          "word": "best,",
+          "start": 92.84,
+          "end": 92.84
+        },
+        {
+          "word": "best,",
+          "start": 92.84,
+          "end": 92.84
+        },
+        {
+          "word": "best,",
+          "start": 92.84,
+          "end": 92.84
+        },
+        {
+          "word": "best,",
+          "start": 92.84,
+          "end": 92.84
+        },
+        {
+          "word": "best,",
+          "start": 92.84,
+          "end": 92.84
+        },
+        {
+          "word": "best,",
+          "start": 92.84,
+          "end": 93.42
+        },
+        {
+          "word": "best,",
+          "start": 93.56,
+          "end": 93.86
+        },
+        {
+          "word": "best,",
+          "start": 94.18,
+          "end": 94.74
+        },
+        {
+          "word": "best,",
+          "start": 94.74,
+          "end": 94.74
+        },
+        {
+          "word": "best,",
+          "start": 94.74,
+          "end": 94.74
+        },
+        {
+          "word": "best,",
+          "start": 94.74,
+          "end": 94.74
+        },
+        {
+          "word": "best,",
+          "start": 94.74,
+          "end": 94.74
+        },
+        {
+          "word": "best,",
+          "start": 94.74,
+          "end": 95.14
+        },
+        {
+          "word": "best,",
+          "start": 95.4,
+          "end": 95.8
+        },
+        {
+          "word": "best,",
+          "start": 96.26,
+          "end": 98.36
+        },
+        {
+          "word": "best",
+          "start": 98.92,
+          "end": 100.26
+        }
+      ],
+      "tokens": [
+        50365,
+        9752,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151,
+        11,
+        1151
+      ],
+      "avg_logprob": -0.09153632269965278,
+      "no_speech_prob": 0.8747280836105347
+    },
+    {
+      "start": 101.7,
+      "end": 103.88,
+      "text": "Hit play, the bass comes in at last",
+      "words": [
+        {
+          "word": "Hit",
+          "start": 101.7,
+          "end": 102.16
+        },
+        {
+          "word": "play,",
+          "start": 102.16,
+          "end": 102.48
+        },
+        {
+          "word": "the",
+          "start": 102.58,
+          "end": 102.68
+        },
+        {
+          "word": "bass",
+          "start": 102.68,
+          "end": 102.96
+        },
+        {
+          "word": "comes",
+          "start": 102.96,
+          "end": 103.16
+        },
+        {
+          "word": "in",
+          "start": 103.16,
+          "end": 103.38
+        },
+        {
+          "word": "at",
+          "start": 103.38,
+          "end": 103.56
+        },
+        {
+          "word": "last",
+          "start": 103.56,
+          "end": 103.88
+        }
+      ],
+      "tokens": [
+        50365,
+        9217,
+        862,
+        11,
+        264,
+        10136,
+        1487,
+        294,
+        412,
+        1036,
+        50557
+      ],
+      "avg_logprob": -0.436280035203503,
+      "no_speech_prob": 0.5765669345855713
+    },
+    {
+      "start": 107.74,
+      "end": 108.7,
+      "text": "Commit and shoot it",
+      "words": [
+        {
+          "word": "Commit",
+          "start": 107.74,
+          "end": 108.2
+        },
+        {
+          "word": "and",
+          "start": 108.2,
+          "end": 108.28
+        },
+        {
+          "word": "shoot",
+          "start": 108.28,
+          "end": 108.48
+        },
+        {
+          "word": "it",
+          "start": 108.48,
+          "end": 108.7
+        }
+      ],
+      "tokens": [
+        50557,
+        3046,
+        270,
+        293,
+        3076,
+        309,
+        50806
+      ],
+      "avg_logprob": -0.436280035203503,
+      "no_speech_prob": 0.5765669345855713
+    },
+    {
+      "start": 111.98,
+      "end": 113.6,
+      "text": "Next album, next commit",
+      "words": [
+        {
+          "word": "Next",
+          "start": 111.98,
+          "end": 112.44
+        },
+        {
+          "word": "album,",
+          "start": 112.44,
+          "end": 112.9
+        },
+        {
+          "word": "next",
+          "start": 113.0,
+          "end": 113.24
+        },
+        {
+          "word": "commit",
+          "start": 113.24,
+          "end": 113.6
+        }
+      ],
+      "tokens": [
+        50806,
+        3087,
+        6030,
+        11,
+        958,
+        5599,
+        51050
+      ],
+      "avg_logprob": -0.436280035203503,
+      "no_speech_prob": 0.5765669345855713
+    },
+    {
+      "start": 119.4,
+      "end": 120.08,
+      "text": "Album three",
+      "words": [
+        {
+          "word": "Album",
+          "start": 119.4,
+          "end": 119.86
+        },
+        {
+          "word": "three",
+          "start": 119.86,
+          "end": 120.08
+        }
+      ],
+      "tokens": [
+        51050,
+        967,
+        5559,
+        1045,
+        51363
+      ],
+      "avg_logprob": -0.436280035203503,
+      "no_speech_prob": 0.5765669345855713
+    }
+  ]
+}

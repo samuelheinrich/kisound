@@ -1,0 +1,208 @@
+{
+  "site": {
+    "name": "kisound",
+    "url": "https://kisound.ch",
+    "lang": "de-CH",
+    "tagline": "Elektronische Musik über die Infrastruktur hinter dem Netz",
+    "artist": "Samuel Heinrich",
+    "repo": "https://github.com/samuelheinrich/kisound",
+    "contact": {
+      "name": "Samuel Heinrich",
+      "email": "info@samuel-heinrich.ch",
+      "address": ""
+    },
+    "languages": [
+      "de",
+      "en"
+    ]
+  },
+  "sources": {
+    "music": "../../music/kisound",
+    "videos": "../../videos/kisound"
+  },
+  "deploy": {
+    "host": "s077.cyon.net",
+    "user": "agent_rsync@kisound.ch",
+    "protocol": "ftps",
+    "root": "/",
+    "keychain": "kisound.ch-deploy"
+  },
+  "audio": {
+    "format": "mp3",
+    "bitrate": "192k"
+  },
+  "albums": [
+    {
+      "dir": "Vibecoder",
+      "slug": "vibecoder",
+      "publish": true,
+      "links": {
+        "youtube": false,
+        "soundcloud": false
+      },
+      "interactive": {
+        "02": {
+          "project": "02_Token_Burn",
+          "label": "Eine Nacht, noch ein Prompt – bis zum Morgen",
+          "label_en": "One night, one more prompt – until morning",
+          "poster": 87.0,
+          "poster_en": 104.8
+        },
+        "03": {
+          "project": "03_SHIP_IT",
+          "label": "Ein Unterstrich zu viel – dann live",
+          "label_en": "One underscore too many – then live",
+          "poster": 131.0,
+          "poster_en": 92.5
+        }
+      }
+    },
+    {
+      "dir": "Network-Engineer-Album02",
+      "slug": "network-engineer-02",
+      "publish": true,
+      "candidates": [],
+      "links": {
+        "youtube": false,
+        "soundcloud": false
+      },
+      "interactive": {
+        "01": {
+          "project": "01_On_Call",
+          "label": "Eine Nacht, ein falsches ACL-Binding",
+          "poster": 108.3,
+          "label_en": "One night, one wrong ACL binding"
+        },
+        "02": {
+          "project": "02_Active_Standby",
+          "label": "Zwei Geräte, ein Heartbeat, ein Split Brain",
+          "poster": 104.3,
+          "label_en": "Two devices, one heartbeat, one split brain"
+        },
+        "03": {
+          "project": "03_TrustSec",
+          "label": "Wer bist du? Identität vor Zugang",
+          "poster": 112.9,
+          "analysis": false,
+          "copy": [
+            "assets/lyrics",
+            "assets/audio/analysis.json"
+          ],
+          "page": {
+            "animatic": false
+          },
+          "label_en": "Who are you? Identity before access"
+        },
+        "04": {
+          "project": "04_Broadcast_Storm",
+          "label": "Ein Kabel, ein Ring, eine Flut",
+          "poster": 100.2,
+          "label_en": "One cable, one ring, one flood"
+        },
+        "05": {
+          "project": "05_Wireshark",
+          "label": "Zwei Mitschnitte, ein fehlendes Segment",
+          "poster": 118.7,
+          "label_en": "Two captures, one missing segment"
+        },
+        "06": {
+          "project": "06_ICMP",
+          "label": "Ein Ping von Zürich nach New York – und was zurückkommt",
+          "poster": 13.6,
+          "label_en": "A ping from Zürich to New York – and what comes back"
+        },
+        "07": {
+          "project": "07_QoS",
+          "label": "Zwei Flows, ein Draht, eine Policy",
+          "poster": 90.7,
+          "label_en": "Two flows, one wire, one policy"
+        },
+        "08": {
+          "project": "08_Out_of_Band",
+          "label": "Ein Engineer, ein Console-Kabel, der getrennte Weg",
+          "poster": 37.6,
+          "label_en": "One engineer, one console cable, the separate path"
+        }
+      }
+    },
+    {
+      "dir": "Network-Engineer-Album01",
+      "slug": "network-engineer",
+      "publish": true,
+      "links": {
+        "youtube": false,
+        "soundcloud": false
+      },
+      "interactive": {
+        "00": {
+          "project": "00_Network_Engineers",
+          "label": "Die Nachtcrew einer Stadt",
+          "poster": 178.6,
+          "label_en": "The night crew of a city"
+        },
+        "01": {
+          "project": "01_Layer_2",
+          "label": "Adressen, VLANs und die Schleife",
+          "poster": 84,
+          "label_en": "Addresses, VLANs and the loop"
+        },
+        "02": {
+          "project": "02_OSPF_Neighbors",
+          "label": "Ein Netzwerkatlas findet Nachbarn",
+          "poster": 79.7,
+          "label_en": "A network atlas finds its neighbours"
+        },
+        "03": {
+          "project": "03_Its_Always_DNS",
+          "label": "Der Fall #4040 – es ist immer DNS",
+          "poster": 46.7,
+          "label_en": "Case #4040 – it is always DNS"
+        },
+        "04": {
+          "project": "04_Destination_Unreachable",
+          "label": "Ein leerer Backbone bei Nacht",
+          "poster": 42.5,
+          "label_en": "An empty backbone at night"
+        },
+        "05": {
+          "project": "05_WiFi_Roaming",
+          "label": "Roaming durch das Bürogebäude",
+          "poster": 91.6,
+          "label_en": "Roaming through the office building"
+        },
+        "06": {
+          "project": "06_Multicast",
+          "label": "Stadion-Netz",
+          "poster": 167.8,
+          "label_en": "A stadium network"
+        },
+        "07": {
+          "project": "07_Firewall_State_Table",
+          "label": "Mauer, Tor und State Table",
+          "poster": 104.0,
+          "label_en": "Wall, gate and state table"
+        },
+        "08": {
+          "project": "08_MTU",
+          "label": "Zu gross für den Tunnel",
+          "poster": 110.5,
+          "label_en": "Too big for the tunnel"
+        },
+        "09": {
+          "project": "09-last-hop",
+          "label": "Ein Frame als Raumschiff: neun Hops durch die Sterne",
+          "poster": 129.2,
+          "analysis": false,
+          "copy": [
+            "assets/lyrics",
+            "assets/audio/analysis.json"
+          ],
+          "page": {
+            "animatic": false
+          },
+          "label_en": "A frame as a starship: nine hops through the stars"
+        }
+      }
+    }
+  ]
+}
