@@ -1,7 +1,7 @@
 # Vibecoder · Codebasierte Musikvideos
 
 Stand: 12. Oktober 2026. Projektort:
-`/Users/samuel.heinrich/0004_git/videos/kisound/Vibecoder/`.
+`/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Vibecoder/`.
 
 **TOKEN BURN ist als Live-Code in beiden Fassungen (DE/EN) umgesetzt.**
 Deutsch und Englisch haben eigene Zeitlisten, sechs grosse TOKEN-BURN-Einsätze,

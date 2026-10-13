@@ -9,7 +9,8 @@ Bereichen bleiben dadurch erhalten.
 [Web-Build und Browser-Check](docs/web-build-result.md) sind bestanden.
 Der Web-Build-Agent hat den Import und die lokale Prüfung abgenommen. Die in
 seiner [Review-Rückmeldung](docs/web-review-and-session-migration.md)
-beschriebene Claude-/Codex-Session-Migration steht separat noch aus.
+beschriebene Claude-/Codex-Session-Migration ist abgeschlossen; die Prüfung
+steht in [`docs/session-migration-result.md`](docs/session-migration-result.md).
 
 | Bereich | Stand |
 | --- | --- |
@@ -28,6 +29,11 @@ beschreiben die Album-READMEs den Stand.
 
 Git enthält Text, Code und die für Website oder Videos benötigten Cover, Fonts
 und 3D-Assets. Audio, Lizenz-PDFs, Renderdateien und Exportordner bleiben lokal.
+Die bisher fehlenden lokalen Medien und Exportdateien liegen jetzt ebenfalls
+unter diesem Monorepo. Die alten Ordner `../music/kisound/`,
+`../videos/kisound/` und `../web/kisound/` werden nicht mehr als Arbeitsorte
+benötigt; sie können vorerst als zusätzliche lokale Sicherung bestehen bleiben.
+Ein neuer Git-Checkout enthält diese ignorierten Dateien nicht.
 [`media-inventory.tsv`](media-inventory.tsv) hält Pfad, Grösse und SHA-256 der
 Musik- und Lizenzdateien fest. Nach dem Wiederherstellen dieser Dateien unter
 denselben relativen Pfaden prüft `python3 tools/media_inventory.py --check` ihre

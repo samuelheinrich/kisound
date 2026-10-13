@@ -8,7 +8,7 @@ vier Szenenmodule und unverändertes Originalaudio. Die erste Abnahme erfolgt im
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album01/02_OSPF_Neighbors"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album01/02_OSPF_Neighbors"
 npm ci
 npm run preview
 ```

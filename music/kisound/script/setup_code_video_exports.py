@@ -135,7 +135,8 @@ def plan_changes(root, projects, zshrc):
     shell_file = root / 'tools/kisound-render.zsh'
     changes = {global_js: source.read_bytes(), shell_file: (
         '# Globaler kisound-Export, auch für künftige Projekte.\n'
-        f'function kisound-render() {{ command node {shlex.quote(str(global_js))} "$@"; }}\n'
+        'typeset -g KISOUND_RENDER_MODULE="${${(%):-%x}:A:h}/kisound-render.mjs"\n'
+        'function kisound-render() { command node "$KISOUND_RENDER_MODULE" "$@"; }\n'
     ).encode()}
     for name in ('export-video.mjs', 'render-checkpoints.mjs', 'render.mjs'):
         changes[root / 'tools' / name] = Path(__file__).with_name(name).read_bytes()

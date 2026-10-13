@@ -76,6 +76,8 @@ def check():
                                    'hook_windows':len(keys['keywords']),'audio_sha256':tr['source_audio_sha256']}
         print(f'{lang.upper()}: {len(shots)} Shots lückenlos; {len(tr["segments"])} Lyrics und {len(an["events"])} Ereignisse genau einmal; Hashes stimmen.')
     for path in HERE.rglob('*.md'):
+        if any(part in {'_revisions','node_modules','output'} for part in path.parts):
+            continue
         for href in re.findall(r'\]\(([^)]+)\)',path.read_text()):
             href=href.strip('<>').split('#')[0]
             if href and not href.startswith(('http:','https:')):

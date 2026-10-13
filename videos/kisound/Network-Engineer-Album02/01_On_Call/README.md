@@ -14,7 +14,7 @@ Vier Räume: **Stadt**, **Schreibtisch**, **Display** und **R-EDGE innen** (mit 
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album02/01_On_Call"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album02/01_On_Call"
 npm ci --ignore-scripts   # nur falls node_modules fehlt
 npm run prepare           # prüft WAV/Transkript per SHA-256 und kopiert das Audio nach assets/audio
 npm run preview

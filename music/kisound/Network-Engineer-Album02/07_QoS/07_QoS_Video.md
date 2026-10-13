@@ -7,7 +7,7 @@ Videoprojekt: `0004_git/videos/kisound/Network-Engineer-Album02/07_QoS/`
 (Node/Three.js, Port 8160; README und ABNAHME dort).
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album02/07_QoS"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album02/07_QoS"
 npm run prepare   # prüft WAV und Transkript per SHA-256, kopiert das Audio
 npm run preview   # http://127.0.0.1:8160/
 ```

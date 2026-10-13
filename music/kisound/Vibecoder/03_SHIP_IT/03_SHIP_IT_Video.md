@@ -3,11 +3,11 @@
 Stand: 12. Oktober 2026. **Live-Code in zwei Fassungen (DE/EN) umgesetzt**, geprüft und auf kisound.ch
 mit Fassungswahl online: https://kisound.ch/vibecoder/03-ship-it/ (12.10.2026). Kein MP4 gerendert.
 
-Projekt: `/Users/samuel.heinrich/0004_git/videos/kisound/Vibecoder/03_SHIP_IT/`
+Projekt: `/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Vibecoder/03_SHIP_IT/`
 ([README](../../../../videos/kisound/Vibecoder/03_SHIP_IT/README.md)).
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Vibecoder/03_SHIP_IT"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Vibecoder/03_SHIP_IT"
 npm run prepare && npm run preview      # Port 8172, deutsche Fassung; englisch: http://127.0.0.1:8172/?lang=en
 ```
 

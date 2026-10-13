@@ -1,13 +1,13 @@
 # kisound.ch – Website-Build
 
-Statische Website aus den beiden Arbeitsordnern. Kein Server-Code, kein CMS: `npm run build` erzeugt
+Statische Website aus den beiden Quellbereichen. Kein Server-Code, kein CMS: `npm run build` erzeugt
 `dist/`, das auf jeden Webserver kopiert werden kann.
 
 ```
-0004_git/
-  music/kisound/    Quelle (Git): Prompts, Release-WAVs, Cover, album.yml, Transkripte
-  videos/kisound/   Videoprojekte, ASTRA-Analysen, Drehbücher, Renders (kein Git)
-  web/kisound/      dieser Ordner (Git): Build, Vorlagen, Player → dist/
+0004_git/kisound/
+  music/kisound/    Musik: Prompts, lokale Release-WAVs, Cover, album.yml, Transkripte
+  videos/kisound/   Videoprojekte, ASTRA-Analysen, Drehbücher, lokale Renders
+  web/kisound/      dieser Ordner: Build, Vorlagen, Player → dist/
 ```
 
 Die Daten fliessen nur in eine Richtung: `music` → `videos` → `web`. Der Build liest beide Ordner und
@@ -18,7 +18,7 @@ erst mit einem Eintrag unter `interactive`.
 ## Befehle
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/web/kisound"
+cd "/Users/samuel.heinrich/0004_git/kisound/web/kisound"
 npm ci               # einmalig
 npm run build        # dist/ erzeugen (Transcodes und Bilder werden in .cache/ wiederverwendet)
 npm run check -- --only vibecoder/03-ship-it   # nur das Geänderte prüfen (~1,5 min), siehe unten

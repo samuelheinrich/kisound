@@ -12,7 +12,7 @@ Vier Räume: **Rack/Pfad**, **Analysefenster**, **BEFORE | AFTER**, **Protokolls
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album02/05_Wireshark"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album02/05_Wireshark"
 npm ci --ignore-scripts   # nur falls node_modules fehlt
 npm run prepare
 npm run preview           # http://127.0.0.1:8156/

@@ -12,7 +12,7 @@ Zwei Räume: der **Backbone** mit dem schwarzen Loch und die **Nebelkarte** mit 
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album01/04_Destination_Unreachable"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album01/04_Destination_Unreachable"
 npm ci            # nur falls node_modules fehlt
 npm run prepare   # prüft WAV/Transkript per SHA-256 und kopiert das Audio nach assets/audio
 npm run preview

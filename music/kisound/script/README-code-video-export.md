@@ -9,8 +9,8 @@ Video-Projekten. Pro neuem Song ist kein npm-Script und bei eindeutiger Audiodat
 Von einem beliebigen Terminalordner aus:
 
 ```sh
-python3 "/Users/samuel.heinrich/0004_git/music/kisound/script/setup_code_video_exports.py" --apply
-source "/Users/samuel.heinrich/0004_git/videos/kisound/tools/kisound-render.zsh"
+python3 "/Users/samuel.heinrich/0004_git/kisound/music/kisound/script/setup_code_video_exports.py" --apply
+source "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/tools/kisound-render.zsh"
 ```
 
 Die Einrichtung prüft zunächst alle vorhandenen Video-Projekte für beide Auflösungen. Sie

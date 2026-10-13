@@ -18,7 +18,7 @@ der **Laptop-Bildschirm**. 11 Kapitel, 64 Einstellungen.
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album02/08_Out_of_Band"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album02/08_Out_of_Band"
 npm ci --ignore-scripts   # nur falls node_modules fehlt
 npm run prepare
 npm run preview           # http://127.0.0.1:8162/

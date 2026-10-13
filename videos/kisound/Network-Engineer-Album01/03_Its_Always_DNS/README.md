@@ -11,7 +11,7 @@ Horizon) und der **Schreibtisch** (Fallakte, Terminal, Stempel, Lampe, Fallwand)
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album01/03_Its_Always_DNS"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album01/03_Its_Always_DNS"
 npm ci            # nur falls node_modules fehlt
 npm run prepare   # prüft WAV/Transkript per SHA-256 und kopiert das Audio nach assets/audio
 npm run preview

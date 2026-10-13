@@ -10,7 +10,7 @@ sechs lesbaren Tafeln. 11 Kapitel, 93 Einstellungen (25 im Kontrollraum, 21 POV-
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album01/07_Firewall_State_Table"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album01/07_Firewall_State_Table"
 npm ci            # nur falls node_modules fehlt
 npm run prepare   # prüft WAV/Transkript per SHA-256 und kopiert das Audio nach assets/audio
 npm run preview

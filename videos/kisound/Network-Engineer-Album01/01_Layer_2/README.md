@@ -7,7 +7,7 @@ trennt VLANs, gerät in eine Schleife und findet zu sauberer Weiterleitung zurü
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album01/01_Layer_2"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album01/01_Layer_2"
 npm ci
 npm run preview
 ```

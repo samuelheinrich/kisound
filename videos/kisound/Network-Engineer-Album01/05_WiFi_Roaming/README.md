@@ -20,7 +20,7 @@ Roam, `?t=77.54&v=3` für DFS, `?t=91.56&v=3` für das Grossraumbüro.
 Im Terminal in diesen Songordner wechseln:
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album01/05_WiFi_Roaming"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album01/05_WiFi_Roaming"
 ```
 
 **1080p / 60 fps starten:**

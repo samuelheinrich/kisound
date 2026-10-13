@@ -12,7 +12,7 @@ Zwei Räume: der nächtliche **Pfad** und eine helle **Messhalle**. 11 Kapitel, 
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album01/08_MTU"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album01/08_MTU"
 npm ci            # nur falls node_modules fehlt
 npm run prepare   # prüft WAV/Transkript per SHA-256 und kopiert das Audio nach assets/audio
 npm run preview

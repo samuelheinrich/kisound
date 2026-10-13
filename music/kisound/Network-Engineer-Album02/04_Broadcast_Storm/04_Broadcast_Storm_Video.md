@@ -7,7 +7,7 @@ Videoprojekt: `0004_git/videos/kisound/Network-Engineer-Album02/04_Broadcast_Sto
 (Node/Three.js, Port 8154; README und ABNAHME dort).
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album02/04_Broadcast_Storm"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album02/04_Broadcast_Storm"
 npm run prepare   # prüft WAV und Transkript per SHA-256, kopiert das Audio
 npm run preview   # http://127.0.0.1:8154/
 ```

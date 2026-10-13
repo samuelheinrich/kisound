@@ -25,7 +25,7 @@ rm -rf src tests && tar -xzf _revisions/code-v1-arena.tar.gz
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album01/06_Multicast"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album01/06_Multicast"
 npm ci            # nur falls node_modules fehlt
 npm run prepare   # prüft WAV/Transkript per SHA-256 und kopiert das Audio nach assets/audio
 npm run preview

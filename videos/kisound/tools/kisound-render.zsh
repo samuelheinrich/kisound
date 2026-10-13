@@ -1,2 +1,3 @@
 # Globaler kisound-Export, auch für künftige Projekte.
-function kisound-render() { command node '/Users/samuel.heinrich/0004_git/videos/kisound/tools/kisound-render.mjs' "$@"; }
+typeset -g KISOUND_RENDER_MODULE="${${(%):-%x}:A:h}/kisound-render.mjs"
+function kisound-render() { command node "$KISOUND_RENDER_MODULE" "$@"; }

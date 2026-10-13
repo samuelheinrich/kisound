@@ -12,7 +12,9 @@ with tempfile.TemporaryDirectory(prefix='kisound-global-test-') as tmp:
   shutil.copytree(original/'assets',p/'assets')
   audio=source/'Network-Engineer-Album01/00_Network_Engineers/00_Network_Engineers_0.4-1.wav'
   (p/'assets/audio').mkdir(exist_ok=True)
-  (p/'assets/audio/network-engineers.wav').symlink_to(audio)
+  target=p/'assets/audio/network-engineers.wav'
+  target.unlink(missing_ok=True)
+  target.symlink_to(audio)
   data=json.loads((original/'package.json').read_text())
   data['scripts']={k:v for k,v in data['scripts'].items() if not k.startswith('export:')}
   (p/'package.json').write_text(json.dumps(data))

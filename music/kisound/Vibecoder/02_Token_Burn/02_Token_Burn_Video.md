@@ -3,11 +3,11 @@
 Stand: 9. Oktober 2026. **Live-Code in zwei Fassungen (DE/EN) umgesetzt**, lokal geprüft, auf kisound.ch
 mit Fassungswahl online: https://kisound.ch/vibecoder/02-token-burn/ (9.10.2026). Kein MP4 gerendert.
 
-Projekt: `/Users/samuel.heinrich/0004_git/videos/kisound/Vibecoder/02_Token_Burn/`
+Projekt: `/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Vibecoder/02_Token_Burn/`
 ([README](../../../../videos/kisound/Vibecoder/02_Token_Burn/README.md)).
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Vibecoder/02_Token_Burn"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Vibecoder/02_Token_Burn"
 npm run prepare && npm run preview      # Port 8170, deutsche Fassung; englisch: http://127.0.0.1:8170/?lang=en
 ```
 

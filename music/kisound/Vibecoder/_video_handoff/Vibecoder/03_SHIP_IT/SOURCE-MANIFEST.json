@@ -2,7 +2,7 @@
   "schema": "kisound.video.screenplay.sources.v1",
   "album": "Vibecoder",
   "track": "03_SHIP_IT",
-  "intended_project_root": "/Users/samuel.heinrich/0004_git/videos/kisound/Vibecoder/03_SHIP_IT",
+  "intended_project_root": "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Vibecoder/03_SHIP_IT",
   "path_base": "intended_project_root",
   "fps": 60,
   "variants": {

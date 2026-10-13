@@ -26,7 +26,7 @@ Auflösung, Bildrate, Bildzahl und Audiodauer. Alle Schritte laufen lokal.
 Für WiFi Roaming sind die Song-Konfiguration und `npm`-Befehle bereits eingerichtet. Im Songordner:
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album01/05_WiFi_Roaming"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album01/05_WiFi_Roaming"
 ```
 
 Full HD starten:

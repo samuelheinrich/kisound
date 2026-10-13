@@ -12,7 +12,7 @@ Drei Räume: **Switchdreieck**, **SW3 innen** (Queues, MAC-Tafel, CPU) und **Con
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album02/04_Broadcast_Storm"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album02/04_Broadcast_Storm"
 npm ci --ignore-scripts   # nur falls node_modules fehlt
 npm run prepare
 npm run preview           # http://127.0.0.1:8154/

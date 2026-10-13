@@ -14,7 +14,7 @@ Drei Räume: **Halle** (Geräte, ha1, Adressring, Netz), **Archive** (Session-Ta
 ## Start
 
 ```sh
-cd "/Users/samuel.heinrich/0004_git/videos/kisound/Network-Engineer-Album02/02_Active_Standby"
+cd "/Users/samuel.heinrich/0004_git/kisound/videos/kisound/Network-Engineer-Album02/02_Active_Standby"
 npm ci --ignore-scripts   # nur falls node_modules fehlt
 npm run prepare           # prüft WAV/Transkript per SHA-256 und kopiert das Audio
 npm run preview           # http://127.0.0.1:8152/
