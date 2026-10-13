@@ -1,7 +1,11 @@
 # Übergabe an den Web-Build-Agenten · Monorepo-Import
 
-**Freigabestatus: ausstehend.** Diese Übergabe muss vor dem Kopieren, Ändern
-oder Bauen des Web-Bereichs ausdrücklich bestätigt werden.
+**Freigabestatus: Import und lokale Prüfung freigegeben (13.10.2026).**
+Die [Review-Rückmeldung](web-review-and-session-migration.md) bestätigt das
+37-Dateien-Manifest und beschreibt die zusätzlich erforderlichen Video-Asset-
+Vorbereitungen sowie die Claude-/Codex-Session-Migration. Der
+[Build- und Prüfbericht](web-build-result.md) dokumentiert den erfolgreichen
+Import und lokalen Check. Die endgültige Abnahme folgt nach der Session-Prüfung.
 
 ## Vorgesehener Import
 
@@ -23,14 +27,16 @@ liegen am vorgesehenen Ort; Audio bleibt lokal ausserhalb von Git, Cover und
 benötigte Code-Assets werden versioniert. Die URL-Tabellen in den `xx_*`-
 Ordnern werden mitgenommen.
 
-## Prüfung nach Bestätigung
+## Ausführung und Abnahme
 
 1. Direkt vor dem Import die Quell-Dateien erneut gegen das Manifest prüfen.
    Bei einer Änderung die Übergabe aktualisieren und erneut bestätigen lassen.
 2. Die 37 Dateien bytegleich kopieren und Quelle/Ziel per SHA-256 vergleichen.
-3. Im neuen Web-Ordner `npm run build` und den vollständigen
-   `npm run check` ausführen. Der Build schreibt nur in die lokalen,
-   ignorierten Ausgabeverzeichnisse.
+3. Die in der Review-Rückmeldung beschriebenen Paketinstallationen und
+   Audio-/Set-Vorbereitungen durchführen. Im neuen Web-Ordner `npm run build`
+   und den vollständigen `npm run check` ausführen. Der Check kann die
+   versionierte `audio-offsets.json` ändern; diesen Diff prüfen und bei
+   `rebuild_needed` erneut bauen und vollständig prüfen.
 4. Das Ergebnis mit dem Build-Agenten prüfen. Bei nötigen Web-Codeänderungen
    die konkrete Änderung vor ihrer Ausführung erneut übergeben.
 

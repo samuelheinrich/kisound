@@ -1,0 +1,23 @@
+{
+  "name": "kisound-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "kisound.ch: statische Website aus music/kisound und videos/kisound",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "stats": "python3 src/project-stats.py",
+    "serve": "node src/serve.mjs",
+    "check": "node src/check.mjs",
+    "deploy": "node src/deploy.mjs"
+  },
+  "dependencies": {
+    "basic-ftp": "5.3.1",
+    "esbuild": "0.25.10",
+    "ssh2-sftp-client": "12.1.1",
+    "yaml": "2.8.1"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.43.1"
+  }
+}

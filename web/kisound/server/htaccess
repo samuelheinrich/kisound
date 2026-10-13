@@ -1,0 +1,30 @@
+# kisound.ch on Apache. Copied into dist/ by the build. Hashed asset names may be cached forever,
+# HTML always revalidates.
+Options -Indexes
+DirectoryIndex index.html
+AddType text/javascript .js
+AddType application/json .json
+AddType audio/mpeg .mp3
+AddType image/webp .webp
+AddType image/svg+xml .svg
+AddType font/ttf .ttf
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/json image/svg+xml font/ttf
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.[0-9a-f]{10}\.(js|css|json|mp3|webp|jpg|svg)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(html|xml|txt)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+# The pieces are live code, not videos: /…/video/ moved to /…/live/.
+RedirectMatch 301 ^/(.+)/video/(.*)$ /$1/live/$2
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>

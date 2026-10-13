@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de-CH" data-lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+{{boot}}
+<title>{{title}} · Live-Code · {{site}}</title>
+<meta name="description" content="{{description}}">
+<meta name="theme-color" content="#03070e">
+<link rel="icon" href="{{icon}}">
+<link rel="stylesheet" href="{{css}}">
+<script>window.KISOUND_PAGE={{page}};
+// Start resolution from the displayed size; touch devices start at most at 720p (the player offers less if needed).
+(()=>{const need=Math.min(innerHeight,innerWidth*9/16)*Math.min(devicePixelRatio||1,2),cap=matchMedia('(pointer:coarse)').matches?720:1080;window.KISOUND_PAGE.defaultRes=Math.min(cap,need<=560?540:need<=760?720:1080);})();
+// Language versions (e.g. DE/EN recordings of one track): ?v= first, then the stored choice, then the site language.
+(()=>{const P=window.KISOUND_PAGE,V=P.versions;if(!V)return;let s=null;try{s=localStorage.getItem('kisound.version')}catch(e){}
+ const k=[new URLSearchParams(location.search).get('v'),s,document.documentElement.dataset.lang,Object.keys(V)[0]].find(x=>x&&V[x]),v=V[k];
+ Object.assign(P,{lang:k,version:k,audio:v.audio,audioOffset:v.audioOffset,wave:v.wave,lyrics:v.lyrics,analysis:v.analysis,posterTime:v.posterTime});document.documentElement.dataset.version=k;})();</script>
+</head>
+<body>
+<div id="film"><div id="stage" aria-label="Live-Code"></div></div>
+<div id="loading"><strong>{{titleUpper}}</strong><span class="load-kind"><span data-l="de">&lt;/&gt; Live-Code · kein Video</span><span data-l="en">&lt;/&gt; Live code · not a video</span></span><span id="load-status">…</span><progress id="load-progress" max="4" value="0"></progress><pre id="error" hidden></pre>
+<noscript>Dieses Stück ist Code, kein Video: Es wird im Browser berechnet und braucht JavaScript und WebGL. · This piece is code, not a video: it runs in your browser and needs JavaScript and WebGL.</noscript></div>
+<script>
+// The projects report loading steps in German; in English mode they are translated on the fly.
+(()=>{const el=document.getElementById('load-status'),map=[[/Originalaudio vorbereiten/,'Preparing the original audio …'],[/Audio laden … (\d+) %/,'Loading audio … $1 %'],[/Audio vorbereiten/,'Preparing audio …'],[/Analyse und Schriften laden/,'Loading analysis and fonts …'],[/Browservorschau vorbereiten/,'Preparing …'],[/aufbauen|vorbereiten/,'Building the scene …']];
+ const fix=()=>{if(document.documentElement.dataset.lang!=='en')return;const t=el.textContent;for(const[re,en]of map)if(re.test(t)){const n=t.replace(new RegExp('.*'+re.source+'.*'),en);if(n!==t)el.textContent=n;return;}};
+ new MutationObserver(fix).observe(el,{childList:true,characterData:true,subtree:true});})();
+</script>
+<script type="module" src="{{js}}"></script>
+</body>
+</html>

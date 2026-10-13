@@ -5,9 +5,11 @@ Die Quellen liegen wie im Produktionsablauf unter `music/kisound/`,
 `videos/kisound/` und `web/kisound/`. Relative Quellpfade zwischen diesen
 Bereichen bleiben dadurch erhalten.
 
-**Integrationsstand:** Musik und Video sind übernommen. Der Web-Import wartet
-auf die Bestätigung der [Übergabe](docs/web-build-handoff.md) durch den
-verantwortlichen Web-Build-Agenten.
+**Integrationsstand:** Musik, Video und Web sind übernommen. Der lokale
+[Web-Build und Browser-Check](docs/web-build-result.md) sind bestanden.
+Die endgültige Abnahme durch den Web-Build-Agenten und die in seiner
+[Review-Rückmeldung](docs/web-review-and-session-migration.md) beschriebene
+Claude-/Codex-Session-Migration stehen noch aus.
 
 | Bereich | Stand |
 | --- | --- |
