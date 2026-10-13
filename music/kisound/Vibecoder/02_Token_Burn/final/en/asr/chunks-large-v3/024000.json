@@ -1,0 +1,36 @@
+{
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "frame": 24000,
+  "next_frame": 27000,
+  "segments": [
+    {
+      "start": 240.0,
+      "end": 250.8,
+      "text": "Thank you.",
+      "words": [
+        {
+          "word": "Thank",
+          "start": 243.12,
+          "end": 243.14
+        },
+        {
+          "word": "you",
+          "start": 243.14,
+          "end": 243.16
+        },
+        {
+          "word": ".",
+          "start": 243.16,
+          "end": 245.92
+        }
+      ],
+      "tokens": [
+        50365,
+        1044,
+        291,
+        13,
+        50905
+      ]
+    }
+  ]
+}

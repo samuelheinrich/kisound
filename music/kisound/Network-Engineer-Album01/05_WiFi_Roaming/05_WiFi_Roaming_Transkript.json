@@ -1,0 +1,500 @@
+{
+  "title": "WiFi Roaming",
+  "source_audio": "05_WiFi_Roaming_0.3-1.wav",
+  "source_audio_sha256": "eb8554d1bed1f9eac7033c3f21a8274f725eaadf6cd5e7a1366beaa9a3396afa",
+  "duration_seconds": 176.880979,
+  "languages": [
+    "en"
+  ],
+  "time_origin": "Beginn der WAV-Datei bei 0 Sekunden",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 0.0,
+      "last_vocal_end": 12.18
+    },
+    {
+      "title": "Verse",
+      "first_vocal_start": 33.239999999999995,
+      "last_vocal_end": 43.26
+    },
+    {
+      "title": "Pre-Chorus",
+      "first_vocal_start": 43.72,
+      "last_vocal_end": 52.74
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 55.419999999999995,
+      "last_vocal_end": 65.82
+    },
+    {
+      "title": "Hook",
+      "first_vocal_start": 66.28,
+      "last_vocal_end": 77.54
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 88.2,
+      "last_vocal_end": 109.16
+    },
+    {
+      "title": "Break",
+      "first_vocal_start": 110.96,
+      "last_vocal_end": 121.02
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 121.68,
+      "last_vocal_end": 132.02
+    },
+    {
+      "title": "Outro",
+      "first_vocal_start": 135.85999999999999,
+      "last_vocal_end": 162.56
+    }
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 0.7,
+      "start_timecode": "00:00:00.000",
+      "end_timecode": "00:00:00.700",
+      "text": "Scanning.",
+      "section": "Intro"
+    },
+    {
+      "id": 2,
+      "start": 4.48,
+      "end": 5.88,
+      "start_timecode": "00:00:04.480",
+      "end_timecode": "00:00:05.880",
+      "text": "Associating.",
+      "section": "Intro"
+    },
+    {
+      "id": 3,
+      "start": 9.26,
+      "end": 10.66,
+      "start_timecode": "00:00:09.260",
+      "end_timecode": "00:00:10.660",
+      "text": "Authenticating.",
+      "section": "Intro"
+    },
+    {
+      "id": 4,
+      "start": 10.66,
+      "end": 12.18,
+      "start_timecode": "00:00:10.660",
+      "end_timecode": "00:00:12.180",
+      "text": "Connected.",
+      "section": "Intro"
+    },
+    {
+      "id": 5,
+      "start": 33.24,
+      "end": 34.68,
+      "start_timecode": "00:00:33.240",
+      "end_timecode": "00:00:34.680",
+      "text": "Signal fades at minus seventy-five,",
+      "section": "Verse"
+    },
+    {
+      "id": 6,
+      "start": 35.4,
+      "end": 37.54,
+      "start_timecode": "00:00:35.400",
+      "end_timecode": "00:00:37.540",
+      "text": "sticky client trying to stay alive.",
+      "section": "Verse"
+    },
+    {
+      "id": 7,
+      "start": 38.28,
+      "end": 40.98,
+      "start_timecode": "00:00:38.280",
+      "end_timecode": "00:00:40.980",
+      "text": "Channel overlap in a crowded room,",
+      "section": "Verse"
+    },
+    {
+      "id": 8,
+      "start": 41.92,
+      "end": 43.26,
+      "start_timecode": "00:00:41.920",
+      "end_timecode": "00:00:43.260",
+      "text": "D-F-S radar makes the silence bloom.",
+      "section": "Verse"
+    },
+    {
+      "id": 9,
+      "start": 43.72,
+      "end": 44.76,
+      "start_timecode": "00:00:43.720",
+      "end_timecode": "00:00:44.760",
+      "text": "Beacon in the hallway,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 10,
+      "start": 45.48,
+      "end": 47.92,
+      "start_timecode": "00:00:45.480",
+      "end_timecode": "00:00:47.920",
+      "text": "handoff at the door.",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 11,
+      "start": 49.14,
+      "end": 50.24,
+      "start_timecode": "00:00:49.140",
+      "end_timecode": "00:00:50.240",
+      "text": "Client keeps holding.",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 12,
+      "start": 50.94,
+      "end": 52.74,
+      "start_timecode": "00:00:50.940",
+      "end_timecode": "00:00:52.740",
+      "text": "what it should ignore.",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 13,
+      "start": 55.42,
+      "end": 57.06,
+      "start_timecode": "00:00:55.420",
+      "end_timecode": "00:00:57.060",
+      "text": "Roam, roam, find the stronger light,",
+      "section": "Chorus"
+    },
+    {
+      "id": 14,
+      "start": 57.98,
+      "end": 60.68,
+      "start_timecode": "00:00:57.980",
+      "end_timecode": "00:01:00.680",
+      "text": "802 dot 11 in the noise tonight.",
+      "section": "Chorus"
+    },
+    {
+      "id": 15,
+      "start": 60.68,
+      "end": 63.14,
+      "start_timecode": "00:01:00.680",
+      "end_timecode": "00:01:03.140",
+      "text": "R-S-S-I falling, S-N-R low,",
+      "section": "Chorus"
+    },
+    {
+      "id": 16,
+      "start": 63.54,
+      "end": 65.82,
+      "start_timecode": "00:01:03.540",
+      "end_timecode": "00:01:05.820",
+      "text": "handoff clean, let the client go.",
+      "section": "Chorus"
+    },
+    {
+      "id": 17,
+      "start": 66.28,
+      "end": 67.56,
+      "start_timecode": "00:01:06.280",
+      "end_timecode": "00:01:07.560",
+      "text": "Scan the air.",
+      "section": "Hook"
+    },
+    {
+      "id": 18,
+      "start": 67.88,
+      "end": 69.2,
+      "start_timecode": "00:01:07.880",
+      "end_timecode": "00:01:09.200",
+      "text": "Catch the frame.",
+      "section": "Hook"
+    },
+    {
+      "id": 19,
+      "start": 69.2,
+      "end": 70.52,
+      "start_timecode": "00:01:09.200",
+      "end_timecode": "00:01:10.520",
+      "text": "Same S-S-I-D.",
+      "section": "Hook"
+    },
+    {
+      "id": 20,
+      "start": 70.52,
+      "end": 72.04,
+      "start_timecode": "00:01:10.520",
+      "end_timecode": "00:01:12.040",
+      "text": "different name.",
+      "section": "Hook"
+    },
+    {
+      "id": 21,
+      "start": 72.04,
+      "end": 72.9,
+      "start_timecode": "00:01:12.040",
+      "end_timecode": "00:01:12.900",
+      "text": "Roam again.",
+      "section": "Hook"
+    },
+    {
+      "id": 22,
+      "start": 73.32,
+      "end": 74.8,
+      "start_timecode": "00:01:13.320",
+      "end_timecode": "00:01:14.800",
+      "text": "Change the lane.",
+      "section": "Hook"
+    },
+    {
+      "id": 23,
+      "start": 76.72,
+      "end": 77.54,
+      "start_timecode": "00:01:16.720",
+      "end_timecode": "00:01:17.540",
+      "text": "through the rain.",
+      "section": "Hook"
+    },
+    {
+      "id": 24,
+      "start": 76.72,
+      "end": 77.54,
+      "start_timecode": "00:01:16.720",
+      "end_timecode": "00:01:17.540",
+      "text": "Through the rain.",
+      "section": "Hook"
+    },
+    {
+      "id": 25,
+      "start": 88.2,
+      "end": 90.1,
+      "start_timecode": "00:01:28.200",
+      "end_timecode": "00:01:30.100",
+      "text": "A-Ps whisper through concrete walls,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 26,
+      "start": 91.56,
+      "end": 93.36,
+      "start_timecode": "00:01:31.560",
+      "end_timecode": "00:01:33.360",
+      "text": "beacons pulse in the meeting halls.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 27,
+      "start": 94.34,
+      "end": 96.08,
+      "start_timecode": "00:01:34.340",
+      "end_timecode": "00:01:36.080",
+      "text": "Captive portal, roaming trace,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 28,
+      "start": 97.1,
+      "end": 98.58,
+      "start_timecode": "00:01:37.100",
+      "end_timecode": "00:01:38.580",
+      "text": "packets vanish in the office space.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 29,
+      "start": 99.78,
+      "end": 101.96,
+      "start_timecode": "00:01:39.780",
+      "end_timecode": "00:01:41.960",
+      "text": "Five gigahertz bends around,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 30,
+      "start": 102.46,
+      "end": 104.12,
+      "start_timecode": "00:01:42.460",
+      "end_timecode": "00:01:44.120",
+      "text": "six gigahertz cuts through sound.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 31,
+      "start": 105.16,
+      "end": 106.92,
+      "start_timecode": "00:01:45.160",
+      "end_timecode": "00:01:46.920",
+      "text": "Channel width too wide tonight,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 32,
+      "start": 107.5,
+      "end": 109.16,
+      "start_timecode": "00:01:47.500",
+      "end_timecode": "00:01:49.160",
+      "text": "power down and make it right.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 33,
+      "start": 110.96,
+      "end": 111.4,
+      "start_timecode": "00:01:50.960",
+      "end_timecode": "00:01:51.400",
+      "text": "Probe request.",
+      "section": "Break"
+    },
+    {
+      "id": 34,
+      "start": 112.42,
+      "end": 113.42,
+      "start_timecode": "00:01:52.420",
+      "end_timecode": "00:01:53.420",
+      "text": "Probe response.",
+      "section": "Break"
+    },
+    {
+      "id": 35,
+      "start": 113.76,
+      "end": 114.46,
+      "start_timecode": "00:01:53.760",
+      "end_timecode": "00:01:54.460",
+      "text": "Authentication.",
+      "section": "Break"
+    },
+    {
+      "id": 36,
+      "start": 114.46,
+      "end": 115.76,
+      "start_timecode": "00:01:54.460",
+      "end_timecode": "00:01:55.760",
+      "text": "Association.",
+      "section": "Break"
+    },
+    {
+      "id": 37,
+      "start": 116.74,
+      "end": 117.88,
+      "start_timecode": "00:01:56.740",
+      "end_timecode": "00:01:57.880",
+      "text": "Four-way handshake.",
+      "section": "Break"
+    },
+    {
+      "id": 38,
+      "start": 117.94,
+      "end": 118.3,
+      "start_timecode": "00:01:57.940",
+      "end_timecode": "00:01:58.300",
+      "text": "Keys align.",
+      "section": "Break"
+    },
+    {
+      "id": 39,
+      "start": 118.7,
+      "end": 120.26,
+      "start_timecode": "00:01:58.700",
+      "end_timecode": "00:02:00.260",
+      "text": "Signal locks.",
+      "section": "Break"
+    },
+    {
+      "id": 40,
+      "start": 120.64,
+      "end": 121.02,
+      "start_timecode": "00:02:00.640",
+      "end_timecode": "00:02:01.020",
+      "text": "Clients shine.",
+      "section": "Break"
+    },
+    {
+      "id": 41,
+      "start": 121.68,
+      "end": 123.68,
+      "start_timecode": "00:02:01.680",
+      "end_timecode": "00:02:03.680",
+      "text": "Roam, roam, find the stronger light,",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 42,
+      "start": 124.18,
+      "end": 126.9,
+      "start_timecode": "00:02:04.180",
+      "end_timecode": "00:02:06.900",
+      "text": "802 dot 11 in the noise tonight.",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 43,
+      "start": 126.9,
+      "end": 129.4,
+      "start_timecode": "00:02:06.900",
+      "end_timecode": "00:02:09.400",
+      "text": "R-S-S-I falling, S-N-R low,",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 44,
+      "start": 129.84,
+      "end": 132.02,
+      "start_timecode": "00:02:09.840",
+      "end_timecode": "00:02:12.020",
+      "text": "handoff clean, let the client go.",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 45,
+      "start": 135.86,
+      "end": 136.64,
+      "start_timecode": "00:02:15.860",
+      "end_timecode": "00:02:16.640",
+      "text": "Scanning.",
+      "section": "Outro"
+    },
+    {
+      "id": 46,
+      "start": 138.52,
+      "end": 139.3,
+      "start_timecode": "00:02:18.520",
+      "end_timecode": "00:02:19.300",
+      "text": "Roaming.",
+      "section": "Outro"
+    },
+    {
+      "id": 47,
+      "start": 143.7,
+      "end": 145.0,
+      "start_timecode": "00:02:23.700",
+      "end_timecode": "00:02:25.000",
+      "text": "Scanning.",
+      "section": "Outro"
+    },
+    {
+      "id": 48,
+      "start": 153.66,
+      "end": 155.0,
+      "start_timecode": "00:02:33.660",
+      "end_timecode": "00:02:35.000",
+      "text": "Connected.",
+      "section": "Outro"
+    },
+    {
+      "id": 49,
+      "start": 161.16,
+      "end": 162.56,
+      "start_timecode": "00:02:41.160",
+      "end_timecode": "00:02:42.560",
+      "text": "Still moving.",
+      "section": "Outro"
+    }
+  ]
+}

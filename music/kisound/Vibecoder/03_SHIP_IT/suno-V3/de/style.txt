@@ -1,0 +1,8 @@
+Genre: Hard Phonk / Industrial Bass, elektronisch, kein Techno-Standardgroove.
+Tempo: 140 BPM
+Sound: Übersteuerte 808-Bässe mit Glides, gestottertes Kuhglocken-Motiv in dunkler eigener Tonfolge, harte Trap-Snare, schnelle Hi-Hat-Rolls, metallische Industrial-Hits, verzerrter Sub, kurze Tape-Stopps vor den Drops, gefilterte Upload-Blips.
+Vocals: Eine einzige sehr tiefe raue Männerstimme; rhythmischer Sprechgesang, leicht verzerrt, gut verständlich; Hook gebellt und abgehackt, Doppelungen derselben Stimme.
+Vibe: Nachtfahrt, Launch-Countdown, maximaler Druck.
+Mood: Dunkel, triumphal, Release-Euphorie.
+Ablauf: Kuhglocke und Stimme im Intro, dann voller Drop; nach jedem Refrain acht Takte 808-Drop; Bridge mit Tape-Stopps zwischen den Wörtern; Schlussrefrain maximal. Ziel 3:15.
+Hinweise: Gesang auf Deutsch; Hook, Befehle und Fachbegriffe englisch, npm als N-P-M, Git mit hartem G. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

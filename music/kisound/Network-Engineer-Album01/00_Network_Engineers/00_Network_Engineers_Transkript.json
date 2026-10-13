@@ -1,0 +1,465 @@
+{
+  "title": "Network Engineers",
+  "source_audio": "00_Network_Engineers_0.4-1.wav",
+  "source_audio_sha256": "f898d546962be52a08ffac6af68f08f550975de15956fe06c4a9e8c6b33dd5b5",
+  "duration_seconds": 207.520167,
+  "languages": [
+    "en"
+  ],
+  "time_origin": "Beginn der WAV-Datei bei 0 Sekunden",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 8.72,
+      "last_vocal_end": 22.82
+    },
+    {
+      "title": "Verse",
+      "first_vocal_start": 44.28,
+      "last_vocal_end": 59.36
+    },
+    {
+      "title": "Pre-Chorus",
+      "first_vocal_start": 59.36,
+      "last_vocal_end": 72.86
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 75.52,
+      "last_vocal_end": 90.86
+    },
+    {
+      "title": "Break",
+      "first_vocal_start": 95.0,
+      "last_vocal_end": 108.16
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 132.16,
+      "last_vocal_end": 146.8
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 147.94,
+      "last_vocal_end": 163.18
+    }
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "start": 8.72,
+      "end": 10.92,
+      "start_timecode": "00:00:08.720",
+      "end_timecode": "00:00:10.920",
+      "text": "Before the first login,",
+      "section": "Intro"
+    },
+    {
+      "id": 2,
+      "start": 12.36,
+      "end": 14.54,
+      "start_timecode": "00:00:12.360",
+      "end_timecode": "00:00:14.540",
+      "text": "before the screens glow,",
+      "section": "Intro"
+    },
+    {
+      "id": 3,
+      "start": 14.54,
+      "end": 18.4,
+      "start_timecode": "00:00:14.540",
+      "end_timecode": "00:00:18.400",
+      "text": "someone keeps the signal moving.",
+      "section": "Intro"
+    },
+    {
+      "id": 4,
+      "start": 18.4,
+      "end": 22.82,
+      "start_timecode": "00:00:18.400",
+      "end_timecode": "00:00:22.820",
+      "text": "through the systems down below.",
+      "section": "Intro"
+    },
+    {
+      "id": 5,
+      "start": 44.28,
+      "end": 46.08,
+      "start_timecode": "00:00:44.280",
+      "end_timecode": "00:00:46.080",
+      "text": "Under every cloud,",
+      "section": "Verse"
+    },
+    {
+      "id": 6,
+      "start": 46.28,
+      "end": 47.98,
+      "start_timecode": "00:00:46.280",
+      "end_timecode": "00:00:47.980",
+      "text": "behind every stream,",
+      "section": "Verse"
+    },
+    {
+      "id": 7,
+      "start": 47.98,
+      "end": 50.2,
+      "start_timecode": "00:00:47.980",
+      "end_timecode": "00:00:50.200",
+      "text": "there is a night shift.",
+      "section": "Verse"
+    },
+    {
+      "id": 8,
+      "start": 50.2,
+      "end": 51.58,
+      "start_timecode": "00:00:50.200",
+      "end_timecode": "00:00:51.580",
+      "text": "inside the machine.",
+      "section": "Verse"
+    },
+    {
+      "id": 9,
+      "start": 51.58,
+      "end": 53.86,
+      "start_timecode": "00:00:51.580",
+      "end_timecode": "00:00:53.860",
+      "text": "WiFi in the hallway,",
+      "section": "Verse"
+    },
+    {
+      "id": 10,
+      "start": 54.04,
+      "end": 55.52,
+      "start_timecode": "00:00:54.040",
+      "end_timecode": "00:00:55.520",
+      "text": "uplinks in the rack,",
+      "section": "Verse"
+    },
+    {
+      "id": 11,
+      "start": 55.52,
+      "end": 57.52,
+      "start_timecode": "00:00:55.520",
+      "end_timecode": "00:00:57.520",
+      "text": "failover waiting.",
+      "section": "Verse"
+    },
+    {
+      "id": 12,
+      "start": 57.52,
+      "end": 59.36,
+      "start_timecode": "00:00:57.520",
+      "end_timecode": "00:00:59.360",
+      "text": "when the main path cracks.",
+      "section": "Verse"
+    },
+    {
+      "id": 13,
+      "start": 59.36,
+      "end": 62.32,
+      "start_timecode": "00:00:59.360",
+      "end_timecode": "00:01:02.320",
+      "text": "When the lights turn red,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 14,
+      "start": 62.32,
+      "end": 65.94,
+      "start_timecode": "00:01:02.320",
+      "end_timecode": "00:01:05.940",
+      "text": "when the alarms begin,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 15,
+      "start": 67.18,
+      "end": 69.24,
+      "start_timecode": "00:01:07.180",
+      "end_timecode": "00:01:09.240",
+      "text": "they read the storm,",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 16,
+      "start": 70.98,
+      "end": 72.86,
+      "start_timecode": "00:01:10.980",
+      "end_timecode": "00:01:12.860",
+      "text": "then bring the green back in.",
+      "section": "Pre-Chorus"
+    },
+    {
+      "id": 17,
+      "start": 75.52,
+      "end": 77.14,
+      "start_timecode": "00:01:15.520",
+      "end_timecode": "00:01:17.140",
+      "text": "Network engineers,",
+      "section": "Chorus"
+    },
+    {
+      "id": 18,
+      "start": 77.14,
+      "end": 79.34,
+      "start_timecode": "00:01:17.140",
+      "end_timecode": "00:01:19.340",
+      "text": "hold the line.",
+      "section": "Chorus"
+    },
+    {
+      "id": 19,
+      "start": 79.34,
+      "end": 81.0,
+      "start_timecode": "00:01:19.340",
+      "end_timecode": "00:01:21.000",
+      "text": "Network engineers,",
+      "section": "Chorus"
+    },
+    {
+      "id": 20,
+      "start": 81.0,
+      "end": 82.9,
+      "start_timecode": "00:01:21.000",
+      "end_timecode": "00:01:22.900",
+      "text": "keep the world online.",
+      "section": "Chorus"
+    },
+    {
+      "id": 21,
+      "start": 83.28,
+      "end": 84.88,
+      "start_timecode": "00:01:23.280",
+      "end_timecode": "00:01:24.880",
+      "text": "From edge to core,",
+      "section": "Chorus"
+    },
+    {
+      "id": 22,
+      "start": 84.88,
+      "end": 86.4,
+      "start_timecode": "00:01:24.880",
+      "end_timecode": "00:01:26.400",
+      "text": "from port to route,",
+      "section": "Chorus"
+    },
+    {
+      "id": 23,
+      "start": 86.76,
+      "end": 88.6,
+      "start_timecode": "00:01:26.760",
+      "end_timecode": "00:01:28.600",
+      "text": "they keep the packets moving.",
+      "section": "Chorus"
+    },
+    {
+      "id": 24,
+      "start": 88.6,
+      "end": 90.86,
+      "start_timecode": "00:01:28.600",
+      "end_timecode": "00:01:30.860",
+      "text": "when the noise breaks out.",
+      "section": "Chorus"
+    },
+    {
+      "id": 25,
+      "start": 95.0,
+      "end": 96.6,
+      "start_timecode": "00:01:35.000",
+      "end_timecode": "00:01:36.600",
+      "text": "Link up.",
+      "section": "Break"
+    },
+    {
+      "id": 26,
+      "start": 96.62,
+      "end": 98.44,
+      "start_timecode": "00:01:36.620",
+      "end_timecode": "00:01:38.440",
+      "text": "Route clean.",
+      "section": "Break"
+    },
+    {
+      "id": 27,
+      "start": 99.66,
+      "end": 100.16,
+      "start_timecode": "00:01:39.660",
+      "end_timecode": "00:01:40.160",
+      "text": "Ports live.",
+      "section": "Break"
+    },
+    {
+      "id": 28,
+      "start": 103.02,
+      "end": 104.06,
+      "start_timecode": "00:01:43.020",
+      "end_timecode": "00:01:44.060",
+      "text": "Packets move.",
+      "section": "Break"
+    },
+    {
+      "id": 29,
+      "start": 104.34,
+      "end": 106.0,
+      "start_timecode": "00:01:44.340",
+      "end_timecode": "00:01:46.000",
+      "text": "No one sees.",
+      "section": "Break"
+    },
+    {
+      "id": 30,
+      "start": 107.1,
+      "end": 108.16,
+      "start_timecode": "00:01:47.100",
+      "end_timecode": "00:01:48.160",
+      "text": "Still they move.",
+      "section": "Break"
+    },
+    {
+      "id": 31,
+      "start": 132.16,
+      "end": 133.7,
+      "start_timecode": "00:02:12.160",
+      "end_timecode": "00:02:13.700",
+      "text": "You touch the app,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 32,
+      "start": 133.94,
+      "end": 135.58,
+      "start_timecode": "00:02:13.940",
+      "end_timecode": "00:02:15.580",
+      "text": "they guard the path.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 33,
+      "start": 135.58,
+      "end": 137.58,
+      "start_timecode": "00:02:15.580",
+      "end_timecode": "00:02:17.580",
+      "text": "You call it simple,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 34,
+      "start": 137.76,
+      "end": 139.42,
+      "start_timecode": "00:02:17.760",
+      "end_timecode": "00:02:19.420",
+      "text": "they know the math.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 35,
+      "start": 139.42,
+      "end": 141.54,
+      "start_timecode": "00:02:19.420",
+      "end_timecode": "00:02:21.540",
+      "text": "Between the outage.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 36,
+      "start": 141.54,
+      "end": 142.92,
+      "start_timecode": "00:02:21.540",
+      "end_timecode": "00:02:22.920",
+      "text": "and the final screen,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 37,
+      "start": 142.92,
+      "end": 145.12,
+      "start_timecode": "00:02:22.920",
+      "end_timecode": "00:02:25.120",
+      "text": "they find the fault.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 38,
+      "start": 145.12,
+      "end": 146.8,
+      "start_timecode": "00:02:25.120",
+      "end_timecode": "00:02:26.800",
+      "text": "inside the unseen.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 39,
+      "start": 147.94,
+      "end": 149.5,
+      "start_timecode": "00:02:27.940",
+      "end_timecode": "00:02:29.500",
+      "text": "Network engineers,",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 40,
+      "start": 149.5,
+      "end": 151.7,
+      "start_timecode": "00:02:29.500",
+      "end_timecode": "00:02:31.700",
+      "text": "hold the line.",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 41,
+      "start": 151.7,
+      "end": 153.42,
+      "start_timecode": "00:02:31.700",
+      "end_timecode": "00:02:33.420",
+      "text": "Network engineers,",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 42,
+      "start": 153.42,
+      "end": 155.42,
+      "start_timecode": "00:02:33.420",
+      "end_timecode": "00:02:35.420",
+      "text": "keep the world online.",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 43,
+      "start": 155.42,
+      "end": 157.34,
+      "start_timecode": "00:02:35.420",
+      "end_timecode": "00:02:37.340",
+      "text": "Layer by layer,",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 44,
+      "start": 157.54,
+      "end": 159.3,
+      "start_timecode": "00:02:37.540",
+      "end_timecode": "00:02:39.300",
+      "text": "night after night,",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 45,
+      "start": 159.3,
+      "end": 161.1,
+      "start_timecode": "00:02:39.300",
+      "end_timecode": "00:02:41.100",
+      "text": "they keep the service breathing.",
+      "section": "Final Chorus"
+    },
+    {
+      "id": 46,
+      "start": 161.1,
+      "end": 163.18,
+      "start_timecode": "00:02:41.100",
+      "end_timecode": "00:02:43.180",
+      "text": "until the graphs turn bright.",
+      "section": "Final Chorus"
+    }
+  ],
+  "timing_source": "Lokaler ASR-Wortabgleich mit whisper-large-v3-turbo und whisper-large-v3; keine manuelle Hörprüfung",
+  "text_source": "Bestehender Lyric-Prompt und Transkript; abweichende ASR-Wörter im Gegenprüfbericht"
+}

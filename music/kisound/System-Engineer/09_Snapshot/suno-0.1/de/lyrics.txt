@@ -1,0 +1,55 @@
+[Intro]
+Snapshot erstellt.
+„Vor Update.“
+Vierzehn Monate her.
+
+[Verse 1]
+Vor dem Update, damals, nur zur Sicherheit, ein Klick,
+ein Snapshot mit dem Namen „vor Update“, ein Weg zurück.
+Das Update lief sauber, der Server lief weiter, der Snapshot blieb,
+seither landet jede Änderung in einer Delta-Disk, die schrieb und schrieb.
+Sechshundert Gigabyte Delta, der Datastore fast voll,
+dann friert die VM ein, im Client die Frage: Wiederholen oder Abbrechen? Toll.
+
+[Chorus]
+Snapshot.
+Ein Moment, eingefroren in der Zeit.
+Snapshot.
+Kein Backup, nur ein Weg zurück, nicht weit.
+Je länger er lebt, desto schwerer die Last,
+lösch ihn, bevor er dich fasst.
+
+[Verse 2]
+Ich mach Platz auf dem Datastore, verschieb zwei VMs weg,
+die VM läuft wieder, jetzt muss der Snapshot weg.
+Löschen heisst Konsolidieren, Block für Block zurück in die Basis,
+der Balken kriecht, drei Prozent, vier Prozent, die Nacht wird lang, ich weiss es.
+Um sechs Uhr: hundert Prozent, die Delta-Disk ist weg,
+ein Report jeden Morgen: Snapshots älter als drei Tage, kein Versteck.
+
+[Chorus]
+Snapshot.
+Ein Moment, eingefroren in der Zeit.
+Snapshot.
+Kein Backup, nur ein Weg zurück, nicht weit.
+Je länger er lebt, desto schwerer die Last,
+lösch ihn, bevor er dich fasst.
+
+[Bridge]
+Ein Snapshot hält den Moment,
+ein Backup holt ihn zurück.
+Das eine lebt auf derselben Platte,
+das andre woanders, Stück für Stück.
+
+[Chorus]
+Snapshot.
+Ein Moment, eingefroren in der Zeit.
+Snapshot.
+Kein Backup, nur ein Weg zurück, nicht weit.
+Je länger er lebt, desto schwerer die Last,
+lösch ihn, bevor er dich fasst.
+
+[Outro]
+Snapshot gelöscht.
+Konsolidierung abgeschlossen.
+Vierzehn Monate.

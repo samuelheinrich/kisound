@@ -1,0 +1,337 @@
+{
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "frame": 18000,
+  "next_frame": 21000,
+  "segments": [
+    {
+      "start": 180.0,
+      "end": 184.72,
+      "text": "Cold coffee, daylight through with glass",
+      "words": [
+        {
+          "word": "Cold",
+          "start": 182.5,
+          "end": 183.06
+        },
+        {
+          "word": "coffee",
+          "start": 183.06,
+          "end": 183.32
+        },
+        {
+          "word": ",",
+          "start": 183.32,
+          "end": 183.72
+        },
+        {
+          "word": "daylight",
+          "start": 183.72,
+          "end": 184.1
+        },
+        {
+          "word": "through",
+          "start": 184.1,
+          "end": 184.22
+        },
+        {
+          "word": "with",
+          "start": 184.22,
+          "end": 184.7
+        },
+        {
+          "word": "glass",
+          "start": 184.7,
+          "end": 184.96
+        }
+      ],
+      "tokens": [
+        50365,
+        16918,
+        4982,
+        11,
+        29964,
+        807,
+        365,
+        4276,
+        50601
+      ]
+    },
+    {
+      "start": 184.72,
+      "end": 188.26,
+      "text": "Another answer, minutes pass",
+      "words": [
+        {
+          "word": "Another",
+          "start": 185.86,
+          "end": 186.46
+        },
+        {
+          "word": "answer",
+          "start": 186.46,
+          "end": 187.08
+        },
+        {
+          "word": ",",
+          "start": 187.08,
+          "end": 187.7
+        },
+        {
+          "word": "minutes",
+          "start": 187.7,
+          "end": 188.02
+        },
+        {
+          "word": "pass",
+          "start": 188.02,
+          "end": 188.62
+        }
+      ],
+      "tokens": [
+        50601,
+        3996,
+        1867,
+        11,
+        2077,
+        1320,
+        50778
+      ]
+    },
+    {
+      "start": 188.26,
+      "end": 191.54,
+      "text": "That little phrase comes back so clear",
+      "words": [
+        {
+          "word": "That",
+          "start": 189.14,
+          "end": 189.38
+        },
+        {
+          "word": "little",
+          "start": 189.38,
+          "end": 189.9
+        },
+        {
+          "word": "phrase",
+          "start": 189.9,
+          "end": 190.3
+        },
+        {
+          "word": "comes",
+          "start": 190.3,
+          "end": 190.6
+        },
+        {
+          "word": "back",
+          "start": 190.6,
+          "end": 190.92
+        },
+        {
+          "word": "so",
+          "start": 190.92,
+          "end": 191.42
+        },
+        {
+          "word": "clear",
+          "start": 191.42,
+          "end": 192.14
+        }
+      ],
+      "tokens": [
+        50778,
+        663,
+        707,
+        9535,
+        1487,
+        646,
+        370,
+        1850,
+        50942
+      ]
+    },
+    {
+      "start": 191.54,
+      "end": 195.98,
+      "text": "A little while, I'll stay right here",
+      "words": [
+        {
+          "word": "A",
+          "start": 192.66,
+          "end": 192.84
+        },
+        {
+          "word": "little",
+          "start": 192.84,
+          "end": 193.24
+        },
+        {
+          "word": "while",
+          "start": 193.24,
+          "end": 193.9
+        },
+        {
+          "word": ",",
+          "start": 193.9,
+          "end": 194.7
+        },
+        {
+          "word": "I'll",
+          "start": 194.7,
+          "end": 195.0
+        },
+        {
+          "word": "stay",
+          "start": 195.0,
+          "end": 195.32
+        },
+        {
+          "word": "right",
+          "start": 195.32,
+          "end": 195.88
+        },
+        {
+          "word": "here",
+          "start": 195.88,
+          "end": 197.42
+        }
+      ],
+      "tokens": [
+        50942,
+        316,
+        707,
+        1339,
+        11,
+        286,
+        603,
+        1754,
+        558,
+        510,
+        51164
+      ]
+    },
+    {
+      "start": 195.98,
+      "end": 199.42000000000002,
+      "text": "Talking burn",
+      "words": [
+        {
+          "word": "Talking",
+          "start": 198.68,
+          "end": 199.26
+        },
+        {
+          "word": "burn",
+          "start": 199.26,
+          "end": 199.84
+        }
+      ],
+      "tokens": [
+        51164,
+        22445,
+        5064,
+        51336
+      ]
+    },
+    {
+      "start": 199.42000000000002,
+      "end": 204.66,
+      "text": "One more problem before I go",
+      "words": [
+        {
+          "word": "One",
+          "start": 201.9,
+          "end": 202.38
+        },
+        {
+          "word": "more",
+          "start": 202.38,
+          "end": 202.88
+        },
+        {
+          "word": "problem",
+          "start": 202.88,
+          "end": 203.62
+        },
+        {
+          "word": "before",
+          "start": 203.62,
+          "end": 204.06
+        },
+        {
+          "word": "I",
+          "start": 204.06,
+          "end": 204.54
+        },
+        {
+          "word": "go",
+          "start": 204.54,
+          "end": 205.0
+        }
+      ],
+      "tokens": [
+        51336,
+        1485,
+        544,
+        1154,
+        949,
+        286,
+        352,
+        51598
+      ]
+    },
+    {
+      "start": 204.66,
+      "end": 206.62,
+      "text": "Talking burn",
+      "words": [
+        {
+          "word": "Talking",
+          "start": 205.74,
+          "end": 206.4
+        },
+        {
+          "word": "burn",
+          "start": 206.4,
+          "end": 206.82
+        }
+      ],
+      "tokens": [
+        51598,
+        22445,
+        5064,
+        51696,
+        51696
+      ]
+    },
+    {
+      "start": 206.62,
+      "end": 209.96,
+      "text": "One more thing",
+      "words": [
+        {
+          "word": "One",
+          "start": 208.92,
+          "end": 209.46
+        },
+        {
+          "word": "more",
+          "start": 209.46,
+          "end": 209.82
+        },
+        {
+          "word": "thing",
+          "start": 209.82,
+          "end": 209.98
+        }
+      ],
+      "tokens": [
+        50365,
+        1485,
+        544,
+        551,
+        50532
+      ]
+    }
+  ]
+}

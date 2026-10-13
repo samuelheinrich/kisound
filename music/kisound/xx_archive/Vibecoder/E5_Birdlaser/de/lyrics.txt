@@ -1,0 +1,54 @@
+[Intro]
+Kamera an.
+Bird. Null komma neun eins.
+
+[Verse 1]
+Ein Raspberry Pi am Fenster, die Kamera aufs Dach,
+ein Modell sucht nach Vögeln, Frame für Frame, hellwach.
+Ein Rahmen um die Taube: bird, null komma neun eins,
+ein Rahmen um die Plastiktüte: bird, null komma sechs. Ist keins.
+Die Schwelle auf null komma sieben, die Tüte zählt nicht mehr,
+die Taube bleibt im Rahmen, Präzision statt Lärm.
+
+[Chorus]
+Birdlaser.
+Bild. Rahmen. Pan. Tilt.
+Birdlaser.
+Ein Punkt am Geländer, und der Vogel fliegt.
+Kein Ziel auf den Vogel, nur Licht auf dem Stein,
+er hebt ab, und das Dach bleibt rein.
+
+[Verse 2]
+Zwei Servos, Pan und Tilt, im ersten Test zittert's wild,
+Software-PWM, der Punkt springt hin und her im Bild.
+Ich frag den Agenten, er stellt auf Hardware-PWM um,
+der Punkt steht still und ruhig, kein Zittern, kein Gebrumm.
+Pixel in Winkel rechnen, Mitte des Rahmens als Ziel,
+ein Offset für das Dach, dann liegt der Punkt, wo ich ihn will.
+
+[Chorus]
+Birdlaser.
+Bild. Rahmen. Pan. Tilt.
+Birdlaser.
+Ein Punkt am Geländer, und der Vogel fliegt.
+Kein Ziel auf den Vogel, nur Licht auf dem Stein,
+er hebt ab, und das Dach bleibt rein.
+
+[Bridge]
+Erst ein Servo, das sich dreht.
+Dann ein Bild, das etwas sieht.
+Dann ein Rahmen um den Vogel.
+Dann das Licht. Und er fliegt.
+
+[Chorus]
+Birdlaser.
+Bild. Rahmen. Pan. Tilt.
+Birdlaser.
+Ein Punkt am Geländer, und der Vogel fliegt.
+Kein Ziel auf den Vogel, nur Licht auf dem Stein,
+er hebt ab, und das Dach bleibt rein.
+
+[Outro]
+Kamera an.
+Dach frei.
+Bird. Null.

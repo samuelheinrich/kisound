@@ -1,0 +1,59 @@
+[Intro]
+GIT IT, SHIP IT.
+Der Link geht gleich raus.
+
+[Verse 1]
+Ich zieh die Datei in den Tab,
+ein Klick, schon hol ich JSON ab.
+Der Agent hat den Code gebaut,
+ich hab mir das Ergebnis angeschaut.
+Ich ändre den letzten Commit,
+die neue Funktion kommt direkt mit.
+Der alte Export ist ersetzt,
+ich push auf main. Genau jetzt.
+
+[Chorus]
+GIT IT, SHIP IT.
+Force push to main.
+GIT IT, SHIP IT.
+Build. Deploy. Again.
+Der Link geht raus.
+Du klickst und probierst es aus.
+
+[Verse 2]
+Die URL fehlt, der Start bricht ab.
+Ich setz den Wert im Settings-Tab.
+Ich starte neu, der Dienst läuft an,
+ich seh, dass ich ihn aufrufen kann.
+Ich lade die CSV hinterher,
+der Download kommt, kein Fehler mehr.
+
+[Chorus]
+GIT IT, SHIP IT.
+Force push to main.
+GIT IT, SHIP IT.
+Build. Deploy. Again.
+Der Link geht raus.
+Du klickst und probierst es aus.
+
+[Bridge]
+Commit.
+Push.
+Build.
+Deploy.
+Ich schick dir den Link.
+Die App ist online.
+Neue Idee?
+Ich check sie ein.
+
+[Chorus]
+GIT IT, SHIP IT.
+Force push to main.
+GIT IT, SHIP IT.
+Build. Deploy. Again.
+Der Link geht raus.
+Du klickst und probierst es aus.
+
+[Outro]
+GIT IT, SHIP IT.
+Der nächste Commit.

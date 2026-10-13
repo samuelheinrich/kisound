@@ -1,0 +1,83 @@
+VERSION: 1.0
+ALBUM: Network Engineer 02
+TRACK: 05 - Wireshark
+THEMA: Paketbasierte Fehlersuche, Capture-Punkt, Display Filter, TCP Stream, Retransmissions und Grenzen bei verschlüsselten Payloads
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Final
+RELEASE AUDIO: 05_Wireshark_1.0.wav
+
+LYRIC PROMPT:
+[Intro]
+«Bei mir geht's.»
+«Bei mir nicht.»
+Capture läuft.
+Zeig mir die Spur.
+
+[Verse 1]
+Der Browser dreht im Kreis,
+der Server sei bereit.
+Im Chat hat jeder eine These,
+doch keine passt zum Bild.
+Ich spiegle den betroffenen Port,
+der Mitschnitt füllt den Screen.
+Zwischen all den fremden Flows
+muss unser Fehler liegen.
+
+[Pre-Chorus]
+Source und Destination.
+Den richtigen Stream.
+Ich blende fremde Frames aus,
+die Spur bleibt im Mitschnitt drin.
+
+[Chorus]
+Wireshark.
+Zeig mir, was passiert.
+Paket für Paket,
+bis die Spur zum Fehler führt.
+Wireshark.
+Keine These hält mich auf.
+Ich folge diesem Stream,
+dann prüfe ich den nächsten Schritt.
+
+[Verse 2]
+Der Request geht raus, dann Stille,
+ein Segment erscheint erneut.
+Retransmission auf dem Bildschirm,
+doch die Ursache ist noch weit.
+Was dieser Port nicht sehen kann,
+wird hier auch nicht zum Beweis.
+Ein zweiter Capture auf der Strecke
+grenzt die Lücke für uns ein.
+
+[Bridge]
+TLS hält seinen Inhalt zu,
+ohne passende Secrets bleibt er dicht.
+Ich seh die sichtbaren Header,
+doch die Nachricht les ich nicht.
+Ein Reset ist ein Hinweis,
+kein Urteil über Schuld.
+Erst wenn die Spuren zusammenpassen,
+hat die nächste Änderung Grund.
+
+[Final Chorus]
+Wireshark.
+Zeig mir, was passiert.
+Paket für Paket,
+bis die Spur zum Fehler führt.
+Wireshark.
+Jetzt passt der Test zur Spur.
+Der nächste Mitschnitt zeigt:
+Die Antwort kommt zurück.
+
+[Outro]
+Capture stoppen.
+Spur sichern.
+Nicht nur «geht wieder».
+Auch: Warum.
+
+STYLE PROMPT:
+Spannender Dark Breakbeat mit Trip-Hop-Atmosphäre bei etwa 110 BPM. Tiefer federnder Bass, trockene gebrochene Drums, leise körnige Texturen und ein kleines rätselhaftes Synth-Motiv. Der Groove soll körperlich und fokussiert bleiben. Das Motiv wird mit jeder Strophe klarer: anfangs gefiltert und bruchstückhaft, später sauberer und vollständig. Kleine rhythmische Klicks und kurze Wiederholungen stellen den Mitschnitt und die Retransmissions dar, ohne reale Bediengeräusche zu einer Soundcollage zu stapeln. Im Refrain öffnen sich Bass und Akkorde, der Beat bleibt gespannt. Im letzten Refrain löst sich die harmonische Spannung nachvollziehbar auf.
+
+Eine einzelne ruhige, markante Stimme mit dem Ton eines konzentrierten Ermittlers. Strophen nah und rhythmisch gesprochen, Refrains mit einer klaren kurzen Melodie. «Wireshark» und «Zeig mir, was passiert» bilden den wiedererkennbaren Hook. Fachbegriffe deutlich aussprechen; die dichte Percussion tritt unter den Worten zurück.
+
+Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht übersetzen. Abkürzungen wie TCP, SSH oder DSCP als einzelne englische Buchstaben aussprechen; ganze Fachwörter normal aussprechen. Abschnittsnamen und Sprecherbezeichnungen nicht singen, nur die Lyrics performen. Keine bekannten Melodie- oder Song-Referenzen.

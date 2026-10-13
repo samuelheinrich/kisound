@@ -1,0 +1,8 @@
+Genre: Dark Electroclash / Electro, kantig und bassig, kein Techno.
+Tempo: 124 BPM
+Sound: Trockener 808-Electro-Beat mit gebrochenen Kicks, knurrender verzerrter Analogbass im Oktavmuster, tiefer Sub, kalte Stabs, Vocoder-Flächen ohne Text, flirrende Hi-Hats, harte Gate-Effekte, kurze digitale Störungen bei jedem versteckten Satz.
+Vocals: Kühle weibliche Stimme, nah und präzise, halb gesprochen, leicht spöttisch; Refrain gesungen und klar; das „Nein“ trocken und hart.
+Vibe: Spiegelkabinett im Club, Täuschung und Abwehr.
+Mood: Wachsam, kühl, souverän.
+Ablauf: Intro gesprochen über Bass; nach jedem Refrain acht Takte Bass-Groove; Bridge nur Kick und Stimme; Schlussrefrain voll, Ende mit hartem Stopp. Ziel 3:30.
+Hinweise: Gesang auf Englisch; .env als „dot env“, HTML buchstabiert. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

@@ -1,0 +1,53 @@
+[Intro]
+The printer isn't printing.
+Again.
+
+[Verse 1]
+Ticket twelve today: the printer on the third floor,
+thirty-seven jobs in the queue, and none get through the door.
+The first job at the top: "Error – Printing," frozen tight,
+a three-hundred-page PDF that's hiding from the light.
+Cancel? Click. Nothing. It sits and sits,
+the status flips to "Deleting," and stays like that, it never quits.
+
+[Chorus]
+net stop spooler.
+Folder clear.
+net start spooler.
+Thirty-seven jobs, gone from here.
+Test page out, the paper's warm,
+the third floor prints again, no alarm.
+
+[Verse 2]
+I go to System32, spool, PRINTERS, deep inside,
+there they are: SHD and SPL, side by side.
+Delete them all, start the service, the queue is clean,
+then accounting calls: "Where's my printout? It's nowhere to be seen."
+I say: please print it once again, just once, not ten,
+'cause if you click ten times when it hangs, you'll get ten.
+
+[Chorus]
+net stop spooler.
+Folder clear.
+net start spooler.
+Thirty-seven jobs, gone from here.
+Test page out, the paper's warm,
+the third floor prints again, no alarm.
+
+[Bridge]
+Paper jam in tray two.
+Toner almost out.
+A driver from twenty-twelve.
+I need a coffee. No doubt.
+
+[Chorus]
+net stop spooler.
+Folder clear.
+net start spooler.
+Thirty-seven jobs, gone from here.
+Test page out, the paper's warm,
+the third floor prints again, no alarm.
+
+[Outro]
+The printer prints.
+For today.

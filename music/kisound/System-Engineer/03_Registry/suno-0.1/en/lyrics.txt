@@ -1,0 +1,58 @@
+[Intro]
+regedit.
+Yes, allow this app to make changes.
+
+[Verse 1]
+A setting's missing from the menu, no checkbox, no switch,
+the docs say: registry. I know the path without a hitch.
+HKEY_LOCAL_MACHINE, SOFTWARE, Policies, I click in deep,
+a tree of keys, and any branch can be a trap, and steep.
+Before I change a thing: right-click, Export, save,
+a .reg file as my backup, in case I misbehave.
+New DWORD, thirty-two bit, the name exactly as it's shown,
+value zero to one, I check it twice before it's done.
+
+[Chorus]
+H-Key Local Machine.
+One key. One value.
+H-Key Local Machine.
+One typo, and it's wrong all through.
+Export first, then edit, then reboot,
+registry, and wait to see if it took root.
+
+[Verse 2]
+Reboot. Nothing changes. The setting stays the same.
+reg query finds the value in a key with the wrong name.
+One letter swapped inside the path, a brand-new key was made,
+"Polices" instead of "Policies," the mistake was mine, I'm afraid.
+I delete the wrong key, set the value where it belongs,
+reboot, and now the setting works. Nothing else went wrong.
+And so it never has to be done by hand again,
+I push it out by group policy to every client in the domain.
+
+[Chorus]
+H-Key Local Machine.
+One key. One value.
+H-Key Local Machine.
+One typo, and it's wrong all through.
+Export first, then edit, then reboot,
+registry, and wait to see if it took root.
+
+[Bridge]
+Hive. Key. Value. Data.
+REG_SZ. REG_DWORD. REG_BINARY.
+Who clicks here blind needs luck.
+Who exports first comes back.
+
+[Chorus]
+H-Key Local Machine.
+One key. One value.
+H-Key Local Machine.
+One typo, and it's wrong all through.
+Export first, then edit, then reboot,
+registry, and wait to see if it took root.
+
+[Outro]
+Export saved.
+Value set.
+regedit closed.

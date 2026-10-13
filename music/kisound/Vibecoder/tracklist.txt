@@ -1,0 +1,9 @@
+Vibecoder — Arbeitsstand 2026-10-09, Deutsch und Englisch
+Zielzeiten gelten für Entwürfe; TOKEN BURN Deutsch/Englisch hat finale Aufnahmen.
+
+01 - VIBECODER         DE/EN Entwurf 0.1   132 BPM, Audio offen
+02 - TOKEN BURN        Final 1.0      DE 4:06 / EN 4:11 (gerundete WAV-Dauern)
+03 - SHIP IT           Entwurf 0.1    Ziel 3:20, 160 BPM
+04 - AI SLOP           Überarbeitung offen; Stand 0.1, Ziel 3:50
+05 - HALLUCINATION     Überarbeitung offen; Stand 0.1, Ziel 3:45
+06 - CONTEXT WINDOW    Überarbeitung offen; Stand 0.1, Ziel 4:15

@@ -1,9 +1,51 @@
 .DS_Store
-Network-Engineer-Album01/xx_telegram/
-Network-Engineer-Album01/xx_soundcloud/
 .opencode/
-*/xx_mp3/
-*/xx_flac/
-*/xx_youtube/
-script/youtube/.venv/
-__pycache__/
+**/.env
+**/.env.*
+**/youtube_client_secret.json
+**/youtube_token.json
+**/node_modules/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.cache/
+**/dist/
+**/output/
+**/tmp/
+**/backups/
+**/assets/audio/
+**/assets/lyrics/
+**/assets/manifest.json
+*.pyc
+*.log
+*.bak
+*.bak-*
+
+# Audio, licences and rendered videos stay local.
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.mp4
+*.mov
+*.webm
+*.pdf
+*.zip
+*.tar.gz
+
+# Delivery folders are local; only the URL tables are site inputs.
+**/xx_mp3/
+**/xx_flac/
+**/xx_telegram/
+**/xx_youtube/*
+!**/xx_youtube/youtube_urls.md
+**/xx_soundcloud/*
+!**/xx_soundcloud/soundcloud_urls.md
+
+# Generated project statistics are rebuilt by the web project.
+web/kisound/projekt-stats.html
+web/kisound/projekt-stats.json
+
+# Saved copy of an external AI service page; keep the local research artifact.
+music/kisound/Vibecoder/05_Hallucination/suno-V1/en/Home _ Tad AI.html
+music/kisound/Vibecoder/05_Hallucination/suno-V1/en/Home _ Tad AI_files/

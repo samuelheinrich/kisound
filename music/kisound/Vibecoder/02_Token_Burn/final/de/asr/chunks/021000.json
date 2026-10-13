@@ -1,0 +1,114 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 21000,
+  "next_frame": 24000,
+  "segments": [
+    {
+      "start": 210.0,
+      "end": 220.92,
+      "text": "Ein letzter Punkt steht jetzt bereit",
+      "words": [
+        {
+          "word": "Ein",
+          "start": 216.28,
+          "end": 216.58
+        },
+        {
+          "word": "letzter",
+          "start": 216.58,
+          "end": 217.3
+        },
+        {
+          "word": "Punkt",
+          "start": 217.3,
+          "end": 219.84
+        },
+        {
+          "word": "steht",
+          "start": 219.84,
+          "end": 220.24
+        },
+        {
+          "word": "jetzt",
+          "start": 220.24,
+          "end": 220.84
+        },
+        {
+          "word": "bereit",
+          "start": 220.84,
+          "end": 221.52
+        }
+      ],
+      "tokens": [
+        50365,
+        6391,
+        14027,
+        391,
+        25487,
+        16361,
+        4354,
+        38758,
+        50911
+      ]
+    },
+    {
+      "start": 220.92,
+      "end": 227.98,
+      "text": "Ich lass ihn laufen, noch ist Zeit",
+      "words": [
+        {
+          "word": "Ich",
+          "start": 223.38,
+          "end": 223.64
+        },
+        {
+          "word": "lass",
+          "start": 223.64,
+          "end": 223.86
+        },
+        {
+          "word": "ihn",
+          "start": 223.86,
+          "end": 224.58
+        },
+        {
+          "word": "laufen",
+          "start": 224.58,
+          "end": 224.96
+        },
+        {
+          "word": ",",
+          "start": 224.96,
+          "end": 227.16
+        },
+        {
+          "word": "noch",
+          "start": 227.16,
+          "end": 227.48
+        },
+        {
+          "word": "ist",
+          "start": 227.48,
+          "end": 227.92
+        },
+        {
+          "word": "Zeit",
+          "start": 227.92,
+          "end": 228.96
+        }
+      ],
+      "tokens": [
+        50911,
+        3141,
+        45829,
+        14534,
+        41647,
+        11,
+        3514,
+        1418,
+        9394,
+        51264
+      ]
+    }
+  ]
+}

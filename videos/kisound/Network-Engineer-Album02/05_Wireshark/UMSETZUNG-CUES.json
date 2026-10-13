@@ -1,0 +1,1729 @@
+{
+ "schema": "kisound.wireshark.cues.v1",
+ "duration_s": 195.7335,
+ "ambient_dim_s": 189.8,
+ "fade_start_s": 195.06,
+ "titles": {
+  "intro": [
+   1,
+   1.9,
+   4.6,
+   5.6
+  ],
+  "outro": [
+   178.4,
+   179.2,
+   182,
+   182.9
+  ]
+ },
+ "drops_s": [
+  35.85,
+  89.15,
+  146.95,
+  178.05
+ ],
+ "gaps_s": [
+  [
+   105.95,
+   106.25
+  ],
+  [
+   143.45,
+   143.75
+  ],
+  [
+   159.25,
+   159.55
+  ]
+ ],
+ "milestones": {
+  "ip_filter_s": 70.34,
+  "stream_filter_s": 73.46,
+  "finding_s": 137.3,
+  "bulk_limit_s": 139.8,
+  "new_test_s": 142.72,
+  "http_ok_s": 157.26,
+  "capture_stop_s": 168.22
+ },
+ "queue_drops_s": [
+  14.789,
+  15.341,
+  16.256,
+  16.576,
+  17.842,
+  22.636,
+  24.472,
+  30.755,
+  31.044,
+  32.555,
+  35.511,
+  36.715,
+  42.287,
+  45.197,
+  45.762,
+  46.65,
+  51.206,
+  60.377
+ ],
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Bei mir geht’s",
+   "start": 0,
+   "end": 24.96,
+   "action": "Zwei Aussagen, zwei Standorte: der Vergleichspfad antwortet, der betroffene Client wartet hinter dem 100-Mbit/s-Uplink."
+  },
+  {
+   "id": "C02",
+   "title": "Capture läuft",
+   "start": 24.96,
+   "end": 33.22,
+   "action": "Vorbereitete SPAN-Sessions auf SW-A und SW-B füllen BEFORE und AFTER."
+  },
+  {
+   "id": "C03",
+   "title": "Fremde Flows",
+   "start": 33.22,
+   "end": 70.34,
+   "action": "Thesen im Chat, Mirror-Kopien in der Liste; der betroffene Tuple wird freigestellt."
+  },
+  {
+   "id": "C04",
+   "title": "Der richtige Stream",
+   "start": 70.34,
+   "end": 89.32,
+   "action": "Displayfilter auf Client und Ziel, dann tcp.stream == 7 – Frames werden ausgeblendet, nicht gelöscht."
+  },
+  {
+   "id": "C05",
+   "title": "Zeig mir, was passiert",
+   "start": 89.32,
+   "end": 105.94,
+   "action": "Paket für Paket durch die Schichten; Seq 10801, 12001, 13201."
+  },
+  {
+   "id": "C06",
+   "title": "Retransmission",
+   "start": 105.94,
+   "end": 124.68,
+   "action": "O-101 geht raus und kommt nie an; O-102 trägt denselben Bytebereich. Der zweite Capture grenzt ein."
+  },
+  {
+   "id": "C07",
+   "title": "TLS bleibt dicht",
+   "start": 124.68,
+   "end": 137.3,
+   "action": "Ohne Secrets kein Klartext; ein RST ist ein Hinweis, kein Urteil."
+  },
+  {
+   "id": "C08",
+   "title": "Der Befund",
+   "start": 137.3,
+   "end": 139.8,
+   "action": "Bytebereich fehlt AFTER, +18 Output-Drops am SW-A-Uplink, null Capture-Drops."
+  },
+  {
+   "id": "C09",
+   "title": "Kontrollierter Versuch",
+   "start": 139.8,
+   "end": 157.26,
+   "action": "Bulk-Quelle 95 → 20 Mbit/s, Uplink bleibt 100 Mbit/s. Derselbe Test mit neuer Verbindung."
+  },
+  {
+   "id": "C10",
+   "title": "Die Antwort kommt zurück",
+   "start": 157.26,
+   "end": 168.22,
+   "action": "HTTP 200 am Testclient, beidseitige Segmente, Drop-Delta 0."
+  },
+  {
+   "id": "C11",
+   "title": "Capture stoppen",
+   "start": 168.22,
+   "end": 187.9,
+   "action": "Mitschnitte gestoppt und gesichert, Bericht mit Ursache und Versuch."
+  },
+  {
+   "id": "C12",
+   "title": "Warum",
+   "start": 187.9,
+   "end": 195.7335,
+   "action": "Der dokumentierte Verlust an der überlasteten Ausgangsqueue."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 5.89,
+   "zone": "net",
+   "camera": "rack",
+   "mode": "open",
+   "target": null,
+   "event_ids": [
+    "E001"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S002",
+   "start_s": 5.89,
+   "end_s": 11.78,
+   "zone": "net",
+   "camera": "span",
+   "mode": "mirrors",
+   "target": "f:BG1",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S003",
+   "start_s": 11.78,
+   "end_s": 13.22,
+   "zone": "net",
+   "camera": "target",
+   "mode": "works",
+   "target": null,
+   "event_ids": [
+    "E002"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 13.22,
+   "end_s": 17.44,
+   "zone": "net",
+   "camera": "target",
+   "mode": "waits",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S005",
+   "start_s": 17.44,
+   "end_s": 24.96,
+   "zone": "net",
+   "camera": "span",
+   "mode": "follow",
+   "target": "f:MB101",
+   "event_ids": [
+    "E003",
+    "E004"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S006",
+   "start_s": 24.96,
+   "end_s": 26.54,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "running",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L003"
+   ]
+  },
+  {
+   "id": "S007",
+   "start_s": 26.54,
+   "end_s": 33.22,
+   "zone": "net",
+   "camera": "span",
+   "mode": "copy",
+   "target": "f:MBG2",
+   "event_ids": [],
+   "lyric_ids": [
+    "L004"
+   ]
+  },
+  {
+   "id": "S008",
+   "start_s": 33.22,
+   "end_s": 36.14,
+   "zone": "net",
+   "camera": "target",
+   "mode": "spinner",
+   "target": null,
+   "event_ids": [
+    "E005",
+    "E006",
+    "E007"
+   ],
+   "lyric_ids": [
+    "L005"
+   ]
+  },
+  {
+   "id": "S009",
+   "start_s": 36.14,
+   "end_s": 41.74,
+   "zone": "net",
+   "camera": "target",
+   "mode": "ready",
+   "target": null,
+   "event_ids": [
+    "E008"
+   ],
+   "lyric_ids": [
+    "L006"
+   ]
+  },
+  {
+   "id": "S010",
+   "start_s": 41.74,
+   "end_s": 44.5,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "theses",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L007"
+   ]
+  },
+  {
+   "id": "S011",
+   "start_s": 44.5,
+   "end_s": 50.64,
+   "zone": "compare",
+   "camera": "front",
+   "mode": "empty",
+   "target": null,
+   "event_ids": [
+    "E009"
+   ],
+   "lyric_ids": [
+    "L008"
+   ]
+  },
+  {
+   "id": "S012",
+   "start_s": 50.64,
+   "end_s": 53.76,
+   "zone": "net",
+   "camera": "span",
+   "mode": "session",
+   "target": "f:O200",
+   "event_ids": [],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S013",
+   "start_s": 53.76,
+   "end_s": 60,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "row",
+   "target": null,
+   "event_ids": [
+    "E010"
+   ],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S014",
+   "start_s": 60,
+   "end_s": 62.72,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "foreign",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S015",
+   "start_s": 62.72,
+   "end_s": 70.34,
+   "zone": "layers",
+   "camera": "macro",
+   "mode": "select",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S016",
+   "start_s": 70.34,
+   "end_s": 73.46,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "ipfilter",
+   "target": null,
+   "event_ids": [
+    "E011",
+    "E012",
+    "E013"
+   ],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 73.46,
+   "end_s": 78.04,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "stream",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L014"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 78.04,
+   "end_s": 81.02,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "hide",
+   "target": null,
+   "event_ids": [
+    "E014"
+   ],
+   "lyric_ids": [
+    "L015"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 81.02,
+   "end_s": 84.74,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "kept",
+   "target": null,
+   "event_ids": [
+    "E015"
+   ],
+   "lyric_ids": [
+    "L016"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 84.74,
+   "end_s": 89.32,
+   "zone": "layers",
+   "camera": "macro",
+   "mode": "unfold",
+   "target": null,
+   "event_ids": [
+    "E016"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S021",
+   "start_s": 89.32,
+   "end_s": 90.18,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "hook1",
+   "target": null,
+   "event_ids": [
+    "E017"
+   ],
+   "lyric_ids": [
+    "L017"
+   ]
+  },
+  {
+   "id": "S022",
+   "start_s": 90.18,
+   "end_s": 92.5,
+   "zone": "layers",
+   "camera": "macro",
+   "mode": "three",
+   "target": null,
+   "event_ids": [
+    "E018"
+   ],
+   "lyric_ids": [
+    "L018"
+   ]
+  },
+  {
+   "id": "S023",
+   "start_s": 92.5,
+   "end_s": 94.86,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "seqs",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L019"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 94.86,
+   "end_s": 97.16,
+   "zone": "net",
+   "camera": "queue",
+   "mode": "toward",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L020"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 97.16,
+   "end_s": 98.86,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "hook2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L021"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 98.86,
+   "end_s": 101.44,
+   "zone": "compare",
+   "camera": "front",
+   "mode": "theses2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L022"
+   ]
+  },
+  {
+   "id": "S027",
+   "start_s": 101.44,
+   "end_s": 103.66,
+   "zone": "layers",
+   "camera": "macro",
+   "mode": "follow",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L023"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 103.66,
+   "end_s": 105.94,
+   "zone": "compare",
+   "camera": "front",
+   "mode": "next",
+   "target": null,
+   "event_ids": [
+    "E019"
+   ],
+   "lyric_ids": [
+    "L024"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 105.94,
+   "end_s": 108.78,
+   "zone": "net",
+   "camera": "span",
+   "mode": "lost",
+   "target": "f:RO101",
+   "event_ids": [
+    "E020",
+    "E021"
+   ],
+   "lyric_ids": [
+    "L025"
+   ]
+  },
+  {
+   "id": "S030",
+   "start_s": 108.78,
+   "end_s": 110.96,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "retrans",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L026"
+   ]
+  },
+  {
+   "id": "S031",
+   "start_s": 110.96,
+   "end_s": 113.4,
+   "zone": "layers",
+   "camera": "macro",
+   "mode": "hint",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L027"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 113.4,
+   "end_s": 115.32,
+   "zone": "net",
+   "camera": "queue",
+   "mode": "hypo",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L028"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 115.32,
+   "end_s": 117.84,
+   "zone": "net",
+   "camera": "span",
+   "mode": "reach",
+   "target": "f:RO102",
+   "event_ids": [],
+   "lyric_ids": [
+    "L029"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 117.84,
+   "end_s": 119.62,
+   "zone": "compare",
+   "camera": "front",
+   "mode": "limit",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L030"
+   ]
+  },
+  {
+   "id": "S035",
+   "start_s": 119.62,
+   "end_s": 122.14,
+   "zone": "net",
+   "camera": "rack",
+   "mode": "second",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L031"
+   ]
+  },
+  {
+   "id": "S036",
+   "start_s": 122.14,
+   "end_s": 124.68,
+   "zone": "compare",
+   "camera": "front",
+   "mode": "merge",
+   "target": null,
+   "event_ids": [
+    "E022"
+   ],
+   "lyric_ids": [
+    "L032"
+   ]
+  },
+  {
+   "id": "S037",
+   "start_s": 124.68,
+   "end_s": 126.74,
+   "zone": "layers",
+   "camera": "macro",
+   "mode": "tls",
+   "target": null,
+   "event_ids": [
+    "E023"
+   ],
+   "lyric_ids": [
+    "L033"
+   ]
+  },
+  {
+   "id": "S038",
+   "start_s": 126.74,
+   "end_s": 129.1,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "secrets",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L034"
+   ]
+  },
+  {
+   "id": "S039",
+   "start_s": 129.1,
+   "end_s": 131.6,
+   "zone": "layers",
+   "camera": "macro",
+   "mode": "headers",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L035"
+   ]
+  },
+  {
+   "id": "S040",
+   "start_s": 131.6,
+   "end_s": 133.52,
+   "zone": "layers",
+   "camera": "macro",
+   "mode": "closed",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L036"
+   ]
+  },
+  {
+   "id": "S041",
+   "start_s": 133.52,
+   "end_s": 135.7,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "rst",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L037"
+   ]
+  },
+  {
+   "id": "S042",
+   "start_s": 135.7,
+   "end_s": 137.3,
+   "zone": "layers",
+   "camera": "macro",
+   "mode": "rsthint",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L038"
+   ]
+  },
+  {
+   "id": "S043",
+   "start_s": 137.3,
+   "end_s": 139.8,
+   "zone": "compare",
+   "camera": "front",
+   "mode": "finding",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L039"
+   ]
+  },
+  {
+   "id": "S044",
+   "start_s": 139.8,
+   "end_s": 142.72,
+   "zone": "net",
+   "camera": "queue",
+   "mode": "limit",
+   "target": null,
+   "event_ids": [
+    "E024"
+   ],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 142.72,
+   "end_s": 143.38,
+   "zone": "net",
+   "camera": "span",
+   "mode": "newtest",
+   "target": "f:N1",
+   "event_ids": [
+    "E025"
+   ],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S046",
+   "start_s": 143.38,
+   "end_s": 145.74,
+   "zone": "net",
+   "camera": "queue",
+   "mode": "passes",
+   "target": "f:N1",
+   "event_ids": [],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S047",
+   "start_s": 145.74,
+   "end_s": 148.28,
+   "zone": "compare",
+   "camera": "front",
+   "mode": "both",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S048",
+   "start_s": 148.28,
+   "end_s": 151.66,
+   "zone": "net",
+   "camera": "queue",
+   "mode": "nodrop",
+   "target": null,
+   "event_ids": [
+    "E026"
+   ],
+   "lyric_ids": [
+    "L044"
+   ]
+  },
+  {
+   "id": "S049",
+   "start_s": 151.66,
+   "end_s": 152.38,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "hook4",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L045"
+   ]
+  },
+  {
+   "id": "S050",
+   "start_s": 152.38,
+   "end_s": 154.94,
+   "zone": "compare",
+   "camera": "front",
+   "mode": "fits",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L046"
+   ]
+  },
+  {
+   "id": "S051",
+   "start_s": 154.94,
+   "end_s": 157.26,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "answer",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L047"
+   ]
+  },
+  {
+   "id": "S052",
+   "start_s": 157.26,
+   "end_s": 159.16,
+   "zone": "net",
+   "camera": "target",
+   "mode": "http200",
+   "target": null,
+   "event_ids": [
+    "E027",
+    "E028"
+   ],
+   "lyric_ids": [
+    "L048"
+   ]
+  },
+  {
+   "id": "S053",
+   "start_s": 159.16,
+   "end_s": 168.22,
+   "zone": "compare",
+   "camera": "front",
+   "mode": "window",
+   "target": null,
+   "event_ids": [
+    "E029",
+    "E030"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S054",
+   "start_s": 168.22,
+   "end_s": 172.38,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "stop",
+   "target": null,
+   "event_ids": [
+    "E031"
+   ],
+   "lyric_ids": [
+    "L049"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 172.38,
+   "end_s": 173.5,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "save",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L050"
+   ]
+  },
+  {
+   "id": "S056",
+   "start_s": 173.5,
+   "end_s": 177.04,
+   "zone": "compare",
+   "camera": "front",
+   "mode": "report",
+   "target": null,
+   "event_ids": [
+    "E032"
+   ],
+   "lyric_ids": [
+    "L051"
+   ]
+  },
+  {
+   "id": "S057",
+   "start_s": 177.04,
+   "end_s": 182.4733,
+   "zone": "gui",
+   "camera": "list",
+   "mode": "files",
+   "target": null,
+   "event_ids": [
+    "E033"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S058",
+   "start_s": 182.4733,
+   "end_s": 187.9067,
+   "zone": "compare",
+   "camera": "front",
+   "mode": "beforeafter",
+   "target": null,
+   "event_ids": [
+    "E034"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S059",
+   "start_s": 187.9067,
+   "end_s": 193.34,
+   "zone": "net",
+   "camera": "queue",
+   "mode": "why",
+   "target": null,
+   "event_ids": [
+    "E035"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S060",
+   "start_s": 193.34,
+   "end_s": 195.06,
+   "zone": "net",
+   "camera": "queue",
+   "mode": "warum",
+   "target": null,
+   "event_ids": [
+    "E036",
+    "E037"
+   ],
+   "lyric_ids": [
+    "L052"
+   ]
+  },
+  {
+   "id": "S061",
+   "start_s": 195.06,
+   "end_s": 195.7335,
+   "zone": "net",
+   "camera": "queue",
+   "mode": "end",
+   "target": null,
+   "event_ids": [
+    "E038",
+    "E039",
+    "E040"
+   ],
+   "lyric_ids": []
+  }
+ ],
+ "named_flights": [
+  {
+   "id": "BG1",
+   "name": "Original · weiss",
+   "kind": "orig",
+   "start_s": 6,
+   "end_s": 9.2,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "M-B-BG1",
+   "name": "Mirror-Kopie · gestrichelt",
+   "kind": "mirror",
+   "start_s": 6.567,
+   "end_s": 7.967,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "O-101",
+   "name": "O-101 · Seq=12001",
+   "kind": "orig",
+   "start_s": 16.9,
+   "end_s": 17.842,
+   "fate": "drop",
+   "replay": false
+  },
+  {
+   "id": "M-B-O-101",
+   "name": "M-B101",
+   "kind": "mirror",
+   "start_s": 17.467,
+   "end_s": 18.867,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "O-102",
+   "name": "O-102 · Retransmission",
+   "kind": "orig",
+   "start_s": 20.6,
+   "end_s": 23.8,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "M-B-O-102",
+   "name": "M-B102",
+   "kind": "mirror",
+   "start_s": 21.167,
+   "end_s": 22.567,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "M-A-O-102",
+   "name": "M-A102",
+   "kind": "mirror",
+   "start_s": 22.858,
+   "end_s": 24.258,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "M-B-MBG2x",
+   "name": "Mirror-Kopie → BEFORE",
+   "kind": "mirror",
+   "start_s": 27.567,
+   "end_s": 28.967,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "O200",
+   "name": "Original → Uplink",
+   "kind": "orig",
+   "start_s": 50.9,
+   "end_s": 54.1,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "M-B-O200",
+   "name": "Kopie → Gi1/0/24",
+   "kind": "mirror",
+   "start_s": 51.467,
+   "end_s": 52.867,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "RO101",
+   "name": "O-101 · Wiedergabe",
+   "kind": "orig",
+   "start_s": 105.6,
+   "end_s": 106.542,
+   "fate": "drop",
+   "replay": true
+  },
+  {
+   "id": "M-B-RO101",
+   "name": "M-B101 · Wiedergabe",
+   "kind": "mirror",
+   "start_s": 106.167,
+   "end_s": 107.567,
+   "fate": "deliver",
+   "replay": true
+  },
+  {
+   "id": "RO102",
+   "name": "O-102 · Wiedergabe",
+   "kind": "orig",
+   "start_s": 115.5,
+   "end_s": 118.7,
+   "fate": "deliver",
+   "replay": true
+  },
+  {
+   "id": "M-B-RO102",
+   "name": "M-B102",
+   "kind": "mirror",
+   "start_s": 116.067,
+   "end_s": 117.467,
+   "fate": "deliver",
+   "replay": true
+  },
+  {
+   "id": "M-A-RO102",
+   "name": "M-A102 · AFTER",
+   "kind": "mirror",
+   "start_s": 117.758,
+   "end_s": 119.158,
+   "fate": "deliver",
+   "replay": true
+  },
+  {
+   "id": "N1",
+   "name": "Neuer Test · SYN 51001",
+   "kind": "orig",
+   "start_s": 143,
+   "end_s": 146,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "M-B-N1",
+   "name": "M-B (neu)",
+   "kind": "mirror",
+   "start_s": 143.531,
+   "end_s": 144.931,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "M-A-N1",
+   "name": "M-A (neu)",
+   "kind": "mirror",
+   "start_s": 145.117,
+   "end_s": 146.517,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "N1R",
+   "name": "SYN/ACK",
+   "kind": "orig",
+   "start_s": 146.3,
+   "end_s": 149.3,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "N2",
+   "name": "GET /health (TLS)",
+   "kind": "orig",
+   "start_s": 149.6,
+   "end_s": 152.6,
+   "fate": "deliver",
+   "replay": false
+  },
+  {
+   "id": "N2R",
+   "name": "HTTP-Antwort (TLS)",
+   "kind": "orig",
+   "start_s": 154.06,
+   "end_s": 157.26,
+   "fate": "deliver",
+   "replay": false
+  }
+ ],
+ "before_rows": [
+  {
+   "no": 96,
+   "time": "11.8012",
+   "src": "192.0.2.40",
+   "dst": "198.51.100.50",
+   "proto": "TCP",
+   "info": "40112 → 8443 [ACK] Seq=5524801 Len=1460",
+   "other": true
+  },
+  {
+   "no": 97,
+   "time": "11.8210",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "proto": "TCP",
+   "info": "51000 → 443 [ACK] Seq=9601 Ack=4381 Len=1200",
+   "stream": 7
+  },
+  {
+   "no": 98,
+   "time": "11.8452",
+   "src": "198.51.100.20",
+   "dst": "192.0.2.10",
+   "proto": "TCP",
+   "info": "443 → 51000 [ACK] Seq=4381 Ack=10801 Len=0",
+   "stream": 7,
+   "rev": true
+  },
+  {
+   "no": 99,
+   "time": "11.9020",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "proto": "TCP",
+   "info": "51000 → 443 [ACK] Seq=10801 Ack=4381 Len=1200",
+   "stream": 7,
+   "seq": 10801
+  },
+  {
+   "no": 100,
+   "time": "11.9533",
+   "src": "192.0.2.30",
+   "dst": "198.51.100.20",
+   "proto": "TLSv1.3",
+   "info": "Application Data",
+   "other": true,
+   "stream": 9
+  },
+  {
+   "no": 101,
+   "time": "12.0010",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "proto": "TCP",
+   "info": "51000 → 443 [ACK] Seq=12001 Ack=4381 Len=1200",
+   "stream": 7,
+   "seq": 12001,
+   "lost": true
+  },
+  {
+   "no": 102,
+   "time": "12.2510",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "proto": "TCP",
+   "info": "[TCP Retransmission] 51000 → 443 [ACK] Seq=12001 Len=1200",
+   "stream": 7,
+   "seq": 12001,
+   "retrans": true
+  },
+  {
+   "no": 103,
+   "time": "12.2610",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "proto": "TCP",
+   "info": "51000 → 443 [ACK] Seq=13201 Ack=4381 Len=1200",
+   "stream": 7,
+   "seq": 13201
+  },
+  {
+   "no": 104,
+   "time": "12.2894",
+   "src": "198.51.100.20",
+   "dst": "192.0.2.10",
+   "proto": "TCP",
+   "info": "443 → 51000 [ACK] Seq=4381 Ack=14401 Len=0",
+   "stream": 7,
+   "rev": true
+  },
+  {
+   "no": 105,
+   "time": "12.3011",
+   "src": "192.0.2.30",
+   "dst": "198.51.100.20",
+   "proto": "TCP",
+   "info": "51522 → 443 [RST] Seq=2201 Len=0",
+   "other": true,
+   "stream": 9,
+   "rst": true
+  }
+ ],
+ "after_rows": [
+  {
+   "no": 84,
+   "time": "11.8221",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "proto": "TCP",
+   "info": "51000 → 443 [ACK] Seq=9601 Ack=4381 Len=1200",
+   "stream": 3
+  },
+  {
+   "no": 85,
+   "time": "11.9031",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "proto": "TCP",
+   "info": "51000 → 443 [ACK] Seq=10801 Ack=4381 Len=1200",
+   "stream": 3,
+   "seq": 10801
+  },
+  {
+   "no": 86,
+   "time": "11.9544",
+   "src": "192.0.2.30",
+   "dst": "198.51.100.20",
+   "proto": "TLSv1.3",
+   "info": "Application Data",
+   "other": true
+  },
+  {
+   "no": 87,
+   "time": "12.2521",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "proto": "TCP",
+   "info": "51000 → 443 [ACK] Seq=12001 Ack=4381 Len=1200",
+   "stream": 3,
+   "seq": 12001
+  },
+  {
+   "no": 88,
+   "time": "12.2621",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "proto": "TCP",
+   "info": "51000 → 443 [ACK] Seq=13201 Ack=4381 Len=1200",
+   "stream": 3,
+   "seq": 13201
+  },
+  {
+   "no": 89,
+   "time": "12.2883",
+   "src": "198.51.100.20",
+   "dst": "192.0.2.10",
+   "proto": "TCP",
+   "info": "443 → 51000 [ACK] Seq=4381 Ack=14401 Len=0",
+   "stream": 3,
+   "rev": true
+  }
+ ],
+ "blocks": [
+  {
+   "id": "B01",
+   "title": "SPAN-Sessions (vorbereitet)",
+   "window_s": [
+    24.96,
+    60
+   ],
+   "lines": [
+    {
+     "reveal_s": 25.1,
+     "text": "SW-A# show monitor session 1",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 25.8,
+     "text": "Type              : Local Session",
+     "kind": null
+    },
+    {
+     "reveal_s": 25.8,
+     "text": "Source Ports      : RX Only: Gi1/0/7,Gi1/0/8,Gi1/0/48",
+     "kind": null
+    },
+    {
+     "reveal_s": 25.8,
+     "text": "Destination Ports : Gi1/0/24",
+     "kind": null
+    },
+    {
+     "reveal_s": 50.8,
+     "text": "SW-A: monitor session 1 source interface Gi1/0/7 - 8 rx",
+     "kind": null
+    },
+    {
+     "reveal_s": 50.8,
+     "text": "SW-A: monitor session 1 source interface Gi1/0/48 rx",
+     "kind": null
+    },
+    {
+     "reveal_s": 50.8,
+     "text": "SW-A: monitor session 1 destination interface Gi1/0/24",
+     "kind": null
+    },
+    {
+     "reveal_s": 51.4,
+     "text": "SW-B: … source Gi1/0/48 rx, Gi1/0/7 rx → destination Gi1/0/24",
+     "kind": null
+    }
+   ]
+  },
+  {
+   "id": "B02",
+   "title": "Displayfilter (kein Capturefilter)",
+   "window_s": [
+    70.34,
+    89.32
+   ],
+   "lines": [
+    {
+     "reveal_s": 70.4,
+     "text": "Display filter:",
+     "kind": null
+    },
+    {
+     "reveal_s": 70.4,
+     "text": "ip.addr == 192.0.2.10 && ip.addr == 198.51.100.20 && tcp.port == 443",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 73.5,
+     "text": "Danach im BEFORE-PCAP:",
+     "kind": null
+    },
+    {
+     "reveal_s": 73.5,
+     "text": "tcp.stream == 7",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 74.4,
+     "text": "Status: Packets 8400 | Displayed 92 | Dropped 0",
+     "kind": "ok"
+    }
+   ]
+  },
+  {
+   "id": "B03",
+   "title": "BEFORE / AFTER",
+   "window_s": [
+    105.94,
+    124.68
+   ],
+   "lines": [
+    {
+     "reveal_s": 106.1,
+     "text": "Simulierte PCAP-Zeilen; relative TCP-Sequenznummern",
+     "kind": "ov"
+    },
+    {
+     "reveal_s": 106.1,
+     "text": "BEFORE (Stream 7):",
+     "kind": null
+    },
+    {
+     "reveal_s": 106.3,
+     "text": "101  12.0010  …10 → …20  Seq=12001 Len=1200",
+     "kind": null
+    },
+    {
+     "reveal_s": 108.9,
+     "text": "102  12.2510  [TCP Retransmission] Seq=12001 Len=1200",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 117.9,
+     "text": "AFTER (Stream 3):",
+     "kind": null
+    },
+    {
+     "reveal_s": 117.9,
+     "text": " 87  12.2521  …10 → …20  Seq=12001 Len=1200",
+     "kind": null
+    },
+    {
+     "reveal_s": 122.2,
+     "text": "Overlay: erster Bytebereich BEFORE vorhanden / AFTER fehlt",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 122.2,
+     "text": "Capturezeit ist Messzeit, nicht Filmzeit",
+     "kind": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B04",
+   "title": "Protokollbaum · ohne Secrets",
+   "window_s": [
+    124.68,
+    133.52
+   ],
+   "lines": [
+    {
+     "reveal_s": 124.8,
+     "text": "Transmission Control Protocol",
+     "kind": null
+    },
+    {
+     "reveal_s": 124.8,
+     "text": " Src Port: 51000    Dst Port: 443",
+     "kind": null
+    },
+    {
+     "reveal_s": 124.8,
+     "text": " Sequence Number: 12001 (relative)",
+     "kind": null
+    },
+    {
+     "reveal_s": 124.8,
+     "text": " TCP Segment Len: 1200",
+     "kind": null
+    },
+    {
+     "reveal_s": 129.2,
+     "text": "Transport Layer Security",
+     "kind": null
+    },
+    {
+     "reveal_s": 129.2,
+     "text": " Application Data",
+     "kind": null
+    },
+    {
+     "reveal_s": 129.2,
+     "text": "TLS secrets: nicht vorhanden | Payload verschlüsselt",
+     "kind": "amber"
+    }
+   ]
+  },
+  {
+   "id": "B05",
+   "title": "Befund",
+   "window_s": [
+    137.3,
+    151.66
+   ],
+   "lines": [
+    {
+     "reveal_s": 137.4,
+     "text": "SW-A# show interfaces GigabitEthernet1/0/48",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 138,
+     "text": "GigabitEthernet1/0/48 is up, line protocol is up",
+     "kind": null
+    },
+    {
+     "reveal_s": 138,
+     "text": "  Full-duplex, 100Mb/s",
+     "kind": null
+    },
+    {
+     "reveal_s": 138,
+     "text": "  Total output drops: 3818",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 143.5,
+     "text": "Overlay Messfenster: 3800 -> 3818 (Delta +18)",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 143.5,
+     "text": "BEFORE Capture-Drops: 0    AFTER Capture-Drops: 0",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 143.5,
+     "text": "Mirror-Ports: 1 Gbit/s; gespiegelte Last unter Kapazität",
+     "kind": null
+    },
+    {
+     "reveal_s": 144.2,
+     "text": "Befund: Verlust am SW-A-Uplink-Ausgang unter Konkurrenzlast",
+     "kind": "amber"
+    }
+   ]
+  },
+  {
+   "id": "B06",
+   "title": "Kontrollierter Versuch",
+   "window_s": [
+    139.8,
+    168.22
+   ],
+   "lines": [
+    {
+     "reveal_s": 139.9,
+     "text": "Kontrollierter Versuch: Bulk-Quelle 95 -> 20 Mbit/s",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 139.9,
+     "text": "Uplink unverändert: 100 Mbit/s",
+     "kind": null
+    },
+    {
+     "reveal_s": 142.8,
+     "text": "client$ curl --connect-timeout 3 --max-time 5 --resolve app.example:443:198.51.100.20 --write-out '\\nHTTP %{http_code}\\n' https://app.example/health",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 142.9,
+     "text": "Neuer Tuple: 192.0.2.10:51001 -> 198.51.100.20:443",
+     "kind": null
+    },
+    {
+     "reveal_s": 157.26,
+     "text": "{\"status\":\"ok\"}",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 157.26,
+     "text": "HTTP 200",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 157.66,
+     "text": "Messfenster: Testsegmente BEFORE+AFTER | Output-Drop-Delta 0",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 157.66,
+     "text": "HTTP 200: lokales Clientergebnis, kein TLS-Klartext im Capture",
+     "kind": null
+    }
+   ]
+  },
+  {
+   "id": "B07",
+   "title": "Gesichert",
+   "window_s": [
+    168.22,
+    189.8
+   ],
+   "lines": [
+    {
+     "reveal_s": 168.22,
+     "text": "Capture: STOPPED",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 172.5,
+     "text": "before.pcapng | after.pcapng | counters-before-after.txt",
+     "kind": null
+    },
+    {
+     "reveal_s": 173.6,
+     "text": "report.txt: Uplink-Output-Verlust unter konkurrierender Last",
+     "kind": null
+    },
+    {
+     "reveal_s": 173.6,
+     "text": "Kontrollversuch mit reduzierter Konkurrenz: erfolgreich",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 173.6,
+     "text": "TLS-Payload weiterhin verschlüsselt",
+     "kind": null
+    }
+   ]
+  }
+ ],
+ "logs": [
+  {
+   "time_s": 16.9,
+   "tag": "cap",
+   "message": "BEFORE: Seq=12001 Len=1200 gespiegelt (M-B101)"
+  },
+  {
+   "time_s": 17.7,
+   "tag": "drop",
+   "message": "SW-A Gi1/0/48: Output-Drop (Queue voll)"
+  },
+  {
+   "time_s": 20.6,
+   "tag": "cap",
+   "message": "O-102: Retransmission desselben Bytebereichs"
+  },
+  {
+   "time_s": 70.34,
+   "tag": "flt",
+   "message": "Displayfilter gesetzt – Frames bleiben im Mitschnitt"
+  },
+  {
+   "time_s": 105.95,
+   "tag": "rec",
+   "message": "Wiedergabe aus dem Mitschnitt: O-101 erreicht AFTER nie"
+  },
+  {
+   "time_s": 115.6,
+   "tag": "rec",
+   "message": "Wiedergabe: O-102 erscheint in BEFORE und AFTER"
+  },
+  {
+   "time_s": 137.3,
+   "tag": "find",
+   "message": "Befund: Delta +18 Output-Drops · Capture-Drops 0 · AFTER fehlt der Bytebereich"
+  },
+  {
+   "time_s": 139.8,
+   "tag": "cfg",
+   "message": "Bulk-Quelle 95 → 20 Mbit/s (Uplink bleibt 100 Mbit/s)"
+  },
+  {
+   "time_s": 143.02,
+   "tag": "cap",
+   "message": "Neuer Test 192.0.2.10:51001 → 198.51.100.20:443"
+  },
+  {
+   "time_s": 157.26,
+   "tag": "ok",
+   "message": "HTTP 200 am Testclient · Output-Drop-Delta 0"
+  },
+  {
+   "time_s": 168.22,
+   "tag": "cap",
+   "message": "Capture STOPPED · before.pcapng / after.pcapng gesichert"
+  }
+ ]
+}

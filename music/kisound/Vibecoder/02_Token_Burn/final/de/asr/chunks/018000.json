@@ -1,0 +1,352 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 18000,
+  "next_frame": 21000,
+  "segments": [
+    {
+      "start": 180.0,
+      "end": 185.0,
+      "text": "Bleib bei mir, ein bisschen nur, ich bleib noch hier",
+      "words": [
+        {
+          "word": "Bleib",
+          "start": 180.56,
+          "end": 180.94
+        },
+        {
+          "word": "bei",
+          "start": 180.94,
+          "end": 181.32
+        },
+        {
+          "word": "mir",
+          "start": 181.32,
+          "end": 181.76
+        },
+        {
+          "word": ",",
+          "start": 181.76,
+          "end": 182.34
+        },
+        {
+          "word": "ein",
+          "start": 182.34,
+          "end": 182.7
+        },
+        {
+          "word": "bisschen",
+          "start": 182.7,
+          "end": 183.12
+        },
+        {
+          "word": "nur",
+          "start": 183.12,
+          "end": 183.36
+        },
+        {
+          "word": ",",
+          "start": 183.36,
+          "end": 183.62
+        },
+        {
+          "word": "ich",
+          "start": 183.62,
+          "end": 183.9
+        },
+        {
+          "word": "bleib",
+          "start": 183.9,
+          "end": 184.48
+        },
+        {
+          "word": "noch",
+          "start": 184.48,
+          "end": 184.92
+        },
+        {
+          "word": "hier",
+          "start": 184.92,
+          "end": 185.64
+        }
+      ],
+      "tokens": [
+        50365,
+        30721,
+        897,
+        4643,
+        3149,
+        11,
+        1343,
+        10763,
+        4343,
+        11,
+        1893,
+        5408,
+        897,
+        3514,
+        3296,
+        50615
+      ]
+    },
+    {
+      "start": 185.0,
+      "end": 189.32,
+      "text": "Tokenburn",
+      "words": [
+        {
+          "word": "Tokenburn",
+          "start": 188.3,
+          "end": 189.66
+        }
+      ],
+      "tokens": [
+        50615,
+        314,
+        8406,
+        21763,
+        50831
+      ]
+    },
+    {
+      "start": 189.32,
+      "end": 194.44,
+      "text": "Noch einen Punkt, bevor ich geh",
+      "words": [
+        {
+          "word": "Noch",
+          "start": 191.88,
+          "end": 192.24
+        },
+        {
+          "word": "einen",
+          "start": 192.24,
+          "end": 192.66
+        },
+        {
+          "word": "Punkt",
+          "start": 192.66,
+          "end": 192.94
+        },
+        {
+          "word": ",",
+          "start": 192.94,
+          "end": 193.42
+        },
+        {
+          "word": "bevor",
+          "start": 193.42,
+          "end": 193.98
+        },
+        {
+          "word": "ich",
+          "start": 193.98,
+          "end": 194.32
+        },
+        {
+          "word": "geh",
+          "start": 194.32,
+          "end": 194.98
+        }
+      ],
+      "tokens": [
+        50831,
+        38116,
+        4891,
+        25487,
+        11,
+        37591,
+        1893,
+        13218,
+        51087
+      ]
+    },
+    {
+      "start": 194.44,
+      "end": 196.54,
+      "text": "Tokenburn",
+      "words": [
+        {
+          "word": "Tokenburn",
+          "start": 195.36,
+          "end": 197.1
+        }
+      ],
+      "tokens": [
+        51087,
+        314,
+        8406,
+        21763,
+        51192
+      ]
+    },
+    {
+      "start": 196.54,
+      "end": 201.66,
+      "text": "Bis ich den nächsten Stand hier seh",
+      "words": [
+        {
+          "word": "Bis",
+          "start": 198.7,
+          "end": 198.9
+        },
+        {
+          "word": "ich",
+          "start": 198.9,
+          "end": 199.18
+        },
+        {
+          "word": "den",
+          "start": 199.18,
+          "end": 199.88
+        },
+        {
+          "word": "nächsten",
+          "start": 199.88,
+          "end": 200.48
+        },
+        {
+          "word": "Stand",
+          "start": 200.48,
+          "end": 200.96
+        },
+        {
+          "word": "hier",
+          "start": 200.96,
+          "end": 201.34
+        },
+        {
+          "word": "seh",
+          "start": 201.34,
+          "end": 201.84
+        }
+      ],
+      "tokens": [
+        51192,
+        25271,
+        1893,
+        1441,
+        19101,
+        9133,
+        3296,
+        369,
+        71,
+        51448
+      ]
+    },
+    {
+      "start": 201.66,
+      "end": 205.1,
+      "text": "Kein Taki sucht, zwei kommen rein",
+      "words": [
+        {
+          "word": "Kein",
+          "start": 202.14,
+          "end": 202.36
+        },
+        {
+          "word": "Taki",
+          "start": 202.36,
+          "end": 203.16
+        },
+        {
+          "word": "sucht",
+          "start": 203.16,
+          "end": 203.54
+        },
+        {
+          "word": ",",
+          "start": 203.54,
+          "end": 203.86
+        },
+        {
+          "word": "zwei",
+          "start": 203.86,
+          "end": 204.34
+        },
+        {
+          "word": "kommen",
+          "start": 204.34,
+          "end": 204.96
+        },
+        {
+          "word": "rein",
+          "start": 204.96,
+          "end": 205.72
+        }
+      ],
+      "tokens": [
+        51448,
+        3189,
+        259,
+        314,
+        7421,
+        1270,
+        83,
+        11,
+        12002,
+        11729,
+        6561,
+        51620,
+        51620
+      ]
+    },
+    {
+      "start": 205.1,
+      "end": 207.0,
+      "text": "Und dieser eine",
+      "words": [
+        {
+          "word": "Und",
+          "start": 205.8,
+          "end": 206.16
+        },
+        {
+          "word": "dieser",
+          "start": 206.16,
+          "end": 206.94
+        },
+        {
+          "word": "eine",
+          "start": 206.94,
+          "end": 207.36
+        }
+      ],
+      "tokens": [
+        50365,
+        2719,
+        9053,
+        3018,
+        50460
+      ]
+    },
+    {
+      "start": 207.0,
+      "end": 210.0,
+      "text": "Muss noch sein",
+      "words": [
+        {
+          "word": "Muss",
+          "start": 209.46,
+          "end": 209.76
+        },
+        {
+          "word": "noch",
+          "start": 209.76,
+          "end": 209.98
+        },
+        {
+          "word": "sein",
+          "start": 209.98,
+          "end": 209.98
+        }
+      ],
+      "tokens": [
+        50460,
+        43879,
+        3514,
+        6195,
+        50610
+      ]
+    }
+  ]
+}

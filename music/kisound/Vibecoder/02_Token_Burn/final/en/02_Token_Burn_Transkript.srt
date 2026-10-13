@@ -1,0 +1,183 @@
+1
+00:00:12,680 --> 00:00:14,380
+Just this one change.
+
+2
+00:00:16,640 --> 00:00:17,760
+Then I'll shut it down.
+
+3
+00:00:45,240 --> 00:00:48,880
+The clock says one, the build runs clean,
+
+4
+00:00:49,540 --> 00:00:52,340
+a new idea lights up my screen.
+
+5
+00:00:52,860 --> 00:00:56,400
+One slider more, a second lane,
+
+6
+00:00:56,580 --> 00:00:59,220
+the prompt grows long; I try again.
+
+7
+00:01:00,200 --> 00:01:02,820
+I reload once; the bass goes mute,
+
+8
+00:01:03,640 --> 00:01:06,940
+we fix the save, then execute.
+
+9
+00:01:07,180 --> 00:01:09,860
+The build now works the way it should,
+
+10
+00:01:10,660 --> 00:01:14,500
+it's two o'clock. This one is good.
+
+11
+00:01:21,320 --> 00:01:24,200
+The prompt goes out, the words come in,
+
+12
+00:01:24,820 --> 00:01:27,700
+I see a place we could begin.
+
+13
+00:01:30,160 --> 00:01:31,320
+The text gets long
+
+14
+00:01:31,880 --> 00:01:35,000
+I hear a change inside the song.
+
+15
+00:01:36,480 --> 00:01:37,580
+Token Burn.
+
+16
+00:01:39,860 --> 00:01:42,800
+One more prompt before I go.
+
+17
+00:01:43,520 --> 00:01:45,340
+Token Burn.
+
+18
+00:01:46,900 --> 00:01:49,780
+One more thing I need to know.
+
+19
+00:01:50,820 --> 00:01:54,220
+One tab shuts, two more appear,
+
+20
+00:01:54,340 --> 00:01:57,000
+I said I'd leave. I'm still right here.
+
+21
+00:02:03,320 --> 00:02:08,340
+It's three o'clock, the room stays small,
+
+22
+00:02:08,880 --> 00:02:12,060
+the screen has room to fit it all.
+
+23
+00:02:12,400 --> 00:02:14,860
+An export fails; I run it through,
+
+24
+00:02:15,880 --> 00:02:18,700
+the agent has one more thing to do.
+
+25
+00:02:19,420 --> 00:02:22,660
+The usage panel shows the cost,
+
+26
+00:02:22,940 --> 00:02:26,260
+I check the time that I have lost.
+
+27
+00:02:26,480 --> 00:02:29,080
+I meant to finish, save and leave,
+
+28
+00:02:29,620 --> 00:02:32,740
+now there's one more thing to achieve.
+
+29
+00:02:33,000 --> 00:02:33,720
+Token Burn.
+
+30
+00:02:36,140 --> 00:02:39,100
+One more prompt before I go.
+
+31
+00:02:39,800 --> 00:02:41,000
+Token Burn.
+
+32
+00:02:43,180 --> 00:02:46,140
+One more thing I need to know.
+
+33
+00:02:46,900 --> 00:02:49,680
+One death shots two more appear
+
+34
+00:02:50,580 --> 00:02:53,080
+I said I'd leave. I'm still right here.
+
+35
+00:03:02,300 --> 00:03:04,700
+Cold coffee, daylight through the glass,
+
+36
+00:03:05,660 --> 00:03:08,020
+another answer, minutes pass.
+
+37
+00:03:08,980 --> 00:03:11,380
+That little phrase comes back so clear:
+
+38
+00:03:12,480 --> 00:03:15,900
+A little while. I'll stay right here.
+
+39
+00:03:18,560 --> 00:03:19,240
+Talking burn
+
+40
+00:03:21,700 --> 00:03:24,560
+One more prompt before I go.
+
+41
+00:03:25,580 --> 00:03:26,400
+Talking burn
+
+42
+00:03:28,680 --> 00:03:31,580
+One more thing I need to know.
+
+43
+00:03:32,420 --> 00:03:35,800
+One tab shuts, two more appear,
+
+44
+00:03:36,040 --> 00:03:38,420
+I said I'd leave. I'm still right here.
+
+45
+00:03:45,640 --> 00:03:47,240
+One final prompt is set to run.
+
+46
+00:03:52,580 --> 00:03:54,340
+I'm pressing send I'm not quite done

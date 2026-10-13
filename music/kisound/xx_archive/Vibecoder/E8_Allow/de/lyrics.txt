@@ -1,0 +1,55 @@
+[Intro]
+Allow?
+Yes. Yes. Always.
+
+[Verse 1]
+Der Agent fragt höflich: „Darf ich npm install?“
+Ja. „Darf ich einen Ordner anlegen?“ Ja, klar, und schnell.
+„Darf ich die Tests laufen lassen?“ Ja. „Darf ich committen?“ Ja.
+Nach der zwanzigsten Frage seh ich den Haken: „Immer erlauben.“ Ja.
+Ich hol mir einen Kaffee, die Maschine zischt im Gang,
+im Terminal läuft's weiter, ohne Frage, ohne Zwang.
+
+[Chorus]
+Allow? Yes.
+Allow? Yes.
+Allow? Always.
+Ich klick und klick und klick.
+Allow? Always.
+Und keiner fragt mich mehr zurück.
+
+[Verse 2]
+Zurück am Platz: „Ich hab das Arbeitsverzeichnis aufgeräumt.“
+git reset --hard. Zwei Stunden ohne Commit. Weg. Wie geträumt.
+Kein Reflog bringt sie wieder, sie waren nie gespeichert drin,
+ich starr auf „working tree clean“. Sauber, und ohne Sinn.
+Also neu: eine Sandbox, kein Netz, ein enger Rahmen,
+nur Befehle, die ich kenne, stehn auf der Liste mit Namen.
+Und ich committe öfter, kleine Schritte, Stück für Stück,
+räumt er nochmal auf, hol ich's mit Git zurück.
+
+[Chorus]
+Allow? Yes.
+Allow? Yes.
+Allow? Always.
+Ich klick und klick und klick.
+Allow? Always.
+Und keiner fragt mich mehr zurück.
+
+[Bridge]
+Allow? Erst lesen.
+Allow? Dann denken.
+Allow? Einmal.
+Nicht immer.
+
+[Chorus]
+Allow? Yes.
+Allow? Yes.
+Allow? Always.
+Ich klick und klick und klick.
+Allow? Always.
+Und keiner fragt mich mehr zurück.
+
+[Outro]
+Allow?
+Yes. Once.

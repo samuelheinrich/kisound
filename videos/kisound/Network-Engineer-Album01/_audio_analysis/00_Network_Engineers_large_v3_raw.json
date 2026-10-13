@@ -1,0 +1,1619 @@
+{
+  "text": " Before the first login Before the screens glow Someone keeps the signal moving Through the systems down below Under every cloud, behind every stream There is a night shift inside the machine Wi-Fi in the hallway, uplinks in the rack Failover waiting when the main path cracks When the lights turn red When the alarms begin They read the storm Then bring the green back in Network engineers Hold the line Network engineers Keep the world online From edge to core From port to root They keep the packets moving when the noise breaks out Link up, route clean, ports live Packets move, no one sees Still they move You touch the app, they guard the path You call it simple, they know the math Between the outage and the final screen They find the fault inside the unseen Network engineers hold the line Network engineers keep the world online Layer by layer, night after night They keep the surface breathing until the graphs turn bright Thank you. you",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 8.719999999999999,
+      "end": 14.54,
+      "text": " Before the first login Before the screens glow",
+      "tokens": [
+        50365,
+        4546,
+        264,
+        700,
+        24276,
+        4546,
+        264,
+        11171,
+        17513,
+        51115
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4244152152019998,
+      "compression_ratio": 1.2386363636363635,
+      "no_speech_prob": 0.5890316963195801,
+      "words": [
+        {
+          "word": " Before",
+          "start": 8.719999999999999,
+          "end": 9.68,
+          "probability": 0.8408203125
+        },
+        {
+          "word": " the",
+          "start": 9.68,
+          "end": 9.96,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " first",
+          "start": 9.96,
+          "end": 10.34,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " login",
+          "start": 10.34,
+          "end": 10.92,
+          "probability": 0.861328125
+        },
+        {
+          "word": " Before",
+          "start": 10.92,
+          "end": 13.34,
+          "probability": 0.69873046875
+        },
+        {
+          "word": " the",
+          "start": 13.34,
+          "end": 13.76,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " screens",
+          "start": 13.76,
+          "end": 14.12,
+          "probability": 0.982421875
+        },
+        {
+          "word": " glow",
+          "start": 14.12,
+          "end": 14.54,
+          "probability": 0.99462890625
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 14.54,
+      "end": 22.82,
+      "text": " Someone keeps the signal moving Through the systems down below",
+      "tokens": [
+        51115,
+        8734,
+        5965,
+        264,
+        6358,
+        2684,
+        8927,
+        264,
+        3652,
+        760,
+        2507,
+        51515
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4244152152019998,
+      "compression_ratio": 1.2386363636363635,
+      "no_speech_prob": 0.5890316963195801,
+      "words": [
+        {
+          "word": " Someone",
+          "start": 14.54,
+          "end": 16.44,
+          "probability": 0.96826171875
+        },
+        {
+          "word": " keeps",
+          "start": 16.44,
+          "end": 16.88,
+          "probability": 0.9921875
+        },
+        {
+          "word": " the",
+          "start": 16.88,
+          "end": 17.1,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " signal",
+          "start": 17.1,
+          "end": 17.54,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " moving",
+          "start": 17.54,
+          "end": 18.4,
+          "probability": 0.7197265625
+        },
+        {
+          "word": " Through",
+          "start": 18.4,
+          "end": 20.7,
+          "probability": 0.9072265625
+        },
+        {
+          "word": " the",
+          "start": 20.7,
+          "end": 20.9,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " systems",
+          "start": 20.9,
+          "end": 21.42,
+          "probability": 0.98828125
+        },
+        {
+          "word": " down",
+          "start": 21.42,
+          "end": 21.98,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " below",
+          "start": 21.98,
+          "end": 22.82,
+          "probability": 0.99609375
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 3000,
+      "start": 44.28,
+      "end": 47.98,
+      "text": " Under every cloud, behind every stream",
+      "tokens": [
+        50365,
+        6974,
+        633,
+        4588,
+        11,
+        2261,
+        633,
+        4309,
+        51274
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16890070749365765,
+      "compression_ratio": 1.3414634146341464,
+      "no_speech_prob": 0.7884411811828613,
+      "words": [
+        {
+          "word": " Under",
+          "start": 44.28,
+          "end": 45.12,
+          "probability": 0.272216796875
+        },
+        {
+          "word": " every",
+          "start": 45.12,
+          "end": 45.66,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " cloud,",
+          "start": 45.66,
+          "end": 46.08,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " behind",
+          "start": 46.28,
+          "end": 46.78,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " every",
+          "start": 46.78,
+          "end": 47.54,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " stream",
+          "start": 47.54,
+          "end": 47.98,
+          "probability": 0.99462890625
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 3000,
+      "start": 47.98,
+      "end": 51.58,
+      "text": " There is a night shift inside the machine",
+      "tokens": [
+        51274,
+        821,
+        307,
+        257,
+        1818,
+        5513,
+        1854,
+        264,
+        3479,
+        51462
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16890070749365765,
+      "compression_ratio": 1.3414634146341464,
+      "no_speech_prob": 0.7884411811828613,
+      "words": [
+        {
+          "word": " There",
+          "start": 47.98,
+          "end": 49.08,
+          "probability": 0.5849609375
+        },
+        {
+          "word": " is",
+          "start": 49.08,
+          "end": 49.38,
+          "probability": 0.982421875
+        },
+        {
+          "word": " a",
+          "start": 49.38,
+          "end": 49.52,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " night",
+          "start": 49.52,
+          "end": 49.84,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " shift",
+          "start": 49.84,
+          "end": 50.2,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " inside",
+          "start": 50.2,
+          "end": 50.68,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " the",
+          "start": 50.68,
+          "end": 51.16,
+          "probability": 0.9921875
+        },
+        {
+          "word": " machine",
+          "start": 51.16,
+          "end": 51.58,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 3000,
+      "start": 51.58,
+      "end": 55.52,
+      "text": " Wi-Fi in the hallway, uplinks in the rack",
+      "tokens": [
+        51462,
+        14035,
+        12,
+        13229,
+        294,
+        264,
+        23903,
+        11,
+        493,
+        75,
+        16431,
+        294,
+        264,
+        14788,
+        51651
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16890070749365765,
+      "compression_ratio": 1.3414634146341464,
+      "no_speech_prob": 0.7884411811828613,
+      "words": [
+        {
+          "word": " Wi",
+          "start": 51.58,
+          "end": 52.46,
+          "probability": 0.41455078125
+        },
+        {
+          "word": "-Fi",
+          "start": 52.46,
+          "end": 52.86,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " in",
+          "start": 52.86,
+          "end": 53.14,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " the",
+          "start": 53.14,
+          "end": 53.3,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " hallway,",
+          "start": 53.3,
+          "end": 53.86,
+          "probability": 0.994140625
+        },
+        {
+          "word": " uplinks",
+          "start": 54.04,
+          "end": 54.84,
+          "probability": 0.8193359375
+        },
+        {
+          "word": " in",
+          "start": 54.84,
+          "end": 55.04,
+          "probability": 0.994140625
+        },
+        {
+          "word": " the",
+          "start": 55.04,
+          "end": 55.2,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " rack",
+          "start": 55.2,
+          "end": 55.52,
+          "probability": 0.98583984375
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 3000,
+      "start": 55.52,
+      "end": 59.36,
+      "text": " Failover waiting when the main path cracks",
+      "tokens": [
+        51651,
+        39094,
+        3570,
+        3806,
+        562,
+        264,
+        2135,
+        3100,
+        21770,
+        51848
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16890070749365765,
+      "compression_ratio": 1.3414634146341464,
+      "no_speech_prob": 0.7884411811828613,
+      "words": [
+        {
+          "word": " Failover",
+          "start": 55.52,
+          "end": 56.8,
+          "probability": 0.7587890625
+        },
+        {
+          "word": " waiting",
+          "start": 56.8,
+          "end": 57.52,
+          "probability": 0.97265625
+        },
+        {
+          "word": " when",
+          "start": 57.52,
+          "end": 57.84,
+          "probability": 0.91259765625
+        },
+        {
+          "word": " the",
+          "start": 57.84,
+          "end": 58.1,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " main",
+          "start": 58.1,
+          "end": 58.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " path",
+          "start": 58.44,
+          "end": 58.88,
+          "probability": 0.978515625
+        },
+        {
+          "word": " cracks",
+          "start": 58.88,
+          "end": 59.36,
+          "probability": 0.9931640625
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 5936,
+      "start": 59.36,
+      "end": 65.94,
+      "text": " When the lights turn red When the alarms begin",
+      "tokens": [
+        50365,
+        1133,
+        264,
+        5811,
+        1261,
+        2182,
+        1133,
+        264,
+        45039,
+        1841,
+        50715
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.33916648864746096,
+      "compression_ratio": 1.5859375,
+      "no_speech_prob": 0.8255583047866821,
+      "words": [
+        {
+          "word": " When",
+          "start": 59.36,
+          "end": 60.68,
+          "probability": 0.08941650390625
+        },
+        {
+          "word": " the",
+          "start": 60.68,
+          "end": 60.94,
+          "probability": 0.94677734375
+        },
+        {
+          "word": " lights",
+          "start": 60.94,
+          "end": 61.26,
+          "probability": 0.50244140625
+        },
+        {
+          "word": " turn",
+          "start": 61.26,
+          "end": 61.66,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " red",
+          "start": 61.66,
+          "end": 62.32,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " When",
+          "start": 62.32,
+          "end": 64.28,
+          "probability": 0.62939453125
+        },
+        {
+          "word": " the",
+          "start": 64.28,
+          "end": 64.54,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " alarms",
+          "start": 64.54,
+          "end": 64.96,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " begin",
+          "start": 64.96,
+          "end": 65.94,
+          "probability": 0.98388671875
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 5936,
+      "start": 67.18,
+      "end": 73.76,
+      "text": " They read the storm Then bring the green back in",
+      "tokens": [
+        50715,
+        814,
+        1401,
+        264,
+        7679,
+        1396,
+        1565,
+        264,
+        3092,
+        646,
+        294,
+        51115
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.33916648864746096,
+      "compression_ratio": 1.5859375,
+      "no_speech_prob": 0.8255583047866821,
+      "words": [
+        {
+          "word": " They",
+          "start": 67.18,
+          "end": 68.14,
+          "probability": 0.923828125
+        },
+        {
+          "word": " read",
+          "start": 68.14,
+          "end": 68.34,
+          "probability": 0.31591796875
+        },
+        {
+          "word": " the",
+          "start": 68.34,
+          "end": 68.56,
+          "probability": 0.998046875
+        },
+        {
+          "word": " storm",
+          "start": 68.56,
+          "end": 69.24,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " Then",
+          "start": 69.24,
+          "end": 71.9,
+          "probability": 0.92333984375
+        },
+        {
+          "word": " bring",
+          "start": 71.9,
+          "end": 72.14,
+          "probability": 0.9921875
+        },
+        {
+          "word": " the",
+          "start": 72.14,
+          "end": 72.4,
+          "probability": 0.998046875
+        },
+        {
+          "word": " green",
+          "start": 72.4,
+          "end": 72.72,
+          "probability": 0.98046875
+        },
+        {
+          "word": " back",
+          "start": 72.72,
+          "end": 73.22,
+          "probability": 0.99609375
+        },
+        {
+          "word": " in",
+          "start": 73.22,
+          "end": 73.76,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 5936,
+      "start": 75.52000000000001,
+      "end": 79.34,
+      "text": " Network engineers Hold the line",
+      "tokens": [
+        51115,
+        12640,
+        11955,
+        6962,
+        264,
+        1622,
+        51373
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.33916648864746096,
+      "compression_ratio": 1.5859375,
+      "no_speech_prob": 0.8255583047866821,
+      "words": [
+        {
+          "word": " Network",
+          "start": 75.52000000000001,
+          "end": 76.48,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " engineers",
+          "start": 76.48,
+          "end": 77.14,
+          "probability": 0.95703125
+        },
+        {
+          "word": " Hold",
+          "start": 77.14,
+          "end": 78.04,
+          "probability": 0.6005859375
+        },
+        {
+          "word": " the",
+          "start": 78.04,
+          "end": 79.06,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " line",
+          "start": 79.06,
+          "end": 79.34,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 5936,
+      "start": 79.34,
+      "end": 82.9,
+      "text": " Network engineers Keep the world online",
+      "tokens": [
+        51373,
+        12640,
+        11955,
+        5527,
+        264,
+        1002,
+        2950,
+        51568
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.33916648864746096,
+      "compression_ratio": 1.5859375,
+      "no_speech_prob": 0.8255583047866821,
+      "words": [
+        {
+          "word": " Network",
+          "start": 79.34,
+          "end": 80.3,
+          "probability": 0.982421875
+        },
+        {
+          "word": " engineers",
+          "start": 80.3,
+          "end": 81.0,
+          "probability": 0.998046875
+        },
+        {
+          "word": " Keep",
+          "start": 81.0,
+          "end": 81.62,
+          "probability": 0.91162109375
+        },
+        {
+          "word": " the",
+          "start": 81.62,
+          "end": 81.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " world",
+          "start": 81.88,
+          "end": 82.34,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " online",
+          "start": 82.34,
+          "end": 82.9,
+          "probability": 0.6484375
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 5936,
+      "start": 83.42,
+      "end": 86.76,
+      "text": " From edge to core From port to root",
+      "tokens": [
+        51568,
+        3358,
+        4691,
+        281,
+        4965,
+        3358,
+        2436,
+        281,
+        5593,
+        51740
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.33916648864746096,
+      "compression_ratio": 1.5859375,
+      "no_speech_prob": 0.8255583047866821,
+      "words": [
+        {
+          "word": " From",
+          "start": 83.28,
+          "end": 83.76,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " edge",
+          "start": 83.76,
+          "end": 84.16,
+          "probability": 0.984375
+        },
+        {
+          "word": " to",
+          "start": 84.16,
+          "end": 84.44,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " core",
+          "start": 84.44,
+          "end": 84.88,
+          "probability": 0.998046875
+        },
+        {
+          "word": " From",
+          "start": 84.88,
+          "end": 85.72,
+          "probability": 0.974609375
+        },
+        {
+          "word": " port",
+          "start": 85.72,
+          "end": 86.12,
+          "probability": 0.998046875
+        },
+        {
+          "word": " to",
+          "start": 86.12,
+          "end": 86.4,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " root",
+          "start": 86.4,
+          "end": 86.76,
+          "probability": 0.5263671875
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 8676,
+      "start": 86.76,
+      "end": 90.86,
+      "text": " They keep the packets moving when the noise breaks out",
+      "tokens": [
+        50365,
+        814,
+        1066,
+        264,
+        30364,
+        2684,
+        562,
+        264,
+        5658,
+        9857,
+        484,
+        50583
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.220367431640625,
+      "compression_ratio": 1.2524271844660195,
+      "no_speech_prob": 0.7044956684112549,
+      "words": [
+        {
+          "word": " They",
+          "start": 86.76,
+          "end": 87.16,
+          "probability": 0.430419921875
+        },
+        {
+          "word": " keep",
+          "start": 87.16,
+          "end": 87.38,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " the",
+          "start": 87.38,
+          "end": 87.62,
+          "probability": 0.990234375
+        },
+        {
+          "word": " packets",
+          "start": 87.62,
+          "end": 88.08,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " moving",
+          "start": 88.08,
+          "end": 88.6,
+          "probability": 0.94677734375
+        },
+        {
+          "word": " when",
+          "start": 88.6,
+          "end": 89.24,
+          "probability": 0.74365234375
+        },
+        {
+          "word": " the",
+          "start": 89.24,
+          "end": 89.48,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " noise",
+          "start": 89.48,
+          "end": 89.92,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " breaks",
+          "start": 89.92,
+          "end": 90.32,
+          "probability": 0.99609375
+        },
+        {
+          "word": " out",
+          "start": 90.32,
+          "end": 90.86,
+          "probability": 0.97705078125
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 8676,
+      "start": 95.0,
+      "end": 100.36,
+      "text": " Link up, route clean, ports live",
+      "tokens": [
+        50583,
+        8466,
+        493,
+        11,
+        7955,
+        2541,
+        11,
+        18160,
+        1621,
+        51058
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.220367431640625,
+      "compression_ratio": 1.2524271844660195,
+      "no_speech_prob": 0.7044956684112549,
+      "words": [
+        {
+          "word": " Link",
+          "start": 95.0,
+          "end": 95.8,
+          "probability": 0.48486328125
+        },
+        {
+          "word": " up,",
+          "start": 95.8,
+          "end": 96.6,
+          "probability": 0.95556640625
+        },
+        {
+          "word": " route",
+          "start": 96.62,
+          "end": 98.1,
+          "probability": 0.9267578125
+        },
+        {
+          "word": " clean,",
+          "start": 98.1,
+          "end": 98.44,
+          "probability": 0.98828125
+        },
+        {
+          "word": " ports",
+          "start": 98.6,
+          "end": 100.06,
+          "probability": 0.57275390625
+        },
+        {
+          "word": " live",
+          "start": 100.06,
+          "end": 100.36,
+          "probability": 0.98291015625
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 8676,
+      "start": 103.02,
+      "end": 106.0,
+      "text": " Packets move, no one sees",
+      "tokens": [
+        51058,
+        18466,
+        1385,
+        1286,
+        11,
+        572,
+        472,
+        8194,
+        51342
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.220367431640625,
+      "compression_ratio": 1.2524271844660195,
+      "no_speech_prob": 0.7044956684112549,
+      "words": [
+        {
+          "word": " Packets",
+          "start": 103.02,
+          "end": 103.82,
+          "probability": 0.9677734375
+        },
+        {
+          "word": " move,",
+          "start": 103.82,
+          "end": 104.06,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " no",
+          "start": 104.34,
+          "end": 105.44,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " one",
+          "start": 105.44,
+          "end": 105.7,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " sees",
+          "start": 105.7,
+          "end": 106.0,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 8676,
+      "start": 106.0,
+      "end": 107.92,
+      "text": " Still they move",
+      "tokens": [
+        51342,
+        8291,
+        436,
+        1286,
+        51440
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.220367431640625,
+      "compression_ratio": 1.2524271844660195,
+      "no_speech_prob": 0.7044956684112549,
+      "words": [
+        {
+          "word": " Still",
+          "start": 106.0,
+          "end": 107.34,
+          "probability": 0.255615234375
+        },
+        {
+          "word": " they",
+          "start": 107.34,
+          "end": 107.6,
+          "probability": 0.86572265625
+        },
+        {
+          "word": " move",
+          "start": 107.6,
+          "end": 107.92,
+          "probability": 0.9931640625
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 11676,
+      "start": 132.16000000000003,
+      "end": 139.42,
+      "text": " You touch the app, they guard the path You call it simple, they know the math",
+      "tokens": [
+        50365,
+        509,
+        2557,
+        264,
+        724,
+        11,
+        436,
+        6290,
+        264,
+        3100,
+        509,
+        818,
+        309,
+        2199,
+        11,
+        436,
+        458,
+        264,
+        5221,
+        51543
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.26289770819924096,
+      "compression_ratio": 1.1159420289855073,
+      "no_speech_prob": 0.6950082778930664,
+      "words": [
+        {
+          "word": " You",
+          "start": 132.16000000000003,
+          "end": 132.8,
+          "probability": 0.26025390625
+        },
+        {
+          "word": " touch",
+          "start": 132.8,
+          "end": 133.12,
+          "probability": 0.7919921875
+        },
+        {
+          "word": " the",
+          "start": 133.12,
+          "end": 133.32,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " app,",
+          "start": 133.32,
+          "end": 133.7,
+          "probability": 0.93310546875
+        },
+        {
+          "word": " they",
+          "start": 133.94,
+          "end": 134.7,
+          "probability": 0.9521484375
+        },
+        {
+          "word": " guard",
+          "start": 134.7,
+          "end": 135.0,
+          "probability": 0.88232421875
+        },
+        {
+          "word": " the",
+          "start": 135.0,
+          "end": 135.26,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " path",
+          "start": 135.26,
+          "end": 135.58,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " You",
+          "start": 135.58,
+          "end": 136.54,
+          "probability": 0.6796875
+        },
+        {
+          "word": " call",
+          "start": 136.54,
+          "end": 136.9,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " it",
+          "start": 136.9,
+          "end": 137.18,
+          "probability": 0.998046875
+        },
+        {
+          "word": " simple,",
+          "start": 137.18,
+          "end": 137.58,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " they",
+          "start": 137.76,
+          "end": 138.56,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " know",
+          "start": 138.56,
+          "end": 138.84,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " the",
+          "start": 138.84,
+          "end": 139.06,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " math",
+          "start": 139.06,
+          "end": 139.42,
+          "probability": 0.990234375
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 13942,
+      "start": 139.42,
+      "end": 142.92,
+      "text": " Between the outage and the final screen",
+      "tokens": [
+        50365,
+        18967,
+        264,
+        484,
+        609,
+        293,
+        264,
+        2572,
+        2568,
+        50561
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21390923431941442,
+      "compression_ratio": 1.6375838926174497,
+      "no_speech_prob": 0.7312541604042053,
+      "words": [
+        {
+          "word": " Between",
+          "start": 139.42,
+          "end": 140.62,
+          "probability": 0.55126953125
+        },
+        {
+          "word": " the",
+          "start": 140.62,
+          "end": 140.94,
+          "probability": 0.998046875
+        },
+        {
+          "word": " outage",
+          "start": 140.94,
+          "end": 141.54,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " and",
+          "start": 141.54,
+          "end": 141.68,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " the",
+          "start": 141.68,
+          "end": 141.86,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " final",
+          "start": 141.86,
+          "end": 142.42,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " screen",
+          "start": 142.42,
+          "end": 142.92,
+          "probability": 0.9453125
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 13942,
+      "start": 142.92,
+      "end": 146.8,
+      "text": " They find the fault inside the unseen",
+      "tokens": [
+        50561,
+        814,
+        915,
+        264,
+        7441,
+        1854,
+        264,
+        40608,
+        50759
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21390923431941442,
+      "compression_ratio": 1.6375838926174497,
+      "no_speech_prob": 0.7312541604042053,
+      "words": [
+        {
+          "word": " They",
+          "start": 142.92,
+          "end": 144.22,
+          "probability": 0.78369140625
+        },
+        {
+          "word": " find",
+          "start": 144.22,
+          "end": 144.56,
+          "probability": 0.796875
+        },
+        {
+          "word": " the",
+          "start": 144.56,
+          "end": 144.78,
+          "probability": 0.93505859375
+        },
+        {
+          "word": " fault",
+          "start": 144.78,
+          "end": 145.12,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " inside",
+          "start": 145.12,
+          "end": 145.68,
+          "probability": 0.98046875
+        },
+        {
+          "word": " the",
+          "start": 145.68,
+          "end": 146.2,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " unseen",
+          "start": 146.2,
+          "end": 146.8,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 13942,
+      "start": 147.94,
+      "end": 151.7,
+      "text": " Network engineers hold the line",
+      "tokens": [
+        50759,
+        12640,
+        11955,
+        1797,
+        264,
+        1622,
+        50988
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21390923431941442,
+      "compression_ratio": 1.6375838926174497,
+      "no_speech_prob": 0.7312541604042053,
+      "words": [
+        {
+          "word": " Network",
+          "start": 147.94,
+          "end": 148.94,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " engineers",
+          "start": 148.94,
+          "end": 149.5,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " hold",
+          "start": 149.5,
+          "end": 151.22,
+          "probability": 0.365234375
+        },
+        {
+          "word": " the",
+          "start": 151.22,
+          "end": 151.4,
+          "probability": 0.998046875
+        },
+        {
+          "word": " line",
+          "start": 151.4,
+          "end": 151.7,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 13942,
+      "start": 151.7,
+      "end": 155.42,
+      "text": " Network engineers keep the world online",
+      "tokens": [
+        50988,
+        12640,
+        11955,
+        1066,
+        264,
+        1002,
+        2950,
+        51186
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21390923431941442,
+      "compression_ratio": 1.6375838926174497,
+      "no_speech_prob": 0.7312541604042053,
+      "words": [
+        {
+          "word": " Network",
+          "start": 151.7,
+          "end": 152.76,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " engineers",
+          "start": 152.76,
+          "end": 153.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " keep",
+          "start": 153.42,
+          "end": 154.0,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " the",
+          "start": 154.0,
+          "end": 154.26,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " world",
+          "start": 154.26,
+          "end": 154.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " online",
+          "start": 154.72,
+          "end": 155.42,
+          "probability": 0.52001953125
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 13942,
+      "start": 155.42,
+      "end": 159.3,
+      "text": " Layer by layer, night after night",
+      "tokens": [
+        51186,
+        35166,
+        538,
+        4583,
+        11,
+        1818,
+        934,
+        1818,
+        51365
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21390923431941442,
+      "compression_ratio": 1.6375838926174497,
+      "no_speech_prob": 0.7312541604042053,
+      "words": [
+        {
+          "word": " Layer",
+          "start": 155.42,
+          "end": 156.58,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " by",
+          "start": 156.58,
+          "end": 156.84,
+          "probability": 0.99609375
+        },
+        {
+          "word": " layer,",
+          "start": 156.84,
+          "end": 157.34,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " night",
+          "start": 157.54,
+          "end": 158.16,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " after",
+          "start": 158.16,
+          "end": 158.76,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " night",
+          "start": 158.76,
+          "end": 159.3,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 13942,
+      "start": 159.3,
+      "end": 163.18,
+      "text": " They keep the surface breathing until the graphs turn bright",
+      "tokens": [
+        51365,
+        814,
+        1066,
+        264,
+        3753,
+        9570,
+        1826,
+        264,
+        24877,
+        1261,
+        4730,
+        51567
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.21390923431941442,
+      "compression_ratio": 1.6375838926174497,
+      "no_speech_prob": 0.7312541604042053,
+      "words": [
+        {
+          "word": " They",
+          "start": 159.3,
+          "end": 159.48,
+          "probability": 0.966796875
+        },
+        {
+          "word": " keep",
+          "start": 159.48,
+          "end": 159.78,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 159.78,
+          "end": 160.0,
+          "probability": 0.98828125
+        },
+        {
+          "word": " surface",
+          "start": 160.0,
+          "end": 160.4,
+          "probability": 0.95068359375
+        },
+        {
+          "word": " breathing",
+          "start": 160.4,
+          "end": 161.1,
+          "probability": 0.9140625
+        },
+        {
+          "word": " until",
+          "start": 161.1,
+          "end": 161.56,
+          "probability": 0.7294921875
+        },
+        {
+          "word": " the",
+          "start": 161.56,
+          "end": 161.92,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " graphs",
+          "start": 161.92,
+          "end": 162.26,
+          "probability": 0.755859375
+        },
+        {
+          "word": " turn",
+          "start": 162.26,
+          "end": 162.64,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " bright",
+          "start": 162.64,
+          "end": 163.18,
+          "probability": 0.95361328125
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 16942,
+      "start": 172.68,
+      "end": 174.08,
+      "text": " Thank you.",
+      "tokens": [
+        50365,
+        1044,
+        291,
+        13,
+        51864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.40848759810129803,
+      "compression_ratio": 0.5555555555555556,
+      "no_speech_prob": 0.7993037104606628,
+      "words": [
+        {
+          "word": " Thank",
+          "start": 172.68,
+          "end": 174.08,
+          "probability": 0.08294677734375
+        },
+        {
+          "word": " you.",
+          "start": 174.08,
+          "end": 174.08,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 19942,
+      "start": 199.42,
+      "end": 199.94,
+      "text": " you",
+      "tokens": [
+        50365,
+        291,
+        50390
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.9327602386474609,
+      "compression_ratio": 0.2727272727272727,
+      "no_speech_prob": 0.6778767108917236,
+      "words": [
+        {
+          "word": " you",
+          "start": 199.42,
+          "end": 199.94,
+          "probability": 0.288818359375
+        }
+      ]
+    }
+  ],
+  "language": "en"
+}

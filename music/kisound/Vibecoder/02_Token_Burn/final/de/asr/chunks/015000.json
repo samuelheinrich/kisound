@@ -1,0 +1,322 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 15000,
+  "next_frame": 18000,
+  "segments": [
+    {
+      "start": 150.0,
+      "end": 155.76,
+      "text": "Dass ich den nächsten Stand hier seh'",
+      "words": [
+        {
+          "word": "Dass",
+          "start": 152.8,
+          "end": 153.0
+        },
+        {
+          "word": "ich",
+          "start": 153.0,
+          "end": 153.34
+        },
+        {
+          "word": "den",
+          "start": 153.34,
+          "end": 154.0
+        },
+        {
+          "word": "nächsten",
+          "start": 154.0,
+          "end": 154.64
+        },
+        {
+          "word": "Stand",
+          "start": 154.64,
+          "end": 155.06
+        },
+        {
+          "word": "hier",
+          "start": 155.06,
+          "end": 155.46
+        },
+        {
+          "word": "seh",
+          "start": 155.46,
+          "end": 155.92
+        },
+        {
+          "word": "'",
+          "start": 155.92,
+          "end": 155.92
+        }
+      ],
+      "tokens": [
+        50365,
+        22306,
+        1893,
+        1441,
+        19101,
+        9133,
+        3296,
+        369,
+        71,
+        6,
+        50653
+      ]
+    },
+    {
+      "start": 156.12,
+      "end": 159.24,
+      "text": "Und ab geht's zu, zwei kommen rein",
+      "words": [
+        {
+          "word": "Und",
+          "start": 156.36,
+          "end": 156.56
+        },
+        {
+          "word": "ab",
+          "start": 156.56,
+          "end": 156.86
+        },
+        {
+          "word": "geht's",
+          "start": 156.86,
+          "end": 157.4
+        },
+        {
+          "word": "zu",
+          "start": 157.4,
+          "end": 157.68
+        },
+        {
+          "word": ",",
+          "start": 157.68,
+          "end": 157.96
+        },
+        {
+          "word": "zwei",
+          "start": 157.96,
+          "end": 158.44
+        },
+        {
+          "word": "kommen",
+          "start": 158.44,
+          "end": 159.08
+        },
+        {
+          "word": "rein",
+          "start": 159.08,
+          "end": 159.4
+        }
+      ],
+      "tokens": [
+        50671,
+        2719,
+        410,
+        7095,
+        311,
+        2164,
+        11,
+        12002,
+        11729,
+        6561,
+        50827
+      ]
+    },
+    {
+      "start": 159.24,
+      "end": 164.52,
+      "text": "Und dieser eine muss noch sein",
+      "words": [
+        {
+          "word": "Und",
+          "start": 159.84,
+          "end": 160.34
+        },
+        {
+          "word": "dieser",
+          "start": 160.34,
+          "end": 161.1
+        },
+        {
+          "word": "eine",
+          "start": 161.1,
+          "end": 163.58
+        },
+        {
+          "word": "muss",
+          "start": 163.58,
+          "end": 163.84
+        },
+        {
+          "word": "noch",
+          "start": 163.84,
+          "end": 164.4
+        },
+        {
+          "word": "sein",
+          "start": 164.4,
+          "end": 165.32
+        }
+      ],
+      "tokens": [
+        50827,
+        2719,
+        9053,
+        3018,
+        6425,
+        3514,
+        6195,
+        51091
+      ]
+    },
+    {
+      "start": 164.52,
+      "end": 174.2,
+      "text": "Der Kaffee kalt, das Fenster hell",
+      "words": [
+        {
+          "word": "Der",
+          "start": 171.72,
+          "end": 171.9
+        },
+        {
+          "word": "Kaffee",
+          "start": 171.9,
+          "end": 172.24
+        },
+        {
+          "word": "kalt",
+          "start": 172.24,
+          "end": 172.88
+        },
+        {
+          "word": ",",
+          "start": 172.88,
+          "end": 173.5
+        },
+        {
+          "word": "das",
+          "start": 173.5,
+          "end": 173.7
+        },
+        {
+          "word": "Fenster",
+          "start": 173.7,
+          "end": 174.16
+        },
+        {
+          "word": "hell",
+          "start": 174.16,
+          "end": 174.6
+        }
+      ],
+      "tokens": [
+        51091,
+        5618,
+        591,
+        2518,
+        1653,
+        350,
+        3198,
+        11,
+        1482,
+        30993,
+        3120,
+        4921,
+        51575
+      ]
+    },
+    {
+      "start": 174.2,
+      "end": 177.8,
+      "text": "Die Antwort kommt, ich lese schnell",
+      "words": [
+        {
+          "word": "Die",
+          "start": 175.28,
+          "end": 175.7
+        },
+        {
+          "word": "Antwort",
+          "start": 175.7,
+          "end": 176.04
+        },
+        {
+          "word": "kommt",
+          "start": 176.04,
+          "end": 176.54
+        },
+        {
+          "word": ",",
+          "start": 176.54,
+          "end": 177.04
+        },
+        {
+          "word": "ich",
+          "start": 177.04,
+          "end": 177.22
+        },
+        {
+          "word": "lese",
+          "start": 177.22,
+          "end": 177.76
+        },
+        {
+          "word": "schnell",
+          "start": 177.76,
+          "end": 178.14
+        }
+      ],
+      "tokens": [
+        51575,
+        3229,
+        34693,
+        10047,
+        11,
+        1893,
+        287,
+        1130,
+        17589,
+        51755,
+        51755
+      ]
+    },
+    {
+      "start": 177.8,
+      "end": 179.62,
+      "text": "Der Satz von vorher",
+      "words": [
+        {
+          "word": "Der",
+          "start": 178.78,
+          "end": 178.98
+        },
+        {
+          "word": "Satz",
+          "start": 178.98,
+          "end": 179.24
+        },
+        {
+          "word": "von",
+          "start": 179.24,
+          "end": 179.6
+        },
+        {
+          "word": "vorher",
+          "start": 179.6,
+          "end": 179.98
+        }
+      ],
+      "tokens": [
+        50365,
+        5618,
+        5344,
+        89,
+        2957,
+        29195,
+        50456
+      ]
+    }
+  ]
+}

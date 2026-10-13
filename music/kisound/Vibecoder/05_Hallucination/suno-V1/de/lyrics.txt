@@ -1,0 +1,53 @@
+[Intro]
+Du sagst: Das ist der Befehl.
+Der Switch sagt: Nein.
+
+[Verse 1]
+Ich frag dich nach dem Kommando für den Port,
+du antwortest sofort, mit Syntax, Wort für Wort.
+Sauber eingerückt, als käm's aus dem Handbuch,
+ich kopier's ins Terminal. Ein erster Versuch.
+Enter. Unter dem dritten Wort ein kleines Dach:
+Invalid input detected. Ich lese zweimal nach.
+
+[Chorus]
+Hallucination.
+Invalid input detected.
+Hallucination.
+Du klingst sicher. Der Switch hat's abgelehnt.
+Ich tipp ein Fragezeichen hinterher,
+der Switch zeigt, was es gibt. Nicht mehr.
+
+[Verse 2]
+Du entschuldigst dich höflich, hast sofort was Neues parat,
+ein zweiter Befehl, genauso sicher, genauso glatt.
+Wieder Enter. Wieder Dach. Wieder abgelehnt.
+Ich öffne die Command Reference, wo es wirklich steht.
+Für genau diese Version, diesen Release, diese Plattform,
+da steht der richtige Befehl, und er hat eine andere Form.
+
+[Chorus]
+Hallucination.
+Invalid input detected.
+Hallucination.
+Du klingst sicher. Der Switch hat's abgelehnt.
+Ich tipp ein Fragezeichen hinterher,
+der Switch zeigt, was es gibt. Nicht mehr.
+
+[Bridge]
+Zwanzig Jahre an der Konsole lehren mich:
+Was gut klingt, ist noch kein Beweis, ganz sicher nicht.
+show running-config. Ich prüf, was jetzt drin steht.
+Erst wenn die Zeile drin ist, weiss ich, dass es geht.
+
+[Chorus]
+Hallucination.
+Invalid input detected.
+Hallucination.
+Du klingst sicher. Der Switch hat's abgelehnt.
+Ich tipp ein Fragezeichen hinterher,
+der Switch zeigt, was es gibt. Nicht mehr.
+
+[Outro]
+Ein Fragezeichen.
+Der Switch sagt mir die Wahrheit.

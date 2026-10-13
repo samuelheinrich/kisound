@@ -1,0 +1,365 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 6000,
+  "next_frame": 9000,
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 65.8,
+      "text": "Der Prompt geht raus, die Antwort rein",
+      "words": [
+        {
+          "word": "Der",
+          "start": 63.18,
+          "end": 63.42
+        },
+        {
+          "word": "Prompt",
+          "start": 63.42,
+          "end": 63.64
+        },
+        {
+          "word": "geht",
+          "start": 63.64,
+          "end": 64.1
+        },
+        {
+          "word": "raus",
+          "start": 64.1,
+          "end": 64.44
+        },
+        {
+          "word": ",",
+          "start": 64.44,
+          "end": 64.98
+        },
+        {
+          "word": "die",
+          "start": 64.98,
+          "end": 65.32
+        },
+        {
+          "word": "Antwort",
+          "start": 65.32,
+          "end": 65.72
+        },
+        {
+          "word": "rein",
+          "start": 65.72,
+          "end": 65.92
+        }
+      ],
+      "tokens": [
+        50365,
+        5618,
+        15833,
+        662,
+        7095,
+        17202,
+        11,
+        978,
+        34693,
+        6561,
+        50655
+      ]
+    },
+    {
+      "start": 65.8,
+      "end": 69.38,
+      "text": "Noch kann es nicht das letzte sein",
+      "words": [
+        {
+          "word": "Noch",
+          "start": 66.72,
+          "end": 67.02
+        },
+        {
+          "word": "kann",
+          "start": 67.02,
+          "end": 67.2
+        },
+        {
+          "word": "es",
+          "start": 67.2,
+          "end": 67.56
+        },
+        {
+          "word": "nicht",
+          "start": 67.56,
+          "end": 68.5
+        },
+        {
+          "word": "das",
+          "start": 68.5,
+          "end": 68.84
+        },
+        {
+          "word": "letzte",
+          "start": 68.84,
+          "end": 69.26
+        },
+        {
+          "word": "sein",
+          "start": 69.26,
+          "end": 69.68
+        }
+      ],
+      "tokens": [
+        50655,
+        38116,
+        4028,
+        785,
+        1979,
+        1482,
+        35236,
+        6195,
+        50834
+      ]
+    },
+    {
+      "start": 69.38,
+      "end": 72.86,
+      "text": "Die Nacht wird kurz, der Text wird lang",
+      "words": [
+        {
+          "word": "Die",
+          "start": 70.24,
+          "end": 70.5
+        },
+        {
+          "word": "Nacht",
+          "start": 70.5,
+          "end": 70.68
+        },
+        {
+          "word": "wird",
+          "start": 70.68,
+          "end": 71.14
+        },
+        {
+          "word": "kurz",
+          "start": 71.14,
+          "end": 71.86
+        },
+        {
+          "word": ",",
+          "start": 71.86,
+          "end": 72.0
+        },
+        {
+          "word": "der",
+          "start": 72.0,
+          "end": 72.28
+        },
+        {
+          "word": "Text",
+          "start": 72.28,
+          "end": 72.5
+        },
+        {
+          "word": "wird",
+          "start": 72.5,
+          "end": 72.78
+        },
+        {
+          "word": "lang",
+          "start": 72.78,
+          "end": 73.38
+        }
+      ],
+      "tokens": [
+        50834,
+        3229,
+        31133,
+        4578,
+        20465,
+        11,
+        1163,
+        18643,
+        4578,
+        2265,
+        51008
+      ]
+    },
+    {
+      "start": 72.86,
+      "end": 76.66,
+      "text": "Ich hör schon wieder einen Klang",
+      "words": [
+        {
+          "word": "Ich",
+          "start": 73.82,
+          "end": 73.98
+        },
+        {
+          "word": "hör",
+          "start": 73.98,
+          "end": 74.24
+        },
+        {
+          "word": "schon",
+          "start": 74.24,
+          "end": 74.68
+        },
+        {
+          "word": "wieder",
+          "start": 74.68,
+          "end": 75.72
+        },
+        {
+          "word": "einen",
+          "start": 75.72,
+          "end": 76.04
+        },
+        {
+          "word": "Klang",
+          "start": 76.04,
+          "end": 78.08
+        }
+      ],
+      "tokens": [
+        51008,
+        3141,
+        42651,
+        4981,
+        6216,
+        4891,
+        16053,
+        656,
+        51198
+      ]
+    },
+    {
+      "start": 76.66,
+      "end": 80.0,
+      "text": "Totenbüll",
+      "words": [
+        {
+          "word": "Totenbüll",
+          "start": 79.12,
+          "end": 80.48
+        }
+      ],
+      "tokens": [
+        51198,
+        11236,
+        268,
+        65,
+        32385,
+        51365
+      ]
+    },
+    {
+      "start": 80.0,
+      "end": 85.06,
+      "text": "Noch ein Prompt, bevor ich geh",
+      "words": [
+        {
+          "word": "Noch",
+          "start": 82.66,
+          "end": 82.88
+        },
+        {
+          "word": "ein",
+          "start": 82.88,
+          "end": 83.08
+        },
+        {
+          "word": "Prompt",
+          "start": 83.08,
+          "end": 83.44
+        },
+        {
+          "word": ",",
+          "start": 83.44,
+          "end": 84.0
+        },
+        {
+          "word": "bevor",
+          "start": 84.0,
+          "end": 84.56
+        },
+        {
+          "word": "ich",
+          "start": 84.56,
+          "end": 84.88
+        },
+        {
+          "word": "geh",
+          "start": 84.88,
+          "end": 85.5
+        }
+      ],
+      "tokens": [
+        51365,
+        38116,
+        1343,
+        15833,
+        662,
+        11,
+        37591,
+        1893,
+        13218,
+        51618
+      ]
+    },
+    {
+      "start": 85.06,
+      "end": 87.16,
+      "text": "Totenbüll",
+      "words": [
+        {
+          "word": "Totenbüll",
+          "start": 86.24,
+          "end": 87.48
+        }
+      ],
+      "tokens": [
+        51618,
+        11236,
+        268,
+        65,
+        32385,
+        51723,
+        51723
+      ]
+    },
+    {
+      "start": 87.16,
+      "end": 89.98,
+      "text": "Das ist der Nachteil",
+      "words": [
+        {
+          "word": "Das",
+          "start": 89.28,
+          "end": 89.46
+        },
+        {
+          "word": "ist",
+          "start": 89.46,
+          "end": 89.8
+        },
+        {
+          "word": "der",
+          "start": 89.8,
+          "end": 89.98
+        },
+        {
+          "word": "Nachteil",
+          "start": 89.98,
+          "end": 89.98
+        }
+      ],
+      "tokens": [
+        50365,
+        2846,
+        1418,
+        1163,
+        426,
+        26136,
+        388,
+        50506
+      ]
+    }
+  ]
+}

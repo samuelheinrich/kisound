@@ -1,0 +1,51 @@
+[Intro]
+npm install.
+Four-oh-four.
+
+[Verse 1]
+You suggest a package, and the name sounds just right,
+a scope, a hyphen, official in plain sight.
+An import, three lines, it all looks clear,
+I type npm install, and red appears:
+E404. Not Found. That package isn't there.
+No author, no repo, no version anywhere.
+
+[Chorus]
+Hallucination.
+A name that sounds real.
+Hallucination.
+Four-oh-four, until someone makes it real.
+I check the author and the repo
+before a name goes in. I need to know.
+
+[Verse 2]
+Three weeks later, that name is suddenly live:
+version one, a fresh account, no repo, and a postinstall inside.
+The script runs curl to a host that no one knows.
+I strike it from package.json. Connection closed.
+
+[Chorus]
+Hallucination.
+A name that sounds real.
+Hallucination.
+Four-oh-four, until someone makes it real.
+I check the author and the repo
+before a name goes in. I need to know.
+
+[Bridge]
+A good name isn't proof,
+a neat example's not a test.
+npm view: author, repo, date.
+Only then it joins the rest.
+
+[Chorus]
+Hallucination.
+A name that sounds real.
+Hallucination.
+Four-oh-four, until someone makes it real.
+I check the author and the repo
+before a name goes in. I need to know.
+
+[Outro]
+npm install.
+Only what I've checked.

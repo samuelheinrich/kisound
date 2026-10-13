@@ -1,0 +1,54 @@
+[Intro]
+Security Operations Center.
+Shift begins.
+
+[Verse 1]
+Six p.m., handover, the day shift packs to leave,
+three open cases, notes, a coffee, and new alerts to receive.
+Eight screens, one queue, red and orange and gold,
+tier one sorts the noise from what can't be on hold.
+A login in Basel, twelve minutes later in São Paulo,
+no plane is that fast, I escalate to tier two, you know.
+
+[Chorus]
+S-O-C.
+We don't sleep.
+S-O-C.
+We watch the night run deep.
+Detect. Triage. Respond.
+And not one alert left alone.
+
+[Verse 2]
+Two a.m., two hundred alerts, most of them just noise,
+but one breaks the pattern, and that's the one I choose.
+Word starts PowerShell, encoded, at two in the night,
+no accountant does that, I isolate the host outright.
+Case to tier three, process tree, hash and time,
+six a.m. handover, the day shift takes the line.
+
+[Chorus]
+S-O-C.
+We don't sleep.
+S-O-C.
+We watch the night run deep.
+Detect. Triage. Respond.
+And not one alert left alone.
+
+[Bridge]
+When you sleep, we're awake.
+When you click, we check what's at stake.
+No hero, no movie, no shine,
+just logs and coffee, all night, all the time.
+
+[Chorus]
+S-O-C.
+We don't sleep.
+S-O-C.
+We watch the night run deep.
+Detect. Triage. Respond.
+And not one alert left alone.
+
+[Outro]
+Handover.
+Three cases open.
+Shift's over.

@@ -1,0 +1,81 @@
+VERSION: 0.2
+ALBUM: Network Engineer 02
+TRACK: 08 - Microburst
+THEMA: Kurzzeitige Verkehrsspitzen, Incast, Egress Queue, endliche Puffer, Output Drops trotz niedriger Durchschnittsauslastung
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+[Intro]
+Die Kurve sieht gut aus.
+Der Counter nicht.
+Noch ein Drop.
+Und noch einer.
+
+[Verse 1]
+Ein paar Prozent auf deinem Screen,
+«Der Link hat Luft», sagt jemand neben mir.
+Doch mehrere Flows treffen zusammen
+auf dieselbe schmale Tür.
+Die Queue nimmt auf, was warten muss,
+der Puffer hat ein Ende.
+Ein kurzer Peak, zu viel auf einmal,
+und Frames fallen aus der Menge.
+
+[Pre-Chorus]
+Der Graph glättet die Spitze.
+Der Counter zählt den Rest.
+Du siehst den ruhigen Durchschnitt,
+ich seh, was er verdeckt.
+
+[Chorus]
+Microburst.
+Im Durchschnitt grün.
+Im Augenblick verloren,
+bevor wir die Spitze sehn.
+Microburst.
+Alles auf einen Port.
+Die Queue läuft über,
+ein Teil der Frames geht verloren.
+
+[Verse 2]
+Der Nutzer hört ein Loch im Satz,
+der Download stockt und läuft dann weiter.
+Im nächsten Mittelwert verschwunden,
+die Drops im Counter steigen.
+Wir schauen näher auf die Queue,
+auf ihren höchsten Stand.
+Ein Incast bündelt viele Wege
+an diesem einen Ausgang.
+
+[Bridge]
+Mehr Puffer fängt die Spitze auf,
+bis auch der neue voll ist.
+Mehr Platz verschiebt die Grenze,
+wenn dauerhaft zu viel ankommt.
+Ein höherer Durchschnitt fehlt uns nicht.
+Uns fehlt der Blick auf diesen Peak.
+Die Messung muss den Moment erfassen,
+in dem der Ausgang nicht mehr reicht.
+
+[Final Chorus]
+Microburst.
+Im Durchschnitt grün.
+Im Augenblick verloren,
+jetzt können wir die Spitze sehn.
+Microburst.
+Alles auf einen Port.
+Wir kennen jetzt den Engpass,
+keine Drop-Zahl wird ignoriert.
+
+[Outro]
+Die Kurve sieht gut aus.
+Ich schau trotzdem genauer hin.
+
+STYLE PROMPT:
+Explosiver Glitch-Breakbeat mit Bass-Music-Energie bei etwa 136 BPM. Ein zunächst sauberer, scheinbar unbeschwerter Groove wird von sehr dicht gestapelten Drum-Attacken und knurrenden Bass-Stabs getroffen. Die Spitzen sollen kurz, körperlich und überraschend wirken. Danach fehlen bewusst einzelne rhythmische Elemente, wie verlorene Frames. Nutze Incast als Kompositionsidee: mehrere kleine Motive laufen gleichzeitig in einen gemeinsamen schweren Akzent. Den Takt trotz Glitches erkennbar halten. Ein ruhigeres wiederkehrendes Motiv steht für den geglätteten Graphen und kontrastiert mit den hörbaren Spitzen.
+
+Eine einzelne scharfe, rhythmische Stimme. Strophen konzentriert und skeptisch, Refrains druckvoll mit leicht rauer Kante. «Im Durchschnitt grün. Im Augenblick verloren» muss auch bei voller Bassenergie deutlich bleiben. Vocal-Chops dürfen einzelne Wörter wiederholen, aber keine zweite Stimme erzeugen und keine Zeilen unverständlich zerhacken. Im letzten Refrain wird die Überlast musikalisch besser geordnet, ohne einen grossen euphorischen Trance-Build.
+
+Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht übersetzen. Abkürzungen wie TCP, SSH oder DSCP als einzelne englische Buchstaben aussprechen; ganze Fachwörter normal aussprechen. Abschnittsnamen und Sprecherbezeichnungen nicht singen, nur die Lyrics performen. Keine bekannten Melodie- oder Song-Referenzen.

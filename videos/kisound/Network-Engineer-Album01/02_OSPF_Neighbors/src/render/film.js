@@ -1,0 +1,30 @@
+import * as THREE from 'three';
+import {EffectComposer} from 'three/addons/postprocessing/EffectComposer.js';
+import {RenderPass} from 'three/addons/postprocessing/RenderPass.js';
+import {UnrealBloomPass} from 'three/addons/postprocessing/UnrealBloomPass.js';
+import {OutputPass} from 'three/addons/postprocessing/OutputPass.js';
+import {ShaderPass} from 'three/addons/postprocessing/ShaderPass.js';
+import {FXAAShader} from 'three/addons/shaders/FXAAShader.js';
+import {DURATION} from './config.js';
+import {clamp} from './timeline.js';
+import {networkState} from './protocol-model.js';
+import {AtlasZone} from './zones/atlas.js';
+import {NeighbourZone} from './zones/neighbour.js';
+import {DatabaseZone} from './zones/database.js';
+import {RoutingZone} from './zones/routing.js';
+import {drawTechnical,drawSyslog,drawTitles,titleOpacity,text,DOCK,technicalModes} from './overlay.js';
+export class Film{
+ constructor({renderer,width,height,overlay,timeline,debug=false}){
+  Object.assign(this,{renderer,width,height,overlay,tl:timeline,debug});this.zones={atlas:new AtlasZone(),neighbour:new NeighbourZone(),database:new DatabaseZone(),routing:new RoutingZone()};this.camera=new THREE.PerspectiveCamera(45,width/height,.04,200);
+  this.composer=new EffectComposer(renderer);this.pass=new RenderPass(this.zones.atlas.scene,this.camera);this.composer.addPass(this.pass);this.bloom=new UnrealBloomPass(new THREE.Vector2(width,height),.29,.42,1.1);this.composer.addPass(this.bloom);this.composer.addPass(new OutputPass());const fxaa=new ShaderPass(FXAAShader);fxaa.material.uniforms.resolution.value.set(1/width,1/height);this.composer.addPass(fxaa);
+ }
+ render(time){
+  const t=clamp(Number.isFinite(time)?time:0,0,DURATION),shot=this.tl.shot(t),a=this.tl.sample(t),zone=this.zones[shot.zone],title=titleOpacity(t),technical=technicalModes.has(shot.mode)&&title<.01;
+  zone.update(t,a,this.tl,shot);const c=zone.camera(shot,t);this.camera.position.copy(c.pos);this.camera.lookAt(c.target);this.camera.fov=c.fov;
+  if(technical)this.camera.setViewOffset(this.width,this.height,-this.width*.17,0,this.width,this.height);else this.camera.clearViewOffset();this.camera.updateProjectionMatrix();this.pass.scene=zone.scene;this.bloom.strength=.25+.07*a.high_6000_12000_drive;this.composer.render(0);this.drawOverlay(t,shot,technical,title);
+  const n=networkState(t);this.lastState={t,shot:shot.id,chapter:this.tl.chapter(t).id,zone:shot.zone,mode:shot.mode,camera:this.camera.position.toArray(),target:c.target.toArray(),network:n,titleOpacity:title,technicalDock:technical?DOCK:null,visibility:this.tl.visibility(t)};return this.lastState;
+ }
+ drawOverlay(t,shot,technical,title){const g=this.overlay.getContext('2d'),scale=this.width/1920,h=this.height/scale;g.clearRect(0,0,this.width,this.height);g.save();g.scale(scale,scale);g.globalAlpha=1-title;text(g,'OSPFv2 / LINK STATE',64,61,18,'#accada');g.textAlign='right';text(g,networkState(t).status,1856,61,18,'#59d8ed');g.textAlign='left';if(technical)drawTechnical(g,t,shot);drawSyslog(g,t,h);g.globalAlpha=1;drawTitles(g,h,title);
+  if(this.debug){g.fillStyle='rgba(3,12,22,.94)';g.fillRect(64,h-288,1470,74);text(g,`${this.tl.chapter(t).id} · ${shot.id} · ${shot.zone}/${shot.camera} · ${t.toFixed(3)} s`,82,h-260,18);text(g,`${shot.eventIds.join(' ')} / ${shot.lyricIds.join(' ')} · 136.2 BPM geschätzt · Netzwerkszenario redaktionell`,82,h-232,16,'#83b6c5');}g.restore();const black=1-this.tl.visibility(t);if(black>0){g.fillStyle=`rgba(0,0,0,${black})`;g.fillRect(0,0,this.width,this.height);}
+ }
+}

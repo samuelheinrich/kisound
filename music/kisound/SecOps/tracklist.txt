@@ -1,0 +1,15 @@
+SecOps — Entwurf 0.1, 2026-10-10, Deutsch und Englisch
+Zwölf Vorschläge, noch keine Aufnahmen.
+
+01 - SOC
+02 - SIEM
+03 - Phishing Campaign
+04 - Click
+05 - False Positive
+06 - Pentest
+07 - MFA Fatigue
+08 - Containment
+09 - Zero Day
+10 - Threat Hunt
+11 - Ransomware
+12 - Lessons Learned

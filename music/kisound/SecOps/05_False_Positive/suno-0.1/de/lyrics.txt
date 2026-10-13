@@ -1,0 +1,55 @@
+[Intro]
+Alarm: Hoch.
+Verdächtige PowerShell.
+Auf meinem Rechner.
+
+[Verse 1]
+Drei Uhr, das EDR schlägt Alarm: kodierter Befehl, versteckt,
+geplante Aufgabe, jede Nacht, ein Muster, das man so entdeckt.
+Der SOC ruft an: „Dein Laptop, Sam, was läuft da um drei?“
+Ich schau in den Prozessbaum, und erkenn mein eigenes Skript dabei.
+Mein Backup-Skript, vor einer Woche mit dem Agenten gebaut,
+der hat den Befehl in Base64 verpackt, und das EDR hat's durchschaut.
+
+[Chorus]
+False Positive.
+Kein Angriff, nur ich.
+False Positive.
+Der Alarm war richtig, der Verdacht war es nicht.
+Ich schliess den Fall, sauber notiert,
+und schreib das Skript so, dass es keiner falsch kapiert.
+
+[Verse 2]
+Die Versuchung: den ganzen Ordner ausnehmen, dann ist Ruh,
+doch genau dort legt der Nächste dann sein eigenes Skript dazu.
+Also: kein Base64, Klartext, signiert mit unserem Zertifikat,
+eine Ausnahme nur für diesen Hash und diesen Signer, nicht mehr, kein Rabatt.
+Am nächsten Morgen läuft das Backup, und der SOC bleibt still,
+und piept es doch nochmal, dann ist es genau das, was ich wissen will.
+
+[Chorus]
+False Positive.
+Kein Angriff, nur ich.
+False Positive.
+Der Alarm war richtig, der Verdacht war es nicht.
+Ich schliess den Fall, sauber notiert,
+und schreib das Skript so, dass es keiner falsch kapiert.
+
+[Bridge]
+Lieber zehn Fehlalarme
+als ein echter, den keiner sah.
+Doch jeder Fehlalarm kostet Zeit,
+also mach ihn selten. Klar.
+
+[Chorus]
+False Positive.
+Kein Angriff, nur ich.
+False Positive.
+Der Alarm war richtig, der Verdacht war es nicht.
+Ich schliess den Fall, sauber notiert,
+und schreib das Skript so, dass es keiner falsch kapiert.
+
+[Outro]
+Fall geschlossen.
+Grund: eigenes Skript.
+Gut gesehen, SOC.

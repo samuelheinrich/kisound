@@ -1,0 +1,1764 @@
+{
+ "schema": "kisound.icmp.cues.v1",
+ "duration_s": 216.7735,
+ "light_dim_s": 212.8,
+ "fade_start_s": 216.42350000000002,
+ "titles": {
+  "intro": [
+   1,
+   1.9,
+   5.6,
+   6.8
+  ],
+  "outro": [
+   206,
+   206.8,
+   210.2,
+   211
+  ]
+ },
+ "drops_s": [
+  19.95,
+  61.25,
+  106.25,
+  129.25,
+  138.05,
+  169.95,
+  199.95
+ ],
+ "gaps_s": [
+  [
+   16,
+   16.15
+  ],
+  [
+   74.6,
+   74.7
+  ],
+  [
+   89.4,
+   89.9
+  ],
+  [
+   126.3,
+   127
+  ],
+  [
+   151.5,
+   151.6
+  ],
+  [
+   164.6,
+   166.6
+  ],
+  [
+   183.2,
+   183.4
+  ]
+ ],
+ "milestones": {
+  "ping": 25.76,
+  "echoBack": 31.6,
+  "pm1Drop": 84.24,
+  "im1": 86.62,
+  "pmtu": 90.38,
+  "pm2Built": 92.06,
+  "trace": 112.66,
+  "line1": 121.9,
+  "line2": 127.3,
+  "t3AtD": 127.62,
+  "line3": 131.6,
+  "pm2Pass": 147.9,
+  "udpOk": 150.14,
+  "redirect": 156.36,
+  "validated": 161.62
+ },
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Mehr als ein Ping",
+   "start": 0,
+   "end": 25.76,
+   "action": "Ein Büro in Zürich, ein Laptop, ein Server in New York; dazwischen Frankfurt und der Atlantik."
+  },
+  {
+   "id": "C02",
+   "title": "Echo",
+   "start": 25.76,
+   "end": 43.88,
+   "action": "ping -c 1: E-01 Echo Request 8/0 nach New York, E-02 Echo Reply 0/0 zurück, 92,4 ms."
+  },
+  {
+   "id": "C03",
+   "title": "Der Host antwortet",
+   "start": 43.88,
+   "end": 60.6,
+   "action": "D antwortet auf Echo, ein UDP-Socket bleibt geschlossen – ein Ping ist kein Dienstnachweis."
+  },
+  {
+   "id": "C04",
+   "title": "Hör hin",
+   "start": 60.6,
+   "end": 70.56,
+   "action": "Fünf Vorgänge auf einer Strecke; Fehlerantworten tragen ein Zitat des Originals."
+  },
+  {
+   "id": "C05",
+   "title": "Don’t Fragment",
+   "start": 70.56,
+   "end": 86.62,
+   "action": "P-M1: 1500 Byte, DF=1. Der Tunnel in Frankfurt hat MTU 1400 – Drop."
+  },
+  {
+   "id": "C06",
+   "title": "Fragmentation Needed",
+   "start": 86.62,
+   "end": 98.08,
+   "action": "I-M1 ICMP 3/4, Next-Hop MTU 1400 → PMTU-Eintrag, P-M2 neu mit 1400 Byte. Gegenbeispiel: gefiltertes ICMP."
+  },
+  {
+   "id": "C07",
+   "title": "Hook",
+   "start": 98.08,
+   "end": 112.66,
+   "action": "Echo Reply, Time Exceeded, Redirect – Vorschau auf die nächsten Stationen."
+  },
+  {
+   "id": "C08",
+   "title": "Traceroute",
+   "start": 112.66,
+   "end": 127.62,
+   "action": "T-1 endet am Heimrouter, T-2 in Frankfurt, T-3 in New York; 11/0, 11/0, 3/3."
+  },
+  {
+   "id": "C09",
+   "title": "Port Unreachable",
+   "start": 127.62,
+   "end": 136.54,
+   "action": "D erreicht, UDP-Port 33436 nicht belegt: Type 3 Code 3."
+  },
+  {
+   "id": "C10",
+   "title": "Stimme aus der Leitung",
+   "start": 136.54,
+   "end": 152.2,
+   "action": "Die geöffneten Typ/Code-Karten; P-M2 passiert den Tunnel und kommt in New York an."
+  },
+  {
+   "id": "C11",
+   "title": "Redirect",
+   "start": 152.2,
+   "end": 169.62,
+   "action": "G1 leitet zu G2 weiter und meldet 5/1, Gateway 192.0.2.2. H prüft, dann direkt über G2."
+  },
+  {
+   "id": "C12",
+   "title": "Jetzt hörst du hin",
+   "start": 169.62,
+   "end": 216.7735,
+   "action": "Alle fünf Vorgänge auf der Kugel; Request und Reply; zurück ins Büro."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 7.58,
+   "zone": "room",
+   "camera": "room",
+   "mode": "push",
+   "event_ids": [
+    "E001",
+    "E002",
+    "E003"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S002",
+   "start_s": 7.58,
+   "end_s": 11.18,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [
+    "E004"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S003",
+   "start_s": 11.18,
+   "end_s": 15.24,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "rise",
+   "event_ids": [],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 15.24,
+   "end_s": 16.66,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [
+    "E005"
+   ],
+   "lyric_ids": [
+    "L003"
+   ]
+  },
+  {
+   "id": "S005",
+   "start_s": 16.66,
+   "end_s": 19.66,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [],
+   "lyric_ids": [
+    "L004"
+   ]
+  },
+  {
+   "id": "S006",
+   "start_s": 19.66,
+   "end_s": 25.76,
+   "zone": "room",
+   "camera": "room",
+   "mode": "shelf",
+   "event_ids": [
+    "E006"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S007",
+   "start_s": 25.76,
+   "end_s": 28.48,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [
+    "E007",
+    "E008"
+   ],
+   "lyric_ids": [
+    "L005"
+   ]
+  },
+  {
+   "id": "S008",
+   "start_s": 28.48,
+   "end_s": 33.34,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "follow",
+   "event_ids": [],
+   "lyric_ids": [
+    "L006"
+   ]
+  },
+  {
+   "id": "S009",
+   "start_s": 33.34,
+   "end_s": 36.9,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L007"
+   ]
+  },
+  {
+   "id": "S010",
+   "start_s": 36.9,
+   "end_s": 40.42,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L008"
+   ]
+  },
+  {
+   "id": "S011",
+   "start_s": 40.42,
+   "end_s": 43.88,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S012",
+   "start_s": 43.88,
+   "end_s": 49.36,
+   "zone": "dc",
+   "camera": "dc",
+   "mode": "server",
+   "event_ids": [],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S013",
+   "start_s": 49.36,
+   "end_s": 51.8,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S014",
+   "start_s": 51.8,
+   "end_s": 55.66,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "hops",
+   "event_ids": [],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S015",
+   "start_s": 55.66,
+   "end_s": 60.6,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [
+    "E009"
+   ],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S016",
+   "start_s": 60.6,
+   "end_s": 61.34,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "spin",
+   "event_ids": [
+    "E010"
+   ],
+   "lyric_ids": [
+    "L014"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 61.34,
+   "end_s": 63.06,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "hops",
+   "event_ids": [],
+   "lyric_ids": [
+    "L015"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 63.06,
+   "end_s": 65,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [],
+   "lyric_ids": [
+    "L016"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 65,
+   "end_s": 67.6,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L017"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 67.6,
+   "end_s": 68.68,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "return",
+   "event_ids": [],
+   "lyric_ids": [
+    "L018"
+   ]
+  },
+  {
+   "id": "S021",
+   "start_s": 68.68,
+   "end_s": 70.56,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L019"
+   ]
+  },
+  {
+   "id": "S022",
+   "start_s": 70.56,
+   "end_s": 73.24,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "fra",
+   "event_ids": [],
+   "lyric_ids": [
+    "L020"
+   ]
+  },
+  {
+   "id": "S023",
+   "start_s": 73.24,
+   "end_s": 75.62,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [
+    "E011",
+    "E012",
+    "E013"
+   ],
+   "lyric_ids": [
+    "L021"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 75.62,
+   "end_s": 79.36,
+   "zone": "room",
+   "camera": "room",
+   "mode": "desk",
+   "event_ids": [
+    "E014"
+   ],
+   "lyric_ids": [
+    "L022"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 79.36,
+   "end_s": 83.48,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "follow",
+   "event_ids": [],
+   "lyric_ids": [
+    "L023"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 83.48,
+   "end_s": 84.24,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L024"
+   ]
+  },
+  {
+   "id": "S027",
+   "start_s": 84.24,
+   "end_s": 86.62,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "fra",
+   "event_ids": [],
+   "lyric_ids": [
+    "L025"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 86.62,
+   "end_s": 88.6,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L026"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 88.6,
+   "end_s": 90.38,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "follow",
+   "event_ids": [
+    "E015"
+   ],
+   "lyric_ids": [
+    "L027"
+   ]
+  },
+  {
+   "id": "S030",
+   "start_s": 90.38,
+   "end_s": 92.06,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [
+    "E016",
+    "E017"
+   ],
+   "lyric_ids": [
+    "L028"
+   ]
+  },
+  {
+   "id": "S031",
+   "start_s": 92.06,
+   "end_s": 94.38,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [],
+   "lyric_ids": [
+    "L029"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 94.38,
+   "end_s": 96.42,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L030"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 96.42,
+   "end_s": 98.08,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [],
+   "lyric_ids": [
+    "L031"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 98.08,
+   "end_s": 99.94,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "echo",
+   "event_ids": [
+    "E018"
+   ],
+   "lyric_ids": [
+    "L032"
+   ]
+  },
+  {
+   "id": "S035",
+   "start_s": 99.94,
+   "end_s": 101.86,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "hops",
+   "event_ids": [
+    "E019"
+   ],
+   "lyric_ids": [
+    "L033"
+   ]
+  },
+  {
+   "id": "S036",
+   "start_s": 101.86,
+   "end_s": 103.1,
+   "zone": "room",
+   "camera": "room",
+   "mode": "shelf",
+   "event_ids": [],
+   "lyric_ids": [
+    "L034"
+   ]
+  },
+  {
+   "id": "S037",
+   "start_s": 103.1,
+   "end_s": 105.12,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [
+    "E020"
+   ],
+   "lyric_ids": [
+    "L035"
+   ]
+  },
+  {
+   "id": "S038",
+   "start_s": 105.12,
+   "end_s": 108.32,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "spin",
+   "event_ids": [
+    "E021"
+   ],
+   "lyric_ids": [
+    "L036"
+   ]
+  },
+  {
+   "id": "S039",
+   "start_s": 108.32,
+   "end_s": 112.66,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "descend",
+   "event_ids": [],
+   "lyric_ids": [
+    "L037"
+   ]
+  },
+  {
+   "id": "S040",
+   "start_s": 112.66,
+   "end_s": 116.96,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [
+    "E022"
+   ],
+   "lyric_ids": [
+    "L038"
+   ]
+  },
+  {
+   "id": "S041",
+   "start_s": 116.96,
+   "end_s": 120.02,
+   "zone": "room",
+   "camera": "room",
+   "mode": "shelf",
+   "event_ids": [],
+   "lyric_ids": [
+    "L039"
+   ]
+  },
+  {
+   "id": "S042",
+   "start_s": 120.02,
+   "end_s": 121.5,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S043",
+   "start_s": 121.5,
+   "end_s": 124.28,
+   "zone": "room",
+   "camera": "room",
+   "mode": "shelf",
+   "event_ids": [
+    "E023"
+   ],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S044",
+   "start_s": 124.28,
+   "end_s": 125.72,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [
+    "E024"
+   ],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 125.72,
+   "end_s": 127.62,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "follow",
+   "event_ids": [
+    "E025"
+   ],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S046",
+   "start_s": 127.62,
+   "end_s": 129.9,
+   "zone": "dc",
+   "camera": "dc",
+   "mode": "server",
+   "event_ids": [],
+   "lyric_ids": [
+    "L044"
+   ]
+  },
+  {
+   "id": "S047",
+   "start_s": 129.9,
+   "end_s": 131.78,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L045"
+   ]
+  },
+  {
+   "id": "S048",
+   "start_s": 131.78,
+   "end_s": 133.1,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L046"
+   ]
+  },
+  {
+   "id": "S049",
+   "start_s": 133.1,
+   "end_s": 136.54,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [
+    "E026"
+   ],
+   "lyric_ids": [
+    "L047"
+   ]
+  },
+  {
+   "id": "S050",
+   "start_s": 136.54,
+   "end_s": 137.98,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "hops",
+   "event_ids": [
+    "E027",
+    "E028"
+   ],
+   "lyric_ids": [
+    "L048"
+   ]
+  },
+  {
+   "id": "S051",
+   "start_s": 137.98,
+   "end_s": 139.74,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L049"
+   ]
+  },
+  {
+   "id": "S052",
+   "start_s": 139.74,
+   "end_s": 141.86,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [
+    "E029"
+   ],
+   "lyric_ids": [
+    "L050"
+   ]
+  },
+  {
+   "id": "S053",
+   "start_s": 141.86,
+   "end_s": 143.56,
+   "zone": "dc",
+   "camera": "dc",
+   "mode": "server",
+   "event_ids": [],
+   "lyric_ids": [
+    "L051"
+   ]
+  },
+  {
+   "id": "S054",
+   "start_s": 143.56,
+   "end_s": 145.5,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "return",
+   "event_ids": [],
+   "lyric_ids": [
+    "L052"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 145.5,
+   "end_s": 147.16,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L053"
+   ]
+  },
+  {
+   "id": "S056",
+   "start_s": 147.16,
+   "end_s": 150.14,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "follow",
+   "event_ids": [
+    "E030"
+   ],
+   "lyric_ids": [
+    "L054"
+   ]
+  },
+  {
+   "id": "S057",
+   "start_s": 150.14,
+   "end_s": 152.2,
+   "zone": "dc",
+   "camera": "dc",
+   "mode": "server",
+   "event_ids": [
+    "E031",
+    "E032"
+   ],
+   "lyric_ids": [
+    "L055"
+   ]
+  },
+  {
+   "id": "S058",
+   "start_s": 152.2,
+   "end_s": 154.4,
+   "zone": "room",
+   "camera": "room",
+   "mode": "shelf",
+   "event_ids": [
+    "E033"
+   ],
+   "lyric_ids": [
+    "L056"
+   ]
+  },
+  {
+   "id": "S059",
+   "start_s": 154.4,
+   "end_s": 156.36,
+   "zone": "room",
+   "camera": "room",
+   "mode": "wide",
+   "event_ids": [],
+   "lyric_ids": [
+    "L057"
+   ]
+  },
+  {
+   "id": "S060",
+   "start_s": 156.36,
+   "end_s": 157.94,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L058"
+   ]
+  },
+  {
+   "id": "S061",
+   "start_s": 157.94,
+   "end_s": 159.66,
+   "zone": "room",
+   "camera": "room",
+   "mode": "shelf",
+   "event_ids": [],
+   "lyric_ids": [
+    "L059"
+   ]
+  },
+  {
+   "id": "S062",
+   "start_s": 159.66,
+   "end_s": 161.62,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [],
+   "lyric_ids": [
+    "L060"
+   ]
+  },
+  {
+   "id": "S063",
+   "start_s": 161.62,
+   "end_s": 163.52,
+   "zone": "room",
+   "camera": "room",
+   "mode": "shelf",
+   "event_ids": [],
+   "lyric_ids": [
+    "L061"
+   ]
+  },
+  {
+   "id": "S064",
+   "start_s": 163.52,
+   "end_s": 165.82,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [
+    "E034"
+   ],
+   "lyric_ids": [
+    "L062"
+   ]
+  },
+  {
+   "id": "S065",
+   "start_s": 165.82,
+   "end_s": 169.62,
+   "zone": "room",
+   "camera": "room",
+   "mode": "wide",
+   "event_ids": [
+    "E035",
+    "E036"
+   ],
+   "lyric_ids": [
+    "L063"
+   ]
+  },
+  {
+   "id": "S066",
+   "start_s": 169.62,
+   "end_s": 170.22,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "spin",
+   "event_ids": [
+    "E037"
+   ],
+   "lyric_ids": [
+    "L064"
+   ]
+  },
+  {
+   "id": "S067",
+   "start_s": 170.22,
+   "end_s": 171.64,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "echo",
+   "event_ids": [],
+   "lyric_ids": [
+    "L065"
+   ]
+  },
+  {
+   "id": "S068",
+   "start_s": 171.64,
+   "end_s": 173.72,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [],
+   "lyric_ids": [
+    "L066"
+   ]
+  },
+  {
+   "id": "S069",
+   "start_s": 173.72,
+   "end_s": 176.5,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L067"
+   ]
+  },
+  {
+   "id": "S070",
+   "start_s": 176.5,
+   "end_s": 177.4,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "return",
+   "event_ids": [],
+   "lyric_ids": [
+    "L068"
+   ]
+  },
+  {
+   "id": "S071",
+   "start_s": 177.4,
+   "end_s": 179.06,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [
+    "E038"
+   ],
+   "lyric_ids": [
+    "L069"
+   ]
+  },
+  {
+   "id": "S072",
+   "start_s": 179.06,
+   "end_s": 181.36,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "fra",
+   "event_ids": [],
+   "lyric_ids": [
+    "L070"
+   ]
+  },
+  {
+   "id": "S073",
+   "start_s": 181.36,
+   "end_s": 184.78,
+   "zone": "room",
+   "camera": "room",
+   "mode": "shelf",
+   "event_ids": [
+    "E039",
+    "E040"
+   ],
+   "lyric_ids": [
+    "L071"
+   ]
+  },
+  {
+   "id": "S074",
+   "start_s": 184.78,
+   "end_s": 190.64,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [
+    "E041",
+    "E042"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S075",
+   "start_s": 190.64,
+   "end_s": 191.32,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [
+    "E043"
+   ],
+   "lyric_ids": [
+    "L072"
+   ]
+  },
+  {
+   "id": "S076",
+   "start_s": 191.32,
+   "end_s": 191.8,
+   "zone": "header",
+   "camera": "header",
+   "mode": "card",
+   "event_ids": [],
+   "lyric_ids": [
+    "L073"
+   ]
+  },
+  {
+   "id": "S077",
+   "start_s": 191.8,
+   "end_s": 198.22,
+   "zone": "desktop",
+   "camera": "desktop",
+   "mode": "term",
+   "event_ids": [
+    "E044"
+   ],
+   "lyric_ids": [
+    "L074"
+   ]
+  },
+  {
+   "id": "S078",
+   "start_s": 198.22,
+   "end_s": 199.62,
+   "zone": "globe",
+   "camera": "globe",
+   "mode": "hops",
+   "event_ids": [],
+   "lyric_ids": [
+    "L075"
+   ]
+  },
+  {
+   "id": "S079",
+   "start_s": 199.62,
+   "end_s": 205.3378,
+   "zone": "dc",
+   "camera": "dc",
+   "mode": "flyin",
+   "event_ids": [
+    "E045",
+    "E046"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S080",
+   "start_s": 205.3378,
+   "end_s": 211.0557,
+   "zone": "room",
+   "camera": "room",
+   "mode": "shelf",
+   "event_ids": [
+    "E047"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S081",
+   "start_s": 211.0557,
+   "end_s": 216.7735,
+   "zone": "room",
+   "camera": "room",
+   "mode": "pull",
+   "event_ids": [
+    "E048",
+    "E049"
+   ],
+   "lyric_ids": []
+  }
+ ],
+ "packets": [
+  {
+   "id": "E-01",
+   "kind": "data",
+   "header": "Echo Request 8/0 · ID 4242 Seq 1",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "type": 8,
+   "code": 0,
+   "quote": null,
+   "start_s": 26.2,
+   "end_s": 28.4,
+   "fate": "deliver",
+   "path": "H→G1→R2→GATE→D"
+  },
+  {
+   "id": "E-02",
+   "kind": "icmp",
+   "header": "Echo Reply 0/0 · ID 4242 Seq 1",
+   "src": "198.51.100.20",
+   "dst": "192.0.2.10",
+   "type": 0,
+   "code": 0,
+   "quote": null,
+   "start_s": 28.5,
+   "end_s": 31.6,
+   "fate": "deliver",
+   "path": "D→GATE→R2→G1→H"
+  },
+  {
+   "id": "P-M1",
+   "kind": "data",
+   "header": "UDP → 9000 · 1500 B · DF=1",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "type": null,
+   "code": null,
+   "quote": null,
+   "start_s": 77,
+   "end_s": 84.24,
+   "fate": "drop",
+   "path": "H→G1→R2→GATE→D"
+  },
+  {
+   "id": "I-M1",
+   "kind": "icmp",
+   "header": "ICMP 3/4 · Fragmentation Needed · MTU 1400",
+   "src": "10.0.12.2",
+   "dst": "192.0.2.10",
+   "type": 3,
+   "code": 4,
+   "quote": "P-M1",
+   "start_s": 86.62,
+   "end_s": 90.18,
+   "fate": "deliver",
+   "path": "R2→G1→H"
+  },
+  {
+   "id": "T-1",
+   "kind": "data",
+   "header": "UDP → 33434 · TTL 1",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "type": null,
+   "code": null,
+   "quote": null,
+   "start_s": 114,
+   "end_s": 117.6,
+   "fate": "expire",
+   "path": "H→G1"
+  },
+  {
+   "id": "TE-1",
+   "kind": "icmp",
+   "header": "ICMP 11/0 · TTL exceeded · von G1",
+   "src": "192.0.2.1",
+   "dst": "192.0.2.10",
+   "type": 11,
+   "code": 0,
+   "quote": "T-1",
+   "start_s": 120.1,
+   "end_s": 121.9,
+   "fate": "deliver",
+   "path": "G1→H"
+  },
+  {
+   "id": "T-2",
+   "kind": "data",
+   "header": "UDP → 33435 · TTL 2",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "type": null,
+   "code": null,
+   "quote": null,
+   "start_s": 124.3,
+   "end_s": 125.95,
+   "fate": "expire",
+   "path": "H→G1→R2"
+  },
+  {
+   "id": "T-3",
+   "kind": "data",
+   "header": "UDP → 33436 · TTL 3",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "type": null,
+   "code": null,
+   "quote": null,
+   "start_s": 124.6,
+   "end_s": 127.62,
+   "fate": "deliver",
+   "path": "H→G1→R2→GATE→D"
+  },
+  {
+   "id": "TE-2",
+   "kind": "icmp",
+   "header": "ICMP 11/0 · TTL exceeded · von R2",
+   "src": "10.0.12.2",
+   "dst": "192.0.2.10",
+   "type": 11,
+   "code": 0,
+   "quote": "T-2",
+   "start_s": 126.05,
+   "end_s": 127.3,
+   "fate": "deliver",
+   "path": "R2→G1→H"
+  },
+  {
+   "id": "PU-3",
+   "kind": "icmp",
+   "header": "ICMP 3/3 · Port Unreachable · von D",
+   "src": "198.51.100.20",
+   "dst": "192.0.2.10",
+   "type": 3,
+   "code": 3,
+   "quote": "T-3",
+   "start_s": 129.95,
+   "end_s": 131.6,
+   "fate": "deliver",
+   "path": "D→GATE→R2→G1→H"
+  },
+  {
+   "id": "P-M2",
+   "kind": "data",
+   "header": "UDP → 9000 · 1400 B · neu",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "type": null,
+   "code": null,
+   "quote": null,
+   "start_s": 145,
+   "end_s": 149.6,
+   "fate": "deliver",
+   "path": "H→G1→R2→GATE→D"
+  },
+  {
+   "id": "R-1",
+   "kind": "data",
+   "header": "TCP → 203.0.113.20:443",
+   "src": "192.0.2.10",
+   "dst": "203.0.113.20",
+   "type": null,
+   "code": null,
+   "quote": null,
+   "start_s": 152.6,
+   "end_s": 159.9,
+   "fate": "deliver",
+   "path": "H→G1→G2→X"
+  },
+  {
+   "id": "RD-1",
+   "kind": "icmp",
+   "header": "ICMP 5/1 · Redirect Host · Gateway 192.0.2.2",
+   "src": "192.0.2.1",
+   "dst": "192.0.2.10",
+   "type": 5,
+   "code": 1,
+   "quote": "R-1",
+   "start_s": 156.36,
+   "end_s": 157.6,
+   "fate": "deliver",
+   "path": "G1→H"
+  },
+  {
+   "id": "R-2",
+   "kind": "data",
+   "header": "TCP → 203.0.113.20:443 · via G2",
+   "src": "192.0.2.10",
+   "dst": "203.0.113.20",
+   "type": null,
+   "code": null,
+   "quote": null,
+   "start_s": 161.62,
+   "end_s": 165.6,
+   "fate": "deliver",
+   "path": "H→G2→X"
+  },
+  {
+   "id": "P-M3",
+   "kind": "data",
+   "header": "UDP → 9000 · 1400 B",
+   "src": "192.0.2.10",
+   "dst": "198.51.100.20",
+   "type": null,
+   "code": null,
+   "quote": null,
+   "start_s": 199.8,
+   "end_s": 204.6,
+   "fate": "deliver",
+   "path": "H→G1→R2→GATE→D"
+  },
+  {
+   "id": "R-3",
+   "kind": "data",
+   "header": "TCP → 203.0.113.20:443 · via G2",
+   "src": "192.0.2.10",
+   "dst": "203.0.113.20",
+   "type": null,
+   "code": null,
+   "quote": null,
+   "start_s": 205.6,
+   "end_s": 209.4,
+   "fate": "deliver",
+   "path": "H→G2→X"
+  }
+ ],
+ "blocks": [
+  {
+   "id": "B01",
+   "title": "ping",
+   "window_s": [
+    25.76,
+    43.88
+   ],
+   "lines": [
+    {
+     "reveal_s": 25.9,
+     "text": "h$ ping -c 1 198.51.100.20",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 26.2,
+     "text": "PING 198.51.100.20 (198.51.100.20) 56(84) bytes of data.",
+     "kind": null
+    },
+    {
+     "reveal_s": 31.6,
+     "text": "64 bytes from 198.51.100.20: icmp_seq=1 ttl=62 time=92.4 ms",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 31.6,
+     "text": "1 packets transmitted, 1 received, 0% packet loss",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 31.900000000000002,
+     "text": "Headerkarte: E-01 8/0 -> E-02 0/0 | Echo ID 4242 Seq 1",
+     "kind": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B02",
+   "title": "PMTUD",
+   "window_s": [
+    83.48,
+    98.08
+   ],
+   "lines": [
+    {
+     "reveal_s": 83.6,
+     "text": "P-M1 | IPv4 len 1500 | DF 1 | UDP dst 9000 | IP ID 0x1201",
+     "kind": null
+    },
+    {
+     "reveal_s": 84.24,
+     "text": "R2: MTU 1400 -> DROP",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 86.62,
+     "text": "I-M1 | src 10.0.12.2 -> dst 192.0.2.10",
+     "kind": null
+    },
+    {
+     "reveal_s": 86.62,
+     "text": "ICMP Type 3 Code 4 | Next-Hop MTU 1400",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 87.02000000000001,
+     "text": "Quoted: P-M1 IP header + UDP header",
+     "kind": null
+    },
+    {
+     "reveal_s": 92.06,
+     "text": "P-M2 | NEU | IPv4 len 1400 | DF 1 | IP ID 0x1202",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 92.06,
+     "text": "20 IP + 8 UDP + 1372 Daten = 1400 Byte",
+     "kind": null
+    },
+    {
+     "reveal_s": 94.4,
+     "text": "Gegenbeispiel gefiltertes ICMP: separat gekennzeichnet",
+     "kind": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B03",
+   "title": "traceroute",
+   "window_s": [
+    112.66,
+    136.54
+   ],
+   "lines": [
+    {
+     "reveal_s": 112.8,
+     "text": "h$ traceroute -n -q 1 -m 3 198.51.100.20",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 113.6,
+     "text": "traceroute to 198.51.100.20, 3 hops max, 60 byte packets",
+     "kind": null
+    },
+    {
+     "reveal_s": 121.9,
+     "text": " 1  192.0.2.1      1.2 ms",
+     "kind": null
+    },
+    {
+     "reveal_s": 127.3,
+     "text": " 2  10.0.12.2     9.6 ms",
+     "kind": null
+    },
+    {
+     "reveal_s": 131.6,
+     "text": " 3  198.51.100.20 92.1 ms",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 131.6,
+     "text": "Overlay: UDP-Probes TTL 1/2/3 = drei neue Datagramme",
+     "kind": "ov"
+    },
+    {
+     "reveal_s": 131.9,
+     "text": "Antworten: G1 11/0 | R2 11/0 | D 3/3",
+     "kind": "amber"
+    }
+   ]
+  },
+  {
+   "id": "B04",
+   "title": "Port Unreachable",
+   "window_s": [
+    127.62,
+    136.54
+   ],
+   "lines": [
+    {
+     "reveal_s": 127.62,
+     "text": "T-3: UDP-Traceroute-Zielport | TTL bei Sender 3",
+     "kind": null
+    },
+    {
+     "reveal_s": 127.62,
+     "text": "D erreicht, UDP-Socket nicht belegt",
+     "kind": null
+    },
+    {
+     "reveal_s": 129.95,
+     "text": "ICMP src 198.51.100.20 -> dst 192.0.2.10",
+     "kind": null
+    },
+    {
+     "reveal_s": 129.95,
+     "text": "Type 3 Code 3: Destination Unreachable / Port Unreachable",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 130.3,
+     "text": "Zitat: IP-Header T-3 + erste 8 Byte UDP",
+     "kind": null
+    }
+   ]
+  },
+  {
+   "id": "B05",
+   "title": "Redirect (Labor)",
+   "window_s": [
+    152.2,
+    169.62
+   ],
+   "lines": [
+    {
+     "reveal_s": 152.3,
+     "text": "Isoliertes Laborszenario, Redirect-Annahme explizit freigeschaltet",
+     "kind": "ov"
+    },
+    {
+     "reveal_s": 152.3,
+     "text": "Auslöser: H -> 203.0.113.20 zunächst via G1",
+     "kind": null
+    },
+    {
+     "reveal_s": 156.36,
+     "text": "ICMP src 192.0.2.1 -> dst 192.0.2.10",
+     "kind": null
+    },
+    {
+     "reveal_s": 156.36,
+     "text": "Type 5 Code 1: Redirect for Host",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 156.36,
+     "text": "Gateway: 192.0.2.2",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 156.66000000000003,
+     "text": "Zitat: ursprünglicher IP-Header + Transportbeginn",
+     "kind": null
+    },
+    {
+     "reveal_s": 159.7,
+     "text": "Prüfung: aktueller Gateway / passendes Zitat / Next Hop im LAN",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 161.62,
+     "text": "Erst danach: neues Paket direkt H -> G2",
+     "kind": "ok"
+    }
+   ]
+  },
+  {
+   "id": "B06",
+   "title": "Zusammenfassung",
+   "window_s": [
+    169.62,
+    199.62
+   ],
+   "lines": [
+    {
+     "reveal_s": 169.7,
+     "text": "IPv4 ICMP — geprüfte Vorgänge",
+     "kind": "head"
+    },
+    {
+     "reveal_s": 169.7,
+     "text": "8/0  Echo Request      0/0  Echo Reply",
+     "kind": null
+    },
+    {
+     "reveal_s": 169.7,
+     "text": "3/4  Fragmentation Needed (DF, MTU 1400)",
+     "kind": null
+    },
+    {
+     "reveal_s": 169.7,
+     "text": "11/0 TTL Exceeded in Transit",
+     "kind": null
+    },
+    {
+     "reveal_s": 184.8,
+     "text": "3/3  Destination Unreachable: UDP Port",
+     "kind": null
+    },
+    {
+     "reveal_s": 184.8,
+     "text": "5/1  Redirect: Host, Gateway 192.0.2.2",
+     "kind": null
+    },
+    {
+     "reveal_s": 184.8,
+     "text": "Jede Fehlerantwort referenziert ihr eigenes Original",
+     "kind": "ov"
+    }
+   ]
+  }
+ ],
+ "logs": [
+  {
+   "time_s": 26.2,
+   "tag": "tx",
+   "message": "H: Echo Request 8/0 → 198.51.100.20 (E-01)"
+  },
+  {
+   "time_s": 31.6,
+   "tag": "rx",
+   "message": "H: Echo Reply 0/0 von 198.51.100.20 · ID 4242 Seq 1"
+  },
+  {
+   "time_s": 77,
+   "tag": "tx",
+   "message": "H: UDP 1500 B DF=1 → 198.51.100.20:9000 (P-M1)"
+  },
+  {
+   "time_s": 84.24,
+   "tag": "drop",
+   "message": "R2: 1500 > MTU 1400, DF=1 → verworfen"
+  },
+  {
+   "time_s": 90.17999999999999,
+   "tag": "rx",
+   "message": "H: ICMP 3/4 von 10.0.12.2 · MTU 1400 → PMTU-Cache"
+  },
+  {
+   "time_s": 114,
+   "tag": "tx",
+   "message": "traceroute: T-1 TTL 1"
+  },
+  {
+   "time_s": 121.9,
+   "tag": "rx",
+   "message": "H: ICMP 11/0 von 192.0.2.1"
+  },
+  {
+   "time_s": 127.3,
+   "tag": "rx",
+   "message": "H: ICMP 11/0 von 10.0.12.2"
+  },
+  {
+   "time_s": 131.6,
+   "tag": "rx",
+   "message": "H: ICMP 3/3 von 198.51.100.20 · Port 33436"
+  },
+  {
+   "time_s": 145,
+   "tag": "tx",
+   "message": "H: UDP 1400 B → 198.51.100.20:9000 (P-M2)"
+  },
+  {
+   "time_s": 150.14,
+   "tag": "ok",
+   "message": "UDP-Testempfänger 9000: P-M2 erhalten"
+  },
+  {
+   "time_s": 156.36,
+   "tag": "rx",
+   "message": "H: ICMP 5/1 von 192.0.2.1 · Gateway 192.0.2.2"
+  },
+  {
+   "time_s": 161.62,
+   "tag": "ok",
+   "message": "H: Redirect geprüft · 203.0.113.20 via 192.0.2.2"
+  }
+ ]
+}

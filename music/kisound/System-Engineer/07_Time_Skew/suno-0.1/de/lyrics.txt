@@ -1,0 +1,56 @@
+[Intro]
+Fünf Minuten.
+Mehr nicht.
+
+[Verse 1]
+Montagmorgen, zweiter Stock, keiner meldet sich an,
+das Passwort stimmt, das Konto ist frei, und keiner weiss, woran.
+Im Eventlog steht ein Fehler: Clock Skew, zu gross,
+die Uhr am Fileserver geht sieben Minuten vor. Das ist los.
+Kerberos verzeiht fünf Minuten, keine Sekunde mehr,
+die Tickets sind zu alt, zu jung, und der Zugriff bleibt leer.
+
+[Chorus]
+Time Skew.
+Fünf Minuten, mehr nicht.
+Time Skew.
+Eine Uhr geht falsch, und die Domäne bricht.
+Der PDC gibt den Takt, und alle schlagen mit,
+w32tm /resync, Sekunde für Sekunde, Schritt für Schritt.
+
+[Verse 2]
+w32tm /query /status: die Quelle ist die lokale Uhr,
+„Local CMOS Clock“, der Server zählt für sich, ganz stur.
+Die VM holt die Zeit vom Host, der Host hat keinen NTP,
+so driftet sie seit Wochen, jeden Tag ein Stück, ich seh's erst jetzt, oje.
+Host-Sync aus, Domänenhierarchie an,
+der PDC fragt draussen beim Zeitserver an.
+Sieben Minuten schrumpfen auf null, ganz sacht,
+und um neun meldet sich der zweite Stock wieder an. Gemacht.
+
+[Chorus]
+Time Skew.
+Fünf Minuten, mehr nicht.
+Time Skew.
+Eine Uhr geht falsch, und die Domäne bricht.
+Der PDC gibt den Takt, und alle schlagen mit,
+w32tm /resync, Sekunde für Sekunde, Schritt für Schritt.
+
+[Bridge]
+Ein Ticket ist ein Zeitstempel,
+ein Log ist eine Reihe von Zeit.
+Wenn die Uhren nicht stimmen,
+stimmt gar nichts mehr, weit und breit.
+
+[Chorus]
+Time Skew.
+Fünf Minuten, mehr nicht.
+Time Skew.
+Eine Uhr geht falsch, und die Domäne bricht.
+Der PDC gibt den Takt, und alle schlagen mit,
+w32tm /resync, Sekunde für Sekunde, Schritt für Schritt.
+
+[Outro]
+Abweichung: null Komma zwei Sekunden.
+Fünf Minuten.
+Mehr nicht.

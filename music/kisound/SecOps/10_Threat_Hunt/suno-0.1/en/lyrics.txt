@@ -1,0 +1,52 @@
+[Intro]
+No alert.
+And still we hunt.
+
+[Verse 1]
+The hypothesis: someone settles in with a scheduled task, unseen,
+runs every night, disguised as an update, quiet and clean.
+Event ID four-six-nine-eight: a task was created,
+three hundred servers, ninety days, I pull them all, collated.
+Most of them I know: backup, antivirus, inventory,
+and then one named "Updater" starting from AppData, that's a different story.
+
+[Chorus]
+Threat hunt.
+Hypothesis. Query. Trace.
+Threat hunt.
+No alert, and still we search the place.
+If we find something, it's a rule.
+If we find nothing, we see clearer, that's the tool.
+
+[Verse 2]
+The hash is unknown, the file two days old,
+a developer's test tool? I ask. The answer's no, and I go cold.
+I hand it to incident response, with path and hash and time,
+the hunt was faster than any rule, and the new rule's on the line.
+
+[Chorus]
+Threat hunt.
+Hypothesis. Query. Trace.
+Threat hunt.
+No alert, and still we search the place.
+If we find something, it's a rule.
+If we find nothing, we see clearer, that's the tool.
+
+[Bridge]
+No alert doesn't mean no attacker.
+Quiet doesn't mean clear.
+If you only wait for the beep,
+you'll see them leaving, not when they're here.
+
+[Chorus]
+Threat hunt.
+Hypothesis. Query. Trace.
+Threat hunt.
+No alert, and still we search the place.
+If we find something, it's a rule.
+If we find nothing, we see clearer, that's the tool.
+
+[Outro]
+New rule active.
+Event ID four-six-nine-eight.
+We keep hunting.

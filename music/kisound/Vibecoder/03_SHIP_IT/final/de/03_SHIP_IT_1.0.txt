@@ -1,0 +1,81 @@
+VERSION: 1.0
+ALBUM: Vibecoder
+TRACK: 03 - SHIP IT
+SPRACHE: DE
+STATUS: Final
+RELEASE AUDIO: ../03_SHIP_IT_suno-v3_50_50_exakt_off_DE.wav
+
+SUNO OPTIONS (PLATZHALTER):
+Weirdness: 50%
+Style Influence: 50%
+variety: exakt
+max mode: off
+
+LYRIC PROMPT:
+[Intro]
+COMMIT IT. SHIP IT.
+Album drei geht raus.
+
+[Verse 1]
+Neue Tracks im Ordner, jedes Cover liegt bereit,
+npm run build, die Seiten stehen nach kurzer Zeit.
+npm run check: ein Fehler, rot und klar,
+ein Cover fehlt, der Dateiname nicht so, wie er war.
+Ein Unterstrich zu viel, ich benenn die Datei zurück,
+Check nochmal: null Fehler. Jetzt kommt das letzte Stück.
+
+[Chorus]
+COMMIT IT. SHIP IT.
+Build. Check. Live.
+COMMIT IT. SHIP IT.
+Album drei.
+Der Link geht raus, die Seite lädt,
+Play gedrückt, und der Bass steht.
+
+[Verse 2]
+Deploy auf live, der Upload zählt die Dateien,
+Cover, Audio, Texte, alles muss dabei sein.
+Ich lad die Seite neu, der Browser zeigt noch alt,
+harter Reload, und Album drei steht da. Der Bass knallt.
+Erst Deutsch, dann Englisch, jede Sprache prüf ich nach,
+die Lyrics bleiben im Original, so wie ich sie gemacht.
+
+[Chorus]
+COMMIT IT. SHIP IT.
+Build. Check. Live.
+COMMIT IT. SHIP IT.
+Album drei.
+Der Link geht raus, die Seite lädt,
+Play gedrückt, und der Bass steht.
+
+[Bridge]
+Tracks.
+Covers.
+Build.
+Check.
+Deploy.
+Reload.
+Play.
+Album drei.
+
+[Chorus]
+COMMIT IT. SHIP IT.
+Build. Check. Live.
+COMMIT IT. SHIP IT.
+Album drei.
+Der Link geht raus, die Seite lädt,
+Play gedrückt, und der Bass steht.
+
+[Outro]
+COMMIT IT. SHIP IT.
+Nächstes Album. Nächster Commit.
+
+STYLE PROMPT:
+Genre: Hard Phonk / Industrial Bass, elektronisch, kein Techno-Standardgroove.
+Tempo: 140 BPM
+Sound: Übersteuerte 808-Bässe mit Glides, gestottertes Kuhglocken-Motiv in dunkler eigener Tonfolge, harte Trap-Snare, schnelle Hi-Hat-Rolls, metallische Industrial-Hits, verzerrter Sub, kurze Tape-Stopps vor den Drops, gefilterte Upload-Blips.
+Vocals: Eine einzige sehr tiefe raue Männerstimme; rhythmischer Sprechgesang, leicht verzerrt, gut verständlich; Hook gebellt und abgehackt, Doppelungen derselben Stimme.
+Vibe: Nachtfahrt, Launch-Countdown, maximaler Druck.
+Mood: Dunkel, triumphal, Release-Euphorie.
+Ablauf: Kuhglocke und Stimme im Intro, dann voller Drop; nach jedem Refrain acht Takte 808-Drop; Bridge mit Tape-Stopps zwischen den Wörtern; Schlussrefrain maximal. Ziel 3:15.
+Hinweise: Gesang auf Deutsch; Hook, Befehle und Fachbegriffe englisch, npm als N-P-M, Git mit hartem G. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

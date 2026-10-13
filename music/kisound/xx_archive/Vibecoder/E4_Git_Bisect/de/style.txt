@@ -1,0 +1,8 @@
+Genre: Detroit Electro / Electro-Breaks, maschinell und funky, kein Techno.
+Tempo: 128 BPM
+Sound: Klassischer 808-Electro-Beat mit synkopierter Kick und Handclaps, knurrender Analogbass im Funk-Muster, tiefer Sub, kalte Arpeggios, die sich mit jedem Refrain im Abstand halbieren, Vocoder-Flächen ohne Text, Laser-Zaps, metallische Cowbell.
+Vocals: Männliche Stimme, trocken, ruhig, methodisch, halb gesprochen; Refrain als maschineller Chant mit leichtem Vocoder auf derselben Stimme.
+Vibe: Labor in der Nacht, Methode statt Panik.
+Mood: Konzentriert, cool, erleichtert.
+Ablauf: Intro mit Arpeggio und Stimme; nach jedem Refrain acht Takte Electro-Break; Bridge nur Bass und Clap; Schlussrefrain voll; Outro mit einzelnem Ton. Ziel 3:25.
+Hinweise: Gesang auf Deutsch; Bisect, good, bad, Befehle und Commit-Texte englisch aussprechen. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

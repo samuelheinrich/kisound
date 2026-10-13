@@ -1,0 +1,8 @@
+Genre: Deep Dubstep / Halftime Bass, dunkel und reduziert, kein Brostep, kein Techno.
+Tempo: 140 BPM, Halftime-Gefühl
+Sound: Tiefe rollende Sub-Wobbles, die den Raum füllen, trockene Snare auf drei, sparsame Shaker, dunkle Pads, metallischer Hall, Glitch-Aussetzer wie verlorene Pakete, ein kurzes Warn-Blip bei jedem Not Found, Stille vor den Drops.
+Vocals: Naher männlicher Bariton, ruhig und misstrauisch; Strophen fast geflüstert gesprochen, Refrain tief und knapp melodisch.
+Vibe: Kaltes Terminal-Licht, unsichtbare Gefahr.
+Mood: Wachsam, angespannt, kontrolliert.
+Ablauf: Acht Takte Intro mit Sub und Stimme; schwere reduzierte Drops nach den Refrains; Bridge über Sub und Shaker; Schlussrefrain mit letztem tiefen Drop und abruptem Ende. Ziel 3:40.
+Hinweise: Gesang auf Englisch; npm als N-P-M, E404 als E-four-oh-four. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

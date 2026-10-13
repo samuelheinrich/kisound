@@ -1,0 +1,116 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 0,
+  "next_frame": 3000,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.6,
+      "text": "Nur diese eine Änderung",
+      "words": [
+        {
+          "word": "Nur",
+          "start": 9.36,
+          "end": 9.62
+        },
+        {
+          "word": "diese",
+          "start": 9.62,
+          "end": 9.92
+        },
+        {
+          "word": "eine",
+          "start": 9.92,
+          "end": 10.08
+        },
+        {
+          "word": "Änderung",
+          "start": 10.08,
+          "end": 10.94
+        }
+      ],
+      "tokens": [
+        50365,
+        17612,
+        6705,
+        3018,
+        13700,
+        20535,
+        1063,
+        50895
+      ]
+    },
+    {
+      "start": 10.6,
+      "end": 14.1,
+      "text": "Dann mach ich Schluss",
+      "words": [
+        {
+          "word": "Dann",
+          "start": 13.3,
+          "end": 13.54
+        },
+        {
+          "word": "mach",
+          "start": 13.54,
+          "end": 13.7
+        },
+        {
+          "word": "ich",
+          "start": 13.7,
+          "end": 14.02
+        },
+        {
+          "word": "Schluss",
+          "start": 14.02,
+          "end": 15.08
+        }
+      ],
+      "tokens": [
+        50895,
+        7455,
+        2246,
+        1893,
+        36573,
+        51070,
+        51772
+      ]
+    },
+    {
+      "start": 14.1,
+      "end": 29.96,
+      "text": "Die Uhr zeigt einst",
+      "words": [
+        {
+          "word": "Die",
+          "start": 28.8,
+          "end": 29.0
+        },
+        {
+          "word": "Uhr",
+          "start": 29.0,
+          "end": 29.26
+        },
+        {
+          "word": "zeigt",
+          "start": 29.26,
+          "end": 29.66
+        },
+        {
+          "word": "einst",
+          "start": 29.66,
+          "end": 29.98
+        }
+      ],
+      "tokens": [
+        50365,
+        3229,
+        30084,
+        29250,
+        1343,
+        372,
+        51158
+      ]
+    }
+  ]
+}

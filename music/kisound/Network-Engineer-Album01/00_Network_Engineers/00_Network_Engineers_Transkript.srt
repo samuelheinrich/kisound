@@ -1,0 +1,183 @@
+1
+00:00:08,720 --> 00:00:10,920
+Before the first login,
+
+2
+00:00:12,360 --> 00:00:14,540
+before the screens glow,
+
+3
+00:00:14,540 --> 00:00:18,400
+someone keeps the signal moving.
+
+4
+00:00:18,400 --> 00:00:22,820
+through the systems down below.
+
+5
+00:00:44,280 --> 00:00:46,080
+Under every cloud,
+
+6
+00:00:46,280 --> 00:00:47,980
+behind every stream,
+
+7
+00:00:47,980 --> 00:00:50,200
+there is a night shift.
+
+8
+00:00:50,200 --> 00:00:51,580
+inside the machine.
+
+9
+00:00:51,580 --> 00:00:53,860
+WiFi in the hallway,
+
+10
+00:00:54,040 --> 00:00:55,520
+uplinks in the rack,
+
+11
+00:00:55,520 --> 00:00:57,520
+failover waiting.
+
+12
+00:00:57,520 --> 00:00:59,360
+when the main path cracks.
+
+13
+00:00:59,360 --> 00:01:02,320
+When the lights turn red,
+
+14
+00:01:02,320 --> 00:01:05,940
+when the alarms begin,
+
+15
+00:01:07,180 --> 00:01:09,240
+they read the storm,
+
+16
+00:01:10,980 --> 00:01:12,860
+then bring the green back in.
+
+17
+00:01:15,520 --> 00:01:17,140
+Network engineers,
+
+18
+00:01:17,140 --> 00:01:19,340
+hold the line.
+
+19
+00:01:19,340 --> 00:01:21,000
+Network engineers,
+
+20
+00:01:21,000 --> 00:01:22,900
+keep the world online.
+
+21
+00:01:23,280 --> 00:01:24,880
+From edge to core,
+
+22
+00:01:24,880 --> 00:01:26,400
+from port to route,
+
+23
+00:01:26,760 --> 00:01:28,600
+they keep the packets moving.
+
+24
+00:01:28,600 --> 00:01:30,860
+when the noise breaks out.
+
+25
+00:01:35,000 --> 00:01:36,600
+Link up.
+
+26
+00:01:36,620 --> 00:01:38,440
+Route clean.
+
+27
+00:01:39,660 --> 00:01:40,160
+Ports live.
+
+28
+00:01:43,020 --> 00:01:44,060
+Packets move.
+
+29
+00:01:44,340 --> 00:01:46,000
+No one sees.
+
+30
+00:01:47,100 --> 00:01:48,160
+Still they move.
+
+31
+00:02:12,160 --> 00:02:13,700
+You touch the app,
+
+32
+00:02:13,940 --> 00:02:15,580
+they guard the path.
+
+33
+00:02:15,580 --> 00:02:17,580
+You call it simple,
+
+34
+00:02:17,760 --> 00:02:19,420
+they know the math.
+
+35
+00:02:19,420 --> 00:02:21,540
+Between the outage.
+
+36
+00:02:21,540 --> 00:02:22,920
+and the final screen,
+
+37
+00:02:22,920 --> 00:02:25,120
+they find the fault.
+
+38
+00:02:25,120 --> 00:02:26,800
+inside the unseen.
+
+39
+00:02:27,940 --> 00:02:29,500
+Network engineers,
+
+40
+00:02:29,500 --> 00:02:31,700
+hold the line.
+
+41
+00:02:31,700 --> 00:02:33,420
+Network engineers,
+
+42
+00:02:33,420 --> 00:02:35,420
+keep the world online.
+
+43
+00:02:35,420 --> 00:02:37,340
+Layer by layer,
+
+44
+00:02:37,540 --> 00:02:39,300
+night after night,
+
+45
+00:02:39,300 --> 00:02:41,100
+they keep the service breathing.
+
+46
+00:02:41,100 --> 00:02:43,180
+until the graphs turn bright.

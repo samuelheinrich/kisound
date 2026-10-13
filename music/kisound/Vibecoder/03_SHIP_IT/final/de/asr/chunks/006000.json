@@ -1,0 +1,611 @@
+{
+  "source_audio_sha256": "689d662c3d10ba9bd08c787315635ff4bba6d97f8a5db54343486dd4c7958259",
+  "frame": 6000,
+  "next_frame": 9000,
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "Seite lehr",
+      "words": [
+        {
+          "word": "Seite",
+          "start": 60.68,
+          "end": 61.26
+        },
+        {
+          "word": "lehr",
+          "start": 61.26,
+          "end": 61.76
+        }
+      ],
+      "tokens": [
+        50365,
+        19748,
+        476,
+        1703,
+        50465
+      ]
+    },
+    {
+      "start": 62.0,
+      "end": 64.0,
+      "text": "Play gedrückt",
+      "words": [
+        {
+          "word": "Play",
+          "start": 62.18,
+          "end": 62.56
+        },
+        {
+          "word": "gedrückt",
+          "start": 62.56,
+          "end": 63.36
+        }
+      ],
+      "tokens": [
+        50465,
+        5506,
+        19238,
+        81,
+        37532,
+        50565
+      ]
+    },
+    {
+      "start": 64.0,
+      "end": 66.0,
+      "text": "Und der Bass stillt",
+      "words": [
+        {
+          "word": "Und",
+          "start": 64.2,
+          "end": 64.4
+        },
+        {
+          "word": "der",
+          "start": 64.4,
+          "end": 64.74
+        },
+        {
+          "word": "Bass",
+          "start": 64.74,
+          "end": 65.08
+        },
+        {
+          "word": "stillt",
+          "start": 65.08,
+          "end": 65.48
+        }
+      ],
+      "tokens": [
+        50565,
+        2719,
+        1163,
+        29626,
+        920,
+        83,
+        50665
+      ]
+    },
+    {
+      "start": 66.0,
+      "end": 72.0,
+      "text": "Komm her, der Schiff, der Schiff, der Schiff, der Schiff, der Album, bach",
+      "words": [
+        {
+          "word": "Komm",
+          "start": 65.64,
+          "end": 65.96
+        },
+        {
+          "word": "her",
+          "start": 65.96,
+          "end": 66.08
+        },
+        {
+          "word": ",",
+          "start": 66.08,
+          "end": 66.08
+        },
+        {
+          "word": "der",
+          "start": 66.08,
+          "end": 66.32
+        },
+        {
+          "word": "Schiff",
+          "start": 66.32,
+          "end": 66.56
+        },
+        {
+          "word": ",",
+          "start": 66.56,
+          "end": 66.56
+        },
+        {
+          "word": "der",
+          "start": 66.56,
+          "end": 66.86
+        },
+        {
+          "word": "Schiff",
+          "start": 66.86,
+          "end": 66.86
+        },
+        {
+          "word": ",",
+          "start": 66.86,
+          "end": 67.56
+        },
+        {
+          "word": "der",
+          "start": 67.56,
+          "end": 67.56
+        },
+        {
+          "word": "Schiff",
+          "start": 67.56,
+          "end": 68.12
+        },
+        {
+          "word": ",",
+          "start": 68.12,
+          "end": 68.26
+        },
+        {
+          "word": "der",
+          "start": 68.26,
+          "end": 68.26
+        },
+        {
+          "word": "Schiff",
+          "start": 68.26,
+          "end": 68.26
+        },
+        {
+          "word": ",",
+          "start": 68.26,
+          "end": 70.0
+        },
+        {
+          "word": "der",
+          "start": 70.0,
+          "end": 70.78
+        },
+        {
+          "word": "Album",
+          "start": 70.78,
+          "end": 71.44
+        },
+        {
+          "word": ",",
+          "start": 71.44,
+          "end": 71.58
+        },
+        {
+          "word": "bach",
+          "start": 71.58,
+          "end": 72.22
+        }
+      ],
+      "tokens": [
+        50665,
+        18400,
+        720,
+        11,
+        1163,
+        2065,
+        3661,
+        11,
+        1163,
+        2065,
+        3661,
+        11,
+        1163,
+        2065,
+        3661,
+        11,
+        1163,
+        2065,
+        3661,
+        11,
+        1163,
+        967,
+        5559,
+        11,
+        272,
+        608,
+        50965
+      ]
+    },
+    {
+      "start": 72.0,
+      "end": 75.0,
+      "text": "Der Link geht raus, die Seite lehr",
+      "words": [
+        {
+          "word": "Der",
+          "start": 72.6,
+          "end": 72.82
+        },
+        {
+          "word": "Link",
+          "start": 72.82,
+          "end": 73.0
+        },
+        {
+          "word": "geht",
+          "start": 73.0,
+          "end": 73.4
+        },
+        {
+          "word": "raus",
+          "start": 73.4,
+          "end": 73.52
+        },
+        {
+          "word": ",",
+          "start": 73.52,
+          "end": 73.7
+        },
+        {
+          "word": "die",
+          "start": 73.7,
+          "end": 74.34
+        },
+        {
+          "word": "Seite",
+          "start": 74.34,
+          "end": 75.0
+        },
+        {
+          "word": "lehr",
+          "start": 75.0,
+          "end": 75.48
+        }
+      ],
+      "tokens": [
+        50965,
+        5618,
+        8466,
+        7095,
+        17202,
+        11,
+        978,
+        19748,
+        476,
+        1703,
+        51115
+      ]
+    },
+    {
+      "start": 75.0,
+      "end": 77.0,
+      "text": "Play gedrückt",
+      "words": [
+        {
+          "word": "Play",
+          "start": 75.88,
+          "end": 76.28
+        },
+        {
+          "word": "gedrückt",
+          "start": 76.28,
+          "end": 76.76
+        }
+      ],
+      "tokens": [
+        51115,
+        5506,
+        19238,
+        81,
+        37532,
+        51215
+      ]
+    },
+    {
+      "start": 77.0,
+      "end": 79.0,
+      "text": "Und der Bass stillt",
+      "words": [
+        {
+          "word": "Und",
+          "start": 77.12,
+          "end": 78.1
+        },
+        {
+          "word": "der",
+          "start": 78.1,
+          "end": 78.44
+        },
+        {
+          "word": "Bass",
+          "start": 78.44,
+          "end": 78.8
+        },
+        {
+          "word": "stillt",
+          "start": 78.8,
+          "end": 79.18
+        }
+      ],
+      "tokens": [
+        51215,
+        2719,
+        1163,
+        29626,
+        920,
+        83,
+        51315
+      ]
+    },
+    {
+      "start": 79.0,
+      "end": 82.0,
+      "text": "Deploy auf live, der Upload zählt die Dateien",
+      "words": [
+        {
+          "word": "Deploy",
+          "start": 79.38,
+          "end": 79.86
+        },
+        {
+          "word": "auf",
+          "start": 79.86,
+          "end": 80.2
+        },
+        {
+          "word": "live",
+          "start": 80.2,
+          "end": 80.34
+        },
+        {
+          "word": ",",
+          "start": 80.34,
+          "end": 80.48
+        },
+        {
+          "word": "der",
+          "start": 80.48,
+          "end": 80.7
+        },
+        {
+          "word": "Upload",
+          "start": 80.7,
+          "end": 81.04
+        },
+        {
+          "word": "zählt",
+          "start": 81.04,
+          "end": 81.4
+        },
+        {
+          "word": "die",
+          "start": 81.4,
+          "end": 81.72
+        },
+        {
+          "word": "Dateien",
+          "start": 81.72,
+          "end": 82.4
+        }
+      ],
+      "tokens": [
+        51315,
+        1346,
+        2384,
+        2501,
+        1621,
+        11,
+        1163,
+        624,
+        21132,
+        345,
+        710,
+        43376,
+        978,
+        31805,
+        1053,
+        51465
+      ]
+    },
+    {
+      "start": 82.0,
+      "end": 85.0,
+      "text": "Cover, Audio, Texte, alles muss dabei sein",
+      "words": [
+        {
+          "word": "Cover",
+          "start": 82.76,
+          "end": 82.9
+        },
+        {
+          "word": ",",
+          "start": 82.9,
+          "end": 83.22
+        },
+        {
+          "word": "Audio",
+          "start": 83.22,
+          "end": 83.54
+        },
+        {
+          "word": ",",
+          "start": 83.54,
+          "end": 83.72
+        },
+        {
+          "word": "Texte",
+          "start": 83.72,
+          "end": 83.98
+        },
+        {
+          "word": ",",
+          "start": 83.98,
+          "end": 84.32
+        },
+        {
+          "word": "alles",
+          "start": 84.32,
+          "end": 84.54
+        },
+        {
+          "word": "muss",
+          "start": 84.54,
+          "end": 84.9
+        },
+        {
+          "word": "dabei",
+          "start": 84.9,
+          "end": 85.24
+        },
+        {
+          "word": "sein",
+          "start": 85.24,
+          "end": 85.5
+        }
+      ],
+      "tokens": [
+        51465,
+        19106,
+        11,
+        25706,
+        11,
+        18643,
+        68,
+        11,
+        7874,
+        6425,
+        14967,
+        6195,
+        51615
+      ]
+    },
+    {
+      "start": 85.0,
+      "end": 89.0,
+      "text": "Ich lad die Seite neu, der Browser zeigt noch halt",
+      "words": [
+        {
+          "word": "Ich",
+          "start": 85.82,
+          "end": 86.02
+        },
+        {
+          "word": "lad",
+          "start": 86.02,
+          "end": 86.24
+        },
+        {
+          "word": "die",
+          "start": 86.24,
+          "end": 86.56
+        },
+        {
+          "word": "Seite",
+          "start": 86.56,
+          "end": 87.02
+        },
+        {
+          "word": "neu",
+          "start": 87.02,
+          "end": 87.18
+        },
+        {
+          "word": ",",
+          "start": 87.18,
+          "end": 87.52
+        },
+        {
+          "word": "der",
+          "start": 87.52,
+          "end": 87.7
+        },
+        {
+          "word": "Browser",
+          "start": 87.7,
+          "end": 88.22
+        },
+        {
+          "word": "zeigt",
+          "start": 88.22,
+          "end": 88.46
+        },
+        {
+          "word": "noch",
+          "start": 88.46,
+          "end": 88.8
+        },
+        {
+          "word": "halt",
+          "start": 88.8,
+          "end": 89.22
+        }
+      ],
+      "tokens": [
+        51615,
+        3141,
+        6632,
+        978,
+        19748,
+        22510,
+        11,
+        1163,
+        1603,
+        30947,
+        29250,
+        3514,
+        12479,
+        51815,
+        51815
+      ]
+    },
+    {
+      "start": 89.0,
+      "end": 118.98,
+      "text": "Untertitelung des ZDF, 2020",
+      "words": [
+        {
+          "word": "Untertitelung",
+          "start": 89.98,
+          "end": 89.98
+        },
+        {
+          "word": "des",
+          "start": 89.98,
+          "end": 89.98
+        },
+        {
+          "word": "ZDF",
+          "start": 89.98,
+          "end": 89.98
+        },
+        {
+          "word": ",",
+          "start": 89.98,
+          "end": 89.98
+        },
+        {
+          "word": "2020",
+          "start": 89.98,
+          "end": 89.98
+        }
+      ],
+      "tokens": [
+        50365,
+        12065,
+        27689,
+        338,
+        1063,
+        730,
+        1176,
+        35,
+        37,
+        11,
+        4808,
+        51864
+      ]
+    }
+  ]
+}

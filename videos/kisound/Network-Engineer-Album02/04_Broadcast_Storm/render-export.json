@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "04_Broadcast_Storm",
+  "title": "Broadcast Storm",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/broadcast-storm.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

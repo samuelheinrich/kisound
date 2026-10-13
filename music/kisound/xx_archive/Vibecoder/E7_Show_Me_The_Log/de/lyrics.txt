@@ -1,0 +1,55 @@
+[Intro]
+„Sollte jetzt funktionieren.“
+Sollte?
+Zeig mir das Log.
+
+[Verse 1]
+Tagsüber ruft ein Kunde an: „Das WLAN geht nicht mehr.“
+Ich frag nach Zeit und MAC-Adresse, nicht, wie's sich anfühlt, sondern: wer?
+ISE Live Logs: Access-Reject, falsches Zertifikat am Gerät,
+FortiGate debug flow: Policy null, die Regel, die nicht steht.
+show logging auf dem Switch, ein Port im err-disabled-Zustand,
+BPDU Guard hat ihn abgeschaltet. Jetzt hab ich's in der Hand.
+
+[Chorus]
+Zeig mir das Log.
+Nicht „sollte“, nicht „vielleicht“.
+Zeig mir das Log.
+Die Zeile, die es zeigt.
+Zeitstempel. Fehler. Code.
+Zeig mir das Log.
+
+[Verse 2]
+Nachts der Agent: „Ich hab's gefixt, sollte jetzt gehen.“
+Ich öffne die Konsole, will den Stacktrace sehen.
+TypeError, Zeile zweiundvierzig, undefined beim Laden,
+der Fix war in der falschen Datei. Kein Wunder, kein Schaden.
+Ich kopier die Zeile rein: Zeitstempel, Datei, Code,
+jetzt weiss er, wo er suchen muss, und der Fehler ist tot.
+
+[Chorus]
+Zeig mir das Log.
+Nicht „sollte“, nicht „vielleicht“.
+Zeig mir das Log.
+Die Zeile, die es zeigt.
+Zeitstempel. Fehler. Code.
+Zeig mir das Log.
+
+[Bridge]
+Zwanzig Jahre lehren eins:
+Wer rät, sucht lange.
+Wer liest, findet.
+Zeig mir das Log.
+
+[Chorus]
+Zeig mir das Log.
+Nicht „sollte“, nicht „vielleicht“.
+Zeig mir das Log.
+Die Zeile, die es zeigt.
+Zeitstempel. Fehler. Code.
+Zeig mir das Log.
+
+[Outro]
+Sollte?
+Tut.
+Das Log ist sauber.

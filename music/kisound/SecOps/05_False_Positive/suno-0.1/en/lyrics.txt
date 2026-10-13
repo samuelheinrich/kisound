@@ -1,0 +1,55 @@
+[Intro]
+Alert: High.
+Suspicious PowerShell.
+On my machine.
+
+[Verse 1]
+Three a.m., the EDR fires: an encoded command, hidden away,
+a scheduled task each night, a pattern that gives itself away.
+The SOC calls: "Your laptop, Sam, what runs at three?"
+I open the process tree, and my own script stares back at me.
+My backup script, built with the agent a week ago,
+it wrapped the command in Base64, and the EDR said no.
+
+[Chorus]
+False positive.
+No attack, just me.
+False positive.
+The alert was right, the threat was never meant to be.
+I close the case with a note in line,
+and rewrite the script so it's clearly mine.
+
+[Verse 2]
+The temptation: exclude the whole folder, then it's quiet for good,
+but that's exactly where the next one hides, like I knew they would.
+So: no Base64, plain text, signed with our certificate,
+one exclusion for this hash and this signer, nothing wider than that.
+Next morning the backup runs, and the SOC stays still,
+and if it ever fires again, I want to know, and I will.
+
+[Chorus]
+False positive.
+No attack, just me.
+False positive.
+The alert was right, the threat was never meant to be.
+I close the case with a note in line,
+and rewrite the script so it's clearly mine.
+
+[Bridge]
+Better ten false alarms
+than one real one no one saw.
+But every false alarm costs time,
+so keep them rare, that's the law.
+
+[Chorus]
+False positive.
+No attack, just me.
+False positive.
+The alert was right, the threat was never meant to be.
+I close the case with a note in line,
+and rewrite the script so it's clearly mine.
+
+[Outro]
+Case closed.
+Reason: my own script.
+Good catch, SOC.

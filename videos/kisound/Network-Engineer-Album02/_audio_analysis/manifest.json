@@ -1,0 +1,250 @@
+{
+  "schema": "astra.album.manifest.v1",
+  "source_root": "music/kisound/Network-Engineer-Album02",
+  "target_root": "videos/kisound/Network-Engineer-Album02",
+  "analysis_scope": "transcript-linked audio sources; final_release status where verified; no videos or screenplays",
+  "validated_at_utc": "2026-10-13T14:15:56.947242+00:00",
+  "source_snapshot_verified_files": 70,
+  "pipeline_sha256": {
+    "analyse.py": "4791b8953954d026ea1e420cdfddf41af3d0dd98971152d2d1a3042d73fdf8a3",
+    "validate.py": "7d6bbf44ef6c5ccded47ab64ee3f30a401a60dcb2dc203d6f4bf356940d2c856",
+    "requirements.txt": "2a6d666d3fa4d3c9bd8c2545a76e83b1fb46f1ff6395b4d7df66eb8faef15997"
+  },
+  "environment": {
+    "python": "3.14.8 (main, Sep 30 2026, 17:55:09) [Clang 21.0.0 (clang-2100.3.34.2)]",
+    "packages": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "soundfile": "0.14.0",
+      "matplotlib": "3.11.2",
+      "pillow": "12.3.0"
+    },
+    "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "tracks": [
+    {
+      "track": "01_On_Call",
+      "status": "complete",
+      "source_audio": "music/kisound/Network-Engineer-Album02/01_On_Call/01_On_Call_1.0.wav",
+      "source_sha256": "6d10bbfdf8af4a390e4e12e9775a93b1bea7f2838d68f7bd75046ca0a290bcd1",
+      "transcript": "music/kisound/Network-Engineer-Album02/01_On_Call/01_On_Call_Transkript.json",
+      "transcript_sha256": "72957da7db3e4b2f723ca723e740254ab849618b97b4352e6d2e2746a381187c",
+      "selection_reason": "Aktueller Kandidat laut source_audio im Transkript; SHA-256 und decodierte Dauer geprüft. Analyse auf Nutzerauftrag vor finaler Release-Auswahl.",
+      "selection_status": "current_audio_candidate",
+      "outputs": {
+        "ASTRA-AUDIO-ANALYSE.md": "videos/kisound/Network-Engineer-Album02/01_On_Call/ASTRA-AUDIO-ANALYSE.md",
+        "ASTRA-AUDIO-ANALYSE.json": "videos/kisound/Network-Engineer-Album02/01_On_Call/ASTRA-AUDIO-ANALYSE.json",
+        "ASTRA-AUDIO-ANALYSE.png": "videos/kisound/Network-Engineer-Album02/01_On_Call/ASTRA-AUDIO-ANALYSE.png"
+      },
+      "output_sha256": {
+        "ASTRA-AUDIO-ANALYSE.md": "872ad2fce4f587e96f223cc79ae25ec5a8dce8d1969f692e37c97fe58a032d32",
+        "ASTRA-AUDIO-ANALYSE.json": "a90fc5180135540d7f3dee273184015fcc430b82b614d4f738050f7c30a32412",
+        "ASTRA-AUDIO-ANALYSE.png": "fbdf623225d713a460892795b4f038c5f3a685cd792cefb44b83ce58c4620b07"
+      },
+      "duration_s": 216.7735,
+      "lyrics": 52,
+      "review_required_lyrics": 8,
+      "excluded_transcript_segments": 0,
+      "png_dimensions": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "track": "02_Active_Standby",
+      "status": "complete",
+      "source_audio": "music/kisound/Network-Engineer-Album02/02_Active_Standby/02_Active_Standby_1.0.wav",
+      "source_sha256": "42750eb28bf676ef697bc26cddb9c28ec62390336e462783111b69db2446c86c",
+      "transcript": "music/kisound/Network-Engineer-Album02/02_Active_Standby/02_Active_Standby_Transkript.json",
+      "transcript_sha256": "a3a1ccaba0e3d7604a47d5f666becbde8d2052ddc68a89b1cb2b0526e7ca71dc",
+      "selection_reason": "Aktueller Kandidat laut source_audio im Transkript; SHA-256 und decodierte Dauer geprüft. Analyse auf Nutzerauftrag vor finaler Release-Auswahl.",
+      "selection_status": "current_audio_candidate",
+      "outputs": {
+        "ASTRA-AUDIO-ANALYSE.md": "videos/kisound/Network-Engineer-Album02/02_Active_Standby/ASTRA-AUDIO-ANALYSE.md",
+        "ASTRA-AUDIO-ANALYSE.json": "videos/kisound/Network-Engineer-Album02/02_Active_Standby/ASTRA-AUDIO-ANALYSE.json",
+        "ASTRA-AUDIO-ANALYSE.png": "videos/kisound/Network-Engineer-Album02/02_Active_Standby/ASTRA-AUDIO-ANALYSE.png"
+      },
+      "output_sha256": {
+        "ASTRA-AUDIO-ANALYSE.md": "76eda878d3906c0a43ccf563406a683ca4e7155062be445e4a0b75ecd13981ae",
+        "ASTRA-AUDIO-ANALYSE.json": "b47c954f891d5e886b024d5b8cc26b06ec6236fa01e5cf3ca5352e75fa9c6d2c",
+        "ASTRA-AUDIO-ANALYSE.png": "96e566ccbca8fe440e6f95f4a9ff58d9d018106c8fe201e7764bc0fb81029021"
+      },
+      "duration_s": 203.1735,
+      "lyrics": 44,
+      "review_required_lyrics": 11,
+      "excluded_transcript_segments": 0,
+      "png_dimensions": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "track": "03_TrustSec",
+      "status": "complete",
+      "source_audio": "music/kisound/Network-Engineer-Album02/03_TrustSec/03_TrustSec_1.0.wav",
+      "source_sha256": "602a77e3cfbd16ef0097dbe8619c9af74d20fb86c0523749f301c4e89383661d",
+      "transcript": "music/kisound/Network-Engineer-Album02/03_TrustSec/03_TrustSec_Transkript.json",
+      "transcript_sha256": "dd5000eb8a442e98e6319e5ba02dc3e12a23b31add1224914c422cc21aca1895",
+      "selection_reason": "Finale Release-Datei laut STATUS: Final und RELEASE AUDIO im 1.0-Prompt; Transkript-SHA und decodierte Dauer geprüft.",
+      "selection_status": "final_release",
+      "outputs": {
+        "ASTRA-AUDIO-ANALYSE.md": "videos/kisound/Network-Engineer-Album02/03_TrustSec/ASTRA-AUDIO-ANALYSE.md",
+        "ASTRA-AUDIO-ANALYSE.json": "videos/kisound/Network-Engineer-Album02/03_TrustSec/ASTRA-AUDIO-ANALYSE.json",
+        "ASTRA-AUDIO-ANALYSE.png": "videos/kisound/Network-Engineer-Album02/03_TrustSec/ASTRA-AUDIO-ANALYSE.png"
+      },
+      "output_sha256": {
+        "ASTRA-AUDIO-ANALYSE.md": "3512269d630ea7735e862f5e71fe17bee4413d637c1ddca7d3155d7549ea1e30",
+        "ASTRA-AUDIO-ANALYSE.json": "5370c78bc7c42a81e30f48facf9958fca5b0b9762541553940102da87ccc760f",
+        "ASTRA-AUDIO-ANALYSE.png": "c8a59e05e45f9186f063e026d9da2787ca62365506f91d35643a7179eb2d20ed"
+      },
+      "duration_s": 288.0,
+      "lyrics": 89,
+      "review_required_lyrics": 0,
+      "excluded_transcript_segments": 0,
+      "png_dimensions": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "track": "04_Broadcast_Storm",
+      "status": "complete",
+      "source_audio": "music/kisound/Network-Engineer-Album02/04_Broadcast_Storm/04_Broadcast_Storm_1.0.wav",
+      "source_sha256": "00a640de0f76551e27719ad0c4c0f106133fd26c4d33f4f7e3d5b71cbadec352",
+      "transcript": "music/kisound/Network-Engineer-Album02/04_Broadcast_Storm/04_Broadcast_Storm_Transkript.json",
+      "transcript_sha256": "22c0798101f354447cd67b1858d417fdf0c4e98018d92e879034fdbc499225d2",
+      "selection_reason": "Aktueller Kandidat laut source_audio im Transkript; SHA-256 und decodierte Dauer geprüft. Analyse auf Nutzerauftrag vor finaler Release-Auswahl.",
+      "selection_status": "current_audio_candidate",
+      "outputs": {
+        "ASTRA-AUDIO-ANALYSE.md": "videos/kisound/Network-Engineer-Album02/04_Broadcast_Storm/ASTRA-AUDIO-ANALYSE.md",
+        "ASTRA-AUDIO-ANALYSE.json": "videos/kisound/Network-Engineer-Album02/04_Broadcast_Storm/ASTRA-AUDIO-ANALYSE.json",
+        "ASTRA-AUDIO-ANALYSE.png": "videos/kisound/Network-Engineer-Album02/04_Broadcast_Storm/ASTRA-AUDIO-ANALYSE.png"
+      },
+      "output_sha256": {
+        "ASTRA-AUDIO-ANALYSE.md": "bb492b371925ba7b1fbfc8b3e143488e73ffcb8fa7727bec9d40c22896c5c569",
+        "ASTRA-AUDIO-ANALYSE.json": "9d758e527c77740919e542f7c6262f3aec484bfb14125053f52e2b959c2bc9d4",
+        "ASTRA-AUDIO-ANALYSE.png": "6e133feee5ae09475417151a7f80b1040c532abbd0e6ed80836770b870c3857f"
+      },
+      "duration_s": 208.8135,
+      "lyrics": 45,
+      "review_required_lyrics": 11,
+      "excluded_transcript_segments": 0,
+      "png_dimensions": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "track": "05_Wireshark",
+      "status": "complete",
+      "source_audio": "music/kisound/Network-Engineer-Album02/05_Wireshark/05_Wireshark_1.0.wav",
+      "source_sha256": "243d6ab2160abfa883bfb86a53a73019e406f6f63986de0ebb3659570e83128c",
+      "transcript": "music/kisound/Network-Engineer-Album02/05_Wireshark/05_Wireshark_Transkript.json",
+      "transcript_sha256": "88d442750d556a6aa98d11264ca41502f3c514b62d699e8fc477e01d636470c0",
+      "selection_reason": "Aktueller Kandidat laut source_audio im Transkript; SHA-256 und decodierte Dauer geprüft. Analyse auf Nutzerauftrag vor finaler Release-Auswahl.",
+      "selection_status": "current_audio_candidate",
+      "outputs": {
+        "ASTRA-AUDIO-ANALYSE.md": "videos/kisound/Network-Engineer-Album02/05_Wireshark/ASTRA-AUDIO-ANALYSE.md",
+        "ASTRA-AUDIO-ANALYSE.json": "videos/kisound/Network-Engineer-Album02/05_Wireshark/ASTRA-AUDIO-ANALYSE.json",
+        "ASTRA-AUDIO-ANALYSE.png": "videos/kisound/Network-Engineer-Album02/05_Wireshark/ASTRA-AUDIO-ANALYSE.png"
+      },
+      "output_sha256": {
+        "ASTRA-AUDIO-ANALYSE.md": "108994582458eb6e84bd2c627fa73388155ac583f9a1fd85dbfb9b1c09052589",
+        "ASTRA-AUDIO-ANALYSE.json": "bfc570eb0849bc31c995da9f3de350c0450a427b6ebdf963ae428505e37dfe53",
+        "ASTRA-AUDIO-ANALYSE.png": "dae6ed128c2458841a22bc37c2997baa1109afe66ddb12399c0263fb154e3433"
+      },
+      "duration_s": 195.7335,
+      "lyrics": 52,
+      "review_required_lyrics": 15,
+      "excluded_transcript_segments": 0,
+      "png_dimensions": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "track": "06_ICMP",
+      "status": "complete",
+      "source_audio": "music/kisound/Network-Engineer-Album02/06_ICMP/06_ICMP_1.0.wav",
+      "source_sha256": "1acad3bf8ff6addcf656e2b92cb0273c123230c70dfb2ce3b36f1a5b780ac823",
+      "transcript": "music/kisound/Network-Engineer-Album02/06_ICMP/06_ICMP_Transkript.json",
+      "transcript_sha256": "307f7d74211d6f678b22e307048704a6d42ffd8b2801b95ddee0cb0e248a007f",
+      "selection_reason": "Aktueller Kandidat laut source_audio im Transkript; SHA-256 und decodierte Dauer geprüft. Analyse auf Nutzerauftrag vor finaler Release-Auswahl.",
+      "selection_status": "current_audio_candidate",
+      "outputs": {
+        "ASTRA-AUDIO-ANALYSE.md": "videos/kisound/Network-Engineer-Album02/06_ICMP/ASTRA-AUDIO-ANALYSE.md",
+        "ASTRA-AUDIO-ANALYSE.json": "videos/kisound/Network-Engineer-Album02/06_ICMP/ASTRA-AUDIO-ANALYSE.json",
+        "ASTRA-AUDIO-ANALYSE.png": "videos/kisound/Network-Engineer-Album02/06_ICMP/ASTRA-AUDIO-ANALYSE.png"
+      },
+      "output_sha256": {
+        "ASTRA-AUDIO-ANALYSE.md": "2cbed247d1eba5d4e08b9c2dbde4a7cf23f0ac399abb2a866b82d3ef4e8e1962",
+        "ASTRA-AUDIO-ANALYSE.json": "5b00999006338747fbaa64fa7096a0b1b185f6d28ad7b83bad2ab8cd113b4c15",
+        "ASTRA-AUDIO-ANALYSE.png": "e78b79197ac592457d0cf5b3656d4ff347b233821ef7a333e62c059d7a220c20"
+      },
+      "duration_s": 216.7735,
+      "lyrics": 75,
+      "review_required_lyrics": 7,
+      "excluded_transcript_segments": 0,
+      "png_dimensions": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "track": "07_QoS",
+      "status": "complete",
+      "source_audio": "music/kisound/Network-Engineer-Album02/07_QoS/07_QoS_1.0.wav",
+      "source_sha256": "2eb5c953db38d50aaeba2bb4d1c6fd761c8764dc961b52581308b7684e30c73f",
+      "transcript": "music/kisound/Network-Engineer-Album02/07_QoS/07_QoS_Transkript.json",
+      "transcript_sha256": "ec3d44d4d358ee75abe64e2c712dc00e4507fb719f5d841e11ed93065239b9a9",
+      "selection_reason": "Aktueller Kandidat laut source_audio im Transkript; SHA-256 und decodierte Dauer geprüft. Analyse auf Nutzerauftrag vor finaler Release-Auswahl.",
+      "selection_status": "current_audio_candidate",
+      "outputs": {
+        "ASTRA-AUDIO-ANALYSE.md": "videos/kisound/Network-Engineer-Album02/07_QoS/ASTRA-AUDIO-ANALYSE.md",
+        "ASTRA-AUDIO-ANALYSE.json": "videos/kisound/Network-Engineer-Album02/07_QoS/ASTRA-AUDIO-ANALYSE.json",
+        "ASTRA-AUDIO-ANALYSE.png": "videos/kisound/Network-Engineer-Album02/07_QoS/ASTRA-AUDIO-ANALYSE.png"
+      },
+      "output_sha256": {
+        "ASTRA-AUDIO-ANALYSE.md": "52c8a52d8ec09e41fe6c9af9beecb5f8b92c0e577445953545150a7b1e38496a",
+        "ASTRA-AUDIO-ANALYSE.json": "fc9fbd863f219d5bd27436e4ed7d53ccf5ce8fef8cfbe6f9e21cad892cbc273b",
+        "ASTRA-AUDIO-ANALYSE.png": "ea659a1bb515813ecbfebc3a4e8a54fcbdf7450ffd8cef991830e7aa288fd396"
+      },
+      "duration_s": 239.0535,
+      "lyrics": 44,
+      "review_required_lyrics": 5,
+      "excluded_transcript_segments": 0,
+      "png_dimensions": [
+        2400,
+        1800
+      ]
+    },
+    {
+      "track": "08_Out_of_Band",
+      "status": "complete",
+      "source_audio": "music/kisound/Network-Engineer-Album02/08_Out_of_Band/08_Out_of_Band_1.0.wav",
+      "source_sha256": "9139796abf25839d0b7a85ee57042ebe0e1f524d5f8c0f61073e9b2b42a2427c",
+      "transcript": "music/kisound/Network-Engineer-Album02/08_Out_of_Band/08_Out_of_Band_Transkript.json",
+      "transcript_sha256": "31d96fedd52205614f68229e8c240f75923552c7686090b5169584051ff00497",
+      "selection_reason": "Aktueller Kandidat laut source_audio im Transkript; SHA-256 und decodierte Dauer geprüft. Analyse auf Nutzerauftrag vor finaler Release-Auswahl.",
+      "selection_status": "current_audio_candidate",
+      "outputs": {
+        "ASTRA-AUDIO-ANALYSE.md": "videos/kisound/Network-Engineer-Album02/08_Out_of_Band/ASTRA-AUDIO-ANALYSE.md",
+        "ASTRA-AUDIO-ANALYSE.json": "videos/kisound/Network-Engineer-Album02/08_Out_of_Band/ASTRA-AUDIO-ANALYSE.json",
+        "ASTRA-AUDIO-ANALYSE.png": "videos/kisound/Network-Engineer-Album02/08_Out_of_Band/ASTRA-AUDIO-ANALYSE.png"
+      },
+      "output_sha256": {
+        "ASTRA-AUDIO-ANALYSE.md": "762f5f61ce658e11193fe191994e9b175bde18a437baa2de3f64576357154308",
+        "ASTRA-AUDIO-ANALYSE.json": "510eb9822f2fe6a0cb2b6ab17c22432d8d711b5ac29751a018136f62943e2125",
+        "ASTRA-AUDIO-ANALYSE.png": "0f434d0481a58db65a3088cb0faf287ff2e0a88d4ff8b1fdcc3be896852a62a8"
+      },
+      "duration_s": 264.4135,
+      "lyrics": 52,
+      "review_required_lyrics": 9,
+      "excluded_transcript_segments": 0,
+      "png_dimensions": [
+        2400,
+        1800
+      ]
+    }
+  ]
+}

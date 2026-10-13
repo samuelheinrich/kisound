@@ -1,0 +1,180 @@
+1
+00:00:09,660 --> 00:00:10,440
+Ein Kabel.
+
+2
+00:00:15,580 --> 00:00:16,740
+Falscher Port.
+
+3
+00:00:20,800 --> 00:00:22,300
+Mehr braucht es nicht.
+
+4
+00:00:43,960 --> 00:00:46,340
+Frame geht raus und kommt zurück,
+
+5
+00:00:46,340 --> 00:00:49,320
+derselbe Frame, wo ist das Ende.
+
+6
+00:00:49,880 --> 00:00:51,880
+Kein Time to Live hier unten drin,
+
+7
+00:00:51,880 --> 00:00:54,560
+nichts sagt ihm, wohin er soll.
+
+8
+00:00:54,560 --> 00:00:56,760
+Flooding raus auf jeden Port,
+
+9
+00:00:56,760 --> 00:00:59,640
+Kopien wachsen, keiner stoppt.
+
+10
+00:01:00,140 --> 00:01:02,300
+Der Switch schreit, C-P-U rot,
+
+11
+00:01:02,300 --> 00:01:05,440
+die Control Plane ist längst tot.
+
+12
+00:01:06,520 --> 00:01:09,120
+Alle Lampen leuchten grün.
+
+13
+00:01:09,660 --> 00:01:12,260
+Das ist kein gutes Zeichen.
+
+14
+00:01:16,020 --> 00:01:20,020
+Hier kommt gar nichts mehr durch.
+
+15
+00:01:20,020 --> 00:01:23,100
+Hier steht alles auf dem Spiel.
+
+16
+00:01:26,520 --> 00:01:28,080
+Broadcast Storm.
+
+17
+00:01:28,080 --> 00:01:30,940
+Kein Root, kein Pfad.
+
+18
+00:01:32,000 --> 00:01:33,640
+Broadcast Storm.
+
+19
+00:01:33,640 --> 00:01:36,140
+Spür den Schaden.
+
+20
+00:01:38,280 --> 00:01:39,560
+Es flutet,
+
+21
+00:01:39,560 --> 00:01:40,840
+verdoppelt,
+
+22
+00:01:40,840 --> 00:01:42,160
+ertränkt den Draht,
+
+23
+00:01:42,920 --> 00:01:46,500
+ein Loop, der sich
+
+24
+00:01:46,500 --> 00:01:47,620
+selber frisst.
+
+25
+00:01:50,540 --> 00:01:51,820
+Loop.
+
+26
+00:01:59,400 --> 00:02:00,100
+Flood.
+
+27
+00:02:00,840 --> 00:02:01,560
+Flood.
+
+28
+00:02:10,060 --> 00:02:11,740
+Zieh das Kabel.
+
+29
+00:02:15,980 --> 00:02:17,380
+Yes.
+
+30
+00:02:22,480 --> 00:02:24,980
+Management weg, kein Login mehr,
+
+31
+00:02:24,980 --> 00:02:27,740
+der Console Port ist unser Weg.
+
+32
+00:02:27,920 --> 00:02:30,660
+Blocking State, der niemals kam,
+
+33
+00:02:30,680 --> 00:02:32,840
+eine Bridge ohne Root, ohne Namen.
+
+34
+00:02:33,840 --> 00:02:35,120
+Konsolenkabel, Taschenlampe,
+
+35
+00:02:35,120 --> 00:02:37,880
+durch die Reihen im Serverraum.
+
+36
+00:02:38,920 --> 00:02:41,280
+Finde den Link, der den Ring schliesst,
+
+37
+00:02:41,380 --> 00:02:44,180
+ein Port down und Stille kommt.
+
+38
+00:02:46,560 --> 00:02:47,600
+Broadcast Storm.
+
+39
+00:02:48,960 --> 00:02:50,780
+Kein Root, kein Pfad.
+
+40
+00:02:51,960 --> 00:02:53,120
+Broadcast Storm.
+
+41
+00:02:54,340 --> 00:02:55,620
+Spür den Schaden.
+
+42
+00:02:57,160 --> 00:02:58,500
+Ein Port down,
+
+43
+00:02:59,760 --> 00:03:01,520
+die Flut zieht ab,
+
+44
+00:03:01,700 --> 00:03:04,480
+das Netz lernt,
+
+45
+00:03:04,500 --> 00:03:06,720
+was Stille heisst.
+

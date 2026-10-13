@@ -1,0 +1,1067 @@
+{
+ "schema": "kisound.mtu.cues.v1",
+ "duration_s": 139.00016666666667,
+ "fade_start_s": 137.8,
+ "titles": {
+  "intro": [
+   13,
+   14.2,
+   20.8,
+   22
+  ],
+  "outro": [
+   133.24,
+   134.4,
+   137.4,
+   137.8
+  ]
+ },
+ "drops_s": [
+  16.01,
+  48,
+  104.88,
+  122.64
+ ],
+ "gap_s": [
+  5.15,
+  5.25
+ ],
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Die Grenze",
+   "start": 0,
+   "end": 12.8,
+   "action": "Ein grosses Paket fährt an eine kaum sichtbare Grenze und verschwindet in der Pegellücke. Die Rückmeldung stirbt leise an der Firewall."
+  },
+  {
+   "id": "C02",
+   "title": "Alles erreichbar",
+   "start": 12.8,
+   "end": 23.28,
+   "action": "Übersicht: Ping geht hin und zurück, kleine Pakete passieren den Tunnel. Der Retransmit wartet und scheitert wieder."
+  },
+  {
+   "id": "C03",
+   "title": "Ein Byte zu viel",
+   "start": 23.28,
+   "end": 37.02,
+   "action": "Messhalle: 1401 gegen 1400 Bytes, Header und Nutzlast, DF=1. Dann der stille Drop im Pfad, der Upload steht."
+  },
+  {
+   "id": "C04",
+   "title": "Kleine Tests täuschen",
+   "start": 37.02,
+   "end": 43.7,
+   "action": "Ping geht, das grosse Paket stirbt; tracepath endet im Nichts; ein 1400-Byte-Test passt; das Tor wird sichtbar."
+  },
+  {
+   "id": "C05",
+   "title": "Das Tor bekommt einen Namen",
+   "start": 43.7,
+   "end": 48,
+   "action": "Kontur gegen Kontur: 100 Bytes Überstand. Der Rahmen rastet ein."
+  },
+  {
+   "id": "C06",
+   "title": "M-T-U",
+   "start": 48,
+   "end": 61.58,
+   "action": "Anflug auf das Tor, M-T-U leuchtet rot, das Paket scheitert. Rückzug: die Engstelle ist winzig im ganzen Netz."
+  },
+  {
+   "id": "C07",
+   "title": "Don’t fragment",
+   "start": 61.58,
+   "end": 76,
+   "action": "DF-Klammer, enger Korridor von oben, gestrandetes Paket, Vorschau kleinerer Pakete am Sender."
+  },
+  {
+   "id": "C08",
+   "title": "Die Hüllen",
+   "start": 76,
+   "end": 90.52,
+   "action": "Tunnel-Overhead: IPsec-Hülle und MPLS-Labels. Das ICMP-„Fragmentation needed“ entsteht und wird an der Firewall verschluckt."
+  },
+  {
+   "id": "C09",
+   "title": "Vermessen",
+   "start": 90.52,
+   "end": 104.88,
+   "action": "1400 passt, 1500 nicht, Jumbo nur im eigenen Netz, Path MTU = kleinster Rahmen. Freigabe für ICMP Typ 3/4; der Sender lernt 1400."
+  },
+  {
+   "id": "C10",
+   "title": "Jetzt passt es",
+   "start": 104.88,
+   "end": 117.8,
+   "action": "Gleicher Anflug wie im ersten Chorus, gleiche Torgrösse: neue 1400-Byte-Pakete fliegen durch. Der Upload wird fertig."
+  },
+  {
+   "id": "C11",
+   "title": "Finale",
+   "start": 117.8,
+   "end": 139.00016666666667,
+   "action": "Schwebe am Tor, letzte lange Fahrt durch den Tunnel, Titel; das letzte Paket passiert auf dem letzten Impuls."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 3.88,
+   "zone": "path",
+   "camera": "opening",
+   "mode": "intro",
+   "target": "D0",
+   "event_ids": [
+    "MTU_CUE_01"
+   ],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S002",
+   "start_s": 3.88,
+   "end_s": 7.44,
+   "zone": "path",
+   "camera": "gateside",
+   "mode": "intro",
+   "target": "D0",
+   "event_ids": [
+    "MTU_CUE_02",
+    "MTU_CUE_03"
+   ],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S003",
+   "start_s": 7.44,
+   "end_s": 11.38,
+   "zone": "path",
+   "camera": "fw",
+   "mode": "quiet",
+   "target": "I0",
+   "event_ids": [],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 11.38,
+   "end_s": 12.8,
+   "zone": "path",
+   "camera": "host",
+   "mode": "waits",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S005",
+   "start_s": 12.8,
+   "end_s": 16.01,
+   "zone": "path",
+   "camera": "wide",
+   "mode": "build",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_04"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S006",
+   "start_s": 16.01,
+   "end_s": 19.65,
+   "zone": "path",
+   "camera": "chase",
+   "mode": "build",
+   "target": "P2",
+   "event_ids": [
+    "MTU_CUE_05"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S007",
+   "start_s": 19.65,
+   "end_s": 22,
+   "zone": "path",
+   "camera": "receiver",
+   "mode": "build",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S008",
+   "start_s": 22,
+   "end_s": 23.28,
+   "zone": "path",
+   "camera": "gate",
+   "mode": "build",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_06"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S009",
+   "start_s": 23.28,
+   "end_s": 26.92,
+   "zone": "lab",
+   "camera": "front",
+   "mode": "byte",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_07"
+   ],
+   "lyric_ids": [
+    "L017",
+    "L018"
+   ]
+  },
+  {
+   "id": "S010",
+   "start_s": 26.92,
+   "end_s": 30.88,
+   "zone": "lab",
+   "camera": "explode",
+   "mode": "header",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L019",
+    "L020"
+   ]
+  },
+  {
+   "id": "S011",
+   "start_s": 30.88,
+   "end_s": 33.76,
+   "zone": "lab",
+   "camera": "macro",
+   "mode": "df",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L021",
+    "L022"
+   ]
+  },
+  {
+   "id": "S012",
+   "start_s": 33.76,
+   "end_s": 35.64,
+   "zone": "path",
+   "camera": "gateside",
+   "mode": "drop",
+   "target": "D2",
+   "event_ids": [],
+   "lyric_ids": [
+    "L023"
+   ]
+  },
+  {
+   "id": "S013",
+   "start_s": 35.64,
+   "end_s": 37.02,
+   "zone": "path",
+   "camera": "host",
+   "mode": "pain",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L024"
+   ]
+  },
+  {
+   "id": "S014",
+   "start_s": 37.02,
+   "end_s": 38.12,
+   "zone": "path",
+   "camera": "chase",
+   "mode": "pre",
+   "target": "P3",
+   "event_ids": [
+    "MTU_CUE_08"
+   ],
+   "lyric_ids": [
+    "L028"
+   ]
+  },
+  {
+   "id": "S015",
+   "start_s": 38.12,
+   "end_s": 38.94,
+   "zone": "path",
+   "camera": "gateside",
+   "mode": "pre",
+   "target": "D3",
+   "event_ids": [],
+   "lyric_ids": [
+    "L029"
+   ]
+  },
+  {
+   "id": "S016",
+   "start_s": 38.94,
+   "end_s": 40,
+   "zone": "path",
+   "camera": "flyby",
+   "mode": "pre",
+   "target": "P4",
+   "event_ids": [],
+   "lyric_ids": [
+    "L030"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 40,
+   "end_s": 40.66,
+   "zone": "path",
+   "camera": "fw",
+   "mode": "hides",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L031"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 40.66,
+   "end_s": 41.76,
+   "zone": "path",
+   "camera": "xray",
+   "mode": "trace",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L032"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 41.76,
+   "end_s": 42.54,
+   "zone": "lab",
+   "camera": "front",
+   "mode": "lower",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L033"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 42.54,
+   "end_s": 43.7,
+   "zone": "path",
+   "camera": "gate",
+   "mode": "fault",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L034"
+   ]
+  },
+  {
+   "id": "S021",
+   "start_s": 43.7,
+   "end_s": 48,
+   "zone": "lab",
+   "camera": "front",
+   "mode": "measure",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_09",
+    "MTU_CUE_10",
+    "MTU_CUE_11"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S022",
+   "start_s": 48,
+   "end_s": 50.88,
+   "zone": "path",
+   "camera": "ride",
+   "mode": "chorus",
+   "target": "D4",
+   "event_ids": [
+    "MTU_CUE_12",
+    "MTU_CUE_13"
+   ],
+   "lyric_ids": [
+    "L038",
+    "L039"
+   ]
+  },
+  {
+   "id": "S023",
+   "start_s": 50.88,
+   "end_s": 52.52,
+   "zone": "path",
+   "camera": "gateside",
+   "mode": "chorus",
+   "target": "D4",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S024",
+   "start_s": 52.52,
+   "end_s": 53.12,
+   "zone": "path",
+   "camera": "gate",
+   "mode": "chorus",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 53.12,
+   "end_s": 54.98,
+   "zone": "lab",
+   "camera": "macro",
+   "mode": "readout",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 54.98,
+   "end_s": 56.98,
+   "zone": "path",
+   "camera": "gateside",
+   "mode": "big",
+   "target": "D5",
+   "event_ids": [],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S027",
+   "start_s": 56.98,
+   "end_s": 58.08,
+   "zone": "path",
+   "camera": "wide2",
+   "mode": "small",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 58.08,
+   "end_s": 61.58,
+   "zone": "path",
+   "camera": "pathline",
+   "mode": "find",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L044",
+    "L045"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 61.58,
+   "end_s": 62.76,
+   "zone": "lab",
+   "camera": "macro",
+   "mode": "dfhook",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_14"
+   ],
+   "lyric_ids": [
+    "L049"
+   ]
+  },
+  {
+   "id": "S030",
+   "start_s": 62.76,
+   "end_s": 65.4,
+   "zone": "lab",
+   "camera": "seams",
+   "mode": "dfhook",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L050"
+   ]
+  },
+  {
+   "id": "S031",
+   "start_s": 65.4,
+   "end_s": 68.28,
+   "zone": "path",
+   "camera": "topdown",
+   "mode": "narrow",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L051"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 68.28,
+   "end_s": 68.7,
+   "zone": "path",
+   "camera": "gateside",
+   "mode": "stranded",
+   "target": "D6",
+   "event_ids": [],
+   "lyric_ids": [
+    "L052"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 68.7,
+   "end_s": 70.35,
+   "zone": "lab",
+   "camera": "seams",
+   "mode": "dfhook",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L053",
+    "L054"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 70.35,
+   "end_s": 72.46,
+   "zone": "path",
+   "camera": "ride",
+   "mode": "hook",
+   "target": "D7",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S035",
+   "start_s": 72.46,
+   "end_s": 76,
+   "zone": "lab",
+   "camera": "rebuild",
+   "mode": "preview",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L055",
+    "L056"
+   ]
+  },
+  {
+   "id": "S036",
+   "start_s": 76,
+   "end_s": 79.78,
+   "zone": "lab",
+   "camera": "explode",
+   "mode": "encap",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_15"
+   ],
+   "lyric_ids": [
+    "L060",
+    "L061"
+   ]
+  },
+  {
+   "id": "S037",
+   "start_s": 79.78,
+   "end_s": 80.84,
+   "zone": "lab",
+   "camera": "orbit",
+   "mode": "vpn",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L062"
+   ]
+  },
+  {
+   "id": "S038",
+   "start_s": 80.84,
+   "end_s": 81.8,
+   "zone": "lab",
+   "camera": "orbit",
+   "mode": "mpls",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S039",
+   "start_s": 81.8,
+   "end_s": 83.6,
+   "zone": "lab",
+   "camera": "front",
+   "mode": "oldsize",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L063"
+   ]
+  },
+  {
+   "id": "S040",
+   "start_s": 83.6,
+   "end_s": 85.46,
+   "zone": "path",
+   "camera": "ride",
+   "mode": "discovery",
+   "target": "D8",
+   "event_ids": [],
+   "lyric_ids": [
+    "L064"
+   ]
+  },
+  {
+   "id": "S041",
+   "start_s": 85.46,
+   "end_s": 87.24,
+   "zone": "path",
+   "camera": "chase",
+   "mode": "icmp",
+   "target": "I8",
+   "event_ids": [],
+   "lyric_ids": [
+    "L065"
+   ]
+  },
+  {
+   "id": "S042",
+   "start_s": 87.24,
+   "end_s": 88.72,
+   "zone": "path",
+   "camera": "fw",
+   "mode": "blocked",
+   "target": "I8",
+   "event_ids": [],
+   "lyric_ids": [
+    "L066"
+   ]
+  },
+  {
+   "id": "S043",
+   "start_s": 88.72,
+   "end_s": 90.52,
+   "zone": "path",
+   "camera": "wide",
+   "mode": "crack",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L067"
+   ]
+  },
+  {
+   "id": "S044",
+   "start_s": 90.52,
+   "end_s": 91.7,
+   "zone": "lab",
+   "camera": "front",
+   "mode": "b1400",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_16"
+   ],
+   "lyric_ids": [
+    "L071"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 91.7,
+   "end_s": 93.74,
+   "zone": "lab",
+   "camera": "front",
+   "mode": "b1500",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L072"
+   ]
+  },
+  {
+   "id": "S046",
+   "start_s": 93.74,
+   "end_s": 94.96,
+   "zone": "lab",
+   "camera": "jumbo",
+   "mode": "jumbo",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L073"
+   ]
+  },
+  {
+   "id": "S047",
+   "start_s": 94.96,
+   "end_s": 96.74,
+   "zone": "lab",
+   "camera": "macro",
+   "mode": "bdf",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L074"
+   ]
+  },
+  {
+   "id": "S048",
+   "start_s": 96.74,
+   "end_s": 98.92,
+   "zone": "lab",
+   "camera": "frames",
+   "mode": "pmtu",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_17"
+   ],
+   "lyric_ids": [
+    "L075"
+   ]
+  },
+  {
+   "id": "S049",
+   "start_s": 98.92,
+   "end_s": 100.32,
+   "zone": "path",
+   "camera": "fw",
+   "mode": "fix",
+   "target": "I9",
+   "event_ids": [],
+   "lyric_ids": [
+    "L076"
+   ]
+  },
+  {
+   "id": "S050",
+   "start_s": 100.32,
+   "end_s": 102.56,
+   "zone": "path",
+   "camera": "host",
+   "mode": "learned",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S051",
+   "start_s": 102.56,
+   "end_s": 104.88,
+   "zone": "lab",
+   "camera": "rebuild",
+   "mode": "retry",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_18"
+   ],
+   "lyric_ids": [
+    "L077"
+   ]
+  },
+  {
+   "id": "S052",
+   "start_s": 104.88,
+   "end_s": 106.86,
+   "zone": "path",
+   "camera": "ride",
+   "mode": "final",
+   "target": "S0",
+   "event_ids": [
+    "MTU_CUE_19",
+    "MTU_CUE_20"
+   ],
+   "lyric_ids": [
+    "L081"
+   ]
+  },
+  {
+   "id": "S053",
+   "start_s": 106.86,
+   "end_s": 109.24,
+   "zone": "path",
+   "camera": "tunnel",
+   "mode": "final",
+   "target": "S0",
+   "event_ids": [],
+   "lyric_ids": [
+    "L082"
+   ]
+  },
+  {
+   "id": "S054",
+   "start_s": 109.24,
+   "end_s": 111.86,
+   "zone": "path",
+   "camera": "gate",
+   "mode": "final2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L083",
+    "L084"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 111.86,
+   "end_s": 114.96,
+   "zone": "path",
+   "camera": "gateside",
+   "mode": "ghost",
+   "target": "S25",
+   "event_ids": [],
+   "lyric_ids": [
+    "L085",
+    "L086"
+   ]
+  },
+  {
+   "id": "S056",
+   "start_s": 114.96,
+   "end_s": 116.76,
+   "zone": "path",
+   "camera": "wide",
+   "mode": "final3",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L087",
+    "L088"
+   ]
+  },
+  {
+   "id": "S057",
+   "start_s": 116.76,
+   "end_s": 119.12,
+   "zone": "path",
+   "camera": "receiver",
+   "mode": "done",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_21"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S058",
+   "start_s": 119.12,
+   "end_s": 122.64,
+   "zone": "path",
+   "camera": "gate",
+   "mode": "hover",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_22"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S059",
+   "start_s": 122.64,
+   "end_s": 127.2,
+   "zone": "path",
+   "camera": "ride",
+   "mode": "tail",
+   "target": "S55",
+   "event_ids": [
+    "MTU_CUE_23"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S060",
+   "start_s": 127.2,
+   "end_s": 132.5,
+   "zone": "path",
+   "camera": "tunnel",
+   "mode": "tail",
+   "target": "S62",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S061",
+   "start_s": 132.5,
+   "end_s": 133.24,
+   "zone": "path",
+   "camera": "wide",
+   "mode": "tail",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_24"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S062",
+   "start_s": 133.24,
+   "end_s": 139.00016666666667,
+   "zone": "path",
+   "camera": "final",
+   "mode": "outro",
+   "target": null,
+   "event_ids": [
+    "MTU_CUE_25",
+    "MTU_CUE_26",
+    "MTU_CUE_27",
+    "MTU_CUE_28"
+   ],
+   "lyric_ids": []
+  }
+ ],
+ "network": [
+  {
+   "time_s": 5.2,
+   "action": "R2 verwirft D0: 1500 B mit DF an Tunnel-MTU 1400",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 8.85,
+   "action": "I0 (ICMP 3/4, mtu 1400) an der Firewall verworfen",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 16.55,
+   "action": "R2 verwirft D1: 1500 B mit DF an Tunnel-MTU 1400",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 19.37,
+   "action": "I1 (ICMP 3/4, mtu 1400) an der Firewall verworfen",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 34.3,
+   "action": "R2 verwirft D2: 1500 B mit DF an Tunnel-MTU 1400",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 37.12,
+   "action": "I2 (ICMP 3/4, mtu 1400) an der Firewall verworfen",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 38.45,
+   "action": "R2 verwirft D3: 1500 B mit DF an Tunnel-MTU 1400",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 41.27,
+   "action": "I3 (ICMP 3/4, mtu 1400) an der Firewall verworfen",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 50.55,
+   "action": "R2 verwirft D4: 1500 B mit DF an Tunnel-MTU 1400",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 53.37,
+   "action": "I4 (ICMP 3/4, mtu 1400) an der Firewall verworfen",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 55.9,
+   "action": "R2 verwirft D5: 1500 B mit DF an Tunnel-MTU 1400",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 58.72,
+   "action": "I5 (ICMP 3/4, mtu 1400) an der Firewall verworfen",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 68.45,
+   "action": "R2 verwirft D6: 1500 B mit DF an Tunnel-MTU 1400",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 71.27,
+   "action": "I6 (ICMP 3/4, mtu 1400) an der Firewall verworfen",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 72.2,
+   "action": "R2 verwirft D7: 1500 B mit DF an Tunnel-MTU 1400",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 75.02,
+   "action": "I7 (ICMP 3/4, mtu 1400) an der Firewall verworfen",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 84.75,
+   "action": "R2 verwirft D8: 1500 B mit DF an Tunnel-MTU 1400",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 88,
+   "action": "I8 (ICMP 3/4, mtu 1400) an der Firewall verworfen",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 97.76,
+   "action": "R2 verwirft D9: 1500 B mit DF an Tunnel-MTU 1400",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 99.3,
+   "action": "Firewall: icmp destination-unreachable / frag-needed wird akzeptiert",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 100,
+   "action": "I9 (ICMP 3/4, mtu 1400) an der Firewall durchgelassen",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 101.115,
+   "action": "Host A lernt Path MTU 1400",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 104.88,
+   "action": "Neusendung in 1400-Byte-Paketen beginnt (32 Segmente, 42920 B)",
+   "origin": "redaktionell (Netzszenario)"
+  },
+  {
+   "time_s": 117.45,
+   "action": "report.pdf vollständig angekommen",
+   "origin": "redaktionell (Netzszenario)"
+  }
+ ]
+}

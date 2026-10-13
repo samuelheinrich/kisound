@@ -1,0 +1,55 @@
+[Intro]
+A floor plan.
+A PDF.
+A plan.
+
+[Verse 1]
+I give the agent the plan for the second floor,
+it pulls the walls out, line by line, door by door.
+The strokes become walls, three meters tall in the space,
+I fly through the stairwell in 3D, every step in its place.
+Concrete twelve dB, drywall three,
+glass about two, and the elevator shaft lets almost nothing through to me.
+
+[Chorus]
+Heatmap.
+Green where the signal still holds.
+Heatmap.
+Red where the concrete stops it cold.
+Minus sixty-seven dBm, that's the line,
+I move the access points till green is all I find.
+
+[Verse 2]
+Three APs per floor on one, six and eleven,
+overlapping just enough to roam, the handover smooth and even.
+But the simulation's only a model on a screen,
+on Monday I walk the floor with a laptop, measuring every room I've seen.
+The meeting room comes in five dB lower than planned:
+a metal cabinet that no floor plan had in hand.
+
+[Chorus]
+Heatmap.
+Green where the signal still holds.
+Heatmap.
+Red where the concrete stops it cold.
+Minus sixty-seven dBm, that's the line,
+I move the access points till green is all I find.
+
+[Bridge]
+A plan is not a wall.
+A model's not a room.
+What counts is the value on site,
+with the laptop in my hand.
+
+[Chorus]
+Heatmap.
+Green where the signal still holds.
+Heatmap.
+Red where the concrete stops it cold.
+Minus sixty-seven dBm, that's the line,
+I move the access points till green is all I find.
+
+[Outro]
+Green in the hallway.
+Green in the meeting room.
+Minus sixty-seven.

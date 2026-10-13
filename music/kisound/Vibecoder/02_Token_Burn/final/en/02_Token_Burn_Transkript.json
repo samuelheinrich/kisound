@@ -1,0 +1,3065 @@
+{
+  "title": "TOKEN BURN · EN",
+  "source_audio": "../../suno-0.1/en/Token Burn - EN.wav",
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "duration_seconds": 250.8,
+  "languages": [
+    "en"
+  ],
+  "time_origin": "Sample 0 der unveränderten finalen WAV; keine Kürzung, kein Offset",
+  "timing_source": "Lokale CPU-ASR mit tatsächlichen Cross-Attention/DTW-Wortzeiten; keine aus Lyrics geschätzten Zeiten",
+  "text_source": "Finale Lyrics nur bei ausreichender monotoner ASR-Übereinstimmung; sonst Rohtext, explizit markiert",
+  "review_status": "Automatische ASR mit Lyrics-Abgleich; keine manuelle Hörprüfung; markierte Stellen vor Video-Endabnahme prüfen",
+  "raw_asr_path": "asr/whisper-large-v3.json",
+  "raw_asr_sha256": "6de204c9e1248a7e06a6d1a84c80de5f442ace887ffbf0cff5f45305054171c3",
+  "asr_parameters": {
+    "temperature": 0,
+    "condition_on_prev_tokens": false,
+    "return_token_timestamps": true,
+    "lyrics_prompt": null,
+    "vocabulary_hint": "Token Burn, Prompt, Build, Export, Screen.",
+    "chunk_seconds": 30,
+    "dtype": "torch.float32",
+    "encoder_attention": "SDPA, not retained",
+    "decoder_attention": "eager, retained for word DTW"
+  },
+  "comparison_asr_path": "asr/whisper-large-v3-turbo.json",
+  "comparison_asr_sha256": "5690fca34fbe16635862fb63e8615df08892d1a4d7fc89fc79b3d42126265d04",
+  "prompt_path": "02_Token_Burn_1.0.txt",
+  "prompt_sha256": "2fc2a6f45a17d1615294d90cc9b7066002e2e0147a9c599769531c763c15e523",
+  "timing_uncertainty_note": "20-ms-DTW-Raster ist keine Genauigkeitsgarantie; Gesang und Effekte können Wortgrenzen verschieben.",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 12.68,
+      "last_vocal_end": 17.76
+    },
+    {
+      "title": "Verse 1",
+      "first_vocal_start": 45.24,
+      "last_vocal_end": 74.5
+    },
+    {
+      "title": "Pre-Chorus",
+      "first_vocal_start": 81.32,
+      "last_vocal_end": 95.0
+    },
+    {
+      "title": "Chorus 1",
+      "first_vocal_start": 96.48,
+      "last_vocal_end": 117.0
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 123.32,
+      "last_vocal_end": 152.74
+    },
+    {
+      "title": "Chorus 2",
+      "first_vocal_start": 153.0,
+      "last_vocal_end": 173.08
+    },
+    {
+      "title": "Bridge",
+      "first_vocal_start": 182.3,
+      "last_vocal_end": 195.9
+    },
+    {
+      "title": "Chorus 3",
+      "first_vocal_start": 198.56,
+      "last_vocal_end": 218.42
+    },
+    {
+      "title": "Outro",
+      "first_vocal_start": 225.64,
+      "last_vocal_end": 234.34
+    }
+  ],
+  "segments": [
+    {
+      "start": 12.68,
+      "end": 14.38,
+      "text": "Just this one change.",
+      "section": "Intro",
+      "prompt_line_index": 0,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Just this one change",
+      "asr_words": [
+        {
+          "word": "Just",
+          "start": 12.68,
+          "end": 13.52,
+          "asr_segment_index": 0
+        },
+        {
+          "word": "this",
+          "start": 13.52,
+          "end": 13.74,
+          "asr_segment_index": 0
+        },
+        {
+          "word": "one",
+          "start": 13.74,
+          "end": 14.12,
+          "asr_segment_index": 0
+        },
+        {
+          "word": "change",
+          "start": 14.12,
+          "end": 14.38,
+          "asr_segment_index": 0
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 1,
+      "start_timecode": "00:00:12.680",
+      "end_timecode": "00:00:14.380",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Just this one",
+        "text_similarity": 0.786,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 16.64,
+      "end": 17.76,
+      "text": "Then I'll shut it down.",
+      "section": "Intro",
+      "prompt_line_index": 1,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "then I'll shut it down",
+      "asr_words": [
+        {
+          "word": "then",
+          "start": 16.64,
+          "end": 16.86,
+          "asr_segment_index": 0
+        },
+        {
+          "word": "I'll",
+          "start": 16.86,
+          "end": 17.14,
+          "asr_segment_index": 0
+        },
+        {
+          "word": "shut",
+          "start": 17.14,
+          "end": 17.34,
+          "asr_segment_index": 0
+        },
+        {
+          "word": "it",
+          "start": 17.34,
+          "end": 17.6,
+          "asr_segment_index": 0
+        },
+        {
+          "word": "down",
+          "start": 17.6,
+          "end": 17.76,
+          "asr_segment_index": 0
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 2,
+      "start_timecode": "00:00:16.640",
+      "end_timecode": "00:00:17.760",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Then I'll shut it",
+        "text_similarity": 0.867,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 45.24,
+      "end": 48.88,
+      "text": "The clock says one, the build runs clean,",
+      "section": "Verse 1",
+      "prompt_line_index": 2,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "The clock says one the build runs clean",
+      "asr_words": [
+        {
+          "word": "The",
+          "start": 45.24,
+          "end": 46.26,
+          "asr_segment_index": 1
+        },
+        {
+          "word": "clock",
+          "start": 46.26,
+          "end": 46.52,
+          "asr_segment_index": 1
+        },
+        {
+          "word": "says",
+          "start": 46.52,
+          "end": 46.9,
+          "asr_segment_index": 1
+        },
+        {
+          "word": "one",
+          "start": 46.9,
+          "end": 47.12,
+          "asr_segment_index": 1
+        },
+        {
+          "word": "the",
+          "start": 47.76,
+          "end": 48.1,
+          "asr_segment_index": 1
+        },
+        {
+          "word": "build",
+          "start": 48.1,
+          "end": 48.28,
+          "asr_segment_index": 1
+        },
+        {
+          "word": "runs",
+          "start": 48.28,
+          "end": 48.7,
+          "asr_segment_index": 1
+        },
+        {
+          "word": "clean",
+          "start": 48.7,
+          "end": 48.88,
+          "asr_segment_index": 1
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 3,
+      "start_timecode": "00:00:45.240",
+      "end_timecode": "00:00:48.880",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "The clock says one the build runs",
+        "text_similarity": 0.915,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 49.54,
+      "end": 52.34,
+      "text": "a new idea lights up my screen.",
+      "section": "Verse 1",
+      "prompt_line_index": 3,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "A new idea lights up my screen",
+      "asr_words": [
+        {
+          "word": "A",
+          "start": 49.54,
+          "end": 49.8,
+          "asr_segment_index": 2
+        },
+        {
+          "word": "new",
+          "start": 49.8,
+          "end": 50.42,
+          "asr_segment_index": 2
+        },
+        {
+          "word": "idea",
+          "start": 50.42,
+          "end": 50.92,
+          "asr_segment_index": 2
+        },
+        {
+          "word": "lights",
+          "start": 50.92,
+          "end": 51.4,
+          "asr_segment_index": 2
+        },
+        {
+          "word": "up",
+          "start": 51.4,
+          "end": 51.78,
+          "asr_segment_index": 2
+        },
+        {
+          "word": "my",
+          "start": 51.78,
+          "end": 52.28,
+          "asr_segment_index": 2
+        },
+        {
+          "word": "screen",
+          "start": 52.28,
+          "end": 52.34,
+          "asr_segment_index": 2
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 4,
+      "start_timecode": "00:00:49.540",
+      "end_timecode": "00:00:52.340",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "A new idea lights up my",
+        "text_similarity": 0.857,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 52.86,
+      "end": 56.4,
+      "text": "One slider more, a second lane,",
+      "section": "Verse 1",
+      "prompt_line_index": 4,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "One slider more a second lane",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 52.86,
+          "end": 53.46,
+          "asr_segment_index": 3
+        },
+        {
+          "word": "slider",
+          "start": 53.46,
+          "end": 53.74,
+          "asr_segment_index": 3
+        },
+        {
+          "word": "more",
+          "start": 53.74,
+          "end": 54.06,
+          "asr_segment_index": 3
+        },
+        {
+          "word": "a",
+          "start": 54.82,
+          "end": 55.26,
+          "asr_segment_index": 3
+        },
+        {
+          "word": "second",
+          "start": 55.26,
+          "end": 55.6,
+          "asr_segment_index": 3
+        },
+        {
+          "word": "lane",
+          "start": 55.6,
+          "end": 56.4,
+          "asr_segment_index": 3
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 5,
+      "start_timecode": "00:00:52.860",
+      "end_timecode": "00:00:56.400",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One slide or more a second lane",
+        "text_similarity": 0.98,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 56.58,
+      "end": 59.22,
+      "text": "the prompt grows long; I try again.",
+      "section": "Verse 1",
+      "prompt_line_index": 5,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "The prompt grows long I try again",
+      "asr_words": [
+        {
+          "word": "The",
+          "start": 56.58,
+          "end": 56.9,
+          "asr_segment_index": 4
+        },
+        {
+          "word": "prompt",
+          "start": 56.9,
+          "end": 57.16,
+          "asr_segment_index": 4
+        },
+        {
+          "word": "grows",
+          "start": 57.16,
+          "end": 57.7,
+          "asr_segment_index": 4
+        },
+        {
+          "word": "long",
+          "start": 57.7,
+          "end": 57.78,
+          "asr_segment_index": 4
+        },
+        {
+          "word": "I",
+          "start": 58.02,
+          "end": 58.34,
+          "asr_segment_index": 4
+        },
+        {
+          "word": "try",
+          "start": 58.34,
+          "end": 59.04,
+          "asr_segment_index": 4
+        },
+        {
+          "word": "again",
+          "start": 59.04,
+          "end": 59.22,
+          "asr_segment_index": 4
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 6,
+      "start_timecode": "00:00:56.580",
+      "end_timecode": "00:00:59.220",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "The prompt grows long let's try",
+        "text_similarity": 0.808,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 60.2,
+      "end": 62.82,
+      "text": "I reload once; the bass goes mute,",
+      "section": "Verse 1",
+      "prompt_line_index": 6,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I reload once the base goes mute",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 60.2,
+          "end": 60.52,
+          "asr_segment_index": 5
+        },
+        {
+          "word": "reload",
+          "start": 60.52,
+          "end": 61.08,
+          "asr_segment_index": 5
+        },
+        {
+          "word": "once",
+          "start": 61.08,
+          "end": 61.16,
+          "asr_segment_index": 5
+        },
+        {
+          "word": "the",
+          "start": 61.9,
+          "end": 62.12,
+          "asr_segment_index": 5
+        },
+        {
+          "word": "base",
+          "start": 62.12,
+          "end": 62.36,
+          "asr_segment_index": 5
+        },
+        {
+          "word": "goes",
+          "start": 62.36,
+          "end": 62.7,
+          "asr_segment_index": 5
+        },
+        {
+          "word": "mute",
+          "start": 62.7,
+          "end": 62.82,
+          "asr_segment_index": 5
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 0.962,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen."
+      ],
+      "id": 7,
+      "start_timecode": "00:01:00.200",
+      "end_timecode": "00:01:02.820",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I reload once the base goes",
+        "text_similarity": 0.875,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 63.64,
+      "end": 66.94,
+      "text": "we fix the save, then execute.",
+      "section": "Verse 1",
+      "prompt_line_index": 7,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "We fix the save then execute",
+      "asr_words": [
+        {
+          "word": "We",
+          "start": 63.64,
+          "end": 63.98,
+          "asr_segment_index": 6
+        },
+        {
+          "word": "fix",
+          "start": 63.98,
+          "end": 64.16,
+          "asr_segment_index": 6
+        },
+        {
+          "word": "the",
+          "start": 64.16,
+          "end": 64.52,
+          "asr_segment_index": 6
+        },
+        {
+          "word": "save",
+          "start": 64.52,
+          "end": 64.58,
+          "asr_segment_index": 6
+        },
+        {
+          "word": "then",
+          "start": 65.04,
+          "end": 65.82,
+          "asr_segment_index": 6
+        },
+        {
+          "word": "execute",
+          "start": 65.82,
+          "end": 66.94,
+          "asr_segment_index": 6
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 8,
+      "start_timecode": "00:01:03.640",
+      "end_timecode": "00:01:06.940",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "We fix the save then execute",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 67.18,
+      "end": 69.86,
+      "text": "The build now works the way it should,",
+      "section": "Verse 1",
+      "prompt_line_index": 8,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "The build now works the way it should",
+      "asr_words": [
+        {
+          "word": "The",
+          "start": 67.18,
+          "end": 67.46,
+          "asr_segment_index": 7
+        },
+        {
+          "word": "build",
+          "start": 67.46,
+          "end": 67.66,
+          "asr_segment_index": 7
+        },
+        {
+          "word": "now",
+          "start": 67.66,
+          "end": 68.04,
+          "asr_segment_index": 7
+        },
+        {
+          "word": "works",
+          "start": 68.04,
+          "end": 68.28,
+          "asr_segment_index": 7
+        },
+        {
+          "word": "the",
+          "start": 68.92,
+          "end": 69.18,
+          "asr_segment_index": 7
+        },
+        {
+          "word": "way",
+          "start": 69.18,
+          "end": 69.38,
+          "asr_segment_index": 7
+        },
+        {
+          "word": "it",
+          "start": 69.38,
+          "end": 69.68,
+          "asr_segment_index": 7
+        },
+        {
+          "word": "should",
+          "start": 69.68,
+          "end": 69.86,
+          "asr_segment_index": 7
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 9,
+      "start_timecode": "00:01:07.180",
+      "end_timecode": "00:01:09.860",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "The build now works the way it should",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 70.66,
+      "end": 74.5,
+      "text": "it's two o'clock. This one is good.",
+      "section": "Verse 1",
+      "prompt_line_index": 9,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "It's two o 'clock this one is good",
+      "asr_words": [
+        {
+          "word": "It's",
+          "start": 70.66,
+          "end": 70.94,
+          "asr_segment_index": 8
+        },
+        {
+          "word": "two",
+          "start": 70.94,
+          "end": 71.16,
+          "asr_segment_index": 8
+        },
+        {
+          "word": "o",
+          "start": 71.16,
+          "end": 71.26,
+          "asr_segment_index": 8
+        },
+        {
+          "word": "'clock",
+          "start": 71.26,
+          "end": 71.68,
+          "asr_segment_index": 8
+        },
+        {
+          "word": "this",
+          "start": 73.16,
+          "end": 73.4,
+          "asr_segment_index": 8
+        },
+        {
+          "word": "one",
+          "start": 73.4,
+          "end": 73.96,
+          "asr_segment_index": 8
+        },
+        {
+          "word": "is",
+          "start": 73.96,
+          "end": 74.4,
+          "asr_segment_index": 8
+        },
+        {
+          "word": "good",
+          "start": 74.4,
+          "end": 74.5,
+          "asr_segment_index": 8
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 10,
+      "start_timecode": "00:01:10.660",
+      "end_timecode": "00:01:14.500",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "It's two o 'clock this one is",
+        "text_similarity": 0.913,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 81.32,
+      "end": 84.2,
+      "text": "The prompt goes out, the words come in,",
+      "section": "Pre-Chorus",
+      "prompt_line_index": 10,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "The prompt goes out the words come in",
+      "asr_words": [
+        {
+          "word": "The",
+          "start": 81.32,
+          "end": 81.68,
+          "asr_segment_index": 9
+        },
+        {
+          "word": "prompt",
+          "start": 81.68,
+          "end": 82.0,
+          "asr_segment_index": 9
+        },
+        {
+          "word": "goes",
+          "start": 82.0,
+          "end": 82.66,
+          "asr_segment_index": 9
+        },
+        {
+          "word": "out",
+          "start": 82.66,
+          "end": 82.74,
+          "asr_segment_index": 9
+        },
+        {
+          "word": "the",
+          "start": 82.88,
+          "end": 83.3,
+          "asr_segment_index": 9
+        },
+        {
+          "word": "words",
+          "start": 83.3,
+          "end": 83.56,
+          "asr_segment_index": 9
+        },
+        {
+          "word": "come",
+          "start": 83.56,
+          "end": 84.1,
+          "asr_segment_index": 9
+        },
+        {
+          "word": "in",
+          "start": 84.1,
+          "end": 84.2,
+          "asr_segment_index": 9
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 11,
+      "start_timecode": "00:01:21.320",
+      "end_timecode": "00:01:24.200",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "The prompt goes out the words come",
+        "text_similarity": 0.966,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 84.82,
+      "end": 87.7,
+      "text": "I see a place we could begin.",
+      "section": "Pre-Chorus",
+      "prompt_line_index": 11,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I see a place we could begin",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 84.82,
+          "end": 85.12,
+          "asr_segment_index": 10
+        },
+        {
+          "word": "see",
+          "start": 85.12,
+          "end": 85.36,
+          "asr_segment_index": 10
+        },
+        {
+          "word": "a",
+          "start": 85.36,
+          "end": 85.84,
+          "asr_segment_index": 10
+        },
+        {
+          "word": "place",
+          "start": 85.84,
+          "end": 86.22,
+          "asr_segment_index": 10
+        },
+        {
+          "word": "we",
+          "start": 86.22,
+          "end": 86.62,
+          "asr_segment_index": 10
+        },
+        {
+          "word": "could",
+          "start": 86.62,
+          "end": 87.5,
+          "asr_segment_index": 10
+        },
+        {
+          "word": "begin",
+          "start": 87.5,
+          "end": 87.7,
+          "asr_segment_index": 10
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 12,
+      "start_timecode": "00:01:24.820",
+      "end_timecode": "00:01:27.700",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I see a place we could begin",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 90.16,
+      "end": 91.32,
+      "text": "The text gets long",
+      "section": "Pre-Chorus",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "The text gets long",
+      "asr_words": [
+        {
+          "word": "The",
+          "start": 90.16,
+          "end": 90.44,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "text",
+          "start": 90.44,
+          "end": 90.7,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "gets",
+          "start": 90.7,
+          "end": 91.08,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "long",
+          "start": 91.08,
+          "end": 91.32,
+          "asr_segment_index": 12
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 13,
+      "start_timecode": "00:01:30.160",
+      "end_timecode": "00:01:31.320",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "The text gets",
+        "text_similarity": 0.846,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 91.88,
+      "end": 95.0,
+      "text": "I hear a change inside the song.",
+      "section": "Pre-Chorus",
+      "prompt_line_index": 13,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I hear a change inside the song",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 91.88,
+          "end": 92.24,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "hear",
+          "start": 92.24,
+          "end": 92.44,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "a",
+          "start": 92.44,
+          "end": 92.84,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "change",
+          "start": 92.84,
+          "end": 93.64,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "inside",
+          "start": 93.64,
+          "end": 94.16,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "the",
+          "start": 94.16,
+          "end": 94.66,
+          "asr_segment_index": 12
+        },
+        {
+          "word": "song",
+          "start": 94.66,
+          "end": 95.0,
+          "asr_segment_index": 12
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 14,
+      "start_timecode": "00:01:31.880",
+      "end_timecode": "00:01:35.000",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I hear a change inside the song",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 96.48,
+      "end": 97.58,
+      "text": "Token Burn.",
+      "section": "Chorus 1",
+      "prompt_line_index": 14,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Token Burn",
+      "asr_words": [
+        {
+          "word": "Token Burn",
+          "start": 96.48,
+          "end": 97.58,
+          "asr_segment_index": 13,
+          "asr_component_words": [
+            {
+              "word": "Token",
+              "start": 96.48,
+              "end": 97.3,
+              "asr_segment_index": 13
+            },
+            {
+              "word": "Burn",
+              "start": 97.3,
+              "end": 97.58,
+              "asr_segment_index": 13
+            }
+          ]
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 15,
+      "start_timecode": "00:01:36.480",
+      "end_timecode": "00:01:37.580",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Token burn",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 99.86,
+      "end": 102.8,
+      "text": "One more prompt before I go.",
+      "section": "Chorus 1",
+      "prompt_line_index": 15,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "One more prompt before I go",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 99.86,
+          "end": 100.34,
+          "asr_segment_index": 14
+        },
+        {
+          "word": "more",
+          "start": 100.34,
+          "end": 100.84,
+          "asr_segment_index": 14
+        },
+        {
+          "word": "prompt",
+          "start": 100.84,
+          "end": 101.58,
+          "asr_segment_index": 14
+        },
+        {
+          "word": "before",
+          "start": 101.58,
+          "end": 102.12,
+          "asr_segment_index": 14
+        },
+        {
+          "word": "I",
+          "start": 102.12,
+          "end": 102.5,
+          "asr_segment_index": 14
+        },
+        {
+          "word": "go",
+          "start": 102.5,
+          "end": 102.8,
+          "asr_segment_index": 14
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 16,
+      "start_timecode": "00:01:39.860",
+      "end_timecode": "00:01:42.800",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One more prone before I go",
+        "text_similarity": 0.884,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 103.52,
+      "end": 105.34,
+      "text": "Token Burn.",
+      "section": "Chorus 1",
+      "prompt_line_index": 16,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Token Burn",
+      "asr_words": [
+        {
+          "word": "Token Burn",
+          "start": 103.52,
+          "end": 105.34,
+          "asr_segment_index": 15,
+          "asr_component_words": [
+            {
+              "word": "Token",
+              "start": 103.52,
+              "end": 104.34,
+              "asr_segment_index": 15
+            },
+            {
+              "word": "Burn",
+              "start": 104.34,
+              "end": 105.34,
+              "asr_segment_index": 15
+            }
+          ]
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 17,
+      "start_timecode": "00:01:43.520",
+      "end_timecode": "00:01:45.340",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Token burn",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 106.9,
+      "end": 109.78,
+      "text": "One more thing I need to know.",
+      "section": "Chorus 1",
+      "prompt_line_index": 17,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "One more thing I need to know",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 106.9,
+          "end": 107.4,
+          "asr_segment_index": 16
+        },
+        {
+          "word": "more",
+          "start": 107.4,
+          "end": 107.8,
+          "asr_segment_index": 16
+        },
+        {
+          "word": "thing",
+          "start": 107.8,
+          "end": 108.32,
+          "asr_segment_index": 16
+        },
+        {
+          "word": "I",
+          "start": 108.32,
+          "end": 108.78,
+          "asr_segment_index": 16
+        },
+        {
+          "word": "need",
+          "start": 108.78,
+          "end": 109.36,
+          "asr_segment_index": 16
+        },
+        {
+          "word": "to",
+          "start": 109.36,
+          "end": 109.64,
+          "asr_segment_index": 16
+        },
+        {
+          "word": "know",
+          "start": 109.64,
+          "end": 109.78,
+          "asr_segment_index": 16
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 18,
+      "start_timecode": "00:01:46.900",
+      "end_timecode": "00:01:49.780",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One more thing I need to",
+        "text_similarity": 0.905,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 110.82,
+      "end": 114.22,
+      "text": "One tab shuts, two more appear,",
+      "section": "Chorus 1",
+      "prompt_line_index": 18,
+      "timing_model": "mlx-community/whisper-large-v3-turbo / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "One tap shuts two more appear",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 110.82,
+          "end": 111.32,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "tap",
+          "start": 111.32,
+          "end": 111.84,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "shuts",
+          "start": 111.84,
+          "end": 112.18,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "two",
+          "start": 112.28,
+          "end": 112.74,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "more",
+          "start": 112.74,
+          "end": 113.3,
+          "asr_segment_index": 17
+        },
+        {
+          "word": "appear",
+          "start": 113.3,
+          "end": 114.22,
+          "asr_segment_index": 17
+        }
+      ],
+      "matched_word_fraction": 0.833,
+      "text_similarity": 0.958,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen.",
+        "Lyrics-Zeile aus Turbo-Wortzeiten ergänzt; large-v3 konnte sie nicht ausreichend zuordnen."
+      ],
+      "id": 19,
+      "start_timecode": "00:01:50.820",
+      "end_timecode": "00:01:54.220",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One tap shuts two more appear",
+        "text_similarity": 0.958,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 114.34,
+      "end": 117.0,
+      "text": "I said I'd leave. I'm still right here.",
+      "section": "Chorus 1",
+      "prompt_line_index": 19,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I said I'd leave I'm still right here",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 114.34,
+          "end": 114.64,
+          "asr_segment_index": 18
+        },
+        {
+          "word": "said",
+          "start": 114.64,
+          "end": 114.98,
+          "asr_segment_index": 18
+        },
+        {
+          "word": "I'd",
+          "start": 114.98,
+          "end": 115.18,
+          "asr_segment_index": 18
+        },
+        {
+          "word": "leave",
+          "start": 115.18,
+          "end": 115.38,
+          "asr_segment_index": 18
+        },
+        {
+          "word": "I'm",
+          "start": 115.68,
+          "end": 115.98,
+          "asr_segment_index": 18
+        },
+        {
+          "word": "still",
+          "start": 115.98,
+          "end": 116.28,
+          "asr_segment_index": 18
+        },
+        {
+          "word": "right",
+          "start": 116.28,
+          "end": 116.8,
+          "asr_segment_index": 18
+        },
+        {
+          "word": "here",
+          "start": 116.8,
+          "end": 117.0,
+          "asr_segment_index": 18
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 20,
+      "start_timecode": "00:01:54.340",
+      "end_timecode": "00:01:57.000",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I said I'd leave I'm still right here",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 123.32,
+      "end": 128.34,
+      "text": "It's three o'clock, the room stays small,",
+      "section": "Verse 2",
+      "prompt_line_index": 20,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "It's 3 o 'clock the room stays small",
+      "asr_words": [
+        {
+          "word": "It's",
+          "start": 123.32,
+          "end": 125.6,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "3",
+          "start": 125.6,
+          "end": 125.76,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "o",
+          "start": 125.76,
+          "end": 125.84,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "'clock",
+          "start": 125.84,
+          "end": 126.18,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "the",
+          "start": 127.08,
+          "end": 127.3,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "room",
+          "start": 127.3,
+          "end": 127.54,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "stays",
+          "start": 127.54,
+          "end": 127.88,
+          "asr_segment_index": 19
+        },
+        {
+          "word": "small",
+          "start": 127.88,
+          "end": 128.34,
+          "asr_segment_index": 19
+        }
+      ],
+      "matched_word_fraction": 0.857,
+      "text_similarity": 0.897,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen."
+      ],
+      "id": 21,
+      "start_timecode": "00:02:03.320",
+      "end_timecode": "00:02:08.340",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "It's three o 'clock the room stays small",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 128.88,
+      "end": 132.06,
+      "text": "the screen has room to fit it all.",
+      "section": "Verse 2",
+      "prompt_line_index": 21,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "The screen has room to fit it all",
+      "asr_words": [
+        {
+          "word": "The",
+          "start": 128.88,
+          "end": 129.18,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "screen",
+          "start": 129.18,
+          "end": 129.42,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "has",
+          "start": 129.42,
+          "end": 129.62,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "room",
+          "start": 129.62,
+          "end": 130.48,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "to",
+          "start": 130.48,
+          "end": 130.9,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "fit",
+          "start": 130.9,
+          "end": 131.06,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "it",
+          "start": 131.06,
+          "end": 131.18,
+          "asr_segment_index": 20
+        },
+        {
+          "word": "all",
+          "start": 131.18,
+          "end": 132.06,
+          "asr_segment_index": 20
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 22,
+      "start_timecode": "00:02:08.880",
+      "end_timecode": "00:02:12.060",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "The screen has room to fit it all",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 132.4,
+      "end": 134.86,
+      "text": "An export fails; I run it through,",
+      "section": "Verse 2",
+      "prompt_line_index": 22,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "An export fails I run it through",
+      "asr_words": [
+        {
+          "word": "An",
+          "start": 132.4,
+          "end": 132.76,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "export",
+          "start": 132.76,
+          "end": 133.26,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "fails",
+          "start": 133.26,
+          "end": 133.44,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "I",
+          "start": 134.18,
+          "end": 134.42,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "run",
+          "start": 134.42,
+          "end": 134.54,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "it",
+          "start": 134.54,
+          "end": 134.74,
+          "asr_segment_index": 21
+        },
+        {
+          "word": "through",
+          "start": 134.74,
+          "end": 134.86,
+          "asr_segment_index": 21
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 23,
+      "start_timecode": "00:02:12.400",
+      "end_timecode": "00:02:14.860",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "An export fails I run it",
+        "text_similarity": 0.844,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 135.88,
+      "end": 138.7,
+      "text": "the agent has one more thing to do.",
+      "section": "Verse 2",
+      "prompt_line_index": 23,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "The agent has one more thing to do",
+      "asr_words": [
+        {
+          "word": "The",
+          "start": 135.88,
+          "end": 136.34,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "agent",
+          "start": 136.34,
+          "end": 136.6,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "has",
+          "start": 136.6,
+          "end": 137.06,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "one",
+          "start": 137.06,
+          "end": 137.32,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "more",
+          "start": 137.32,
+          "end": 137.72,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "thing",
+          "start": 137.72,
+          "end": 138.12,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "to",
+          "start": 138.12,
+          "end": 138.68,
+          "asr_segment_index": 22
+        },
+        {
+          "word": "do",
+          "start": 138.68,
+          "end": 138.7,
+          "asr_segment_index": 22
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 24,
+      "start_timecode": "00:02:15.880",
+      "end_timecode": "00:02:18.700",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "The agent has one more thing to",
+        "text_similarity": 0.962,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 139.42,
+      "end": 142.66,
+      "text": "The usage panel shows the cost,",
+      "section": "Verse 2",
+      "prompt_line_index": 24,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "The usage panel shows the cost",
+      "asr_words": [
+        {
+          "word": "The",
+          "start": 139.42,
+          "end": 139.84,
+          "asr_segment_index": 23
+        },
+        {
+          "word": "usage",
+          "start": 139.84,
+          "end": 140.2,
+          "asr_segment_index": 23
+        },
+        {
+          "word": "panel",
+          "start": 140.2,
+          "end": 141.18,
+          "asr_segment_index": 23
+        },
+        {
+          "word": "shows",
+          "start": 141.18,
+          "end": 141.64,
+          "asr_segment_index": 23
+        },
+        {
+          "word": "the",
+          "start": 141.64,
+          "end": 141.88,
+          "asr_segment_index": 23
+        },
+        {
+          "word": "cost",
+          "start": 141.88,
+          "end": 142.66,
+          "asr_segment_index": 23
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 25,
+      "start_timecode": "00:02:19.420",
+      "end_timecode": "00:02:22.660",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "The usage panel shows the cost",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 142.94,
+      "end": 146.26,
+      "text": "I check the time that I have lost.",
+      "section": "Verse 2",
+      "prompt_line_index": 25,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I check the time that I have lost",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 142.94,
+          "end": 143.24,
+          "asr_segment_index": 24
+        },
+        {
+          "word": "check",
+          "start": 143.24,
+          "end": 143.44,
+          "asr_segment_index": 24
+        },
+        {
+          "word": "the",
+          "start": 143.44,
+          "end": 143.8,
+          "asr_segment_index": 24
+        },
+        {
+          "word": "time",
+          "start": 143.8,
+          "end": 144.54,
+          "asr_segment_index": 24
+        },
+        {
+          "word": "that",
+          "start": 144.54,
+          "end": 144.8,
+          "asr_segment_index": 24
+        },
+        {
+          "word": "I",
+          "start": 144.8,
+          "end": 145.18,
+          "asr_segment_index": 24
+        },
+        {
+          "word": "have",
+          "start": 145.18,
+          "end": 145.5,
+          "asr_segment_index": 24
+        },
+        {
+          "word": "lost",
+          "start": 145.5,
+          "end": 146.26,
+          "asr_segment_index": 24
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 26,
+      "start_timecode": "00:02:22.940",
+      "end_timecode": "00:02:26.260",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I check the time that I have lost",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 146.48,
+      "end": 149.08,
+      "text": "I meant to finish, save and leave,",
+      "section": "Verse 2",
+      "prompt_line_index": 26,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I meant to finish save and leave",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 146.48,
+          "end": 146.74,
+          "asr_segment_index": 25
+        },
+        {
+          "word": "meant",
+          "start": 146.74,
+          "end": 146.92,
+          "asr_segment_index": 25
+        },
+        {
+          "word": "to",
+          "start": 146.92,
+          "end": 147.3,
+          "asr_segment_index": 25
+        },
+        {
+          "word": "finish",
+          "start": 147.3,
+          "end": 147.48,
+          "asr_segment_index": 25
+        },
+        {
+          "word": "save",
+          "start": 148.34,
+          "end": 148.7,
+          "asr_segment_index": 25
+        },
+        {
+          "word": "and",
+          "start": 148.7,
+          "end": 148.98,
+          "asr_segment_index": 25
+        },
+        {
+          "word": "leave",
+          "start": 148.98,
+          "end": 149.08,
+          "asr_segment_index": 25
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 27,
+      "start_timecode": "00:02:26.480",
+      "end_timecode": "00:02:29.080",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I meant to finish and save and",
+        "text_similarity": 0.84,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 149.62,
+      "end": 152.74,
+      "text": "now there's one more thing to achieve.",
+      "section": "Verse 2",
+      "prompt_line_index": 27,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Now this is my One more thing to achieve",
+      "asr_words": [
+        {
+          "word": "Now",
+          "start": 149.62,
+          "end": 149.86,
+          "asr_segment_index": 26
+        },
+        {
+          "word": "this",
+          "start": 149.86,
+          "end": 149.88,
+          "asr_segment_index": 26
+        },
+        {
+          "word": "is",
+          "start": 149.88,
+          "end": 149.98,
+          "asr_segment_index": 26
+        },
+        {
+          "word": "my",
+          "start": 149.98,
+          "end": 149.98,
+          "asr_segment_index": 26
+        },
+        {
+          "word": "One",
+          "start": 150.16,
+          "end": 150.7,
+          "asr_segment_index": 27
+        },
+        {
+          "word": "more",
+          "start": 150.7,
+          "end": 151.16,
+          "asr_segment_index": 27
+        },
+        {
+          "word": "thing",
+          "start": 151.16,
+          "end": 151.9,
+          "asr_segment_index": 27
+        },
+        {
+          "word": "to",
+          "start": 151.9,
+          "end": 152.6,
+          "asr_segment_index": 27
+        },
+        {
+          "word": "achieve",
+          "start": 152.6,
+          "end": 152.74,
+          "asr_segment_index": 27
+        }
+      ],
+      "matched_word_fraction": 0.857,
+      "text_similarity": 0.871,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen.",
+        "Mindestens ein Wort hat eine zusammengefallene DTW-Zeitgrenze.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 28,
+      "start_timecode": "00:02:29.620",
+      "end_timecode": "00:02:32.740",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I'm not One more thing to",
+        "text_similarity": 0.694,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 153.0,
+      "end": 153.72,
+      "text": "Token Burn.",
+      "section": "Chorus 2",
+      "prompt_line_index": 28,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Token Burn",
+      "asr_words": [
+        {
+          "word": "Token Burn",
+          "start": 153.0,
+          "end": 153.72,
+          "asr_segment_index": 28,
+          "asr_component_words": [
+            {
+              "word": "Token",
+              "start": 153.0,
+              "end": 153.6,
+              "asr_segment_index": 28
+            },
+            {
+              "word": "Burn",
+              "start": 153.6,
+              "end": 153.72,
+              "asr_segment_index": 28
+            }
+          ]
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": true,
+      "review_reasons": [
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 29,
+      "start_timecode": "00:02:33.000",
+      "end_timecode": "00:02:33.720",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Token",
+        "text_similarity": 0.714,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 156.14,
+      "end": 159.1,
+      "text": "One more prompt before I go.",
+      "section": "Chorus 2",
+      "prompt_line_index": 29,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "One more prompt before I go",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 156.14,
+          "end": 156.62,
+          "asr_segment_index": 29
+        },
+        {
+          "word": "more",
+          "start": 156.62,
+          "end": 157.18,
+          "asr_segment_index": 29
+        },
+        {
+          "word": "prompt",
+          "start": 157.18,
+          "end": 157.84,
+          "asr_segment_index": 29
+        },
+        {
+          "word": "before",
+          "start": 157.84,
+          "end": 158.4,
+          "asr_segment_index": 29
+        },
+        {
+          "word": "I",
+          "start": 158.4,
+          "end": 158.8,
+          "asr_segment_index": 29
+        },
+        {
+          "word": "go",
+          "start": 158.8,
+          "end": 159.1,
+          "asr_segment_index": 29
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 30,
+      "start_timecode": "00:02:36.140",
+      "end_timecode": "00:02:39.100",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One more prompt before I go",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 159.8,
+      "end": 161.0,
+      "text": "Token Burn.",
+      "section": "Chorus 2",
+      "prompt_line_index": 30,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Token Burn",
+      "asr_words": [
+        {
+          "word": "Token Burn",
+          "start": 159.8,
+          "end": 161.0,
+          "asr_segment_index": 30,
+          "asr_component_words": [
+            {
+              "word": "Token",
+              "start": 159.8,
+              "end": 160.66,
+              "asr_segment_index": 30
+            },
+            {
+              "word": "Burn",
+              "start": 160.66,
+              "end": 161.0,
+              "asr_segment_index": 30
+            }
+          ]
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 31,
+      "start_timecode": "00:02:39.800",
+      "end_timecode": "00:02:41.000",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Token burn",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 163.18,
+      "end": 166.14,
+      "text": "One more thing I need to know.",
+      "section": "Chorus 2",
+      "prompt_line_index": 31,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "One more thing I need to know",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 163.18,
+          "end": 163.64,
+          "asr_segment_index": 31
+        },
+        {
+          "word": "more",
+          "start": 163.64,
+          "end": 164.06,
+          "asr_segment_index": 31
+        },
+        {
+          "word": "thing",
+          "start": 164.06,
+          "end": 164.6,
+          "asr_segment_index": 31
+        },
+        {
+          "word": "I",
+          "start": 164.6,
+          "end": 165.06,
+          "asr_segment_index": 31
+        },
+        {
+          "word": "need",
+          "start": 165.06,
+          "end": 165.6,
+          "asr_segment_index": 31
+        },
+        {
+          "word": "to",
+          "start": 165.6,
+          "end": 165.94,
+          "asr_segment_index": 31
+        },
+        {
+          "word": "know",
+          "start": 165.94,
+          "end": 166.14,
+          "asr_segment_index": 31
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 32,
+      "start_timecode": "00:02:43.180",
+      "end_timecode": "00:02:46.140",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One more thing I need to",
+        "text_similarity": 0.905,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 166.9,
+      "end": 169.68,
+      "text": "One death shots two more appear",
+      "section": "Chorus 2",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "One death shots two more appear",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 166.9,
+          "end": 167.42,
+          "asr_segment_index": 32
+        },
+        {
+          "word": "death",
+          "start": 167.42,
+          "end": 167.82,
+          "asr_segment_index": 32
+        },
+        {
+          "word": "shots",
+          "start": 167.82,
+          "end": 168.1,
+          "asr_segment_index": 32
+        },
+        {
+          "word": "two",
+          "start": 168.4,
+          "end": 168.72,
+          "asr_segment_index": 32
+        },
+        {
+          "word": "more",
+          "start": 168.72,
+          "end": 169.26,
+          "asr_segment_index": 32
+        },
+        {
+          "word": "appear",
+          "start": 169.26,
+          "end": 169.68,
+          "asr_segment_index": 32
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 33,
+      "start_timecode": "00:02:46.900",
+      "end_timecode": "00:02:49.680",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One death shot two more appear",
+        "text_similarity": 0.98,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 170.58,
+      "end": 173.08,
+      "text": "I said I'd leave. I'm still right here.",
+      "section": "Chorus 2",
+      "prompt_line_index": 33,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I said I'd leave I'm still right here",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 170.58,
+          "end": 170.86,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "said",
+          "start": 170.86,
+          "end": 171.1,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "I'd",
+          "start": 171.1,
+          "end": 171.4,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "leave",
+          "start": 171.4,
+          "end": 171.58,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "I'm",
+          "start": 171.94,
+          "end": 172.18,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "still",
+          "start": 172.18,
+          "end": 172.46,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "right",
+          "start": 172.46,
+          "end": 172.96,
+          "asr_segment_index": 33
+        },
+        {
+          "word": "here",
+          "start": 172.96,
+          "end": 173.08,
+          "asr_segment_index": 33
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 34,
+      "start_timecode": "00:02:50.580",
+      "end_timecode": "00:02:53.080",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I said I'd leave I'm still right",
+        "text_similarity": 0.923,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 182.3,
+      "end": 184.7,
+      "text": "Cold coffee, daylight through the glass,",
+      "section": "Bridge",
+      "prompt_line_index": 34,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Cold coffee daylight through the glass",
+      "asr_words": [
+        {
+          "word": "Cold",
+          "start": 182.3,
+          "end": 182.88,
+          "asr_segment_index": 34
+        },
+        {
+          "word": "coffee",
+          "start": 182.88,
+          "end": 183.02,
+          "asr_segment_index": 34
+        },
+        {
+          "word": "daylight",
+          "start": 183.68,
+          "end": 183.84,
+          "asr_segment_index": 34
+        },
+        {
+          "word": "through",
+          "start": 184.0,
+          "end": 184.1,
+          "asr_segment_index": 34
+        },
+        {
+          "word": "the",
+          "start": 184.1,
+          "end": 184.44,
+          "asr_segment_index": 34
+        },
+        {
+          "word": "glass",
+          "start": 184.44,
+          "end": 184.7,
+          "asr_segment_index": 34
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 35,
+      "start_timecode": "00:03:02.300",
+      "end_timecode": "00:03:04.700",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Cold coffee daylight through with",
+        "text_similarity": 0.871,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 185.66,
+      "end": 188.02,
+      "text": "another answer, minutes pass.",
+      "section": "Bridge",
+      "prompt_line_index": 35,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Another answer minutes past",
+      "asr_words": [
+        {
+          "word": "Another",
+          "start": 185.66,
+          "end": 186.22,
+          "asr_segment_index": 35
+        },
+        {
+          "word": "answer",
+          "start": 186.22,
+          "end": 186.56,
+          "asr_segment_index": 35
+        },
+        {
+          "word": "minutes",
+          "start": 187.54,
+          "end": 187.92,
+          "asr_segment_index": 35
+        },
+        {
+          "word": "past",
+          "start": 187.92,
+          "end": 188.02,
+          "asr_segment_index": 35
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 0.958,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen."
+      ],
+      "id": 36,
+      "start_timecode": "00:03:05.660",
+      "end_timecode": "00:03:08.020",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Another answer minutes",
+        "text_similarity": 0.909,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 188.98,
+      "end": 191.38,
+      "text": "That little phrase comes back so clear:",
+      "section": "Bridge",
+      "prompt_line_index": 36,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "That little phrase comes back so clear",
+      "asr_words": [
+        {
+          "word": "That",
+          "start": 188.98,
+          "end": 189.26,
+          "asr_segment_index": 36
+        },
+        {
+          "word": "little",
+          "start": 189.26,
+          "end": 189.64,
+          "asr_segment_index": 36
+        },
+        {
+          "word": "phrase",
+          "start": 189.64,
+          "end": 190.14,
+          "asr_segment_index": 36
+        },
+        {
+          "word": "comes",
+          "start": 190.14,
+          "end": 190.5,
+          "asr_segment_index": 36
+        },
+        {
+          "word": "back",
+          "start": 190.5,
+          "end": 190.76,
+          "asr_segment_index": 36
+        },
+        {
+          "word": "so",
+          "start": 190.76,
+          "end": 191.26,
+          "asr_segment_index": 36
+        },
+        {
+          "word": "clear",
+          "start": 191.26,
+          "end": 191.38,
+          "asr_segment_index": 36
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 37,
+      "start_timecode": "00:03:08.980",
+      "end_timecode": "00:03:11.380",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "That little phrase comes back so",
+        "text_similarity": 0.915,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 192.48,
+      "end": 195.9,
+      "text": "A little while. I'll stay right here.",
+      "section": "Bridge",
+      "prompt_line_index": 37,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "A little while I'll stay right here",
+      "asr_words": [
+        {
+          "word": "A",
+          "start": 192.48,
+          "end": 192.76,
+          "asr_segment_index": 37
+        },
+        {
+          "word": "little",
+          "start": 192.76,
+          "end": 193.06,
+          "asr_segment_index": 37
+        },
+        {
+          "word": "while",
+          "start": 193.06,
+          "end": 193.36,
+          "asr_segment_index": 37
+        },
+        {
+          "word": "I'll",
+          "start": 194.62,
+          "end": 194.84,
+          "asr_segment_index": 37
+        },
+        {
+          "word": "stay",
+          "start": 194.84,
+          "end": 195.16,
+          "asr_segment_index": 37
+        },
+        {
+          "word": "right",
+          "start": 195.16,
+          "end": 195.7,
+          "asr_segment_index": 37
+        },
+        {
+          "word": "here",
+          "start": 195.7,
+          "end": 195.9,
+          "asr_segment_index": 37
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 38,
+      "start_timecode": "00:03:12.480",
+      "end_timecode": "00:03:15.900",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "A little while I'll stay right",
+        "text_similarity": 0.923,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 198.56,
+      "end": 199.24,
+      "text": "Talking burn",
+      "section": "Chorus 3",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Talking burn",
+      "asr_words": [
+        {
+          "word": "Talking burn",
+          "start": 198.56,
+          "end": 199.24,
+          "asr_segment_index": 38,
+          "asr_component_words": [
+            {
+              "word": "Talking",
+              "start": 198.56,
+              "end": 199.16,
+              "asr_segment_index": 38
+            },
+            {
+              "word": "burn",
+              "start": 199.16,
+              "end": 199.24,
+              "asr_segment_index": 38
+            }
+          ]
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 39,
+      "start_timecode": "00:03:18.560",
+      "end_timecode": "00:03:19.240",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Talking",
+        "text_similarity": 0.778,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 201.7,
+      "end": 204.56,
+      "text": "One more prompt before I go.",
+      "section": "Chorus 3",
+      "prompt_line_index": 39,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "One more prompt before I go",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 201.7,
+          "end": 202.16,
+          "asr_segment_index": 39
+        },
+        {
+          "word": "more",
+          "start": 202.16,
+          "end": 202.74,
+          "asr_segment_index": 39
+        },
+        {
+          "word": "prompt",
+          "start": 202.74,
+          "end": 203.4,
+          "asr_segment_index": 39
+        },
+        {
+          "word": "before",
+          "start": 203.4,
+          "end": 203.9,
+          "asr_segment_index": 39
+        },
+        {
+          "word": "I",
+          "start": 203.9,
+          "end": 204.3,
+          "asr_segment_index": 39
+        },
+        {
+          "word": "go",
+          "start": 204.3,
+          "end": 204.56,
+          "asr_segment_index": 39
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 40,
+      "start_timecode": "00:03:21.700",
+      "end_timecode": "00:03:24.560",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One more problem before I",
+        "text_similarity": 0.837,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 205.58,
+      "end": 206.4,
+      "text": "Talking burn",
+      "section": "Chorus 3",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Talking burn",
+      "asr_words": [
+        {
+          "word": "Talking burn",
+          "start": 205.58,
+          "end": 206.4,
+          "asr_segment_index": 40,
+          "asr_component_words": [
+            {
+              "word": "Talking",
+              "start": 205.58,
+              "end": 206.18,
+              "asr_segment_index": 40
+            },
+            {
+              "word": "burn",
+              "start": 206.18,
+              "end": 206.4,
+              "asr_segment_index": 40
+            }
+          ]
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 41,
+      "start_timecode": "00:03:25.580",
+      "end_timecode": "00:03:26.400",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Talking",
+        "text_similarity": 0.778,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 208.68,
+      "end": 211.58,
+      "text": "One more thing I need to know.",
+      "section": "Chorus 3",
+      "prompt_line_index": 41,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "One more thing I need to know",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 208.68,
+          "end": 209.16,
+          "asr_segment_index": 41
+        },
+        {
+          "word": "more",
+          "start": 209.16,
+          "end": 209.74,
+          "asr_segment_index": 41
+        },
+        {
+          "word": "thing",
+          "start": 209.74,
+          "end": 209.74,
+          "asr_segment_index": 41
+        },
+        {
+          "word": "I",
+          "start": 210.08,
+          "end": 210.52,
+          "asr_segment_index": 42
+        },
+        {
+          "word": "need",
+          "start": 210.52,
+          "end": 211.14,
+          "asr_segment_index": 42
+        },
+        {
+          "word": "to",
+          "start": 211.14,
+          "end": 211.4,
+          "asr_segment_index": 42
+        },
+        {
+          "word": "know",
+          "start": 211.4,
+          "end": 211.58,
+          "asr_segment_index": 42
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": true,
+      "review_reasons": [
+        "Mindestens ein Wort hat eine zusammengefallene DTW-Zeitgrenze."
+      ],
+      "id": 42,
+      "start_timecode": "00:03:28.680",
+      "end_timecode": "00:03:31.580",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One more thing I need to",
+        "text_similarity": 0.905,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 212.42,
+      "end": 215.8,
+      "text": "One tab shuts, two more appear,",
+      "section": "Chorus 3",
+      "prompt_line_index": 42,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "One tap shuts two more appear",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 212.42,
+          "end": 212.92,
+          "asr_segment_index": 43
+        },
+        {
+          "word": "tap",
+          "start": 212.92,
+          "end": 213.24,
+          "asr_segment_index": 43
+        },
+        {
+          "word": "shuts",
+          "start": 213.24,
+          "end": 213.56,
+          "asr_segment_index": 43
+        },
+        {
+          "word": "two",
+          "start": 213.94,
+          "end": 214.24,
+          "asr_segment_index": 43
+        },
+        {
+          "word": "more",
+          "start": 214.24,
+          "end": 214.74,
+          "asr_segment_index": 43
+        },
+        {
+          "word": "appear",
+          "start": 214.74,
+          "end": 215.8,
+          "asr_segment_index": 43
+        }
+      ],
+      "matched_word_fraction": 0.833,
+      "text_similarity": 0.958,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen."
+      ],
+      "id": 43,
+      "start_timecode": "00:03:32.420",
+      "end_timecode": "00:03:35.800",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One tap shots two more appear",
+        "text_similarity": 0.917,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 216.04,
+      "end": 218.42,
+      "text": "I said I'd leave. I'm still right here.",
+      "section": "Chorus 3",
+      "prompt_line_index": 43,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "I said I'd leave I'm still right here",
+      "asr_words": [
+        {
+          "word": "I",
+          "start": 216.04,
+          "end": 216.32,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "said",
+          "start": 216.32,
+          "end": 216.52,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "I'd",
+          "start": 216.52,
+          "end": 216.9,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "leave",
+          "start": 216.9,
+          "end": 217.0,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "I'm",
+          "start": 217.4,
+          "end": 217.64,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "still",
+          "start": 217.64,
+          "end": 217.94,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "right",
+          "start": 217.94,
+          "end": 218.42,
+          "asr_segment_index": 44
+        },
+        {
+          "word": "here",
+          "start": 218.42,
+          "end": 218.42,
+          "asr_segment_index": 44
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": true,
+      "review_reasons": [
+        "Mindestens ein Wort hat eine zusammengefallene DTW-Zeitgrenze."
+      ],
+      "id": 44,
+      "start_timecode": "00:03:36.040",
+      "end_timecode": "00:03:38.420",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I said I'd leave I'm still right",
+        "text_similarity": 0.923,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 225.64,
+      "end": 227.24,
+      "text": "One final prompt is set to run.",
+      "section": "Outro",
+      "prompt_line_index": 44,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "One final prompt is set to run",
+      "asr_words": [
+        {
+          "word": "One",
+          "start": 225.64,
+          "end": 226.06,
+          "asr_segment_index": 45
+        },
+        {
+          "word": "final",
+          "start": 226.06,
+          "end": 226.42,
+          "asr_segment_index": 45
+        },
+        {
+          "word": "prompt",
+          "start": 226.42,
+          "end": 226.6,
+          "asr_segment_index": 45
+        },
+        {
+          "word": "is",
+          "start": 226.6,
+          "end": 226.82,
+          "asr_segment_index": 45
+        },
+        {
+          "word": "set",
+          "start": 226.82,
+          "end": 226.96,
+          "asr_segment_index": 45
+        },
+        {
+          "word": "to",
+          "start": 226.96,
+          "end": 227.14,
+          "asr_segment_index": 45
+        },
+        {
+          "word": "run",
+          "start": 227.14,
+          "end": 227.24,
+          "asr_segment_index": 45
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 45,
+      "start_timecode": "00:03:45.640",
+      "end_timecode": "00:03:47.240",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "One final prompt is set to",
+        "text_similarity": 0.933,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 232.58,
+      "end": 234.34,
+      "text": "I'm pressing send I'm not quite done",
+      "section": "Outro",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "I'm pressing send I'm not quite done",
+      "asr_words": [
+        {
+          "word": "I'm",
+          "start": 232.58,
+          "end": 232.94,
+          "asr_segment_index": 46
+        },
+        {
+          "word": "pressing",
+          "start": 232.94,
+          "end": 233.4,
+          "asr_segment_index": 46
+        },
+        {
+          "word": "send",
+          "start": 233.4,
+          "end": 233.42,
+          "asr_segment_index": 46
+        },
+        {
+          "word": "I'm",
+          "start": 233.64,
+          "end": 233.72,
+          "asr_segment_index": 46
+        },
+        {
+          "word": "not",
+          "start": 233.72,
+          "end": 234.0,
+          "asr_segment_index": 46
+        },
+        {
+          "word": "quite",
+          "start": 234.0,
+          "end": 234.26,
+          "asr_segment_index": 46
+        },
+        {
+          "word": "done",
+          "start": 234.26,
+          "end": 234.34,
+          "asr_segment_index": 46
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 46,
+      "start_timecode": "00:03:52.580",
+      "end_timecode": "00:03:54.340",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW / CPU",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "I'm pressing set I'm quite",
+        "text_similarity": 0.792,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    }
+  ],
+  "unmatched_prompt_lines": [
+    {
+      "text": "The night gets short, the text gets long,",
+      "section": "Pre-Chorus",
+      "first": 80,
+      "last": 87,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "One tab shuts, two more appear,",
+      "section": "Chorus 2",
+      "first": 197,
+      "last": 202,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Token Burn.",
+      "section": "Chorus 3",
+      "first": 235,
+      "last": 235,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Token Burn.",
+      "section": "Chorus 3",
+      "first": 242,
+      "last": 242,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "I press on Send. I'm not quite done.",
+      "section": "Outro",
+      "first": 271,
+      "last": 278,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    }
+  ],
+  "excluded_asr_words": [
+    {
+      "word": "Thank",
+      "start": 88.46,
+      "end": 88.74,
+      "asr_segment_index": 11,
+      "exclusion_reason": "Kurze ASR-Floskel ohne Lyrics- oder Turbo-Beleg; möglicher Halluzinationsrest, nicht als Untertitel übernommen."
+    },
+    {
+      "word": "you",
+      "start": 88.74,
+      "end": 88.74,
+      "asr_segment_index": 11,
+      "exclusion_reason": "Kurze ASR-Floskel ohne Lyrics- oder Turbo-Beleg; möglicher Halluzinationsrest, nicht als Untertitel übernommen."
+    },
+    {
+      "word": "Thank",
+      "start": 243.12,
+      "end": 243.14,
+      "asr_segment_index": 47,
+      "exclusion_reason": "Kurze ASR-Floskel ohne Lyrics- oder Turbo-Beleg; möglicher Halluzinationsrest, nicht als Untertitel übernommen."
+    },
+    {
+      "word": "you",
+      "start": 243.14,
+      "end": 243.16,
+      "asr_segment_index": 47,
+      "exclusion_reason": "Kurze ASR-Floskel ohne Lyrics- oder Turbo-Beleg; möglicher Halluzinationsrest, nicht als Untertitel übernommen."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+[Intro]
+Snapshot created.
+"Before update."
+Fourteen months ago.
+
+[Verse 1]
+Before an update, way back then, just to be safe, one click,
+a snapshot named "before update," a way back, nice and quick.
+The update went fine, the server ran on, the snapshot stayed,
+and every write since then went to a delta that grew and weighed.
+Six hundred gigs of delta, the datastore nearly full,
+then the VM freezes: Retry or Cancel, no room at all.
+
+[Chorus]
+Snapshot.
+One moment frozen in time.
+Snapshot.
+Not a backup, just a way back down the line.
+The longer it lives, the heavier the weight,
+delete it before it's too late.
+
+[Verse 2]
+I clear some space on the datastore, move two VMs away,
+the VM runs again, and now the snapshot can't stay.
+Deleting means consolidate, block by block into the base,
+the bar crawls, three percent, four percent, a long night's pace.
+At six a.m.: a hundred percent, the delta disk is gone,
+a report every morning: snapshots older than three days? None.
+
+[Chorus]
+Snapshot.
+One moment frozen in time.
+Snapshot.
+Not a backup, just a way back down the line.
+The longer it lives, the heavier the weight,
+delete it before it's too late.
+
+[Bridge]
+A snapshot holds the moment,
+a backup brings it back.
+One lives on the same disk,
+the other on a separate track.
+
+[Chorus]
+Snapshot.
+One moment frozen in time.
+Snapshot.
+Not a backup, just a way back down the line.
+The longer it lives, the heavier the weight,
+delete it before it's too late.
+
+[Outro]
+Snapshot deleted.
+Consolidation complete.
+Fourteen months.

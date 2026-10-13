@@ -1,0 +1,1046 @@
+{
+ "schema": "kisound.token-burn.cues.v1",
+ "language": "de",
+ "source_wav": "Token Burn - DE.wav",
+ "duration_s": 245.9335,
+ "fade_start_s": 240,
+ "gaps_s": [
+  [
+   14.15,
+   14.3
+  ],
+  [
+   141.85,
+   142
+  ]
+ ],
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Nur ein Regler",
+   "shot": "S001",
+   "start": 0,
+   "end": 28.56,
+   "action": "Ein heller Bildschirm in der Nacht, eine kleine Änderungsnotiz."
+  },
+  {
+   "id": "C02",
+   "title": "01:00",
+   "shot": "S007",
+   "start": 28.56,
+   "end": 42.8,
+   "action": "Der erste Build läuft; ein Bassregler und ein zweiter Klang kommen dazu."
+  },
+  {
+   "id": "C03",
+   "title": "Bassspur leer",
+   "shot": "S011",
+   "start": 42.8,
+   "end": 52.92,
+   "action": "Nach Reload fehlt die Bassreihe; eine Zeile im Ladepfad fehlt."
+  },
+  {
+   "id": "C04",
+   "title": "02:00",
+   "shot": "S014",
+   "start": 52.92,
+   "end": 78.66,
+   "action": "Derselbe Test besteht. Die Hand bleibt an der Tastatur."
+  },
+  {
+   "id": "C05",
+   "title": "Token Burn",
+   "shot": "S020",
+   "start": 78.66,
+   "end": 100.84,
+   "action": "Erster Refrain: Noch ein Prompt, ein Tab zu, zwei neue."
+  },
+  {
+   "id": "C06",
+   "title": "Der Stand von eben",
+   "shot": "S026",
+   "start": 100.84,
+   "end": 115.08,
+   "action": "Drei gespeicherte Projektstände und ein freier Platz."
+  },
+  {
+   "id": "C07",
+   "title": "03:00 · Export",
+   "shot": "S028",
+   "start": 115.08,
+   "end": 128.58,
+   "action": "Der Export lässt die Bassspur weg; die Reparatur prüft 64 Schritte."
+  },
+  {
+   "id": "C08",
+   "title": "Nutzungsjournal",
+   "shot": "S032",
+   "start": 128.58,
+   "end": 139.88,
+   "action": "Input, Output, Summe und fiktive Demo-Credits je Auftrag."
+  },
+  {
+   "id": "C09",
+   "title": "Noch ein Prompt",
+   "shot": "S035",
+   "start": 139.88,
+   "end": 164.28,
+   "action": "Zweiter Refrain: Die Schrift wird räumlich."
+  },
+  {
+   "id": "C10",
+   "title": "Kalter Kaffee",
+   "shot": "S042",
+   "start": 164.28,
+   "end": 188.46,
+   "action": "Das Fenster wird hell, die Antwort wird gelesen."
+  },
+  {
+   "id": "C11",
+   "title": "Tageslicht",
+   "shot": "S047",
+   "start": 188.46,
+   "end": 215.6,
+   "action": "Dritter Refrain im Morgenlicht, alles hat dieselbe Version."
+  },
+  {
+   "id": "C12",
+   "title": "Preset speichern",
+   "shot": "S054",
+   "start": 215.6,
+   "end": 227.84,
+   "action": "Der nächste Auftrag wird abgesendet und läuft weiter."
+  },
+  {
+   "id": "C13",
+   "title": "Morgen",
+   "shot": "S056",
+   "start": 227.84,
+   "end": 245.9335,
+   "action": "Zurück durch das Fenster; der Cursor bleibt."
+  }
+ ],
+ "keywords": [
+  {
+   "id": "H01",
+   "shot": "S020",
+   "start": 78.66,
+   "vocalEnd": 79.9,
+   "visualEnd": 80.15
+  },
+  {
+   "id": "H02",
+   "shot": "S022",
+   "start": 85.74,
+   "vocalEnd": 87.02,
+   "visualEnd": 87.27
+  },
+  {
+   "id": "H03",
+   "shot": "S036",
+   "start": 142.26,
+   "vocalEnd": 143.22,
+   "visualEnd": 143.56
+  },
+  {
+   "id": "H04",
+   "shot": "S038",
+   "start": 149.42,
+   "vocalEnd": 150.34,
+   "visualEnd": 150.72
+  },
+  {
+   "id": "H05",
+   "shot": "S047",
+   "start": 188.46,
+   "vocalEnd": 189.1,
+   "visualEnd": 189.76
+  },
+  {
+   "id": "H06",
+   "shot": "S049",
+   "start": 195.18,
+   "vocalEnd": 196.52,
+   "visualEnd": 196.77
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 9.18,
+   "zone": "room",
+   "mode": "3D",
+   "event_ids": [
+    "E001"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S002",
+   "start_s": 9.18,
+   "end_s": 13.14,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E002"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S003",
+   "start_s": 13.14,
+   "end_s": 14.3,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [
+    "E003",
+    "E004",
+    "E005"
+   ],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 14.3,
+   "end_s": 21,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S005",
+   "start_s": 21,
+   "end_s": 25,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S006",
+   "start_s": 25,
+   "end_s": 28.56,
+   "zone": "project",
+   "mode": "hybrid",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S007",
+   "start_s": 28.56,
+   "end_s": 32.2,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [
+    "E006"
+   ],
+   "lyric_ids": [
+    "L003"
+   ]
+  },
+  {
+   "id": "S008",
+   "start_s": 32.2,
+   "end_s": 35.7,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L004"
+   ]
+  },
+  {
+   "id": "S009",
+   "start_s": 35.7,
+   "end_s": 39.2,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L005"
+   ]
+  },
+  {
+   "id": "S010",
+   "start_s": 39.2,
+   "end_s": 42.8,
+   "zone": "project",
+   "mode": "hybrid",
+   "event_ids": [],
+   "lyric_ids": [
+    "L006"
+   ]
+  },
+  {
+   "id": "S011",
+   "start_s": 42.8,
+   "end_s": 46.26,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L007"
+   ]
+  },
+  {
+   "id": "S012",
+   "start_s": 46.26,
+   "end_s": 49.82,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L008"
+   ]
+  },
+  {
+   "id": "S013",
+   "start_s": 49.82,
+   "end_s": 52.92,
+   "zone": "project",
+   "mode": "3D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S014",
+   "start_s": 52.92,
+   "end_s": 56.56,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S015",
+   "start_s": 56.56,
+   "end_s": 63.04,
+   "zone": "room",
+   "mode": "3D",
+   "event_ids": [
+    "E007",
+    "E008"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S016",
+   "start_s": 63.04,
+   "end_s": 66.62,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E009",
+    "E010"
+   ],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 66.62,
+   "end_s": 70.1,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 70.1,
+   "end_s": 73.7,
+   "zone": "project",
+   "mode": "hybrid",
+   "event_ids": [],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 73.7,
+   "end_s": 78.66,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L014"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 78.66,
+   "end_s": 82.56,
+   "zone": "type",
+   "mode": "2D",
+   "event_ids": [
+    "E011",
+    "E012",
+    "E013"
+   ],
+   "lyric_ids": [
+    "L015"
+   ]
+  },
+  {
+   "id": "S021",
+   "start_s": 82.56,
+   "end_s": 85.74,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L016"
+   ]
+  },
+  {
+   "id": "S022",
+   "start_s": 85.74,
+   "end_s": 89.14,
+   "zone": "type",
+   "mode": "hybrid",
+   "event_ids": [
+    "E014"
+   ],
+   "lyric_ids": [
+    "L017"
+   ]
+  },
+  {
+   "id": "S023",
+   "start_s": 89.14,
+   "end_s": 92.7,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L018",
+    "L019"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 92.7,
+   "end_s": 96.16,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L020"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 96.16,
+   "end_s": 100.84,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [
+    "E015",
+    "E016"
+   ],
+   "lyric_ids": [
+    "L021"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 100.84,
+   "end_s": 107.9,
+   "zone": "project",
+   "mode": "3D",
+   "event_ids": [
+    "E017"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S027",
+   "start_s": 107.9,
+   "end_s": 115.08,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E018",
+    "E019"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S028",
+   "start_s": 115.08,
+   "end_s": 118.68,
+   "zone": "room",
+   "mode": "3D",
+   "event_ids": [
+    "E020",
+    "E021"
+   ],
+   "lyric_ids": [
+    "L022"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 118.68,
+   "end_s": 122.16,
+   "zone": "project",
+   "mode": "hybrid",
+   "event_ids": [],
+   "lyric_ids": [
+    "L023",
+    "L024"
+   ]
+  },
+  {
+   "id": "S030",
+   "start_s": 122.16,
+   "end_s": 125.48,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L025"
+   ]
+  },
+  {
+   "id": "S031",
+   "start_s": 125.48,
+   "end_s": 128.58,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E022"
+   ],
+   "lyric_ids": [
+    "L026"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 128.58,
+   "end_s": 132.1,
+   "zone": "ledger",
+   "mode": "2D",
+   "event_ids": [
+    "E023"
+   ],
+   "lyric_ids": [
+    "L027"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 132.1,
+   "end_s": 135.96,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [
+    "E024"
+   ],
+   "lyric_ids": [
+    "L028"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 135.96,
+   "end_s": 139.88,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L029"
+   ]
+  },
+  {
+   "id": "S035",
+   "start_s": 139.88,
+   "end_s": 142.26,
+   "zone": "project",
+   "mode": "hybrid",
+   "event_ids": [
+    "E025"
+   ],
+   "lyric_ids": [
+    "L030"
+   ]
+  },
+  {
+   "id": "S036",
+   "start_s": 142.26,
+   "end_s": 145.82,
+   "zone": "type",
+   "mode": "3D",
+   "event_ids": [
+    "E026",
+    "E027"
+   ],
+   "lyric_ids": [
+    "L031"
+   ]
+  },
+  {
+   "id": "S037",
+   "start_s": 145.82,
+   "end_s": 149.42,
+   "zone": "ledger",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L032"
+   ]
+  },
+  {
+   "id": "S038",
+   "start_s": 149.42,
+   "end_s": 152.6,
+   "zone": "type",
+   "mode": "hybrid",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S039",
+   "start_s": 152.6,
+   "end_s": 156.16,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E028"
+   ],
+   "lyric_ids": [
+    "L033"
+   ]
+  },
+  {
+   "id": "S040",
+   "start_s": 156.16,
+   "end_s": 159.68,
+   "zone": "project",
+   "mode": "3D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L034"
+   ]
+  },
+  {
+   "id": "S041",
+   "start_s": 159.68,
+   "end_s": 164.28,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [
+    "E029"
+   ],
+   "lyric_ids": [
+    "L035"
+   ]
+  },
+  {
+   "id": "S042",
+   "start_s": 164.28,
+   "end_s": 171.58,
+   "zone": "room",
+   "mode": "3D",
+   "event_ids": [
+    "E030",
+    "E031"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S043",
+   "start_s": 171.58,
+   "end_s": 175.12,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [
+    "E032"
+   ],
+   "lyric_ids": [
+    "L036"
+   ]
+  },
+  {
+   "id": "S044",
+   "start_s": 175.12,
+   "end_s": 178.66,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L037"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 178.66,
+   "end_s": 182.22,
+   "zone": "desk",
+   "mode": "hybrid",
+   "event_ids": [
+    "E033"
+   ],
+   "lyric_ids": [
+    "L038"
+   ]
+  },
+  {
+   "id": "S046",
+   "start_s": 182.22,
+   "end_s": 188.46,
+   "zone": "room",
+   "mode": "3D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L039"
+   ]
+  },
+  {
+   "id": "S047",
+   "start_s": 188.46,
+   "end_s": 191.68,
+   "zone": "type",
+   "mode": "2D",
+   "event_ids": [
+    "E034"
+   ],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S048",
+   "start_s": 191.68,
+   "end_s": 195.18,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S049",
+   "start_s": 195.18,
+   "end_s": 198.58,
+   "zone": "type",
+   "mode": "hybrid",
+   "event_ids": [],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S050",
+   "start_s": 198.58,
+   "end_s": 202.06,
+   "zone": "project",
+   "mode": "3D",
+   "event_ids": [
+    "E035"
+   ],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S051",
+   "start_s": 202.06,
+   "end_s": 205.54,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L044"
+   ]
+  },
+  {
+   "id": "S052",
+   "start_s": 205.54,
+   "end_s": 209.98,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [
+    "E036"
+   ],
+   "lyric_ids": [
+    "L045"
+   ]
+  },
+  {
+   "id": "S053",
+   "start_s": 209.98,
+   "end_s": 215.6,
+   "zone": "room",
+   "mode": "3D",
+   "event_ids": [
+    "E037"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S054",
+   "start_s": 215.6,
+   "end_s": 223.26,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E038",
+    "E039"
+   ],
+   "lyric_ids": [
+    "L046"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 223.26,
+   "end_s": 227.84,
+   "zone": "desk",
+   "mode": "hybrid",
+   "event_ids": [
+    "E040"
+   ],
+   "lyric_ids": [
+    "L047"
+   ]
+  },
+  {
+   "id": "S056",
+   "start_s": 227.84,
+   "end_s": 234,
+   "zone": "room",
+   "mode": "3D",
+   "event_ids": [
+    "E041",
+    "E042",
+    "E043"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S057",
+   "start_s": 234,
+   "end_s": 240,
+   "zone": "exterior",
+   "mode": "3D",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S058",
+   "start_s": 240,
+   "end_s": 245.934,
+   "zone": "end",
+   "mode": "2D",
+   "event_ids": [
+    "E044",
+    "E045",
+    "E046",
+    "E047"
+   ],
+   "lyric_ids": []
+  }
+ ],
+ "jobs": [
+  {
+   "id": "P01",
+   "text": "Füge einen Level-Regler für die Kick-Spur hinzu.",
+   "typed_s": 11.635,
+   "sent_s": 16.7,
+   "done_s": 28.81,
+   "version": "v0.4",
+   "input_tokens": 1240,
+   "output_tokens": 360
+  },
+  {
+   "id": "P02",
+   "text": "Bassregler und zweite Stimme ergänzen. Pattern speichern und nach Reload wiederherstellen.",
+   "typed_s": 39.4,
+   "sent_s": 41.432,
+   "done_s": 52.3,
+   "version": "v0.5",
+   "input_tokens": 2360,
+   "output_tokens": 640
+  },
+  {
+   "id": "P03",
+   "text": "Projektstände vergleichen, nächste Ansicht anlegen.",
+   "typed_s": 63.14,
+   "sent_s": 63.64,
+   "done_s": 91.098,
+   "version": "v0.6",
+   "input_tokens": 3180,
+   "output_tokens": 820
+  },
+  {
+   "id": "P04",
+   "text": "Export mit allen vier Pattern-Reihen.",
+   "typed_s": 98.734,
+   "sent_s": 100.138,
+   "done_s": 127.96,
+   "version": "v0.7",
+   "input_tokens": 4600,
+   "output_tokens": 1400
+  },
+  {
+   "id": "P05",
+   "text": "Zusätzliche UI-Einstellungen dauerhaft übernehmen.",
+   "typed_s": 140.03,
+   "sent_s": 140.951,
+   "done_s": 154.095,
+   "version": "v0.8",
+   "input_tokens": 6240,
+   "output_tokens": 1760
+  },
+  {
+   "id": "P06",
+   "text": "Preset speichern",
+   "typed_s": 216,
+   "sent_s": 223.81,
+   "done_s": null,
+   "version": "v0.9",
+   "input_tokens": 7800,
+   "output_tokens": 1900
+  }
+ ],
+ "story": {
+  "bass_on_s": [
+   36.5,
+   36.88,
+   37.26,
+   37.64
+  ],
+  "reload_empty_s": 43.7,
+  "fix_line_s": 47.755,
+  "reload_fixed_s": 50.75,
+  "compare_s": 51.525,
+  "pass_s": 52.3,
+  "export": {
+   "show_s": 118.68,
+   "fail_s": 122.16,
+   "cause_s": 123.654,
+   "fix_s": 125.852,
+   "compare_s": 126.41,
+   "ready_s": 127.96
+  },
+  "tabs": [
+   {
+    "time_s": 93.461,
+    "op": "close",
+    "tab": "build"
+   },
+   {
+    "time_s": 94.361,
+    "op": "open",
+    "tab": "preview"
+   },
+   {
+    "time_s": 95.122,
+    "op": "open",
+    "tab": "export"
+   },
+   {
+    "time_s": 157.146,
+    "op": "close",
+    "tab": "docs"
+   },
+   {
+    "time_s": 157.92,
+    "op": "open",
+    "tab": "versions"
+   },
+   {
+    "time_s": 158.554,
+    "op": "open",
+    "tab": "settings"
+   },
+   {
+    "time_s": 202.686,
+    "op": "close",
+    "tab": "versions"
+   },
+   {
+    "time_s": 203.313,
+    "op": "open",
+    "tab": "presets"
+   },
+   {
+    "time_s": 203.87,
+    "op": "open",
+    "tab": "note"
+   }
+  ]
+ },
+ "usage_end": {
+  "input": 25420,
+  "output": 6880,
+  "total": 32300,
+  "credits": 39.18,
+  "rows": [
+   {
+    "id": "P01",
+    "input": 1240,
+    "output": 360,
+    "running": false,
+    "total": 1600,
+    "doneAt": 28.81
+   },
+   {
+    "id": "P02",
+    "input": 2360,
+    "output": 640,
+    "running": false,
+    "total": 4600,
+    "doneAt": 52.300000000000004
+   },
+   {
+    "id": "P03",
+    "input": 3180,
+    "output": 820,
+    "running": false,
+    "total": 8600,
+    "doneAt": 91.098
+   },
+   {
+    "id": "P04",
+    "input": 4600,
+    "output": 1400,
+    "running": false,
+    "total": 14600,
+    "doneAt": 127.96000000000001
+   },
+   {
+    "id": "P05",
+    "input": 6240,
+    "output": 1760,
+    "running": false,
+    "total": 22600,
+    "doneAt": 154.0952
+   },
+   {
+    "id": "P06",
+    "input": 7800,
+    "output": 1900,
+    "running": true,
+    "total": 32300,
+    "doneAt": null
+   }
+  ]
+ }
+}

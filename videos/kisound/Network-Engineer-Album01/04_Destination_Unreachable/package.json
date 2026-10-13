@@ -1,0 +1,24 @@
+{
+  "name": "kisound-ne01-destination-unreachable",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Destination Unreachable: deterministische Traceroute-Ermittlung durch einen nächtlichen Backbone mit Blackhole-Route, lokaler Browserplayer",
+  "scripts": {
+    "prepare": "node src/tools/prepare.mjs",
+    "preview": "node src/render/serve.mjs --open",
+    "serve": "node src/render/serve.mjs",
+    "check": "node --test tests/*.test.mjs",
+    "check:browser": "node src/tools/check-browser.mjs",
+    "cues": "node src/tools/write-cues.mjs",
+    "export:1080p": "node ../../tools/kisound-render.mjs 1080p",
+    "export:4k": "node ../../tools/kisound-render.mjs 4k",
+    "export:check": "node ../../tools/kisound-render.mjs --check"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.43.1"
+  }
+}

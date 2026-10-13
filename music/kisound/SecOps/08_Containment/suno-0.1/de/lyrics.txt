@@ -1,0 +1,53 @@
+[Intro]
+Isolieren.
+Sichern.
+Eindämmen.
+
+[Verse 1]
+Ein Rechner im Lager meldet sich alle sechzig Sekunden,
+immer dieselbe Domain, immer dieselbe Grösse, ein Beacon, gefunden.
+Nicht ausschalten, nicht neu starten, im Arbeitsspeicher liegt die Spur,
+erst ein Speicherabbild, Hash notiert, mit Datum und mit Uhr.
+EDR-Isolation: Nur die Konsole spricht noch mit ihm,
+ISE setzt den Switchport in Quarantäne, und er ist still im System.
+
+[Chorus]
+Containment.
+Isolieren.
+Containment.
+Eindämmen.
+Erst die Spur sichern, dann die Tür zu,
+dann ausräumen, und erst dann ist Ruh.
+
+[Verse 2]
+Auf der Firewall die Domain gesperrt, die Adresse blockiert,
+im SIEM gesucht, wer sonst noch funkt, zwei weitere, sofort isoliert.
+Dann ausräumen: neu installieren, Konten zurücksetzen, alles neu,
+dann wiederherstellen unter Beobachtung, langsam und ohne Scheu.
+
+[Chorus]
+Containment.
+Isolieren.
+Containment.
+Eindämmen.
+Erst die Spur sichern, dann die Tür zu,
+dann ausräumen, und erst dann ist Ruh.
+
+[Bridge]
+Erkennen. Eindämmen.
+Ausräumen. Wiederherstellen.
+Und keiner drückt Neustart,
+bevor wir die Fragen stellen.
+
+[Chorus]
+Containment.
+Isolieren.
+Containment.
+Eindämmen.
+Erst die Spur sichern, dann die Tür zu,
+dann ausräumen, und erst dann ist Ruh.
+
+[Outro]
+Drei Hosts isoliert.
+Beweise gesichert.
+Eingedämmt.

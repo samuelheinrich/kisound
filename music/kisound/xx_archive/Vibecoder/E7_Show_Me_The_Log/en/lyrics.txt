@@ -1,0 +1,55 @@
+[Intro]
+"It should work now."
+Should?
+Show me the log.
+
+[Verse 1]
+Daytime, a client calls: "The Wi-Fi's down again."
+I don't ask how it feels, I ask for a MAC and when.
+ISE live logs: Access-Reject, a bad cert on the device,
+FortiGate debug flow: policy zero, denied, precise.
+show logging on the switch, one port err-disabled,
+BPDU Guard shut it down. Now the cause is labeled.
+
+[Chorus]
+Show me the log.
+Not "should," not "maybe."
+Show me the log.
+The line that proves it plainly.
+Timestamp. Error. Code.
+Show me the log.
+
+[Verse 2]
+Night, the agent says: "It's fixed. It should be fine."
+I open up the console for the stack trace, line by line.
+TypeError, line forty-two, undefined on load,
+the fix went in the wrong file. That's why nothing showed.
+I paste the line back in: timestamp, file and code,
+now it knows where to look, and the bug has left the road.
+
+[Chorus]
+Show me the log.
+Not "should," not "maybe."
+Show me the log.
+The line that proves it plainly.
+Timestamp. Error. Code.
+Show me the log.
+
+[Bridge]
+Twenty years taught me this:
+Who guesses, searches long.
+Who reads, finds.
+Show me the log.
+
+[Chorus]
+Show me the log.
+Not "should," not "maybe."
+Show me the log.
+The line that proves it plainly.
+Timestamp. Error. Code.
+Show me the log.
+
+[Outro]
+Should?
+Does.
+The log is clean.

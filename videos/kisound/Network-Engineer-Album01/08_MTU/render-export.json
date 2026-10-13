@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "08_MTU",
+  "title": "MTU",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/mtu.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

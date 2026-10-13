@@ -1,0 +1,534 @@
+{
+  "title": "QoS",
+  "source_audio": "07_QoS_1.0.wav",
+  "source_audio_sha256": "2eb5c953db38d50aaeba2bb4d1c6fd761c8764dc961b52581308b7684e30c73f",
+  "duration_seconds": 239.0535,
+  "languages": [
+    "de",
+    "en"
+  ],
+  "time_origin": "Beginn der unveränderten WAV-Datei bei 0 Sekunden",
+  "timing_source": "Lokaler ASR-Wortabgleich mit whisper-large-v3 und whisper-large-v3-turbo; zusätzliche ASR-Ausschnitte bei schwierigen Stellen; keine manuelle Hörprüfung",
+  "text_source": "Akustisch zugeordnete Zeilen aus dem beibehaltenen Lyric-Prompt; zusätzliche erkannte Wiederholungen und abweichende Kurzzeilen aus dem ASR-Modellvergleich",
+  "review_status": "Automatisch erstellt; Hörprüfung offener Text- und Zeitkonflikte aus TRANSKRIPT-PRUEFUNG.md steht aus.",
+  "sections": [
+    {
+      "title": "Chorus",
+      "first_vocal_start": 13.3,
+      "last_vocal_end": 40.9
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 58.1,
+      "last_vocal_end": 85.78
+    },
+    {
+      "title": "Bridge",
+      "first_vocal_start": 88.88,
+      "last_vocal_end": 117.12
+    },
+    {
+      "title": "Break",
+      "first_vocal_start": 126.1,
+      "last_vocal_end": 149.08
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 151.15,
+      "last_vocal_end": 178.44
+    },
+    {
+      "title": "Outro",
+      "first_vocal_start": 195.2,
+      "last_vocal_end": 223.74
+    }
+  ],
+  "segments": [
+    {
+      "start": 13.3,
+      "end": 14.94,
+      "start_timecode": "00:00:13.300",
+      "end_timecode": "00:00:14.940",
+      "text": "Quality of Service.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 1
+    },
+    {
+      "start": 15.48,
+      "end": 18.58,
+      "start_timecode": "00:00:15.480",
+      "end_timecode": "00:00:18.580",
+      "text": "Nicht alles gleich.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 2
+    },
+    {
+      "start": 20.92,
+      "end": 22.44,
+      "start_timecode": "00:00:20.920",
+      "end_timecode": "00:00:22.440",
+      "text": "Echtzeit zuerst,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 3
+    },
+    {
+      "start": 22.52,
+      "end": 26.1,
+      "start_timecode": "00:00:22.520",
+      "end_timecode": "00:00:26.100",
+      "text": "was warten kann, reiht sich ein.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 4
+    },
+    {
+      "start": 28.38,
+      "end": 29.9,
+      "start_timecode": "00:00:28.380",
+      "end_timecode": "00:00:29.900",
+      "text": "Quality of Service.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 5
+    },
+    {
+      "start": 31.2,
+      "end": 33.9,
+      "start_timecode": "00:00:31.200",
+      "end_timecode": "00:00:33.900",
+      "text": "Wir teilen diesen Draht.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 6
+    },
+    {
+      "start": 35.24,
+      "end": 37.46,
+      "start_timecode": "00:00:35.240",
+      "end_timecode": "00:00:37.460",
+      "text": "Die Klasse setzt den Rahmen,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 7
+    },
+    {
+      "start": 38.48,
+      "end": 40.9,
+      "start_timecode": "00:00:38.480",
+      "end_timecode": "00:00:40.900",
+      "text": "die Policy hält den Takt.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 8
+    },
+    {
+      "start": 58.1,
+      "end": 60.62,
+      "start_timecode": "00:00:58.100",
+      "end_timecode": "00:01:00.620",
+      "text": "Ich trag die Dateien Stück für Stück,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 9
+    },
+    {
+      "start": 61.5,
+      "end": 63.64,
+      "start_timecode": "00:01:01.500",
+      "end_timecode": "00:01:03.640",
+      "text": "TCP zählt meine Bytes.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 10
+    },
+    {
+      "start": 65.38,
+      "end": 67.08,
+      "start_timecode": "00:01:05.380",
+      "end_timecode": "00:01:07.080",
+      "text": "Geht ein Segment verloren,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 11
+    },
+    {
+      "start": 68.6,
+      "end": 71.06,
+      "start_timecode": "00:01:08.600",
+      "end_timecode": "00:01:11.060",
+      "text": "schick ich es noch mal auf die Reise.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 12
+    },
+    {
+      "start": 72.7,
+      "end": 76.04,
+      "start_timecode": "00:01:12.700",
+      "end_timecode": "00:01:16.040",
+      "text": "Gib mir den Anteil, der mir bleibt,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 13
+    },
+    {
+      "start": 76.04,
+      "end": 78.38,
+      "start_timecode": "00:01:16.040",
+      "end_timecode": "00:01:18.380",
+      "text": "ich muss nicht vor dir durch die Tür.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 14
+    },
+    {
+      "start": 80.1,
+      "end": 82.66,
+      "start_timecode": "00:01:20.100",
+      "end_timecode": "00:01:22.660",
+      "text": "Du brauchst den Satz im Augenblick,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 15
+    },
+    {
+      "start": 83.4,
+      "end": 85.78,
+      "start_timecode": "00:01:23.400",
+      "end_timecode": "00:01:25.780",
+      "text": "ich brauch den Rest der Strecke hier.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 16
+    },
+    {
+      "start": 88.88,
+      "end": 90.62,
+      "start_timecode": "00:01:28.880",
+      "end_timecode": "00:01:30.620",
+      "text": "Policing zieht die Grenze.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 17
+    },
+    {
+      "start": 90.62,
+      "end": 93.02,
+      "start_timecode": "00:01:30.620",
+      "end_timecode": "00:01:33.020",
+      "text": "Zu viel wird markiert oder fällt.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 18
+    },
+    {
+      "start": 95.48,
+      "end": 97.86,
+      "start_timecode": "00:01:35.480",
+      "end_timecode": "00:01:37.860",
+      "text": "Kein Warten auf den nächsten Platz,",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 19
+    },
+    {
+      "start": 97.94,
+      "end": 100.62,
+      "start_timecode": "00:01:37.940",
+      "end_timecode": "00:01:40.620",
+      "text": "wenn diese Policy es so bestellt.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 20
+    },
+    {
+      "start": 104.14,
+      "end": 107.04,
+      "start_timecode": "00:01:44.140",
+      "end_timecode": "00:01:47.040",
+      "text": "Shaping hält den Überschuss zurück,",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 21
+    },
+    {
+      "start": 107.04,
+      "end": 111.08,
+      "start_timecode": "00:01:47.040",
+      "end_timecode": "00:01:51.080",
+      "text": "im Puffer wartet mein Paket.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 22
+    },
+    {
+      "start": 111.08,
+      "end": 113.68,
+      "start_timecode": "00:01:51.080",
+      "end_timecode": "00:01:53.680",
+      "text": "Es glättet meinen Strom,",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 23
+    },
+    {
+      "start": 113.68,
+      "end": 117.12,
+      "start_timecode": "00:01:53.680",
+      "end_timecode": "00:01:57.120",
+      "text": "bis der nächste Anteil geht.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 24
+    },
+    {
+      "start": 126.1,
+      "end": 126.98,
+      "start_timecode": "00:02:06.100",
+      "end_timecode": "00:02:06.980",
+      "text": "Classify.",
+      "section": "Break",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 25
+    },
+    {
+      "start": 127.84,
+      "end": 128.54,
+      "start_timecode": "00:02:07.840",
+      "end_timecode": "00:02:08.540",
+      "text": "Mark.",
+      "section": "Break",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 26
+    },
+    {
+      "start": 129.78,
+      "end": 130.48,
+      "start_timecode": "00:02:09.780",
+      "end_timecode": "00:02:10.480",
+      "text": "Queue.",
+      "section": "Break",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 27
+    },
+    {
+      "start": 130.48,
+      "end": 133.14,
+      "start_timecode": "00:02:10.480",
+      "end_timecode": "00:02:13.140",
+      "text": "Mein Wort muss jetzt hinaus.",
+      "section": "Break",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 28
+    },
+    {
+      "start": 141.1,
+      "end": 141.82,
+      "start_timecode": "00:02:21.100",
+      "end_timecode": "00:02:21.820",
+      "text": "Schedule.",
+      "section": "Break",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 29
+    },
+    {
+      "start": 142.72,
+      "end": 143.42,
+      "start_timecode": "00:02:22.720",
+      "end_timecode": "00:02:23.420",
+      "text": "Shape.",
+      "section": "Break",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 30
+    },
+    {
+      "start": 143.64,
+      "end": 145.2,
+      "start_timecode": "00:02:23.640",
+      "end_timecode": "00:02:25.200",
+      "text": "Send.",
+      "section": "Break",
+      "timing_model": "turbo",
+      "review_required": true,
+      "id": 31,
+      "review_note": "Überlappende ASR-Wortzeiten an der nächsten Cue-Grenze gekürzt."
+    },
+    {
+      "start": 145.2,
+      "end": 149.08,
+      "start_timecode": "00:02:25.200",
+      "end_timecode": "00:02:29.080",
+      "text": "Ich nutze, was noch bleibt.",
+      "section": "Break",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 32
+    },
+    {
+      "start": 151.15,
+      "end": 152.7,
+      "start_timecode": "00:02:31.150",
+      "end_timecode": "00:02:32.700",
+      "text": "Quality of Service.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 33
+    },
+    {
+      "start": 152.7,
+      "end": 156.36,
+      "start_timecode": "00:02:32.700",
+      "end_timecode": "00:02:36.360",
+      "text": "Nicht alles gleich.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 34
+    },
+    {
+      "start": 158.93,
+      "end": 160.06,
+      "start_timecode": "00:02:38.930",
+      "end_timecode": "00:02:40.060",
+      "text": "Echtzeit zuerst,",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 35
+    },
+    {
+      "start": 160.06,
+      "end": 163.76,
+      "start_timecode": "00:02:40.060",
+      "end_timecode": "00:02:43.760",
+      "text": "was warten kann, reiht sich ein.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 36
+    },
+    {
+      "start": 165.94,
+      "end": 167.76,
+      "start_timecode": "00:02:45.940",
+      "end_timecode": "00:02:47.760",
+      "text": "Quality of Service.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 37
+    },
+    {
+      "start": 169.0,
+      "end": 171.54,
+      "start_timecode": "00:02:49.000",
+      "end_timecode": "00:02:51.540",
+      "text": "Wir teilen diesen Draht.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 38
+    },
+    {
+      "start": 173.02,
+      "end": 175.06,
+      "start_timecode": "00:02:53.020",
+      "end_timecode": "00:02:55.060",
+      "text": "Dein Satz kommt wieder klar,",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 39
+    },
+    {
+      "start": 176.42,
+      "end": 178.44,
+      "start_timecode": "00:02:56.420",
+      "end_timecode": "00:02:58.440",
+      "text": "mein Transfer läuft danach.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 40
+    },
+    {
+      "start": 195.2,
+      "end": 196.82,
+      "start_timecode": "00:03:15.200",
+      "end_timecode": "00:03:16.820",
+      "text": "Hörst du mich?",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 41
+    },
+    {
+      "text": "Klar und deutlich.",
+      "start": 210.72,
+      "end": 212.12,
+      "section": "Outro",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Alle drei Läufe erkennen an dieser Stelle Varianten von «Kaum deutlich»/«Kaundeutig». Dem Prompt-Kurzsatz zugeordnet; zusätzlicher unklarer Sprachkandidat bei 203.84–207.14 s nicht als sichere Wiederholung übernommen.",
+      "id": 42,
+      "start_timecode": "00:03:30.720",
+      "end_timecode": "00:03:32.120"
+    },
+    {
+      "start": 215.98,
+      "end": 219.28,
+      "start_timecode": "00:03:35.980",
+      "end_timecode": "00:03:39.280",
+      "text": "Mein Transfer läuft noch.",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 43
+    },
+    {
+      "start": 222.34,
+      "end": 223.74,
+      "start_timecode": "00:03:42.340",
+      "end_timecode": "00:03:43.740",
+      "text": "Passt.",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 44
+    }
+  ]
+}

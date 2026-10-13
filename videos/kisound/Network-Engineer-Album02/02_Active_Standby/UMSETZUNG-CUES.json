@@ -1,0 +1,1583 @@
+{
+ "schema": "kisound.activestandby.cues.v1",
+ "duration_s": 203.1735,
+ "fade_start_s": 197.2,
+ "titles": {
+  "intro": [
+   1.2,
+   2,
+   5.2,
+   6.1
+  ],
+  "outro": [
+   194.3,
+   195,
+   197.6,
+   198.4
+  ]
+ },
+ "drops_s": [
+  25.4,
+  82.7,
+  111.3,
+  161.5,
+  194
+ ],
+ "gaps_s": [
+  [
+   81.45,
+   82.55
+  ],
+  [
+   190.25,
+   192.45
+  ]
+ ],
+ "milestones": {
+  "ha_down_s": 89.1,
+  "b_primary_s": 92.62,
+  "lan_shut_a_s": 112.1,
+  "wan_shut_a_s": 113.26,
+  "ha_up_s": 117.9,
+  "elected_s": 123.48,
+  "in_sync_s": 125.58,
+  "release_a_s": 132.04
+ },
+ "heartbeats": 774,
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Gemeinsame Adresse",
+   "start": 0,
+   "end": 12.4,
+   "action": "Zwei gleiche FortiGates, eine LAN-Adresse 192.0.2.1. Nur A trägt den Datenstrom."
+  },
+  {
+   "id": "C02",
+   "title": "Ich trag den Traffic",
+   "start": 12.4,
+   "end": 23.72,
+   "action": "A verarbeitet die Flows; S-17 entsteht und wird als Zustandskopie nach B synchronisiert."
+  },
+  {
+   "id": "C03",
+   "title": "Heartbeat und Sync",
+   "start": 23.72,
+   "end": 67.42,
+   "action": "ha1 trägt zwei getrennte Vorgänge: Heartbeat und Session-Sync. B hört zu und hält den Stand."
+  },
+  {
+   "id": "C04",
+   "title": "Active · Standby",
+   "start": 67.42,
+   "end": 89.1,
+   "action": "A Primary/Active, B Secondary/Standby. Die einzige HA-Leitung ha1 wird freigestellt."
+  },
+  {
+   "id": "C05",
+   "title": "Der Link ist weg",
+   "start": 89.1,
+   "end": 92.62,
+   "action": "ha1 bricht. A arbeitet weiter; Bs Peer-Timer läuft 3,52 s aus."
+  },
+  {
+   "id": "C06",
+   "title": "Beide Active",
+   "start": 92.62,
+   "end": 111.38,
+   "action": "B wird lokal Primary. Zwei Datenpfade treffen auf denselben Adressring; Sessions brechen."
+  },
+  {
+   "id": "C07",
+   "title": "Isoliert",
+   "start": 111.38,
+   "end": 117.9,
+   "action": "Externes Fencing: nur As zwei Produktionsanschlüsse werden an den Switches abgeschaltet. Präferenzen neu gesetzt."
+  },
+  {
+   "id": "C08",
+   "title": "Rollen neu",
+   "start": 117.9,
+   "end": 125.58,
+   "action": "ha1 repariert, Wahl: B Primary. Bs Zustand ist Autorität für die Synchronisation."
+  },
+  {
+   "id": "C09",
+   "title": "Ein Pfad",
+   "start": 125.58,
+   "end": 139.86,
+   "action": "in-sync. As Links erst nach der Prüfung wieder frei; A bleibt Secondary."
+  },
+  {
+   "id": "C10",
+   "title": "Active · Standby, neu",
+   "start": 139.86,
+   "end": 171.92,
+   "action": "B Active, A Standby. Neuer Testflow durch B, Sync jetzt B→A."
+  },
+  {
+   "id": "C11",
+   "title": "Neuer Test",
+   "start": 171.92,
+   "end": 189.66,
+   "action": "Kontrollierter TCP-Test durch B; beide Consoles: B Primary, A Secondary, in-sync."
+  },
+  {
+   "id": "C12",
+   "title": "Klarer Pfad",
+   "start": 189.66,
+   "end": 203.1735,
+   "action": "Outro: Active auf B, Standby auf A. Blende."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 6.2,
+   "zone": "hall",
+   "camera": "wide",
+   "mode": "opening",
+   "target": null,
+   "event_ids": [
+    "E001",
+    "E002",
+    "E003"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S002",
+   "start_s": 6.2,
+   "end_s": 12.4,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "enterA",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S003",
+   "start_s": 12.4,
+   "end_s": 13.96,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "flowA",
+   "target": "f:F0",
+   "event_ids": [
+    "E004"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 13.96,
+   "end_s": 23.72,
+   "zone": "archive",
+   "camera": "macro",
+   "mode": "create",
+   "target": null,
+   "event_ids": [
+    "E005"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S005",
+   "start_s": 23.72,
+   "end_s": 25.58,
+   "zone": "hall",
+   "camera": "ha",
+   "mode": "pulse",
+   "target": null,
+   "event_ids": [
+    "E006",
+    "E007"
+   ],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S006",
+   "start_s": 25.58,
+   "end_s": 32.36,
+   "zone": "hall",
+   "camera": "ha",
+   "mode": "lanes",
+   "target": null,
+   "event_ids": [
+    "E008"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S007",
+   "start_s": 32.36,
+   "end_s": 39.14,
+   "zone": "archive",
+   "camera": "macro",
+   "mode": "readB",
+   "target": null,
+   "event_ids": [
+    "E009"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S008",
+   "start_s": 39.14,
+   "end_s": 42.84,
+   "zone": "archive",
+   "camera": "macro",
+   "mode": "copy",
+   "target": null,
+   "event_ids": [
+    "E010"
+   ],
+   "lyric_ids": [
+    "L003"
+   ]
+  },
+  {
+   "id": "S009",
+   "start_s": 42.84,
+   "end_s": 46.4,
+   "zone": "hall",
+   "camera": "ha",
+   "mode": "pulse2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L004"
+   ]
+  },
+  {
+   "id": "S010",
+   "start_s": 46.4,
+   "end_s": 49.54,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "path",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L005"
+   ]
+  },
+  {
+   "id": "S011",
+   "start_s": 49.54,
+   "end_s": 53.48,
+   "zone": "archive",
+   "camera": "macro",
+   "mode": "update",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L006"
+   ]
+  },
+  {
+   "id": "S012",
+   "start_s": 53.48,
+   "end_s": 57.24,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "readB",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L007"
+   ]
+  },
+  {
+   "id": "S013",
+   "start_s": 57.24,
+   "end_s": 60.48,
+   "zone": "hall",
+   "camera": "ha",
+   "mode": "rx",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L008"
+   ]
+  },
+  {
+   "id": "S014",
+   "start_s": 60.48,
+   "end_s": 64.1,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "awake",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S015",
+   "start_s": 64.1,
+   "end_s": 67.42,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "ready",
+   "target": null,
+   "event_ids": [
+    "E011"
+   ],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S016",
+   "start_s": 67.42,
+   "end_s": 70.44,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "active",
+   "target": null,
+   "event_ids": [
+    "E012"
+   ],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 70.44,
+   "end_s": 74.24,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "standby",
+   "target": null,
+   "event_ids": [
+    "E013"
+   ],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 74.24,
+   "end_s": 77.52,
+   "zone": "hall",
+   "camera": "wide",
+   "mode": "onepath",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 77.52,
+   "end_s": 79.1,
+   "zone": "archive",
+   "camera": "macro",
+   "mode": "parallel",
+   "target": null,
+   "event_ids": [
+    "E014"
+   ],
+   "lyric_ids": [
+    "L014"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 79.1,
+   "end_s": 81.22,
+   "zone": "hall",
+   "camera": "ha",
+   "mode": "intact",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L015"
+   ]
+  },
+  {
+   "id": "S021",
+   "start_s": 81.22,
+   "end_s": 82.34,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "still",
+   "target": null,
+   "event_ids": [
+    "E015",
+    "E016"
+   ],
+   "lyric_ids": [
+    "L016"
+   ]
+  },
+  {
+   "id": "S022",
+   "start_s": 82.34,
+   "end_s": 89.1,
+   "zone": "hall",
+   "camera": "ha",
+   "mode": "clamp",
+   "target": null,
+   "event_ids": [
+    "E017"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S023",
+   "start_s": 89.1,
+   "end_s": 91.26,
+   "zone": "hall",
+   "camera": "ha",
+   "mode": "break",
+   "target": null,
+   "event_ids": [
+    "E018",
+    "E019"
+   ],
+   "lyric_ids": [
+    "L017"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 91.26,
+   "end_s": 92.62,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "timer",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L018"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 92.62,
+   "end_s": 94.58,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "takeover",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L019"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 94.58,
+   "end_s": 96.14,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "sends",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L020"
+   ]
+  },
+  {
+   "id": "S027",
+   "start_s": 96.14,
+   "end_s": 99.66,
+   "zone": "hall",
+   "camera": "wide",
+   "mode": "twopaths",
+   "target": null,
+   "event_ids": [
+    "E020"
+   ],
+   "lyric_ids": [
+    "L021"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 99.66,
+   "end_s": 102.74,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "localA",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L022"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 102.74,
+   "end_s": 105.94,
+   "zone": "hall",
+   "camera": "wide",
+   "mode": "split",
+   "target": null,
+   "event_ids": [
+    "E021",
+    "E022"
+   ],
+   "lyric_ids": [
+    "L023"
+   ]
+  },
+  {
+   "id": "S030",
+   "start_s": 105.94,
+   "end_s": 107.34,
+   "zone": "console",
+   "camera": "front",
+   "mode": "both",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L024"
+   ]
+  },
+  {
+   "id": "S031",
+   "start_s": 107.34,
+   "end_s": 108.82,
+   "zone": "hall",
+   "camera": "wide",
+   "mode": "address",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L025"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 108.82,
+   "end_s": 111.38,
+   "zone": "archive",
+   "camera": "macro",
+   "mode": "diverge",
+   "target": null,
+   "event_ids": [
+    "E023"
+   ],
+   "lyric_ids": [
+    "L026"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 111.38,
+   "end_s": 113.26,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "fence",
+   "target": null,
+   "event_ids": [
+    "E024",
+    "E025"
+   ],
+   "lyric_ids": [
+    "L027"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 113.26,
+   "end_s": 117.9,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "fenced",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L028"
+   ]
+  },
+  {
+   "id": "S035",
+   "start_s": 117.9,
+   "end_s": 120.44,
+   "zone": "hall",
+   "camera": "ha",
+   "mode": "repair",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L029"
+   ]
+  },
+  {
+   "id": "S036",
+   "start_s": 120.44,
+   "end_s": 125.58,
+   "zone": "console",
+   "camera": "front",
+   "mode": "prefs",
+   "target": null,
+   "event_ids": [
+    "E026"
+   ],
+   "lyric_ids": [
+    "L030"
+   ]
+  },
+  {
+   "id": "S037",
+   "start_s": 125.58,
+   "end_s": 128.82,
+   "zone": "archive",
+   "camera": "macro",
+   "mode": "resync",
+   "target": null,
+   "event_ids": [
+    "E027"
+   ],
+   "lyric_ids": [
+    "L031"
+   ]
+  },
+  {
+   "id": "S038",
+   "start_s": 128.82,
+   "end_s": 132.26,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "onepath",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L032"
+   ]
+  },
+  {
+   "id": "S039",
+   "start_s": 132.26,
+   "end_s": 135.14,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "release",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L033"
+   ]
+  },
+  {
+   "id": "S040",
+   "start_s": 135.14,
+   "end_s": 139.86,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "leads",
+   "target": null,
+   "event_ids": [
+    "E028"
+   ],
+   "lyric_ids": [
+    "L034"
+   ]
+  },
+  {
+   "id": "S041",
+   "start_s": 139.86,
+   "end_s": 142.42,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "active2",
+   "target": null,
+   "event_ids": [
+    "E029",
+    "E030"
+   ],
+   "lyric_ids": [
+    "L035"
+   ]
+  },
+  {
+   "id": "S042",
+   "start_s": 142.42,
+   "end_s": 146.66,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "test",
+   "target": "f:T1",
+   "event_ids": [],
+   "lyric_ids": [
+    "L036"
+   ]
+  },
+  {
+   "id": "S043",
+   "start_s": 146.66,
+   "end_s": 147.34,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "standby2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L037"
+   ]
+  },
+  {
+   "id": "S044",
+   "start_s": 147.34,
+   "end_s": 150.72,
+   "zone": "archive",
+   "camera": "macro",
+   "mode": "syncBA",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L038"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 150.72,
+   "end_s": 156.06,
+   "zone": "archive",
+   "camera": "macro",
+   "mode": "syncBA2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S046",
+   "start_s": 156.06,
+   "end_s": 161.4,
+   "zone": "hall",
+   "camera": "wide",
+   "mode": "clear",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S047",
+   "start_s": 161.4,
+   "end_s": 163.64,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "active3",
+   "target": null,
+   "event_ids": [
+    "E031"
+   ],
+   "lyric_ids": [
+    "L039"
+   ]
+  },
+  {
+   "id": "S048",
+   "start_s": 163.64,
+   "end_s": 167.06,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "standby3",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S049",
+   "start_s": 167.06,
+   "end_s": 170.3,
+   "zone": "hall",
+   "camera": "wide",
+   "mode": "clearpath",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S050",
+   "start_s": 170.3,
+   "end_s": 171.92,
+   "zone": "hall",
+   "camera": "ha",
+   "mode": "pulse3",
+   "target": null,
+   "event_ids": [
+    "E032"
+   ],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S051",
+   "start_s": 171.92,
+   "end_s": 180.79,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "tcptest",
+   "target": "f:T2",
+   "event_ids": [
+    "E033",
+    "E034"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S052",
+   "start_s": 180.79,
+   "end_s": 189.66,
+   "zone": "console",
+   "camera": "front",
+   "mode": "final",
+   "target": null,
+   "event_ids": [
+    "E035"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S053",
+   "start_s": 189.66,
+   "end_s": 192.4,
+   "zone": "hall",
+   "camera": "facadeB",
+   "mode": "outroB",
+   "target": null,
+   "event_ids": [
+    "E036"
+   ],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S054",
+   "start_s": 192.4,
+   "end_s": 193.68,
+   "zone": "hall",
+   "camera": "facadeA",
+   "mode": "outroA",
+   "target": null,
+   "event_ids": [
+    "E037",
+    "E038"
+   ],
+   "lyric_ids": [
+    "L044"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 193.68,
+   "end_s": 198.4268,
+   "zone": "hall",
+   "camera": "wide",
+   "mode": "out",
+   "target": null,
+   "event_ids": [
+    "E039",
+    "E040",
+    "E041"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S056",
+   "start_s": 198.4268,
+   "end_s": 203.1735,
+   "zone": "hall",
+   "camera": "ha",
+   "mode": "end",
+   "target": null,
+   "event_ids": [
+    "E042",
+    "E043",
+    "E044"
+   ],
+   "lyric_ids": []
+  }
+ ],
+ "syncs": [
+  {
+   "id": "Y1",
+   "from": "A",
+   "to": "B",
+   "start_s": 15.9,
+   "end_s": 18.1,
+   "seq": 1840023,
+   "resync": false
+  },
+  {
+   "id": "Y2",
+   "from": "A",
+   "to": "B",
+   "start_s": 40.4,
+   "end_s": 42.6,
+   "seq": 1840211,
+   "resync": false
+  },
+  {
+   "id": "Y3",
+   "from": "A",
+   "to": "B",
+   "start_s": 50.6,
+   "end_s": 52.8,
+   "seq": 1840512,
+   "resync": false
+  },
+  {
+   "id": "Y4",
+   "from": "A",
+   "to": "B",
+   "start_s": 78.2,
+   "end_s": 80.4,
+   "seq": 1840733,
+   "resync": false
+  },
+  {
+   "id": "YR",
+   "from": "B",
+   "to": "A",
+   "start_s": 123.18,
+   "end_s": 125.58,
+   "seq": 1840702,
+   "resync": true
+  },
+  {
+   "id": "Y5",
+   "from": "B",
+   "to": "A",
+   "start_s": 129.9,
+   "end_s": 132.1,
+   "seq": 1840815,
+   "resync": false
+  },
+  {
+   "id": "Y6",
+   "from": "B",
+   "to": "A",
+   "start_s": 151.7,
+   "end_s": 153.9,
+   "seq": 1841002,
+   "resync": false
+  },
+  {
+   "id": "Y7",
+   "from": "B",
+   "to": "A",
+   "start_s": 173.3,
+   "end_s": 175.5,
+   "seq": 1841120,
+   "resync": false
+  }
+ ],
+ "broken_sessions": [
+  {
+   "id": "F105R",
+   "time_s": 93.683,
+   "at": "B",
+   "reason": "kein Session-Eintrag auf B"
+  },
+  {
+   "id": "F106R",
+   "time_s": 94.309,
+   "at": "B",
+   "reason": "kein Session-Eintrag auf B"
+  },
+  {
+   "id": "F109R",
+   "time_s": 96.91,
+   "at": "A",
+   "reason": "kein Session-Eintrag auf A"
+  },
+  {
+   "id": "F110R",
+   "time_s": 97.702,
+   "at": "A",
+   "reason": "kein Session-Eintrag auf A"
+  },
+  {
+   "id": "F111R",
+   "time_s": 98.648,
+   "at": "A",
+   "reason": "kein Session-Eintrag auf A"
+  },
+  {
+   "id": "F112R",
+   "time_s": 99.708,
+   "at": "B",
+   "reason": "kein Session-Eintrag auf B"
+  },
+  {
+   "id": "F115R",
+   "time_s": 102.447,
+   "at": "A",
+   "reason": "kein Session-Eintrag auf A"
+  },
+  {
+   "id": "F119R",
+   "time_s": 106.203,
+   "at": "A",
+   "reason": "kein Session-Eintrag auf A"
+  },
+  {
+   "id": "F121R",
+   "time_s": 107.956,
+   "at": "A",
+   "reason": "kein Session-Eintrag auf A"
+  },
+  {
+   "id": "F122R",
+   "time_s": 108.708,
+   "at": "B",
+   "reason": "kein Session-Eintrag auf B"
+  },
+  {
+   "id": "F124R",
+   "time_s": 110.879,
+   "at": "B",
+   "reason": "kein Session-Eintrag auf B"
+  },
+  {
+   "id": "F125R",
+   "time_s": 111.832,
+   "at": "B",
+   "reason": "kein Session-Eintrag auf B"
+  },
+  {
+   "id": "F126R",
+   "time_s": 112.641,
+   "at": "B",
+   "reason": "kein Session-Eintrag auf B"
+  },
+  {
+   "id": "F128R",
+   "time_s": 114.135,
+   "at": "B",
+   "reason": "kein Session-Eintrag auf B"
+  }
+ ],
+ "blocks": [
+  {
+   "id": "B01",
+   "title": "HA-Status · gesund",
+   "window_s": [
+    39.14,
+    67.42
+   ],
+   "pages_s": [
+    39.14,
+    53.48
+   ],
+   "lines": [
+    {
+     "reveal_s": 39.3,
+     "text": "A # get system ha status",
+     "kind": "cmd",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 40,
+     "text": "Mode: HA A-P",
+     "kind": null,
+     "pane": "A"
+    },
+    {
+     "reveal_s": 40,
+     "text": "Group: 22",
+     "kind": null,
+     "pane": "A"
+    },
+    {
+     "reveal_s": 40,
+     "text": "Primary   : A",
+     "kind": "a",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 40,
+     "text": "Secondary : B",
+     "kind": "b",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 53.6,
+     "text": "Configuration Status:",
+     "kind": null,
+     "pane": "A"
+    },
+    {
+     "reveal_s": 53.6,
+     "text": " A: in-sync",
+     "kind": "ok",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 53.6,
+     "text": " B: in-sync",
+     "kind": "ok",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 54.2,
+     "text": "Szenario-Overlay: session-pickup ENABLED | S-17 repliziert",
+     "kind": "ov",
+     "pane": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B02",
+   "title": "lokale Einzelansichten",
+   "window_s": [
+    89.1,
+    111.38
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 89.3,
+     "text": "A # get system ha status",
+     "kind": "cmd",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 90,
+     "text": "Mode: HA A-P",
+     "kind": null,
+     "pane": "A"
+    },
+    {
+     "reveal_s": 90,
+     "text": "Primary: A",
+     "kind": "a",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 89.6,
+     "text": "B # get system ha status",
+     "kind": "cmd",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 90.3,
+     "text": "Mode: HA A-P",
+     "kind": null,
+     "pane": "B"
+    },
+    {
+     "reveal_s": 90.3,
+     "text": "PEER_TIMER",
+     "kind": "warn",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 92.62,
+     "text": "Primary: B",
+     "kind": "b",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 89.5,
+     "text": "LOKALE EINZELANSICHTEN — HA-Verbindung unterbrochen",
+     "kind": "bad",
+     "pane": "ov"
+    },
+    {
+     "reveal_s": 92.62,
+     "text": "A: Datenpfad offen    B: Datenpfad offen",
+     "kind": "warn",
+     "pane": "ov"
+    },
+    {
+     "reveal_s": 92.62,
+     "text": "Gemeinsame LAN-IP: 192.0.2.1",
+     "kind": null,
+     "pane": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B03",
+   "title": "Fencing an den Switches",
+   "window_s": [
+    111.38,
+    117.9
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 111.45,
+     "text": "SW-LAN# configure terminal",
+     "kind": "cmd",
+     "pane": "SWL"
+    },
+    {
+     "reveal_s": 111.7,
+     "text": "SW-LAN(config)# interface GigabitEthernet1/0/11",
+     "kind": "cmd",
+     "pane": "SWL"
+    },
+    {
+     "reveal_s": 111.95,
+     "text": "SW-LAN(config-if)# shutdown",
+     "kind": "cmd",
+     "pane": "SWL"
+    },
+    {
+     "reveal_s": 112.35,
+     "text": "SW-WAN# configure terminal",
+     "kind": "cmd",
+     "pane": "SWW"
+    },
+    {
+     "reveal_s": 112.6,
+     "text": "SW-WAN(config)# interface GigabitEthernet1/0/11",
+     "kind": "cmd",
+     "pane": "SWW"
+    },
+    {
+     "reveal_s": 112.95,
+     "text": "SW-WAN(config-if)# shutdown",
+     "kind": "cmd",
+     "pane": "SWW"
+    },
+    {
+     "reveal_s": 113.26,
+     "text": "Overlay: Nur die zwei Anschlüsse zu A isoliert",
+     "kind": "amber",
+     "pane": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B04",
+   "title": "lokale Consoles · Präferenz",
+   "window_s": [
+    113.26,
+    125.58
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 113.5,
+     "text": "A # config system ha",
+     "kind": "cmd",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 113.8,
+     "text": "A (ha) # set priority 100",
+     "kind": "cmd",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 114.4,
+     "text": "A (ha) # set override enable",
+     "kind": "cmd",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 115,
+     "text": "A (ha) # end",
+     "kind": "cmd",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 115.4,
+     "text": "B # config system ha",
+     "kind": "cmd",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 115.7,
+     "text": "B (ha) # set priority 200",
+     "kind": "cmd",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 116.3,
+     "text": "B (ha) # set override enable",
+     "kind": "cmd",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 116.9,
+     "text": "B (ha) # end",
+     "kind": "cmd",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 113.5,
+     "text": "Overlay: lokale Consoles",
+     "kind": "ov",
+     "pane": "ov"
+    },
+    {
+     "reveal_s": 117.9,
+     "text": "HA-Leitung repariert",
+     "kind": "ok",
+     "pane": "ov"
+    },
+    {
+     "reveal_s": 123.48,
+     "text": "Wahl: B Primary · A Secondary",
+     "kind": "b",
+     "pane": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B05",
+   "title": "HA-Status · neu",
+   "window_s": [
+    125.58,
+    139.86
+   ],
+   "pages_s": [
+    125.58,
+    130
+   ],
+   "lines": [
+    {
+     "reveal_s": 125.7,
+     "text": "B # get system ha status",
+     "kind": "cmd",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 126.4,
+     "text": "Mode: HA A-P",
+     "kind": null,
+     "pane": "B"
+    },
+    {
+     "reveal_s": 126.4,
+     "text": "Primary   : B",
+     "kind": "b",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 126.4,
+     "text": "Secondary : A",
+     "kind": "a",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 130.1,
+     "text": "Configuration Status:",
+     "kind": null,
+     "pane": "B"
+    },
+    {
+     "reveal_s": 130.1,
+     "text": " A: in-sync",
+     "kind": "ok",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 130.1,
+     "text": " B: in-sync",
+     "kind": "ok",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 130.6,
+     "text": "Overlay: Session-Sync S-17 bestätigt; A-Links erst ab 132.04 s freigegeben",
+     "kind": "ov",
+     "pane": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B06",
+   "title": "Links von A freigeben",
+   "window_s": [
+    128.82,
+    139.86
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 129,
+     "text": "SW-LAN(config)# interface GigabitEthernet1/0/11",
+     "kind": "cmd",
+     "pane": "SWL"
+    },
+    {
+     "reveal_s": 129.5,
+     "text": "SW-LAN(config-if)# no shutdown",
+     "kind": "amber",
+     "pane": "SWL"
+    },
+    {
+     "reveal_s": 130.2,
+     "text": "SW-WAN(config)# interface GigabitEthernet1/0/11",
+     "kind": "cmd",
+     "pane": "SWW"
+    },
+    {
+     "reveal_s": 130.7,
+     "text": "SW-WAN(config-if)# no shutdown",
+     "kind": "amber",
+     "pane": "SWW"
+    },
+    {
+     "reveal_s": 132.04,
+     "text": "Overlay ab 132.04 s: Links A up | A Secondary | B Primary",
+     "kind": "b",
+     "pane": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B05R",
+   "title": "HA-Status · stabil (B05 erneut)",
+   "window_s": [
+    171.92,
+    193.68
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 172.1,
+     "text": "A # get system ha status",
+     "kind": "cmd",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 172.8,
+     "text": "Primary   : B",
+     "kind": "b",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 172.8,
+     "text": "Secondary : A",
+     "kind": "a",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 172.8,
+     "text": "Configuration Status: in-sync",
+     "kind": "ok",
+     "pane": "A"
+    },
+    {
+     "reveal_s": 172.4,
+     "text": "B # get system ha status",
+     "kind": "cmd",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 173.1,
+     "text": "Primary   : B",
+     "kind": "b",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 173.1,
+     "text": "Secondary : A",
+     "kind": "a",
+     "pane": "B"
+    },
+    {
+     "reveal_s": 173.1,
+     "text": "Configuration Status: in-sync",
+     "kind": "ok",
+     "pane": "B"
+    }
+   ]
+  }
+ ],
+ "logs": [
+  {
+   "time_s": 89.1,
+   "tag": "ha",
+   "message": "ha1: link down (A und B)"
+  },
+  {
+   "time_s": 89.7,
+   "tag": "ha",
+   "message": "B: kein Heartbeat von A – Peer-Timer 3,52 s (Szenario)"
+  },
+  {
+   "time_s": 92.62,
+   "tag": "ha",
+   "message": "B: kein Peer – B wird Primary (lokale Sicht)"
+  },
+  {
+   "time_s": 93.6,
+   "tag": "sw",
+   "message": "%SW_MATM-4-MACFLAP_NOTIF: Host 0009.0f09.1600 in vlan 10 is flapping between port Gi1/0/11 and port Gi1/0/12"
+  },
+  {
+   "time_s": 96.9,
+   "tag": "warn",
+   "message": "Antworten ohne Session-Eintrag verworfen – Tabellen von A und B laufen auseinander"
+  },
+  {
+   "time_s": 112.1,
+   "tag": "cfg",
+   "message": "SW-LAN: Gi1/0/11 (A port1) administratively down"
+  },
+  {
+   "time_s": 113.26,
+   "tag": "cfg",
+   "message": "SW-WAN: Gi1/0/11 (A port2) administratively down – A isoliert"
+  },
+  {
+   "time_s": 115.1,
+   "tag": "cfg",
+   "message": "A: priority 100, override enable (lokale Console)"
+  },
+  {
+   "time_s": 117,
+   "tag": "cfg",
+   "message": "B: priority 200, override enable (lokale Console)"
+  },
+  {
+   "time_s": 117.9,
+   "tag": "ha",
+   "message": "ha1: link up – Heartbeat beidseitig"
+  },
+  {
+   "time_s": 123.48,
+   "tag": "ha",
+   "message": "Wahl: B Primary (priority 200), A Secondary"
+  },
+  {
+   "time_s": 125.58,
+   "tag": "ok",
+   "message": "Configuration in-sync · Session-Sync S-17 bestätigt (B → A)"
+  },
+  {
+   "time_s": 132.04,
+   "tag": "cfg",
+   "message": "SW-LAN/SW-WAN: Gi1/0/11 up – A Secondary, kein Datenpfad"
+  },
+  {
+   "time_s": 146,
+   "tag": "ok",
+   "message": "Testflow über B: Zielantwort erhalten"
+  },
+  {
+   "time_s": 180.1,
+   "tag": "ok",
+   "message": "TCP-Test über B: SYN, SYN/ACK, ACK – verbunden"
+  }
+ ]
+}

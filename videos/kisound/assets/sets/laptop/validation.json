@@ -1,0 +1,15 @@
+{
+  "setId": "laptop",
+  "status": "OK",
+  "triangles": 7960,
+  "budget": 350000,
+  "meshes": 76,
+  "anchors": 9,
+  "materials": [
+    "cavity",
+    "chassis",
+    "plastic"
+  ],
+  "errors": [],
+  "warnings": []
+}

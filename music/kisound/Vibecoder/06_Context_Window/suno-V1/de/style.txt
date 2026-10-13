@@ -1,0 +1,8 @@
+Genre: Future Garage / Ambient Bass, melancholisch, kein Techno.
+Tempo: 130 BPM, geshuffelter Two-Step mit halbem Gefühl
+Sound: Schleppende Garage-Breaks, Rimshots mit Hall, warmer tiefer Sub-Bass mit langen Glides, weiche Reese-Flächen, verwischte Vocal-Chops ohne Worte, Regen- und Vinylrauschen, gläserne Plucks, ein Rauschen, das sich langsam wie ein Fenster schliesst.
+Vocals: Einzelner weiblicher Alt; nah, ruhig, klare Worte, lange Atempausen; Refrain schlicht melodisch mit leisem Hall.
+Vibe: Spätnacht, Erinnerung, gedämpftes Licht.
+Mood: Melancholisch, versöhnlich.
+Ablauf: Acht Takte instrumentaler Beginn; nach Refrain zwei acht Takte schwebender Bassteil; nach den letzten Worten 30–40 Sekunden ausklingende Flächen, Beat und Bass lösen sich vorher auf. Ziel 4:15.
+Hinweise: Gesang auf Deutsch; Context Window und Fachbegriffe englisch, AGENTS.md als „Agents M-D“. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

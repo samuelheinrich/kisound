@@ -1,0 +1,195 @@
+1
+00:00:00,000 --> 00:00:00,700
+Scanning.
+
+2
+00:00:04,480 --> 00:00:05,880
+Associating.
+
+3
+00:00:09,260 --> 00:00:10,660
+Authenticating.
+
+4
+00:00:10,660 --> 00:00:12,180
+Connected.
+
+5
+00:00:33,240 --> 00:00:34,680
+Signal fades at minus seventy-five,
+
+6
+00:00:35,400 --> 00:00:37,540
+sticky client trying to stay alive.
+
+7
+00:00:38,280 --> 00:00:40,980
+Channel overlap in a crowded room,
+
+8
+00:00:41,920 --> 00:00:43,260
+D-F-S radar makes the silence bloom.
+
+9
+00:00:43,720 --> 00:00:44,760
+Beacon in the hallway,
+
+10
+00:00:45,480 --> 00:00:47,920
+handoff at the door.
+
+11
+00:00:49,140 --> 00:00:50,240
+Client keeps holding.
+
+12
+00:00:50,940 --> 00:00:52,740
+what it should ignore.
+
+13
+00:00:55,420 --> 00:00:57,060
+Roam, roam, find the stronger light,
+
+14
+00:00:57,980 --> 00:01:00,680
+802 dot 11 in the noise tonight.
+
+15
+00:01:00,680 --> 00:01:03,140
+R-S-S-I falling, S-N-R low,
+
+16
+00:01:03,540 --> 00:01:05,820
+handoff clean, let the client go.
+
+17
+00:01:06,280 --> 00:01:07,560
+Scan the air.
+
+18
+00:01:07,880 --> 00:01:09,200
+Catch the frame.
+
+19
+00:01:09,200 --> 00:01:10,520
+Same S-S-I-D.
+
+20
+00:01:10,520 --> 00:01:12,040
+different name.
+
+21
+00:01:12,040 --> 00:01:12,900
+Roam again.
+
+22
+00:01:13,320 --> 00:01:14,800
+Change the lane.
+
+23
+00:01:16,720 --> 00:01:17,540
+through the rain.
+
+24
+00:01:16,720 --> 00:01:17,540
+Through the rain.
+
+25
+00:01:28,200 --> 00:01:30,100
+A-Ps whisper through concrete walls,
+
+26
+00:01:31,560 --> 00:01:33,360
+beacons pulse in the meeting halls.
+
+27
+00:01:34,340 --> 00:01:36,080
+Captive portal, roaming trace,
+
+28
+00:01:37,100 --> 00:01:38,580
+packets vanish in the office space.
+
+29
+00:01:39,780 --> 00:01:41,960
+Five gigahertz bends around,
+
+30
+00:01:42,460 --> 00:01:44,120
+six gigahertz cuts through sound.
+
+31
+00:01:45,160 --> 00:01:46,920
+Channel width too wide tonight,
+
+32
+00:01:47,500 --> 00:01:49,160
+power down and make it right.
+
+33
+00:01:50,960 --> 00:01:51,400
+Probe request.
+
+34
+00:01:52,420 --> 00:01:53,420
+Probe response.
+
+35
+00:01:53,760 --> 00:01:54,460
+Authentication.
+
+36
+00:01:54,460 --> 00:01:55,760
+Association.
+
+37
+00:01:56,740 --> 00:01:57,880
+Four-way handshake.
+
+38
+00:01:57,940 --> 00:01:58,300
+Keys align.
+
+39
+00:01:58,700 --> 00:02:00,260
+Signal locks.
+
+40
+00:02:00,640 --> 00:02:01,020
+Clients shine.
+
+41
+00:02:01,680 --> 00:02:03,680
+Roam, roam, find the stronger light,
+
+42
+00:02:04,180 --> 00:02:06,900
+802 dot 11 in the noise tonight.
+
+43
+00:02:06,900 --> 00:02:09,400
+R-S-S-I falling, S-N-R low,
+
+44
+00:02:09,840 --> 00:02:12,020
+handoff clean, let the client go.
+
+45
+00:02:15,860 --> 00:02:16,640
+Scanning.
+
+46
+00:02:18,520 --> 00:02:19,300
+Roaming.
+
+47
+00:02:23,700 --> 00:02:25,000
+Scanning.
+
+48
+00:02:33,660 --> 00:02:35,000
+Connected.
+
+49
+00:02:41,160 --> 00:02:42,560
+Still moving.

@@ -1,0 +1,51 @@
+[Intro]
+Yesterday it worked.
+Today it doesn't.
+
+[Verse 1]
+Sixty-four commits since the last good state,
+the agent was busy, coding early, coding late.
+Now the upload hangs, no error, just a stall,
+I ask what it changed. It says: Nothing at all.
+git bisect start. Today: bad. Yesterday: good.
+Git jumps to the middle, and I test it like I should.
+
+[Chorus]
+Bisect.
+Half. Half. Half. Half.
+Bisect.
+Sixty-four, thirty-two, sixteen, eight.
+Good. Bad. Good. Bad.
+Four. Two. One. Found it. Late.
+
+[Verse 2]
+Six times tested, no guessing, no theory,
+then Git names the first bad commit, crystal clearly.
+"refactor: simplify config," one harmless-looking line,
+the timeout cut from thirty to three, and the upload dies every time.
+git revert, plus a test that pins the value down,
+so the next refactor doesn't break it when I'm not around.
+
+[Chorus]
+Bisect.
+Half. Half. Half. Half.
+Bisect.
+Sixty-four, thirty-two, sixteen, eight.
+Good. Bad. Good. Bad.
+Four. Two. One. Found it. Late.
+
+[Bridge]
+Twenty years of troubleshooting, always the same game:
+halve the path, layer, hop, commit, until you find the name.
+
+[Chorus]
+Bisect.
+Half. Half. Half. Half.
+Bisect.
+Sixty-four, thirty-two, sixteen, eight.
+Good. Bad. Good. Bad.
+Four. Two. One. Found it. Late.
+
+[Outro]
+git bisect reset.
+Today it works.

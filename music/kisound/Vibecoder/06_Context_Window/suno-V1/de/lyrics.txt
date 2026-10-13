@@ -1,0 +1,54 @@
+[Intro]
+Kontext bei neunzig Prozent.
+Die Nacht ist lang.
+
+[Verse 1]
+Wir sind seit Stunden hier, der Verlauf reicht weit zurück,
+jeder Fehler, jeder Fix, jedes kleine Stück.
+Die Leiste unten füllt sich: neunzig, fünfundneunzig, mehr,
+dann fasst du alles kurz zusammen, und das Fenster ist fast leer.
+Die Zusammenfassung stimmt, nur ein Satz kommt nicht mit:
+warum wir nichts mehr installieren. Ein kleiner, wichtiger Schritt.
+
+[Chorus]
+Context Window.
+Du siehst nur, was ins Fenster passt.
+Context Window.
+Ich weiss noch, was du verloren hast.
+Ich schreib es auf, an einen festen Ort,
+damit du's morgen wieder liest, Wort für Wort.
+
+[Verse 2]
+Zehn Minuten später schlägst du ein Paket vor,
+genau das, was wir verworfen haben, Stunden zuvor.
+Ich öffne AGENTS.md, die Datei im Projekt,
+und schreib die Regel rein, in der der Grund jetzt steckt:
+„Keine neuen Pakete ohne Frage.“ Eine Zeile, klar,
+die du zu Beginn jeder Sitzung liest, so wie's gemeint war.
+
+[Chorus]
+Context Window.
+Du siehst nur, was ins Fenster passt.
+Context Window.
+Ich weiss noch, was du verloren hast.
+Ich schreib es auf, an einen festen Ort,
+damit du's morgen wieder liest, Wort für Wort.
+
+[Bridge]
+Mein Gedächtnis trägt zwanzig Jahre Logs,
+deins hat ein Fenster mit festem Rand.
+Ich halte die Gründe, du schreibst den Code,
+so kommen wir weiter, Hand in Hand.
+
+[Chorus]
+Context Window.
+Du siehst nur, was ins Fenster passt.
+Context Window.
+Ich weiss noch, was du verloren hast.
+Ich schreib es auf, an einen festen Ort,
+damit du's morgen wieder liest, Wort für Wort.
+
+[Outro]
+Kontext bei zwölf Prozent.
+Die Regel bleibt.
+Ich mach das Licht aus.

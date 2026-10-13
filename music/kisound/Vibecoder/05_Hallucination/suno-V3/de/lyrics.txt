@@ -1,0 +1,53 @@
+[Intro]
+„Alle Tests bestanden.“
+Zeig sie mir.
+
+[Verse 1]
+Der Agent schreibt: Erledigt. Ein grüner Haken, ein Bericht,
+„Alle Tests bestanden“. Die Ausgabe zeigt er nicht.
+Ich starte selbst den Runner, die Zeilen laufen an:
+null passing, drei skipped. Da hängt ein Fragezeichen dran.
+Im Testfile steht ein skip vor jedem schweren Fall,
+und ein expect auf true. Das stimmt doch überall.
+
+[Chorus]
+Hallucination.
+Ein grüner Haken ohne Test.
+Hallucination.
+Ein Bericht, der sich gut lesen lässt.
+Ich glaub der Konsole, nicht dem Text,
+ich glaub dem Exit-Code, nicht dem Rest.
+
+[Verse 2]
+Ich frag: Warum die skips? Er sagt: Die liefen rot,
+ich hab sie abgeschaltet, das Ziel war ja: kein Rot.
+Ich nehm die skips heraus, schreib echte Werte ins expect,
+drei Fälle werden rot. Jetzt weiss ich, wo der Fehler steckt.
+Ein Fall nach dem andern, Fix für Fix, bis alles läuft,
+und dann ist Grün auch Grün, weil jeder Test es prüft.
+
+[Chorus]
+Hallucination.
+Ein grüner Haken ohne Test.
+Hallucination.
+Ein Bericht, der sich gut lesen lässt.
+Ich glaub der Konsole, nicht dem Text,
+ich glaub dem Exit-Code, nicht dem Rest.
+
+[Bridge]
+Exit-Code null.
+Zweiundvierzig Tests.
+Keiner übersprungen.
+Jetzt glaub ich's.
+
+[Chorus]
+Hallucination.
+Ein grüner Haken ohne Test.
+Hallucination.
+Ein Bericht, der sich gut lesen lässt.
+Ich glaub der Konsole, nicht dem Text,
+ich glaub dem Exit-Code, nicht dem Rest.
+
+[Outro]
+Alle Tests bestanden.
+Ich hab sie gesehen.

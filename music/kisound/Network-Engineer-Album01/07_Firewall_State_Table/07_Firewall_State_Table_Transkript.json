@@ -1,0 +1,621 @@
+{
+  "title": "Firewall State Table",
+  "source_audio": "07_Firewall_State_Table_0.4-2.wav",
+  "source_audio_sha256": "6fcc83f53b3146a4754354b9dfd7c8644de53bf57c992aadb76a9fc9a62f754d",
+  "duration_seconds": 259.320979,
+  "languages": [
+    "en"
+  ],
+  "time_origin": "Beginn der WAV-Datei bei 0 Sekunden",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 9.940000000000005,
+      "last_vocal_end": 24.0
+    },
+    {
+      "title": "Verse",
+      "first_vocal_start": 50.6,
+      "last_vocal_end": 70.4
+    },
+    {
+      "title": "Pre-Hook",
+      "first_vocal_start": 70.74,
+      "last_vocal_end": 77.2
+    },
+    {
+      "title": "Hook",
+      "first_vocal_start": 78.64,
+      "last_vocal_end": 96.46
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 111.24000000000001,
+      "last_vocal_end": 123.5
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 130.43999999999997,
+      "last_vocal_end": 145.2
+    },
+    {
+      "title": "Break",
+      "first_vocal_start": 146.92000000000002,
+      "last_vocal_end": 164.78
+    },
+    {
+      "title": "Final Hook",
+      "first_vocal_start": 183.1,
+      "last_vocal_end": 195.0
+    }
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "start": 9.94,
+      "end": 10.82,
+      "start_timecode": "00:00:09.940",
+      "end_timecode": "00:00:10.820",
+      "text": "Session open.",
+      "section": "Intro"
+    },
+    {
+      "id": 2,
+      "start": 13.1,
+      "end": 14.56,
+      "start_timecode": "00:00:13.100",
+      "end_timecode": "00:00:14.560",
+      "text": "State is known.",
+      "section": "Intro"
+    },
+    {
+      "id": 3,
+      "start": 20.04,
+      "end": 20.92,
+      "start_timecode": "00:00:20.040",
+      "end_timecode": "00:00:20.920",
+      "text": "Every packet.",
+      "section": "Intro"
+    },
+    {
+      "id": 4,
+      "start": 22.7,
+      "end": 24.0,
+      "start_timecode": "00:00:22.700",
+      "end_timecode": "00:00:24.000",
+      "text": "stands alone.",
+      "section": "Intro"
+    },
+    {
+      "id": 5,
+      "start": 50.6,
+      "end": 52.08,
+      "start_timecode": "00:00:50.600",
+      "end_timecode": "00:00:52.080",
+      "text": "Default deny in the security zone,",
+      "section": "Verse"
+    },
+    {
+      "id": 6,
+      "start": 54.0,
+      "end": 55.54,
+      "start_timecode": "00:00:54.000",
+      "end_timecode": "00:00:55.540",
+      "text": "policy chain decides what can be known.",
+      "section": "Verse"
+    },
+    {
+      "id": 7,
+      "start": 57.16,
+      "end": 58.94,
+      "start_timecode": "00:00:57.160",
+      "end_timecode": "00:00:58.940",
+      "text": "Source and destination, port and state,",
+      "section": "Verse"
+    },
+    {
+      "id": 8,
+      "start": 59.26,
+      "end": 60.5,
+      "start_timecode": "00:00:59.260",
+      "end_timecode": "00:01:00.500",
+      "text": "one wrong packet hits the gate.",
+      "section": "Verse"
+    },
+    {
+      "id": 9,
+      "start": 64.46,
+      "end": 65.6,
+      "start_timecode": "00:01:04.460",
+      "end_timecode": "00:01:05.600",
+      "text": "T-C-P handshake, sequence aligned,",
+      "section": "Verse"
+    },
+    {
+      "id": 10,
+      "start": 65.6,
+      "end": 66.58,
+      "start_timecode": "00:01:05.600",
+      "end_timecode": "00:01:06.580",
+      "text": "U-D-P moving with no reply.",
+      "section": "Verse"
+    },
+    {
+      "id": 11,
+      "start": 67.26,
+      "end": 68.54,
+      "start_timecode": "00:01:07.260",
+      "end_timecode": "00:01:08.540",
+      "text": "Policy checks what rules allow,",
+      "section": "Verse"
+    },
+    {
+      "id": 12,
+      "start": 68.92,
+      "end": 70.4,
+      "start_timecode": "00:01:08.920",
+      "end_timecode": "00:01:10.400",
+      "text": "state table decides right now.",
+      "section": "Verse"
+    },
+    {
+      "id": 13,
+      "start": 70.74,
+      "end": 72.84,
+      "start_timecode": "00:01:10.740",
+      "end_timecode": "00:01:12.840",
+      "text": "Source NAT hides the inside name.",
+      "section": "Pre-Hook"
+    },
+    {
+      "id": 14,
+      "start": 72.84,
+      "end": 74.04,
+      "start_timecode": "00:01:12.840",
+      "end_timecode": "00:01:14.040",
+      "text": "Destination NAT redirects the frame.",
+      "section": "Pre-Hook"
+    },
+    {
+      "id": 15,
+      "start": 74.58,
+      "end": 75.86,
+      "start_timecode": "00:01:14.580",
+      "end_timecode": "00:01:15.860",
+      "text": "Deep inspection reads what flows,",
+      "section": "Pre-Hook"
+    },
+    {
+      "id": 16,
+      "start": 76.18,
+      "end": 77.2,
+      "start_timecode": "00:01:16.180",
+      "end_timecode": "00:01:17.200",
+      "text": "permit or deny, the firewall knows.",
+      "section": "Pre-Hook"
+    },
+    {
+      "id": 17,
+      "start": 78.64,
+      "end": 84.36,
+      "start_timecode": "00:01:18.640",
+      "end_timecode": "00:01:24.360",
+      "text": "Drop it.",
+      "section": "Hook"
+    },
+    {
+      "id": 18,
+      "start": 84.64,
+      "end": 84.78,
+      "start_timecode": "00:01:24.640",
+      "end_timecode": "00:01:24.780",
+      "text": "Log it.",
+      "section": "Hook"
+    },
+    {
+      "id": 19,
+      "start": 84.78,
+      "end": 85.28,
+      "start_timecode": "00:01:24.780",
+      "end_timecode": "00:01:25.280",
+      "text": "Block it.",
+      "section": "Hook"
+    },
+    {
+      "id": 20,
+      "start": 85.36,
+      "end": 86.0,
+      "start_timecode": "00:01:25.360",
+      "end_timecode": "00:01:26.000",
+      "text": "State table lock it.",
+      "section": "Hook"
+    },
+    {
+      "id": 21,
+      "start": 86.34,
+      "end": 86.5,
+      "start_timecode": "00:01:26.340",
+      "end_timecode": "00:01:26.500",
+      "text": "Drop it.",
+      "section": "Hook"
+    },
+    {
+      "id": 22,
+      "start": 87.54,
+      "end": 87.76,
+      "start_timecode": "00:01:27.540",
+      "end_timecode": "00:01:27.760",
+      "text": "Log it.",
+      "section": "Hook"
+    },
+    {
+      "id": 23,
+      "start": 87.8,
+      "end": 88.02,
+      "start_timecode": "00:01:27.800",
+      "end_timecode": "00:01:28.020",
+      "text": "Block it.",
+      "section": "Hook"
+    },
+    {
+      "id": 24,
+      "start": 89.08,
+      "end": 89.94,
+      "start_timecode": "00:01:29.080",
+      "end_timecode": "00:01:29.940",
+      "text": "Packet hit, stop it.",
+      "section": "Hook"
+    },
+    {
+      "id": 25,
+      "start": 90.5,
+      "end": 90.9,
+      "start_timecode": "00:01:30.500",
+      "end_timecode": "00:01:30.900",
+      "text": "Drop it.",
+      "section": "Hook"
+    },
+    {
+      "id": 26,
+      "start": 90.9,
+      "end": 91.1,
+      "start_timecode": "00:01:30.900",
+      "end_timecode": "00:01:31.100",
+      "text": "Log it.",
+      "section": "Hook"
+    },
+    {
+      "id": 27,
+      "start": 91.18,
+      "end": 91.4,
+      "start_timecode": "00:01:31.180",
+      "end_timecode": "00:01:31.400",
+      "text": "Block it.",
+      "section": "Hook"
+    },
+    {
+      "id": 28,
+      "start": 92.1,
+      "end": 93.3,
+      "start_timecode": "00:01:32.100",
+      "end_timecode": "00:01:33.300",
+      "text": "No match, knock it.",
+      "section": "Hook"
+    },
+    {
+      "id": 29,
+      "start": 93.86,
+      "end": 94.26,
+      "start_timecode": "00:01:33.860",
+      "end_timecode": "00:01:34.260",
+      "text": "Drop it.",
+      "section": "Hook"
+    },
+    {
+      "id": 30,
+      "start": 94.26,
+      "end": 94.48,
+      "start_timecode": "00:01:34.260",
+      "end_timecode": "00:01:34.480",
+      "text": "Log it.",
+      "section": "Hook"
+    },
+    {
+      "id": 31,
+      "start": 94.56,
+      "end": 94.78,
+      "start_timecode": "00:01:34.560",
+      "end_timecode": "00:01:34.780",
+      "text": "Block it.",
+      "section": "Hook"
+    },
+    {
+      "id": 32,
+      "start": 95.42,
+      "end": 96.46,
+      "start_timecode": "00:01:35.420",
+      "end_timecode": "00:01:36.460",
+      "text": "Write the rule and lock it.",
+      "section": "Hook"
+    },
+    {
+      "id": 33,
+      "start": 111.24,
+      "end": 113.34,
+      "start_timecode": "00:01:51.240",
+      "end_timecode": "00:01:53.340",
+      "text": "Trust no packet in the night,",
+      "section": "Chorus"
+    },
+    {
+      "id": 34,
+      "start": 113.96,
+      "end": 116.9,
+      "start_timecode": "00:01:53.960",
+      "end_timecode": "00:01:56.900",
+      "text": "least privilege, hold the line.",
+      "section": "Chorus"
+    },
+    {
+      "id": 35,
+      "start": 117.34,
+      "end": 119.66,
+      "start_timecode": "00:01:57.340",
+      "end_timecode": "00:01:59.660",
+      "text": "Source to destination,",
+      "section": "Chorus"
+    },
+    {
+      "id": 36,
+      "start": 120.16,
+      "end": 120.7,
+      "start_timecode": "00:02:00.160",
+      "end_timecode": "00:02:00.700",
+      "text": "port to application,",
+      "section": "Chorus"
+    },
+    {
+      "id": 37,
+      "start": 121.6,
+      "end": 123.5,
+      "start_timecode": "00:02:01.600",
+      "end_timecode": "00:02:03.500",
+      "text": "every session leaves a sign.",
+      "section": "Chorus"
+    },
+    {
+      "id": 38,
+      "start": 130.44,
+      "end": 133.42,
+      "start_timecode": "00:02:10.440",
+      "end_timecode": "00:02:13.420",
+      "text": "A-C-L cuts through the stream,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 39,
+      "start": 133.72,
+      "end": 135.02,
+      "start_timecode": "00:02:13.720",
+      "end_timecode": "00:02:15.020",
+      "text": "NAT reflection bends the scene.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 40,
+      "start": 135.38,
+      "end": 136.66,
+      "start_timecode": "00:02:15.380",
+      "end_timecode": "00:02:16.660",
+      "text": "Inside local, outside global,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 41,
+      "start": 137.1,
+      "end": 138.24,
+      "start_timecode": "00:02:17.100",
+      "end_timecode": "00:02:18.240",
+      "text": "translation keeps the traffic mobile.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 42,
+      "start": 138.52,
+      "end": 139.9,
+      "start_timecode": "00:02:18.520",
+      "end_timecode": "00:02:19.900",
+      "text": "Deep packet inspection in the flow,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 43,
+      "start": 140.38,
+      "end": 141.72,
+      "start_timecode": "00:02:20.380",
+      "end_timecode": "00:02:21.720",
+      "text": "headers high and payload low.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 44,
+      "start": 142.1,
+      "end": 143.24,
+      "start_timecode": "00:02:22.100",
+      "end_timecode": "00:02:23.240",
+      "text": "Match the rule, confirm the state,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 45,
+      "start": 143.76,
+      "end": 145.2,
+      "start_timecode": "00:02:23.760",
+      "end_timecode": "00:02:25.200",
+      "text": "permit clean or close the gate.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 46,
+      "start": 146.92,
+      "end": 147.56,
+      "start_timecode": "00:02:26.920",
+      "end_timecode": "00:02:27.560",
+      "text": "SYN.",
+      "section": "Break"
+    },
+    {
+      "id": 47,
+      "start": 148.8,
+      "end": 149.44,
+      "start_timecode": "00:02:28.800",
+      "end_timecode": "00:02:29.440",
+      "text": "ACK.",
+      "section": "Break"
+    },
+    {
+      "id": 48,
+      "start": 150.5,
+      "end": 151.14,
+      "start_timecode": "00:02:30.500",
+      "end_timecode": "00:02:31.140",
+      "text": "Session match.",
+      "section": "Break"
+    },
+    {
+      "id": 49,
+      "start": 153.04,
+      "end": 153.68,
+      "start_timecode": "00:02:33.040",
+      "end_timecode": "00:02:33.680",
+      "text": "Deny.",
+      "section": "Break"
+    },
+    {
+      "id": 50,
+      "start": 154.6,
+      "end": 155.24,
+      "start_timecode": "00:02:34.600",
+      "end_timecode": "00:02:35.240",
+      "text": "Permit.",
+      "section": "Break"
+    },
+    {
+      "id": 51,
+      "start": 155.24,
+      "end": 156.02,
+      "start_timecode": "00:02:35.240",
+      "end_timecode": "00:02:36.020",
+      "text": "Log.",
+      "section": "Break"
+    },
+    {
+      "id": 52,
+      "start": 156.02,
+      "end": 157.0,
+      "start_timecode": "00:02:36.020",
+      "end_timecode": "00:02:37.000",
+      "text": "Source NAT.",
+      "section": "Break"
+    },
+    {
+      "id": 53,
+      "start": 158.38,
+      "end": 159.02,
+      "start_timecode": "00:02:38.380",
+      "end_timecode": "00:02:39.020",
+      "text": "Destination NAT.",
+      "section": "Break"
+    },
+    {
+      "id": 54,
+      "start": 162.14,
+      "end": 162.78,
+      "start_timecode": "00:02:42.140",
+      "end_timecode": "00:02:42.780",
+      "text": "T-C-P.",
+      "section": "Break"
+    },
+    {
+      "id": 55,
+      "start": 164.14,
+      "end": 164.78,
+      "start_timecode": "00:02:44.140",
+      "end_timecode": "00:02:44.780",
+      "text": "U-D-P.",
+      "section": "Break"
+    },
+    {
+      "id": 56,
+      "start": 183.1,
+      "end": 186.4,
+      "start_timecode": "00:03:03.100",
+      "end_timecode": "00:03:06.400",
+      "text": "State table. Lock it.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 57,
+      "start": 184.38,
+      "end": 184.54,
+      "start_timecode": "00:03:04.380",
+      "end_timecode": "00:03:04.540",
+      "text": "Drop it.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 58,
+      "start": 186.5,
+      "end": 189.7,
+      "start_timecode": "00:03:06.500",
+      "end_timecode": "00:03:09.700",
+      "text": "Packet hits. Stop it.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 59,
+      "start": 187.7,
+      "end": 187.92,
+      "start_timecode": "00:03:07.700",
+      "end_timecode": "00:03:07.920",
+      "text": "Log it.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 60,
+      "start": 189.82,
+      "end": 191.6,
+      "start_timecode": "00:03:09.820",
+      "end_timecode": "00:03:11.600",
+      "text": "No match. Knock it.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 61,
+      "start": 191.08,
+      "end": 191.68,
+      "start_timecode": "00:03:11.080",
+      "end_timecode": "00:03:11.680",
+      "text": "Block it.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 62,
+      "start": 191.68,
+      "end": 195.0,
+      "start_timecode": "00:03:11.680",
+      "end_timecode": "00:03:15.000",
+      "text": "Write rule. Lock it.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 63,
+      "start": 194.24,
+      "end": 194.66,
+      "start_timecode": "00:03:14.240",
+      "end_timecode": "00:03:14.660",
+      "text": "State table lock it.",
+      "section": "Final Hook"
+    }
+  ]
+}

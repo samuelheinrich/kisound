@@ -1,0 +1,61 @@
+[Intro]
+Twenty years of networks.
+Tonight: terminal.
+
+[Verse 1]
+Eight a.m., ticket open, three APs are gone,
+the controller lost them all, so I'm tracing what's wrong.
+ISE shows Access-Reject, every line in red,
+a certificate expired, so the login's dead.
+Noon, a tunnel's flapping, phase one up, phase two down,
+one proposal's mismatched. I align it. Tunnel's up. Clock out.
+
+[Pre-Chorus]
+Laptop closed. The day is through.
+Laptop open. Something new.
+Same old eyes, a different screen,
+I build what's missing in between.
+
+[Chorus]
+Vibecoder.
+Days on the network, nights in the terminal.
+Vibecoder.
+I say what I need, then I run it all.
+Prompt. Run. Test. Fix.
+If it doesn't run, it doesn't count.
+
+[Verse 2]
+Ten p.m., Codex in the shell,
+I name the goal, it writes the code, I test it myself.
+A window for files, drag and drop them in,
+the progress bar stalls at ninety-nine again.
+I paste the error back with one line more:
+"It worked an hour ago. What did you change before?"
+The diff shows one line that used to read fine,
+reverted, restarted, a hundred percent this time.
+
+[Chorus]
+Vibecoder.
+Days on the network, nights in the terminal.
+Vibecoder.
+I say what I need, then I run it all.
+Prompt. Run. Test. Fix.
+If it doesn't run, it doesn't count.
+
+[Bridge]
+No slides, no promise on paper,
+one button that works, then the next one later.
+Start small. Make it run. Keep it tight.
+Then extend it, once the base is right.
+
+[Chorus]
+Vibecoder.
+Days on the network, nights in the terminal.
+Vibecoder.
+I say what I need, then I run it all.
+Prompt. Run. Test. Fix.
+If it doesn't run, it doesn't count.
+
+[Outro]
+Prompt. Run. Test. Fix.
+Tunnel's up. App runs. Lights out.

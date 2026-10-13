@@ -1,0 +1,54 @@
+[Intro]
+Camera on.
+Bird. Zero point nine one.
+
+[Verse 1]
+A Raspberry Pi at the window, the camera on the roof,
+a model scanning frames for birds, frame by frame for proof.
+A box around the pigeon: bird, zero point nine one,
+a box around a plastic bag: bird, point six. That's wrong.
+I raise the threshold to point seven, the bag drops out,
+the pigeon stays inside the box. No noise, no doubt.
+
+[Chorus]
+Birdlaser.
+Frame. Box. Pan. Tilt.
+Birdlaser.
+A dot on the railing, and the bird lifts.
+Never aimed at the bird, just light on the stone,
+it takes off, and the roof's left alone.
+
+[Verse 2]
+Two servos, pan and tilt, the first test shakes like mad,
+software PWM, the dot jumps all around. That's bad.
+I ask the agent, it switches to hardware PWM,
+the dot holds still and steady, no jitter and no hum.
+Pixels into angles, the box center as the aim,
+an offset for the roof, and the dot sits where I want it, every frame.
+
+[Chorus]
+Birdlaser.
+Frame. Box. Pan. Tilt.
+Birdlaser.
+A dot on the railing, and the bird lifts.
+Never aimed at the bird, just light on the stone,
+it takes off, and the roof's left alone.
+
+[Bridge]
+First a servo that can turn.
+Then a picture that can see.
+Then a box around the bird.
+Then the light. And it flies free.
+
+[Chorus]
+Birdlaser.
+Frame. Box. Pan. Tilt.
+Birdlaser.
+A dot on the railing, and the bird lifts.
+Never aimed at the bird, just light on the stone,
+it takes off, and the roof's left alone.
+
+[Outro]
+Camera on.
+Roof clear.
+Bird. Zero.

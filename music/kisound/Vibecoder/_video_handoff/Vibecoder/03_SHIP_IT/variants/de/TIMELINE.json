@@ -1,0 +1,921 @@
+{
+  "schema": "kisound.video.timeline.v1",
+  "language": "de",
+  "duration_s": 155.96,
+  "fps": 60,
+  "frames": 9358,
+  "source_audio_sha256": "689d662c3d10ba9bd08c787315635ff4bba6d97f8a5db54343486dd4c7958259",
+  "transcript_sha256": "0a6bb52a773c7a65023586d1a702f928a73ab52b5b60f7cc202d6a7ad5840b28",
+  "analysis_sha256": "11b43ffcad606bbcc04b406e693169ddb6fd2db75f9141970317794e42ef8bd0",
+  "shots": [
+    {
+      "id": "S001",
+      "zone": "room",
+      "mode": "3D",
+      "title": "Der Release wartet",
+      "action": "Ein nächtlicher Arbeitsplatz. Auf dem Monitor steht die neue Albumkarte neben dem alten Live-Stand. Die fünf Stationen der Release-Schiene sind dunkel.",
+      "camera": "Langsame Fahrt von der Fensterkante zum Laptop, 35 mm.",
+      "transition": "Monitorrahmen wird zur Titelkante.",
+      "start_s": 0,
+      "end_s": 8.36,
+      "first_frame": 0,
+      "end_frame_exclusive": 502,
+      "start_origin": "audio start",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E001",
+        "E002",
+        "E003"
+      ]
+    },
+    {
+      "id": "S002",
+      "zone": "type",
+      "mode": "2D",
+      "title": "COMMIT IT. SHIP IT.",
+      "action": "Die Titelmarke erscheint in zwei Zeilen. Darunter liegt Album drei als noch ungeöffnete Karte. DE zeigt zuerst den hörbaren Album-drei-Einsatz; EN folgt dem frühen Hook-Ruf.",
+      "camera": "Frontal; ein kurzer Eintritt, dann ruhige Lesephase.",
+      "transition": "Titel zieht sich in die Dateileiste zurück.",
+      "start_s": 8.36,
+      "end_s": 22.14,
+      "first_frame": 502,
+      "end_frame_exclusive": 1329,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 1,
+          "start_s": 8.36,
+          "end_s": 9.78,
+          "text": "Album drei geht raus.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E004"
+      ]
+    },
+    {
+      "id": "S003",
+      "zone": "desk",
+      "mode": "3D",
+      "title": "Alles liegt bereit",
+      "action": "Tracks, Cover, Audio und Lyrics liegen als vier reale Ordnerkarten am Bildschirmrand. Der Cursor steht vor dem ersten Befehl.",
+      "camera": "Über-die-Schulter-Fahrt; kurzer Halt auf den vier Namen.",
+      "transition": "Ordnerkante als Match Cut zur Dateiansicht.",
+      "start_s": 22.14,
+      "end_s": 27.16,
+      "first_frame": 1329,
+      "end_frame_exclusive": 1630,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 2,
+          "start_s": 22.14,
+          "end_s": 23.54,
+          "text": "Album 3 geht raus",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E005"
+      ]
+    },
+    {
+      "id": "S004",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Neue Tracks",
+      "action": "Neue Trackdateien und zugehörige Cover erscheinen in einer gemeinsamen Liste. Jede Zeile hat genau eine Coverreferenz.",
+      "camera": "Orthogonale Gesamtansicht, dann ein lesbarer Ausschnitt.",
+      "transition": "Listenzeile schiebt zum Terminal.",
+      "start_s": 27.16,
+      "end_s": 30.26,
+      "first_frame": 1630,
+      "end_frame_exclusive": 1816,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 3,
+          "start_s": 27.16,
+          "end_s": 30.26,
+          "text": "Neue Tracks im Ordner, jedes Cover liegt bereit,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E006"
+      ]
+    },
+    {
+      "id": "S005",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Build läuft",
+      "action": "`npm run build` erzeugt Seiten. Der Prozess endet mit `BUILD PASS`; der Check steht noch aus.",
+      "camera": "Ruhiges Terminal mit höchstens drei grossen Statuszeilen.",
+      "transition": "Grüne Build-Zeile bleibt beim folgenden Rot sichtbar.",
+      "start_s": 30.26,
+      "end_s": 33.76,
+      "first_frame": 1816,
+      "end_frame_exclusive": 2026,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 4,
+          "start_s": 30.26,
+          "end_s": 33.76,
+          "text": "npm run build, die Seiten stehen nach kurzer Zeit.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S006",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ein roter Check",
+      "action": "`npm run check` meldet genau einen fehlenden Coverpfad. Build bleibt grün; Check ist rot.",
+      "camera": "Feste Frontalansicht, eine einzige Fehlermeldung dominant.",
+      "transition": "Fehlerpfad wird als Linie in den Dateivergleich geführt.",
+      "start_s": 33.76,
+      "end_s": 36.94,
+      "first_frame": 2026,
+      "end_frame_exclusive": 2217,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 5,
+          "start_s": 33.76,
+          "end_s": 36.94,
+          "text": "npm run check: ein Fehler, rot und klar,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E007"
+      ]
+    },
+    {
+      "id": "S007",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Der Coverpfad",
+      "action": "Referenz und wirklicher Dateiname stehen nebeneinander. Das Cover selbst liegt da, wird aber unter dem falschen Namen gesucht.",
+      "camera": "Zwei breite Spalten; keine scrollende Logwand.",
+      "transition": "Beide Namen decken sich bis zu einer Stelle.",
+      "start_s": 36.94,
+      "end_s": 40.38,
+      "first_frame": 2217,
+      "end_frame_exclusive": 2423,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 6,
+          "start_s": 36.94,
+          "end_s": 40.38,
+          "text": "ein Cover fehlt, der Dateiname nicht so, wie er war.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S008",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Der Unterstrich",
+      "action": "Ein zusätzlicher Unterstrich leuchtet auf und wird entfernt. Die Dateireferenz bleibt sichtbar, während der Name sich angleicht.",
+      "camera": "Makro auf genau eine Zeichenposition; danach wieder beide Namen.",
+      "transition": "Die geschlossene Lücke wird zum grünen Check-Rahmen.",
+      "start_s": 40.38,
+      "end_s": 46.5,
+      "first_frame": 2423,
+      "end_frame_exclusive": 2790,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 7,
+          "start_s": 40.38,
+          "end_s": 44.7,
+          "text": "Ein Unterstrich zu viel, ich benenn die Datei zurück,",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E008"
+      ]
+    },
+    {
+      "id": "S009",
+      "zone": "project",
+      "mode": "hybrid",
+      "title": "Null Fehler",
+      "action": "Derselbe Check läuft erneut und meldet null Fehler. Erst jetzt entsteht der Release-Commit als neue Karte auf der Schiene.",
+      "camera": "Seitliche Fahrt vom Terminal zum Commit; beide Zustände bleiben lesbar.",
+      "transition": "Commit-Karte fährt in die erste Hook-Fläche.",
+      "start_s": 46.5,
+      "end_s": 51.32,
+      "first_frame": 2790,
+      "end_frame_exclusive": 3080,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 8,
+          "start_s": 46.5,
+          "end_s": 51.32,
+          "text": "Check nochmal: null Fehler. Jetzt kommt das letzte Stück.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E009"
+      ]
+    },
+    {
+      "id": "S010",
+      "zone": "type",
+      "mode": "2D",
+      "title": "Hook eins",
+      "action": "COMMIT IT. SHIP IT. füllt das Bild. Der Commit ist sichtbar; das LIVE-Tor steht noch als Ausblick hinter der Schiene.",
+      "camera": "Frontal, Titel mindestens etwa eine Sekunde ruhig.",
+      "transition": "Unterkante der Schrift wird zur Schiene.",
+      "start_s": 51.32,
+      "end_s": 55.12,
+      "first_frame": 3080,
+      "end_frame_exclusive": 3308,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 9,
+          "start_s": 51.32,
+          "end_s": 54.44,
+          "text": "Komedische B -B -B -Budget -Live",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E010",
+        "E011"
+      ]
+    },
+    {
+      "id": "S011",
+      "zone": "project",
+      "mode": "3D",
+      "title": "Build. Check. Live.",
+      "action": "BUILD und CHECK sind grün. LIVE leuchtet als Projektion in der Ferne, ohne einen erfolgten Upload zu behaupten. Eine kurze COMMIT-IT/SHIP-IT-Reprise steht vor den Toren.",
+      "camera": "Dolly entlang der Stationen; Stopps auf den ersten beiden.",
+      "transition": "Projektion klappt in die nächste Hook-Zeile.",
+      "start_s": 55.12,
+      "end_s": 58.34,
+      "first_frame": 3308,
+      "end_frame_exclusive": 3501,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 10,
+          "start_s": 55.12,
+          "end_s": 56.62,
+          "text": "Komedische B -B -B -B",
+          "review_required": true
+        },
+        {
+          "id": 11,
+          "start_s": 56.82,
+          "end_s": 58.22,
+          "text": "Album drei.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S012",
+      "zone": "type",
+      "mode": "hybrid",
+      "title": "Der Ruf kehrt zurück",
+      "action": "Die Titelmarke kehrt mit derselben Form zurück. Die Schiene bleibt darunter im echten Zustand; Album drei steht am Ende.",
+      "camera": "Erst frontal, danach geringe Parallaxe.",
+      "transition": "Die Albumkarte löst sich aus dem Wort.",
+      "start_s": 58.34,
+      "end_s": 61.44,
+      "first_frame": 3501,
+      "end_frame_exclusive": 3687,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 12,
+          "start_s": 58.34,
+          "end_s": 61.44,
+          "text": "Link geht raus, die Seite lebt",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S013",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Album drei",
+      "action": "Albumkarte und Cover werden gross. Der öffentliche Link ist als kommende Aktion sichtbar, aber noch nicht freigegeben.",
+      "camera": "Statische Albumansicht mit klarer Statusmarke `READY`.",
+      "transition": "Coverfarbe fliesst in das Linkfeld.",
+      "start_s": 61.44,
+      "end_s": 67,
+      "first_frame": 3687,
+      "end_frame_exclusive": 4020,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 13,
+          "start_s": 61.44,
+          "end_s": 65.0,
+          "text": "Play gedrückt, und der Bass still",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E012",
+        "E013",
+        "E014"
+      ]
+    },
+    {
+      "id": "S014",
+      "zone": "room",
+      "mode": "3D",
+      "title": "Der Weg nach draussen",
+      "action": "Die Kamera verlässt kurz den Monitor und verfolgt eine orange Linie zur dunklen LIVE-Station. Der Refrain darf seine instrumentale Fläche ausspielen.",
+      "camera": "Eine kontinuierliche, langsame Fahrt am Tisch entlang.",
+      "transition": "Linie führt zurück zur Play-Vorschau.",
+      "start_s": 67,
+      "end_s": 72,
+      "first_frame": 4020,
+      "end_frame_exclusive": 4320,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 14,
+          "start_s": 67.0,
+          "end_s": 70.34,
+          "text": "Schlecht live, komm mit den Schippen mit den",
+          "review_required": true
+        },
+        {
+          "id": 15,
+          "start_s": 70.34,
+          "end_s": 71.54,
+          "text": "Albumen rein",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S015",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Link und Play als Ausblick",
+      "action": "Ein Linkfeld und ein Playknopf erscheinen als Vorschau. Die echte Browserprüfung folgt erst nach Deploy und Reload.",
+      "camera": "Frontal, zwei klar getrennte Flächen.",
+      "transition": "Upload-Zähler übernimmt den freien Platz.",
+      "start_s": 72,
+      "end_s": 78.66,
+      "first_frame": 4320,
+      "end_frame_exclusive": 4720,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 16,
+          "start_s": 72.0,
+          "end_s": 75.34,
+          "text": "Der Lied geht raus, die Seite lebt",
+          "review_required": true
+        },
+        {
+          "id": 17,
+          "start_s": 75.34,
+          "end_s": 76.48,
+          "text": "Play gedrückt",
+          "review_required": true
+        },
+        {
+          "id": 18,
+          "start_s": 77.0,
+          "end_s": 78.66,
+          "text": "Und der Bass still",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E015",
+        "E016"
+      ]
+    },
+    {
+      "id": "S016",
+      "zone": "project",
+      "mode": "3D",
+      "title": "Deploy startet",
+      "action": "Der geprüfte Stand wird hochgeladen. Ein Paket fährt aus dem Commit-Tor durch DEPLOY; LIVE bleibt noch unbestätigt.",
+      "camera": "Seitliche 35-mm-Fahrt parallel zur Schiene.",
+      "transition": "Paketkante wird zur Upload-Liste.",
+      "start_s": 78.66,
+      "end_s": 81.94,
+      "first_frame": 4720,
+      "end_frame_exclusive": 4917,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 19,
+          "start_s": 78.66,
+          "end_s": 81.94,
+          "text": "Deploy auf live, der Upload zählt die Dateien,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E017"
+      ]
+    },
+    {
+      "id": "S017",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Drei Dateigruppen",
+      "action": "Cover, Audio und Texte werden einzeln gezählt und als übertragen markiert. Kein Passwort und keine reale Provider-Oberfläche.",
+      "camera": "Frontaler Dreispaltenaufbau, kurze Haltezeit auf der Vollständigkeit.",
+      "transition": "Vollständigkeitsrahmen wird zum Browserrahmen.",
+      "start_s": 81.94,
+      "end_s": 85.2,
+      "first_frame": 4917,
+      "end_frame_exclusive": 5112,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 20,
+          "start_s": 81.94,
+          "end_s": 85.2,
+          "text": "Cover, Audio, Texte, alles muss dabei sein.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S018",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Noch der alte Stand",
+      "action": "Normaler Reload: Der Browser zeigt weiter die alte Albumübersicht. Uploadstatus bleibt separat grün.",
+      "camera": "Unbewegter Vorher-Blick, alter Albumstand klar erkennbar.",
+      "transition": "Reload-Pfeil wird kurz angehalten.",
+      "start_s": 85.2,
+      "end_s": 88.7,
+      "first_frame": 5112,
+      "end_frame_exclusive": 5322,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 21,
+          "start_s": 85.2,
+          "end_s": 88.7,
+          "text": "Ich lad die Seite neu, der Browser zeigt noch alt,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E018"
+      ]
+    },
+    {
+      "id": "S019",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Harter Reload",
+      "action": "Der Cache wird umgangen. Dieselbe Browserposition zeigt nun Album drei; Cover und Trackliste wechseln gemeinsam.",
+      "camera": "Identischer Bildausschnitt vor und nach dem Reload.",
+      "transition": "Neue Coverfläche öffnet die Sprachansicht.",
+      "start_s": 88.7,
+      "end_s": 92.26,
+      "first_frame": 5322,
+      "end_frame_exclusive": 5536,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 22,
+          "start_s": 88.7,
+          "end_s": 91.28,
+          "text": "Data Reload und Album 3 steht da, der",
+          "review_required": true
+        },
+        {
+          "id": 23,
+          "start_s": 91.28,
+          "end_s": 92.26,
+          "text": "Bass knallt",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E019"
+      ]
+    },
+    {
+      "id": "S020",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Deutsch, dann Englisch",
+      "action": "Die DE-Seite wird geprüft, dann die EN-Seite. Navigation und Beschreibung wechseln; beide Tracklisten zeigen denselben Release.",
+      "camera": "Zwei grosse Browserflächen nacheinander, gleiche Position.",
+      "transition": "Sprachschalter zieht zur Lyrics-Zeile.",
+      "start_s": 92.26,
+      "end_s": 95.38,
+      "first_frame": 5536,
+      "end_frame_exclusive": 5723,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 24,
+          "start_s": 92.26,
+          "end_s": 95.38,
+          "text": "Erst Deutsch, dann Englisch, jede Sprache prüf ich nach,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E020"
+      ]
+    },
+    {
+      "id": "S021",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Lyrics im Original",
+      "action": "Die Sprache der UI wechselt, die Lyrics der jeweiligen Aufnahme bleiben in ihrer Originalsprache. Eine einzelne erkennbare Zeile belegt das.",
+      "camera": "Ruhige Vergleichsansicht, keine winzigen Volltexte.",
+      "transition": "Die bestätigte Seite wird zum LIVE-Tor.",
+      "start_s": 95.38,
+      "end_s": 98.78,
+      "first_frame": 5723,
+      "end_frame_exclusive": 5927,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 25,
+          "start_s": 95.38,
+          "end_s": 98.78,
+          "text": "die Lyrics bleiben im Original, so wie ich sie gemacht.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S022",
+      "zone": "type",
+      "mode": "2D",
+      "title": "Hook zwei",
+      "action": "COMMIT IT. SHIP IT. erscheint erneut. Jetzt ist das LIVE-Tor keine Projektion mehr: im Hintergrund steht der geöffnete Browser.",
+      "camera": "Gleiche Titelgeometrie wie zuvor, stärkerer Kontrast.",
+      "transition": "Titelkante wird zu drei Torrahmen.",
+      "start_s": 98.78,
+      "end_s": 102.92,
+      "first_frame": 5927,
+      "end_frame_exclusive": 6176,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 26,
+          "start_s": 98.78,
+          "end_s": 102.24,
+          "text": "Comedy Shippe -Pippe -Pippe -Pippe Check live",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E021",
+        "E022"
+      ]
+    },
+    {
+      "id": "S023",
+      "zone": "project",
+      "mode": "3D",
+      "title": "Alle drei Tore",
+      "action": "BUILD, CHECK und LIVE sind grün, in dieser Reihenfolge. Der Browserstatus ist aus der echten Reload-Prüfung gespeist. Die Hook-Schrift kehrt kurz vor den Toren zurück.",
+      "camera": "Dolly mit drei klaren Stationen, kein Flug durch Text.",
+      "transition": "Letztes Tor rahmt Album drei.",
+      "start_s": 102.92,
+      "end_s": 105.62,
+      "first_frame": 6176,
+      "end_frame_exclusive": 6338,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 27,
+          "start_s": 102.92,
+          "end_s": 105.62,
+          "text": "Comedy Shippe -Pippe -Pippe Album 3",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S024",
+      "zone": "type",
+      "mode": "hybrid",
+      "title": "Album drei ist da",
+      "action": "Die zweite Hook und die Albumkarte stehen zusammen. Der Link kann jetzt kopiert werden.",
+      "camera": "Titel frontal, dann kurzer Rückzug auf den Browser.",
+      "transition": "Linkfeld bleibt als einziges aktives Element.",
+      "start_s": 105.62,
+      "end_s": 109.14,
+      "first_frame": 6338,
+      "end_frame_exclusive": 6549,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 28,
+          "start_s": 105.62,
+          "end_s": 109.14,
+          "text": "Der Link geht raus, die Seite leer",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E023"
+      ]
+    },
+    {
+      "id": "S025",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Link geht raus",
+      "action": "Der öffentliche Link wird kopiert und geteilt. Die Zielseite lädt aus demselben geprüften Stand.",
+      "camera": "Frontaler Link-zu-Browser-Match-Cut.",
+      "transition": "Geladene Seite hält den Playknopf frei.",
+      "start_s": 109.14,
+      "end_s": 110.72,
+      "first_frame": 6549,
+      "end_frame_exclusive": 6644,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 29,
+          "start_s": 109.14,
+          "end_s": 110.72,
+          "text": "Kegel drückt",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S026",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Play",
+      "action": "Ein Klick auf Play schliesst die zweite Hook. Die gewählte Original-WAV bleibt die einzige Filmtonspur.",
+      "camera": "Nahsicht auf Player und Cover, kein zusätzlicher Soundeffekt.",
+      "transition": "Play-Dreieck wird zur ersten Bridge-Karte.",
+      "start_s": 110.72,
+      "end_s": 113,
+      "first_frame": 6644,
+      "end_frame_exclusive": 6780,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 30,
+          "start_s": 110.72,
+          "end_s": 112.96,
+          "text": "Und der Bass steht",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E024"
+      ]
+    },
+    {
+      "id": "S027",
+      "zone": "project",
+      "mode": "hybrid",
+      "title": "Tracks. Covers.",
+      "action": "Die Bridge beginnt mit zwei grossen Karten. Beide übernehmen die schon gesehenen echten Dateien.",
+      "camera": "Frontale Karten, kurze seitliche Verschiebung pro Wort.",
+      "transition": "Kartenkante setzt die nächste Station frei.",
+      "start_s": 113,
+      "end_s": 116.1,
+      "first_frame": 6780,
+      "end_frame_exclusive": 6966,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 31,
+          "start_s": 113.0,
+          "end_s": 113.62,
+          "text": "Tracks.",
+          "review_required": true
+        },
+        {
+          "id": 32,
+          "start_s": 113.68,
+          "end_s": 114.24,
+          "text": "Covers.",
+          "review_required": true
+        },
+        {
+          "id": 33,
+          "start_s": 114.4,
+          "end_s": 118.44,
+          "text": "Doppelbild, Tische, Pro, Lilo, Lilo, Bäh, Bäh, Bäh,",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E025",
+        "E026"
+      ]
+    },
+    {
+      "id": "S028",
+      "zone": "project",
+      "mode": "3D",
+      "title": "Build. Check.",
+      "action": "Build und Check stehen nebeneinander; unter Check ist die korrigierte Coverreferenz als kleiner Beleg sichtbar.",
+      "camera": "Kurze Achsenfahrt, jeder Status frontal lesbar.",
+      "transition": "Grüner Check-Rahmen gleitet auf Deploy.",
+      "start_s": 116.1,
+      "end_s": 120.28,
+      "first_frame": 6966,
+      "end_frame_exclusive": 7217,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 34,
+          "start_s": 118.52,
+          "end_s": 118.98,
+          "text": "Almen.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S029",
+      "zone": "project",
+      "mode": "3D",
+      "title": "Deploy. Reload.",
+      "action": "Upload und Browserprüfung bleiben getrennte Stationen. Erst der Reload macht den neuen Stand im Browser sichtbar.",
+      "camera": "Fahrt entlang der Schiene, dann Halt am Browserrahmen.",
+      "transition": "Rahmen öffnet den Schlussbogen.",
+      "start_s": 120.28,
+      "end_s": 126,
+      "first_frame": 7217,
+      "end_frame_exclusive": 7560,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 35,
+          "start_s": 120.28,
+          "end_s": 124.76,
+          "text": "Tricks, Cover, Doppelbild, Tische, Pro, Lilo, Lilo, Bäh,",
+          "review_required": true
+        },
+        {
+          "id": 36,
+          "start_s": 124.9,
+          "end_s": 125.72,
+          "text": "Bäh, Bäh, Almen.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E027"
+      ]
+    },
+    {
+      "id": "S030",
+      "zone": "room",
+      "mode": "3D",
+      "title": "Die Kette im Raum",
+      "action": "Die Kamera zieht weit zurück: alle Stationen führen zu Album drei. DE nutzt die lange instrumentale Fläche; EN zeigt am frühen Schlussruf eine kurze Titel-Reprise.",
+      "camera": "Eine kontinuierliche Rückfahrt, keine eingefrorene Endkarte.",
+      "transition": "Orange Linie faltet sich zur Titelkontur.",
+      "start_s": 126,
+      "end_s": 137.5,
+      "first_frame": 7560,
+      "end_frame_exclusive": 8250,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E028",
+        "E029"
+      ]
+    },
+    {
+      "id": "S031",
+      "zone": "type",
+      "mode": "hybrid",
+      "title": "Schlussrefrain",
+      "action": "Die Titelmarke öffnet die vollständige Release-Kette. Bei DE ist der Titel in der langen Schlussfläche redaktionell gesetzt; ein exakter gesungener Hook ist dort nicht belegt.",
+      "camera": "Frontaler Titel, dann langsame räumliche Öffnung.",
+      "transition": "Buchstaben geben die Live-Seite frei.",
+      "start_s": 137.5,
+      "end_s": 140.28,
+      "first_frame": 8250,
+      "end_frame_exclusive": 8417,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 37,
+          "start_s": 137.5,
+          "end_s": 140.28,
+          "text": "Und der Bastel",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E030"
+      ]
+    },
+    {
+      "id": "S032",
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Die Veröffentlichung läuft",
+      "action": "Link, Albumkarte, DE/EN-Prüfung und Player erscheinen als ein konsistenter Stand. Die Musik trägt die längere Schlussfahrt weiter.",
+      "camera": "Langsame Fahrt über dieselbe Seite, nicht über neue erfundene Inhalte.",
+      "transition": "Aktueller Commit rückt an den Rand.",
+      "start_s": 140.28,
+      "end_s": 150.6,
+      "first_frame": 8417,
+      "end_frame_exclusive": 9036,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E031",
+        "E032"
+      ]
+    },
+    {
+      "id": "S033",
+      "zone": "desk",
+      "mode": "3D",
+      "title": "Nächster Commit",
+      "action": "Eine neue Notiz erscheint am Tisch. Die aktuelle Veröffentlichung bleibt grün; die nächste Arbeit ist noch offen. Die EN-Outro-Hook prägt die Titelmarke kurz in den Rand der Commit-Karte.",
+      "camera": "Rückfahrt vom Monitor zur Hand, dann kurzer Halt.",
+      "transition": "Notiz bleibt als kleiner Lichtpunkt stehen.",
+      "start_s": 150.6,
+      "end_s": 154,
+      "first_frame": 9036,
+      "end_frame_exclusive": 9240,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [
+        {
+          "id": 38,
+          "start_s": 150.6,
+          "end_s": 152.62,
+          "text": "Nächste Zeit und nächste",
+          "review_required": true
+        },
+        {
+          "id": 39,
+          "start_s": 152.62,
+          "end_s": 154.0,
+          "text": "Komm' auf",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E033",
+        "E034"
+      ]
+    },
+    {
+      "id": "S034",
+      "zone": "end",
+      "mode": "3D",
+      "title": "Bis zum Audioende",
+      "action": "Die Kamera fährt aus dem Fenster zurück. Im Monitor bleibt der fertige Release sichtbar; der neue Auftrag ist offen. Blende nach dem letzten belegten Wort und innerhalb des gemessenen Endabfalls.",
+      "camera": "Ruhige Rückfahrt, letztes Bild bis zum Originalende.",
+      "transition": "Schwarz exakt am Ende der WAV.",
+      "start_s": 154,
+      "end_s": 155.96,
+      "first_frame": 9240,
+      "end_frame_exclusive": 9358,
+      "start_origin": "redaktioneller Schnitt; ASR-/Analyseanker wo vorhanden",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E035",
+        "E036",
+        "E037"
+      ]
+    }
+  ],
+  "timing_note": "Schnittzeiten sind redaktionell. ASR-Wortzeiten bleiben unverändert und markierte Texte benötigen Hörprüfung."
+}

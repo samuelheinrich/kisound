@@ -1,0 +1,18 @@
+{
+  "setId": "router-core",
+  "status": "OK",
+  "triangles": 4536,
+  "budget": 300000,
+  "meshes": 68,
+  "anchors": 42,
+  "materials": [
+    "cage",
+    "cavity",
+    "chassis",
+    "glass",
+    "led",
+    "plastic"
+  ],
+  "errors": [],
+  "warnings": []
+}

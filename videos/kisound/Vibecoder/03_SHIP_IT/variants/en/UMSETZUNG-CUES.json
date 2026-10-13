@@ -1,0 +1,910 @@
+{
+ "schema": "kisound.ship-it.cues.v1",
+ "language": "en",
+ "source_wav": "03_SHIP_IT_suno-v3_50_50_exakt_off_EN.wav",
+ "duration_s": 120.68,
+ "fade_start_s": 120.08,
+ "gaps_s": [
+  [
+   1.1,
+   1.3
+  ],
+  [
+   1.5,
+   1.7
+  ],
+  [
+   2,
+   2.1
+  ],
+  [
+   2.4,
+   2.6
+  ],
+  [
+   2.8,
+   3
+  ],
+  [
+   3.3,
+   3.4
+  ],
+  [
+   11.9,
+   12
+  ],
+  [
+   13.9,
+   14.1
+  ],
+  [
+   49.9,
+   50.1
+  ],
+  [
+   65.4,
+   65.6
+  ],
+  [
+   68.8,
+   69
+  ],
+  [
+   83.9,
+   84
+  ],
+  [
+   95.5,
+   95.8
+  ],
+  [
+   96.6,
+   96.9
+  ],
+  [
+   97,
+   97.3
+  ],
+  [
+   104.9,
+   105
+  ],
+  [
+   113.7,
+   114
+  ],
+  [
+   119.2,
+   119.6
+  ]
+ ],
+ "drops_s": [
+  71.35,
+  84.95,
+  98.65,
+  105.45,
+  113.95
+ ],
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Der Release wartet",
+   "shot": "S001",
+   "start": 0,
+   "end": 0.9,
+   "action": "Nacht am Rechner, fünf dunkle Stationen auf der Release-Schiene."
+  },
+  {
+   "id": "C02",
+   "title": "COMMIT IT. SHIP IT.",
+   "shot": "S002",
+   "start": 0.9,
+   "end": 10.68,
+   "action": "Die Titelmarke und Album drei als ungeöffnete Karte."
+  },
+  {
+   "id": "C03",
+   "title": "npm run build",
+   "shot": "S003",
+   "start": 10.68,
+   "end": 20.92,
+   "action": "Tracks, Cover, Audio und Lyrics liegen bereit; der Build besteht."
+  },
+  {
+   "id": "C04",
+   "title": "Ein Unterstrich zu viel",
+   "shot": "S006",
+   "start": 20.92,
+   "end": 30.54,
+   "action": "Der Check findet genau ein fehlendes Cover; ein Zeichen ist zu viel."
+  },
+  {
+   "id": "C05",
+   "title": "Null Fehler",
+   "shot": "S009",
+   "start": 30.54,
+   "end": 33.96,
+   "action": "Derselbe Check besteht; erst jetzt entsteht der Release-Commit."
+  },
+  {
+   "id": "C06",
+   "title": "Build. Check. Live.",
+   "shot": "S010",
+   "start": 33.96,
+   "end": 48.38,
+   "action": "Erster Refrain: LIVE ist noch ein Ausblick."
+  },
+  {
+   "id": "C07",
+   "title": "Deploy",
+   "shot": "S016",
+   "start": 48.38,
+   "end": 55.02,
+   "action": "Cover, Audio und Texte werden hochgeladen und gezählt."
+  },
+  {
+   "id": "C08",
+   "title": "Harter Reload",
+   "shot": "S018",
+   "start": 55.02,
+   "end": 61.68,
+   "action": "Der Browser zeigt den alten Stand, bis der Cache umgangen wird."
+  },
+  {
+   "id": "C09",
+   "title": "DE und EN",
+   "shot": "S020",
+   "start": 61.68,
+   "end": 70.02,
+   "action": "Beide Sprachen geprüft; die Lyrics bleiben im Original."
+  },
+  {
+   "id": "C10",
+   "title": "Link und Play",
+   "shot": "S022",
+   "start": 70.02,
+   "end": 83,
+   "action": "Zweiter Refrain: LIVE ist echt, der Link geht raus."
+  },
+  {
+   "id": "C11",
+   "title": "Bridge",
+   "shot": "S027",
+   "start": 83,
+   "end": 90.7,
+   "action": "Tracks, Covers, Build, Check, Deploy, Reload, Play."
+  },
+  {
+   "id": "C12",
+   "title": "Die ganze Kette",
+   "shot": "S030",
+   "start": 90.7,
+   "end": 107.74,
+   "action": "Schlussrefrain: der Release als eine Bewegung."
+  },
+  {
+   "id": "C13",
+   "title": "Nächster Commit",
+   "shot": "S033",
+   "start": 107.74,
+   "end": 120.68,
+   "action": "Der Release bleibt fertig, die nächste Aufgabe ist offen."
+  }
+ ],
+ "titles": [
+  {
+   "id": "H01",
+   "shot": "S002",
+   "start": 0.9,
+   "until": 6.8,
+   "sub": "bcl",
+   "anchor": true
+  },
+  {
+   "id": "H02",
+   "shot": "S002",
+   "start": 6.96,
+   "until": 10.5,
+   "sub": "drei",
+   "anchor": true
+  },
+  {
+   "id": "H03",
+   "shot": "S010",
+   "start": 33.96,
+   "until": 36.2,
+   "sub": "bcl",
+   "anchor": true
+  },
+  {
+   "id": "H04",
+   "shot": "S012",
+   "start": 37.4,
+   "until": 39.8,
+   "sub": "drei",
+   "anchor": true
+  },
+  {
+   "id": "H05",
+   "shot": "S022",
+   "start": 70.02,
+   "until": 73.3,
+   "sub": "bcl",
+   "anchor": true
+  },
+  {
+   "id": "H06",
+   "shot": "S023",
+   "start": 73.46,
+   "until": 74.9,
+   "sub": "drei",
+   "anchor": true
+  },
+  {
+   "id": "T03",
+   "shot": "S024",
+   "start": 77.78,
+   "until": 80.7,
+   "sub": "drei",
+   "anchor": false
+  },
+  {
+   "id": "H07",
+   "shot": "S030",
+   "start": 90.7,
+   "until": 92,
+   "sub": "bcl",
+   "anchor": true
+  },
+  {
+   "id": "H08",
+   "shot": "S031",
+   "start": 94.02,
+   "until": 96.48,
+   "sub": "drei",
+   "anchor": true
+  },
+  {
+   "id": "H09",
+   "shot": "S033",
+   "start": 107.74,
+   "until": 109,
+   "sub": "",
+   "anchor": true
+  }
+ ],
+ "story": [
+  {
+   "id": "TRACKS_READY",
+   "time_s": 11.68,
+   "label": "TRACKS bereit"
+  },
+  {
+   "id": "ENTER_BUILD",
+   "time_s": 18.2,
+   "label": "Enter: npm run build"
+  },
+  {
+   "id": "BUILD_PASS",
+   "time_s": 20.168,
+   "label": "BUILD PASS"
+  },
+  {
+   "id": "ENTER_CHECK1",
+   "time_s": 21.57,
+   "label": "Enter: npm run check"
+  },
+  {
+   "id": "CHECK_FAIL",
+   "time_s": 22.37,
+   "label": "CHECK FAIL · 1 Fehler (Cover fehlt)"
+  },
+  {
+   "id": "UNDERSCORE_FLASH",
+   "time_s": 27.86,
+   "label": "Unterstrich leuchtet"
+  },
+  {
+   "id": "ENTER_MV",
+   "time_s": 29.229,
+   "label": "Enter: mv … (zurückbenannt)"
+  },
+  {
+   "id": "PATH_FIXED",
+   "time_s": 29.379,
+   "label": "Referenz = Datei"
+  },
+  {
+   "id": "ENTER_CHECK2",
+   "time_s": 30.89,
+   "label": "Enter: derselbe Check"
+  },
+  {
+   "id": "CHECK_PASS",
+   "time_s": 31.69,
+   "label": "CHECK PASS · 0 Fehler"
+  },
+  {
+   "id": "ENTER_COMMIT",
+   "time_s": 32.797,
+   "label": "Enter: git commit"
+  },
+  {
+   "id": "COMMIT",
+   "time_s": 33.017,
+   "label": "Release-Commit"
+  },
+  {
+   "id": "ENTER_DEPLOY",
+   "time_s": 48.8,
+   "label": "Enter: npm run deploy -- --live"
+  },
+  {
+   "id": "UPLOAD_DONE",
+   "time_s": 54.328,
+   "label": "Upload fertig (Cover, Audio, Texte)"
+  },
+  {
+   "id": "RELOAD1",
+   "time_s": 55.57,
+   "label": "normaler Reload: alter Stand (Cache)"
+  },
+  {
+   "id": "HARD_RELOAD",
+   "time_s": 58.35,
+   "label": "harter Reload"
+  },
+  {
+   "id": "NEW_PAGE",
+   "time_s": 58.7,
+   "label": "Album drei im Browser"
+  },
+  {
+   "id": "DE_OK",
+   "time_s": 62.73,
+   "label": "DE geprüft"
+  },
+  {
+   "id": "SWITCH_EN",
+   "time_s": 63.36,
+   "label": "Sprachschalter EN"
+  },
+  {
+   "id": "EN_OK",
+   "time_s": 64.62,
+   "label": "EN geprüft"
+  },
+  {
+   "id": "LYRIC_SAME",
+   "time_s": 67.358,
+   "label": "Lyrics unverändert"
+  },
+  {
+   "id": "LIVE_VERIFIED",
+   "time_s": 69.052,
+   "label": "LIVE PASS"
+  },
+  {
+   "id": "LINK_COPIED",
+   "time_s": 81.1,
+   "label": "Link kopiert"
+  },
+  {
+   "id": "PLAY",
+   "time_s": 81.85,
+   "label": "Play"
+  },
+  {
+   "id": "NEXT_NOTE",
+   "time_s": 108.19,
+   "label": "Notiz: nächstes Album, nächster Commit"
+  }
+ ],
+ "bridge": [
+  {
+   "text": "Tracks.",
+   "start_s": 84.48
+  },
+  {
+   "text": "Covers.",
+   "start_s": 86.08
+  },
+  {
+   "text": "Build.",
+   "start_s": 86.4
+  },
+  {
+   "text": "Check.",
+   "start_s": 87.2
+  },
+  {
+   "text": "Deploy.",
+   "start_s": 87.96
+  },
+  {
+   "text": "Reload.",
+   "start_s": 88.96
+  },
+  {
+   "text": "Play.",
+   "start_s": 89.74
+  }
+ ],
+ "upload": [
+  6,
+  12,
+  12
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 0.9,
+   "zone": "room",
+   "mode": "3D",
+   "event_ids": [
+    "E001"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S002",
+   "start_s": 0.9,
+   "end_s": 10.68,
+   "zone": "type",
+   "mode": "2D",
+   "event_ids": [
+    "E002",
+    "E003",
+    "E004",
+    "E005"
+   ],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S003",
+   "start_s": 10.68,
+   "end_s": 14.08,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [
+    "E006",
+    "E007"
+   ],
+   "lyric_ids": [
+    "L003",
+    "L004"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 14.08,
+   "end_s": 17.5,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E008",
+    "E009",
+    "E010"
+   ],
+   "lyric_ids": [
+    "L005"
+   ]
+  },
+  {
+   "id": "S005",
+   "start_s": 17.5,
+   "end_s": 20.92,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L006"
+   ]
+  },
+  {
+   "id": "S006",
+   "start_s": 20.92,
+   "end_s": 25.2,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E011"
+   ],
+   "lyric_ids": [
+    "L007",
+    "L008"
+   ]
+  },
+  {
+   "id": "S007",
+   "start_s": 25.2,
+   "end_s": 27.56,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S008",
+   "start_s": 27.56,
+   "end_s": 30.54,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E012"
+   ],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S009",
+   "start_s": 30.54,
+   "end_s": 33.96,
+   "zone": "project",
+   "mode": "hybrid",
+   "event_ids": [
+    "E013",
+    "E014"
+   ],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S010",
+   "start_s": 33.96,
+   "end_s": 35,
+   "zone": "type",
+   "mode": "2D",
+   "event_ids": [
+    "E015"
+   ],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S011",
+   "start_s": 35,
+   "end_s": 37.4,
+   "zone": "project",
+   "mode": "3D",
+   "event_ids": [
+    "E016"
+   ],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S012",
+   "start_s": 37.4,
+   "end_s": 39.92,
+   "zone": "type",
+   "mode": "hybrid",
+   "event_ids": [],
+   "lyric_ids": [
+    "L014",
+    "L015"
+   ]
+  },
+  {
+   "id": "S013",
+   "start_s": 39.92,
+   "end_s": 44.04,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E017"
+   ],
+   "lyric_ids": [
+    "L016",
+    "L017"
+   ]
+  },
+  {
+   "id": "S014",
+   "start_s": 44.04,
+   "end_s": 45.38,
+   "zone": "room",
+   "mode": "3D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L018"
+   ]
+  },
+  {
+   "id": "S015",
+   "start_s": 45.38,
+   "end_s": 48.38,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E018",
+    "E019"
+   ],
+   "lyric_ids": [
+    "L019"
+   ]
+  },
+  {
+   "id": "S016",
+   "start_s": 48.38,
+   "end_s": 51.56,
+   "zone": "project",
+   "mode": "3D",
+   "event_ids": [
+    "E020",
+    "E021"
+   ],
+   "lyric_ids": [
+    "L020"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 51.56,
+   "end_s": 55.02,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E022"
+   ],
+   "lyric_ids": [
+    "L021"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 55.02,
+   "end_s": 57.6,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L022"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 57.6,
+   "end_s": 61.68,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E023",
+    "E024",
+    "E025"
+   ],
+   "lyric_ids": [
+    "L023"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 61.68,
+   "end_s": 65.18,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E026"
+   ],
+   "lyric_ids": [
+    "L024"
+   ]
+  },
+  {
+   "id": "S021",
+   "start_s": 65.18,
+   "end_s": 70.02,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E027",
+    "E028"
+   ],
+   "lyric_ids": [
+    "L025"
+   ]
+  },
+  {
+   "id": "S022",
+   "start_s": 70.02,
+   "end_s": 73.46,
+   "zone": "type",
+   "mode": "2D",
+   "event_ids": [
+    "E029",
+    "E030"
+   ],
+   "lyric_ids": [
+    "L026"
+   ]
+  },
+  {
+   "id": "S023",
+   "start_s": 73.46,
+   "end_s": 77.78,
+   "zone": "project",
+   "mode": "3D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L027",
+    "L028",
+    "L029"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 77.78,
+   "end_s": 80.88,
+   "zone": "type",
+   "mode": "hybrid",
+   "event_ids": [
+    "E031"
+   ],
+   "lyric_ids": [
+    "L030"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 80.88,
+   "end_s": 81.5,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S026",
+   "start_s": 81.5,
+   "end_s": 83,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E032"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S027",
+   "start_s": 83,
+   "end_s": 86.4,
+   "zone": "project",
+   "mode": "hybrid",
+   "event_ids": [
+    "E033",
+    "E034",
+    "E035"
+   ],
+   "lyric_ids": [
+    "L031",
+    "L032",
+    "L033"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 86.4,
+   "end_s": 87.96,
+   "zone": "project",
+   "mode": "3D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L034",
+    "L035",
+    "L036",
+    "L037"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 87.96,
+   "end_s": 90.7,
+   "zone": "project",
+   "mode": "3D",
+   "event_ids": [
+    "E036"
+   ],
+   "lyric_ids": [
+    "L038",
+    "L039",
+    "L040",
+    "L041",
+    "L042",
+    "L043"
+   ]
+  },
+  {
+   "id": "S030",
+   "start_s": 90.7,
+   "end_s": 94.02,
+   "zone": "room",
+   "mode": "3D",
+   "event_ids": [
+    "E037"
+   ],
+   "lyric_ids": [
+    "L044",
+    "L045"
+   ]
+  },
+  {
+   "id": "S031",
+   "start_s": 94.02,
+   "end_s": 96.48,
+   "zone": "type",
+   "mode": "hybrid",
+   "event_ids": [
+    "E038"
+   ],
+   "lyric_ids": [
+    "L046",
+    "L047",
+    "L048"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 96.48,
+   "end_s": 107.74,
+   "zone": "screen",
+   "mode": "2D",
+   "event_ids": [
+    "E039",
+    "E040",
+    "E041",
+    "E042"
+   ],
+   "lyric_ids": [
+    "L049",
+    "L050",
+    "L051"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 107.74,
+   "end_s": 113.6,
+   "zone": "desk",
+   "mode": "3D",
+   "event_ids": [
+    "E043",
+    "E044",
+    "E045"
+   ],
+   "lyric_ids": [
+    "L052",
+    "L053"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 113.6,
+   "end_s": 120.68,
+   "zone": "end",
+   "mode": "3D",
+   "event_ids": [
+    "E046",
+    "E047",
+    "E048",
+    "E049",
+    "E050",
+    "E051",
+    "E052"
+   ],
+   "lyric_ids": [
+    "L054"
+   ]
+  }
+ ]
+}

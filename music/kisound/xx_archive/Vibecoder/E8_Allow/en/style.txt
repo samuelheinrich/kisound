@@ -1,0 +1,8 @@
+Genre: UK Rave / Breakbeat Hardcore, euphorisch und bassig, kein Techno.
+Tempo: 145 BPM
+Sound: Schnelle zerhackte Breakbeats, tiefer Sub-Bass mit Reese-Schicht, Hoover-artige Synths, Rave-Piano-Akkorde, Sirenen-Stabs, Klick-Samples im Takt der Zustimmungen; im zweiten Vers plötzlicher Stopp mit zwei Takten Stille, dann Rückkehr des Basses.
+Vocals: Männliche Stimme, rhythmisch, zuerst locker und euphorisch, im zweiten Vers ernüchtert; Hook als Rave-Ruf mit Crowd-Doubles; Bridge langsam und deutlich.
+Vibe: Rave-Euphorie mit Kater am Morgen.
+Mood: Übermütig, dann klüger.
+Ablauf: Intro mit Rave-Ruf, dann voller Break; nach jedem Refrain acht Takte Hoover-Bass-Drop; Bridge halbe Geschwindigkeit nur Piano und Stimme; Schlussrefrain voll. Ziel 3:25.
+Hinweise: Gesang auf Englisch; npm als N-P-M, Git mit hartem G. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

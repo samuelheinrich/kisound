@@ -1,0 +1,56 @@
+[Intro]
+Zweiter Dienstag im Monat.
+Neunzehn Uhr.
+
+[Verse 1]
+Der Kalender weiss es, jeder Admin weiss es auch,
+heute Abend kommen die Updates, ich kenn den Brauch.
+Neunzehn Uhr bei uns, die Release Notes gehen auf,
+sechzig Lücken, drei schon ausgenutzt, die setz ich oben drauf.
+Ring null: die Testmaschinen, meine eigenen zuerst,
+Ring eins: IT und Piloten, wer zuerst patcht, merkt zuerst, was schmerzt.
+Ring zwei: der Rest der Firma, erst wenn nichts mehr brennt,
+und ganz am Schluss die Server, im Fenster, das man kennt.
+
+[Chorus]
+Patch Tuesday.
+Test. Pilot. Rollout.
+Patch Tuesday.
+Reboot pending, und keiner loggt sich aus.
+Jeden Monat dasselbe Spiel,
+jeden Monat ein Stück sicherer, das ist das Ziel.
+
+[Verse 2]
+Donnerstag ruft ein Pilot: „Die Buchhaltung startet nicht.“
+Die alte Fachanwendung stürzt seit heute früh ab, ich seh den Bericht.
+Ich halte den Ring an, schau in die Known Issues rein,
+da steht der Fehler schon, mit Workaround: ein Registry-Wert, klein.
+Gesetzt, getestet, Ring zwei geht raus am Montag früh,
+neunzig Prozent sind durch bis Freitag, der Rest macht Müh.
+
+[Chorus]
+Patch Tuesday.
+Test. Pilot. Rollout.
+Patch Tuesday.
+Reboot pending, und keiner loggt sich aus.
+Jeden Monat dasselbe Spiel,
+jeden Monat ein Stück sicherer, das ist das Ziel.
+
+[Bridge]
+Der Laptop im Rucksack, seit Wochen nicht im Netz,
+der PC im Lager, den keiner mehr kennt, bis jetzt.
+Der Compliance-Report zeigt sie rot,
+ich hol sie einzeln rein, bis Grün ersetzt das Rot.
+
+[Chorus]
+Patch Tuesday.
+Test. Pilot. Rollout.
+Patch Tuesday.
+Reboot pending, und keiner loggt sich aus.
+Jeden Monat dasselbe Spiel,
+jeden Monat ein Stück sicherer, das ist das Ziel.
+
+[Outro]
+Neunundneunzig Prozent.
+Nächster Monat.
+Zweiter Dienstag.

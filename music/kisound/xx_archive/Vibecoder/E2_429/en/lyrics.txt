@@ -1,0 +1,63 @@
+[Intro]
+Four. Two. Nine.
+Too Many Requests.
+
+[Verse 1]
+One script, one loop, five hundred logs to parse,
+I fire them all at once, no pacing and no pause.
+The first twenty make it, then it's red on red,
+four-twenty-nine, and my batch is dead.
+The header says Retry-After: thirty seconds flat,
+the API is telling me: too many calls like that.
+
+[Pre-Chorus]
+One. Two. Four. Eight. Sixteen.
+Wait. And try again.
+
+[Chorus]
+Four-Two-Nine.
+Too Many Requests.
+Four-Two-Nine.
+I double the wait, then retry the rest.
+One, two, four, eight, sixteen,
+then I'm back in.
+
+[Verse 2]
+I know this from the network: when a packet's lost on the line,
+TCP doubles the timer before it tries another time.
+So I build it the same, backoff with a bit of jitter in,
+so they don't all return at once, spread out, and they get in.
+Four at a time, not five hundred, one queue that keeps it fair,
+the counter climbs steadily until the last line's there.
+
+[Pre-Chorus]
+One. Two. Four. Eight. Sixteen.
+Wait. And try again.
+
+[Chorus]
+Four-Two-Nine.
+Too Many Requests.
+Four-Two-Nine.
+I double the wait, then retry the rest.
+One, two, four, eight, sixteen,
+then I'm back in.
+
+[Bridge]
+Not faster.
+Steadier.
+Not more.
+Smarter.
+No flood.
+A flow.
+
+[Chorus]
+Four-Two-Nine.
+Too Many Requests.
+Four-Two-Nine.
+I double the wait, then retry the rest.
+One, two, four, eight, sixteen,
+then I'm back in.
+
+[Outro]
+Two hundred. Two hundred. Two hundred.
+Five hundred out of five hundred.

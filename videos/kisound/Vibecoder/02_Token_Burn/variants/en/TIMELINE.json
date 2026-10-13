@@ -1,0 +1,1391 @@
+{
+  "schema": "kisound.video.timeline.v1",
+  "language": "en",
+  "duration_s": 250.8,
+  "fps": 60,
+  "frames": 15048,
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "transcript_sha256": "47f46d3780e5f70fa308ca3a8c2ca53c9eed94b682d2e5a72ea7226334a13f6b",
+  "analysis_sha256": "419b892abca3cff298ea912bc28063cceea817ca5cae9f569dbcb41feecdb39f",
+  "shots": [
+    {
+      "id": "S001",
+      "mode": "3D",
+      "zone": "room",
+      "title": "Das einzige helle Fenster",
+      "action": "Eine schlafende Häuserfront. Hinter einem einzigen Fenster bewegen sich die vier Spuren einer Sequencer-Demo. Die Kamera findet den Arbeitsplatz; die Person sitzt bereits dort. Eine offene Änderungsnotiz ist der einzige unerledigte Punkt.",
+      "camera": "Langsame Fahrt von der Fassade durch das offene Fenster, 35 mm; am Ende über der rechten Schulter.",
+      "transition": "Die rechteckige Fensteröffnung wird zum Monitorrahmen.",
+      "start_s": 0,
+      "end_s": 12.68,
+      "first_frame": 0,
+      "end_frame_exclusive": 761,
+      "start_origin": "audio start",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E001",
+        "E002",
+        "E003"
+      ]
+    },
+    {
+      "id": "S002",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Eine winzige Bitte",
+      "action": "Die Notiz öffnet sich: „Nur ein Regler“ / „Just one slider“. Daneben steht ein fertig getesteter Stand. Der Cursor zieht die Notiz in das Promptfeld; der fertige Stand bleibt sichtbar.",
+      "camera": "Orthogonal, keinerlei Perspektivverzerrung. Zwei grosse Flächen, eine eindeutige Cursorbewegung.",
+      "transition": "Match Cut: Notizrand auf Eingabefeld.",
+      "start_s": 12.68,
+      "end_s": 16.64,
+      "first_frame": 761,
+      "end_frame_exclusive": 999,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 1,
+          "start_s": 12.68,
+          "end_s": 14.38,
+          "text": "Just this one change.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E004",
+        "E005"
+      ]
+    },
+    {
+      "id": "S003",
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Gleich Schluss",
+      "action": "Die Hand rückt zur Kante des Laptops, als würde sie zuklappen wollen. Die Kamera hält den dünnen Spalt zwischen Display und Tastatur. Der Bildschirm bleibt offen.",
+      "camera": "85-mm-Detail seitlich, sehr geringe Fahrt; Hand und Scharnier bleiben klar lesbar.",
+      "transition": "Kurzer Dunkelimpuls folgt der gemessenen Pegeländerung der jeweiligen Fassung.",
+      "start_s": 16.64,
+      "end_s": 17.9,
+      "first_frame": 999,
+      "end_frame_exclusive": 1074,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 2,
+          "start_s": 16.64,
+          "end_s": 17.76,
+          "text": "Then I'll shut it down.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E006"
+      ]
+    },
+    {
+      "id": "S004",
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Der Rückweg zur Taste",
+      "action": "Vom Scharnier gleitet die Kamera flach über die Tastatur zur Sendetaste. Die Hand kehrt zurück. Auf dem Display erscheint der erste Auftrag P01; der erste kleine Arbeitsschritt wird in Gang gesetzt.",
+      "camera": "24-mm-Makrofahrt knapp über den Tasten, kein Flug durch Geometrie.",
+      "transition": "Rechteck der Sendetaste auf den ersten Pattern-Schritt.",
+      "start_s": 17.9,
+      "end_s": 28,
+      "first_frame": 1074,
+      "end_frame_exclusive": 1680,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S005",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Vier Spuren, ein Projekt",
+      "action": "Die Demo stellt sich selbst vor: vier Reihen, sechzehn Schritte. Ein Regler bekommt seinen Platz, der Playhead läuft. Drei Projektstände liegen als kleine Vorher-/Nachher-Karten darunter.",
+      "camera": "Statische Aufsicht; zuerst Gesamtraster, dann ein klarer Ausschnitt.",
+      "transition": "Die Kartenkante klappt in eine räumliche Ebene.",
+      "start_s": 28,
+      "end_s": 38.5,
+      "first_frame": 1680,
+      "end_frame_exclusive": 2310,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S006",
+      "mode": "hybrid",
+      "zone": "project",
+      "title": "Erster Blick in die Tiefe",
+      "action": "Dieselbe Oberfläche staffelt sich in drei lesbare Ebenen: Auftrag, Änderung, laufende Vorschau. Der Blick fährt hindurch und landet wieder am echten Monitor. Die längere EN-Passage zeigt zusätzlich Save und Reload als stumme Vorwegnahme des späteren Tests.",
+      "camera": "Perspektive 35 mm mit sanfter Parallaxe; pro Variante eigener Fahrtweg und Haltepunkt.",
+      "transition": "Rückkehr in identische Monitorposition, dann Blick zur Uhr.",
+      "start_s": 38.5,
+      "end_s": 45.24,
+      "first_frame": 2310,
+      "end_frame_exclusive": 2715,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E007"
+      ]
+    },
+    {
+      "id": "S007",
+      "mode": "3D",
+      "zone": "desk",
+      "title": "01:00",
+      "action": "Die Schreibtischuhr zeigt 01:00. Im selben Bild leuchtet der fertige Build grün. Ein Finger tippt neben die Uhr: Es ist noch Zeit.",
+      "camera": "50-mm-Seitenansicht, Uhr vorne links, Build-Anzeige hinten rechts; kurzer Fokuswechsel.",
+      "transition": "Die grüne Statuskante wird zum Rand einer neuen Karte.",
+      "start_s": 45.24,
+      "end_s": 49.54,
+      "first_frame": 2715,
+      "end_frame_exclusive": 2973,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 3,
+          "start_s": 45.24,
+          "end_s": 48.88,
+          "text": "The clock says one, the build runs clean,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E008"
+      ]
+    },
+    {
+      "id": "S008",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Noch eine Idee",
+      "action": "Eine einzige neue Funktionskarte schiebt den bisherigen Abschluss zur Seite. Die Demo bleibt dieselbe; ergänzt wird ein Regler für die vorhandene Bassspur.",
+      "camera": "Feste Bildschirmansicht mit Platz für genau eine neue Karte.",
+      "transition": "Die runde Reglerfläche füllt den nächsten Ausschnitt.",
+      "start_s": 49.54,
+      "end_s": 52.86,
+      "first_frame": 2973,
+      "end_frame_exclusive": 3172,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 4,
+          "start_s": 49.54,
+          "end_s": 52.34,
+          "text": "a new idea lights up my screen.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S009",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Der zweite Klang",
+      "action": "Ein Regler bewegt sich. In der zweiten aktiven Spur gehen vier Schritte an; daneben bleibt die ursprüngliche Spur sichtbar. Die Aktion erzeugt einen überprüfbaren Unterschied zwischen den zwei Projektständen.",
+      "camera": "Aufsicht auf das 4×16-Raster; eine kontrollierte Vergrösserung zum betroffenen Bereich.",
+      "transition": "Auf leeren Raum rechts schneiden; dort wächst der nächste Auftrag.",
+      "start_s": 52.86,
+      "end_s": 56.58,
+      "first_frame": 3172,
+      "end_frame_exclusive": 3395,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 5,
+          "start_s": 52.86,
+          "end_s": 56.4,
+          "text": "One slider more, a second lane,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S010",
+      "mode": "hybrid",
+      "zone": "project",
+      "title": "Der Prompt wird länger",
+      "action": "Das neue Promptfeld erweitert sich um zwei konkrete Anforderungen: speichern und nach Reload wiederherstellen. Die Karte schiebt die ältere räumlich nach hinten; Kontext ist als Stapel nachvollziehbarer Aufträge sichtbar.",
+      "camera": "Seitliche 50-mm-Fahrt an drei beschrifteten Flächen; Textflächen drehen erst nach ihrer Lesezeit.",
+      "transition": "Die Vorderseite der obersten Karte wird wieder zum flachen Browser.",
+      "start_s": 56.58,
+      "end_s": 60.2,
+      "first_frame": 3395,
+      "end_frame_exclusive": 3612,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 6,
+          "start_s": 56.58,
+          "end_s": 59.22,
+          "text": "the prompt grows long; I try again.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S011",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Reload. Bassspur leer.",
+      "action": "Der Reload-Test läuft. Kick, Snare und Hats bleiben gespeichert; nur die Bassreihe ist leer. Ein kleiner Meter mit der Beschriftung „BASS PREVIEW“ bleibt unten. Das Problem wird sofort lokalisiert.",
+      "camera": "Unbewegte Nahsicht: Reload oben, leere vierte Reihe unten. Kein Rot auf dem ganzen Bildschirm.",
+      "transition": "Die leere Bassreihe zieht als Umriss in den Codevergleich.",
+      "start_s": 60.2,
+      "end_s": 63.64,
+      "first_frame": 3612,
+      "end_frame_exclusive": 3819,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 7,
+          "start_s": 60.2,
+          "end_s": 62.82,
+          "text": "I reload once; the bass goes mute,",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S012",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Die fehlende Zeile",
+      "action": "Links fehlt beim Laden die Zuweisung der Bassspur. Rechts ergänzt der Agent genau diese Zuweisung. Ein Verbindungspfad zeigt gespeichertes Basspattern → geladene Bassspur.",
+      "camera": "Drei grosse, ruhige Elemente: Speicherwert, eine Diff-Zeile, Pattern.",
+      "transition": "Die neue Codezeile schiebt die Bassreihe zurück ins Raster.",
+      "start_s": 63.64,
+      "end_s": 67.18,
+      "first_frame": 3819,
+      "end_frame_exclusive": 4031,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 8,
+          "start_s": 63.64,
+          "end_s": 66.94,
+          "text": "we fix the save, then execute.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S013",
+      "mode": "3D",
+      "zone": "project",
+      "title": "Derselbe Test besteht",
+      "action": "Die zuvor leere Bassreihe enthält wieder ihre vier Schritte. Die Kamera steht jetzt schräg vor dem als flachem Modell dargestellten Raster. Save → Reload → Compare wird einmal vollständig durchlaufen; erst danach erscheint PASS.",
+      "camera": "35-mm-Dolly entlang derselben vier Basszellen; deutlich erkennbare Vorher-/Nachher-Positionen.",
+      "transition": "Ein grüner PASS-Rahmen wird zur Kontur der Uhr.",
+      "start_s": 67.18,
+      "end_s": 70.66,
+      "first_frame": 4031,
+      "end_frame_exclusive": 4240,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 9,
+          "start_s": 67.18,
+          "end_s": 69.86,
+          "text": "The build now works the way it should,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S014",
+      "mode": "3D",
+      "zone": "desk",
+      "title": "02:00",
+      "action": "Zurück am Tisch: dieselbe Uhr zeigt 02:00. Die Hand lässt die Bildschirmkante los und greift wieder zur Tastatur. Die vorherige Notiz ist erledigt; eine neue liegt bereit.",
+      "camera": "Langsame Rückfahrt von Uhr zu Hand, 50 mm; kein neuer Raum.",
+      "transition": "Die Rückfahrt setzt sich in der Instrumentalpassage fort.",
+      "start_s": 70.66,
+      "end_s": 74.5,
+      "first_frame": 4240,
+      "end_frame_exclusive": 4470,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 10,
+          "start_s": 70.66,
+          "end_s": 74.5,
+          "text": "it's two o'clock. This one is good.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E009"
+      ]
+    },
+    {
+      "id": "S015",
+      "mode": "3D",
+      "zone": "room",
+      "title": "Erster Erfolg",
+      "action": "Eine halbe Umkreisung zeigt den ganzen Arbeitsplatz. Die Demo läuft; der Kaffeebecher steht noch voll daneben. In der Monitorreflexion gleitet bereits die nächste Idee ins Bild.",
+      "camera": "Einmalige 120°-Fahrt, Radius 1,4 m; anschliessend kurzer Halt über der Schulter.",
+      "transition": "Reflexion und Bildschirmfläche decken sich.",
+      "start_s": 74.5,
+      "end_s": 81.32,
+      "first_frame": 4470,
+      "end_frame_exclusive": 4880,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E010"
+      ]
+    },
+    {
+      "id": "S016",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Raus und rein",
+      "action": "Der Auftrag P03 verlässt links das Eingabefeld. Rechts entstehen Antwort, Änderung und Testresultat in dieser Reihenfolge. Kleine IN- und OUT-Zahlen gehören sichtbar zu diesem Auftrag.",
+      "camera": "Zwei Spalten mit einer gemeinsamen horizontalen Achse; keine laufende Textwand.",
+      "transition": "Die Antwort endet, aber unter ihr bleibt eine neue Frage offen.",
+      "start_s": 81.32,
+      "end_s": 84.82,
+      "first_frame": 4880,
+      "end_frame_exclusive": 5090,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 11,
+          "start_s": 81.32,
+          "end_s": 84.2,
+          "text": "The prompt goes out, the words come in,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E011"
+      ]
+    },
+    {
+      "id": "S017",
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Der freie Platz",
+      "action": "Der Cursor fährt kurz zum Schliessen-Knopf. Daneben entsteht eine freie Funktionsfläche; die Hand entscheidet sich für das Eingabefeld. Der Stuhl rollt wenige Zentimeter näher an den Tisch.",
+      "camera": "Seitliche 70-mm-Nahaufnahme auf Hand, Trackpad und unteren Monitorrand.",
+      "transition": "Eine vertikale Monitorlinie zieht ins nächste Bild.",
+      "start_s": 84.82,
+      "end_s": 88.3,
+      "first_frame": 5090,
+      "end_frame_exclusive": 5298,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 12,
+          "start_s": 84.82,
+          "end_s": 87.7,
+          "text": "I see a place we could begin.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S018",
+      "mode": "hybrid",
+      "zone": "project",
+      "title": "Weniger Nacht, mehr Text",
+      "action": "Links wandert ein Lichtstreifen am Fenster. Rechts wächst der Auftragstapel um bereits bekannte Anforderungen. Beide Bewegungen laufen gegeneinander; die Uhr bleibt die zeitliche Referenz.",
+      "camera": "Ruhige symmetrische Komposition: reales Fenster und schematische Projektflächen. EN-Schnitt ist redaktionell, keine ergänzte Lyric-Zeit.",
+      "transition": "Die Karten ziehen auf eine gemeinsame Frontalebene.",
+      "start_s": 88.3,
+      "end_s": 91.88,
+      "first_frame": 5298,
+      "end_frame_exclusive": 5513,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [
+        {
+          "id": 13,
+          "start_s": 90.16,
+          "end_s": 91.32,
+          "text": "The text gets long",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S019",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Die Sekunde vor dem Titel",
+      "action": "Alles ordnet sich. Der Cursor blinkt einmal, die Demo bleibt sichtbar, und der Nutzungsstreifen sammelt sich als schmale orange Linie am unteren Rand. Der Titel wird noch zurückgehalten.",
+      "camera": "Zentral und nahezu still; keine Kamerapumpe vor dem Einsatz.",
+      "transition": "Harter Schnitt auf H01, an der tatsächlichen Stimme verankert.",
+      "start_s": 91.88,
+      "end_s": 96.48,
+      "first_frame": 5513,
+      "end_frame_exclusive": 5789,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 14,
+          "start_s": 91.88,
+          "end_s": 95.0,
+          "text": "I hear a change inside the song.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S020",
+      "mode": "2D",
+      "zone": "type",
+      "title": "H01 · TOKEN BURN",
+      "action": "TOKEN steht weiss, BURN orange, beide gross in zwei Zeilen. Die Buchstaben kommen als ein zusammenhängender Schlag ins Bild. In ihren Flächen läuft für einen Moment das bekannte Pattern weiter.",
+      "camera": "Frontal; Schrift bis 72 % Bildbreite, anschliessend mindestens 0,9 s ruhig lesbar.",
+      "transition": "Die untere BURN-Kante wird zum Promptfeld.",
+      "start_s": 96.48,
+      "end_s": 99.86,
+      "first_frame": 5789,
+      "end_frame_exclusive": 5992,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 15,
+          "start_s": 96.48,
+          "end_s": 97.58,
+          "text": "Token Burn.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E012",
+        "E013"
+      ]
+    },
+    {
+      "id": "S021",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Noch ein Prompt",
+      "action": "Das Titelgewicht bleibt in der Komposition: Darunter steht eine einzige neue Eingabe. Auf „noch ein“ / „one more“ rastet eine zusätzliche Auftragskarte ein. Die neue Karte verdeckt den Feierabend-Knopf.",
+      "camera": "Feste Mittelachse; kurzer horizontaler Einschub mit klarer Endposition.",
+      "transition": "Ein Kartenrahmen wird zum Umriss des zweiten Titelbilds.",
+      "start_s": 99.86,
+      "end_s": 103.52,
+      "first_frame": 5992,
+      "end_frame_exclusive": 6212,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 16,
+          "start_s": 99.86,
+          "end_s": 102.8,
+          "text": "One more prompt before I go.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E014"
+      ]
+    },
+    {
+      "id": "S022",
+      "mode": "hybrid",
+      "zone": "type",
+      "title": "H02 · Hinter dem Wort",
+      "action": "TOKEN BURN kehrt als dieselbe klare Kontur zurück. Nach der Lesepause erhält die Schrift eine geringe Tiefe; die Kamera fährt an der rechten Kante vorbei zur laufenden Demo dahinter.",
+      "camera": "Erst frontal, danach höchstens 15° Schrägsicht. Keine unlesbare Fahrt durch Buchstaben.",
+      "transition": "Kontur deckungsgleich mit Monitorrahmen; Rückkehr zur Handlung.",
+      "start_s": 103.52,
+      "end_s": 106.9,
+      "first_frame": 6212,
+      "end_frame_exclusive": 6414,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 17,
+          "start_s": 103.52,
+          "end_s": 105.34,
+          "text": "Token Burn.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S023",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Den nächsten Stand sehen",
+      "action": "Ein neuer Build wird neben dem vorigen Stand geöffnet. Genau ein zusätzlicher Regler ist sichtbar. Der Blick darf den Unterschied erkennen; der Bildinhalt trägt die Szene auch bei der unsicheren DE-Zeile.",
+      "camera": "Zwei ruhige Ansichten, identisches Raster und identischer Zoom.",
+      "transition": "Die beiden Ansichten werden zu Browser-Tabs.",
+      "start_s": 106.9,
+      "end_s": 110.82,
+      "first_frame": 6414,
+      "end_frame_exclusive": 6650,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 18,
+          "start_s": 106.9,
+          "end_s": 109.78,
+          "text": "One more thing I need to know.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S024",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Minus eins, plus zwei",
+      "action": "Ein Browser-Tab schliesst sich. Zwei neue öffnen sich: Vorschau und Export. Die Anzahl erhöht sich sichtbar um eins. Der Nutzungszähler bleibt bestehen.",
+      "camera": "Horizontale Tab-Leiste, grosse Namen, keine winzigen Browserdetails.",
+      "transition": "Der zweite neue Tab kippt als Karte auf den Schreibtisch.",
+      "start_s": 110.82,
+      "end_s": 114.34,
+      "first_frame": 6650,
+      "end_frame_exclusive": 6861,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 19,
+          "start_s": 110.82,
+          "end_s": 114.22,
+          "text": "One tab shuts, two more appear,",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S025",
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Dieser eine",
+      "action": "Neben dem Laptop liegt eine einzelne Karte: Export. Alle erledigten Karten sind ordentlich gestapelt. Die Hand zieht genau diese letzte Karte wieder vor sich.",
+      "camera": "70-mm-Detail, Hand kommt aus derselben Bildseite wie zuvor.",
+      "transition": "Kartenecke als Match Cut in die folgende Kreisfahrt.",
+      "start_s": 114.34,
+      "end_s": 117,
+      "first_frame": 6861,
+      "end_frame_exclusive": 7020,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 20,
+          "start_s": 114.34,
+          "end_s": 117.0,
+          "text": "I said I'd leave. I'm still right here.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E015"
+      ]
+    },
+    {
+      "id": "S026",
+      "mode": "3D",
+      "zone": "project",
+      "title": "Der Stand von eben",
+      "action": "Die Kamera umkreist drei gespeicherte Projektstände. Das erste kleine Pattern, der ergänzte Regler und die reparierte Bassspur sind gleichzeitig erkennbar. Fortschritt wird räumlich sichtbar.",
+      "camera": "Langsame Kreisbahn mit klarer Vorderseite der Versionen; eine einzige kontinuierliche Fahrt.",
+      "transition": "Die Kamera steigt zur Aufsicht.",
+      "start_s": 117,
+      "end_s": 120.1,
+      "first_frame": 7020,
+      "end_frame_exclusive": 7206,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E016",
+        "E017"
+      ]
+    },
+    {
+      "id": "S027",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Der nächste freie Slot",
+      "action": "In der Aufsicht werden die drei Stände zu drei nebeneinanderliegenden Karten. Rechts erscheint ein leerer vierter Slot. Der Cursor fährt genau dorthin. In der kürzeren EN-Passage nur dieser eine Vorgang.",
+      "camera": "Orthogonal, ruhige horizontale Bewegung.",
+      "transition": "Der leere Slot schneidet auf die Uhr.",
+      "start_s": 120.1,
+      "end_s": 123.32,
+      "first_frame": 7206,
+      "end_frame_exclusive": 7400,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S028",
+      "mode": "3D",
+      "zone": "room",
+      "title": "03:00",
+      "action": "Die Uhr steht auf 03:00. Die Totale zeigt dieselben Raumgrenzen, denselben Stuhl und dieselbe Person. Das Projekt ist gewachsen, der Raum nicht.",
+      "camera": "Weite 28-mm-Totale vom Fenster zum Tisch; keine übertriebene Weitwinkelverzerrung.",
+      "transition": "Gerader Vorstoss auf den Monitor.",
+      "start_s": 123.32,
+      "end_s": 128.88,
+      "first_frame": 7400,
+      "end_frame_exclusive": 7733,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 21,
+          "start_s": 123.32,
+          "end_s": 128.34,
+          "text": "It's three o'clock, the room stays small,",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E018"
+      ]
+    },
+    {
+      "id": "S029",
+      "mode": "hybrid",
+      "zone": "project",
+      "title": "Mehr Platz auf dem Screen",
+      "action": "Der Monitor öffnet sich zu einer übersichtlichen Projektansicht mit Versionen, Vorschau und Export. Nur die Darstellung wird räumlich auseinandergezogen; der Schreibtisch bleibt als Referenz im unteren Bild.",
+      "camera": "35-mm-Vorwärtsfahrt, die auf eine orthogonale Übersicht übergeht.",
+      "transition": "Der Exportbereich wächst zur Vollbildfläche.",
+      "start_s": 128.88,
+      "end_s": 132.4,
+      "first_frame": 7733,
+      "end_frame_exclusive": 7944,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 22,
+          "start_s": 128.88,
+          "end_s": 132.06,
+          "text": "the screen has room to fit it all.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E019"
+      ]
+    },
+    {
+      "id": "S030",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Der Export fehlt",
+      "action": "DE: Der Exportknopf ist noch nicht bereit. EN: Ein Versuch endet mit FAILED. Beide Fassungen zeigen anschliessend dieselbe konkrete Ursache: Der Bassbereich fehlt im Exportdatenmodell.",
+      "camera": "Zwei grosse Blöcke: vier Spuren links, drei exportierte Spuren rechts; fehlende Basszeile als Leerraum.",
+      "transition": "Der Leerraum zieht den Blick zur Antwort des Agenten.",
+      "start_s": 132.4,
+      "end_s": 135.88,
+      "first_frame": 7944,
+      "end_frame_exclusive": 8153,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 23,
+          "start_s": 132.4,
+          "end_s": 134.86,
+          "text": "An export fails; I run it through,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E020"
+      ]
+    },
+    {
+      "id": "S031",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Eine gezielte Reparatur",
+      "action": "Der Agent nimmt die fehlende Bassspur in den Export auf. Vier Eingabespuren stehen vier exportierten Spuren gegenüber. Der Vergleich prüft dieselben 64 Schritte; dann erst wird die Datei als fertig angezeigt.",
+      "camera": "Statische geteilte Ansicht; zuerst Änderung, dann Test, dann Ergebnis.",
+      "transition": "Die abgeschlossene Auftragskarte schiebt sich in das Nutzungsjournal.",
+      "start_s": 135.88,
+      "end_s": 139.42,
+      "first_frame": 8153,
+      "end_frame_exclusive": 8366,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 24,
+          "start_s": 135.88,
+          "end_s": 138.7,
+          "text": "the agent has one more thing to do.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S032",
+      "mode": "2D",
+      "zone": "ledger",
+      "title": "Was die Session verbraucht",
+      "action": "Das Nutzungsjournal zeigt Aufträge mit getrennten IN-/OUT-Werten und eine laufende Summe. Darunter stehen Kosten in fiktiven Demo-Credits. Der neue Eintrag ist die gerade abgeschlossene Arbeit, kein beatgesteuerter Fantasiezähler.",
+      "camera": "Frontal, drei klar ausgerichtete Zahlenkolonnen, die älteren Aufträge verblassen leicht.",
+      "transition": "Die Zeitspalte wird zur Schreibtischuhr.",
+      "start_s": 139.42,
+      "end_s": 142.94,
+      "first_frame": 8366,
+      "end_frame_exclusive": 8577,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 25,
+          "start_s": 139.42,
+          "end_s": 142.66,
+          "text": "The usage panel shows the cost,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E021"
+      ]
+    },
+    {
+      "id": "S033",
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Die Zeit liegt daneben",
+      "action": "Die Kamera zeigt Uhr, Kaffeetasse und den neuen Export in einer ruhigen Diagonale. Neben dem erledigten Auftrag liegt schon die nächste Notiz. Der Cursor bleibt in deren Nähe.",
+      "camera": "50-mm-Fahrt von der Uhr über die Tasse zum Monitor; Motive bleiben im gleichen Raum.",
+      "transition": "Blickanschluss zum Schliessen-Knopf.",
+      "start_s": 142.94,
+      "end_s": 146.48,
+      "first_frame": 8577,
+      "end_frame_exclusive": 8789,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 26,
+          "start_s": 142.94,
+          "end_s": 146.26,
+          "text": "I check the time that I have lost.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S034",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Speichern, dann gehen",
+      "action": "Save wird bestätigt. Der Cursor hält über Schliessen. Die fertige Demo und die Exportdatei sind vollständig sichtbar. Der nächste Auftrag steht bereits in einer zweiten Zeile, ohne abgesendet zu sein.",
+      "camera": "Unbewegtes Bild mit einer auffälligen Pause in der Cursorbewegung.",
+      "transition": "Die zweite Zeile erhält Fokus und verdrängt den Abschluss.",
+      "start_s": 146.48,
+      "end_s": 149.62,
+      "first_frame": 8789,
+      "end_frame_exclusive": 8978,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 27,
+          "start_s": 146.48,
+          "end_s": 149.08,
+          "text": "I meant to finish, save and leave,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S035",
+      "mode": "hybrid",
+      "zone": "project",
+      "title": "Ein weiterer Auftrag",
+      "action": "Die Eingabe wird aktiviert. Ein leerer Antwortbereich öffnet sich hinter ihr. Die Kamera beginnt sich abzusenken; die zweite Refrainrunde bekommt erstmals eine deutlich tiefere Perspektive.",
+      "camera": "Kurze Absenkung von Bildschirmhöhe zur Tischkante; Blick bleibt auf derselben Karte.",
+      "transition": "DE: kurzer Energieeinbruch um 141,9 s, dann H03; EN folgt eigenem Einsatz.",
+      "start_s": 149.62,
+      "end_s": 153,
+      "first_frame": 8978,
+      "end_frame_exclusive": 9180,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 28,
+          "start_s": 149.62,
+          "end_s": 152.74,
+          "text": "now there's one more thing to achieve.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E022"
+      ]
+    },
+    {
+      "id": "S036",
+      "mode": "3D",
+      "zone": "type",
+      "title": "H03 · Die Dimension wächst",
+      "action": "TOKEN BURN steht als kompakte, flache 3D-Schrift vor dem Schreibtisch. Der orange Nutzungsstreifen setzt sich unter den Buchstaben fort. Die Schrift verdeckt kurz den Monitor, danach wird das gewachsene Projekt dahinter sichtbar.",
+      "camera": "Tiefe 35-mm-Sicht, Schrift frontal lesbar; kleiner Dolly zurück statt Orbit.",
+      "transition": "Die Unterkante der Schrift wird zum Auftragsjournal.",
+      "start_s": 153,
+      "end_s": 156.14,
+      "first_frame": 9180,
+      "end_frame_exclusive": 9369,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 29,
+          "start_s": 153.0,
+          "end_s": 153.72,
+          "text": "Token Burn.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E023",
+        "E024"
+      ]
+    },
+    {
+      "id": "S037",
+      "mode": "2D",
+      "zone": "ledger",
+      "title": "Einer passt noch",
+      "action": "Im Journal schiebt sich eine neue Auftragszeile ein. Die älteren Zeilen bleiben erhalten. „NOCH EIN PROMPT“ / „ONE MORE PROMPT“ steht kurz als klare Zwischenüberschrift über der neuen Zeile.",
+      "camera": "Feste Aufsicht, rhythmischer Einschub; keine Zahl läuft ohne zugehörigen Auftrag.",
+      "transition": "Der neue Zeilenrand streckt sich zum nächsten Titel.",
+      "start_s": 156.14,
+      "end_s": 159.8,
+      "first_frame": 9369,
+      "end_frame_exclusive": 9588,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 30,
+          "start_s": 156.14,
+          "end_s": 159.1,
+          "text": "One more prompt before I go.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E025"
+      ]
+    },
+    {
+      "id": "S038",
+      "mode": "hybrid",
+      "zone": "type",
+      "title": "H04 · Der Titel wird ein Raumteiler",
+      "action": "Ein zweiter TOKEN-BURN-Schlag teilt das Bild vertikal: links Eingabe, rechts Ergebnis. Nach der Lesepause zieht die Kamera seitlich an der Schrift vorbei und verbindet beide Flächen wieder.",
+      "camera": "Erst orthogonal, danach kurze seitliche 40-mm-Fahrt. DE-Anker ist ein unsicheres ASR-Unterfenster und bleibt markiert.",
+      "transition": "Die zwei Flächen werden zum Vorher-/Nachher-Vergleich.",
+      "start_s": 159.8,
+      "end_s": 163.18,
+      "first_frame": 9588,
+      "end_frame_exclusive": 9791,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 31,
+          "start_s": 159.8,
+          "end_s": 161.0,
+          "text": "Token Burn.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S039",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Das Resultat",
+      "action": "Der neue Stand enthält Export plus gespeicherte Einstellungen. Ein einzelner Vergleich bestätigt die Änderung. Der Film hält lange genug, um das Ergebnis zu verstehen.",
+      "camera": "Frontaler Vergleich in derselben Geometrie wie S023, jetzt mit erweitertem Inhalt.",
+      "transition": "Die beiden Vergleichskarten rücken nach oben in die Tab-Leiste.",
+      "start_s": 163.18,
+      "end_s": 166.9,
+      "first_frame": 9791,
+      "end_frame_exclusive": 10014,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 32,
+          "start_s": 163.18,
+          "end_s": 166.14,
+          "text": "One more thing I need to know.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S040",
+      "mode": "3D",
+      "zone": "project",
+      "title": "Tabs mit Geschichte",
+      "action": "Die Tab-Karten stehen nun räumlich hintereinander. Eine schliesst sich, zwei kommen hinzu. Ihre Vorschaubilder zeigen echte frühere Zustände dieser Demo; keine zufälligen Fenster.",
+      "camera": "Seitlicher 50-mm-Tracking-Shot entlang der Kartenreihe; neue Karten bleiben vorne.",
+      "transition": "Vorderste Karte fährt deckungsgleich auf den Tisch.",
+      "start_s": 166.9,
+      "end_s": 170.58,
+      "first_frame": 10014,
+      "end_frame_exclusive": 10235,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 33,
+          "start_s": 166.9,
+          "end_s": 169.68,
+          "text": "One death shots two more appear",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E026"
+      ]
+    },
+    {
+      "id": "S041",
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Die Hand bleibt",
+      "action": "Die Hand liegt an der Laptopkante, zieht sich zurück und greift erneut zum Trackpad. Die Kamera fährt in die Gegenrichtung zum ersten Refrain: diesmal näher heran.",
+      "camera": "70-mm-Nahfahrt auf Hand und Scharnier, dann kurzer ruhiger Halt.",
+      "transition": "Die Hand verlässt das Bild; Tageslicht übernimmt den Rand.",
+      "start_s": 170.58,
+      "end_s": 173.08,
+      "first_frame": 10235,
+      "end_frame_exclusive": 10385,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 34,
+          "start_s": 170.58,
+          "end_s": 173.08,
+          "text": "I said I'd leave. I'm still right here.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E027"
+      ]
+    },
+    {
+      "id": "S042",
+      "mode": "3D",
+      "zone": "room",
+      "title": "Die Nacht kippt",
+      "action": "Vom Monitor weg öffnet sich erstmals der Blick ganz zum Fenster. Die Hausfassade gegenüber bekommt Konturen. Der Raum bleibt derselbe; die Kamera entdeckt jetzt, wie spät es geworden ist.",
+      "camera": "Eine langsame 90°-Schwenkfahrt vom Bildschirm zur Aussenwelt, kein Kamerawackeln.",
+      "transition": "Lichtstreifen auf Glas wird zur Kante der Kaffeetasse.",
+      "start_s": 173.08,
+      "end_s": 182.3,
+      "first_frame": 10385,
+      "end_frame_exclusive": 10938,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E028",
+        "E029",
+        "E030"
+      ]
+    },
+    {
+      "id": "S043",
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Kalter Kaffee",
+      "action": "Der Becher steht unbewegt. Die Oberfläche ist ruhig, Dampf ist nicht mehr vorhanden. Im Glas daneben liegt das helle Fenster. Im Hintergrund arbeitet der Bildschirm weiter.",
+      "camera": "85-mm-Makro, langsame Fokusfahrt von Tassenrand zu Fensterreflexion.",
+      "transition": "Der helle Reflex führt zurück auf eine neue Antwort.",
+      "start_s": 182.3,
+      "end_s": 185.66,
+      "first_frame": 10938,
+      "end_frame_exclusive": 11140,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 35,
+          "start_s": 182.3,
+          "end_s": 184.7,
+          "text": "Cold coffee, daylight through the glass,",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E031"
+      ]
+    },
+    {
+      "id": "S044",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Eine Antwort, die man wirklich liest",
+      "action": "Eine kurze Antwort mit genau einer Änderung und einem Testergebnis erscheint. Die Cursorposition wandert zeilenweise. Drei weitere UI-Flächen bleiben still; der Film gönnt dem Lesen Raum.",
+      "camera": "Orthogonal, breite Zeilenabstände, höchstens drei Zeilen gleichzeitig.",
+      "transition": "Unter der Antwort taucht die ursprüngliche Notiz wieder auf.",
+      "start_s": 185.66,
+      "end_s": 188.98,
+      "first_frame": 11140,
+      "end_frame_exclusive": 11339,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 36,
+          "start_s": 185.66,
+          "end_s": 188.02,
+          "text": "another answer, minutes pass.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S045",
+      "mode": "hybrid",
+      "zone": "desk",
+      "title": "Die gleiche kleine Bitte",
+      "action": "Die Notiz vom Anfang liegt neben dem aktuellen Stand. Ihre Position stimmt mit S002 überein. Die Kamera zieht so weit zurück, dass die vielen erledigten Karten dahinter sichtbar werden.",
+      "camera": "50-mm-Zug rückwärts aus flacher UI in räumlichen Tisch; leichter Schatten macht den Übergang lesbar.",
+      "transition": "Die ursprüngliche Notiz bleibt vorne im Bild.",
+      "start_s": 188.98,
+      "end_s": 192.48,
+      "first_frame": 11339,
+      "end_frame_exclusive": 11549,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 37,
+          "start_s": 188.98,
+          "end_s": 191.38,
+          "text": "That little phrase comes back so clear:",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E032"
+      ]
+    },
+    {
+      "id": "S046",
+      "mode": "3D",
+      "zone": "room",
+      "title": "Ich bleib noch hier",
+      "action": "Ein grosses, ruhiges Bild: heller werdendes Fenster, Person am Tisch, laufendes Projekt. Die Person richtet sich auf und bleibt. Der nächste Titel kündigt sich nur durch eine orange Kante am Monitor an.",
+      "camera": "Feste 35-mm-Halbtotale; sechs Sekunden dürfen ohne neuen Schnitt tragen.",
+      "transition": "Harter Wechsel von räumlicher Ruhe auf helle Typografie.",
+      "start_s": 192.48,
+      "end_s": 198.56,
+      "first_frame": 11549,
+      "end_frame_exclusive": 11914,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 38,
+          "start_s": 192.48,
+          "end_s": 195.9,
+          "text": "A little while. I'll stay right here.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E033"
+      ]
+    },
+    {
+      "id": "S047",
+      "mode": "2D",
+      "zone": "type",
+      "title": "H05 · Tageslicht-Version",
+      "action": "TOKEN BURN füllt das helle Bild. TOKEN ist jetzt tiefschwarz, BURN orange. Die Form ist dieselbe wie H01, die Wirkung grösser durch die Umkehr des Kontrasts. Der Fensterschatten läuft langsam unter der Schrift weiter.",
+      "camera": "Rein frontal und gross; kein Bloom auf der hellen Fläche.",
+      "transition": "Der Fensterschatten wird zur Trennlinie des Promptfelds.",
+      "start_s": 198.56,
+      "end_s": 201.7,
+      "first_frame": 11914,
+      "end_frame_exclusive": 12102,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 39,
+          "start_s": 198.56,
+          "end_s": 199.24,
+          "text": "Talking burn",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E034",
+        "E035"
+      ]
+    },
+    {
+      "id": "S048",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Noch immer ein Prompt",
+      "action": "Die neue Eingabe erscheint auf der hellen Oberfläche. Ein kleiner Stapel erledigter Aufträge steht links; rechts bleibt Platz für genau die neue Zeile. Die Session ist produktiv und offen.",
+      "camera": "Frontal, gleiche Mittelachse wie S021, andere Helligkeit und grösserer sichtbarer Fortschritt.",
+      "transition": "Die Eingabe klappt nach hinten, der letzte grosse Titel bleibt vorn.",
+      "start_s": 201.7,
+      "end_s": 205.58,
+      "first_frame": 12102,
+      "end_frame_exclusive": 12335,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 40,
+          "start_s": 201.7,
+          "end_s": 204.56,
+          "text": "One more prompt before I go.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S049",
+      "mode": "hybrid",
+      "zone": "type",
+      "title": "H06 · Das ganze Projekt dahinter",
+      "action": "TOKEN BURN steht ein letztes Mal dominant in zwei Zeilen. In den Buchstaben ist kurz eine zusammenhängende Übersicht aller Projektstände zu sehen. Dann fahren die Buchstaben nach oben aus dem Bild und geben den fertigen aktuellen Stand frei.",
+      "camera": "Frontaler Titel; danach 35-mm-Rückfahrt, während die Schrift als lesbare Fläche aufrecht bleibt.",
+      "transition": "Die Projektübersicht füllt die freigegebene Bildfläche.",
+      "start_s": 205.58,
+      "end_s": 208.68,
+      "first_frame": 12335,
+      "end_frame_exclusive": 12521,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 41,
+          "start_s": 205.58,
+          "end_s": 206.4,
+          "text": "Talking burn",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S050",
+      "mode": "3D",
+      "zone": "project",
+      "title": "Alles ist derselbe Stand",
+      "action": "Die Kamera streift am Export vorbei, passiert die gespeicherten Einstellungen und endet bei der laufenden Vorschau. Alle drei zeigen dieselbe Versionsnummer.",
+      "camera": "Kontinuierliche diagonale Fahrt mit drei klaren Stationen; keine neuen abstrakten Räume.",
+      "transition": "Die Versionsnummer wird zum aktiven Browser-Tab.",
+      "start_s": 208.68,
+      "end_s": 212.42,
+      "first_frame": 12521,
+      "end_frame_exclusive": 12746,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 42,
+          "start_s": 208.68,
+          "end_s": 211.58,
+          "text": "One more thing I need to know.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": [
+        "E036"
+      ]
+    },
+    {
+      "id": "S051",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Ein Tab zu, zwei offen",
+      "action": "Der Tab-Wechsel wiederholt das bekannte Motiv exakt: einer schliesst, zwei kommen hinein. Diesmal stehen die neuen Tabs ruhig nebeneinander. Beide gehören zur nächsten Idee; der Verbrauchszähler läuft weiter.",
+      "camera": "Die Bewegung beginnt schnell und endet in vollständiger Ruhe.",
+      "transition": "Der rechte Tab reduziert sich auf eine einzelne Notiz.",
+      "start_s": 212.42,
+      "end_s": 216.04,
+      "first_frame": 12746,
+      "end_frame_exclusive": 12963,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 43,
+          "start_s": 212.42,
+          "end_s": 215.8,
+          "text": "One tab shuts, two more appear,",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S052",
+      "mode": "3D",
+      "zone": "desk",
+      "title": "Nur dieser eine",
+      "action": "Eine einzige Notiz liegt wieder vorne am Tisch. Hinter ihr liegen die vielen erledigten Karten aus der Nacht. Die Kamera fährt nach oben und zeigt den Unterschied zwischen dem kleinen neuen Wunsch und dem bereits gebauten Projekt.",
+      "camera": "Vertikaler Kran von 70-mm-Detail zur klaren Tischaufsicht, keine zusätzliche Drehung.",
+      "transition": "Die Aufsicht hält über den folgenden Instrumentaltakten.",
+      "start_s": 216.04,
+      "end_s": 218.42,
+      "first_frame": 12963,
+      "end_frame_exclusive": 13106,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 44,
+          "start_s": 216.04,
+          "end_s": 218.42,
+          "text": "I said I'd leave. I'm still right here.",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S053",
+      "mode": "3D",
+      "zone": "room",
+      "title": "Der fast fertige Abschied",
+      "action": "Die Kamera fährt langsam aus dem Arbeitsplatz zurück. Die Hand bleibt einen Moment ganz still. Gerade als sich die Komposition wie ein Schlussbild anfühlt, bewegt sich der Cursor wieder.",
+      "camera": "Rückfahrt von Halbtotale zur Raumtotalen, dann Halt; die EN-Passage bekommt einen längeren Ruhepunkt.",
+      "transition": "Schnitt zurück auf den einen aktiven Cursor.",
+      "start_s": 218.42,
+      "end_s": 225.64,
+      "first_frame": 13106,
+      "end_frame_exclusive": 13539,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E037"
+      ]
+    },
+    {
+      "id": "S054",
+      "mode": "2D",
+      "zone": "screen",
+      "title": "Der letzte Auftrag steht bereit",
+      "action": "Die neue Eingabe steht vollständig da: „Preset speichern“ / „Save a preset“. Der Sendeknopf ist noch unberührt. Im Hintergrund bleibt der gerade erreichte Stand sichtbar; es wird nichts zurückgesetzt.",
+      "camera": "Eine grosse ruhige Eingabefläche, Cursor am Ende, ausreichend Lesezeit.",
+      "transition": "Der Cursor bewegt sich zur Sendetaste und löst den nächsten Shot aus.",
+      "start_s": 225.64,
+      "end_s": 232.58,
+      "first_frame": 13539,
+      "end_frame_exclusive": 13955,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 45,
+          "start_s": 225.64,
+          "end_s": 227.24,
+          "text": "One final prompt is set to run.",
+          "review_required": false
+        }
+      ],
+      "analysis_event_ids": [
+        "E038",
+        "E039",
+        "E040",
+        "E041"
+      ]
+    },
+    {
+      "id": "S055",
+      "mode": "hybrid",
+      "zone": "desk",
+      "title": "SEND",
+      "action": "Der Auftrag P06 wird abgesendet. SEND ist für einen kurzen Moment gross und prägnant, dann rückt die Schrift in den echten Knopf zurück. Die Kamera verlässt den Bildschirm und zeigt wieder die Hand am Trackpad.",
+      "camera": "Match Cut vom 2D-Knopf zum realen Trackpad; leichte 50-mm-Rückfahrt.",
+      "transition": "Die Bewegung geht ohne neuen Impuls in den Ausklang über.",
+      "start_s": 232.58,
+      "end_s": 234.34,
+      "first_frame": 13955,
+      "end_frame_exclusive": 14061,
+      "start_origin": "ASR cue start, provisional",
+      "lyrics_starting_here": [
+        {
+          "id": 46,
+          "start_s": 232.58,
+          "end_s": 234.34,
+          "text": "I'm pressing send I'm not quite done",
+          "review_required": true
+        }
+      ],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S056",
+      "mode": "3D",
+      "zone": "room",
+      "title": "Es läuft weiter",
+      "action": "Der Bildschirm zeigt eine laufende Antwort. Die Person bleibt sitzen, die Kamera zieht rückwärts Richtung Fenster. Die neue Aufgabe wird bewusst noch nicht abgeschlossen.",
+      "camera": "35-mm-Rückfahrt auf dem umgekehrten Weg von S001, aber im Morgenlicht.",
+      "transition": "Der Fensterrahmen rahmt den Arbeitsplatz ein.",
+      "start_s": 234.34,
+      "end_s": 239.3,
+      "first_frame": 14061,
+      "end_frame_exclusive": 14358,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E042",
+        "E043",
+        "E044"
+      ]
+    },
+    {
+      "id": "S057",
+      "mode": "3D",
+      "zone": "exterior",
+      "title": "Dasselbe Fenster am Morgen",
+      "action": "Die Kamera ist wieder vor der Fassade. Das zuvor einzige helle Fenster ist nun eines von vielen sichtbaren Fenstern im Tageslicht. Im eigenen Fenster bleibt der Cursor als kleiner Lichtpunkt erkennbar.",
+      "camera": "Langsamer gerader Rückzug; keine neue Stadtlandschaft, kein weiterer Titelblock.",
+      "transition": "Der Lichtpunkt bleibt bis zur gemessenen Schlussabnahme stehen.",
+      "start_s": 239.3,
+      "end_s": 244.8,
+      "first_frame": 14358,
+      "end_frame_exclusive": 14688,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": []
+    },
+    {
+      "id": "S058",
+      "mode": "2D",
+      "zone": "end",
+      "title": "Der Cursor bleibt zuletzt",
+      "action": "Die Fassade und das Fenster gehen mit dem gemessenen Endabfall zurück. Ein kleiner Cursor bleibt kurz stehen und verschwindet erst am Audioende. Keine zusätzliche Schlussbehauptung, keine fertige Antwort.",
+      "camera": "Feste Komposition; globale Blende aus tatsächlichem Pegelverlauf mit monotonichem Endverschluss.",
+      "transition": "Schwarz exakt am Ende der jeweiligen WAV; letztes Rasterbild vollständig halten.",
+      "start_s": 244.8,
+      "end_s": 250.8,
+      "first_frame": 14688,
+      "end_frame_exclusive": 15048,
+      "start_origin": "editorial cut; not a claimed word onset",
+      "lyrics_starting_here": [],
+      "analysis_event_ids": [
+        "E045",
+        "E046",
+        "E047"
+      ]
+    }
+  ],
+  "subtitles": {
+    "default": "off",
+    "policy": "use original transcript cue times; never silently replace ASR text with prompt lyrics",
+    "review_report": "TRANSKRIPT-PRUEFUNG.md"
+  }
+}

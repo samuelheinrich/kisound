@@ -1,0 +1,231 @@
+1
+00:00:00,000 --> 00:00:02,140
+Size matters on the wire.
+
+2
+00:00:03,880 --> 00:00:05,660
+Too large to pass.
+
+3
+00:00:07,440 --> 00:00:09,180
+Too quiet to fail.
+
+4
+00:00:11,380 --> 00:00:12,800
+The packet waits.
+
+5
+00:00:23,280 --> 00:00:24,200
+M-T-U at the edge of the frame,
+
+6
+00:00:24,560 --> 00:00:26,540
+one byte too heavy and nothing feels the same.
+
+7
+00:00:26,920 --> 00:00:28,160
+Payload loaded, header tight,
+
+8
+00:00:28,560 --> 00:00:29,700
+trying to cross the path tonight.
+
+9
+00:00:30,880 --> 00:00:31,940
+D-F bit says do not break,
+
+10
+00:00:31,940 --> 00:00:33,240
+no fragment left for the route to take.
+
+11
+00:00:33,760 --> 00:00:35,300
+Silent drop in the middle lane,
+
+12
+00:00:35,640 --> 00:00:37,020
+users only feel the pain.
+
+13
+00:00:37,020 --> 00:00:37,960
+Ping goes through,
+
+14
+00:00:38,120 --> 00:00:38,600
+large one dies.
+
+15
+00:00:38,940 --> 00:00:39,840
+Small test passes,
+
+16
+00:00:40,000 --> 00:00:40,360
+truth still hides.
+
+17
+00:00:40,660 --> 00:00:41,540
+Trace the path,
+
+18
+00:00:41,760 --> 00:00:42,120
+lower the size,
+
+19
+00:00:42,540 --> 00:00:43,700
+watch the hidden fault arise.
+
+20
+00:00:49,340 --> 00:00:49,860
+M-T-U.
+
+21
+00:00:49,860 --> 00:00:50,880
+Can you pass it through?
+
+22
+00:00:52,520 --> 00:00:53,040
+M-T-U.
+
+23
+00:00:53,120 --> 00:00:54,380
+The packet knows the truth.
+
+24
+00:00:54,980 --> 00:00:56,440
+Too big to ride,
+
+25
+00:00:56,980 --> 00:00:57,460
+too small to see,
+
+26
+00:00:58,080 --> 00:00:59,900
+find the path.
+
+27
+00:00:59,900 --> 00:01:00,900
+where the frame runs free.
+
+28
+00:01:01,580 --> 00:01:02,500
+Don't fragment.
+
+29
+00:01:02,760 --> 00:01:03,980
+Can't fragment.
+
+30
+00:01:05,400 --> 00:01:07,040
+Path too narrow.
+
+31
+00:01:08,280 --> 00:01:08,700
+Packet stranded.
+
+32
+00:01:08,700 --> 00:01:09,320
+Don't fragment.
+
+33
+00:01:09,320 --> 00:01:09,600
+Can't fragment.
+
+34
+00:01:12,460 --> 00:01:14,400
+Lower the size.
+
+35
+00:01:14,860 --> 00:01:15,600
+Understand it.
+
+36
+00:01:16,000 --> 00:01:17,460
+Tunnel overhead, labels in line,
+
+37
+00:01:18,200 --> 00:01:19,680
+encapsulation stealing bytes in time.
+
+38
+00:01:19,780 --> 00:01:20,840
+V-P-N wraps it, M-P-L-S too,
+
+39
+00:01:21,800 --> 00:01:23,440
+suddenly the old size will not do.
+
+40
+00:01:23,600 --> 00:01:25,020
+Discovery tries to read the road,
+
+41
+00:01:25,460 --> 00:01:26,940
+ICMP should carry the code.
+
+42
+00:01:27,240 --> 00:01:28,120
+If the message never comes back,
+
+43
+00:01:28,720 --> 00:01:30,520
+M-T-U becomes the crack.
+
+44
+00:01:30,520 --> 00:01:31,500
+Fourteen hundred.
+
+45
+00:01:31,700 --> 00:01:32,840
+Fifteen hundred.
+
+46
+00:01:33,740 --> 00:01:34,960
+Jumbo frame.
+
+47
+00:01:34,960 --> 00:01:36,340
+Do not fragment.
+
+48
+00:01:36,740 --> 00:01:38,920
+Path M-T-U.
+
+49
+00:01:38,920 --> 00:01:40,320
+ICMP too big.
+
+50
+00:01:42,560 --> 00:01:44,360
+Reduce and retry.
+
+51
+00:01:45,700 --> 00:01:46,500
+M-T-U.
+
+52
+00:01:46,860 --> 00:01:47,920
+Can you pass it through?
+
+53
+00:01:49,240 --> 00:01:50,040
+M-T-U.
+
+54
+00:01:50,040 --> 00:01:51,260
+The packet knows the truth.
+
+55
+00:01:51,860 --> 00:01:52,760
+Too big to ride,
+
+56
+00:01:53,500 --> 00:01:54,520
+too small to see,
+
+57
+00:01:54,960 --> 00:01:56,760
+find the path.
+
+58
+00:01:56,760 --> 00:01:57,800
+where the frame runs free.

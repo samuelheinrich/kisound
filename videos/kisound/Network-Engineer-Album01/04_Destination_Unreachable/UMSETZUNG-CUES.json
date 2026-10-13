@@ -1,0 +1,1988 @@
+{
+ "schema": "kisound.unreachable.cues.v1",
+ "duration_s": 259.80097916666665,
+ "fade_start_s": 256.6,
+ "titles": {
+  "intro": [
+   0.3,
+   0.9,
+   3,
+   3.6
+  ],
+  "outro": [
+   242,
+   243.2,
+   249.6,
+   250.8
+  ]
+ },
+ "drops_s": [
+  58.75,
+  73.35,
+  95.15,
+  124.25,
+  131.95,
+  160.55,
+  175.15,
+  187.85,
+  198.75,
+  209.45,
+  220.55,
+  233.35,
+  236.95,
+  246.55
+ ],
+ "gap_s": [
+  58.4,
+  58.5
+ ],
+ "grow_s": 55.2,
+ "shift_s": 101.4,
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Pulse",
+   "start": 0,
+   "end": 30.74,
+   "action": "Ein Glossar der Stille: Destination unreachable, Time exceeded, No reply, Blackhole, TTL, Traceroute – jedes als echtes Ereignis im Backbone."
+  },
+  {
+   "id": "C02",
+   "title": "Ein Signal in den Kern",
+   "start": 30.74,
+   "end": 45.36,
+   "action": "Ein Echo Request überquert die Kante und verschwindet nach Hop 3. Kein Alarm, keine Antwort."
+  },
+  {
+   "id": "C03",
+   "title": "Wo ist das Paket?",
+   "start": 45.36,
+   "end": 69.36,
+   "action": "Nebelkarte. Die Blackhole-Route wächst von /32 auf /24, ein zweiter Host verschwindet. Nochmals senden – Fall. Von R2 kommt ein lautes Unreachable: kein Route für Site C."
+  },
+  {
+   "id": "C04",
+   "title": "Nacht",
+   "start": 69.36,
+   "end": 81.72,
+   "action": "Fahrt durch den Backbone, Traceroute läuft."
+  },
+  {
+   "id": "C05",
+   "title": "Traceroute",
+   "start": 81.72,
+   "end": 110.18,
+   "action": "Hop für Hop. Firewall still: 0 Treffer im Log. Ein fehlendes Präfix bei R2. Echo Request ohne Reply. Metriken wechseln, der Weg führt trotzdem in R4."
+  },
+  {
+   "id": "C06",
+   "title": "Break",
+   "start": 110.18,
+   "end": 132.34,
+   "action": "TTL expired · Next hop gone · Silent gateway · Moving on · ICMP · No reply · Packets fall · Signals die."
+  },
+  {
+   "id": "C07",
+   "title": "Final Hook",
+   "start": 132.34,
+   "end": 163.8,
+   "action": "Dieselben Fragen, grösseres Loch."
+  },
+  {
+   "id": "C08",
+   "title": "Finale",
+   "start": 163.8,
+   "end": 172.46,
+   "action": "Dreimal Destination unreachable."
+  },
+  {
+   "id": "C09",
+   "title": "Leerer Backbone",
+   "start": 172.46,
+   "end": 241,
+   "action": "Die Akte: R4 verwirft 203.0.113.0/24 nach Null0 (alte RTBH-Route), R2 fehlt 198.51.100.0/24. Die Nacht geht weiter, die Pakete fallen."
+  },
+  {
+   "id": "C10",
+   "title": "Kein Weg",
+   "start": 241,
+   "end": 259.80097916666665,
+   "action": "Titel, zwei letzte Unreachables, dann Stille."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 3.66,
+   "zone": "backbone",
+   "camera": "opening",
+   "mode": "intro",
+   "target": null,
+   "event_ids": [
+    "E001",
+    "E002",
+    "E003",
+    "E004"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S002",
+   "start_s": 3.66,
+   "end_s": 6.46,
+   "zone": "backbone",
+   "camera": "hop",
+   "mode": "du",
+   "target": "n:R2",
+   "event_ids": [
+    "E005"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S003",
+   "start_s": 6.46,
+   "end_s": 9.68,
+   "zone": "backbone",
+   "camera": "hop",
+   "mode": "te",
+   "target": "n:R1",
+   "event_ids": [
+    "E006"
+   ],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 9.68,
+   "end_s": 12.4,
+   "zone": "backbone",
+   "camera": "void",
+   "mode": "noreply",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L003"
+   ]
+  },
+  {
+   "id": "S005",
+   "start_s": 12.4,
+   "end_s": 14.86,
+   "zone": "map",
+   "camera": "top",
+   "mode": "pulse",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S006",
+   "start_s": 14.86,
+   "end_s": 15.96,
+   "zone": "backbone",
+   "camera": "chase",
+   "mode": "lost",
+   "target": "f:E0b",
+   "event_ids": [],
+   "lyric_ids": [
+    "L004"
+   ]
+  },
+  {
+   "id": "S007",
+   "start_s": 15.96,
+   "end_s": 17.92,
+   "zone": "backbone",
+   "camera": "void",
+   "mode": "blackhole",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L005"
+   ]
+  },
+  {
+   "id": "S008",
+   "start_s": 17.92,
+   "end_s": 20.64,
+   "zone": "backbone",
+   "camera": "ttl",
+   "mode": "ttl",
+   "target": "f:T0p4",
+   "event_ids": [],
+   "lyric_ids": [
+    "L006"
+   ]
+  },
+  {
+   "id": "S009",
+   "start_s": 20.64,
+   "end_s": 23.44,
+   "zone": "map",
+   "camera": "top",
+   "mode": "trace",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L007"
+   ]
+  },
+  {
+   "id": "S010",
+   "start_s": 23.44,
+   "end_s": 27.06,
+   "zone": "backbone",
+   "camera": "cable",
+   "mode": "hop",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L008"
+   ]
+  },
+  {
+   "id": "S011",
+   "start_s": 27.06,
+   "end_s": 28.4,
+   "zone": "backbone",
+   "camera": "void",
+   "mode": "noreturn",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S012",
+   "start_s": 28.4,
+   "end_s": 30.74,
+   "zone": "map",
+   "camera": "low",
+   "mode": "pulse2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S013",
+   "start_s": 30.74,
+   "end_s": 33.1,
+   "zone": "backbone",
+   "camera": "ride",
+   "mode": "spoken",
+   "target": "f:E1",
+   "event_ids": [
+    "E007",
+    "E008"
+   ],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S014",
+   "start_s": 33.1,
+   "end_s": 36.78,
+   "zone": "backbone",
+   "camera": "chase",
+   "mode": "spoken",
+   "target": "f:E1",
+   "event_ids": [],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S015",
+   "start_s": 36.78,
+   "end_s": 38.08,
+   "zone": "map",
+   "camera": "card",
+   "mode": "noalarm",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S016",
+   "start_s": 38.08,
+   "end_s": 39.42,
+   "zone": "map",
+   "camera": "term",
+   "mode": "noanswer",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 39.42,
+   "end_s": 41.44,
+   "zone": "backbone",
+   "camera": "tower",
+   "mode": "silence",
+   "target": "n:R4",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S018",
+   "start_s": 41.44,
+   "end_s": 45.36,
+   "zone": "backbone",
+   "camera": "void",
+   "mode": "silence",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L014"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 45.36,
+   "end_s": 49.28,
+   "zone": "backbone",
+   "camera": "wide",
+   "mode": "hook",
+   "target": null,
+   "event_ids": [
+    "E009"
+   ],
+   "lyric_ids": [
+    "L015"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 49.28,
+   "end_s": 52.54,
+   "zone": "map",
+   "camera": "top",
+   "mode": "nobody",
+   "target": null,
+   "event_ids": [
+    "E010"
+   ],
+   "lyric_ids": [
+    "L016"
+   ]
+  },
+  {
+   "id": "S021",
+   "start_s": 52.54,
+   "end_s": 55.2,
+   "zone": "backbone",
+   "camera": "ride",
+   "mode": "hook",
+   "target": "f:E2",
+   "event_ids": [],
+   "lyric_ids": [
+    "L017"
+   ]
+  },
+  {
+   "id": "S022",
+   "start_s": 55.2,
+   "end_s": 58.44,
+   "zone": "backbone",
+   "camera": "void",
+   "mode": "grow",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L018"
+   ]
+  },
+  {
+   "id": "S023",
+   "start_s": 58.44,
+   "end_s": 58.75,
+   "zone": "backbone",
+   "camera": "host",
+   "mode": "resend",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L019"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 58.75,
+   "end_s": 61.98,
+   "zone": "backbone",
+   "camera": "fall",
+   "mode": "fall",
+   "target": "f:K1",
+   "event_ids": [
+    "E011"
+   ],
+   "lyric_ids": [
+    "L020"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 61.98,
+   "end_s": 63.6,
+   "zone": "backbone",
+   "camera": "hop",
+   "mode": "du2",
+   "target": "n:R2",
+   "event_ids": [],
+   "lyric_ids": [
+    "L021"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 63.6,
+   "end_s": 65.26,
+   "zone": "map",
+   "camera": "table",
+   "mode": "noroute",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S027",
+   "start_s": 65.26,
+   "end_s": 69.36,
+   "zone": "backbone",
+   "camera": "site",
+   "mode": "noroute2",
+   "target": "n:RC",
+   "event_ids": [],
+   "lyric_ids": [
+    "L022"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 69.36,
+   "end_s": 73.35,
+   "zone": "backbone",
+   "camera": "wide2",
+   "mode": "inst",
+   "target": null,
+   "event_ids": [
+    "E012"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S029",
+   "start_s": 73.35,
+   "end_s": 77,
+   "zone": "backbone",
+   "camera": "ride",
+   "mode": "inst",
+   "target": "f:E4",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S030",
+   "start_s": 77,
+   "end_s": 80.3,
+   "zone": "backbone",
+   "camera": "flyby",
+   "mode": "inst",
+   "target": "f:T1p3",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S031",
+   "start_s": 80.3,
+   "end_s": 81.72,
+   "zone": "map",
+   "camera": "low",
+   "mode": "inst",
+   "target": null,
+   "event_ids": [
+    "E013"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S032",
+   "start_s": 81.72,
+   "end_s": 83.36,
+   "zone": "backbone",
+   "camera": "cable",
+   "mode": "trace2",
+   "target": null,
+   "event_ids": [
+    "E014"
+   ],
+   "lyric_ids": [
+    "L023"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 83.36,
+   "end_s": 87.06,
+   "zone": "map",
+   "camera": "top",
+   "mode": "marks",
+   "target": null,
+   "event_ids": [
+    "E015"
+   ],
+   "lyric_ids": [
+    "L024"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 87.06,
+   "end_s": 90.6,
+   "zone": "backbone",
+   "camera": "site",
+   "mode": "fw",
+   "target": "n:FWB",
+   "event_ids": [],
+   "lyric_ids": [
+    "L025"
+   ]
+  },
+  {
+   "id": "S035",
+   "start_s": 90.6,
+   "end_s": 94.26,
+   "zone": "map",
+   "camera": "table",
+   "mode": "prefix",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L026"
+   ]
+  },
+  {
+   "id": "S036",
+   "start_s": 94.26,
+   "end_s": 97.8,
+   "zone": "backbone",
+   "camera": "ride",
+   "mode": "echo",
+   "target": "f:E5",
+   "event_ids": [],
+   "lyric_ids": [
+    "L027"
+   ]
+  },
+  {
+   "id": "S037",
+   "start_s": 97.8,
+   "end_s": 101.4,
+   "zone": "backbone",
+   "camera": "site",
+   "mode": "noreply2",
+   "target": "n:D",
+   "event_ids": [],
+   "lyric_ids": [
+    "L028"
+   ]
+  },
+  {
+   "id": "S038",
+   "start_s": 101.4,
+   "end_s": 104.98,
+   "zone": "backbone",
+   "camera": "wide",
+   "mode": "shift",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L029"
+   ]
+  },
+  {
+   "id": "S039",
+   "start_s": 104.98,
+   "end_s": 107.5,
+   "zone": "map",
+   "camera": "table",
+   "mode": "null",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L030"
+   ]
+  },
+  {
+   "id": "S040",
+   "start_s": 107.5,
+   "end_s": 110.18,
+   "zone": "backbone",
+   "camera": "orbit",
+   "mode": "inst2",
+   "target": null,
+   "event_ids": [
+    "E016"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S041",
+   "start_s": 110.18,
+   "end_s": 111.1,
+   "zone": "backbone",
+   "camera": "hop",
+   "mode": "b_ttl",
+   "target": "n:R3b",
+   "event_ids": [
+    "E017"
+   ],
+   "lyric_ids": [
+    "L031"
+   ]
+  },
+  {
+   "id": "S042",
+   "start_s": 111.1,
+   "end_s": 112.32,
+   "zone": "backbone",
+   "camera": "void",
+   "mode": "b_gone",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L032"
+   ]
+  },
+  {
+   "id": "S043",
+   "start_s": 112.32,
+   "end_s": 114.88,
+   "zone": "backbone",
+   "camera": "tower",
+   "mode": "b_silent",
+   "target": "n:R4",
+   "event_ids": [],
+   "lyric_ids": [
+    "L033"
+   ]
+  },
+  {
+   "id": "S044",
+   "start_s": 114.88,
+   "end_s": 116.1,
+   "zone": "backbone",
+   "camera": "cable",
+   "mode": "b_moving",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L034"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 116.1,
+   "end_s": 118.54,
+   "zone": "map",
+   "camera": "card",
+   "mode": "b_icmp",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L035"
+   ]
+  },
+  {
+   "id": "S046",
+   "start_s": 118.54,
+   "end_s": 119.68,
+   "zone": "map",
+   "camera": "term",
+   "mode": "b_noreply",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L036"
+   ]
+  },
+  {
+   "id": "S047",
+   "start_s": 119.68,
+   "end_s": 122.08,
+   "zone": "backbone",
+   "camera": "fall",
+   "mode": "b_fall",
+   "target": "f:E6",
+   "event_ids": [],
+   "lyric_ids": [
+    "L037"
+   ]
+  },
+  {
+   "id": "S048",
+   "start_s": 122.08,
+   "end_s": 122.82,
+   "zone": "backbone",
+   "camera": "void",
+   "mode": "b_die",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L038"
+   ]
+  },
+  {
+   "id": "S049",
+   "start_s": 122.82,
+   "end_s": 124.25,
+   "zone": "backbone",
+   "camera": "wide2",
+   "mode": "inst3",
+   "target": null,
+   "event_ids": [
+    "E018",
+    "E019"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S050",
+   "start_s": 124.25,
+   "end_s": 128,
+   "zone": "backbone",
+   "camera": "ride",
+   "mode": "inst3",
+   "target": "f:E7",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S051",
+   "start_s": 128,
+   "end_s": 132.34,
+   "zone": "backbone",
+   "camera": "flyby",
+   "mode": "inst3",
+   "target": "f:T5p2",
+   "event_ids": [
+    "E020"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S052",
+   "start_s": 132.34,
+   "end_s": 136.26,
+   "zone": "backbone",
+   "camera": "wide",
+   "mode": "hook2",
+   "target": null,
+   "event_ids": [
+    "E021"
+   ],
+   "lyric_ids": [
+    "L039"
+   ]
+  },
+  {
+   "id": "S053",
+   "start_s": 136.26,
+   "end_s": 139.54,
+   "zone": "map",
+   "camera": "top",
+   "mode": "nobody2",
+   "target": null,
+   "event_ids": [
+    "E022"
+   ],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S054",
+   "start_s": 139.54,
+   "end_s": 143.2,
+   "zone": "backbone",
+   "camera": "ride",
+   "mode": "hook2",
+   "target": "f:E8",
+   "event_ids": [],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 143.2,
+   "end_s": 145.56,
+   "zone": "backbone",
+   "camera": "void",
+   "mode": "grow2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S056",
+   "start_s": 145.56,
+   "end_s": 146.78,
+   "zone": "backbone",
+   "camera": "host",
+   "mode": "resend2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S057",
+   "start_s": 146.78,
+   "end_s": 148.72,
+   "zone": "backbone",
+   "camera": "fall",
+   "mode": "fall2",
+   "target": "f:E9",
+   "event_ids": [],
+   "lyric_ids": [
+    "L044"
+   ]
+  },
+  {
+   "id": "S058",
+   "start_s": 148.72,
+   "end_s": 150.7,
+   "zone": "backbone",
+   "camera": "hop",
+   "mode": "du3",
+   "target": "n:R2",
+   "event_ids": [],
+   "lyric_ids": [
+    "L045"
+   ]
+  },
+  {
+   "id": "S059",
+   "start_s": 150.7,
+   "end_s": 153.68,
+   "zone": "map",
+   "camera": "card",
+   "mode": "du3",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S060",
+   "start_s": 153.68,
+   "end_s": 156.62,
+   "zone": "backbone",
+   "camera": "site",
+   "mode": "noroute3",
+   "target": "n:RC",
+   "event_ids": [
+    "E023"
+   ],
+   "lyric_ids": [
+    "L046"
+   ]
+  },
+  {
+   "id": "S061",
+   "start_s": 156.62,
+   "end_s": 160.55,
+   "zone": "backbone",
+   "camera": "wide2",
+   "mode": "inst4",
+   "target": null,
+   "event_ids": [
+    "E024"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S062",
+   "start_s": 160.55,
+   "end_s": 163.8,
+   "zone": "backbone",
+   "camera": "ride",
+   "mode": "inst4",
+   "target": "f:E10",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S063",
+   "start_s": 163.8,
+   "end_s": 165.2,
+   "zone": "backbone",
+   "camera": "hop",
+   "mode": "fin1",
+   "target": "n:R2",
+   "event_ids": [
+    "E025"
+   ],
+   "lyric_ids": [
+    "L047"
+   ]
+  },
+  {
+   "id": "S064",
+   "start_s": 165.2,
+   "end_s": 166.5,
+   "zone": "map",
+   "camera": "card",
+   "mode": "fin2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L048"
+   ]
+  },
+  {
+   "id": "S065",
+   "start_s": 166.5,
+   "end_s": 171.06,
+   "zone": "backbone",
+   "camera": "void",
+   "mode": "fin2",
+   "target": null,
+   "event_ids": [
+    "E026"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S066",
+   "start_s": 171.06,
+   "end_s": 172.46,
+   "zone": "backbone",
+   "camera": "hop",
+   "mode": "fin3",
+   "target": "n:R2",
+   "event_ids": [],
+   "lyric_ids": [
+    "L049"
+   ]
+  },
+  {
+   "id": "S067",
+   "start_s": 172.46,
+   "end_s": 175.15,
+   "zone": "map",
+   "camera": "top",
+   "mode": "case",
+   "target": null,
+   "event_ids": [
+    "E027"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S068",
+   "start_s": 175.15,
+   "end_s": 180,
+   "zone": "backbone",
+   "camera": "ride",
+   "mode": "night",
+   "target": "f:E11",
+   "event_ids": [
+    "E028"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S069",
+   "start_s": 180,
+   "end_s": 184,
+   "zone": "backbone",
+   "camera": "flyby",
+   "mode": "night",
+   "target": "f:T4p3",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S070",
+   "start_s": 184,
+   "end_s": 187.85,
+   "zone": "map",
+   "camera": "low",
+   "mode": "night",
+   "target": null,
+   "event_ids": [
+    "E029"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S071",
+   "start_s": 187.85,
+   "end_s": 192.8,
+   "zone": "backbone",
+   "camera": "cable",
+   "mode": "night2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S072",
+   "start_s": 192.8,
+   "end_s": 198.75,
+   "zone": "backbone",
+   "camera": "orbit",
+   "mode": "night2",
+   "target": null,
+   "event_ids": [
+    "E030"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S073",
+   "start_s": 198.75,
+   "end_s": 204,
+   "zone": "backbone",
+   "camera": "fall",
+   "mode": "night3",
+   "target": "f:E12",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S074",
+   "start_s": 204,
+   "end_s": 206.4,
+   "zone": "backbone",
+   "camera": "wide",
+   "mode": "night3",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S075",
+   "start_s": 206.4,
+   "end_s": 209.45,
+   "zone": "map",
+   "camera": "table",
+   "mode": "night3",
+   "target": null,
+   "event_ids": [
+    "E031"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S076",
+   "start_s": 209.45,
+   "end_s": 215.8,
+   "zone": "backbone",
+   "camera": "ride",
+   "mode": "night4",
+   "target": "f:E13",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S077",
+   "start_s": 215.8,
+   "end_s": 220.55,
+   "zone": "backbone",
+   "camera": "void",
+   "mode": "night4",
+   "target": null,
+   "event_ids": [
+    "E032"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S078",
+   "start_s": 220.55,
+   "end_s": 226,
+   "zone": "backbone",
+   "camera": "chase",
+   "mode": "night5",
+   "target": "f:E14",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S079",
+   "start_s": 226,
+   "end_s": 227.9,
+   "zone": "backbone",
+   "camera": "tower",
+   "mode": "night5",
+   "target": "n:R4",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S080",
+   "start_s": 227.9,
+   "end_s": 233.35,
+   "zone": "map",
+   "camera": "top",
+   "mode": "night5",
+   "target": null,
+   "event_ids": [
+    "E033",
+    "E034"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S081",
+   "start_s": 233.35,
+   "end_s": 236.95,
+   "zone": "backbone",
+   "camera": "fall",
+   "mode": "night6",
+   "target": "f:E15",
+   "event_ids": [
+    "E035"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S082",
+   "start_s": 236.95,
+   "end_s": 241,
+   "zone": "backbone",
+   "camera": "wide2",
+   "mode": "night6",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S083",
+   "start_s": 241,
+   "end_s": 251.08,
+   "zone": "backbone",
+   "camera": "final",
+   "mode": "outro",
+   "target": null,
+   "event_ids": [
+    "E036"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S084",
+   "start_s": 251.08,
+   "end_s": 254.54,
+   "zone": "backbone",
+   "camera": "hop",
+   "mode": "end",
+   "target": "n:R2",
+   "event_ids": [
+    "E037",
+    "E038"
+   ],
+   "lyric_ids": [
+    "L050"
+   ]
+  },
+  {
+   "id": "S085",
+   "start_s": 254.54,
+   "end_s": 259.80097916666665,
+   "zone": "backbone",
+   "camera": "void",
+   "mode": "end",
+   "target": null,
+   "event_ids": [
+    "E039",
+    "E040",
+    "E041",
+    "E042"
+   ],
+   "lyric_ids": [
+    "L051"
+   ]
+  }
+ ],
+ "evidence": [
+  {
+   "time_s": 5.518,
+   "type": "du",
+   "from": "198.18.0.2",
+   "label": "ICMP 3/0 net unreachable · from 198.18.0.2"
+  },
+  {
+   "time_s": 7.244,
+   "type": "te",
+   "from": "192.0.2.1",
+   "label": "ICMP 11 time exceeded · hop 1 · 192.0.2.1"
+  },
+  {
+   "time_s": 11.848,
+   "type": "te",
+   "from": "198.18.0.2",
+   "label": "ICMP 11 time exceeded · hop 2 · 198.18.0.2"
+  },
+  {
+   "time_s": 16.752,
+   "type": "te",
+   "from": "198.18.0.3",
+   "label": "ICMP 11 time exceeded · hop 3 · 198.18.0.3"
+  },
+  {
+   "time_s": 22.835,
+   "type": "te",
+   "from": "198.18.0.4",
+   "label": "ICMP 11 time exceeded · hop 4 · 198.18.0.4"
+  },
+  {
+   "time_s": 57.651,
+   "type": "reply",
+   "from": "203.0.113.80",
+   "label": "echo reply from 203.0.113.80"
+  },
+  {
+   "time_s": 63.968,
+   "type": "du",
+   "from": "198.18.0.2",
+   "label": "ICMP 3/0 net unreachable · from 198.18.0.2"
+  },
+  {
+   "time_s": 68.268,
+   "type": "du",
+   "from": "198.18.0.2",
+   "label": "ICMP 3/0 net unreachable · from 198.18.0.2"
+  },
+  {
+   "time_s": 72.244,
+   "type": "te",
+   "from": "192.0.2.1",
+   "label": "ICMP 11 time exceeded · hop 1 · 192.0.2.1"
+  },
+  {
+   "time_s": 76.648,
+   "type": "te",
+   "from": "198.18.0.2",
+   "label": "ICMP 11 time exceeded · hop 2 · 198.18.0.2"
+  },
+  {
+   "time_s": 81.552,
+   "type": "te",
+   "from": "198.18.0.3",
+   "label": "ICMP 11 time exceeded · hop 3 · 198.18.0.3"
+  },
+  {
+   "time_s": 83.644,
+   "type": "te",
+   "from": "192.0.2.1",
+   "label": "ICMP 11 time exceeded · hop 1 · 192.0.2.1"
+  },
+  {
+   "time_s": 85.235,
+   "type": "te",
+   "from": "198.18.0.4",
+   "label": "ICMP 11 time exceeded · hop 4 · 198.18.0.4"
+  },
+  {
+   "time_s": 87.248,
+   "type": "te",
+   "from": "198.18.0.2",
+   "label": "ICMP 11 time exceeded · hop 2 · 198.18.0.2"
+  },
+  {
+   "time_s": 91.552,
+   "type": "te",
+   "from": "198.18.0.3",
+   "label": "ICMP 11 time exceeded · hop 3 · 198.18.0.3"
+  },
+  {
+   "time_s": 93.068,
+   "type": "du",
+   "from": "198.18.0.2",
+   "label": "ICMP 3/0 net unreachable · from 198.18.0.2"
+  },
+  {
+   "time_s": 96.535,
+   "type": "te",
+   "from": "198.18.0.4",
+   "label": "ICMP 11 time exceeded · hop 4 · 198.18.0.4"
+  },
+  {
+   "time_s": 107.544,
+   "type": "te",
+   "from": "192.0.2.1",
+   "label": "ICMP 11 time exceeded · hop 1 · 192.0.2.1"
+  },
+  {
+   "time_s": 110.448,
+   "type": "te",
+   "from": "198.18.0.2",
+   "label": "ICMP 11 time exceeded · hop 2 · 198.18.0.2"
+  },
+  {
+   "time_s": 113.707,
+   "type": "te",
+   "from": "198.18.0.13",
+   "label": "ICMP 11 time exceeded · hop 3 · 198.18.0.13"
+  },
+  {
+   "time_s": 117.235,
+   "type": "te",
+   "from": "198.18.0.4",
+   "label": "ICMP 11 time exceeded · hop 4 · 198.18.0.4"
+  },
+  {
+   "time_s": 129.944,
+   "type": "te",
+   "from": "192.0.2.1",
+   "label": "ICMP 11 time exceeded · hop 1 · 192.0.2.1"
+  },
+  {
+   "time_s": 132.648,
+   "type": "te",
+   "from": "198.18.0.2",
+   "label": "ICMP 11 time exceeded · hop 2 · 198.18.0.2"
+  },
+  {
+   "time_s": 135.957,
+   "type": "te",
+   "from": "198.18.0.13",
+   "label": "ICMP 11 time exceeded · hop 3 · 198.18.0.13"
+  },
+  {
+   "time_s": 139.235,
+   "type": "te",
+   "from": "198.18.0.4",
+   "label": "ICMP 11 time exceeded · hop 4 · 198.18.0.4"
+  },
+  {
+   "time_s": 150.868,
+   "type": "du",
+   "from": "198.18.0.2",
+   "label": "ICMP 3/0 net unreachable · from 198.18.0.2"
+  },
+  {
+   "time_s": 156.068,
+   "type": "du",
+   "from": "198.18.0.2",
+   "label": "ICMP 3/0 net unreachable · from 198.18.0.2"
+  },
+  {
+   "time_s": 165.968,
+   "type": "du",
+   "from": "198.18.0.2",
+   "label": "ICMP 3/0 net unreachable · from 198.18.0.2"
+  },
+  {
+   "time_s": 167.368,
+   "type": "du",
+   "from": "198.18.0.2",
+   "label": "ICMP 3/0 net unreachable · from 198.18.0.2"
+  },
+  {
+   "time_s": 173.168,
+   "type": "du",
+   "from": "198.18.0.2",
+   "label": "ICMP 3/0 net unreachable · from 198.18.0.2"
+  },
+  {
+   "time_s": 177.244,
+   "type": "te",
+   "from": "192.0.2.1",
+   "label": "ICMP 11 time exceeded · hop 1 · 192.0.2.1"
+  },
+  {
+   "time_s": 181.048,
+   "type": "te",
+   "from": "198.18.0.2",
+   "label": "ICMP 11 time exceeded · hop 2 · 198.18.0.2"
+  },
+  {
+   "time_s": 184.957,
+   "type": "te",
+   "from": "198.18.0.13",
+   "label": "ICMP 11 time exceeded · hop 3 · 198.18.0.13"
+  },
+  {
+   "time_s": 188.535,
+   "type": "te",
+   "from": "198.18.0.4",
+   "label": "ICMP 11 time exceeded · hop 4 · 198.18.0.4"
+  },
+  {
+   "time_s": 253.168,
+   "type": "du",
+   "from": "198.18.0.2",
+   "label": "ICMP 3/0 net unreachable · from 198.18.0.2"
+  },
+  {
+   "time_s": 256.668,
+   "type": "du",
+   "from": "198.18.0.2",
+   "label": "ICMP 3/0 net unreachable · from 198.18.0.2"
+  }
+ ],
+ "lost": [
+  {
+   "time_s": 10.3,
+   "id": "E0",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 16,
+   "id": "E0b",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 21.2,
+   "id": "T0p5",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 24.4,
+   "id": "T0p6",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 27.6,
+   "id": "E0c",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 34.7,
+   "id": "E1",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 38.2,
+   "id": "B1",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 42.4,
+   "id": "B2",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 56.45,
+   "id": "E2",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 59.9,
+   "id": "K1",
+   "to": "203.0.113.80",
+   "kind": "echo"
+  },
+  {
+   "time_s": 62.6,
+   "id": "E3",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 63.95,
+   "id": "B640",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 67.5,
+   "id": "B675",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 71.05,
+   "id": "B711",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 74.6,
+   "id": "B746",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 76.6,
+   "id": "E4",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 78.15,
+   "id": "B781",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 81.7,
+   "id": "B817",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 84.3,
+   "id": "T1p5",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 85.25,
+   "id": "B852",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 86.4,
+   "id": "T1p6",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 88.8,
+   "id": "B888",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 92.35,
+   "id": "B923",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 94.5,
+   "id": "T2p5",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 95.9,
+   "id": "B959",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 96.8,
+   "id": "T2p6",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 98.3,
+   "id": "E5",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 103,
+   "id": "B1030",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 105,
+   "id": "E5b",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 106.55,
+   "id": "B1065",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 110.1,
+   "id": "B1101",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 113.65,
+   "id": "B1136",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 115.2,
+   "id": "T3p5",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 117.2,
+   "id": "B1172",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 120.2,
+   "id": "E6",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 121.9,
+   "id": "T3p6",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 122.6,
+   "id": "B3",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 124.3,
+   "id": "B1243",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 127.6,
+   "id": "E7",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 131.4,
+   "id": "B1314",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 134.95,
+   "id": "B1349",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 137.4,
+   "id": "T5p5",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 138.5,
+   "id": "B1385",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 139.8,
+   "id": "T5p6",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 143,
+   "id": "E8",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 145.6,
+   "id": "B1456",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 147.6,
+   "id": "E9",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 151.2,
+   "id": "B4",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 152.7,
+   "id": "B1527",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 156.25,
+   "id": "B1563",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 159.8,
+   "id": "B1598",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 163.6,
+   "id": "E10",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 166.9,
+   "id": "B1669",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 174,
+   "id": "B1740",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 178.4,
+   "id": "E11",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 181.1,
+   "id": "B1811",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 184.65,
+   "id": "B1847",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 186.4,
+   "id": "T4p5",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 188.2,
+   "id": "B1882",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 189,
+   "id": "T4p6",
+   "to": "203.0.113.45",
+   "kind": "probe"
+  },
+  {
+   "time_s": 191.75,
+   "id": "B1918",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 195.3,
+   "id": "B1953",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 200,
+   "id": "E12",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 202.4,
+   "id": "B2024",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 205.95,
+   "id": "B2060",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 209.5,
+   "id": "B2095",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 212.8,
+   "id": "E13",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 216.6,
+   "id": "B2166",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 220.15,
+   "id": "B2202",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 223.6,
+   "id": "E14",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 227.25,
+   "id": "B2273",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 230.8,
+   "id": "B2308",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 234.6,
+   "id": "E15",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 237.9,
+   "id": "B2379",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 241.45,
+   "id": "B2415",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 245,
+   "id": "B2450",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 248.55,
+   "id": "B2486",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  },
+  {
+   "time_s": 255,
+   "id": "E16",
+   "to": "203.0.113.45",
+   "kind": "echo"
+  }
+ ],
+ "traces": [
+  {
+   "id": "T0",
+   "lines": [
+    "$ traceroute -n 203.0.113.45",
+    " 1  192.0.2.1      1.1 ms",
+    " 2  198.18.0.2     4.8 ms",
+    " 3  198.18.0.3     9.6 ms",
+    " 4  198.18.0.4     12.3 ms",
+    " 5  * * *",
+    " 6  * * *"
+   ]
+  },
+  {
+   "id": "T1",
+   "lines": [
+    "$ traceroute -n 203.0.113.45",
+    " 1  192.0.2.1      1.1 ms",
+    " 2  198.18.0.2     4.8 ms",
+    " 3  198.18.0.3     9.6 ms",
+    " 4  198.18.0.4     12.3 ms",
+    " 5  * * *",
+    " 6  * * *"
+   ]
+  },
+  {
+   "id": "T2",
+   "lines": [
+    "$ traceroute -n 203.0.113.45",
+    " 1  192.0.2.1      1.1 ms",
+    " 2  198.18.0.2     4.8 ms",
+    " 3  198.18.0.3     9.6 ms",
+    " 4  198.18.0.4     12.3 ms",
+    " 5  * * *",
+    " 6  * * *"
+   ]
+  },
+  {
+   "id": "T3",
+   "lines": [
+    "$ traceroute -n 203.0.113.45",
+    " 1  192.0.2.1      1.1 ms",
+    " 2  198.18.0.2     4.8 ms",
+    " 3  198.18.0.13    9.6 ms",
+    " 4  198.18.0.4     12.3 ms",
+    " 5  * * *",
+    " 6  * * *"
+   ]
+  },
+  {
+   "id": "T5",
+   "lines": [
+    "$ traceroute -n 203.0.113.45",
+    " 1  192.0.2.1      1.1 ms",
+    " 2  198.18.0.2     4.8 ms",
+    " 3  198.18.0.13    9.6 ms",
+    " 4  198.18.0.4     12.3 ms",
+    " 5  * * *",
+    " 6  * * *"
+   ]
+  },
+  {
+   "id": "T4",
+   "lines": [
+    "$ traceroute -n 203.0.113.45",
+    " 1  192.0.2.1      1.1 ms",
+    " 2  198.18.0.2     4.8 ms",
+    " 3  198.18.0.13    9.6 ms",
+    " 4  198.18.0.4     12.3 ms",
+    " 5  * * *",
+    " 6  * * *"
+   ]
+  }
+ ]
+}

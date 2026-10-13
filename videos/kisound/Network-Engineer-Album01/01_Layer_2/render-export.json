@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "01_Layer_2",
+  "title": "Layer 2",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/layer-2.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

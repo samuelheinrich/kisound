@@ -1,0 +1,59 @@
+[Intro]
+Ich sag's. Er baut's.
+Ich test's. Er fixt's.
+
+[Verse 1]
+Terminal auf, schwarzer Screen, grüner Cursor blinkt,
+ich schreib drei Sätze, was die App am Ende bringt.
+Er liest das Repo, plant fünf Schritte, will was installieren,
+ich les den Befehl, bevor ich ihn erlaub, nicht blind akzeptieren.
+Localhost dreitausend, Seite lädt, das Layout bricht,
+ein Div zu breit, der Knopf verschwindet aus der Sicht.
+Screenshot rein, ich schreib: „Rechts fehlt der Knopf, ganz klar.“
+Zwei Sekunden später ist der Knopf wieder da.
+
+[Chorus]
+Vibecoder.
+Ich sag's, er baut's, ich test's, er fixt's.
+Vibecoder.
+Was nicht läuft, geht zurück, bis es sitzt.
+Vibecoder.
+Ich sag's, er baut's, ich test's, er fixt's.
+Ein Diff, ein Test, ein Commit, und die nächste Idee blitzt.
+
+[Verse 2]
+Später wird er mutig, baut drei Features auf einmal ein,
+der Diff hat vierhundert Zeilen. Stopp, das muss nicht sein.
+Gestern lief der Export, heute wirft er einen Fehler,
+ich kopier den Stacktrace rein: „Was hast du geändert? Erklär!“
+Er findet die Zeile, nimmt sie raus, der Test ist wieder grün,
+ich commit den kleinen Stand, bevor wir weiterziehn.
+
+[Chorus]
+Vibecoder.
+Ich sag's, er baut's, ich test's, er fixt's.
+Vibecoder.
+Was nicht läuft, geht zurück, bis es sitzt.
+Vibecoder.
+Ich sag's, er baut's, ich test's, er fixt's.
+Ein Diff, ein Test, ein Commit, und die nächste Idee blitzt.
+
+[Bridge]
+Prompt. Plan. Diff. Approve.
+Run. Fail. Paste. Improve.
+Run. Pass. Commit. Push.
+Nächste Idee. Und los.
+
+[Chorus]
+Vibecoder.
+Ich sag's, er baut's, ich test's, er fixt's.
+Vibecoder.
+Was nicht läuft, geht zurück, bis es sitzt.
+Vibecoder.
+Ich sag's, er baut's, ich test's, er fixt's.
+Ein Diff, ein Test, ein Commit, und die nächste Idee blitzt.
+
+[Outro]
+Ich sag's. Er baut's.
+Ich test's. Er fixt's.
+Commit.

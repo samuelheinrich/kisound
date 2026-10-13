@@ -1,0 +1,16 @@
+{
+  "setId": "switch-48p",
+  "status": "OK",
+  "triangles": 24084,
+  "budget": 400000,
+  "meshes": 319,
+  "anchors": 167,
+  "materials": [
+    "cage",
+    "cavity",
+    "chassis",
+    "led"
+  ],
+  "errors": [],
+  "warnings": []
+}

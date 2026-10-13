@@ -1,0 +1,1274 @@
+{
+ "schema": "kisound.broadcaststorm.cues.v1",
+ "duration_s": 208.8135,
+ "fade_start_s": 202.9,
+ "titles": {
+  "intro": [
+   1.3,
+   2.2,
+   7.2,
+   8.4
+  ],
+  "outro": [
+   195.4,
+   196.2,
+   200.4,
+   201.4
+  ]
+ },
+ "drops_s": [
+  34.05,
+  88.25,
+  154.05,
+  167.75,
+  195.15
+ ],
+ "beat_cut_s": 131.4,
+ "milestones": {
+  "ring_closed_s": 15.58,
+  "b001_s": 22.8,
+  "management_lost_s": 62.3,
+  "shutdown_cmd_s": 161.38,
+  "port_down_s": 163,
+  "management_back_s": 189.5,
+  "test_ok_s": 197.33
+ },
+ "broadcasts": 611,
+ "ring_copies": 1222,
+ "mac_flaps": 1713,
+ "b001": [
+  {
+   "id": "B-001/a",
+   "fork_s": 24.988,
+   "end_s": 163.474,
+   "passes": [
+    "SW2@32.87",
+    "SW3@35.48",
+    "SW1@37.07",
+    "SW2@38.28",
+    "SW3@39.30",
+    "SW1@40.24",
+    "SW2@41.08",
+    "SW3@41.88",
+    "SW1@42.65",
+    "SW2@43.39",
+    "SW3@44.13",
+    "SW1@44.87"
+   ]
+  },
+  {
+   "id": "B-001/b",
+   "fork_s": 24.988,
+   "end_s": 164.221,
+   "passes": [
+    "SW3@32.96",
+    "SW2@35.52",
+    "SW1@37.07",
+    "SW3@38.30",
+    "SW2@39.33",
+    "SW1@40.24",
+    "SW3@41.10",
+    "SW2@41.89",
+    "SW1@42.65",
+    "SW3@43.41",
+    "SW2@44.14",
+    "SW1@44.87"
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Offene Kette",
+   "start": 0,
+   "end": 15.58,
+   "action": "SW1–SW2–SW3 als offene Kette; die beiden Port-24-Enden bleiben getrennt. Ein loses Kabel."
+  },
+  {
+   "id": "C02",
+   "title": "Falscher Port",
+   "start": 15.58,
+   "end": 22.3,
+   "action": "Der Fehlpatch rastet an SW3 Gi1/0/24 ein und schliesst den Ring in VLAN 120. STP ist dort aus."
+  },
+  {
+   "id": "C03",
+   "title": "B-001",
+   "start": 22.3,
+   "end": 43.96,
+   "action": "H1 fragt per ARP-Broadcast nach 192.0.2.1. SW1 flutet: eine Kopie in jede Ringrichtung."
+  },
+  {
+   "id": "C04",
+   "title": "Kopien wachsen",
+   "start": 43.96,
+   "end": 66.52,
+   "action": "Die Kopien kehren zurück und werden erneut geflutet; jeder neue Broadcast kreist mit. CPU rot, Management weg."
+  },
+  {
+   "id": "C05",
+   "title": "Alle Lampen grün",
+   "start": 66.52,
+   "end": 86.52,
+   "action": "Grüne Linklampen über vollen Queues. Die H1-MAC springt zwischen den Ringports. Nichts kommt durch."
+  },
+  {
+   "id": "C06",
+   "title": "Broadcast Storm",
+   "start": 86.52,
+   "end": 110.54,
+   "action": "Kein Root, kein Blocking: der Ring frisst die Leitungen, Puffer verwerfen."
+  },
+  {
+   "id": "C07",
+   "title": "Loop · Flood",
+   "start": 110.54,
+   "end": 130.06,
+   "action": "Eine volle Ringrunde, Flooding an jedem Abzweig, Verluste bei unverändertem Link."
+  },
+  {
+   "id": "C08",
+   "title": "Zieh das Kabel",
+   "start": 130.06,
+   "end": 137.38,
+   "action": "Der Auftrag zur Suche. Das Suchlicht fährt über den Ring."
+  },
+  {
+   "id": "C09",
+   "title": "Console-Weg",
+   "start": 137.38,
+   "end": 161.38,
+   "action": "In-band-Login scheitert; die serielle Console führt zu SW3. Gi1/0/24 ist der falsche Ringabschluss."
+  },
+  {
+   "id": "C10",
+   "title": "Ein Port down",
+   "start": 161.38,
+   "end": 166.56,
+   "action": "shutdown an SW3 Gi1/0/24. Der Ring ist offen."
+  },
+  {
+   "id": "C11",
+   "title": "Die Flut zieht ab",
+   "start": 166.56,
+   "end": 186.72,
+   "action": "Restliche Kopien laufen aus, Queues leeren sich, MAC-Lernen beruhigt sich."
+  },
+  {
+   "id": "C12",
+   "title": "Stille",
+   "start": 186.72,
+   "end": 208.8135,
+   "action": "Management antwortet, Unicast-Test erfolgreich. Folgearbeit: STP für VLAN 120."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 9.66,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "open",
+   "target": null,
+   "event_ids": [
+    "E001",
+    "E002"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S002",
+   "start_s": 9.66,
+   "end_s": 10.44,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "cable",
+   "target": null,
+   "event_ids": [
+    "E003"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S003",
+   "start_s": 10.44,
+   "end_s": 15.58,
+   "zone": "ring",
+   "camera": "port",
+   "mode": "plug",
+   "target": "p:SW3-24",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S004",
+   "start_s": 15.58,
+   "end_s": 16.74,
+   "zone": "ring",
+   "camera": "port",
+   "mode": "click",
+   "target": "p:SW3-24",
+   "event_ids": [],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S005",
+   "start_s": 16.74,
+   "end_s": 20.8,
+   "zone": "console",
+   "camera": "front",
+   "mode": "stpcfg",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S006",
+   "start_s": 20.8,
+   "end_s": 22.3,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "closed",
+   "target": null,
+   "event_ids": [
+    "E004"
+   ],
+   "lyric_ids": [
+    "L003"
+   ]
+  },
+  {
+   "id": "S007",
+   "start_s": 22.3,
+   "end_s": 29.52,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "b001",
+   "target": "c:B001",
+   "event_ids": [
+    "E005"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S008",
+   "start_s": 29.52,
+   "end_s": 36.74,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "twocopies",
+   "target": null,
+   "event_ids": [
+    "E006"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S009",
+   "start_s": 36.74,
+   "end_s": 43.96,
+   "zone": "core",
+   "camera": "mac",
+   "mode": "learn",
+   "target": null,
+   "event_ids": [
+    "E007"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S010",
+   "start_s": 43.96,
+   "end_s": 46.34,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "lap",
+   "target": "c:B001a",
+   "event_ids": [
+    "E008"
+   ],
+   "lyric_ids": [
+    "L004"
+   ]
+  },
+  {
+   "id": "S011",
+   "start_s": 46.34,
+   "end_s": 49.88,
+   "zone": "ring",
+   "camera": "port",
+   "mode": "same",
+   "target": "p:SW1-24",
+   "event_ids": [],
+   "lyric_ids": [
+    "L005"
+   ]
+  },
+  {
+   "id": "S012",
+   "start_s": 49.88,
+   "end_s": 51.88,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "header",
+   "target": "c:B001a",
+   "event_ids": [],
+   "lyric_ids": [
+    "L006"
+   ]
+  },
+  {
+   "id": "S013",
+   "start_s": 51.88,
+   "end_s": 54.56,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "nostp",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L007"
+   ]
+  },
+  {
+   "id": "S014",
+   "start_s": 54.56,
+   "end_s": 56.76,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "flood",
+   "target": "c:B001b",
+   "event_ids": [
+    "E009"
+   ],
+   "lyric_ids": [
+    "L008"
+   ]
+  },
+  {
+   "id": "S015",
+   "start_s": 56.76,
+   "end_s": 60.14,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "grow",
+   "target": "c:B001a",
+   "event_ids": [],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S016",
+   "start_s": 60.14,
+   "end_s": 62.3,
+   "zone": "core",
+   "camera": "buffer",
+   "mode": "fill",
+   "target": null,
+   "event_ids": [
+    "E010"
+   ],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 62.3,
+   "end_s": 66.52,
+   "zone": "console",
+   "camera": "front",
+   "mode": "mgmtdead",
+   "target": null,
+   "event_ids": [
+    "E011"
+   ],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 66.52,
+   "end_s": 69.66,
+   "zone": "ring",
+   "camera": "port",
+   "mode": "green",
+   "target": "p:SW2-1",
+   "event_ids": [
+    "E012"
+   ],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 69.66,
+   "end_s": 76.02,
+   "zone": "core",
+   "camera": "mac",
+   "mode": "flap",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 76.02,
+   "end_s": 80.02,
+   "zone": "core",
+   "camera": "buffer",
+   "mode": "unicastdrop",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L014"
+   ]
+  },
+  {
+   "id": "S021",
+   "start_s": 80.02,
+   "end_s": 86.52,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "drown",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L015"
+   ]
+  },
+  {
+   "id": "S022",
+   "start_s": 86.52,
+   "end_s": 88.08,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "storm",
+   "target": null,
+   "event_ids": [
+    "E013",
+    "E014"
+   ],
+   "lyric_ids": [
+    "L016"
+   ]
+  },
+  {
+   "id": "S023",
+   "start_s": 88.08,
+   "end_s": 92,
+   "zone": "console",
+   "camera": "front",
+   "mode": "noroot",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L017"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 92,
+   "end_s": 93.64,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "storm2",
+   "target": "c:B001b",
+   "event_ids": [],
+   "lyric_ids": [
+    "L018"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 93.64,
+   "end_s": 98.28,
+   "zone": "core",
+   "camera": "buffer",
+   "mode": "damage",
+   "target": null,
+   "event_ids": [
+    "E015"
+   ],
+   "lyric_ids": [
+    "L019"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 98.28,
+   "end_s": 99.56,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "flutet",
+   "target": "c:B001a",
+   "event_ids": [],
+   "lyric_ids": [
+    "L020"
+   ]
+  },
+  {
+   "id": "S027",
+   "start_s": 99.56,
+   "end_s": 100.84,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "double",
+   "target": "c:B001b",
+   "event_ids": [],
+   "lyric_ids": [
+    "L021"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 100.84,
+   "end_s": 102.92,
+   "zone": "ring",
+   "camera": "port",
+   "mode": "wire",
+   "target": "p:SW2-2",
+   "event_ids": [
+    "E016"
+   ],
+   "lyric_ids": [
+    "L022"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 102.92,
+   "end_s": 106.5,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "lapcam",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L023"
+   ]
+  },
+  {
+   "id": "S030",
+   "start_s": 106.5,
+   "end_s": 110.54,
+   "zone": "core",
+   "camera": "buffer",
+   "mode": "olddrop",
+   "target": null,
+   "event_ids": [
+    "E017",
+    "E018"
+   ],
+   "lyric_ids": [
+    "L024"
+   ]
+  },
+  {
+   "id": "S031",
+   "start_s": 110.54,
+   "end_s": 111.82,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "loop",
+   "target": null,
+   "event_ids": [
+    "E019"
+   ],
+   "lyric_ids": [
+    "L025"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 111.82,
+   "end_s": 119.4,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "fullap",
+   "target": "c:B001a",
+   "event_ids": [
+    "E020"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S033",
+   "start_s": 119.4,
+   "end_s": 120.84,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "flood1",
+   "target": "c:B001b",
+   "event_ids": [],
+   "lyric_ids": [
+    "L026"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 120.84,
+   "end_s": 121.56,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "flood2",
+   "target": "c:B001a",
+   "event_ids": [
+    "E021"
+   ],
+   "lyric_ids": [
+    "L027"
+   ]
+  },
+  {
+   "id": "S035",
+   "start_s": 121.56,
+   "end_s": 130.06,
+   "zone": "core",
+   "camera": "buffer",
+   "mode": "losses",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S036",
+   "start_s": 130.06,
+   "end_s": 131.74,
+   "zone": "console",
+   "camera": "front",
+   "mode": "task",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L028"
+   ]
+  },
+  {
+   "id": "S037",
+   "start_s": 131.74,
+   "end_s": 135.98,
+   "zone": "ring",
+   "camera": "search",
+   "mode": "search1",
+   "target": null,
+   "event_ids": [
+    "E022",
+    "E023"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S038",
+   "start_s": 135.98,
+   "end_s": 137.38,
+   "zone": "ring",
+   "camera": "search",
+   "mode": "search2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L029"
+   ]
+  },
+  {
+   "id": "S039",
+   "start_s": 137.38,
+   "end_s": 142.48,
+   "zone": "console",
+   "camera": "front",
+   "mode": "serial",
+   "target": null,
+   "event_ids": [
+    "E024"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S040",
+   "start_s": 142.48,
+   "end_s": 144.98,
+   "zone": "console",
+   "camera": "front",
+   "mode": "ssh",
+   "target": null,
+   "event_ids": [
+    "E025",
+    "E026"
+   ],
+   "lyric_ids": [
+    "L030"
+   ]
+  },
+  {
+   "id": "S041",
+   "start_s": 144.98,
+   "end_s": 147.92,
+   "zone": "console",
+   "camera": "front",
+   "mode": "prompt",
+   "target": null,
+   "event_ids": [
+    "E027"
+   ],
+   "lyric_ids": [
+    "L031"
+   ]
+  },
+  {
+   "id": "S042",
+   "start_s": 147.92,
+   "end_s": 150.68,
+   "zone": "ring",
+   "camera": "port",
+   "mode": "noblock",
+   "target": "p:SW2-2",
+   "event_ids": [],
+   "lyric_ids": [
+    "L032"
+   ]
+  },
+  {
+   "id": "S043",
+   "start_s": 150.68,
+   "end_s": 153.84,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "nobridge",
+   "target": null,
+   "event_ids": [
+    "E028"
+   ],
+   "lyric_ids": [
+    "L033"
+   ]
+  },
+  {
+   "id": "S044",
+   "start_s": 153.84,
+   "end_s": 155.12,
+   "zone": "console",
+   "camera": "front",
+   "mode": "flashlight",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L034"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 155.12,
+   "end_s": 158.92,
+   "zone": "ring",
+   "camera": "search",
+   "mode": "search3",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L035"
+   ]
+  },
+  {
+   "id": "S046",
+   "start_s": 158.92,
+   "end_s": 161.38,
+   "zone": "core",
+   "camera": "mac",
+   "mode": "identify",
+   "target": null,
+   "event_ids": [
+    "E029"
+   ],
+   "lyric_ids": [
+    "L036"
+   ]
+  },
+  {
+   "id": "S047",
+   "start_s": 161.38,
+   "end_s": 166.56,
+   "zone": "console",
+   "camera": "front",
+   "mode": "shutdown",
+   "target": null,
+   "event_ids": [
+    "E030"
+   ],
+   "lyric_ids": [
+    "L037"
+   ]
+  },
+  {
+   "id": "S048",
+   "start_s": 166.56,
+   "end_s": 168.96,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "drain",
+   "target": null,
+   "event_ids": [
+    "E031",
+    "E032"
+   ],
+   "lyric_ids": [
+    "L038"
+   ]
+  },
+  {
+   "id": "S049",
+   "start_s": 168.96,
+   "end_s": 171.96,
+   "zone": "console",
+   "camera": "front",
+   "mode": "noroot2",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L039"
+   ]
+  },
+  {
+   "id": "S050",
+   "start_s": 171.96,
+   "end_s": 174.34,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "fabricrest",
+   "target": "c:LAST",
+   "event_ids": [],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S051",
+   "start_s": 174.34,
+   "end_s": 177.16,
+   "zone": "core",
+   "camera": "buffer",
+   "mode": "history",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S052",
+   "start_s": 177.16,
+   "end_s": 179.76,
+   "zone": "ring",
+   "camera": "port",
+   "mode": "down",
+   "target": "p:SW3-24",
+   "event_ids": [],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S053",
+   "start_s": 179.76,
+   "end_s": 181.7,
+   "zone": "core",
+   "camera": "buffer",
+   "mode": "empty",
+   "target": null,
+   "event_ids": [
+    "E033"
+   ],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S054",
+   "start_s": 181.7,
+   "end_s": 184.5,
+   "zone": "core",
+   "camera": "mac",
+   "mode": "stable",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L044"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 184.5,
+   "end_s": 186.72,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "calm",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L045"
+   ]
+  },
+  {
+   "id": "S056",
+   "start_s": 186.72,
+   "end_s": 194.0845,
+   "zone": "console",
+   "camera": "front",
+   "mode": "verify",
+   "target": null,
+   "event_ids": [
+    "E034",
+    "E035",
+    "E036"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S057",
+   "start_s": 194.0845,
+   "end_s": 201.449,
+   "zone": "ring",
+   "camera": "fabric",
+   "mode": "unicast",
+   "target": "c:U2",
+   "event_ids": [
+    "E037"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S058",
+   "start_s": 201.449,
+   "end_s": 208.8135,
+   "zone": "ring",
+   "camera": "crane",
+   "mode": "end",
+   "target": null,
+   "event_ids": [
+    "E038",
+    "E039",
+    "E040"
+   ],
+   "lyric_ids": []
+  }
+ ],
+ "blocks": [
+  {
+   "id": "B01",
+   "title": "B-001 · Header",
+   "window_s": [
+    43.96,
+    60.14
+   ],
+   "lines": [
+    {
+     "reveal_s": 44.1,
+     "text": "B-001 (Header)",
+     "kind": "head"
+    },
+    {
+     "reveal_s": 44.1,
+     "text": "VLAN: 120",
+     "kind": null
+    },
+    {
+     "reveal_s": 44.1,
+     "text": "Ethernet src: 02:00:00:00:01:20",
+     "kind": null
+    },
+    {
+     "reveal_s": 44.1,
+     "text": "Ethernet dst: ff:ff:ff:ff:ff:ff",
+     "kind": null
+    },
+    {
+     "reveal_s": 52.1,
+     "text": "EtherType: 0x0806 (ARP)",
+     "kind": null
+    },
+    {
+     "reveal_s": 52.1,
+     "text": "ARP: Who has 192.0.2.1? Tell 192.0.2.10",
+     "kind": null
+    },
+    {
+     "reveal_s": 52.1,
+     "text": "Filmisches Kopiezeichen: B-001/a/b (kein Headerfeld)",
+     "kind": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B02",
+   "title": "SW3 · STP und MAC",
+   "window_s": [
+    60.14,
+    86.52
+   ],
+   "lines": [
+    {
+     "reveal_s": 60.3,
+     "text": "SW3# show spanning-tree vlan 120",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 61,
+     "text": "Spanning tree instance(s) for vlan 120 does not exist.",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 61.6,
+     "text": "SW3# show running-config | include spanning-tree",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 62.3,
+     "text": "no spanning-tree vlan 120",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 63,
+     "text": "%SW_MATM-4-MACFLAP_NOTIF: Host 0200.0000.0120 in vlan 120 is flapping between port Gi1/0/1 and port Gi1/0/24",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 63.6,
+     "text": "Overlay: CPU 94% | Broadcast 620000 fps | Management timeout",
+     "kind": "ov"
+    }
+   ]
+  },
+  {
+   "id": "C01",
+   "title": "Zugang zu SW3",
+   "window_s": [
+    137.38,
+    153.84
+   ],
+   "lines": [
+    {
+     "reveal_s": 142.6,
+     "text": "noc$ ssh admin@10.20.0.3",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 144.6,
+     "text": "ssh: connect to host 10.20.0.3 port 22: Connection timed out",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 145.1,
+     "text": "noc$ screen /dev/ttyUSB0 9600",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 146.2,
+     "text": "SW3>enable",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 147.2,
+     "text": "SW3#",
+     "kind": "ok"
+    }
+   ]
+  },
+  {
+   "id": "B03",
+   "title": "SW3 · Gi1/0/24",
+   "window_s": [
+    153.84,
+    165
+   ],
+   "lines": [
+    {
+     "reveal_s": 153.95,
+     "text": "SW3# show interfaces GigabitEthernet1/0/24 description",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 154.6,
+     "text": "Interface  Status  Protocol  Description",
+     "kind": null
+    },
+    {
+     "reveal_s": 154.6,
+     "text": "Gi1/0/24   up      up        PATCH-UNPLANNED-TO-SW1",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 158,
+     "text": "SW3# show interfaces GigabitEthernet1/0/24 switchport",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 158.7,
+     "text": "Administrative Mode: trunk",
+     "kind": null
+    },
+    {
+     "reveal_s": 158.7,
+     "text": "Trunking VLANs Enabled: 120",
+     "kind": null
+    },
+    {
+     "reveal_s": 159.3,
+     "text": "Overlay: Ringabschluss SW3/24 <-> SW1/24 bestätigt",
+     "kind": "ov"
+    }
+   ]
+  },
+  {
+   "id": "B04",
+   "title": "SW3 · shutdown",
+   "window_s": [
+    161.38,
+    168.96
+   ],
+   "lines": [
+    {
+     "reveal_s": 161.45,
+     "text": "SW3# configure terminal",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 161.9,
+     "text": "SW3(config)# interface GigabitEthernet1/0/24",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 162.4,
+     "text": "SW3(config-if)# shutdown",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 162.8,
+     "text": "SW3(config-if)# end",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 163,
+     "text": "%LINK-5-CHANGED: Interface GigabitEthernet1/0/24, changed state to administratively down",
+     "kind": "ok"
+    }
+   ]
+  },
+  {
+   "id": "B05",
+   "title": "SW3 · Prüfung",
+   "window_s": [
+    186.72,
+    202.9
+   ],
+   "lines": [
+    {
+     "reveal_s": 186.9,
+     "text": "SW3# show interfaces GigabitEthernet1/0/24",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 187.6,
+     "text": "GigabitEthernet1/0/24 is administratively down, line protocol is down",
+     "kind": null
+    },
+    {
+     "reveal_s": 188.5,
+     "text": "Overlay: Broadcastrate 620000 -> 24 fps",
+     "kind": "ov"
+    },
+    {
+     "reveal_s": 189.5,
+     "text": "Neue MAC-Flaps: 0 | Management antwortet",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 197.33,
+     "text": "Client-Service-Test: erfolgreich",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 199,
+     "text": "Folgearbeit: STP für VLAN 120 korrekt aktivieren; Fehlpatch entfernen",
+     "kind": "amber"
+    }
+   ]
+  }
+ ],
+ "logs": [
+  {
+   "time_s": 15.58,
+   "tag": "link",
+   "message": "%LINK-3-UPDOWN: Interface GigabitEthernet1/0/24, changed state to up (SW3)"
+  },
+  {
+   "time_s": 16.3,
+   "tag": "link",
+   "message": "%LINK-3-UPDOWN: Interface GigabitEthernet1/0/24, changed state to up (SW1)"
+  },
+  {
+   "time_s": 22.8,
+   "tag": "arp",
+   "message": "H1: ARP Who has 192.0.2.1? Tell 192.0.2.10 (B-001)"
+  },
+  {
+   "time_s": 40.4,
+   "tag": "sw",
+   "message": "%SW_MATM-4-MACFLAP_NOTIF: Host 0200.0000.0120 in vlan 120 is flapping between port Gi1/0/1 and port Gi1/0/24"
+  },
+  {
+   "time_s": 61.2,
+   "tag": "cpu",
+   "message": "SW3: CPU 94% · Queue-Drops steigen"
+  },
+  {
+   "time_s": 62.3,
+   "tag": "mgmt",
+   "message": "NOC: 10.20.0.3 antwortet nicht (SSH/SNMP Timeout)"
+  },
+  {
+   "time_s": 79.6,
+   "tag": "drop",
+   "message": "Unicast-Test H1 → 192.0.2.1: verworfen"
+  },
+  {
+   "time_s": 130.06,
+   "tag": "task",
+   "message": "Auftrag: Ringabschluss finden"
+  },
+  {
+   "time_s": 144.6,
+   "tag": "mgmt",
+   "message": "ssh 10.20.0.3: Connection timed out → serielle Console"
+  },
+  {
+   "time_s": 163,
+   "tag": "ok",
+   "message": "%LINK-5-CHANGED: Interface GigabitEthernet1/0/24, changed state to administratively down"
+  },
+  {
+   "time_s": 175,
+   "tag": "ok",
+   "message": "Broadcastrate fällt · keine neuen MAC-Flaps"
+  },
+  {
+   "time_s": 189.5,
+   "tag": "ok",
+   "message": "NOC: 10.20.0.3 antwortet wieder"
+  },
+  {
+   "time_s": 197.33,
+   "tag": "ok",
+   "message": "Unicast-Test H1 → 192.0.2.1: Antwort"
+  }
+ ]
+}

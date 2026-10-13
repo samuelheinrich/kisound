@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+# generated from the MP3 + transcript in the music repo (npm run prepare-audio)
+assets/audio/
+assets/lyrics/
+# Blender sets, synced from videos/kisound/assets/sets (npm run sync-sets)
+assets/sets/
+# rendered media
+output/
+# local scratch (screenshots, notes)
+tmp/

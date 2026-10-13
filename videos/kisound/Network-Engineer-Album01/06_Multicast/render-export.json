@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "06_Multicast",
+  "title": "Multicast",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/multicast.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

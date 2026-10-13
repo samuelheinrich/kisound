@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "02_OSPF_Neighbors",
+  "title": "OSPF Neighbors",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/ospf-neighbors.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

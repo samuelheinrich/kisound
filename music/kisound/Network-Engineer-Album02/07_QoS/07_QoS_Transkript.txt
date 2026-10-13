@@ -1,0 +1,73 @@
+QOS – TRANSKRIPT
+
+Audio: 07_QoS_1.0.wav
+Audio-SHA-256: 2eb5c953db38d50aaeba2bb4d1c6fd761c8764dc961b52581308b7684e30c73f
+Gesamtdauer: 00:03:59.054
+Sprache: Deutsch mit englischen Fachbegriffen
+Zeitformat: HH:MM:SS.mmm
+Zeitbezug: Beginn der unveränderten WAV-Datei bei 0 Sekunden
+Zeitquelle: lokaler ASR-Wortabgleich; keine manuelle Hörprüfung
+Prüfhinweise: ../TRANSKRIPT-PRUEFUNG.md
+
+
+[Chorus]
+
+001  [00:00:13.300 --> 00:00:14.940]  Quality of Service.
+002  [00:00:15.480 --> 00:00:18.580]  Nicht alles gleich.
+003  [00:00:20.920 --> 00:00:22.440]  Echtzeit zuerst,
+004  [00:00:22.520 --> 00:00:26.100]  was warten kann, reiht sich ein.
+005  [00:00:28.380 --> 00:00:29.900]  Quality of Service.
+006  [00:00:31.200 --> 00:00:33.900]  Wir teilen diesen Draht.
+007  [00:00:35.240 --> 00:00:37.460]  Die Klasse setzt den Rahmen,
+008  [00:00:38.480 --> 00:00:40.900]  die Policy hält den Takt.
+
+[Verse 2]
+
+009  [00:00:58.100 --> 00:01:00.620]  Ich trag die Dateien Stück für Stück,
+010  [00:01:01.500 --> 00:01:03.640]  TCP zählt meine Bytes.
+011  [00:01:05.380 --> 00:01:07.080]  Geht ein Segment verloren,
+012  [00:01:08.600 --> 00:01:11.060]  schick ich es noch mal auf die Reise.
+013  [00:01:12.700 --> 00:01:16.040]  Gib mir den Anteil, der mir bleibt,
+014  [00:01:16.040 --> 00:01:18.380]  ich muss nicht vor dir durch die Tür.
+015  [00:01:20.100 --> 00:01:22.660]  Du brauchst den Satz im Augenblick,
+016  [00:01:23.400 --> 00:01:25.780]  ich brauch den Rest der Strecke hier.
+
+[Bridge]
+
+017  [00:01:28.880 --> 00:01:30.620]  Policing zieht die Grenze.
+018  [00:01:30.620 --> 00:01:33.020]  Zu viel wird markiert oder fällt.
+019  [00:01:35.480 --> 00:01:37.860]  Kein Warten auf den nächsten Platz,
+020  [00:01:37.940 --> 00:01:40.620]  wenn diese Policy es so bestellt.
+021  [00:01:44.140 --> 00:01:47.040]  Shaping hält den Überschuss zurück,
+022  [00:01:47.040 --> 00:01:51.080]  im Puffer wartet mein Paket.
+023  [00:01:51.080 --> 00:01:53.680]  Es glättet meinen Strom,
+024  [00:01:53.680 --> 00:01:57.120]  bis der nächste Anteil geht.
+
+[Break]
+
+025  [00:02:06.100 --> 00:02:06.980]  Classify.
+026  [00:02:07.840 --> 00:02:08.540]  Mark.
+027  [00:02:09.780 --> 00:02:10.480]  Queue.
+028  [00:02:10.480 --> 00:02:13.140]  Mein Wort muss jetzt hinaus.
+029  [00:02:21.100 --> 00:02:21.820]  Schedule.
+030  [00:02:22.720 --> 00:02:23.420]  Shape.
+031  [00:02:23.640 --> 00:02:25.200]  Send.
+032  [00:02:25.200 --> 00:02:29.080]  Ich nutze, was noch bleibt.
+
+[Final Chorus]
+
+033  [00:02:31.150 --> 00:02:32.700]  Quality of Service.
+034  [00:02:32.700 --> 00:02:36.360]  Nicht alles gleich.
+035  [00:02:38.930 --> 00:02:40.060]  Echtzeit zuerst,
+036  [00:02:40.060 --> 00:02:43.760]  was warten kann, reiht sich ein.
+037  [00:02:45.940 --> 00:02:47.760]  Quality of Service.
+038  [00:02:49.000 --> 00:02:51.540]  Wir teilen diesen Draht.
+039  [00:02:53.020 --> 00:02:55.060]  Dein Satz kommt wieder klar,
+040  [00:02:56.420 --> 00:02:58.440]  mein Transfer läuft danach.
+
+[Outro]
+
+041  [00:03:15.200 --> 00:03:16.820]  Hörst du mich?
+042  [00:03:30.720 --> 00:03:32.120]  Klar und deutlich.
+043  [00:03:35.980 --> 00:03:39.280]  Mein Transfer läuft noch.
+044  [00:03:42.340 --> 00:03:43.740]  Passt.

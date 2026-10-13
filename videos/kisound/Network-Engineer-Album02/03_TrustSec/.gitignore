@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+# generated from the final WAV + transcript in the music repo (npm run prepare-audio)
+assets/audio/
+assets/lyrics/
+# rendered media
+output/
+# local scratch (screenshots, notes)
+tmp/

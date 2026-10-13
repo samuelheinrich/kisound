@@ -1,0 +1,87 @@
+VERSION: 0.3
+ALBUM: Network Engineer 02
+TRACK: 08 - Microburst
+THEMA: Kurzzeitige Verkehrsspitzen, Incast, Egress Queue, endliche Puffer, Output Drops trotz niedriger Durchschnittsauslastung
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+[Intro]
+Die Kurve sieht gut aus.
+Der Counter nicht.
+Noch ein Drop.
+Und noch einer.
+
+[Verse 1]
+Ein paar Prozent auf deinem Screen,
+«Der Link hat Luft», sagt jemand neben mir.
+Doch mehrere Flows treffen zusammen
+auf dieselbe schmale Tür.
+Die Queue nimmt auf, was warten muss,
+der Puffer hat ein Ende.
+Ein kurzer Peak, zu viel auf einmal,
+und Frames fallen aus der Menge.
+
+[Pre-Chorus]
+Der Graph glättet die Spitze.
+Der Counter zählt den Rest.
+Du siehst den ruhigen Durchschnitt,
+ich seh, was er verdeckt.
+
+[Chorus]
+Microburst.
+Im Durchschnitt grün.
+Im Augenblick verloren,
+bevor wir die Spitze sehn.
+Microburst.
+Alles auf einen Port.
+Die Queue läuft über,
+ein Teil der Frames geht verloren.
+
+[Verse 2]
+Der Nutzer hört ein Loch im Satz,
+der Download stockt und läuft dann weiter.
+Im nächsten Mittelwert verschwunden,
+die Drops im Counter steigen.
+Wir schauen näher auf die Queue,
+auf ihren höchsten Stand.
+Ein Incast bündelt viele Wege
+an diesem einen Ausgang.
+
+[Bridge]
+Mehr Puffer fängt die Spitze auf,
+bis auch der neue voll ist.
+Mehr Platz verschiebt die Grenze,
+wenn dauerhaft zu viel ankommt.
+Ein höherer Durchschnitt fehlt uns nicht.
+Uns fehlt der Blick auf diesen Peak.
+Die Messung muss den Moment erfassen,
+in dem der Ausgang nicht mehr reicht.
+
+[Final Chorus]
+Microburst.
+Im Durchschnitt grün.
+Im Augenblick verloren,
+jetzt können wir die Spitze sehn.
+Microburst.
+Alles auf einen Port.
+Wir kennen jetzt den Engpass,
+keine Drop-Zahl wird ignoriert.
+
+[Outro]
+Die Kurve sieht gut aus.
+Ich schau trotzdem genauer hin.
+
+STYLE PROMPT:
+Minimaler 8-Bit-Pop mit klarem Retro-Chiptune-Sound bei etwa 118 BPM. Eine kurze eingängige Rechteckwellen-Melodie, ein weicher Triangle-Bass, sparsame Pulse-Akkorde und trockene elektronische Drums aus kurzen Noise-Impulsen. Wenige gleichzeitig aktive Elemente, viel Platz zwischen den Noten und ein leicht federnder Pop-Groove. Spielerisch, hell und nostalgisch, mit einer kleinen skeptischen Kante passend zum Text. Der Charakter kommt aus einfachen Klangfarben und einer guten Melodie.
+
+Ein ruhiges wiederkehrendes Chip-Motiv steht für den harmlosen Durchschnitt. Für die Microbursts treffen zwei kurze Synth-Figuren gleichzeitig auf einen Akzent, gefolgt von einem knappen Stottern oder einer ausgelassenen Instrumentalnote. Diese kleinen Überläufe bleiben kurze Überraschungen im übersichtlichen Arrangement. Der Gesang läuft verständlich weiter. Retro-Sound wie eine kleine Spielkonsole mit wenigen Kanälen; kein dichter Arcade-Effektteppich.
+
+Strophen mit Bass, wenigen Drum-Schlägen und einzelnen Melodie-Antworten begleiten. Im Refrain die eingängige Chip-Melodie mit einer klar gesungenen Pop-Hook verbinden: «Microburst. Im Durchschnitt grün. Im Augenblick verloren». Die Bridge nimmt einzelne Instrumente heraus, während die Stimme voll und präsent bleibt. Im Final Chorus kehrt das Chip-Motiv geordnet zurück; die kleinen rhythmischen Lücken bleiben als Erinnerung an die Drops hörbar. Mit einer kurzen einfachen Schlussfigur enden.
+
+Eine einzelne klare, helle Lead-Stimme. Auf Deutsch melodisch singen, locker und präzise, mit leichtem Augenzwinkern in den Strophen und einer gut merkbaren Refrainmelodie. Auch Intro, Bridge und Outro mit natürlicher voller Stimme performen. Kein Flüstern, kein Hauchen, keine Vocal-Chops und keine zusätzliche Computerstimme. Die Retro-Klangfarben liegen in den Instrumenten; die Stimme bleibt klar und gut verständlich.
+
+Die Produktion bleibt bewusst klein und trocken. Keine großen Drops, keine massiven Basswände, keine breiten Synthwave-Pads und keine langen Builds. Kurze Raumanteile, sparsame Effekte und sauber getrennte Instrumente.
+
+Gesang auf Deutsch. Englische Fachbegriffe wie Microburst, Incast, Queue, Counter, Drop und Frames im Wortlaut behalten und englisch aussprechen. Abschnittsnamen sind reine Anweisungen und werden nicht gesungen. Keine bekannten Melodie- oder Song-Referenzen.

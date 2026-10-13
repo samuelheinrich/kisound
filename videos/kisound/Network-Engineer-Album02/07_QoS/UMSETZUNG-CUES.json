@@ -1,0 +1,1322 @@
+{
+ "schema": "kisound.qos.cues.v1",
+ "duration_s": 239.0535,
+ "fade_start_s": 233.1,
+ "titles": {
+  "intro": [
+   0.6,
+   1.4,
+   5.4,
+   6.4
+  ],
+  "outro": [
+   225,
+   225.8,
+   229.6,
+   230.6
+  ]
+ },
+ "drops_s": [
+  44.85,
+  134.15,
+  152.75,
+  182.55,
+  197.35,
+  212.25,
+  223.85
+ ],
+ "gaps_s": [
+  [
+   128.9,
+   129.1
+  ],
+  [
+   130.8,
+   131
+  ],
+  [
+   197,
+   197.3
+  ],
+  [
+   212.1,
+   212.2
+  ],
+  [
+   223.7,
+   223.8
+  ]
+ ],
+ "milestones": {
+  "burst": 88.88,
+  "burstEnd": 96.08,
+  "polResult": 90.62,
+  "shapeDemo": 104.14,
+  "rxResult": 173.02
+ },
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Zwei Flows, ein Draht",
+   "start": 0,
+   "end": 13.3,
+   "action": "RTP links, Backup rechts; beide schon klassifiziert. Gemeinsamer Engpass 100 Mbit/s."
+  },
+  {
+   "id": "C02",
+   "title": "Quality of Service",
+   "start": 13.3,
+   "end": 31.2,
+   "action": "EF/46 und Best Effort/0 – nicht alles gleich. Die Markierung wirkt nur mit der passenden Policy."
+  },
+  {
+   "id": "C03",
+   "title": "Die Policy",
+   "start": 31.2,
+   "end": 58.1,
+   "action": "INGRESS, CHILD, PARENT: Klassifizierung, Markierung, Policer, Priority, Fair-Queue, Shaper."
+  },
+  {
+   "id": "C04",
+   "title": "Bulk",
+   "start": 58.1,
+   "end": 88.88,
+   "action": "TCP zählt Bytes; ein gespeichertes Verlustfenster zeigt Q-B17, Q-B18 ist eine neue Retransmission."
+  },
+  {
+   "id": "C05",
+   "title": "Policing",
+   "start": 88.88,
+   "end": 104.14,
+   "action": "RTP-Burst 1,2 Mbit/s: 1,0 konform, 0,2 Überschuss wird endgültig verworfen."
+  },
+  {
+   "id": "C06",
+   "title": "Shaping",
+   "start": 104.14,
+   "end": 126.1,
+   "action": "Der Parent-Shaper hält Q-BS im Puffer und gibt es später genau einmal aus."
+  },
+  {
+   "id": "C07",
+   "title": "Classify · Mark · Queue",
+   "start": 126.1,
+   "end": 141.1,
+   "action": "Ein neuer RTP-Frame durch Klassifizierung, Markierung und Priority-Queue."
+  },
+  {
+   "id": "C08",
+   "title": "Schedule · Shape · Send",
+   "start": 141.1,
+   "end": 151.15,
+   "action": "Scheduler-Wahl, Shaper-Budget, Serialisierung am gemeinsamen Port."
+  },
+  {
+   "id": "C09",
+   "title": "Final Chorus",
+   "start": 151.15,
+   "end": 195.2,
+   "action": "Beide Klassen aktiv, Policy unverändert; RTP-Empfang und steigende TCP-ACKs."
+  },
+  {
+   "id": "C10",
+   "title": "Hörst du mich?",
+   "start": 195.2,
+   "end": 239.0535,
+   "action": "Klar und deutlich – der Transfer läuft noch. Passt."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 6.65,
+   "zone": "hall",
+   "camera": "hall",
+   "mode": "s001",
+   "event_ids": [
+    "E001"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S002",
+   "start_s": 6.65,
+   "end_s": 13.3,
+   "zone": "hall",
+   "camera": "class",
+   "mode": "s002",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S003",
+   "start_s": 13.3,
+   "end_s": 15.48,
+   "zone": "hall",
+   "camera": "hall",
+   "mode": "s003",
+   "event_ids": [
+    "E002"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 15.48,
+   "end_s": 20.92,
+   "zone": "hall",
+   "camera": "class",
+   "mode": "s004",
+   "event_ids": [],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S005",
+   "start_s": 20.92,
+   "end_s": 22.52,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s005",
+   "event_ids": [],
+   "lyric_ids": [
+    "L003"
+   ]
+  },
+  {
+   "id": "S006",
+   "start_s": 22.52,
+   "end_s": 28.38,
+   "zone": "hall",
+   "camera": "queue",
+   "mode": "s006",
+   "event_ids": [],
+   "lyric_ids": [
+    "L004"
+   ]
+  },
+  {
+   "id": "S007",
+   "start_s": 28.38,
+   "end_s": 31.2,
+   "zone": "hall",
+   "camera": "hall",
+   "mode": "s007",
+   "event_ids": [],
+   "lyric_ids": [
+    "L005"
+   ]
+  },
+  {
+   "id": "S008",
+   "start_s": 31.2,
+   "end_s": 35.24,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s008",
+   "event_ids": [],
+   "lyric_ids": [
+    "L006"
+   ]
+  },
+  {
+   "id": "S009",
+   "start_s": 35.24,
+   "end_s": 38.48,
+   "zone": "hall",
+   "camera": "class",
+   "mode": "s009",
+   "event_ids": [],
+   "lyric_ids": [
+    "L007"
+   ]
+  },
+  {
+   "id": "S010",
+   "start_s": 38.48,
+   "end_s": 40.9,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s010",
+   "event_ids": [],
+   "lyric_ids": [
+    "L008"
+   ]
+  },
+  {
+   "id": "S011",
+   "start_s": 40.9,
+   "end_s": 46.6333,
+   "zone": "hall",
+   "camera": "queue",
+   "mode": "s011",
+   "event_ids": [
+    "E003",
+    "E004"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S012",
+   "start_s": 46.6333,
+   "end_s": 52.3667,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s012",
+   "event_ids": [
+    "E005"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S013",
+   "start_s": 52.3667,
+   "end_s": 58.1,
+   "zone": "hall",
+   "camera": "tcp",
+   "mode": "s013",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S014",
+   "start_s": 58.1,
+   "end_s": 61.5,
+   "zone": "hall",
+   "camera": "tcp",
+   "mode": "s014",
+   "event_ids": [
+    "E006",
+    "E007",
+    "E008"
+   ],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S015",
+   "start_s": 61.5,
+   "end_s": 65.38,
+   "zone": "hall",
+   "camera": "tcp",
+   "mode": "s015",
+   "event_ids": [],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S016",
+   "start_s": 65.38,
+   "end_s": 68.6,
+   "zone": "hall",
+   "camera": "queue",
+   "mode": "s016",
+   "event_ids": [],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 68.6,
+   "end_s": 72.7,
+   "zone": "hall",
+   "camera": "tcp",
+   "mode": "s017",
+   "event_ids": [
+    "E009"
+   ],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 72.7,
+   "end_s": 76.04,
+   "zone": "hall",
+   "camera": "queue",
+   "mode": "s018",
+   "event_ids": [],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 76.04,
+   "end_s": 80.1,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s019",
+   "event_ids": [],
+   "lyric_ids": [
+    "L014"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 80.1,
+   "end_s": 83.4,
+   "zone": "hall",
+   "camera": "ziel",
+   "mode": "s020",
+   "event_ids": [
+    "E010",
+    "E011"
+   ],
+   "lyric_ids": [
+    "L015"
+   ]
+  },
+  {
+   "id": "S021",
+   "start_s": 83.4,
+   "end_s": 88.88,
+   "zone": "hall",
+   "camera": "tcp",
+   "mode": "s021",
+   "event_ids": [
+    "E012"
+   ],
+   "lyric_ids": [
+    "L016"
+   ]
+  },
+  {
+   "id": "S022",
+   "start_s": 88.88,
+   "end_s": 90.62,
+   "zone": "hall",
+   "camera": "police",
+   "mode": "s022",
+   "event_ids": [
+    "E013"
+   ],
+   "lyric_ids": [
+    "L017"
+   ]
+  },
+  {
+   "id": "S023",
+   "start_s": 90.62,
+   "end_s": 95.48,
+   "zone": "hall",
+   "camera": "police",
+   "mode": "s023",
+   "event_ids": [],
+   "lyric_ids": [
+    "L018"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 95.48,
+   "end_s": 97.94,
+   "zone": "hall",
+   "camera": "police",
+   "mode": "s024",
+   "event_ids": [],
+   "lyric_ids": [
+    "L019"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 97.94,
+   "end_s": 104.14,
+   "zone": "hall",
+   "camera": "class",
+   "mode": "s025",
+   "event_ids": [],
+   "lyric_ids": [
+    "L020"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 104.14,
+   "end_s": 107.04,
+   "zone": "hall",
+   "camera": "queue",
+   "mode": "s026",
+   "event_ids": [],
+   "lyric_ids": [
+    "L021"
+   ]
+  },
+  {
+   "id": "S027",
+   "start_s": 107.04,
+   "end_s": 111.08,
+   "zone": "hall",
+   "camera": "queue",
+   "mode": "s027",
+   "event_ids": [],
+   "lyric_ids": [
+    "L022"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 111.08,
+   "end_s": 113.68,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s028",
+   "event_ids": [],
+   "lyric_ids": [
+    "L023"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 113.68,
+   "end_s": 117.12,
+   "zone": "hall",
+   "camera": "queue",
+   "mode": "s029",
+   "event_ids": [
+    "E014"
+   ],
+   "lyric_ids": [
+    "L024"
+   ]
+  },
+  {
+   "id": "S030",
+   "start_s": 117.12,
+   "end_s": 126.1,
+   "zone": "hall",
+   "camera": "police",
+   "mode": "s030",
+   "event_ids": [
+    "E015"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S031",
+   "start_s": 126.1,
+   "end_s": 127.84,
+   "zone": "hall",
+   "camera": "class",
+   "mode": "s031",
+   "event_ids": [
+    "E016",
+    "E017"
+   ],
+   "lyric_ids": [
+    "L025"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 127.84,
+   "end_s": 129.78,
+   "zone": "hall",
+   "camera": "class",
+   "mode": "s032",
+   "event_ids": [
+    "E018"
+   ],
+   "lyric_ids": [
+    "L026"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 129.78,
+   "end_s": 130.48,
+   "zone": "hall",
+   "camera": "queue",
+   "mode": "s033",
+   "event_ids": [],
+   "lyric_ids": [
+    "L027"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 130.48,
+   "end_s": 133.14,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s034",
+   "event_ids": [],
+   "lyric_ids": [
+    "L028"
+   ]
+  },
+  {
+   "id": "S035",
+   "start_s": 133.14,
+   "end_s": 141.1,
+   "zone": "hall",
+   "camera": "tcp",
+   "mode": "s035",
+   "event_ids": [
+    "E019"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S036",
+   "start_s": 141.1,
+   "end_s": 142.72,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s036",
+   "event_ids": [],
+   "lyric_ids": [
+    "L029"
+   ]
+  },
+  {
+   "id": "S037",
+   "start_s": 142.72,
+   "end_s": 143.64,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s037",
+   "event_ids": [],
+   "lyric_ids": [
+    "L030"
+   ]
+  },
+  {
+   "id": "S038",
+   "start_s": 143.64,
+   "end_s": 145.2,
+   "zone": "hall",
+   "camera": "hall",
+   "mode": "s038",
+   "event_ids": [],
+   "lyric_ids": [
+    "L031"
+   ]
+  },
+  {
+   "id": "S039",
+   "start_s": 145.2,
+   "end_s": 151.15,
+   "zone": "hall",
+   "camera": "tcp",
+   "mode": "s039",
+   "event_ids": [
+    "E020"
+   ],
+   "lyric_ids": [
+    "L032"
+   ]
+  },
+  {
+   "id": "S040",
+   "start_s": 151.15,
+   "end_s": 152.7,
+   "zone": "hall",
+   "camera": "hall",
+   "mode": "s040",
+   "event_ids": [
+    "E021",
+    "E022"
+   ],
+   "lyric_ids": [
+    "L033"
+   ]
+  },
+  {
+   "id": "S041",
+   "start_s": 152.7,
+   "end_s": 158.93,
+   "zone": "hall",
+   "camera": "class",
+   "mode": "s041",
+   "event_ids": [
+    "E023"
+   ],
+   "lyric_ids": [
+    "L034"
+   ]
+  },
+  {
+   "id": "S042",
+   "start_s": 158.93,
+   "end_s": 160.06,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s042",
+   "event_ids": [],
+   "lyric_ids": [
+    "L035"
+   ]
+  },
+  {
+   "id": "S043",
+   "start_s": 160.06,
+   "end_s": 165.94,
+   "zone": "hall",
+   "camera": "queue",
+   "mode": "s043",
+   "event_ids": [
+    "E024"
+   ],
+   "lyric_ids": [
+    "L036"
+   ]
+  },
+  {
+   "id": "S044",
+   "start_s": 165.94,
+   "end_s": 169,
+   "zone": "hall",
+   "camera": "hall",
+   "mode": "s044",
+   "event_ids": [],
+   "lyric_ids": [
+    "L037"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 169,
+   "end_s": 173.02,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s045",
+   "event_ids": [
+    "E025"
+   ],
+   "lyric_ids": [
+    "L038"
+   ]
+  },
+  {
+   "id": "S046",
+   "start_s": 173.02,
+   "end_s": 176.42,
+   "zone": "hall",
+   "camera": "ziel",
+   "mode": "s046",
+   "event_ids": [],
+   "lyric_ids": [
+    "L039"
+   ]
+  },
+  {
+   "id": "S047",
+   "start_s": 176.42,
+   "end_s": 178.44,
+   "zone": "hall",
+   "camera": "tcp",
+   "mode": "s047",
+   "event_ids": [
+    "E026"
+   ],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S048",
+   "start_s": 178.44,
+   "end_s": 186.82,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s048",
+   "event_ids": [
+    "E027",
+    "E028"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S049",
+   "start_s": 186.82,
+   "end_s": 195.2,
+   "zone": "hall",
+   "camera": "ziel",
+   "mode": "s049",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S050",
+   "start_s": 195.2,
+   "end_s": 196.82,
+   "zone": "hall",
+   "camera": "ziel",
+   "mode": "s050",
+   "event_ids": [
+    "E029"
+   ],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S051",
+   "start_s": 196.82,
+   "end_s": 203.77,
+   "zone": "hall",
+   "camera": "ziel",
+   "mode": "s051",
+   "event_ids": [
+    "E030",
+    "E031",
+    "E032"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S052",
+   "start_s": 203.77,
+   "end_s": 210.72,
+   "zone": "hall",
+   "camera": "tcp",
+   "mode": "s052",
+   "event_ids": [
+    "E033"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S053",
+   "start_s": 210.72,
+   "end_s": 215.98,
+   "zone": "hall",
+   "camera": "ziel",
+   "mode": "s053",
+   "event_ids": [
+    "E034"
+   ],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S054",
+   "start_s": 215.98,
+   "end_s": 222.34,
+   "zone": "hall",
+   "camera": "tcp",
+   "mode": "s054",
+   "event_ids": [],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 222.34,
+   "end_s": 223.74,
+   "zone": "hall",
+   "camera": "hall",
+   "mode": "s055",
+   "event_ids": [],
+   "lyric_ids": [
+    "L044"
+   ]
+  },
+  {
+   "id": "S056",
+   "start_s": 223.74,
+   "end_s": 231.3968,
+   "zone": "hall",
+   "camera": "hall",
+   "mode": "s056",
+   "event_ids": [
+    "E035",
+    "E036",
+    "E037",
+    "E038"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S057",
+   "start_s": 231.3968,
+   "end_s": 239.0535,
+   "zone": "hall",
+   "camera": "sched",
+   "mode": "s057",
+   "event_ids": [
+    "E039",
+    "E040",
+    "E041",
+    "E042"
+   ],
+   "lyric_ids": []
+  }
+ ],
+ "named_carriers": [
+  {
+   "name": "Q-R1",
+   "id": "R68",
+   "cls": "rtp",
+   "enter_s": 41.2,
+   "policer_s": 42.981,
+   "queue_s": 43.6,
+   "depart_s": 43.61,
+   "receive_s": 45.96,
+   "fate": "deliver"
+  },
+  {
+   "name": "Q-B17",
+   "id": "replay",
+   "cls": "tcp",
+   "enter_s": 58.1,
+   "policer_s": null,
+   "queue_s": 65.6,
+   "depart_s": null,
+   "receive_s": null,
+   "fate": "taildrop (gespeichertes Fenster)"
+  },
+  {
+   "name": "Q-B18",
+   "id": "T662",
+   "cls": "tcp",
+   "enter_s": 68.66,
+   "policer_s": null,
+   "queue_s": 70.26,
+   "depart_s": 80.71,
+   "receive_s": 83.21,
+   "fate": "deliver"
+  },
+  {
+   "name": "Q-RX",
+   "id": "R162",
+   "cls": "rtp",
+   "enter_s": 88.839,
+   "policer_s": 90.62,
+   "queue_s": null,
+   "depart_s": null,
+   "receive_s": null,
+   "fate": "police"
+  },
+  {
+   "name": "Q-BS",
+   "id": "T804",
+   "cls": "tcp",
+   "enter_s": 102.36,
+   "policer_s": null,
+   "queue_s": 103.96,
+   "depart_s": 114.41,
+   "receive_s": 116.91,
+   "fate": "deliver"
+  },
+  {
+   "name": "Q-RN",
+   "id": "RN",
+   "cls": "rtp",
+   "enter_s": 125.2,
+   "policer_s": 129.35,
+   "queue_s": 129.78,
+   "depart_s": 129.86,
+   "receive_s": 132.21,
+   "fate": "deliver"
+  }
+ ],
+ "simulation": {
+  "carriers": 1890,
+  "rtp": 447,
+  "tcp": 1443,
+  "policer_drops": 10,
+  "tail_drops_live": 0
+ },
+ "blocks": [
+  {
+   "id": "B01",
+   "title": "Markierung und Kapazität",
+   "window_s": [
+    13.3,
+    40.9
+   ],
+   "lines": [
+    {
+     "reveal_s": 13.4,
+     "text": "RTP: 192.0.2.10 -> 198.51.100.10 UDP dst 5004",
+     "kind": null
+    },
+    {
+     "reveal_s": 13.4,
+     "text": "DSCP EF = 46 | ECN 0 | DS-Feld 0xb8",
+     "kind": "rtp"
+    },
+    {
+     "reveal_s": 13.4,
+     "text": "Backup: 192.0.2.11 -> 198.51.100.50 TCP dst 443",
+     "kind": null
+    },
+    {
+     "reveal_s": 13.4,
+     "text": "DSCP Best Effort = 0",
+     "kind": "tcp"
+    },
+    {
+     "reveal_s": 13.4,
+     "text": "Physischer Port 1 Gbit/s | Vertrags-/Shaperrate 100 Mbit/s",
+     "kind": "amber"
+    }
+   ]
+  },
+  {
+   "id": "B02",
+   "title": "aktive Policy (vorhanden, nicht neu eingegeben)",
+   "window_s": [
+    31.2,
+    88.88
+   ],
+   "lines": [
+    {
+     "reveal_s": 31.2,
+     "text": "ip access-list extended RTP-TRUSTED",
+     "kind": null
+    },
+    {
+     "reveal_s": 31.2,
+     "text": " permit udp host 192.0.2.10 host 198.51.100.10 eq 5004",
+     "kind": null
+    },
+    {
+     "reveal_s": 31.2,
+     "text": "class-map match-all REALTIME-IN",
+     "kind": null
+    },
+    {
+     "reveal_s": 31.2,
+     "text": " match access-group name RTP-TRUSTED",
+     "kind": null
+    },
+    {
+     "reveal_s": 31.2,
+     "text": "class-map match-all EF-OUT",
+     "kind": null
+    },
+    {
+     "reveal_s": 31.2,
+     "text": " match dscp ef",
+     "kind": null
+    },
+    {
+     "reveal_s": 40.9,
+     "text": "policy-map INGRESS",
+     "kind": null
+    },
+    {
+     "reveal_s": 40.9,
+     "text": " class REALTIME-IN",
+     "kind": null
+    },
+    {
+     "reveal_s": 40.9,
+     "text": "  set dscp ef",
+     "kind": null
+    },
+    {
+     "reveal_s": 40.9,
+     "text": "  police cir 1000000 bc 31250",
+     "kind": null
+    },
+    {
+     "reveal_s": 40.9,
+     "text": "   conform-action transmit",
+     "kind": null
+    },
+    {
+     "reveal_s": 40.9,
+     "text": "   exceed-action drop",
+     "kind": null
+    },
+    {
+     "reveal_s": 52.37,
+     "text": " class class-default",
+     "kind": null
+    },
+    {
+     "reveal_s": 52.37,
+     "text": "  set dscp default",
+     "kind": null
+    },
+    {
+     "reveal_s": 52.37,
+     "text": "interface GigabitEthernet0/0/0",
+     "kind": null
+    },
+    {
+     "reveal_s": 52.37,
+     "text": " service-policy input INGRESS",
+     "kind": null
+    },
+    {
+     "reveal_s": 64,
+     "text": "policy-map CHILD",
+     "kind": null
+    },
+    {
+     "reveal_s": 64,
+     "text": " class EF-OUT",
+     "kind": null
+    },
+    {
+     "reveal_s": 64,
+     "text": "  priority 1000",
+     "kind": null
+    },
+    {
+     "reveal_s": 64,
+     "text": " class class-default",
+     "kind": null
+    },
+    {
+     "reveal_s": 64,
+     "text": "  bandwidth remaining percent 100",
+     "kind": null
+    },
+    {
+     "reveal_s": 64,
+     "text": "  fair-queue",
+     "kind": null
+    },
+    {
+     "reveal_s": 76.04,
+     "text": "policy-map PARENT",
+     "kind": null
+    },
+    {
+     "reveal_s": 76.04,
+     "text": " class class-default",
+     "kind": null
+    },
+    {
+     "reveal_s": 76.04,
+     "text": "  shape average 100000000",
+     "kind": null
+    },
+    {
+     "reveal_s": 76.04,
+     "text": "  service-policy CHILD",
+     "kind": null
+    },
+    {
+     "reveal_s": 76.04,
+     "text": "interface GigabitEthernet0/0/1",
+     "kind": null
+    },
+    {
+     "reveal_s": 76.04,
+     "text": " service-policy output PARENT",
+     "kind": null
+    }
+   ]
+  },
+  {
+   "id": "B03",
+   "title": "Policer und Shaper",
+   "window_s": [
+    88.88,
+    126.1
+   ],
+   "lines": [
+    {
+     "reveal_s": 89,
+     "text": "R-QOS# show policy-map interface GigabitEthernet0/0/0 input",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 89.6,
+     "text": " Service-policy input: INGRESS",
+     "kind": null
+    },
+    {
+     "reveal_s": 89.6,
+     "text": "  Class-map: REALTIME-IN",
+     "kind": null
+    },
+    {
+     "reveal_s": 89.6,
+     "text": "   police: cir 1000000 bps, bc 31250 bytes",
+     "kind": null
+    },
+    {
+     "reveal_s": 90.62,
+     "text": "    conformed 1000 packets; actions: transmit",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 90.62,
+     "text": "    exceeded 200 packets; actions: drop",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 97.94,
+     "text": "Overlay Burst: angeboten 1.2 Mbit/s, konform 1.0, drop 0.2",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 97.94,
+     "text": "Danach RTP-Angebot wieder 0.2 Mbit/s",
+     "kind": null
+    },
+    {
+     "reveal_s": 104.2,
+     "text": "R-QOS# show policy-map interface GigabitEthernet0/0/1 output",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 104.8,
+     "text": " Service-policy output: PARENT",
+     "kind": null
+    },
+    {
+     "reveal_s": 104.8,
+     "text": "  shape (average) cir 100000000",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 104.8,
+     "text": "   Service-policy : CHILD",
+     "kind": null
+    },
+    {
+     "reveal_s": 104.8,
+     "text": "    Class-map: EF-OUT | Priority: 1000 kbps",
+     "kind": "rtp"
+    },
+    {
+     "reveal_s": 104.8,
+     "text": "    Class-map: class-default | bandwidth remaining 100%",
+     "kind": "tcp"
+    }
+   ]
+  },
+  {
+   "id": "B04",
+   "title": "Messfenster (Szenario)",
+   "window_s": [
+    151.15,
+    223.74
+   ],
+   "lines": [
+    {
+     "reveal_s": 151.3,
+     "text": "Szenario-Messfenster (keine garantierten Produktwerte)",
+     "kind": "ov"
+    },
+    {
+     "reveal_s": 151.3,
+     "text": "erwartet: RTP angeboten/empfangen 0.2 Mbit/s",
+     "kind": null
+    },
+    {
+     "reveal_s": 151.3,
+     "text": "erwartet: Bulk nutzt verbleibende Freigaben; ACK steigt",
+     "kind": null
+    },
+    {
+     "reveal_s": 151.3,
+     "text": "erwartet: Gemeinsame langfristige Ausgabe <= 100 Mbit/s",
+     "kind": null
+    },
+    {
+     "reveal_s": 151.3,
+     "text": "Policy INGRESS / CHILD / PARENT unverändert",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 173.02,
+     "text": "RTP angeboten/empfangen: 0.2 Mbit/s",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 173.02,
+     "text": "Bulk nutzt verbleibende Freigaben; ACK-Bytes steigen",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 173.02,
+     "text": "Gemeinsame langfristige Ausgabe: <= 100 Mbit/s",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 173.42000000000002,
+     "text": "RTP-Queue-Beispiel: 2 Pakete | Bulk-Queue-Beispiel: 48 Pakete",
+     "kind": null
+    },
+    {
+     "reveal_s": 173.82000000000002,
+     "text": "Policer-Drop Q-RX: endgültig",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 173.82000000000002,
+     "text": "Shaper-Paket Q-BS: später ausgegeben",
+     "kind": null
+    }
+   ]
+  }
+ ],
+ "logs": [
+  {
+   "time_s": 13.3,
+   "tag": "cls",
+   "message": "INGRESS: RTP → EF/46 · Backup → BE/0"
+  },
+  {
+   "time_s": 52.37,
+   "tag": "rec",
+   "message": "Gespeichertes Verlustfenster (datiert) geöffnet"
+  },
+  {
+   "time_s": 65.6,
+   "tag": "rec",
+   "message": "Q-B17 Seq 24001 Len 1200: Tail-Drop bei voller Queue"
+  },
+  {
+   "time_s": 68.6,
+   "tag": "tcp",
+   "message": "Q-B18: Retransmission Seq 24001 Len 1200 (neuer Frame)"
+  },
+  {
+   "time_s": 83.21000000000059,
+   "tag": "ok",
+   "message": "Q-B18 angekommen · ACK 25201"
+  },
+  {
+   "time_s": 88.88,
+   "tag": "pol",
+   "message": "RTP-Burst 1,2 Mbit/s an INGRESS-Policer"
+  },
+  {
+   "time_s": 90.62,
+   "tag": "pol",
+   "message": "exceed-action drop: Q-RX endgültig verworfen"
+  },
+  {
+   "time_s": 96.08,
+   "tag": "pol",
+   "message": "RTP-Angebot wieder 0,2 Mbit/s"
+  },
+  {
+   "time_s": 104.14,
+   "tag": "shp",
+   "message": "PARENT shape average 100 Mbit/s: Q-BS wartet auf Budget"
+  },
+  {
+   "time_s": 114.41000000000068,
+   "tag": "shp",
+   "message": "Q-BS verlässt die Queue (einmal)"
+  },
+  {
+   "time_s": 173.02,
+   "tag": "ok",
+   "message": "RTP-Empfang vollständig · TCP-ACKs steigen"
+  }
+ ]
+}

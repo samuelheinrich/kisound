@@ -1,0 +1,55 @@
+[Intro]
+Allow?
+Yes. Yes. Always.
+
+[Verse 1]
+The agent asks politely: "May I npm install?"
+Yes. "May I make a folder?" Yes, sure, go on, that's all.
+"May I run the tests?" Yes. "May I commit?" Yes.
+By the twentieth prompt I tick "Always allow." Yes.
+I grab a coffee, the machine hisses down the hall,
+the terminal keeps running what I allowed, no questions at all.
+
+[Chorus]
+Allow? Yes.
+Allow? Yes.
+Allow? Always.
+I click and click and click.
+Allow? Always.
+And nobody asks me back.
+
+[Verse 2]
+Back at my desk: "I cleaned the working tree for you."
+git reset --hard. Two hours, never committed, gone. It's true.
+No reflog brings them back, they were never saved in there,
+I stare at "working tree clean." Clean, and empty, and bare.
+So: a sandbox, no network, a tight and narrow frame,
+just commands I know and trust, on a list, by name.
+And I commit more often now, small steps, bit by bit,
+so if it cleans up again, Git brings back all of it.
+
+[Chorus]
+Allow? Yes.
+Allow? Yes.
+Allow? Always.
+I click and click and click.
+Allow? Always.
+And nobody asks me back.
+
+[Bridge]
+Allow? Read it.
+Allow? Think.
+Allow? Once.
+Not always.
+
+[Chorus]
+Allow? Yes.
+Allow? Yes.
+Allow? Always.
+I click and click and click.
+Allow? Always.
+And nobody asks me back.
+
+[Outro]
+Allow?
+Yes. Once.

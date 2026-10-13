@@ -1,0 +1,72 @@
+VERSION: 0.2
+ALBUM: Network Engineer 02
+TRACK: 07 - Subsea
+THEMA: Aktive Glasfasern in Seekabeln, Licht im Glas, optische Verstärker, Wellenlängen, Kabelbruch und Reparatur unter dem Meer
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Draft
+RELEASE AUDIO:
+
+LYRIC PROMPT:
+Intro:
+Unter dem Ozean.
+Licht im Strang.
+Die Küsten reden.
+
+Verse:
+Kern aus Glas, dünner als Haar,
+trägt die Stimmen von hier nach da.
+Verlegt zwischen Küsten, die kaum jemand kennt,
+leuchtet unter Wasser, während alles wächst.
+Irgendwo schickt ein Laser seine Zeichen,
+Photonen gehen los und nie allein.
+Tausende Kilometer weit
+trägt der Ozean, was die Städte reden.
+
+Pre-Chorus:
+Licht geht rein.
+Licht kommt raus.
+Dazwischen
+ist nichts als Distanz.
+
+Chorus:
+Subsea.
+Licht im Glas.
+Subsea.
+Lass die Stille ziehen.
+Unter dem Wasser,
+zwischen den Küsten,
+die ganze Welt redet,
+wo die Meere sich treffen.
+
+Break:
+Licht.
+Im Glas.
+Weit.
+Unter uns.
+
+Verse 2:
+Verstärker entlang der langen Strecke
+heben ein Signal, das leiser wird.
+Wellenlängen gestapelt in einem Kern,
+Farben, die immer mehr tragen.
+Ein Anker trennt das Kabel vor der Küste,
+der Traffic sucht die andern Wege.
+Bergen, spleissen, messen, zurückholen,
+das Licht kommt heim auf seine Spur.
+
+Final Chorus:
+Subsea.
+Licht im Glas.
+Subsea.
+Lass die Stille ziehen.
+Jede Nachricht,
+jeder Anruf,
+ein dünner Strang
+unter allem.
+
+STYLE PROMPT:
+Weiter, atmosphärischer Dub Techno mit viel Raum und wenigen Elementen bei etwa 120 BPM. Tiefer, warmer Sub-Bass, lange Hall-Fahnen, gedämpfte Chords im Offbeat und sehr reduzierte Percussion. Unterwasser-Charakter durch gefilterte Texturen und dunkle, sanft öffnende Akkorde. Ein kleiner klarer Synth-Puls steht für das Licht, das durch die aktive Faser läuft. Beim Kabelbruch verschwindet dieser Puls kurz aus dem Arrangement; zur Reparatur kehrt er zurück. Der Groove lebt von Geduld, Tiefe und kleinen Veränderungen. Die Stille im Text meint die Umgebung unter Wasser, während im Glas Signale unterwegs sind.
+
+Eine einzelne leise, fast geflüsterte Stimme, nah und verständlich, mit viel Raum um die Worte. Die Refrains sanft getragen. Den bestehenden ruhigen Dub-Techno-Charakter beibehalten.
+
+Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht übersetzen. Abkürzungen wie TCP, SSH oder DSCP als einzelne englische Buchstaben aussprechen; ganze Fachwörter normal aussprechen. Abschnittsnamen und Sprecherbezeichnungen nicht singen, nur die Lyrics performen. Keine bekannten Melodie- oder Song-Referenzen.

@@ -1,0 +1,3140 @@
+{
+  "title": "SHIP IT · DE",
+  "source_audio": "../03_SHIP_IT_suno-v3_50_50_exakt_off_DE.wav",
+  "source_audio_sha256": "689d662c3d10ba9bd08c787315635ff4bba6d97f8a5db54343486dd4c7958259",
+  "duration_seconds": 155.96,
+  "languages": [
+    "de"
+  ],
+  "time_origin": "Sample 0 der unveränderten finalen WAV; keine Kürzung, kein Offset",
+  "timing_source": "Lokale CPU-ASR mit tatsächlichen Cross-Attention/DTW-Wortzeiten; keine aus Lyrics geschätzten Zeiten",
+  "text_source": "Finale Lyrics nur bei ausreichender monotoner ASR-Übereinstimmung; sonst Rohtext, explizit markiert",
+  "review_status": "Automatische ASR mit Lyrics-Abgleich; keine manuelle Hörprüfung; markierte Stellen vor Video-Endabnahme prüfen",
+  "raw_asr_path": "asr/whisper-large-v3-curated.json",
+  "raw_asr_sha256": "063a19d517e5e426260d81ff05afc7a9ef767de8718783bfaba1babbabc6a1c6",
+  "asr_parameters": {
+    "temperature": 0,
+    "condition_on_prev_tokens": false,
+    "return_token_timestamps": true,
+    "lyrics_prompt": null,
+    "vocabulary_hint": "Commit it, ship it, build, check, live, album drei.",
+    "chunk_seconds": 30,
+    "word_timing": "decoder cross-attention DTW via mlx-whisper",
+    "curation": "full-window and independent short-window MLX large-v3; same WAV, no lyrics prompt"
+  },
+  "asr_curation_note": "Lange Wiederholungsfehler der 30-s-ASR wurden anhand unabhängiger kurzer Läufe auf derselben unveränderten WAV ersetzt. Keine manuelle Hörprüfung. Alle ersetzten Segmente sind dokumentiert.",
+  "asr_excluded_segments": [
+    {
+      "start": 67.18,
+      "end": 96.92,
+      "text": "Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 112.96,
+      "end": 116.06,
+      "text": "Tracks, Cover, Dabble, Will, Trap, Shack",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 116.06,
+      "end": 119.36,
+      "text": "Blue, Yellow, Willow, Black, Black, Black, Album 3",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 119.92,
+      "end": 122.9,
+      "text": "Tracks, Cover, Dabble, Will, Trap, Shack",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 122.9,
+      "end": 126.14,
+      "text": "Blue, Yellow, Will, Lock, Black, Black, Black, Album 3",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 126.7,
+      "end": 155.9,
+      "text": "Komm mit, ich schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 155.9,
+      "end": 155.92,
+      "text": "Vielen Dank.",
+      "reason": "Kurze ASR-Schlussfloskel ohne Lyrics- oder Turbo-Beleg."
+    },
+    {
+      "start": 126.0,
+      "end": 126.24,
+      "text": "!",
+      "reason": "Kein verwendbares Wort oder keine verwendbare Zeit im Reparaturfenster."
+    }
+  ],
+  "comparison_asr_path": null,
+  "comparison_asr_sha256": "96d03a6affd6f23130d2dccd6159c2e1221f2483d297b4afdfc43642ea75bbe9",
+  "prompt_path": "03_SHIP_IT_1.0.txt",
+  "prompt_sha256": "66dd81d1ecff1d4cd80d47bf8ccc50cb4ec493e4926c1329bc996171dc7c037b",
+  "timing_uncertainty_note": "20-ms-DTW-Raster ist keine Genauigkeitsgarantie; Gesang und Effekte können Wortgrenzen verschieben.",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 8.36,
+      "last_vocal_end": 23.54
+    },
+    {
+      "title": "Verse 1",
+      "first_vocal_start": 27.16,
+      "last_vocal_end": 51.32
+    },
+    {
+      "title": "Chorus 1",
+      "first_vocal_start": 51.32,
+      "last_vocal_end": 78.66
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 78.66,
+      "last_vocal_end": 98.78
+    },
+    {
+      "title": "Chorus 2",
+      "first_vocal_start": 98.78,
+      "last_vocal_end": 112.96
+    },
+    {
+      "title": "Bridge",
+      "first_vocal_start": 113.0,
+      "last_vocal_end": 125.72
+    },
+    {
+      "title": "Chorus 3 / instrumental",
+      "first_vocal_start": 137.5,
+      "last_vocal_end": 140.28
+    },
+    {
+      "title": "Outro",
+      "first_vocal_start": 150.6,
+      "last_vocal_end": 154.0
+    }
+  ],
+  "segments": [
+    {
+      "start": 8.36,
+      "end": 9.78,
+      "text": "Album drei geht raus.",
+      "section": "Intro",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Album drei geht raus.",
+      "asr_words": [
+        {
+          "word": "Album",
+          "start": 8.36,
+          "end": 9.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 0
+        },
+        {
+          "word": "drei",
+          "start": 9.0,
+          "end": 9.22,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 0
+        },
+        {
+          "word": "geht",
+          "start": 9.22,
+          "end": 9.46,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 0
+        },
+        {
+          "word": "raus.",
+          "start": 9.46,
+          "end": 9.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 0
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 1,
+      "start_timecode": "00:00:08.360",
+      "end_timecode": "00:00:09.780",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "geht",
+        "text_similarity": 0.381,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 22.14,
+      "end": 23.54,
+      "text": "Album 3 geht raus",
+      "section": "Intro",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Album 3 geht raus",
+      "asr_words": [
+        {
+          "word": "Album",
+          "start": 22.14,
+          "end": 22.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 1
+        },
+        {
+          "word": "3",
+          "start": 22.76,
+          "end": 22.92,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 1
+        },
+        {
+          "word": "geht",
+          "start": 22.92,
+          "end": 23.18,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 1
+        },
+        {
+          "word": "raus",
+          "start": 23.18,
+          "end": 23.54,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 1
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 2,
+      "start_timecode": "00:00:22.140",
+      "end_timecode": "00:00:23.540",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "",
+        "text_similarity": 0.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 27.16,
+      "end": 30.26,
+      "text": "Neue Tracks im Ordner, jedes Cover liegt bereit,",
+      "section": "Verse 1",
+      "prompt_line_index": 2,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Neue Tracks im Ordner, jedes Cover liegt bereit",
+      "asr_words": [
+        {
+          "word": "Neue",
+          "start": 27.16,
+          "end": 27.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 2
+        },
+        {
+          "word": "Tracks",
+          "start": 27.78,
+          "end": 28.2,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 2
+        },
+        {
+          "word": "im",
+          "start": 28.2,
+          "end": 28.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 2
+        },
+        {
+          "word": "Ordner,",
+          "start": 28.36,
+          "end": 28.74,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 2
+        },
+        {
+          "word": "jedes",
+          "start": 28.74,
+          "end": 29.06,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 2
+        },
+        {
+          "word": "Cover",
+          "start": 29.06,
+          "end": 29.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 2
+        },
+        {
+          "word": "liegt",
+          "start": 29.48,
+          "end": 29.8,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 2
+        },
+        {
+          "word": "bereit",
+          "start": 29.8,
+          "end": 30.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 2
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 3,
+      "start_timecode": "00:00:27.160",
+      "end_timecode": "00:00:30.260",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "raus Neue Tracks im Ordner jedes Cover",
+        "text_similarity": 0.789,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 30.26,
+      "end": 33.76,
+      "text": "npm run build, die Seiten stehen nach kurzer Zeit.",
+      "section": "Verse 1",
+      "prompt_line_index": 3,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "NPM Run, Bild, die Seiten stehen nach kurzer Zeit",
+      "asr_words": [
+        {
+          "word": "NPM",
+          "start": 30.26,
+          "end": 31.06,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 3
+        },
+        {
+          "word": "Run,",
+          "start": 31.06,
+          "end": 31.58,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 3
+        },
+        {
+          "word": "Bild,",
+          "start": 31.74,
+          "end": 32.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 3
+        },
+        {
+          "word": "die",
+          "start": 32.1,
+          "end": 32.18,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 3
+        },
+        {
+          "word": "Seiten",
+          "start": 32.18,
+          "end": 32.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 3
+        },
+        {
+          "word": "stehen",
+          "start": 32.48,
+          "end": 32.82,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 3
+        },
+        {
+          "word": "nach",
+          "start": 32.82,
+          "end": 33.04,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 3
+        },
+        {
+          "word": "kurzer",
+          "start": 33.04,
+          "end": 33.4,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 3
+        },
+        {
+          "word": "Zeit",
+          "start": 33.4,
+          "end": 33.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 3
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 0.987,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen."
+      ],
+      "id": 4,
+      "start_timecode": "00:00:30.260",
+      "end_timecode": "00:00:33.760",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "MPM run bild die Seiten stehen nach kurzer",
+        "text_similarity": 0.907,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 33.76,
+      "end": 36.94,
+      "text": "npm run check: ein Fehler, rot und klar,",
+      "section": "Verse 1",
+      "prompt_line_index": 4,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "NPM Run, Check, ein Fehler, rot und klar",
+      "asr_words": [
+        {
+          "word": "NPM",
+          "start": 33.76,
+          "end": 34.46,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 4
+        },
+        {
+          "word": "Run,",
+          "start": 34.46,
+          "end": 35.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 4
+        },
+        {
+          "word": "Check,",
+          "start": 35.14,
+          "end": 35.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 4
+        },
+        {
+          "word": "ein",
+          "start": 35.48,
+          "end": 35.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 4
+        },
+        {
+          "word": "Fehler,",
+          "start": 35.66,
+          "end": 35.96,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 4
+        },
+        {
+          "word": "rot",
+          "start": 36.04,
+          "end": 36.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 4
+        },
+        {
+          "word": "und",
+          "start": 36.32,
+          "end": 36.56,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 4
+        },
+        {
+          "word": "klar",
+          "start": 36.56,
+          "end": 36.94,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 4
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 5,
+      "start_timecode": "00:00:33.760",
+      "end_timecode": "00:00:36.940",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Zeit MPM run check ein Fehler rot und",
+        "text_similarity": 0.833,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 36.94,
+      "end": 40.38,
+      "text": "ein Cover fehlt, der Dateiname nicht so, wie er war.",
+      "section": "Verse 1",
+      "prompt_line_index": 5,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Ein Cover fehlt, der dat die Name nicht so wie er war",
+      "asr_words": [
+        {
+          "word": "Ein",
+          "start": 36.94,
+          "end": 37.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        },
+        {
+          "word": "Cover",
+          "start": 37.26,
+          "end": 37.6,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        },
+        {
+          "word": "fehlt,",
+          "start": 37.6,
+          "end": 38.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        },
+        {
+          "word": "der",
+          "start": 38.1,
+          "end": 38.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        },
+        {
+          "word": "dat",
+          "start": 38.24,
+          "end": 38.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        },
+        {
+          "word": "die",
+          "start": 38.42,
+          "end": 38.56,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        },
+        {
+          "word": "Name",
+          "start": 38.56,
+          "end": 38.88,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        },
+        {
+          "word": "nicht",
+          "start": 38.88,
+          "end": 39.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        },
+        {
+          "word": "so",
+          "start": 39.26,
+          "end": 39.44,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        },
+        {
+          "word": "wie",
+          "start": 39.44,
+          "end": 39.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        },
+        {
+          "word": "er",
+          "start": 39.7,
+          "end": 40.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        },
+        {
+          "word": "war",
+          "start": 40.0,
+          "end": 40.38,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 5
+        }
+      ],
+      "matched_word_fraction": 0.9,
+      "text_similarity": 0.963,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen."
+      ],
+      "id": 6,
+      "start_timecode": "00:00:36.940",
+      "end_timecode": "00:00:40.380",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "klar Ein Cover fehlt der da hat die Name nicht so wie er",
+        "text_similarity": 0.857,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 40.38,
+      "end": 44.7,
+      "text": "Ein Unterstrich zu viel, ich benenn die Datei zurück,",
+      "section": "Verse 1",
+      "prompt_line_index": 6,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Ein Unterstrich, zu viel Ich bin in die Datei zurück",
+      "asr_words": [
+        {
+          "word": "Ein",
+          "start": 40.38,
+          "end": 40.82,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 6
+        },
+        {
+          "word": "Unterstrich,",
+          "start": 40.82,
+          "end": 41.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 6
+        },
+        {
+          "word": "zu",
+          "start": 41.66,
+          "end": 41.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 6
+        },
+        {
+          "word": "viel",
+          "start": 41.76,
+          "end": 42.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 6
+        },
+        {
+          "word": "Ich",
+          "start": 42.32,
+          "end": 43.28,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 7
+        },
+        {
+          "word": "bin",
+          "start": 43.28,
+          "end": 43.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 7
+        },
+        {
+          "word": "in",
+          "start": 43.48,
+          "end": 43.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 7
+        },
+        {
+          "word": "die",
+          "start": 43.76,
+          "end": 43.94,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 7
+        },
+        {
+          "word": "Datei",
+          "start": 43.94,
+          "end": 44.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 7
+        },
+        {
+          "word": "zurück",
+          "start": 44.42,
+          "end": 44.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 7
+        }
+      ],
+      "matched_word_fraction": 0.889,
+      "text_similarity": 0.941,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen."
+      ],
+      "id": 7,
+      "start_timecode": "00:00:40.380",
+      "end_timecode": "00:00:44.700",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "war Ein Unterstrich zu viel Ich bin in die Datei",
+        "text_similarity": 0.829,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 46.5,
+      "end": 51.32,
+      "text": "Check nochmal: null Fehler. Jetzt kommt das letzte Stück.",
+      "section": "Verse 1",
+      "prompt_line_index": 7,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Check nochmal, null Fehler Jetzt kommt das letzte Stück",
+      "asr_words": [
+        {
+          "word": "Check",
+          "start": 46.5,
+          "end": 47.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 8
+        },
+        {
+          "word": "nochmal,",
+          "start": 47.26,
+          "end": 47.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 8
+        },
+        {
+          "word": "null",
+          "start": 48.1,
+          "end": 48.74,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 8
+        },
+        {
+          "word": "Fehler",
+          "start": 48.74,
+          "end": 49.4,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 8
+        },
+        {
+          "word": "Jetzt",
+          "start": 49.4,
+          "end": 50.04,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 9
+        },
+        {
+          "word": "kommt",
+          "start": 50.04,
+          "end": 50.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 9
+        },
+        {
+          "word": "das",
+          "start": 50.42,
+          "end": 50.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 9
+        },
+        {
+          "word": "letzte",
+          "start": 50.62,
+          "end": 50.92,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 9
+        },
+        {
+          "word": "Stück",
+          "start": 50.92,
+          "end": 51.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 9
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 8,
+      "start_timecode": "00:00:46.500",
+      "end_timecode": "00:00:51.320",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Check nochmal null Fehler Jetzt kommt das letzte",
+        "text_similarity": 0.943,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 51.32,
+      "end": 54.44,
+      "text": "Komedische B -B -B -Budget -Live",
+      "section": "Chorus 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Komedische B -B -B -Budget -Live",
+      "asr_words": [
+        {
+          "word": "Komedische",
+          "start": 51.32,
+          "end": 52.4,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 10
+        },
+        {
+          "word": "B",
+          "start": 52.4,
+          "end": 52.72,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 10
+        },
+        {
+          "word": "-B",
+          "start": 52.72,
+          "end": 52.88,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 10
+        },
+        {
+          "word": "-B",
+          "start": 52.88,
+          "end": 53.16,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 10
+        },
+        {
+          "word": "-Budget",
+          "start": 53.16,
+          "end": 53.72,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 10
+        },
+        {
+          "word": "-Live",
+          "start": 53.72,
+          "end": 54.44,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 10
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 9,
+      "start_timecode": "00:00:51.320",
+      "end_timecode": "00:00:54.440",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Stück -Shit -B -B -B -B -B -B -B -Check -Life",
+        "text_similarity": 0.417,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 55.12,
+      "end": 56.62,
+      "text": "Komedische B -B -B -B",
+      "section": "Chorus 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Komedische B -B -B -B",
+      "asr_words": [
+        {
+          "word": "Komedische",
+          "start": 55.12,
+          "end": 55.82,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 11
+        },
+        {
+          "word": "B",
+          "start": 55.82,
+          "end": 56.12,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 11
+        },
+        {
+          "word": "-B",
+          "start": 56.12,
+          "end": 56.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 11
+        },
+        {
+          "word": "-B",
+          "start": 56.32,
+          "end": 56.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 11
+        },
+        {
+          "word": "-B",
+          "start": 56.48,
+          "end": 56.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 11
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 10,
+      "start_timecode": "00:00:55.120",
+      "end_timecode": "00:00:56.620",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Comedy -Shit -B -B -B",
+        "text_similarity": 0.593,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 56.82,
+      "end": 58.22,
+      "text": "Album drei.",
+      "section": "Chorus 1",
+      "prompt_line_index": 11,
+      "timing_model": "mlx-community/whisper-large-v3-turbo / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "-Album -Drei",
+      "asr_words": [
+        {
+          "word": "-Album",
+          "start": 56.82,
+          "end": 57.72,
+          "asr_segment_index": 11
+        },
+        {
+          "word": "-Drei",
+          "start": 57.72,
+          "end": 58.22,
+          "asr_segment_index": 11
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": true,
+      "review_reasons": [
+        "Lyrics-Zeile aus Turbo-Wortzeiten ergänzt; large-v3 konnte sie nicht ausreichend zuordnen."
+      ],
+      "id": 11,
+      "start_timecode": "00:00:56.820",
+      "end_timecode": "00:00:58.220",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "-Album -Drei",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 58.34,
+      "end": 61.44,
+      "text": "Link geht raus, die Seite lebt",
+      "section": "Chorus 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Link geht raus, die Seite lebt",
+      "asr_words": [
+        {
+          "word": "Link",
+          "start": 58.34,
+          "end": 58.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 12
+        },
+        {
+          "word": "geht",
+          "start": 58.62,
+          "end": 58.98,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 12
+        },
+        {
+          "word": "raus,",
+          "start": 58.98,
+          "end": 59.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 12
+        },
+        {
+          "word": "die",
+          "start": 59.64,
+          "end": 59.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 12
+        },
+        {
+          "word": "Seite",
+          "start": 59.76,
+          "end": 60.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 12
+        },
+        {
+          "word": "lebt",
+          "start": 60.48,
+          "end": 61.44,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 12
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 12,
+      "start_timecode": "00:00:58.340",
+      "end_timecode": "00:01:01.440",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Der Linke braucht Seite lehr",
+        "text_similarity": 0.625,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 61.44,
+      "end": 65.0,
+      "text": "Play gedrückt, und der Bass still",
+      "section": "Chorus 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Play gedrückt, und der Bass still",
+      "asr_words": [
+        {
+          "word": "Play",
+          "start": 61.44,
+          "end": 62.1,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 13
+        },
+        {
+          "word": "gedrückt,",
+          "start": 62.1,
+          "end": 62.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 13
+        },
+        {
+          "word": "und",
+          "start": 62.84,
+          "end": 63.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 13
+        },
+        {
+          "word": "der",
+          "start": 63.26,
+          "end": 64.2,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 13
+        },
+        {
+          "word": "Bass",
+          "start": 64.2,
+          "end": 64.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 13
+        },
+        {
+          "word": "still",
+          "start": 64.62,
+          "end": 65.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 13
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 13,
+      "start_timecode": "00:01:01.440",
+      "end_timecode": "00:01:05.000",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Play gedrückt Und der Bass",
+        "text_similarity": 0.898,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 67.0,
+      "end": 70.34,
+      "text": "Schlecht live, komm mit den Schippen mit den",
+      "section": "Chorus 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Schlecht live, komm mit den Schippen mit den",
+      "asr_words": [
+        {
+          "word": "Schlecht",
+          "start": 67.0,
+          "end": 67.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 14
+        },
+        {
+          "word": "live,",
+          "start": 67.62,
+          "end": 68.22,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 14
+        },
+        {
+          "word": "komm",
+          "start": 68.62,
+          "end": 69.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 14
+        },
+        {
+          "word": "mit",
+          "start": 69.0,
+          "end": 69.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 14
+        },
+        {
+          "word": "den",
+          "start": 69.24,
+          "end": 69.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 14
+        },
+        {
+          "word": "Schippen",
+          "start": 69.48,
+          "end": 69.96,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 14
+        },
+        {
+          "word": "mit",
+          "start": 69.96,
+          "end": 70.12,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 14
+        },
+        {
+          "word": "den",
+          "start": 70.12,
+          "end": 70.34,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 14
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 14,
+      "start_timecode": "00:01:07.000",
+      "end_timecode": "00:01:10.340",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Schiff der",
+        "text_similarity": 0.267,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 70.34,
+      "end": 71.54,
+      "text": "Albumen rein",
+      "section": "Chorus 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Albumen rein",
+      "asr_words": [
+        {
+          "word": "Albumen",
+          "start": 70.34,
+          "end": 71.14,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 14
+        },
+        {
+          "word": "rein",
+          "start": 71.14,
+          "end": 71.54,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 14
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 15,
+      "start_timecode": "00:01:10.340",
+      "end_timecode": "00:01:11.540",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Album",
+        "text_similarity": 0.625,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 72.0,
+      "end": 75.34,
+      "text": "Der Lied geht raus, die Seite lebt",
+      "section": "Chorus 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Der Lied geht raus, die Seite lebt",
+      "asr_words": [
+        {
+          "word": "Der",
+          "start": 72.0,
+          "end": 72.4,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 15
+        },
+        {
+          "word": "Lied",
+          "start": 72.4,
+          "end": 72.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 15
+        },
+        {
+          "word": "geht",
+          "start": 72.76,
+          "end": 72.9,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 15
+        },
+        {
+          "word": "raus,",
+          "start": 72.9,
+          "end": 73.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 15
+        },
+        {
+          "word": "die",
+          "start": 73.36,
+          "end": 73.5,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 15
+        },
+        {
+          "word": "Seite",
+          "start": 73.5,
+          "end": 74.14,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 15
+        },
+        {
+          "word": "lebt",
+          "start": 74.14,
+          "end": 75.34,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 15
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 16,
+      "start_timecode": "00:01:12.000",
+      "end_timecode": "00:01:15.340",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Der Link geht raus die Seite lehr",
+        "text_similarity": 0.852,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 75.34,
+      "end": 76.48,
+      "text": "Play gedrückt",
+      "section": "Chorus 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Play gedrückt",
+      "asr_words": [
+        {
+          "word": "Play",
+          "start": 75.34,
+          "end": 75.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 16
+        },
+        {
+          "word": "gedrückt",
+          "start": 75.78,
+          "end": 76.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 16
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 17,
+      "start_timecode": "00:01:15.340",
+      "end_timecode": "00:01:16.480",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Play gedrückt",
+        "text_similarity": 1.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 77.0,
+      "end": 78.66,
+      "text": "Und der Bass still",
+      "section": "Chorus 1",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Und der Bass still",
+      "asr_words": [
+        {
+          "word": "Und",
+          "start": 77.0,
+          "end": 77.82,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 17
+        },
+        {
+          "word": "der",
+          "start": 77.82,
+          "end": 78.02,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 17
+        },
+        {
+          "word": "Bass",
+          "start": 78.02,
+          "end": 78.3,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 17
+        },
+        {
+          "word": "still",
+          "start": 78.3,
+          "end": 78.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 17
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 18,
+      "start_timecode": "00:01:17.000",
+      "end_timecode": "00:01:18.660",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Und der Bass",
+        "text_similarity": 0.8,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 78.66,
+      "end": 81.94,
+      "text": "Deploy auf live, der Upload zählt die Dateien,",
+      "section": "Verse 2",
+      "prompt_line_index": 14,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Deploy auf Live, der Upload zählt die Dateien",
+      "asr_words": [
+        {
+          "word": "Deploy",
+          "start": 78.66,
+          "end": 79.58,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 18
+        },
+        {
+          "word": "auf",
+          "start": 79.58,
+          "end": 79.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 18
+        },
+        {
+          "word": "Live,",
+          "start": 79.78,
+          "end": 80.04,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 18
+        },
+        {
+          "word": "der",
+          "start": 80.22,
+          "end": 80.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 18
+        },
+        {
+          "word": "Upload",
+          "start": 80.36,
+          "end": 80.9,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 18
+        },
+        {
+          "word": "zählt",
+          "start": 80.9,
+          "end": 81.06,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 18
+        },
+        {
+          "word": "die",
+          "start": 81.06,
+          "end": 81.22,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 18
+        },
+        {
+          "word": "Dateien",
+          "start": 81.22,
+          "end": 81.94,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 18
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 19,
+      "start_timecode": "00:01:18.660",
+      "end_timecode": "00:01:21.940",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "stillt Deploy auf live der Upload zählt die Dateien",
+        "text_similarity": 0.925,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 81.94,
+      "end": 85.2,
+      "text": "Cover, Audio, Texte, alles muss dabei sein.",
+      "section": "Verse 2",
+      "prompt_line_index": 15,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Cover, Audio, Texte, alles muss dabei sein",
+      "asr_words": [
+        {
+          "word": "Cover,",
+          "start": 81.94,
+          "end": 82.64,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 19
+        },
+        {
+          "word": "Audio,",
+          "start": 82.72,
+          "end": 83.08,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 19
+        },
+        {
+          "word": "Texte,",
+          "start": 83.22,
+          "end": 83.86,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 19
+        },
+        {
+          "word": "alles",
+          "start": 83.86,
+          "end": 84.16,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 19
+        },
+        {
+          "word": "muss",
+          "start": 84.16,
+          "end": 84.44,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 19
+        },
+        {
+          "word": "dabei",
+          "start": 84.44,
+          "end": 84.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 19
+        },
+        {
+          "word": "sein",
+          "start": 84.76,
+          "end": 85.2,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 19
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 20,
+      "start_timecode": "00:01:21.940",
+      "end_timecode": "00:01:25.200",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Cover Audio Texte alles muss dabei",
+        "text_similarity": 0.935,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 85.2,
+      "end": 88.7,
+      "text": "Ich lad die Seite neu, der Browser zeigt noch alt,",
+      "section": "Verse 2",
+      "prompt_line_index": 16,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Ich lad die Seite neu Der Browser zeigt noch alt",
+      "asr_words": [
+        {
+          "word": "Ich",
+          "start": 85.2,
+          "end": 85.74,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 20
+        },
+        {
+          "word": "lad",
+          "start": 85.74,
+          "end": 85.86,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 20
+        },
+        {
+          "word": "die",
+          "start": 85.86,
+          "end": 86.14,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 20
+        },
+        {
+          "word": "Seite",
+          "start": 86.14,
+          "end": 86.5,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 20
+        },
+        {
+          "word": "neu",
+          "start": 86.5,
+          "end": 86.8,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 20
+        },
+        {
+          "word": "Der",
+          "start": 87.0,
+          "end": 87.4,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 21
+        },
+        {
+          "word": "Browser",
+          "start": 87.4,
+          "end": 87.84,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 21
+        },
+        {
+          "word": "zeigt",
+          "start": 87.84,
+          "end": 88.12,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 21
+        },
+        {
+          "word": "noch",
+          "start": 88.12,
+          "end": 88.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 21
+        },
+        {
+          "word": "alt",
+          "start": 88.32,
+          "end": 88.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 21
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 21,
+      "start_timecode": "00:01:25.200",
+      "end_timecode": "00:01:28.700",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "sein Ich lad die Seite neu der Browser zeigt noch",
+        "text_similarity": 0.911,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 88.7,
+      "end": 91.28,
+      "text": "Data Reload und Album 3 steht da, der",
+      "section": "Verse 2",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Data Reload und Album 3 steht da, der",
+      "asr_words": [
+        {
+          "word": "Data",
+          "start": 88.7,
+          "end": 89.06,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 22
+        },
+        {
+          "word": "Reload",
+          "start": 89.06,
+          "end": 89.86,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 22
+        },
+        {
+          "word": "und",
+          "start": 89.86,
+          "end": 90.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 22
+        },
+        {
+          "word": "Album",
+          "start": 90.0,
+          "end": 90.46,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 22
+        },
+        {
+          "word": "3",
+          "start": 90.46,
+          "end": 90.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 22
+        },
+        {
+          "word": "steht",
+          "start": 90.62,
+          "end": 90.86,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 22
+        },
+        {
+          "word": "da,",
+          "start": 90.86,
+          "end": 91.12,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 22
+        },
+        {
+          "word": "der",
+          "start": 91.16,
+          "end": 91.28,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 22
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 22,
+      "start_timecode": "00:01:28.700",
+      "end_timecode": "00:01:31.280",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "halt Und Album 3 steht da",
+        "text_similarity": 0.735,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 91.28,
+      "end": 92.26,
+      "text": "Bass knallt",
+      "section": "Verse 2",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Bass knallt",
+      "asr_words": [
+        {
+          "word": "Bass",
+          "start": 91.28,
+          "end": 91.6,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 22
+        },
+        {
+          "word": "knallt",
+          "start": 91.6,
+          "end": 92.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 22
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 23,
+      "start_timecode": "00:01:31.280",
+      "end_timecode": "00:01:32.260",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "da der Bass knallt",
+        "text_similarity": 0.8,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 92.26,
+      "end": 95.38,
+      "text": "Erst Deutsch, dann Englisch, jede Sprache prüf ich nach,",
+      "section": "Verse 2",
+      "prompt_line_index": 18,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Erst Deutsch, dann Englisch, jede Sprache prüf ich nach",
+      "asr_words": [
+        {
+          "word": "Erst",
+          "start": 92.26,
+          "end": 92.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 23
+        },
+        {
+          "word": "Deutsch,",
+          "start": 92.48,
+          "end": 93.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 23
+        },
+        {
+          "word": "dann",
+          "start": 93.04,
+          "end": 93.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 23
+        },
+        {
+          "word": "Englisch,",
+          "start": 93.24,
+          "end": 94.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 23
+        },
+        {
+          "word": "jede",
+          "start": 94.0,
+          "end": 94.18,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 23
+        },
+        {
+          "word": "Sprache",
+          "start": 94.18,
+          "end": 94.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 23
+        },
+        {
+          "word": "prüf",
+          "start": 94.66,
+          "end": 95.06,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 23
+        },
+        {
+          "word": "ich",
+          "start": 95.06,
+          "end": 95.14,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 23
+        },
+        {
+          "word": "nach",
+          "start": 95.14,
+          "end": 95.38,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 23
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 1.0,
+      "review_required": false,
+      "review_reasons": [],
+      "id": 24,
+      "start_timecode": "00:01:32.260",
+      "end_timecode": "00:01:35.380",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Erst Deutsch dann Englisch jede Sprache prüfe ich",
+        "text_similarity": 0.943,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 95.38,
+      "end": 98.78,
+      "text": "die Lyrics bleiben im Original, so wie ich sie gemacht.",
+      "section": "Verse 2",
+      "prompt_line_index": 19,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Die Lyrics bleiben im Mord So wie ich sie gemacht",
+      "asr_words": [
+        {
+          "word": "Die",
+          "start": 95.38,
+          "end": 95.56,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 24
+        },
+        {
+          "word": "Lyrics",
+          "start": 95.56,
+          "end": 96.02,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 24
+        },
+        {
+          "word": "bleiben",
+          "start": 96.02,
+          "end": 96.34,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 24
+        },
+        {
+          "word": "im",
+          "start": 96.34,
+          "end": 96.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 24
+        },
+        {
+          "word": "Mord",
+          "start": 96.66,
+          "end": 96.88,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 24
+        },
+        {
+          "word": "So",
+          "start": 96.92,
+          "end": 97.64,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 25
+        },
+        {
+          "word": "wie",
+          "start": 97.64,
+          "end": 97.94,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 25
+        },
+        {
+          "word": "ich",
+          "start": 97.94,
+          "end": 98.18,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 25
+        },
+        {
+          "word": "sie",
+          "start": 98.18,
+          "end": 98.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 25
+        },
+        {
+          "word": "gemacht",
+          "start": 98.32,
+          "end": 98.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 25
+        }
+      ],
+      "matched_word_fraction": 0.9,
+      "text_similarity": 0.905,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 25,
+      "start_timecode": "00:01:35.380",
+      "end_timecode": "00:01:38.780",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "ich nach Die Lyrics bleiben im so wie ich sie",
+        "text_similarity": 0.725,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 98.78,
+      "end": 102.24,
+      "text": "Comedy Shippe -Pippe -Pippe -Pippe Check live",
+      "section": "Chorus 2",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Comedy Shippe -Pippe -Pippe -Pippe Check live",
+      "asr_words": [
+        {
+          "word": "Comedy",
+          "start": 98.78,
+          "end": 99.94,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 26
+        },
+        {
+          "word": "Shippe",
+          "start": 99.94,
+          "end": 100.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 26
+        },
+        {
+          "word": "-Pippe",
+          "start": 100.62,
+          "end": 101.04,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 26
+        },
+        {
+          "word": "-Pippe",
+          "start": 101.04,
+          "end": 101.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 26
+        },
+        {
+          "word": "-Pippe",
+          "start": 101.32,
+          "end": 101.46,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 26
+        },
+        {
+          "word": "Check",
+          "start": 101.46,
+          "end": 101.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 26
+        },
+        {
+          "word": "live",
+          "start": 101.7,
+          "end": 102.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 26
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 26,
+      "start_timecode": "00:01:38.780",
+      "end_timecode": "00:01:42.240",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "gemacht Comedy -Shit -B -B -B -B -B -Check -Live",
+        "text_similarity": 0.537,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 102.92,
+      "end": 105.62,
+      "text": "Comedy Shippe -Pippe -Pippe Album 3",
+      "section": "Chorus 2",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Comedy Shippe -Pippe -Pippe Album 3",
+      "asr_words": [
+        {
+          "word": "Comedy",
+          "start": 102.92,
+          "end": 103.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 27
+        },
+        {
+          "word": "Shippe",
+          "start": 103.36,
+          "end": 104.02,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 27
+        },
+        {
+          "word": "-Pippe",
+          "start": 104.02,
+          "end": 104.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 27
+        },
+        {
+          "word": "-Pippe",
+          "start": 104.42,
+          "end": 104.6,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 27
+        },
+        {
+          "word": "Album",
+          "start": 104.6,
+          "end": 105.2,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 27
+        },
+        {
+          "word": "3",
+          "start": 105.2,
+          "end": 105.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 27
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 27,
+      "start_timecode": "00:01:42.920",
+      "end_timecode": "00:01:45.620",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Comedy -Shit -B -B -B -B -Album",
+        "text_similarity": 0.596,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 105.62,
+      "end": 109.14,
+      "text": "Der Link geht raus, die Seite leer",
+      "section": "Chorus 2",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Der Link geht raus, die Seite leer",
+      "asr_words": [
+        {
+          "word": "Der",
+          "start": 105.62,
+          "end": 106.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 28
+        },
+        {
+          "word": "Link",
+          "start": 106.24,
+          "end": 106.58,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 28
+        },
+        {
+          "word": "geht",
+          "start": 106.58,
+          "end": 106.96,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 28
+        },
+        {
+          "word": "raus,",
+          "start": 106.96,
+          "end": 107.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 28
+        },
+        {
+          "word": "die",
+          "start": 107.58,
+          "end": 107.72,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 28
+        },
+        {
+          "word": "Seite",
+          "start": 107.72,
+          "end": 108.38,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 28
+        },
+        {
+          "word": "leer",
+          "start": 108.38,
+          "end": 109.14,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 28
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 28,
+      "start_timecode": "00:01:45.620",
+      "end_timecode": "00:01:49.140",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "3 Der Link geht raus die Seite",
+        "text_similarity": 0.902,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 109.14,
+      "end": 110.72,
+      "text": "Kegel drückt",
+      "section": "Chorus 2",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Kegel drückt",
+      "asr_words": [
+        {
+          "word": "Kegel",
+          "start": 109.14,
+          "end": 110.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 29
+        },
+        {
+          "word": "drückt",
+          "start": 110.36,
+          "end": 110.72,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 29
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen."
+      ],
+      "id": 29,
+      "start_timecode": "00:01:49.140",
+      "end_timecode": "00:01:50.720",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "leh Regeldrückt",
+        "text_similarity": 0.8,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 110.72,
+      "end": 112.96,
+      "text": "Und der Bass steht",
+      "section": "Chorus 2",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Und der Bass steht",
+      "asr_words": [
+        {
+          "word": "Und",
+          "start": 110.72,
+          "end": 111.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 30
+        },
+        {
+          "word": "der",
+          "start": 111.66,
+          "end": 112.22,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 30
+        },
+        {
+          "word": "Bass",
+          "start": 112.22,
+          "end": 112.56,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 30
+        },
+        {
+          "word": "steht",
+          "start": 112.56,
+          "end": 112.96,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window",
+          "asr_segment_index": 30
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 30,
+      "start_timecode": "00:01:50.720",
+      "end_timecode": "00:01:52.960",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Bum -Bum Und der Bass",
+        "text_similarity": 0.645,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 113.0,
+      "end": 113.62,
+      "text": "Tracks.",
+      "section": "Bridge",
+      "prompt_line_index": 26,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Tricks,",
+      "asr_words": [
+        {
+          "word": "Tricks,",
+          "start": 113.0,
+          "end": 113.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 31
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 0.833,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 31,
+      "start_timecode": "00:01:53.000",
+      "end_timecode": "00:01:53.620",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "steht Tracks",
+        "text_similarity": 0.706,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 113.68,
+      "end": 114.24,
+      "text": "Covers.",
+      "section": "Bridge",
+      "prompt_line_index": 27,
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "text_source": "Finale Lyrics, monotonic mit unabhängig erkanntem ASR-Text abgeglichen",
+      "asr_text": "Cover,",
+      "asr_words": [
+        {
+          "word": "Cover,",
+          "start": 113.68,
+          "end": 114.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 31
+        }
+      ],
+      "matched_word_fraction": 1.0,
+      "text_similarity": 0.909,
+      "review_required": true,
+      "review_reasons": [
+        "ASR weicht vom finalen Lyrics-Text ab; Wortlaut am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 32,
+      "start_timecode": "00:01:53.680",
+      "end_timecode": "00:01:54.240",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "",
+        "text_similarity": 0.0,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 114.4,
+      "end": 118.44,
+      "text": "Doppelbild, Tische, Pro, Lilo, Lilo, Bäh, Bäh, Bäh,",
+      "section": "Bridge",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Doppelbild, Tische, Pro, Lilo, Lilo, Bäh, Bäh, Bäh,",
+      "asr_words": [
+        {
+          "word": "Doppelbild,",
+          "start": 114.4,
+          "end": 115.18,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 31
+        },
+        {
+          "word": "Tische,",
+          "start": 115.22,
+          "end": 115.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 31
+        },
+        {
+          "word": "Pro,",
+          "start": 115.98,
+          "end": 116.46,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 31
+        },
+        {
+          "word": "Lilo,",
+          "start": 116.58,
+          "end": 117.04,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 31
+        },
+        {
+          "word": "Lilo,",
+          "start": 117.06,
+          "end": 117.5,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 31
+        },
+        {
+          "word": "Bäh,",
+          "start": 117.5,
+          "end": 117.92,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 31
+        },
+        {
+          "word": "Bäh,",
+          "start": 118.06,
+          "end": 118.28,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 31
+        },
+        {
+          "word": "Bäh,",
+          "start": 118.28,
+          "end": 118.44,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 31
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 33,
+      "start_timecode": "00:01:54.400",
+      "end_timecode": "00:01:58.440",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Cover -B -B -B -Check -Check -Live Das das das ist",
+        "text_similarity": 0.257,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 118.52,
+      "end": 118.98,
+      "text": "Almen.",
+      "section": "Bridge",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Almen.",
+      "asr_words": [
+        {
+          "word": "Almen.",
+          "start": 118.52,
+          "end": 118.98,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 31
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 34,
+      "start_timecode": "00:01:58.520",
+      "end_timecode": "00:01:58.980",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "das das",
+        "text_similarity": 0.182,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 120.28,
+      "end": 124.76,
+      "text": "Tricks, Cover, Doppelbild, Tische, Pro, Lilo, Lilo, Bäh,",
+      "section": "Bridge",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Tricks, Cover, Doppelbild, Tische, Pro, Lilo, Lilo, Bäh,",
+      "asr_words": [
+        {
+          "word": "Tricks,",
+          "start": 120.28,
+          "end": 120.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 32
+        },
+        {
+          "word": "Cover,",
+          "start": 120.7,
+          "end": 121.12,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 32
+        },
+        {
+          "word": "Doppelbild,",
+          "start": 121.24,
+          "end": 121.96,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 32
+        },
+        {
+          "word": "Tische,",
+          "start": 122.1,
+          "end": 122.6,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 32
+        },
+        {
+          "word": "Pro,",
+          "start": 122.8,
+          "end": 123.3,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 32
+        },
+        {
+          "word": "Lilo,",
+          "start": 123.42,
+          "end": 123.88,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 32
+        },
+        {
+          "word": "Lilo,",
+          "start": 123.88,
+          "end": 124.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 32
+        },
+        {
+          "word": "Bäh,",
+          "start": 124.32,
+          "end": 124.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 32
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 35,
+      "start_timecode": "00:02:00.280",
+      "end_timecode": "00:02:04.760",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Tracks cover cover -Chat Shed Blor Lor Lor Lor",
+        "text_similarity": 0.487,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 124.9,
+      "end": 125.72,
+      "text": "Bäh, Bäh, Almen.",
+      "section": "Bridge",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Bäh, Bäh, Almen.",
+      "asr_words": [
+        {
+          "word": "Bäh,",
+          "start": 124.9,
+          "end": 125.08,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 32
+        },
+        {
+          "word": "Bäh,",
+          "start": 125.08,
+          "end": 125.22,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 32
+        },
+        {
+          "word": "Almen.",
+          "start": 125.28,
+          "end": 125.72,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 32
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 36,
+      "start_timecode": "00:02:04.900",
+      "end_timecode": "00:02:05.720",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Be -be -be -Album",
+        "text_similarity": 0.455,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 137.5,
+      "end": 140.28,
+      "text": "Und der Bastel",
+      "section": "Chorus 3 / instrumental",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Und der Bastel",
+      "asr_words": [
+        {
+          "word": "Und",
+          "start": 137.5,
+          "end": 138.9,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 33
+        },
+        {
+          "word": "der",
+          "start": 138.9,
+          "end": 139.6,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 33
+        },
+        {
+          "word": "Bastel",
+          "start": 139.6,
+          "end": 140.28,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 33
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 37,
+      "start_timecode": "00:02:17.500",
+      "end_timecode": "00:02:20.280",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Kegel drückt und und und und der Bastel",
+        "text_similarity": 0.545,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 150.6,
+      "end": 152.62,
+      "text": "Nächste Zeit und nächste",
+      "section": "Outro",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Nächste Zeit und nächste",
+      "asr_words": [
+        {
+          "word": "Nächste",
+          "start": 150.6,
+          "end": 151.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 34
+        },
+        {
+          "word": "Zeit",
+          "start": 151.36,
+          "end": 151.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 34
+        },
+        {
+          "word": "und",
+          "start": 151.62,
+          "end": 152.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 34
+        },
+        {
+          "word": "nächste",
+          "start": 152.0,
+          "end": 152.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 34
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 38,
+      "start_timecode": "00:02:30.600",
+      "end_timecode": "00:02:32.620",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "Nächstes Album nächster",
+        "text_similarity": 0.714,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    },
+    {
+      "start": 152.62,
+      "end": 154.0,
+      "text": "Komm' auf",
+      "section": "Outro",
+      "text_source": "Unveränderter ASR-Text; zusätzliche oder unzureichend zuordenbare Wörter",
+      "asr_text": "Komm' auf",
+      "asr_words": [
+        {
+          "word": "Komm'",
+          "start": 152.62,
+          "end": 153.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 35
+        },
+        {
+          "word": "auf",
+          "start": 153.78,
+          "end": 154.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window",
+          "asr_segment_index": 35
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "ASR-Zusatz oder unzureichende Lyrics-Zuordnung; Wortlaut und Abschnitt am Audio prüfen.",
+        "Turbo-Gegenprüfung im gleichen Zeitfenster weicht deutlich ab."
+      ],
+      "id": 39,
+      "start_timecode": "00:02:32.620",
+      "end_timecode": "00:02:34.000",
+      "timing_model": "mlx-community/whisper-large-v3-mlx / Cross-Attention DTW",
+      "model_comparison": {
+        "model": "whisper-large-v3-turbo",
+        "text_in_same_time_window": "nächster Come",
+        "text_similarity": 0.211,
+        "status": "Text im gleichen Zeitfenster, keine unabhängige Hörbestätigung"
+      }
+    }
+  ],
+  "unmatched_prompt_lines": [
+    {
+      "text": "COMMIT IT. SHIP IT.",
+      "section": "Intro",
+      "first": 0,
+      "last": 3,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Album drei geht raus.",
+      "section": "Intro",
+      "first": 4,
+      "last": 7,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "COMMIT IT. SHIP IT.",
+      "section": "Chorus 1",
+      "first": 61,
+      "last": 64,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Build. Check. Live.",
+      "section": "Chorus 1",
+      "first": 65,
+      "last": 67,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "COMMIT IT. SHIP IT.",
+      "section": "Chorus 1",
+      "first": 68,
+      "last": 71,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Der Link geht raus, die Seite lädt,",
+      "section": "Chorus 1",
+      "first": 74,
+      "last": 80,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Play gedrückt, und der Bass steht.",
+      "section": "Chorus 1",
+      "first": 81,
+      "last": 86,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "harter Reload, und Album drei steht da. Der Bass knallt.",
+      "section": "Verse 2",
+      "first": 112,
+      "last": 121,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "COMMIT IT. SHIP IT.",
+      "section": "Chorus 2",
+      "first": 141,
+      "last": 144,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Build. Check. Live.",
+      "section": "Chorus 2",
+      "first": 145,
+      "last": 147,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "COMMIT IT. SHIP IT.",
+      "section": "Chorus 2",
+      "first": 148,
+      "last": 151,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Album drei.",
+      "section": "Chorus 2",
+      "first": 152,
+      "last": 153,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Der Link geht raus, die Seite lädt,",
+      "section": "Chorus 2",
+      "first": 154,
+      "last": 160,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Play gedrückt, und der Bass steht.",
+      "section": "Chorus 2",
+      "first": 161,
+      "last": 166,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Build.",
+      "section": "Bridge",
+      "first": 169,
+      "last": 169,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Check.",
+      "section": "Bridge",
+      "first": 170,
+      "last": 170,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Deploy.",
+      "section": "Bridge",
+      "first": 171,
+      "last": 171,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Reload.",
+      "section": "Bridge",
+      "first": 172,
+      "last": 172,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Play.",
+      "section": "Bridge",
+      "first": 173,
+      "last": 173,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Album drei.",
+      "section": "Bridge",
+      "first": 174,
+      "last": 175,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "COMMIT IT. SHIP IT.",
+      "section": "Chorus 3",
+      "first": 176,
+      "last": 179,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Build. Check. Live.",
+      "section": "Chorus 3",
+      "first": 180,
+      "last": 182,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "COMMIT IT. SHIP IT.",
+      "section": "Chorus 3",
+      "first": 183,
+      "last": 186,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Album drei.",
+      "section": "Chorus 3",
+      "first": 187,
+      "last": 188,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Der Link geht raus, die Seite lädt,",
+      "section": "Chorus 3",
+      "first": 189,
+      "last": 195,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Play gedrückt, und der Bass steht.",
+      "section": "Chorus 3",
+      "first": 196,
+      "last": 201,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "COMMIT IT. SHIP IT.",
+      "section": "Outro",
+      "first": 202,
+      "last": 205,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    },
+    {
+      "text": "Nächstes Album. Nächster Commit.",
+      "section": "Outro",
+      "first": 206,
+      "last": 209,
+      "reason": "Keine ausreichend zuordenbare vollständige Zeile in beiden Modellläufen; Rohtext bleibt markiert."
+    }
+  ],
+  "excluded_asr_words": [],
+  "structural_sections": [
+    {
+      "start_s": 0,
+      "end_s": 27.16,
+      "label": "Intro",
+      "origin": "Redaktionelle Songform; ASR-Anker und hörbare/messtechnische Übergänge, keine Wortgrenze"
+    },
+    {
+      "start_s": 27.16,
+      "end_s": 51.32,
+      "label": "Verse 1",
+      "origin": "Redaktionelle Songform; ASR-Anker und hörbare/messtechnische Übergänge, keine Wortgrenze"
+    },
+    {
+      "start_s": 51.32,
+      "end_s": 78.66,
+      "label": "Chorus 1",
+      "origin": "Redaktionelle Songform; ASR-Anker und hörbare/messtechnische Übergänge, keine Wortgrenze"
+    },
+    {
+      "start_s": 78.66,
+      "end_s": 98.78,
+      "label": "Verse 2",
+      "origin": "Redaktionelle Songform; ASR-Anker und hörbare/messtechnische Übergänge, keine Wortgrenze"
+    },
+    {
+      "start_s": 98.78,
+      "end_s": 113.0,
+      "label": "Chorus 2",
+      "origin": "Redaktionelle Songform; ASR-Anker und hörbare/messtechnische Übergänge, keine Wortgrenze"
+    },
+    {
+      "start_s": 113.0,
+      "end_s": 126.0,
+      "label": "Bridge",
+      "origin": "Redaktionelle Songform; ASR-Anker und hörbare/messtechnische Übergänge, keine Wortgrenze"
+    },
+    {
+      "start_s": 126.0,
+      "end_s": 150.6,
+      "label": "Chorus 3 / instrumental",
+      "origin": "Redaktionelle Songform; ASR-Anker und hörbare/messtechnische Übergänge, keine Wortgrenze"
+    },
+    {
+      "start_s": 150.6,
+      "end_s": 155.96,
+      "label": "Outro",
+      "origin": "Redaktionelle Songform; ASR-Anker und hörbare/messtechnische Übergänge, keine Wortgrenze"
+    }
+  ],
+  "section_curation_note": "Abschnittsgrenzen sind redaktionelle Schnittanker; ASR-Wortzeiten bleiben unverändert. DE Chorus 3 enthält längere instrumentale Fläche und wenig belastbaren Gesang."
+}

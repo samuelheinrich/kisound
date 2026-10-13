@@ -1,0 +1,7 @@
+Titel:
+01_Vibecoder_suno-v1_50_50_exakt_off_EN
+
+Weirdness: 50%
+Style Influence: 50%
+variety: exakt
+max mode: off

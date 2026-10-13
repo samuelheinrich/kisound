@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SHIP IT · Browservorschau</title>
+<style>
+@font-face{font-family:'JetBrains Mono';src:url('/assets/fonts/JetBrainsMono.ttf') format('truetype');font-weight:100 800}
+@font-face{font-family:'Space Grotesk';src:url('/assets/fonts/SpaceGrotesk.ttf') format('truetype');font-weight:300 700}
+@font-face{font-family:'Michroma';src:url('/assets/fonts/Michroma-Regular.ttf') format('truetype');font-weight:400}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#050b13;color:#cadce6;font:13px 'Space Grotesk',system-ui,sans-serif}
+#stage{position:absolute;transform-origin:0 0}#stage canvas{position:absolute;inset:0;display:block}
+#loading{position:fixed;inset:0;z-index:10;background:#07101b;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px}
+#loading strong{font:400 28px 'Space Grotesk',sans-serif;letter-spacing:.07em}#loading span{color:#8baabc;font:12px monospace}#loading progress{width:260px;accent-color:#ff6534;height:3px}
+#error{white-space:pre-wrap;color:#ffb55d;font:14px/1.6 monospace;max-width:80vw}
+#player{position:fixed;bottom:0;left:0;right:0;height:110px;border-top:1px solid #20374b;background:#09121d;padding:12px 24px;display:grid;grid-template-columns:54px minmax(180px,1fr) auto;grid-template-rows:28px 42px;column-gap:20px;row-gap:10px}
+button,select{background:#101f2f;color:#b9cddd;border:1px solid #2c4153;border-radius:5px;font:12px 'Space Grotesk',sans-serif;height:30px;padding:0 10px;cursor:pointer}button:hover,select:hover{border-color:#7cd1d3}button.on{background:#163d41;color:#96ead6;border-color:#438b85}
+#play{grid-row:1/3;align-self:center;height:48px;font-size:19px}#player-title{align-self:center;letter-spacing:.025em;color:#d0e3ec}#clock{font:11px 'JetBrains Mono',monospace;align-self:center;text-align:right;color:#8ca6b8}
+#scrub{position:relative;min-width:0;cursor:pointer;touch-action:none}#scrub canvas{width:100%;height:42px;display:block}#controls{display:flex;align-items:center;gap:6px}#volume{width:65px;accent-color:#ff6534}
+@media(max-width:1000px){#player{padding:10px;height:140px;grid-template-columns:44px 1fr;grid-template-rows:24px 35px 40px;gap:6px 10px}#clock{grid-column:2;font-size:9px;grid-row:1}#player-title{display:none}#scrub{grid-column:2;grid-row:2}#controls{grid-row:3;grid-column:1/3;justify-content:center}#play{grid-column:1;grid-row:1/3}#volume{width:45px}}
+</style>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js","three/addons/":"/node_modules/three/examples/jsm/"}}</script>
+</head>
+<body>
+<div id="stage" aria-label="3D-Musikvideo"></div>
+<div id="loading"><strong>SHIP IT</strong><span id="load-status">Browservorschau vorbereiten …</span><progress id="load-progress" max="4" value="0"></progress><pre id="error" hidden></pre></div>
+<script type="module" src="/src/render/main.js"></script>
+</body></html>

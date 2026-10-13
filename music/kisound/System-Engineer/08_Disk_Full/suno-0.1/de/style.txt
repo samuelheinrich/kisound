@@ -1,0 +1,8 @@
+Genre: Heavy Dubstep / Halftime Bass, schwer und dunkel, kein Techno.
+Tempo: 140 BPM, Halftime-Gefühl
+Sound: Erdrückender Sub-Bass, der den Raum füllt, knurrende Mid-Bass-Wobbles, trockene Snare auf drei, Festplatten-Klackern als Percussion, Monitoring-Alarm als wiederkehrender Ton, Stille-Lücke vor jedem Drop, im letzten Refrain spürbar mehr Luft im Mix.
+Vocals: Männliche Stimme, müde und rau zu Beginn, dann wach und präzise; Strophen trocken gesprochen, Refrain tief und schwer gechantet.
+Vibe: Drei Uhr nachts, Alarm, Platz schaffen.
+Mood: Gereizt, dann erleichtert und trocken humorvoll.
+Ablauf: Intro mit Alarm und Stimme; schwere reduzierte Drops nach den Refrains; Bridge nur Sub und Stimme; Schlussrefrain voll. Ziel 3:30.
+Hinweise: Gesang auf Deutsch; /var als „Slash var“, df als D-F, du als D-U, lsof als L-S-O-F, rm als R-M, Fehlermeldungen englisch. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

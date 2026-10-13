@@ -1,0 +1,2595 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx (curated full and short windows)",
+  "model_snapshot": "/Users/samuel.heinrich/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-mlx/snapshots/49e6aa286ad60c14352c404340ded53710378a11",
+  "weights_sha256": "05ff791ce3630fae47e7c51004e9666204d786246ec07cac6110af768099b40d",
+  "runtime": "MLX GPU / mlx-whisper",
+  "package_versions": {
+    "mlx_whisper": "0.4.3",
+    "mlx": "0.32.3"
+  },
+  "source_audio": "/Users/samuel.heinrich/0004_git/music/kisound/Vibecoder/03_SHIP_IT/final/03_SHIP_IT_suno-v3_50_50_exakt_off_DE.wav",
+  "source_audio_sha256": "689d662c3d10ba9bd08c787315635ff4bba6d97f8a5db54343486dd4c7958259",
+  "language": "de",
+  "duration_seconds": 155.96,
+  "parameters": {
+    "temperature": 0,
+    "condition_on_prev_tokens": false,
+    "return_token_timestamps": true,
+    "lyrics_prompt": null,
+    "vocabulary_hint": "Commit it, ship it, build, check, live, album drei.",
+    "chunk_seconds": 30,
+    "word_timing": "decoder cross-attention DTW via mlx-whisper",
+    "curation": "full-window and independent short-window MLX large-v3; same WAV, no lyrics prompt"
+  },
+  "elapsed_seconds": 177.89,
+  "segments": [
+    {
+      "start": 8.36,
+      "end": 9.78,
+      "text": "Album drei geht raus.",
+      "words": [
+        {
+          "word": "Album",
+          "start": 8.36,
+          "end": 9.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "drei",
+          "start": 9.0,
+          "end": 9.22,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "geht",
+          "start": 9.22,
+          "end": 9.46,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "raus.",
+          "start": 9.46,
+          "end": 9.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50365,
+        967,
+        5559,
+        16809,
+        7095,
+        17202,
+        13,
+        50865
+      ],
+      "avg_logprob": -0.7646672248840332,
+      "no_speech_prob": 0.11656064540147781,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 22.14,
+      "end": 23.54,
+      "text": "Album 3 geht raus",
+      "words": [
+        {
+          "word": "Album",
+          "start": 22.14,
+          "end": 22.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "3",
+          "start": 22.76,
+          "end": 22.92,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "geht",
+          "start": 22.92,
+          "end": 23.18,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "raus",
+          "start": 23.18,
+          "end": 23.54,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50365,
+        967,
+        5559,
+        805,
+        7095,
+        17202,
+        51065
+      ],
+      "avg_logprob": -0.19324539257929876,
+      "no_speech_prob": 0.6918137669563293,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 27.16,
+      "end": 30.26,
+      "text": "Neue Tracks im Ordner, jedes Cover liegt bereit",
+      "words": [
+        {
+          "word": "Neue",
+          "start": 27.16,
+          "end": 27.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Tracks",
+          "start": 27.78,
+          "end": 28.2,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "im",
+          "start": 28.2,
+          "end": 28.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Ordner,",
+          "start": 28.36,
+          "end": 28.74,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "jedes",
+          "start": 28.74,
+          "end": 29.06,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Cover",
+          "start": 29.06,
+          "end": 29.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "liegt",
+          "start": 29.48,
+          "end": 29.8,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "bereit",
+          "start": 29.8,
+          "end": 30.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        51065,
+        1734,
+        622,
+        1765,
+        7424,
+        566,
+        29388,
+        1193,
+        11,
+        36119,
+        19106,
+        22421,
+        38758,
+        51404
+      ],
+      "avg_logprob": -0.19324539257929876,
+      "no_speech_prob": 0.6918137669563293,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 30.26,
+      "end": 33.76,
+      "text": "NPM Run, Bild, die Seiten stehen nach kurzer Zeit",
+      "words": [
+        {
+          "word": "NPM",
+          "start": 30.26,
+          "end": 31.06,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Run,",
+          "start": 31.06,
+          "end": 31.58,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Bild,",
+          "start": 31.74,
+          "end": 32.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "die",
+          "start": 32.1,
+          "end": 32.18,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Seiten",
+          "start": 32.18,
+          "end": 32.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "stehen",
+          "start": 32.48,
+          "end": 32.82,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "nach",
+          "start": 32.82,
+          "end": 33.04,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "kurzer",
+          "start": 33.04,
+          "end": 33.4,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Zeit",
+          "start": 33.4,
+          "end": 33.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        51404,
+        426,
+        18819,
+        8950,
+        11,
+        15746,
+        11,
+        978,
+        45200,
+        19777,
+        5168,
+        10072,
+        4527,
+        9394,
+        51575
+      ],
+      "avg_logprob": -0.19324539257929876,
+      "no_speech_prob": 0.6918137669563293,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 33.76,
+      "end": 36.94,
+      "text": "NPM Run, Check, ein Fehler, rot und klar",
+      "words": [
+        {
+          "word": "NPM",
+          "start": 33.76,
+          "end": 34.46,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Run,",
+          "start": 34.46,
+          "end": 35.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Check,",
+          "start": 35.14,
+          "end": 35.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "ein",
+          "start": 35.48,
+          "end": 35.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Fehler,",
+          "start": 35.66,
+          "end": 35.96,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "rot",
+          "start": 36.04,
+          "end": 36.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "und",
+          "start": 36.32,
+          "end": 36.56,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "klar",
+          "start": 36.56,
+          "end": 36.94,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        51575,
+        426,
+        18819,
+        8950,
+        11,
+        6881,
+        11,
+        1343,
+        48101,
+        11,
+        4297,
+        674,
+        14743,
+        51731
+      ],
+      "avg_logprob": -0.19324539257929876,
+      "no_speech_prob": 0.6918137669563293,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 36.94,
+      "end": 40.38,
+      "text": "Ein Cover fehlt, der dat die Name nicht so wie er war",
+      "words": [
+        {
+          "word": "Ein",
+          "start": 36.94,
+          "end": 37.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Cover",
+          "start": 37.26,
+          "end": 37.6,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "fehlt,",
+          "start": 37.6,
+          "end": 38.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "der",
+          "start": 38.1,
+          "end": 38.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "dat",
+          "start": 38.24,
+          "end": 38.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "die",
+          "start": 38.42,
+          "end": 38.56,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Name",
+          "start": 38.56,
+          "end": 38.88,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "nicht",
+          "start": 38.88,
+          "end": 39.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "so",
+          "start": 39.26,
+          "end": 39.44,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "wie",
+          "start": 39.44,
+          "end": 39.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "er",
+          "start": 39.7,
+          "end": 40.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "war",
+          "start": 40.0,
+          "end": 40.38,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50365,
+        6391,
+        19106,
+        47994,
+        11,
+        1163,
+        1137,
+        978,
+        13866,
+        1979,
+        370,
+        3355,
+        1189,
+        1516,
+        50547
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 40.38,
+      "end": 42.32,
+      "text": "Ein Unterstrich, zu viel",
+      "words": [
+        {
+          "word": "Ein",
+          "start": 40.38,
+          "end": 40.82,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Unterstrich,",
+          "start": 40.82,
+          "end": 41.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "zu",
+          "start": 41.66,
+          "end": 41.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "viel",
+          "start": 41.76,
+          "end": 42.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50547,
+        6391,
+        12065,
+        9733,
+        480,
+        11,
+        2164,
+        5891,
+        50658
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 42.32,
+      "end": 44.7,
+      "text": "Ich bin in die Datei zurück",
+      "words": [
+        {
+          "word": "Ich",
+          "start": 42.32,
+          "end": 43.28,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "bin",
+          "start": 43.28,
+          "end": 43.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "in",
+          "start": 43.48,
+          "end": 43.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "die",
+          "start": 43.76,
+          "end": 43.94,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Datei",
+          "start": 43.94,
+          "end": 44.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "zurück",
+          "start": 44.42,
+          "end": 44.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50658,
+        3141,
+        5171,
+        294,
+        978,
+        31805,
+        72,
+        15089,
+        50770
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 46.5,
+      "end": 49.4,
+      "text": "Check nochmal, null Fehler",
+      "words": [
+        {
+          "word": "Check",
+          "start": 46.5,
+          "end": 47.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "nochmal,",
+          "start": 47.26,
+          "end": 47.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "null",
+          "start": 48.1,
+          "end": 48.74,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Fehler",
+          "start": 48.74,
+          "end": 49.4,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50770,
+        6881,
+        26509,
+        11,
+        18184,
+        48101,
+        50998
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 49.4,
+      "end": 51.32,
+      "text": "Jetzt kommt das letzte Stück",
+      "words": [
+        {
+          "word": "Jetzt",
+          "start": 49.4,
+          "end": 50.04,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "kommt",
+          "start": 50.04,
+          "end": 50.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "das",
+          "start": 50.42,
+          "end": 50.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "letzte",
+          "start": 50.62,
+          "end": 50.92,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Stück",
+          "start": 50.92,
+          "end": 51.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50998,
+        12592,
+        10047,
+        1482,
+        35236,
+        31146,
+        51091
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 51.32,
+      "end": 54.44,
+      "text": "Komedische B-B-B-Budget-Live",
+      "words": [
+        {
+          "word": "Komedische",
+          "start": 51.32,
+          "end": 52.4,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "B",
+          "start": 52.4,
+          "end": 52.72,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-B",
+          "start": 52.72,
+          "end": 52.88,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-B",
+          "start": 52.88,
+          "end": 53.16,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-Budget",
+          "start": 53.16,
+          "end": 53.72,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-Live",
+          "start": 53.72,
+          "end": 54.44,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        51091,
+        14286,
+        292,
+        7864,
+        363,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        532,
+        847,
+        12,
+        43,
+        488,
+        51274
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 55.12,
+      "end": 58.18,
+      "text": "Komedische B-B-B-B-Album-Dreieck",
+      "words": [
+        {
+          "word": "Komedische",
+          "start": 55.12,
+          "end": 55.82,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "B",
+          "start": 55.82,
+          "end": 56.12,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-B",
+          "start": 56.12,
+          "end": 56.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-B",
+          "start": 56.32,
+          "end": 56.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-B",
+          "start": 56.48,
+          "end": 56.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-Album",
+          "start": 56.62,
+          "end": 57.34,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-Dreieck",
+          "start": 57.34,
+          "end": 58.18,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        51274,
+        14286,
+        292,
+        7864,
+        363,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        9171,
+        5559,
+        12,
+        35,
+        265,
+        414,
+        547,
+        51429
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 58.18,
+      "end": 61.44,
+      "text": "Der Link geht raus, die Seite lebt",
+      "words": [
+        {
+          "word": "Der",
+          "start": 58.18,
+          "end": 58.34,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Link",
+          "start": 58.34,
+          "end": 58.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "geht",
+          "start": 58.62,
+          "end": 58.98,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "raus,",
+          "start": 58.98,
+          "end": 59.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "die",
+          "start": 59.64,
+          "end": 59.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Seite",
+          "start": 59.76,
+          "end": 60.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "lebt",
+          "start": 60.48,
+          "end": 61.44,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        51429,
+        5618,
+        8466,
+        7095,
+        17202,
+        11,
+        978,
+        19748,
+        476,
+        4517,
+        51565
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 61.44,
+      "end": 65.0,
+      "text": "Play gedrückt, und der Bass still",
+      "words": [
+        {
+          "word": "Play",
+          "start": 61.44,
+          "end": 62.1,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "gedrückt,",
+          "start": 62.1,
+          "end": 62.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "und",
+          "start": 62.84,
+          "end": 63.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "der",
+          "start": 63.26,
+          "end": 64.2,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Bass",
+          "start": 64.2,
+          "end": 64.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "still",
+          "start": 64.62,
+          "end": 65.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        51600,
+        5506,
+        19238,
+        81,
+        37532,
+        11,
+        674,
+        1163,
+        29626,
+        920,
+        51776
+      ],
+      "avg_logprob": -0.2857470646082798,
+      "no_speech_prob": 0.28779473900794983,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 67.0,
+      "end": 71.54,
+      "text": "Schlecht live, komm mit den Schippen mit den Albumen rein",
+      "words": [
+        {
+          "word": "Schlecht",
+          "start": 67.0,
+          "end": 67.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "live,",
+          "start": 67.62,
+          "end": 68.22,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "komm",
+          "start": 68.62,
+          "end": 69.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "mit",
+          "start": 69.0,
+          "end": 69.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "den",
+          "start": 69.24,
+          "end": 69.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Schippen",
+          "start": 69.48,
+          "end": 69.96,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "mit",
+          "start": 69.96,
+          "end": 70.12,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "den",
+          "start": 70.12,
+          "end": 70.34,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Albumen",
+          "start": 70.34,
+          "end": 71.14,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "rein",
+          "start": 71.14,
+          "end": 71.54,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50365,
+        2065,
+        306,
+        4701,
+        1621,
+        11,
+        6669,
+        2194,
+        1441,
+        2065,
+        2488,
+        268,
+        2194,
+        1441,
+        967,
+        5559,
+        268,
+        6561,
+        50623
+      ],
+      "avg_logprob": -0.4986650065371865,
+      "no_speech_prob": 0.6525810956954956,
+      "repair_window": [
+        67,
+        77
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 72.16,
+      "end": 75.34,
+      "text": "Der Lied geht raus, die Seite lebt",
+      "words": [
+        {
+          "word": "Der",
+          "start": 72.0,
+          "end": 72.4,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Lied",
+          "start": 72.4,
+          "end": 72.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "geht",
+          "start": 72.76,
+          "end": 72.9,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "raus,",
+          "start": 72.9,
+          "end": 73.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "die",
+          "start": 73.36,
+          "end": 73.5,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Seite",
+          "start": 73.5,
+          "end": 74.14,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "lebt",
+          "start": 74.14,
+          "end": 75.34,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50623,
+        5618,
+        441,
+        1091,
+        7095,
+        17202,
+        11,
+        978,
+        19748,
+        476,
+        4517,
+        50785
+      ],
+      "avg_logprob": -0.4986650065371865,
+      "no_speech_prob": 0.6525810956954956,
+      "repair_window": [
+        67,
+        77
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 75.34,
+      "end": 76.48,
+      "text": "Play gedrückt",
+      "words": [
+        {
+          "word": "Play",
+          "start": 75.34,
+          "end": 75.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "gedrückt",
+          "start": 75.78,
+          "end": 76.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50785,
+        5506,
+        19238,
+        81,
+        37532,
+        50846
+      ],
+      "avg_logprob": -0.4986650065371865,
+      "no_speech_prob": 0.6525810956954956,
+      "repair_window": [
+        67,
+        77
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 77.0,
+      "end": 78.66,
+      "text": "Und der Bass still",
+      "words": [
+        {
+          "word": "Und",
+          "start": 77.0,
+          "end": 77.82,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "der",
+          "start": 77.82,
+          "end": 78.02,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Bass",
+          "start": 78.02,
+          "end": 78.3,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "still",
+          "start": 78.3,
+          "end": 78.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50365,
+        2719,
+        1163,
+        29626,
+        920,
+        50460
+      ],
+      "avg_logprob": -0.12018310192019441,
+      "no_speech_prob": 0.2823576033115387,
+      "repair_window": [
+        77,
+        87
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 78.66,
+      "end": 81.94,
+      "text": "Deploy auf Live, der Upload zählt die Dateien",
+      "words": [
+        {
+          "word": "Deploy",
+          "start": 78.66,
+          "end": 79.58,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "auf",
+          "start": 79.58,
+          "end": 79.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Live,",
+          "start": 79.78,
+          "end": 80.04,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "der",
+          "start": 80.22,
+          "end": 80.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Upload",
+          "start": 80.36,
+          "end": 80.9,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "zählt",
+          "start": 80.9,
+          "end": 81.06,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "die",
+          "start": 81.06,
+          "end": 81.22,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Dateien",
+          "start": 81.22,
+          "end": 81.94,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50460,
+        1346,
+        2384,
+        2501,
+        10385,
+        11,
+        1163,
+        624,
+        21132,
+        345,
+        710,
+        43376,
+        978,
+        31805,
+        1053,
+        50616
+      ],
+      "avg_logprob": -0.12018310192019441,
+      "no_speech_prob": 0.2823576033115387,
+      "repair_window": [
+        77,
+        87
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 81.94,
+      "end": 85.2,
+      "text": "Cover, Audio, Texte, alles muss dabei sein",
+      "words": [
+        {
+          "word": "Cover,",
+          "start": 81.94,
+          "end": 82.64,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Audio,",
+          "start": 82.72,
+          "end": 83.08,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Texte,",
+          "start": 83.22,
+          "end": 83.86,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "alles",
+          "start": 83.86,
+          "end": 84.16,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "muss",
+          "start": 84.16,
+          "end": 84.44,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "dabei",
+          "start": 84.44,
+          "end": 84.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "sein",
+          "start": 84.76,
+          "end": 85.2,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50616,
+        19106,
+        11,
+        25706,
+        11,
+        18643,
+        68,
+        11,
+        7874,
+        6425,
+        14967,
+        6195,
+        50787
+      ],
+      "avg_logprob": -0.12018310192019441,
+      "no_speech_prob": 0.2823576033115387,
+      "repair_window": [
+        77,
+        87
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 85.2,
+      "end": 86.8,
+      "text": "Ich lad die Seite neu",
+      "words": [
+        {
+          "word": "Ich",
+          "start": 85.2,
+          "end": 85.74,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "lad",
+          "start": 85.74,
+          "end": 85.86,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "die",
+          "start": 85.86,
+          "end": 86.14,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Seite",
+          "start": 86.14,
+          "end": 86.5,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "neu",
+          "start": 86.5,
+          "end": 86.8,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50787,
+        3141,
+        6632,
+        978,
+        19748,
+        22510,
+        50864
+      ],
+      "avg_logprob": -0.12018310192019441,
+      "no_speech_prob": 0.2823576033115387,
+      "repair_window": [
+        77,
+        87
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 87.0,
+      "end": 88.7,
+      "text": "Der Browser zeigt noch alt",
+      "words": [
+        {
+          "word": "Der",
+          "start": 87.0,
+          "end": 87.4,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Browser",
+          "start": 87.4,
+          "end": 87.84,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "zeigt",
+          "start": 87.84,
+          "end": 88.12,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "noch",
+          "start": 88.12,
+          "end": 88.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "alt",
+          "start": 88.32,
+          "end": 88.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50365,
+        5618,
+        1603,
+        30947,
+        29250,
+        3514,
+        4955,
+        50458
+      ],
+      "avg_logprob": -0.1887233482216889,
+      "no_speech_prob": 0.22688277065753937,
+      "repair_window": [
+        87,
+        97
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 88.7,
+      "end": 92.26,
+      "text": "Data Reload und Album 3 steht da, der Bass knallt",
+      "words": [
+        {
+          "word": "Data",
+          "start": 88.7,
+          "end": 89.06,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Reload",
+          "start": 89.06,
+          "end": 89.86,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "und",
+          "start": 89.86,
+          "end": 90.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Album",
+          "start": 90.0,
+          "end": 90.46,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "3",
+          "start": 90.46,
+          "end": 90.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "steht",
+          "start": 90.62,
+          "end": 90.86,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "da,",
+          "start": 90.86,
+          "end": 91.12,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "der",
+          "start": 91.16,
+          "end": 91.28,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Bass",
+          "start": 91.28,
+          "end": 91.6,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "knallt",
+          "start": 91.6,
+          "end": 92.26,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50458,
+        11888,
+        8738,
+        78,
+        345,
+        674,
+        967,
+        5559,
+        805,
+        16361,
+        1120,
+        11,
+        1163,
+        29626,
+        444,
+        336,
+        83,
+        50632
+      ],
+      "avg_logprob": -0.1887233482216889,
+      "no_speech_prob": 0.22688277065753937,
+      "repair_window": [
+        87,
+        97
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 92.26,
+      "end": 95.38,
+      "text": "Erst Deutsch, dann Englisch, jede Sprache prüf ich nach",
+      "words": [
+        {
+          "word": "Erst",
+          "start": 92.26,
+          "end": 92.48,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Deutsch,",
+          "start": 92.48,
+          "end": 93.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "dann",
+          "start": 93.04,
+          "end": 93.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Englisch,",
+          "start": 93.24,
+          "end": 94.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "jede",
+          "start": 94.0,
+          "end": 94.18,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Sprache",
+          "start": 94.18,
+          "end": 94.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "prüf",
+          "start": 94.66,
+          "end": 95.06,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "ich",
+          "start": 95.06,
+          "end": 95.14,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "nach",
+          "start": 95.14,
+          "end": 95.38,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50632,
+        31183,
+        12699,
+        11,
+        3594,
+        2469,
+        75,
+        5494,
+        11,
+        34039,
+        7702,
+        6000,
+        582,
+        39733,
+        1893,
+        5168,
+        50790
+      ],
+      "avg_logprob": -0.1887233482216889,
+      "no_speech_prob": 0.22688277065753937,
+      "repair_window": [
+        87,
+        97
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 95.38,
+      "end": 96.88,
+      "text": "Die Lyrics bleiben im Mord",
+      "words": [
+        {
+          "word": "Die",
+          "start": 95.38,
+          "end": 95.56,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Lyrics",
+          "start": 95.56,
+          "end": 96.02,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "bleiben",
+          "start": 96.02,
+          "end": 96.34,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "im",
+          "start": 96.34,
+          "end": 96.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Mord",
+          "start": 96.66,
+          "end": 96.88,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50790,
+        3229,
+        441,
+        11381,
+        24912,
+        566,
+        376,
+        765,
+        50865
+      ],
+      "avg_logprob": -0.1887233482216889,
+      "no_speech_prob": 0.22688277065753937,
+      "repair_window": [
+        87,
+        97
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 96.92,
+      "end": 98.78,
+      "text": "So wie ich sie gemacht",
+      "words": [
+        {
+          "word": "So",
+          "start": 96.92,
+          "end": 97.64,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "wie",
+          "start": 97.64,
+          "end": 97.94,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "ich",
+          "start": 97.94,
+          "end": 98.18,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "sie",
+          "start": 98.18,
+          "end": 98.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "gemacht",
+          "start": 98.32,
+          "end": 98.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50365,
+        407,
+        3355,
+        1893,
+        2804,
+        12293,
+        50465
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 98.78,
+      "end": 102.24,
+      "text": "Comedy Shippe-Pippe-Pippe-Pippe Check live",
+      "words": [
+        {
+          "word": "Comedy",
+          "start": 98.78,
+          "end": 99.94,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Shippe",
+          "start": 99.94,
+          "end": 100.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-Pippe",
+          "start": 100.62,
+          "end": 101.04,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-Pippe",
+          "start": 101.04,
+          "end": 101.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-Pippe",
+          "start": 101.32,
+          "end": 101.46,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Check",
+          "start": 101.46,
+          "end": 101.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "live",
+          "start": 101.7,
+          "end": 102.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50465,
+        47217,
+        1160,
+        2488,
+        68,
+        12,
+        47,
+        2488,
+        68,
+        12,
+        47,
+        2488,
+        68,
+        12,
+        47,
+        2488,
+        68,
+        6881,
+        1621,
+        50665
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 102.92,
+      "end": 105.62,
+      "text": "Comedy Shippe-Pippe-Pippe Album 3",
+      "words": [
+        {
+          "word": "Comedy",
+          "start": 102.92,
+          "end": 103.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Shippe",
+          "start": 103.36,
+          "end": 104.02,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-Pippe",
+          "start": 104.02,
+          "end": 104.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "-Pippe",
+          "start": 104.42,
+          "end": 104.6,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Album",
+          "start": 104.6,
+          "end": 105.2,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "3",
+          "start": 105.2,
+          "end": 105.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50665,
+        47217,
+        1160,
+        2488,
+        68,
+        12,
+        47,
+        2488,
+        68,
+        12,
+        47,
+        2488,
+        68,
+        967,
+        5559,
+        805,
+        50815
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 105.62,
+      "end": 109.14,
+      "text": "Der Link geht raus, die Seite leer",
+      "words": [
+        {
+          "word": "Der",
+          "start": 105.62,
+          "end": 106.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Link",
+          "start": 106.24,
+          "end": 106.58,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "geht",
+          "start": 106.58,
+          "end": 106.96,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "raus,",
+          "start": 106.96,
+          "end": 107.42,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "die",
+          "start": 107.58,
+          "end": 107.72,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Seite",
+          "start": 107.72,
+          "end": 108.38,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "leer",
+          "start": 108.38,
+          "end": 109.14,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50815,
+        5618,
+        8466,
+        7095,
+        17202,
+        11,
+        978,
+        19748,
+        34172,
+        50965
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 109.14,
+      "end": 110.72,
+      "text": "Kegel drückt",
+      "words": [
+        {
+          "word": "Kegel",
+          "start": 109.14,
+          "end": 110.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "drückt",
+          "start": 110.36,
+          "end": 110.72,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        50965,
+        591,
+        1146,
+        338,
+        1224,
+        37532,
+        51065
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 110.72,
+      "end": 112.96,
+      "text": "Und der Bass steht",
+      "words": [
+        {
+          "word": "Und",
+          "start": 110.72,
+          "end": 111.66,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "der",
+          "start": 111.66,
+          "end": 112.22,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "Bass",
+          "start": 112.22,
+          "end": 112.56,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        },
+        {
+          "word": "steht",
+          "start": 112.56,
+          "end": 112.96,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "full-window"
+        }
+      ],
+      "tokens": [
+        51065,
+        2719,
+        1163,
+        29626,
+        16361,
+        51165
+      ],
+      "avg_logprob": -0.40115571357834506,
+      "no_speech_prob": 0.8471329808235168,
+      "evidence_origin": "full-window large-v3"
+    },
+    {
+      "start": 113.0,
+      "end": 118.98,
+      "text": "Tricks, Cover, Doppelbild, Tische, Pro, Lilo, Lilo, Bäh, Bäh, Bäh, Almen.",
+      "words": [
+        {
+          "word": "Tricks,",
+          "start": 113.0,
+          "end": 113.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Cover,",
+          "start": 113.68,
+          "end": 114.24,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Doppelbild,",
+          "start": 114.4,
+          "end": 115.18,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Tische,",
+          "start": 115.22,
+          "end": 115.78,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Pro,",
+          "start": 115.98,
+          "end": 116.46,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Lilo,",
+          "start": 116.58,
+          "end": 117.04,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Lilo,",
+          "start": 117.06,
+          "end": 117.5,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Bäh,",
+          "start": 117.5,
+          "end": 117.92,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Bäh,",
+          "start": 118.06,
+          "end": 118.28,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Bäh,",
+          "start": 118.28,
+          "end": 118.44,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Almen.",
+          "start": 118.52,
+          "end": 118.98,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50365,
+        1765,
+        7663,
+        11,
+        19106,
+        11,
+        413,
+        17158,
+        338,
+        16248,
+        11,
+        314,
+        7864,
+        11,
+        1705,
+        11,
+        441,
+        10720,
+        11,
+        441,
+        10720,
+        11,
+        363,
+        6860,
+        11,
+        363,
+        6860,
+        11,
+        363,
+        6860,
+        11,
+        967,
+        2558,
+        13,
+        50668
+      ],
+      "avg_logprob": -0.4218893991389745,
+      "no_speech_prob": 0.27845871448516846,
+      "repair_window": [
+        113,
+        126
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 120.28,
+      "end": 125.72,
+      "text": "Tricks, Cover, Doppelbild, Tische, Pro, Lilo, Lilo, Bäh, Bäh, Bäh, Almen.",
+      "words": [
+        {
+          "word": "Tricks,",
+          "start": 120.28,
+          "end": 120.7,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Cover,",
+          "start": 120.7,
+          "end": 121.12,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Doppelbild,",
+          "start": 121.24,
+          "end": 121.96,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Tische,",
+          "start": 122.1,
+          "end": 122.6,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Pro,",
+          "start": 122.8,
+          "end": 123.3,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Lilo,",
+          "start": 123.42,
+          "end": 123.88,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Lilo,",
+          "start": 123.88,
+          "end": 124.32,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Bäh,",
+          "start": 124.32,
+          "end": 124.76,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Bäh,",
+          "start": 124.9,
+          "end": 125.08,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Bäh,",
+          "start": 125.08,
+          "end": 125.22,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Almen.",
+          "start": 125.28,
+          "end": 125.72,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50710,
+        1765,
+        7663,
+        11,
+        19106,
+        11,
+        413,
+        17158,
+        338,
+        16248,
+        11,
+        314,
+        7864,
+        11,
+        1705,
+        11,
+        441,
+        10720,
+        11,
+        441,
+        10720,
+        11,
+        363,
+        6860,
+        11,
+        363,
+        6860,
+        11,
+        363,
+        6860,
+        11,
+        967,
+        2558,
+        13,
+        51010
+      ],
+      "avg_logprob": -0.4218893991389745,
+      "no_speech_prob": 0.27845871448516846,
+      "repair_window": [
+        113,
+        126
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 137.5,
+      "end": 140.28,
+      "text": "Und der Bastel",
+      "words": [
+        {
+          "word": "Und",
+          "start": 137.5,
+          "end": 138.9,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "der",
+          "start": 138.9,
+          "end": 139.6,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Bastel",
+          "start": 139.6,
+          "end": 140.28,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50365,
+        2719,
+        1163,
+        31915,
+        338,
+        50591
+      ],
+      "avg_logprob": -0.9165259769984654,
+      "no_speech_prob": 0.7400832176208496,
+      "repair_window": [
+        136,
+        146
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 150.6,
+      "end": 152.62,
+      "text": "Nächste Zeit und nächste",
+      "words": [
+        {
+          "word": "Nächste",
+          "start": 150.6,
+          "end": 151.36,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "Zeit",
+          "start": 151.36,
+          "end": 151.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "und",
+          "start": 151.62,
+          "end": 152.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "nächste",
+          "start": 152.0,
+          "end": 152.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50365,
+        426,
+        10168,
+        2941,
+        9394,
+        674,
+        30661,
+        50706
+      ],
+      "avg_logprob": -0.8261440140860421,
+      "no_speech_prob": 0.36729130148887634,
+      "repair_window": [
+        146,
+        155.96
+      ],
+      "evidence_origin": "short-window large-v3"
+    },
+    {
+      "start": 152.62,
+      "end": 154.0,
+      "text": "Komm' auf",
+      "words": [
+        {
+          "word": "Komm'",
+          "start": 152.62,
+          "end": 153.62,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        },
+        {
+          "word": "auf",
+          "start": 153.78,
+          "end": 154.0,
+          "source_model": "mlx-community/whisper-large-v3-mlx",
+          "evidence_origin": "short-window"
+        }
+      ],
+      "tokens": [
+        50706,
+        18400,
+        6,
+        2501,
+        50775
+      ],
+      "avg_logprob": -0.8261440140860421,
+      "no_speech_prob": 0.36729130148887634,
+      "repair_window": [
+        146,
+        155.96
+      ],
+      "evidence_origin": "short-window large-v3"
+    }
+  ],
+  "source_full_asr_sha256": "2f6ed02c2039253bb85736ee2a8aa0785a55538a82754607fa7cf9c27f2faa14",
+  "source_repair_sha256": "95a2385fc5831d9cb929d8c271c2fc118b9746836614282b191d5a4cfc0c7083",
+  "curation_note": "Lange Wiederholungsfehler der 30-s-ASR wurden anhand unabhängiger kurzer Läufe auf derselben unveränderten WAV ersetzt. Keine manuelle Hörprüfung. Alle ersetzten Segmente sind dokumentiert.",
+  "excluded_segments": [
+    {
+      "start": 67.18,
+      "end": 96.92,
+      "text": "Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp, Schlepp",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 112.96,
+      "end": 116.06,
+      "text": "Tracks, Cover, Dabble, Will, Trap, Shack",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 116.06,
+      "end": 119.36,
+      "text": "Blue, Yellow, Willow, Black, Black, Black, Album 3",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 119.92,
+      "end": 122.9,
+      "text": "Tracks, Cover, Dabble, Will, Trap, Shack",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 122.9,
+      "end": 126.14,
+      "text": "Blue, Yellow, Will, Lock, Black, Black, Black, Album 3",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 126.7,
+      "end": 155.9,
+      "text": "Komm mit, ich schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe, schippe",
+      "reason": "Lange ASR-Wiederholung oder unklarer Text; durch unabhängige kurze Fenster ersetzt."
+    },
+    {
+      "start": 155.9,
+      "end": 155.92,
+      "text": "Vielen Dank.",
+      "reason": "Kurze ASR-Schlussfloskel ohne Lyrics- oder Turbo-Beleg."
+    },
+    {
+      "start": 126.0,
+      "end": 126.24,
+      "text": "!",
+      "reason": "Kein verwendbares Wort oder keine verwendbare Zeit im Reparaturfenster."
+    }
+  ]
+}

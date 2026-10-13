@@ -1,0 +1,56 @@
+[Intro]
+Samstag, zweiundzwanzig Uhr.
+Das Wartungsfenster ist offen.
+
+[Verse 1]
+Der Change ist genehmigt, der Rollback-Plan liegt bereit,
+die Mail an alle ging am Montag raus, mit Datum und mit Zeit.
+Vier Hosts im Cluster, Host eins wird leer geräumt,
+die VMs ziehen live hinüber, während draussen die Stadt träumt.
+Patch drauf, Neustart, ich starr auf die Konsole,
+der Bootscreen zählt, die Lüfter heulen, ich warte auf die Kontrolle.
+Host eins ist zurück, grün im Cluster, der Healthcheck passt,
+ich nehm mir Host zwei, Schritt für Schritt, keine Hast.
+
+[Chorus]
+Wartungsfenster.
+Vier Stunden Zeit.
+Wartungsfenster.
+Ein Plan, ein Weg zurück, bereit.
+Während alle schlafen, bau ich um,
+und am Montag fragt keiner, warum.
+
+[Verse 2]
+Null Uhr vierzig, Host drei bleibt beim Booten stehn,
+ein Treiber für die Netzwerkkarte, der Link ist down, ich kann's sehn.
+Ich roll den Treiber zurück, alte Version, Neustart, und warte,
+der Link kommt hoch, zehn Gigabit, grün auf der Karte.
+Host vier ohne Drama, ein Uhr siebenundvierzig, alles läuft,
+ich schliess den Change mit einer Notiz: Der Treiber bleibt, bis man ihn prüft.
+
+[Chorus]
+Wartungsfenster.
+Vier Stunden Zeit.
+Wartungsfenster.
+Ein Plan, ein Weg zurück, bereit.
+Während alle schlafen, bau ich um,
+und am Montag fragt keiner, warum.
+
+[Bridge]
+Kein Applaus um zwei Uhr nachts,
+kein Mensch, der es merkt, und genau das macht's.
+Läuft am Montag alles wie zuvor,
+dann war die Nacht ein Erfolg, leise, ohne Chor.
+
+[Chorus]
+Wartungsfenster.
+Vier Stunden Zeit.
+Wartungsfenster.
+Ein Plan, ein Weg zurück, bereit.
+Während alle schlafen, bau ich um,
+und am Montag fragt keiner, warum.
+
+[Outro]
+Ein Uhr siebenundvierzig.
+Change geschlossen.
+Das Wartungsfenster ist zu.

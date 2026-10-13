@@ -1,0 +1,50 @@
+{
+  "status": "pass",
+  "languages": {
+    "de": {
+      "duration_s": 245.9335,
+      "frames_60fps": 14757,
+      "shots": 58,
+      "hooks": 6,
+      "lyric_cues": 47,
+      "analysis_events": 47,
+      "screen_time_percent": {
+        "2D": 40.72,
+        "3D": 45.15,
+        "hybrid": 14.13
+      }
+    },
+    "en": {
+      "duration_s": 250.8,
+      "frames_60fps": 15048,
+      "shots": 58,
+      "hooks": 6,
+      "lyric_cues": 46,
+      "analysis_events": 47,
+      "screen_time_percent": {
+        "2D": 40.77,
+        "3D": 44.9,
+        "hybrid": 14.34
+      }
+    }
+  },
+  "directories": [
+    "01_Vibecoder",
+    "02_Token_Burn",
+    "03_SHIP_IT",
+    "04_AI_Slop",
+    "05_Hallucination",
+    "06_Context_Window"
+  ],
+  "checks": [
+    "source_hashes",
+    "audio_duration",
+    "frame_continuity",
+    "unique_lyric_event_assignment",
+    "actual_asr_hook_boundaries",
+    "preserved_review_flags",
+    "local_markdown_links",
+    "empty_placeholder_directories",
+    "installer_copy_idempotence_and_conflict_preservation"
+  ]
+}

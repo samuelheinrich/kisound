@@ -1,0 +1,435 @@
+{
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "frame": 6000,
+  "next_frame": 9000,
+  "segments": [
+    {
+      "start": 60.0,
+      "end": 62.84,
+      "text": "I reload once, the base goes mute.",
+      "words": [
+        {
+          "word": "I",
+          "start": 60.2,
+          "end": 60.52
+        },
+        {
+          "word": "reload",
+          "start": 60.52,
+          "end": 61.08
+        },
+        {
+          "word": "once",
+          "start": 61.08,
+          "end": 61.16
+        },
+        {
+          "word": ",",
+          "start": 61.16,
+          "end": 61.9
+        },
+        {
+          "word": "the",
+          "start": 61.9,
+          "end": 62.12
+        },
+        {
+          "word": "base",
+          "start": 62.12,
+          "end": 62.36
+        },
+        {
+          "word": "goes",
+          "start": 62.36,
+          "end": 62.7
+        },
+        {
+          "word": "mute",
+          "start": 62.7,
+          "end": 62.82
+        },
+        {
+          "word": ".",
+          "start": 62.82,
+          "end": 63.54
+        }
+      ],
+      "tokens": [
+        50365,
+        286,
+        25628,
+        1564,
+        11,
+        264,
+        3096,
+        1709,
+        24523,
+        13,
+        50507
+      ]
+    },
+    {
+      "start": 63.42,
+      "end": 66.12,
+      "text": "We fix the save, then execute.",
+      "words": [
+        {
+          "word": "We",
+          "start": 63.64,
+          "end": 63.98
+        },
+        {
+          "word": "fix",
+          "start": 63.98,
+          "end": 64.16
+        },
+        {
+          "word": "the",
+          "start": 64.16,
+          "end": 64.52
+        },
+        {
+          "word": "save",
+          "start": 64.52,
+          "end": 64.58
+        },
+        {
+          "word": ",",
+          "start": 64.58,
+          "end": 65.04
+        },
+        {
+          "word": "then",
+          "start": 65.04,
+          "end": 65.82
+        },
+        {
+          "word": "execute",
+          "start": 65.82,
+          "end": 66.94
+        },
+        {
+          "word": ".",
+          "start": 66.94,
+          "end": 66.94
+        }
+      ],
+      "tokens": [
+        50536,
+        492,
+        3191,
+        264,
+        3155,
+        11,
+        550,
+        14483,
+        13,
+        50671
+      ]
+    },
+    {
+      "start": 67.04,
+      "end": 69.92,
+      "text": "The build now works, the way it should.",
+      "words": [
+        {
+          "word": "The",
+          "start": 67.18,
+          "end": 67.46
+        },
+        {
+          "word": "build",
+          "start": 67.46,
+          "end": 67.66
+        },
+        {
+          "word": "now",
+          "start": 67.66,
+          "end": 68.04
+        },
+        {
+          "word": "works",
+          "start": 68.04,
+          "end": 68.28
+        },
+        {
+          "word": ",",
+          "start": 68.28,
+          "end": 68.92
+        },
+        {
+          "word": "the",
+          "start": 68.92,
+          "end": 69.18
+        },
+        {
+          "word": "way",
+          "start": 69.18,
+          "end": 69.38
+        },
+        {
+          "word": "it",
+          "start": 69.38,
+          "end": 69.68
+        },
+        {
+          "word": "should",
+          "start": 69.68,
+          "end": 69.86
+        },
+        {
+          "word": ".",
+          "start": 69.86,
+          "end": 70.26
+        }
+      ],
+      "tokens": [
+        50717,
+        440,
+        1322,
+        586,
+        1985,
+        11,
+        264,
+        636,
+        309,
+        820,
+        13,
+        50861
+      ]
+    },
+    {
+      "start": 70.5,
+      "end": 74.64,
+      "text": "It's two o'clock, this one is good.",
+      "words": [
+        {
+          "word": "It's",
+          "start": 70.66,
+          "end": 70.94
+        },
+        {
+          "word": "two",
+          "start": 70.94,
+          "end": 71.16
+        },
+        {
+          "word": "o",
+          "start": 71.16,
+          "end": 71.26
+        },
+        {
+          "word": "'clock",
+          "start": 71.26,
+          "end": 71.68
+        },
+        {
+          "word": ",",
+          "start": 71.68,
+          "end": 73.16
+        },
+        {
+          "word": "this",
+          "start": 73.16,
+          "end": 73.4
+        },
+        {
+          "word": "one",
+          "start": 73.4,
+          "end": 73.96
+        },
+        {
+          "word": "is",
+          "start": 73.96,
+          "end": 74.4
+        },
+        {
+          "word": "good",
+          "start": 74.4,
+          "end": 74.5
+        },
+        {
+          "word": ".",
+          "start": 74.5,
+          "end": 75.68
+        }
+      ],
+      "tokens": [
+        50890,
+        467,
+        311,
+        732,
+        277,
+        6,
+        9023,
+        11,
+        341,
+        472,
+        307,
+        665,
+        13,
+        51097
+      ]
+    },
+    {
+      "start": 80.7,
+      "end": 84.32,
+      "text": "The prompt goes out, the words come in.",
+      "words": [
+        {
+          "word": "The",
+          "start": 81.32,
+          "end": 81.68
+        },
+        {
+          "word": "prompt",
+          "start": 81.68,
+          "end": 82.0
+        },
+        {
+          "word": "goes",
+          "start": 82.0,
+          "end": 82.66
+        },
+        {
+          "word": "out",
+          "start": 82.66,
+          "end": 82.74
+        },
+        {
+          "word": ",",
+          "start": 82.74,
+          "end": 82.88
+        },
+        {
+          "word": "the",
+          "start": 82.88,
+          "end": 83.3
+        },
+        {
+          "word": "words",
+          "start": 83.3,
+          "end": 83.56
+        },
+        {
+          "word": "come",
+          "start": 83.56,
+          "end": 84.1
+        },
+        {
+          "word": "in",
+          "start": 84.1,
+          "end": 84.2
+        },
+        {
+          "word": ".",
+          "start": 84.2,
+          "end": 84.52
+        }
+      ],
+      "tokens": [
+        51400,
+        440,
+        12391,
+        1709,
+        484,
+        11,
+        264,
+        2283,
+        808,
+        294,
+        13,
+        51581
+      ]
+    },
+    {
+      "start": 84.32,
+      "end": 87.32,
+      "text": "I see a place we could begin.",
+      "words": [
+        {
+          "word": "I",
+          "start": 84.82,
+          "end": 85.12
+        },
+        {
+          "word": "see",
+          "start": 85.12,
+          "end": 85.36
+        },
+        {
+          "word": "a",
+          "start": 85.36,
+          "end": 85.84
+        },
+        {
+          "word": "place",
+          "start": 85.84,
+          "end": 86.22
+        },
+        {
+          "word": "we",
+          "start": 86.22,
+          "end": 86.62
+        },
+        {
+          "word": "could",
+          "start": 86.62,
+          "end": 87.5
+        },
+        {
+          "word": "begin",
+          "start": 87.5,
+          "end": 87.7
+        },
+        {
+          "word": ".",
+          "start": 87.7,
+          "end": 88.18
+        }
+      ],
+      "tokens": [
+        51581,
+        286,
+        536,
+        257,
+        1081,
+        321,
+        727,
+        1841,
+        13,
+        51731,
+        51786
+      ]
+    },
+    {
+      "start": 87.32,
+      "end": 89.0,
+      "text": "Thank you.",
+      "words": [
+        {
+          "word": "Thank",
+          "start": 88.46,
+          "end": 88.74
+        },
+        {
+          "word": "you",
+          "start": 88.74,
+          "end": 88.74
+        },
+        {
+          "word": ".",
+          "start": 88.74,
+          "end": 88.74
+        }
+      ],
+      "tokens": [
+        50365,
+        1044,
+        291,
+        13,
+        50449
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import {Timeline} from '../render/timeline.js';
+const root=new URL('../../',import.meta.url);
+const tl=new Timeline(JSON.parse(fs.readFileSync(new URL('ASTRA-AUDIO-ANALYSE.json',root))));
+const tc=t=>`${String(Math.floor(t/60)).padStart(2,'0')}:${(t%60).toFixed(3).padStart(6,'0')}`;
+let s='# WiFi Roaming — Schnitt- und Cue-Zuordnung V3\n\nBrowserfassung zur Freigabe. Kein neuer Videoexport. Zeiten beziehen sich auf die Original-WAV.\n\n'+tl.shots.length+' feste Einstellungen; die kurzen Gang-Inserts wurden nahe gemessenen Onsets gesetzt.\nDie Zuordnung benennt Events und beginnende Lyrics, ohne deren Zeiten zu verschieben.\nE039 wird nicht als Fade umgesetzt; Schlussblende ab 175,4 s.\n\n| Shot | Start | Ende | Raum / Motiv | Audio-Cues | Lyrics |\n| --- | --- | --- | --- | --- | --- |\n';
+for(const x of tl.shots)s+=`| ${x.id} | ${tc(x.start)} | ${tc(x.end)} | ${x.zone} / ${x.camera} | ${x.eventIds.join(', ')||'–'} | ${x.lyricIds.join(', ')||'–'} |\n`;
+s+='\nMotive: `packet` verfolgt DATA/ACK, `mimo` zeigt drei parallele Downlink-Ströme,\n`rts` RTS/CTS/DATA/ACK, `action` 802.11k/v, `keys` die vier EAPOL-Nachrichten,\n`radar` Monitoring, `dfs` den tatsächlichen Kanalwechsel, `scan` Kanal-Dwell,\n`signal`/`sticky` RSSI/SNR, `tunnel` den langen Gang, `closing` den abschliessenden Titel.\n';
+fs.writeFileSync(new URL('UMSETZUNG-CUES.md',root),s);
+console.log('Cue-Tabelle aktualisiert:',tl.shots.length,'Einstellungen');

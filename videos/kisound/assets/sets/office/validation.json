@@ -1,0 +1,17 @@
+{
+  "setId": "office",
+  "status": "OK",
+  "triangles": 580,
+  "budget": 250000,
+  "meshes": 15,
+  "anchors": 8,
+  "materials": [
+    "cavity",
+    "chassis",
+    "glass",
+    "plastic",
+    "wood"
+  ],
+  "errors": [],
+  "warnings": []
+}

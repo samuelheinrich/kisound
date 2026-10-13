@@ -1,0 +1,300 @@
+1
+00:00:07,580 --> 00:00:09,480
+Du kennst mich als Ping.
+
+2
+00:00:11,180 --> 00:00:13,280
+Du kennst nur den Anfang.
+
+3
+00:00:15,240 --> 00:00:16,020
+ICMP.
+
+4
+00:00:16,660 --> 00:00:19,660
+Hör hin.
+
+5
+00:00:25,760 --> 00:00:28,480
+Du tippst vier Zeichen, wartest kurz,
+
+6
+00:00:28,480 --> 00:00:31,160
+ein Echo kommt zu dir zurück.
+
+7
+00:00:33,340 --> 00:00:34,840
+Echo Request.
+
+8
+00:00:36,900 --> 00:00:38,560
+Echo Reply.
+
+9
+00:00:40,420 --> 00:00:43,880
+Du misst die Zeit und gehst vorbei.
+
+10
+00:00:43,880 --> 00:00:47,820
+Der Host gibt Antwort, doch dein Dienst steht still.
+
+11
+00:00:49,360 --> 00:00:51,660
+Ein Ping sagt nicht, ob deine App auch will.
+
+12
+00:00:51,800 --> 00:00:55,380
+Du kennst mein Echo, übersiehst den Rest.
+
+13
+00:00:55,660 --> 00:00:59,300
+Ich spreche dort, wo dich das Netz im Dunkeln lässt.
+
+14
+00:01:00,600 --> 00:01:01,340
+ICMP.
+
+15
+00:01:01,340 --> 00:01:02,880
+Mehr als ein Ping.
+
+16
+00:01:03,060 --> 00:01:04,780
+Jeder ruft mich.
+
+17
+00:01:05,000 --> 00:01:06,660
+Kaum einer hört hin.
+
+18
+00:01:07,600 --> 00:01:08,340
+ICMP.
+
+19
+00:01:08,680 --> 00:01:10,280
+Unterschätz meine Stimme nicht.
+
+20
+00:01:10,560 --> 00:01:13,240
+Wo dein Paket an Grenzen stößt,
+
+21
+00:01:13,240 --> 00:01:15,520
+bring ich den Grund ans Licht.
+
+22
+00:01:15,620 --> 00:01:18,720
+Ping kommt durch, der Transfer steht,
+
+23
+00:01:19,360 --> 00:01:22,540
+weil das große Paket nicht weitergeht.
+
+24
+00:01:23,480 --> 00:01:24,240
+Don't Fragment.
+
+25
+00:01:24,240 --> 00:01:26,620
+Der Router wirft es raus.
+
+26
+00:01:26,620 --> 00:01:28,600
+Fragmentation Needed.
+
+27
+00:01:28,600 --> 00:01:30,380
+Die Antwort zeigt den Engpass auf.
+
+28
+00:01:30,380 --> 00:01:32,060
+Path MTU Discovery.
+
+29
+00:01:32,060 --> 00:01:34,380
+Der Sender passt die Größe an.
+
+30
+00:01:34,380 --> 00:01:36,420
+Sperrst du die Meldung, fehlt der Hinweis,
+
+31
+00:01:36,420 --> 00:01:38,080
+und dein Transfer hängt daran.
+
+32
+00:01:38,080 --> 00:01:39,780
+Echo Reply.
+
+33
+00:01:39,940 --> 00:01:41,860
+Time Exceeded.
+
+34
+00:01:41,860 --> 00:01:42,800
+Redirect.
+
+35
+00:01:43,100 --> 00:01:45,120
+Hör, was das Netz dir sagt.
+
+36
+00:01:45,120 --> 00:01:45,820
+ICMP.
+
+37
+00:01:48,320 --> 00:01:49,880
+Mehr als ein Ping.
+
+38
+00:01:52,660 --> 00:01:55,700
+Du schickst die Probe weiter raus,
+
+39
+00:01:56,960 --> 00:02:00,020
+die TTL läuft unterwegs aus.
+
+40
+00:02:00,020 --> 00:02:01,500
+Time Exceeded.
+
+41
+00:02:01,500 --> 00:02:03,580
+Ein Router meldet sich.
+
+42
+00:02:04,280 --> 00:02:05,720
+Traceroute folgt diesen Spuren,
+
+43
+00:02:05,720 --> 00:02:07,620
+Hop für Hop wird sichtbar für dich.
+
+44
+00:02:07,620 --> 00:02:09,900
+Destination Unreachable.
+
+45
+00:02:09,900 --> 00:02:11,600
+Lies den Code, bevor du rätst.
+
+46
+00:02:11,780 --> 00:02:13,100
+Ein Fehler hat dir mehr zu sagen
+
+47
+00:02:13,100 --> 00:02:15,460
+als ein Kreis, der sich nur dreht.
+
+48
+00:02:16,540 --> 00:02:17,680
+ICMP.
+
+49
+00:02:17,980 --> 00:02:19,740
+Mehr als ein Ping.
+
+50
+00:02:19,740 --> 00:02:21,640
+Jeder ruft mich.
+
+51
+00:02:21,860 --> 00:02:23,560
+Kaum einer hört hin.
+
+52
+00:02:23,560 --> 00:02:25,200
+ICMP.
+
+53
+00:02:25,500 --> 00:02:27,160
+Unterschätz meine Stimme nicht.
+
+54
+00:02:27,160 --> 00:02:30,140
+Wo dein Paket an Grenzen stößt,
+
+55
+00:02:30,140 --> 00:02:32,200
+bring ich den Grund ans Licht.
+
+56
+00:02:32,200 --> 00:02:34,400
+Dein Gateway kennt den nächsten Router,
+
+57
+00:02:34,400 --> 00:02:36,360
+im selben Netz wie dein Gerät.
+
+58
+00:02:36,360 --> 00:02:37,820
+Redirect sagt deinem Host,
+
+59
+00:02:37,940 --> 00:02:39,660
+dass es für dieses Ziel direkter geht.
+
+60
+00:02:39,660 --> 00:02:41,620
+Du prüfst den Hinweis, prüfst die Quelle,
+
+61
+00:02:41,620 --> 00:02:43,520
+bevor dein Host den Weg neu wählt.
+
+62
+00:02:43,520 --> 00:02:45,480
+Ich bin die Stimme aus der Leitung.
+
+63
+00:02:45,820 --> 00:02:47,660
+Jetzt hörst du, was das Netz erzählt.
+
+64
+00:02:49,620 --> 00:02:50,220
+ICMP.
+
+65
+00:02:50,220 --> 00:02:51,640
+Mehr als ein Ping.
+
+66
+00:02:51,640 --> 00:02:53,500
+Jeder ruft mich.
+
+67
+00:02:53,720 --> 00:02:55,400
+Jetzt hörst du hin.
+
+68
+00:02:56,500 --> 00:02:57,100
+ICMP.
+
+69
+00:02:57,400 --> 00:02:59,060
+Unterschätz meine Stimme nicht.
+
+70
+00:02:59,060 --> 00:03:01,360
+Das Netz hat dir genug zu sagen.
+
+71
+00:03:01,360 --> 00:03:04,780
+Hör zu, wenn es mit dir spricht.
+
+72
+00:03:10,640 --> 00:03:11,240
+Request.
+
+73
+00:03:11,320 --> 00:03:11,800
+Reply.
+
+74
+00:03:11,800 --> 00:03:15,780
+Du kennst jetzt mehr.
+
+75
+00:03:18,220 --> 00:03:19,620
+ICMP.
+

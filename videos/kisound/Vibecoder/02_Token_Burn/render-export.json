@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "02_Token_Burn_DE",
+  "title": "Token Burn",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/token-burn-de.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

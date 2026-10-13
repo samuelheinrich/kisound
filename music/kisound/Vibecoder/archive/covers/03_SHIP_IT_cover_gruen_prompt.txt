@@ -1,0 +1,28 @@
+SHIP IT · Cover-Generierung
+Datum: 2026-10-10
+Werkzeug: integriertes image_gen über codex exec
+Bild: 03_SHIP_IT_cover.png
+Verwendung: gemeinsames Trackcover für Deutsch und Englisch und alle Varianten (suno-0.1, V1–V3)
+
+EXAKTER GENERIERUNGSPROMPT:
+
+Use case: stylized-concept
+Asset type: finished square electronic single cover, 1:1, edge-to-edge artwork.
+Primary request: Create a striking, professionally art-directed cover for "SHIP IT" by Samuel Heinrich, from the album "Vibecoder". The music is hard, bass-heavy industrial electro; the story is the climax of the album: the moment a self-built app is committed, pushed through a build pipeline and released to the public. GIT IT, SHIP IT.
+
+Scene and subject: A dark industrial release line rendered as a beautifully crafted cinematic 3D miniature. On the left, a single heavy oversized mechanical Enter key on a matte charcoal keyboard block, pressed down hard, with a short shock ring of light. From it, a thin glowing git commit graph runs like a rail track to the right, with small round commit nodes and one merging branch. Along this rail stand four compact heavy machined stations, like industrial presses or stamping machines, in a row; each has a small square status lamp on top. The first lamp is red, the next three are bright signal green, suggesting a failed check that was fixed. At the end of the rail a slim open laptop shows a simple abstract app window with a single large green check mark. Precise, mechanical, physical, no person is necessary.
+
+Composition: Bold editorial cover with enormous stacked geometric sans-serif title occupying the upper half: "SHIP" in warm off-white, "IT" in saturated signal green. Strong condensed heavy typography, tight confident spacing, clean exact letterforms, instantly readable as a small streaming thumbnail. Give the typography a subtle sculptural extrusion like stamped steel and let it relate spatially to the release line in the lower half, without obstructing any letters. Strong simple silhouette, generous dark negative space, clear left-to-right motion; tiny restrained artist credit and album credit at the bottom, safely inset.
+
+Style: sophisticated combination of crisp Swiss electronic-record typography and tactile cinematic 3D illustration; brushed and blackened steel, matte charcoal, smoked glass, subtle analog grain. A contemporary underground industrial electro release, heavy, precise and controlled, in the same series as a previous cover with a nocturnal coding miniature.
+
+Lighting and palette: deep midnight charcoal #10141C, off-white #F4F3EA, vivid signal green #39FF88 for the title accent, status lamps and the commit rail, one small warning red #FF3B3B lamp, faint electric-cyan #44DDE5 rim light on metal edges. Low-key industrial hall atmosphere, hard top light on the machines, green glow spilling forward along the rail. Powerful, decisive, triumphant and cool.
+
+Text (verbatim, only these words):
+"SHIP"
+"IT"
+"SAMUEL HEINRICH"
+"VIBECODER"
+
+Constraints: polished square cover, opaque background. Title is the dominant element. Both German and English releases use this same cover. The rail, stations and laptop should be geometrically coherent. Small UI marks may be abstract graphic blocks, with no fake paragraphs of text and no readable code.
+Avoid: literal ships, boats, anchors or shipping containers, rockets, generic hooded hacker, corporate or GitHub logos, octocat, stock-photo look, dense cyberpunk city, magenta neon, excessive bloom, illegible or misspelled title, extra slogans, watermarks, border, mockup of a record sleeve. Deliver the artwork itself.

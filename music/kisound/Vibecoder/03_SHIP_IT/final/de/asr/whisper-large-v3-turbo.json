@@ -1,0 +1,5219 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "model_snapshot": "/Users/samuel.heinrich/.cache/huggingface/hub/models--mlx-community--whisper-large-v3-turbo/snapshots/a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb",
+  "weights_sha256": "951ed3fc1203e6a62467abb2144a96ce7eafca8fa77e3704fdb8635ff3e7f8a6",
+  "runtime": "PyTorch CPU / Transformers; MLX weights converted in memory",
+  "package_versions": {
+    "transformers": "4.57.6",
+    "safetensors": "0.7.0",
+    "mlx_whisper": "0.4.3",
+    "numpy": "2.3.5",
+    "torch": "2.10.0"
+  },
+  "source_audio": "/Users/samuel.heinrich/0004_git/music/kisound/Vibecoder/03_SHIP_IT/final/03_SHIP_IT_suno-v3_50_50_exakt_off_DE.wav",
+  "source_audio_sha256": "689d662c3d10ba9bd08c787315635ff4bba6d97f8a5db54343486dd4c7958259",
+  "language": "de",
+  "duration_seconds": 155.96,
+  "parameters": {
+    "temperature": 0,
+    "condition_on_prev_tokens": false,
+    "return_token_timestamps": true,
+    "lyrics_prompt": null,
+    "vocabulary_hint": null,
+    "chunk_seconds": 30,
+    "dtype": "torch.float32",
+    "encoder_attention": "SDPA, not retained",
+    "decoder_attention": "eager, retained for word DTW"
+  },
+  "elapsed_seconds": 291.5,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "text": "Album 3 geht raus",
+      "words": [
+        {
+          "word": "Album",
+          "start": 7.42,
+          "end": 7.86
+        },
+        {
+          "word": "3",
+          "start": 7.86,
+          "end": 9.56
+        },
+        {
+          "word": "geht",
+          "start": 9.56,
+          "end": 9.98
+        },
+        {
+          "word": "raus",
+          "start": 9.98,
+          "end": 11.1
+        }
+      ],
+      "tokens": [
+        50365,
+        967,
+        5559,
+        805,
+        7095,
+        17202,
+        50865
+      ]
+    },
+    {
+      "start": 10.0,
+      "end": 27.22,
+      "text": "Album 3 geht raus",
+      "words": [
+        {
+          "word": "Album",
+          "start": 19.18,
+          "end": 20.22
+        },
+        {
+          "word": "3",
+          "start": 20.22,
+          "end": 26.68
+        },
+        {
+          "word": "geht",
+          "start": 26.68,
+          "end": 27.12
+        },
+        {
+          "word": "raus",
+          "start": 27.12,
+          "end": 27.52
+        }
+      ],
+      "tokens": [
+        50865,
+        967,
+        5559,
+        805,
+        7095,
+        17202,
+        51726,
+        51726
+      ]
+    },
+    {
+      "start": 27.22,
+      "end": 29.98,
+      "text": "Neue Tracks im Ordner, jedes Cover liegt",
+      "words": [
+        {
+          "word": "Neue",
+          "start": 27.74,
+          "end": 28.14
+        },
+        {
+          "word": "Tracks",
+          "start": 28.14,
+          "end": 28.48
+        },
+        {
+          "word": "im",
+          "start": 28.48,
+          "end": 28.66
+        },
+        {
+          "word": "Ordner",
+          "start": 28.66,
+          "end": 28.96
+        },
+        {
+          "word": ",",
+          "start": 28.96,
+          "end": 29.22
+        },
+        {
+          "word": "jedes",
+          "start": 29.22,
+          "end": 29.64
+        },
+        {
+          "word": "Cover",
+          "start": 29.64,
+          "end": 29.98
+        },
+        {
+          "word": "liegt",
+          "start": 29.98,
+          "end": 29.98
+        }
+      ],
+      "tokens": [
+        50365,
+        1734,
+        622,
+        1765,
+        7424,
+        566,
+        29388,
+        1193,
+        11,
+        36119,
+        19106,
+        22421,
+        50503
+      ]
+    },
+    {
+      "start": 30.0,
+      "end": 34.0,
+      "text": "MPM run, bild die Seiten stehen nach kurzer Zeit",
+      "words": [
+        {
+          "word": "MPM",
+          "start": 30.88,
+          "end": 31.66
+        },
+        {
+          "word": "run",
+          "start": 31.66,
+          "end": 31.92
+        },
+        {
+          "word": ",",
+          "start": 31.92,
+          "end": 32.06
+        },
+        {
+          "word": "bild",
+          "start": 32.06,
+          "end": 32.32
+        },
+        {
+          "word": "die",
+          "start": 32.32,
+          "end": 32.58
+        },
+        {
+          "word": "Seiten",
+          "start": 32.58,
+          "end": 32.9
+        },
+        {
+          "word": "stehen",
+          "start": 32.9,
+          "end": 33.12
+        },
+        {
+          "word": "nach",
+          "start": 33.12,
+          "end": 33.32
+        },
+        {
+          "word": "kurzer",
+          "start": 33.32,
+          "end": 33.88
+        },
+        {
+          "word": "Zeit",
+          "start": 33.88,
+          "end": 34.12
+        }
+      ],
+      "tokens": [
+        50365,
+        14146,
+        44,
+        1190,
+        11,
+        22105,
+        978,
+        45200,
+        19777,
+        5168,
+        10072,
+        4527,
+        9394,
+        50565
+      ]
+    },
+    {
+      "start": 34.0,
+      "end": 37.12,
+      "text": "MPM run, check ein Fehler, rot und klar",
+      "words": [
+        {
+          "word": "MPM",
+          "start": 34.32,
+          "end": 35.1
+        },
+        {
+          "word": "run",
+          "start": 35.1,
+          "end": 35.3
+        },
+        {
+          "word": ",",
+          "start": 35.3,
+          "end": 35.46
+        },
+        {
+          "word": "check",
+          "start": 35.46,
+          "end": 35.68
+        },
+        {
+          "word": "ein",
+          "start": 35.68,
+          "end": 36.06
+        },
+        {
+          "word": "Fehler",
+          "start": 36.06,
+          "end": 36.24
+        },
+        {
+          "word": ",",
+          "start": 36.24,
+          "end": 36.48
+        },
+        {
+          "word": "rot",
+          "start": 36.48,
+          "end": 36.7
+        },
+        {
+          "word": "und",
+          "start": 36.7,
+          "end": 37.04
+        },
+        {
+          "word": "klar",
+          "start": 37.04,
+          "end": 37.26
+        }
+      ],
+      "tokens": [
+        50565,
+        14146,
+        44,
+        1190,
+        11,
+        1520,
+        1343,
+        48101,
+        11,
+        4297,
+        674,
+        14743,
+        50721
+      ]
+    },
+    {
+      "start": 37.12,
+      "end": 40.6,
+      "text": "Ein Cover fehlt, der da hat die Name nicht so wie er war",
+      "words": [
+        {
+          "word": "Ein",
+          "start": 37.4,
+          "end": 37.76
+        },
+        {
+          "word": "Cover",
+          "start": 37.76,
+          "end": 38.1
+        },
+        {
+          "word": "fehlt",
+          "start": 38.1,
+          "end": 38.24
+        },
+        {
+          "word": ",",
+          "start": 38.24,
+          "end": 38.3
+        },
+        {
+          "word": "der",
+          "start": 38.3,
+          "end": 38.46
+        },
+        {
+          "word": "da",
+          "start": 38.46,
+          "end": 38.6
+        },
+        {
+          "word": "hat",
+          "start": 38.6,
+          "end": 38.72
+        },
+        {
+          "word": "die",
+          "start": 38.72,
+          "end": 39.02
+        },
+        {
+          "word": "Name",
+          "start": 39.02,
+          "end": 39.34
+        },
+        {
+          "word": "nicht",
+          "start": 39.34,
+          "end": 39.56
+        },
+        {
+          "word": "so",
+          "start": 39.56,
+          "end": 39.78
+        },
+        {
+          "word": "wie",
+          "start": 39.78,
+          "end": 40.14
+        },
+        {
+          "word": "er",
+          "start": 40.14,
+          "end": 40.46
+        },
+        {
+          "word": "war",
+          "start": 40.46,
+          "end": 40.66
+        }
+      ],
+      "tokens": [
+        50721,
+        6391,
+        19106,
+        47994,
+        11,
+        1163,
+        1120,
+        2385,
+        978,
+        13866,
+        1979,
+        370,
+        3355,
+        1189,
+        1516,
+        50895
+      ]
+    },
+    {
+      "start": 40.6,
+      "end": 42.78,
+      "text": "Ein Unterstrich, zu viel",
+      "words": [
+        {
+          "word": "Ein",
+          "start": 40.94,
+          "end": 41.18
+        },
+        {
+          "word": "Unterstrich",
+          "start": 41.18,
+          "end": 41.8
+        },
+        {
+          "word": ",",
+          "start": 41.8,
+          "end": 41.96
+        },
+        {
+          "word": "zu",
+          "start": 41.96,
+          "end": 42.44
+        },
+        {
+          "word": "viel",
+          "start": 42.44,
+          "end": 43.16
+        }
+      ],
+      "tokens": [
+        50895,
+        6391,
+        12065,
+        9733,
+        480,
+        11,
+        2164,
+        5891,
+        51004
+      ]
+    },
+    {
+      "start": 42.78,
+      "end": 45.04,
+      "text": "Ich bin in die Datei zurück",
+      "words": [
+        {
+          "word": "Ich",
+          "start": 43.38,
+          "end": 43.62
+        },
+        {
+          "word": "bin",
+          "start": 43.62,
+          "end": 43.86
+        },
+        {
+          "word": "in",
+          "start": 43.86,
+          "end": 44.06
+        },
+        {
+          "word": "die",
+          "start": 44.06,
+          "end": 44.34
+        },
+        {
+          "word": "Datei",
+          "start": 44.34,
+          "end": 44.84
+        },
+        {
+          "word": "zurück",
+          "start": 44.84,
+          "end": 45.74
+        }
+      ],
+      "tokens": [
+        51004,
+        3141,
+        5171,
+        294,
+        978,
+        31805,
+        72,
+        15089,
+        51117
+      ]
+    },
+    {
+      "start": 45.04,
+      "end": 49.620000000000005,
+      "text": "Check nochmal, null Fehler",
+      "words": [
+        {
+          "word": "Check",
+          "start": 47.44,
+          "end": 47.9
+        },
+        {
+          "word": "nochmal",
+          "start": 47.9,
+          "end": 48.6
+        },
+        {
+          "word": ",",
+          "start": 48.6,
+          "end": 48.82
+        },
+        {
+          "word": "null",
+          "start": 48.82,
+          "end": 49.54
+        },
+        {
+          "word": "Fehler",
+          "start": 49.54,
+          "end": 50.06
+        }
+      ],
+      "tokens": [
+        51117,
+        6881,
+        26509,
+        11,
+        18184,
+        48101,
+        51346
+      ]
+    },
+    {
+      "start": 49.620000000000005,
+      "end": 51.42,
+      "text": "Jetzt kommt das letzte Stück",
+      "words": [
+        {
+          "word": "Jetzt",
+          "start": 50.26,
+          "end": 50.48
+        },
+        {
+          "word": "kommt",
+          "start": 50.48,
+          "end": 50.7
+        },
+        {
+          "word": "das",
+          "start": 50.7,
+          "end": 51.04
+        },
+        {
+          "word": "letzte",
+          "start": 51.04,
+          "end": 51.34
+        },
+        {
+          "word": "Stück",
+          "start": 51.34,
+          "end": 51.74
+        }
+      ],
+      "tokens": [
+        51346,
+        12592,
+        10047,
+        1482,
+        35236,
+        31146,
+        51436
+      ]
+    },
+    {
+      "start": 51.42,
+      "end": 55.1,
+      "text": "Comedy-Shit-B-B-B-B-B-B-B-Check-Life",
+      "words": [
+        {
+          "word": "Comedy",
+          "start": 52.24,
+          "end": 52.24
+        },
+        {
+          "word": "-Shit",
+          "start": 52.24,
+          "end": 52.82
+        },
+        {
+          "word": "-B",
+          "start": 52.82,
+          "end": 52.9
+        },
+        {
+          "word": "-B",
+          "start": 52.9,
+          "end": 53.1
+        },
+        {
+          "word": "-B",
+          "start": 53.1,
+          "end": 53.28
+        },
+        {
+          "word": "-B",
+          "start": 53.28,
+          "end": 53.42
+        },
+        {
+          "word": "-B",
+          "start": 53.42,
+          "end": 53.5
+        },
+        {
+          "word": "-B",
+          "start": 53.5,
+          "end": 53.52
+        },
+        {
+          "word": "-B",
+          "start": 53.52,
+          "end": 53.68
+        },
+        {
+          "word": "-Check",
+          "start": 53.68,
+          "end": 54.06
+        },
+        {
+          "word": "-Life",
+          "start": 54.06,
+          "end": 55.2
+        }
+      ],
+      "tokens": [
+        51436,
+        47217,
+        12,
+        7774,
+        270,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        47769,
+        12,
+        25900,
+        51620
+      ]
+    },
+    {
+      "start": 55.1,
+      "end": 58.0,
+      "text": "Comedy-Shit-B-B-B-B-Album-Drei",
+      "words": [
+        {
+          "word": "Comedy",
+          "start": 55.62,
+          "end": 55.74
+        },
+        {
+          "word": "-Shit",
+          "start": 55.74,
+          "end": 56.14
+        },
+        {
+          "word": "-B",
+          "start": 56.14,
+          "end": 56.34
+        },
+        {
+          "word": "-B",
+          "start": 56.34,
+          "end": 56.52
+        },
+        {
+          "word": "-B",
+          "start": 56.52,
+          "end": 56.62
+        },
+        {
+          "word": "-B",
+          "start": 56.62,
+          "end": 56.82
+        },
+        {
+          "word": "-Album",
+          "start": 56.82,
+          "end": 57.72
+        },
+        {
+          "word": "-Drei",
+          "start": 57.72,
+          "end": 58.22
+        }
+      ],
+      "tokens": [
+        51620,
+        47217,
+        12,
+        7774,
+        270,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        9171,
+        5559,
+        12,
+        35,
+        10271,
+        51765,
+        51765
+      ]
+    },
+    {
+      "start": 58.0,
+      "end": 59.980000000000004,
+      "text": "Der Linke braucht die",
+      "words": [
+        {
+          "word": "Der",
+          "start": 58.46,
+          "end": 58.66
+        },
+        {
+          "word": "Linke",
+          "start": 58.66,
+          "end": 59.62
+        },
+        {
+          "word": "braucht",
+          "start": 59.62,
+          "end": 59.98
+        },
+        {
+          "word": "die",
+          "start": 59.98,
+          "end": 59.98
+        }
+      ],
+      "tokens": [
+        50365,
+        5618,
+        9355,
+        330,
+        22623,
+        978,
+        50464
+      ]
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "text": "Seite lehr",
+      "words": [
+        {
+          "word": "Seite",
+          "start": 60.68,
+          "end": 61.26
+        },
+        {
+          "word": "lehr",
+          "start": 61.26,
+          "end": 61.76
+        }
+      ],
+      "tokens": [
+        50365,
+        19748,
+        476,
+        1703,
+        50465
+      ]
+    },
+    {
+      "start": 62.0,
+      "end": 64.0,
+      "text": "Play gedrückt",
+      "words": [
+        {
+          "word": "Play",
+          "start": 62.18,
+          "end": 62.56
+        },
+        {
+          "word": "gedrückt",
+          "start": 62.56,
+          "end": 63.36
+        }
+      ],
+      "tokens": [
+        50465,
+        5506,
+        19238,
+        81,
+        37532,
+        50565
+      ]
+    },
+    {
+      "start": 64.0,
+      "end": 66.0,
+      "text": "Und der Bass stillt",
+      "words": [
+        {
+          "word": "Und",
+          "start": 64.2,
+          "end": 64.4
+        },
+        {
+          "word": "der",
+          "start": 64.4,
+          "end": 64.74
+        },
+        {
+          "word": "Bass",
+          "start": 64.74,
+          "end": 65.08
+        },
+        {
+          "word": "stillt",
+          "start": 65.08,
+          "end": 65.48
+        }
+      ],
+      "tokens": [
+        50565,
+        2719,
+        1163,
+        29626,
+        920,
+        83,
+        50665
+      ]
+    },
+    {
+      "start": 66.0,
+      "end": 72.0,
+      "text": "Komm her, der Schiff, der Schiff, der Schiff, der Schiff, der Album, bach",
+      "words": [
+        {
+          "word": "Komm",
+          "start": 65.64,
+          "end": 65.96
+        },
+        {
+          "word": "her",
+          "start": 65.96,
+          "end": 66.08
+        },
+        {
+          "word": ",",
+          "start": 66.08,
+          "end": 66.08
+        },
+        {
+          "word": "der",
+          "start": 66.08,
+          "end": 66.32
+        },
+        {
+          "word": "Schiff",
+          "start": 66.32,
+          "end": 66.56
+        },
+        {
+          "word": ",",
+          "start": 66.56,
+          "end": 66.56
+        },
+        {
+          "word": "der",
+          "start": 66.56,
+          "end": 66.86
+        },
+        {
+          "word": "Schiff",
+          "start": 66.86,
+          "end": 66.86
+        },
+        {
+          "word": ",",
+          "start": 66.86,
+          "end": 67.56
+        },
+        {
+          "word": "der",
+          "start": 67.56,
+          "end": 67.56
+        },
+        {
+          "word": "Schiff",
+          "start": 67.56,
+          "end": 68.12
+        },
+        {
+          "word": ",",
+          "start": 68.12,
+          "end": 68.26
+        },
+        {
+          "word": "der",
+          "start": 68.26,
+          "end": 68.26
+        },
+        {
+          "word": "Schiff",
+          "start": 68.26,
+          "end": 68.26
+        },
+        {
+          "word": ",",
+          "start": 68.26,
+          "end": 70.0
+        },
+        {
+          "word": "der",
+          "start": 70.0,
+          "end": 70.78
+        },
+        {
+          "word": "Album",
+          "start": 70.78,
+          "end": 71.44
+        },
+        {
+          "word": ",",
+          "start": 71.44,
+          "end": 71.58
+        },
+        {
+          "word": "bach",
+          "start": 71.58,
+          "end": 72.22
+        }
+      ],
+      "tokens": [
+        50665,
+        18400,
+        720,
+        11,
+        1163,
+        2065,
+        3661,
+        11,
+        1163,
+        2065,
+        3661,
+        11,
+        1163,
+        2065,
+        3661,
+        11,
+        1163,
+        2065,
+        3661,
+        11,
+        1163,
+        967,
+        5559,
+        11,
+        272,
+        608,
+        50965
+      ]
+    },
+    {
+      "start": 72.0,
+      "end": 75.0,
+      "text": "Der Link geht raus, die Seite lehr",
+      "words": [
+        {
+          "word": "Der",
+          "start": 72.6,
+          "end": 72.82
+        },
+        {
+          "word": "Link",
+          "start": 72.82,
+          "end": 73.0
+        },
+        {
+          "word": "geht",
+          "start": 73.0,
+          "end": 73.4
+        },
+        {
+          "word": "raus",
+          "start": 73.4,
+          "end": 73.52
+        },
+        {
+          "word": ",",
+          "start": 73.52,
+          "end": 73.7
+        },
+        {
+          "word": "die",
+          "start": 73.7,
+          "end": 74.34
+        },
+        {
+          "word": "Seite",
+          "start": 74.34,
+          "end": 75.0
+        },
+        {
+          "word": "lehr",
+          "start": 75.0,
+          "end": 75.48
+        }
+      ],
+      "tokens": [
+        50965,
+        5618,
+        8466,
+        7095,
+        17202,
+        11,
+        978,
+        19748,
+        476,
+        1703,
+        51115
+      ]
+    },
+    {
+      "start": 75.0,
+      "end": 77.0,
+      "text": "Play gedrückt",
+      "words": [
+        {
+          "word": "Play",
+          "start": 75.88,
+          "end": 76.28
+        },
+        {
+          "word": "gedrückt",
+          "start": 76.28,
+          "end": 76.76
+        }
+      ],
+      "tokens": [
+        51115,
+        5506,
+        19238,
+        81,
+        37532,
+        51215
+      ]
+    },
+    {
+      "start": 77.0,
+      "end": 79.0,
+      "text": "Und der Bass stillt",
+      "words": [
+        {
+          "word": "Und",
+          "start": 77.12,
+          "end": 78.1
+        },
+        {
+          "word": "der",
+          "start": 78.1,
+          "end": 78.44
+        },
+        {
+          "word": "Bass",
+          "start": 78.44,
+          "end": 78.8
+        },
+        {
+          "word": "stillt",
+          "start": 78.8,
+          "end": 79.18
+        }
+      ],
+      "tokens": [
+        51215,
+        2719,
+        1163,
+        29626,
+        920,
+        83,
+        51315
+      ]
+    },
+    {
+      "start": 79.0,
+      "end": 82.0,
+      "text": "Deploy auf live, der Upload zählt die Dateien",
+      "words": [
+        {
+          "word": "Deploy",
+          "start": 79.38,
+          "end": 79.86
+        },
+        {
+          "word": "auf",
+          "start": 79.86,
+          "end": 80.2
+        },
+        {
+          "word": "live",
+          "start": 80.2,
+          "end": 80.34
+        },
+        {
+          "word": ",",
+          "start": 80.34,
+          "end": 80.48
+        },
+        {
+          "word": "der",
+          "start": 80.48,
+          "end": 80.7
+        },
+        {
+          "word": "Upload",
+          "start": 80.7,
+          "end": 81.04
+        },
+        {
+          "word": "zählt",
+          "start": 81.04,
+          "end": 81.4
+        },
+        {
+          "word": "die",
+          "start": 81.4,
+          "end": 81.72
+        },
+        {
+          "word": "Dateien",
+          "start": 81.72,
+          "end": 82.4
+        }
+      ],
+      "tokens": [
+        51315,
+        1346,
+        2384,
+        2501,
+        1621,
+        11,
+        1163,
+        624,
+        21132,
+        345,
+        710,
+        43376,
+        978,
+        31805,
+        1053,
+        51465
+      ]
+    },
+    {
+      "start": 82.0,
+      "end": 85.0,
+      "text": "Cover, Audio, Texte, alles muss dabei sein",
+      "words": [
+        {
+          "word": "Cover",
+          "start": 82.76,
+          "end": 82.9
+        },
+        {
+          "word": ",",
+          "start": 82.9,
+          "end": 83.22
+        },
+        {
+          "word": "Audio",
+          "start": 83.22,
+          "end": 83.54
+        },
+        {
+          "word": ",",
+          "start": 83.54,
+          "end": 83.72
+        },
+        {
+          "word": "Texte",
+          "start": 83.72,
+          "end": 83.98
+        },
+        {
+          "word": ",",
+          "start": 83.98,
+          "end": 84.32
+        },
+        {
+          "word": "alles",
+          "start": 84.32,
+          "end": 84.54
+        },
+        {
+          "word": "muss",
+          "start": 84.54,
+          "end": 84.9
+        },
+        {
+          "word": "dabei",
+          "start": 84.9,
+          "end": 85.24
+        },
+        {
+          "word": "sein",
+          "start": 85.24,
+          "end": 85.5
+        }
+      ],
+      "tokens": [
+        51465,
+        19106,
+        11,
+        25706,
+        11,
+        18643,
+        68,
+        11,
+        7874,
+        6425,
+        14967,
+        6195,
+        51615
+      ]
+    },
+    {
+      "start": 85.0,
+      "end": 89.0,
+      "text": "Ich lad die Seite neu, der Browser zeigt noch halt",
+      "words": [
+        {
+          "word": "Ich",
+          "start": 85.82,
+          "end": 86.02
+        },
+        {
+          "word": "lad",
+          "start": 86.02,
+          "end": 86.24
+        },
+        {
+          "word": "die",
+          "start": 86.24,
+          "end": 86.56
+        },
+        {
+          "word": "Seite",
+          "start": 86.56,
+          "end": 87.02
+        },
+        {
+          "word": "neu",
+          "start": 87.02,
+          "end": 87.18
+        },
+        {
+          "word": ",",
+          "start": 87.18,
+          "end": 87.52
+        },
+        {
+          "word": "der",
+          "start": 87.52,
+          "end": 87.7
+        },
+        {
+          "word": "Browser",
+          "start": 87.7,
+          "end": 88.22
+        },
+        {
+          "word": "zeigt",
+          "start": 88.22,
+          "end": 88.46
+        },
+        {
+          "word": "noch",
+          "start": 88.46,
+          "end": 88.8
+        },
+        {
+          "word": "halt",
+          "start": 88.8,
+          "end": 89.22
+        }
+      ],
+      "tokens": [
+        51615,
+        3141,
+        6632,
+        978,
+        19748,
+        22510,
+        11,
+        1163,
+        1603,
+        30947,
+        29250,
+        3514,
+        12479,
+        51815,
+        51815
+      ]
+    },
+    {
+      "start": 89.0,
+      "end": 118.98,
+      "text": "Untertitelung des ZDF, 2020",
+      "words": [
+        {
+          "word": "Untertitelung",
+          "start": 89.98,
+          "end": 89.98
+        },
+        {
+          "word": "des",
+          "start": 89.98,
+          "end": 89.98
+        },
+        {
+          "word": "ZDF",
+          "start": 89.98,
+          "end": 89.98
+        },
+        {
+          "word": ",",
+          "start": 89.98,
+          "end": 89.98
+        },
+        {
+          "word": "2020",
+          "start": 89.98,
+          "end": 89.98
+        }
+      ],
+      "tokens": [
+        50365,
+        12065,
+        27689,
+        338,
+        1063,
+        730,
+        1176,
+        35,
+        37,
+        11,
+        4808,
+        51864
+      ]
+    },
+    {
+      "start": 90.0,
+      "end": 92.32,
+      "text": "Und Album 3 steht da, der Bass knallt",
+      "words": [
+        {
+          "word": "Und",
+          "start": 90.2,
+          "end": 90.38
+        },
+        {
+          "word": "Album",
+          "start": 90.38,
+          "end": 90.72
+        },
+        {
+          "word": "3",
+          "start": 90.72,
+          "end": 90.96
+        },
+        {
+          "word": "steht",
+          "start": 90.96,
+          "end": 91.16
+        },
+        {
+          "word": "da",
+          "start": 91.16,
+          "end": 91.26
+        },
+        {
+          "word": ",",
+          "start": 91.26,
+          "end": 91.38
+        },
+        {
+          "word": "der",
+          "start": 91.38,
+          "end": 91.74
+        },
+        {
+          "word": "Bass",
+          "start": 91.74,
+          "end": 91.98
+        },
+        {
+          "word": "knallt",
+          "start": 91.98,
+          "end": 92.34
+        }
+      ],
+      "tokens": [
+        50365,
+        2719,
+        967,
+        5559,
+        805,
+        16361,
+        1120,
+        11,
+        1163,
+        29626,
+        444,
+        336,
+        83,
+        50481
+      ]
+    },
+    {
+      "start": 92.32,
+      "end": 95.5,
+      "text": "Erst Deutsch, dann Englisch, jede Sprache prüfe ich nach",
+      "words": [
+        {
+          "word": "Erst",
+          "start": 92.66,
+          "end": 93.06
+        },
+        {
+          "word": "Deutsch",
+          "start": 93.06,
+          "end": 93.24
+        },
+        {
+          "word": ",",
+          "start": 93.24,
+          "end": 93.42
+        },
+        {
+          "word": "dann",
+          "start": 93.42,
+          "end": 93.82
+        },
+        {
+          "word": "Englisch",
+          "start": 93.82,
+          "end": 94.04
+        },
+        {
+          "word": ",",
+          "start": 94.04,
+          "end": 94.28
+        },
+        {
+          "word": "jede",
+          "start": 94.28,
+          "end": 94.54
+        },
+        {
+          "word": "Sprache",
+          "start": 94.54,
+          "end": 94.98
+        },
+        {
+          "word": "prüfe",
+          "start": 94.98,
+          "end": 95.26
+        },
+        {
+          "word": "ich",
+          "start": 95.26,
+          "end": 95.46
+        },
+        {
+          "word": "nach",
+          "start": 95.46,
+          "end": 95.52
+        }
+      ],
+      "tokens": [
+        50481,
+        31183,
+        12699,
+        11,
+        3594,
+        2469,
+        75,
+        5494,
+        11,
+        34039,
+        7702,
+        6000,
+        582,
+        774,
+        2106,
+        1893,
+        5168,
+        50640
+      ]
+    },
+    {
+      "start": 95.5,
+      "end": 99.0,
+      "text": "Die Lyrics bleiben im Original, so wie ich sie gemacht",
+      "words": [
+        {
+          "word": "Die",
+          "start": 95.76,
+          "end": 95.86
+        },
+        {
+          "word": "Lyrics",
+          "start": 95.86,
+          "end": 96.46
+        },
+        {
+          "word": "bleiben",
+          "start": 96.46,
+          "end": 96.82
+        },
+        {
+          "word": "im",
+          "start": 96.82,
+          "end": 97.28
+        },
+        {
+          "word": "Original",
+          "start": 97.28,
+          "end": 97.28
+        },
+        {
+          "word": ",",
+          "start": 97.28,
+          "end": 97.8
+        },
+        {
+          "word": "so",
+          "start": 97.8,
+          "end": 98.02
+        },
+        {
+          "word": "wie",
+          "start": 98.02,
+          "end": 98.24
+        },
+        {
+          "word": "ich",
+          "start": 98.24,
+          "end": 98.44
+        },
+        {
+          "word": "sie",
+          "start": 98.44,
+          "end": 98.86
+        },
+        {
+          "word": "gemacht",
+          "start": 98.86,
+          "end": 99.22
+        }
+      ],
+      "tokens": [
+        50640,
+        3229,
+        441,
+        11381,
+        24912,
+        566,
+        30022,
+        11,
+        370,
+        3355,
+        1893,
+        2804,
+        12293,
+        50815
+      ]
+    },
+    {
+      "start": 99.0,
+      "end": 103.12,
+      "text": "Comedy-Shit-B-B-B-B-B-Check-Live",
+      "words": [
+        {
+          "word": "Comedy",
+          "start": 100.18,
+          "end": 100.46
+        },
+        {
+          "word": "-Shit",
+          "start": 100.46,
+          "end": 100.74
+        },
+        {
+          "word": "-B",
+          "start": 100.74,
+          "end": 100.88
+        },
+        {
+          "word": "-B",
+          "start": 100.88,
+          "end": 101.06
+        },
+        {
+          "word": "-B",
+          "start": 101.06,
+          "end": 101.26
+        },
+        {
+          "word": "-B",
+          "start": 101.26,
+          "end": 101.46
+        },
+        {
+          "word": "-B",
+          "start": 101.46,
+          "end": 101.6
+        },
+        {
+          "word": "-Check",
+          "start": 101.6,
+          "end": 102.12
+        },
+        {
+          "word": "-Live",
+          "start": 102.12,
+          "end": 103.2
+        }
+      ],
+      "tokens": [
+        50815,
+        47217,
+        12,
+        7774,
+        270,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        47769,
+        12,
+        43,
+        488,
+        51021
+      ]
+    },
+    {
+      "start": 103.12,
+      "end": 106.18,
+      "text": "Comedy-Shit-B-B-B-B-Album 3",
+      "words": [
+        {
+          "word": "Comedy",
+          "start": 103.6,
+          "end": 103.84
+        },
+        {
+          "word": "-Shit",
+          "start": 103.84,
+          "end": 104.1
+        },
+        {
+          "word": "-B",
+          "start": 104.1,
+          "end": 104.3
+        },
+        {
+          "word": "-B",
+          "start": 104.3,
+          "end": 104.48
+        },
+        {
+          "word": "-B",
+          "start": 104.48,
+          "end": 104.58
+        },
+        {
+          "word": "-B",
+          "start": 104.58,
+          "end": 104.78
+        },
+        {
+          "word": "-Album",
+          "start": 104.78,
+          "end": 105.76
+        },
+        {
+          "word": "3",
+          "start": 105.76,
+          "end": 106.22
+        }
+      ],
+      "tokens": [
+        51021,
+        47217,
+        12,
+        7774,
+        270,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        9171,
+        5559,
+        805,
+        51174
+      ]
+    },
+    {
+      "start": 106.18,
+      "end": 109.38,
+      "text": "Der Link geht raus, die Seite leh",
+      "words": [
+        {
+          "word": "Der",
+          "start": 106.36,
+          "end": 106.66
+        },
+        {
+          "word": "Link",
+          "start": 106.66,
+          "end": 107.08
+        },
+        {
+          "word": "geht",
+          "start": 107.08,
+          "end": 107.56
+        },
+        {
+          "word": "raus",
+          "start": 107.56,
+          "end": 107.7
+        },
+        {
+          "word": ",",
+          "start": 107.7,
+          "end": 107.92
+        },
+        {
+          "word": "die",
+          "start": 107.92,
+          "end": 108.64
+        },
+        {
+          "word": "Seite",
+          "start": 108.64,
+          "end": 109.26
+        },
+        {
+          "word": "leh",
+          "start": 109.26,
+          "end": 109.64
+        }
+      ],
+      "tokens": [
+        51174,
+        5618,
+        8466,
+        7095,
+        17202,
+        11,
+        978,
+        19748,
+        476,
+        71,
+        51334
+      ]
+    },
+    {
+      "start": 109.38,
+      "end": 111.96000000000001,
+      "text": "Regeldrückt, Bum-Bum",
+      "words": [
+        {
+          "word": "Regeldrückt",
+          "start": 110.12,
+          "end": 111.5
+        },
+        {
+          "word": ",",
+          "start": 111.5,
+          "end": 111.66
+        },
+        {
+          "word": "Bum",
+          "start": 111.66,
+          "end": 111.78
+        },
+        {
+          "word": "-Bum",
+          "start": 111.78,
+          "end": 112.0
+        }
+      ],
+      "tokens": [
+        51334,
+        4791,
+        5957,
+        81,
+        37532,
+        11,
+        363,
+        449,
+        12,
+        33,
+        449,
+        51463
+      ]
+    },
+    {
+      "start": 111.96000000000001,
+      "end": 113.14,
+      "text": "Und der Bass steht",
+      "words": [
+        {
+          "word": "Und",
+          "start": 112.2,
+          "end": 112.38
+        },
+        {
+          "word": "der",
+          "start": 112.38,
+          "end": 112.68
+        },
+        {
+          "word": "Bass",
+          "start": 112.68,
+          "end": 113.04
+        },
+        {
+          "word": "steht",
+          "start": 113.04,
+          "end": 113.24
+        }
+      ],
+      "tokens": [
+        51463,
+        2719,
+        1163,
+        29626,
+        16361,
+        51522
+      ]
+    },
+    {
+      "start": 113.14,
+      "end": 116.72,
+      "text": "Tracks, Cover, Never-B-B-B-Check-Check-Live",
+      "words": [
+        {
+          "word": "Tracks",
+          "start": 113.44,
+          "end": 114.06
+        },
+        {
+          "word": ",",
+          "start": 114.06,
+          "end": 114.42
+        },
+        {
+          "word": "Cover",
+          "start": 114.42,
+          "end": 114.58
+        },
+        {
+          "word": ",",
+          "start": 114.58,
+          "end": 114.82
+        },
+        {
+          "word": "Never",
+          "start": 114.82,
+          "end": 114.82
+        },
+        {
+          "word": "-B",
+          "start": 114.82,
+          "end": 115.18
+        },
+        {
+          "word": "-B",
+          "start": 115.18,
+          "end": 115.34
+        },
+        {
+          "word": "-B",
+          "start": 115.34,
+          "end": 115.36
+        },
+        {
+          "word": "-Check",
+          "start": 115.36,
+          "end": 116.12
+        },
+        {
+          "word": "-Check",
+          "start": 116.12,
+          "end": 116.3
+        },
+        {
+          "word": "-Live",
+          "start": 116.3,
+          "end": 117.54
+        }
+      ],
+      "tokens": [
+        51522,
+        1765,
+        7424,
+        11,
+        19106,
+        11,
+        7344,
+        12,
+        33,
+        12,
+        33,
+        12,
+        33,
+        12,
+        47769,
+        12,
+        47769,
+        12,
+        43,
+        488,
+        51701,
+        51701
+      ]
+    },
+    {
+      "start": 116.72,
+      "end": 120.0,
+      "text": "Das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das ist das, das, das ist das, das ist das, das ist das, das, das ist das, das, das ist das, das ist das, das, das ist das, das ist das, das, das ist das, das das, das ist das, das ist das, das das, das ist das, das das, das ist das das, das das, das das, das ist das das, das das, das",
+      "words": [
+        {
+          "word": "Das",
+          "start": 117.06,
+          "end": 117.22
+        },
+        {
+          "word": "ist",
+          "start": 117.22,
+          "end": 117.22
+        },
+        {
+          "word": "das",
+          "start": 117.22,
+          "end": 117.22
+        },
+        {
+          "word": ",",
+          "start": 117.22,
+          "end": 117.34
+        },
+        {
+          "word": "das",
+          "start": 117.34,
+          "end": 117.84
+        },
+        {
+          "word": "ist",
+          "start": 117.84,
+          "end": 117.84
+        },
+        {
+          "word": "das",
+          "start": 117.84,
+          "end": 117.84
+        },
+        {
+          "word": ",",
+          "start": 117.84,
+          "end": 118.1
+        },
+        {
+          "word": "das",
+          "start": 118.1,
+          "end": 118.3
+        },
+        {
+          "word": "ist",
+          "start": 118.3,
+          "end": 118.7
+        },
+        {
+          "word": "das",
+          "start": 118.7,
+          "end": 118.92
+        },
+        {
+          "word": ",",
+          "start": 118.92,
+          "end": 118.92
+        },
+        {
+          "word": "das",
+          "start": 118.92,
+          "end": 118.92
+        },
+        {
+          "word": "ist",
+          "start": 118.92,
+          "end": 118.92
+        },
+        {
+          "word": "das",
+          "start": 118.92,
+          "end": 118.96
+        },
+        {
+          "word": ",",
+          "start": 118.96,
+          "end": 118.96
+        },
+        {
+          "word": "das",
+          "start": 118.96,
+          "end": 118.96
+        },
+        {
+          "word": "ist",
+          "start": 118.96,
+          "end": 118.96
+        },
+        {
+          "word": "das",
+          "start": 118.96,
+          "end": 118.96
+        },
+        {
+          "word": ",",
+          "start": 118.96,
+          "end": 118.96
+        },
+        {
+          "word": "das",
+          "start": 118.96,
+          "end": 118.96
+        },
+        {
+          "word": "ist",
+          "start": 118.96,
+          "end": 118.96
+        },
+        {
+          "word": "das",
+          "start": 118.96,
+          "end": 119.3
+        },
+        {
+          "word": ",",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "das",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "ist",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "das",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": ",",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "das",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "ist",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "das",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": ",",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "das",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "ist",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "das",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": ",",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "das",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "ist",
+          "start": 119.3,
+          "end": 119.3
+        },
+        {
+          "word": "das",
+          "start": 119.3,
+          "end": 119.36
+        },
+        {
+          "word": ",",
+          "start": 119.36,
+          "end": 119.38
+        },
+        {
+          "word": "das",
+          "start": 119.38,
+          "end": 119.38
+        },
+        {
+          "word": "ist",
+          "start": 119.38,
+          "end": 119.38
+        },
+        {
+          "word": "das",
+          "start": 119.38,
+          "end": 119.38
+        },
+        {
+          "word": ",",
+          "start": 119.38,
+          "end": 119.38
+        },
+        {
+          "word": "das",
+          "start": 119.38,
+          "end": 119.38
+        },
+        {
+          "word": "ist",
+          "start": 119.38,
+          "end": 119.38
+        },
+        {
+          "word": "das",
+          "start": 119.38,
+          "end": 119.38
+        },
+        {
+          "word": ",",
+          "start": 119.38,
+          "end": 119.38
+        },
+        {
+          "word": "das",
+          "start": 119.38,
+          "end": 119.38
+        },
+        {
+          "word": "ist",
+          "start": 119.38,
+          "end": 119.38
+        },
+        {
+          "word": "das",
+          "start": 119.38,
+          "end": 119.38
+        },
+        {
+          "word": ",",
+          "start": 119.38,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": ",",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "ist",
+          "start": 119.4,
+          "end": 119.4
+        },
+        {
+          "word": "das",
+          "start": 119.4,
+          "end": 119.42
+        },
+        {
+          "word": ",",
+          "start": 119.42,
+          "end": 119.44
+        },
+        {
+          "word": "das",
+          "start": 119.44,
+          "end": 119.46
+        },
+        {
+          "word": "ist",
+          "start": 119.46,
+          "end": 119.46
+        },
+        {
+          "word": "das",
+          "start": 119.46,
+          "end": 119.48
+        },
+        {
+          "word": ",",
+          "start": 119.48,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "ist",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": "das",
+          "start": 119.5,
+          "end": 119.5
+        },
+        {
+          "word": ",",
+          "start": 119.5,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "ist",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": "das",
+          "start": 119.52,
+          "end": 119.52
+        },
+        {
+          "word": ",",
+          "start": 119.52,
+          "end": 119.6
+        },
+        {
+          "word": "das",
+          "start": 119.6,
+          "end": 119.6
+        },
+        {
+          "word": "das",
+          "start": 119.6,
+          "end": 119.6
+        },
+        {
+          "word": ",",
+          "start": 119.6,
+          "end": 119.6
+        },
+        {
+          "word": "das",
+          "start": 119.6,
+          "end": 120.0
+        }
+      ],
+      "tokens": [
+        50365,
+        2846,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        11,
+        1482,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        1482,
+        11,
+        1482,
+        1482,
+        11,
+        1482,
+        1482,
+        11,
+        1482,
+        1418,
+        1482,
+        1482,
+        11,
+        1482,
+        1482,
+        11,
+        1482
+      ]
+    },
+    {
+      "start": 120.0,
+      "end": 123.0,
+      "text": "Tracks, cover cover, Build-Chat, Shed",
+      "words": [
+        {
+          "word": "Tracks",
+          "start": 120.28,
+          "end": 120.76
+        },
+        {
+          "word": ",",
+          "start": 120.76,
+          "end": 121.3
+        },
+        {
+          "word": "cover",
+          "start": 121.3,
+          "end": 121.66
+        },
+        {
+          "word": "cover",
+          "start": 121.66,
+          "end": 121.88
+        },
+        {
+          "word": ",",
+          "start": 121.88,
+          "end": 122.08
+        },
+        {
+          "word": "Build",
+          "start": 122.08,
+          "end": 122.08
+        },
+        {
+          "word": "-Chat",
+          "start": 122.08,
+          "end": 122.72
+        },
+        {
+          "word": ",",
+          "start": 122.72,
+          "end": 122.82
+        },
+        {
+          "word": "Shed",
+          "start": 122.82,
+          "end": 123.18
+        }
+      ],
+      "tokens": [
+        50365,
+        1765,
+        7424,
+        11,
+        2060,
+        2060,
+        11,
+        11875,
+        12,
+        41683,
+        11,
+        1160,
+        292,
+        50515
+      ]
+    },
+    {
+      "start": 123.0,
+      "end": 126.5,
+      "text": "Blor, Lor, Lor, Lor, Be-be-be-Album 3",
+      "words": [
+        {
+          "word": "Blor",
+          "start": 123.46,
+          "end": 123.74
+        },
+        {
+          "word": ",",
+          "start": 123.74,
+          "end": 123.8
+        },
+        {
+          "word": "Lor",
+          "start": 123.8,
+          "end": 124.0
+        },
+        {
+          "word": ",",
+          "start": 124.0,
+          "end": 124.18
+        },
+        {
+          "word": "Lor",
+          "start": 124.18,
+          "end": 124.38
+        },
+        {
+          "word": ",",
+          "start": 124.38,
+          "end": 124.38
+        },
+        {
+          "word": "Lor",
+          "start": 124.38,
+          "end": 124.62
+        },
+        {
+          "word": ",",
+          "start": 124.62,
+          "end": 124.8
+        },
+        {
+          "word": "Be",
+          "start": 124.8,
+          "end": 124.88
+        },
+        {
+          "word": "-be",
+          "start": 124.88,
+          "end": 125.08
+        },
+        {
+          "word": "-be",
+          "start": 125.08,
+          "end": 125.56
+        },
+        {
+          "word": "-Album",
+          "start": 125.56,
+          "end": 126.32
+        },
+        {
+          "word": "3",
+          "start": 126.32,
+          "end": 126.98
+        }
+      ],
+      "tokens": [
+        50515,
+        2177,
+        284,
+        11,
+        441,
+        284,
+        11,
+        441,
+        284,
+        11,
+        441,
+        284,
+        11,
+        879,
+        12,
+        650,
+        12,
+        650,
+        12,
+        9171,
+        5559,
+        805,
+        50690
+      ]
+    },
+    {
+      "start": 126.5,
+      "end": 130.46,
+      "text": "Komm mit der Shed, Be-be-Bild-Chat live",
+      "words": [
+        {
+          "word": "Komm",
+          "start": 127.38,
+          "end": 127.62
+        },
+        {
+          "word": "mit",
+          "start": 127.62,
+          "end": 127.78
+        },
+        {
+          "word": "der",
+          "start": 127.78,
+          "end": 127.9
+        },
+        {
+          "word": "Shed",
+          "start": 127.9,
+          "end": 128.06
+        },
+        {
+          "word": ",",
+          "start": 128.06,
+          "end": 128.16
+        },
+        {
+          "word": "Be",
+          "start": 128.16,
+          "end": 128.24
+        },
+        {
+          "word": "-be",
+          "start": 128.24,
+          "end": 128.46
+        },
+        {
+          "word": "-Bild",
+          "start": 128.46,
+          "end": 129.12
+        },
+        {
+          "word": "-Chat",
+          "start": 129.12,
+          "end": 129.78
+        },
+        {
+          "word": "live",
+          "start": 129.78,
+          "end": 130.54
+        }
+      ],
+      "tokens": [
+        50690,
+        18400,
+        2194,
+        1163,
+        1160,
+        292,
+        11,
+        879,
+        12,
+        650,
+        12,
+        33,
+        793,
+        12,
+        41683,
+        1621,
+        50888
+      ]
+    },
+    {
+      "start": 130.46,
+      "end": 133.0,
+      "text": "Komm mit der Shed, Be-be-Album 3",
+      "words": [
+        {
+          "word": "Komm",
+          "start": 130.78,
+          "end": 131.04
+        },
+        {
+          "word": "mit",
+          "start": 131.04,
+          "end": 131.18
+        },
+        {
+          "word": "der",
+          "start": 131.18,
+          "end": 131.3
+        },
+        {
+          "word": "Shed",
+          "start": 131.3,
+          "end": 131.48
+        },
+        {
+          "word": ",",
+          "start": 131.48,
+          "end": 131.58
+        },
+        {
+          "word": "Be",
+          "start": 131.58,
+          "end": 131.66
+        },
+        {
+          "word": "-be",
+          "start": 131.66,
+          "end": 131.82
+        },
+        {
+          "word": "-Album",
+          "start": 131.82,
+          "end": 133.16
+        },
+        {
+          "word": "3",
+          "start": 133.16,
+          "end": 133.5
+        }
+      ],
+      "tokens": [
+        50888,
+        18400,
+        2194,
+        1163,
+        1160,
+        292,
+        11,
+        879,
+        12,
+        650,
+        12,
+        9171,
+        5559,
+        805,
+        51015
+      ]
+    },
+    {
+      "start": 133.52,
+      "end": 137.0,
+      "text": "Der Link geht raus, die Seite legt",
+      "words": [
+        {
+          "word": "Der",
+          "start": 133.78,
+          "end": 134.04
+        },
+        {
+          "word": "Link",
+          "start": 134.04,
+          "end": 134.5
+        },
+        {
+          "word": "geht",
+          "start": 134.5,
+          "end": 134.98
+        },
+        {
+          "word": "raus",
+          "start": 134.98,
+          "end": 134.98
+        },
+        {
+          "word": ",",
+          "start": 134.98,
+          "end": 135.34
+        },
+        {
+          "word": "die",
+          "start": 135.34,
+          "end": 135.94
+        },
+        {
+          "word": "Seite",
+          "start": 135.94,
+          "end": 136.58
+        },
+        {
+          "word": "legt",
+          "start": 136.58,
+          "end": 137.12
+        }
+      ],
+      "tokens": [
+        51041,
+        5618,
+        8466,
+        7095,
+        17202,
+        11,
+        978,
+        19748,
+        1676,
+        83,
+        51215
+      ]
+    },
+    {
+      "start": 137.0,
+      "end": 140.5,
+      "text": "Kegel drückt, und, und, und, und der Bastel",
+      "words": [
+        {
+          "word": "Kegel",
+          "start": 137.42,
+          "end": 138.02
+        },
+        {
+          "word": "drückt",
+          "start": 138.02,
+          "end": 138.86
+        },
+        {
+          "word": ",",
+          "start": 138.86,
+          "end": 139.08
+        },
+        {
+          "word": "und",
+          "start": 139.08,
+          "end": 139.1
+        },
+        {
+          "word": ",",
+          "start": 139.1,
+          "end": 139.28
+        },
+        {
+          "word": "und",
+          "start": 139.28,
+          "end": 139.38
+        },
+        {
+          "word": ",",
+          "start": 139.38,
+          "end": 139.54
+        },
+        {
+          "word": "und",
+          "start": 139.54,
+          "end": 139.62
+        },
+        {
+          "word": ",",
+          "start": 139.62,
+          "end": 139.62
+        },
+        {
+          "word": "und",
+          "start": 139.62,
+          "end": 139.7
+        },
+        {
+          "word": "der",
+          "start": 139.7,
+          "end": 140.02
+        },
+        {
+          "word": "Bastel",
+          "start": 140.02,
+          "end": 140.68
+        }
+      ],
+      "tokens": [
+        51215,
+        591,
+        1146,
+        338,
+        1224,
+        37532,
+        11,
+        674,
+        11,
+        674,
+        11,
+        674,
+        11,
+        674,
+        1163,
+        31915,
+        338,
+        51390
+      ]
+    },
+    {
+      "start": 140.5,
+      "end": 143.0,
+      "text": "Komm mit der Shed, Be-be-Bum, um, um",
+      "words": [
+        {
+          "word": "Komm",
+          "start": 141.06,
+          "end": 141.3
+        },
+        {
+          "word": "mit",
+          "start": 141.3,
+          "end": 141.44
+        },
+        {
+          "word": "der",
+          "start": 141.44,
+          "end": 141.56
+        },
+        {
+          "word": "Shed",
+          "start": 141.56,
+          "end": 141.7
+        },
+        {
+          "word": ",",
+          "start": 141.7,
+          "end": 141.84
+        },
+        {
+          "word": "Be",
+          "start": 141.84,
+          "end": 141.9
+        },
+        {
+          "word": "-be",
+          "start": 141.9,
+          "end": 142.12
+        },
+        {
+          "word": "-Bum",
+          "start": 142.12,
+          "end": 142.58
+        },
+        {
+          "word": ",",
+          "start": 142.58,
+          "end": 142.68
+        },
+        {
+          "word": "um",
+          "start": 142.68,
+          "end": 142.8
+        },
+        {
+          "word": ",",
+          "start": 142.8,
+          "end": 142.8
+        },
+        {
+          "word": "um",
+          "start": 142.8,
+          "end": 142.96
+        }
+      ],
+      "tokens": [
+        51390,
+        18400,
+        2194,
+        1163,
+        1160,
+        292,
+        11,
+        879,
+        12,
+        650,
+        12,
+        33,
+        449,
+        11,
+        1105,
+        11,
+        1105,
+        51515
+      ]
+    },
+    {
+      "start": 143.0,
+      "end": 147.0,
+      "text": "Komm mit der Shed, Be-be-Bum, um, um, um",
+      "words": [
+        {
+          "word": "Komm",
+          "start": 144.42,
+          "end": 144.72
+        },
+        {
+          "word": "mit",
+          "start": 144.72,
+          "end": 144.84
+        },
+        {
+          "word": "der",
+          "start": 144.84,
+          "end": 144.96
+        },
+        {
+          "word": "Shed",
+          "start": 144.96,
+          "end": 145.22
+        },
+        {
+          "word": ",",
+          "start": 145.22,
+          "end": 145.3
+        },
+        {
+          "word": "Be",
+          "start": 145.3,
+          "end": 145.54
+        },
+        {
+          "word": "-be",
+          "start": 145.54,
+          "end": 145.66
+        },
+        {
+          "word": "-Bum",
+          "start": 145.66,
+          "end": 146.08
+        },
+        {
+          "word": ",",
+          "start": 146.08,
+          "end": 146.08
+        },
+        {
+          "word": "um",
+          "start": 146.08,
+          "end": 146.18
+        },
+        {
+          "word": ",",
+          "start": 146.18,
+          "end": 146.18
+        },
+        {
+          "word": "um",
+          "start": 146.18,
+          "end": 146.18
+        },
+        {
+          "word": ",",
+          "start": 146.18,
+          "end": 146.32
+        },
+        {
+          "word": "um",
+          "start": 146.32,
+          "end": 146.42
+        }
+      ],
+      "tokens": [
+        51515,
+        18400,
+        2194,
+        1163,
+        1160,
+        292,
+        11,
+        879,
+        12,
+        650,
+        12,
+        33,
+        449,
+        11,
+        1105,
+        11,
+        1105,
+        11,
+        1105,
+        51715
+      ]
+    },
+    {
+      "start": 147.0,
+      "end": 149.0,
+      "text": "Komm mit der Shed, Be-be-Bum, um, um, um",
+      "words": [
+        {
+          "word": "Komm",
+          "start": 147.84,
+          "end": 148.12
+        },
+        {
+          "word": "mit",
+          "start": 148.12,
+          "end": 148.26
+        },
+        {
+          "word": "der",
+          "start": 148.26,
+          "end": 148.36
+        },
+        {
+          "word": "Shed",
+          "start": 148.36,
+          "end": 148.68
+        },
+        {
+          "word": ",",
+          "start": 148.68,
+          "end": 148.68
+        },
+        {
+          "word": "Be",
+          "start": 148.68,
+          "end": 148.74
+        },
+        {
+          "word": "-be",
+          "start": 148.74,
+          "end": 149.02
+        },
+        {
+          "word": "-Bum",
+          "start": 149.02,
+          "end": 149.04
+        },
+        {
+          "word": ",",
+          "start": 149.04,
+          "end": 149.04
+        },
+        {
+          "word": "um",
+          "start": 149.04,
+          "end": 149.04
+        },
+        {
+          "word": ",",
+          "start": 149.04,
+          "end": 149.04
+        },
+        {
+          "word": "um",
+          "start": 149.04,
+          "end": 149.04
+        },
+        {
+          "word": ",",
+          "start": 149.04,
+          "end": 149.04
+        },
+        {
+          "word": "um",
+          "start": 149.04,
+          "end": 149.04
+        }
+      ],
+      "tokens": [
+        51715,
+        18400,
+        2194,
+        1163,
+        1160,
+        292,
+        11,
+        879,
+        12,
+        650,
+        12,
+        33,
+        449,
+        11,
+        1105,
+        11,
+        1105,
+        11,
+        1105,
+        51815,
+        51815
+      ]
+    },
+    {
+      "start": 149.0,
+      "end": 149.96,
+      "text": "Bis zum nächsten Mal.",
+      "words": [
+        {
+          "word": "Bis",
+          "start": 149.98,
+          "end": 149.98
+        },
+        {
+          "word": "zum",
+          "start": 149.98,
+          "end": 149.98
+        },
+        {
+          "word": "nächsten",
+          "start": 149.98,
+          "end": 149.98
+        },
+        {
+          "word": "Mal",
+          "start": 149.98,
+          "end": 149.98
+        },
+        {
+          "word": ".",
+          "start": 149.98,
+          "end": 149.98
+        }
+      ],
+      "tokens": [
+        50365,
+        25271,
+        5919,
+        19101,
+        5746,
+        13,
+        50413
+      ]
+    },
+    {
+      "start": 150.0,
+      "end": 153.06,
+      "text": "Nächstes Album, nächster",
+      "words": [
+        {
+          "word": "Nächstes",
+          "start": 151.02,
+          "end": 151.84
+        },
+        {
+          "word": "Album",
+          "start": 151.84,
+          "end": 152.28
+        },
+        {
+          "word": ",",
+          "start": 152.28,
+          "end": 152.56
+        },
+        {
+          "word": "nächster",
+          "start": 152.56,
+          "end": 153.26
+        }
+      ],
+      "tokens": [
+        50365,
+        426,
+        28679,
+        279,
+        967,
+        5559,
+        11,
+        13201,
+        3120,
+        50518
+      ]
+    },
+    {
+      "start": 153.06,
+      "end": 154.2,
+      "text": "Come on",
+      "words": [
+        {
+          "word": "Come",
+          "start": 153.9,
+          "end": 154.08
+        },
+        {
+          "word": "on",
+          "start": 154.08,
+          "end": 155.38
+        }
+      ],
+      "tokens": [
+        50518,
+        2492,
+        322,
+        50575
+      ]
+    }
+  ]
+}

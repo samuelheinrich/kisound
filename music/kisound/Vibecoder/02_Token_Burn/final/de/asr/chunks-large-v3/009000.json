@@ -1,0 +1,247 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 9000,
+  "next_frame": 12000,
+  "segments": [
+    {
+      "start": 90.0,
+      "end": 101.04,
+      "text": "Am nächsten Stand hier seh, ein Tab geht zu, zwei kommen rein, nur dieser eine muss was sein.",
+      "words": [
+        {
+          "word": "Am",
+          "start": 90.32,
+          "end": 90.32
+        },
+        {
+          "word": "nächsten",
+          "start": 90.32,
+          "end": 90.96
+        },
+        {
+          "word": "Stand",
+          "start": 90.96,
+          "end": 91.42
+        },
+        {
+          "word": "hier",
+          "start": 91.42,
+          "end": 91.66
+        },
+        {
+          "word": "seh",
+          "start": 91.66,
+          "end": 92.1
+        },
+        {
+          "word": ",",
+          "start": 92.1,
+          "end": 92.7
+        },
+        {
+          "word": "ein",
+          "start": 92.7,
+          "end": 92.9
+        },
+        {
+          "word": "Tab",
+          "start": 92.9,
+          "end": 93.1
+        },
+        {
+          "word": "geht",
+          "start": 93.1,
+          "end": 93.56
+        },
+        {
+          "word": "zu",
+          "start": 93.56,
+          "end": 93.8
+        },
+        {
+          "word": ",",
+          "start": 93.8,
+          "end": 94.42
+        },
+        {
+          "word": "zwei",
+          "start": 94.42,
+          "end": 94.76
+        },
+        {
+          "word": "kommen",
+          "start": 94.76,
+          "end": 95.34
+        },
+        {
+          "word": "rein",
+          "start": 95.34,
+          "end": 95.6
+        },
+        {
+          "word": ",",
+          "start": 95.6,
+          "end": 96.16
+        },
+        {
+          "word": "nur",
+          "start": 96.16,
+          "end": 96.62
+        },
+        {
+          "word": "dieser",
+          "start": 96.62,
+          "end": 97.14
+        },
+        {
+          "word": "eine",
+          "start": 97.14,
+          "end": 99.88
+        },
+        {
+          "word": "muss",
+          "start": 99.88,
+          "end": 100.2
+        },
+        {
+          "word": "was",
+          "start": 100.2,
+          "end": 100.84
+        },
+        {
+          "word": "sein",
+          "start": 100.84,
+          "end": 100.84
+        },
+        {
+          "word": ".",
+          "start": 100.84,
+          "end": 101.88
+        }
+      ],
+      "tokens": [
+        50365,
+        2012,
+        19101,
+        9133,
+        3296,
+        369,
+        71,
+        11,
+        1343,
+        14106,
+        7095,
+        2164,
+        11,
+        12002,
+        11729,
+        6561,
+        11,
+        4343,
+        9053,
+        3018,
+        6425,
+        390,
+        6195,
+        13,
+        50917,
+        51589
+      ]
+    },
+    {
+      "start": 101.04,
+      "end": 119.58,
+      "text": "Die Uhr zeigt bei, der Raum bleibt klein, auf meinem Screen.",
+      "words": [
+        {
+          "word": "Die",
+          "start": 115.08,
+          "end": 115.38
+        },
+        {
+          "word": "Uhr",
+          "start": 115.38,
+          "end": 115.58
+        },
+        {
+          "word": "zeigt",
+          "start": 115.58,
+          "end": 115.86
+        },
+        {
+          "word": "bei",
+          "start": 115.86,
+          "end": 116.02
+        },
+        {
+          "word": ",",
+          "start": 116.02,
+          "end": 116.94
+        },
+        {
+          "word": "der",
+          "start": 116.94,
+          "end": 117.22
+        },
+        {
+          "word": "Raum",
+          "start": 117.22,
+          "end": 117.4
+        },
+        {
+          "word": "bleibt",
+          "start": 117.4,
+          "end": 117.76
+        },
+        {
+          "word": "klein",
+          "start": 117.76,
+          "end": 117.8
+        },
+        {
+          "word": ",",
+          "start": 117.8,
+          "end": 118.68
+        },
+        {
+          "word": "auf",
+          "start": 118.68,
+          "end": 118.9
+        },
+        {
+          "word": "meinem",
+          "start": 118.9,
+          "end": 119.36
+        },
+        {
+          "word": "Screen",
+          "start": 119.36,
+          "end": 119.44
+        },
+        {
+          "word": ".",
+          "start": 119.44,
+          "end": 119.98
+        }
+      ],
+      "tokens": [
+        50365,
+        3229,
+        30084,
+        29250,
+        4643,
+        11,
+        1163,
+        31359,
+        24814,
+        29231,
+        11,
+        2501,
+        24171,
+        25823,
+        13,
+        51292
+      ]
+    }
+  ]
+}

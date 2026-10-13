@@ -1,0 +1,62 @@
+[Intro]
+Was es nicht gibt,
+das bau ich mir.
+
+[Verse 1]
+Ein Pi mit Kamera, zwei Servos, ein Modell,
+erkennt einen Vogel, der Laserpunkt bewegt sich schnell.
+Ein Grundriss als PDF, daraus ein 3D-Haus,
+ich geh durch jeden Flur und seh: Hier fällt das WLAN aus.
+Ein Spiel in Babylon, das Modell aus Blender exportiert,
+es liegt erst auf der Seite, bis die Achse korrigiert.
+Eine Mac-App für Transfers, weil im Store nichts passt:
+Drag-and-Drop, ein Balken, und der Upload ist geschafft.
+
+[Pre-Chorus]
+Kein Store. Kein Abo. Keine Wartezeit.
+Ein Prompt, ein Prototyp, heute Nacht bereit.
+
+[Chorus]
+Vibecoder. Bau's dir selbst.
+Was dir fehlt, das schreibst du auf.
+Vibecoder. Bau's dir selbst.
+Ein Prompt, ein Build, und es läuft.
+Kein Plan auf Papier, kein Warten auf den Store,
+heute Nacht steht der Prototyp, morgen kommt mehr.
+
+[Verse 2]
+Ich bring die Idee, ich schreib, was sie können muss,
+der Agent baut den Entwurf, ich teste bis zum Schluss.
+Ein Fehler im Terminal, ich kopier ihn eins zu eins,
+und lief es vorher, frag ich nach: Was hast du geändert? Zeig's.
+Ein Diff, eine Zeile, zurück, der Build ist wieder rund,
+der Balken läuft bis hundert, und ich kenn jetzt den Grund.
+Funktion, Bedienung, Aussehen, alles muss zusammen gehn,
+ein Knopf, der hübsch ist, aber nichts tut, bleibt nicht stehn.
+
+[Chorus]
+Vibecoder. Bau's dir selbst.
+Was dir fehlt, das schreibst du auf.
+Vibecoder. Bau's dir selbst.
+Ein Prompt, ein Build, und es läuft.
+Kein Plan auf Papier, kein Warten auf den Store,
+heute Nacht steht der Prototyp, morgen kommt mehr.
+
+[Bridge]
+Ein Hardcoder fragt: „Weisst du, was da drin passiert?“
+Ich sag: „Nicht jede Zeile. Aber ich seh, ob's funktioniert.“
+Zwanzig Jahre Pakete, Logs und Captures im Blick,
+ich weiss, wie man Fehler findet: Schritt für Schritt.
+
+[Chorus]
+Vibecoder. Bau's dir selbst.
+Was dir fehlt, das schreibst du auf.
+Vibecoder. Bau's dir selbst.
+Ein Prompt, ein Build, und es läuft.
+Kein Plan auf Papier, kein Warten auf den Store,
+heute Nacht steht der Prototyp, morgen kommt mehr.
+
+[Outro]
+Was es nicht gibt,
+das bau ich mir.
+Heute Nacht.

@@ -1,0 +1,400 @@
+{
+  "source_audio_sha256": "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d",
+  "frame": 9000,
+  "next_frame": 12000,
+  "segments": [
+    {
+      "start": 90.0,
+      "end": 94.96,
+      "text": "The text gets long, I hear a change inside the song.",
+      "words": [
+        {
+          "word": "The",
+          "start": 90.16,
+          "end": 90.44
+        },
+        {
+          "word": "text",
+          "start": 90.44,
+          "end": 90.7
+        },
+        {
+          "word": "gets",
+          "start": 90.7,
+          "end": 91.08
+        },
+        {
+          "word": "long",
+          "start": 91.08,
+          "end": 91.32
+        },
+        {
+          "word": ",",
+          "start": 91.32,
+          "end": 91.88
+        },
+        {
+          "word": "I",
+          "start": 91.88,
+          "end": 92.24
+        },
+        {
+          "word": "hear",
+          "start": 92.24,
+          "end": 92.44
+        },
+        {
+          "word": "a",
+          "start": 92.44,
+          "end": 92.84
+        },
+        {
+          "word": "change",
+          "start": 92.84,
+          "end": 93.64
+        },
+        {
+          "word": "inside",
+          "start": 93.64,
+          "end": 94.16
+        },
+        {
+          "word": "the",
+          "start": 94.16,
+          "end": 94.66
+        },
+        {
+          "word": "song",
+          "start": 94.66,
+          "end": 95.0
+        },
+        {
+          "word": ".",
+          "start": 95.0,
+          "end": 96.3
+        }
+      ],
+      "tokens": [
+        50365,
+        440,
+        2487,
+        2170,
+        938,
+        11,
+        286,
+        1568,
+        257,
+        1319,
+        1854,
+        264,
+        2153,
+        13,
+        50613
+      ]
+    },
+    {
+      "start": 96.48,
+      "end": 97.58,
+      "text": "Token Burn.",
+      "words": [
+        {
+          "word": "Token",
+          "start": 96.48,
+          "end": 97.3
+        },
+        {
+          "word": "Burn",
+          "start": 97.3,
+          "end": 97.58
+        },
+        {
+          "word": ".",
+          "start": 97.58,
+          "end": 98.5
+        }
+      ],
+      "tokens": [
+        50689,
+        314,
+        8406,
+        18328,
+        13,
+        50744
+      ]
+    },
+    {
+      "start": 99.2,
+      "end": 102.86,
+      "text": "One more prompt before I go.",
+      "words": [
+        {
+          "word": "One",
+          "start": 99.86,
+          "end": 100.34
+        },
+        {
+          "word": "more",
+          "start": 100.34,
+          "end": 100.84
+        },
+        {
+          "word": "prompt",
+          "start": 100.84,
+          "end": 101.58
+        },
+        {
+          "word": "before",
+          "start": 101.58,
+          "end": 102.12
+        },
+        {
+          "word": "I",
+          "start": 102.12,
+          "end": 102.5
+        },
+        {
+          "word": "go",
+          "start": 102.5,
+          "end": 102.8
+        },
+        {
+          "word": ".",
+          "start": 102.8,
+          "end": 103.34
+        }
+      ],
+      "tokens": [
+        50825,
+        1485,
+        544,
+        12391,
+        949,
+        286,
+        352,
+        13,
+        51008
+      ]
+    },
+    {
+      "start": 103.4,
+      "end": 104.72,
+      "text": "Token Burn.",
+      "words": [
+        {
+          "word": "Token",
+          "start": 103.52,
+          "end": 104.34
+        },
+        {
+          "word": "Burn",
+          "start": 104.34,
+          "end": 105.34
+        },
+        {
+          "word": ".",
+          "start": 105.34,
+          "end": 105.34
+        }
+      ],
+      "tokens": [
+        51035,
+        314,
+        8406,
+        18328,
+        13,
+        51101
+      ]
+    },
+    {
+      "start": 106.4,
+      "end": 109.92,
+      "text": "One more thing I need to know.",
+      "words": [
+        {
+          "word": "One",
+          "start": 106.9,
+          "end": 107.4
+        },
+        {
+          "word": "more",
+          "start": 107.4,
+          "end": 107.8
+        },
+        {
+          "word": "thing",
+          "start": 107.8,
+          "end": 108.32
+        },
+        {
+          "word": "I",
+          "start": 108.32,
+          "end": 108.78
+        },
+        {
+          "word": "need",
+          "start": 108.78,
+          "end": 109.36
+        },
+        {
+          "word": "to",
+          "start": 109.36,
+          "end": 109.64
+        },
+        {
+          "word": "know",
+          "start": 109.64,
+          "end": 109.78
+        },
+        {
+          "word": ".",
+          "start": 109.78,
+          "end": 110.38
+        }
+      ],
+      "tokens": [
+        51185,
+        1485,
+        544,
+        551,
+        286,
+        643,
+        281,
+        458,
+        13,
+        51361
+      ]
+    },
+    {
+      "start": 110.56,
+      "end": 113.36,
+      "text": "One dev shuts, two more appear.",
+      "words": [
+        {
+          "word": "One",
+          "start": 110.62,
+          "end": 111.16
+        },
+        {
+          "word": "dev",
+          "start": 111.16,
+          "end": 111.54
+        },
+        {
+          "word": "shuts",
+          "start": 111.54,
+          "end": 111.88
+        },
+        {
+          "word": ",",
+          "start": 111.88,
+          "end": 112.2
+        },
+        {
+          "word": "two",
+          "start": 112.2,
+          "end": 112.54
+        },
+        {
+          "word": "more",
+          "start": 112.54,
+          "end": 113.04
+        },
+        {
+          "word": "appear",
+          "start": 113.04,
+          "end": 114.1
+        },
+        {
+          "word": ".",
+          "start": 114.1,
+          "end": 114.1
+        }
+      ],
+      "tokens": [
+        51393,
+        1485,
+        1905,
+        48590,
+        11,
+        732,
+        544,
+        4204,
+        13,
+        51533
+      ]
+    },
+    {
+      "start": 114.28,
+      "end": 117.0,
+      "text": "I said I'd leave, I'm still right here.",
+      "words": [
+        {
+          "word": "I",
+          "start": 114.34,
+          "end": 114.64
+        },
+        {
+          "word": "said",
+          "start": 114.64,
+          "end": 114.98
+        },
+        {
+          "word": "I'd",
+          "start": 114.98,
+          "end": 115.18
+        },
+        {
+          "word": "leave",
+          "start": 115.18,
+          "end": 115.38
+        },
+        {
+          "word": ",",
+          "start": 115.38,
+          "end": 115.68
+        },
+        {
+          "word": "I'm",
+          "start": 115.68,
+          "end": 115.98
+        },
+        {
+          "word": "still",
+          "start": 115.98,
+          "end": 116.28
+        },
+        {
+          "word": "right",
+          "start": 116.28,
+          "end": 116.8
+        },
+        {
+          "word": "here",
+          "start": 116.8,
+          "end": 117.0
+        },
+        {
+          "word": ".",
+          "start": 117.0,
+          "end": 117.74
+        }
+      ],
+      "tokens": [
+        51579,
+        286,
+        848,
+        286,
+        1116,
+        1856,
+        11,
+        286,
+        478,
+        920,
+        558,
+        510,
+        13,
+        51715
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+[Intro]
+Ein Grundriss.
+Ein PDF.
+Ein Plan.
+
+[Verse 1]
+Ich geb dem Agenten den Plan vom zweiten Stock,
+er zieht die Wände raus, Linie für Linie, Block für Block.
+Aus Strichen werden Mauern, drei Meter hoch im Raum,
+ich flieg durchs Treppenhaus in 3D, und alles passt genau.
+Beton zwölf Dezibel, Gipskarton drei,
+Glas um die zwei, und durch den Liftschacht kommt fast nichts vorbei.
+
+[Chorus]
+Heatmap.
+Grün, wo das Signal noch trägt.
+Heatmap.
+Rot, wo der Beton es schlägt.
+Minus siebenundsechzig dBm als Ziel,
+ich schieb die Access Points, und Rot wird wenig, Grün wird viel.
+
+[Verse 2]
+Drei APs pro Stock, Kanal eins, sechs und elf,
+die Zellen überlappen nur so viel, wie's beim Roaming hilft.
+Doch die Simulation ist nur ein Modell,
+am Montag geh ich mit dem Laptop durch den Bau und mess an jeder Stell.
+Im Sitzungszimmer misst er fünf dB weniger als gedacht:
+ein Metallschrank, der in keinem Plan steht. Ich hab gelacht.
+
+[Chorus]
+Heatmap.
+Grün, wo das Signal noch trägt.
+Heatmap.
+Rot, wo der Beton es schlägt.
+Minus siebenundsechzig dBm als Ziel,
+ich schieb die Access Points, und Rot wird wenig, Grün wird viel.
+
+[Bridge]
+Ein Plan ist keine Wand.
+Ein Modell ist kein Raum.
+Was zählt, ist der Wert vor Ort,
+mit dem Laptop in der Hand.
+
+[Chorus]
+Heatmap.
+Grün, wo das Signal noch trägt.
+Heatmap.
+Rot, wo der Beton es schlägt.
+Minus siebenundsechzig dBm als Ziel,
+ich schieb die Access Points, und Rot wird wenig, Grün wird viel.
+
+[Outro]
+Grün im Flur.
+Grün im Sitzungszimmer.
+Minus siebenundsechzig.

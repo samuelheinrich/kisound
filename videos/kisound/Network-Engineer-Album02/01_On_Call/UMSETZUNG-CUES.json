@@ -1,0 +1,1642 @@
+{
+ "schema": "kisound.oncall.cues.v1",
+ "duration_s": 216.7735,
+ "fade_start_s": 210.8,
+ "titles": {
+  "intro": [
+   1.7,
+   2.7,
+   6.6,
+   7.8
+  ],
+  "outro": [
+   199.7,
+   200.5,
+   204,
+   204.9
+  ]
+ },
+ "drops_s": [
+  30.5,
+  90.8,
+  120.9,
+  169.7,
+  199.6
+ ],
+ "gaps_s": [
+  [
+   29.95,
+   30.4
+  ],
+  [
+   197.75,
+   199.5
+  ]
+ ],
+ "fix_s": 146.82,
+ "retest_s": 148.78,
+ "test_a_ok_s": 169.7,
+ "verify_s": {
+  "A": 169.7,
+  "B": 179,
+  "C": 180.6,
+  "D": 182.2
+ },
+ "counter": {
+  "before": 40,
+  "after": 41
+ },
+ "chapters": [
+  {
+   "id": "C01",
+   "title": "Nacht",
+   "start": 0,
+   "end": 16.58,
+   "action": "Die Stadt schläft; ein einziges Fenster leuchtet. Telefon dunkel, Monitor in Bereitschaft."
+  },
+  {
+   "id": "C02",
+   "title": "Display wird hell",
+   "start": 16.58,
+   "end": 30.02,
+   "action": "Alarm 02:17. INCIDENT-2042 erscheint neben dem Bereitschaftsnamen. Die Person setzt sich auf."
+  },
+  {
+   "id": "C03",
+   "title": "Rackgang",
+   "start": 30.02,
+   "end": 44.56,
+   "action": "Diagnoseoberfläche offen. Durch den Monitor in den Rackgang bis an R-EDGE; die falsche ACL ist schon gebunden."
+  },
+  {
+   "id": "C04",
+   "title": "Alles ist weg",
+   "start": 44.56,
+   "end": 75.4,
+   "action": "Ein ungenaues Ticket wird präzise: SITE-2, Client 192.0.2.10, Beginn nach CHG-2042. TEST-A: drei Dienste Timeout, CTRL-D antwortet."
+  },
+  {
+   "id": "C05",
+   "title": "Genauer fragen",
+   "start": 75.4,
+   "end": 89.32,
+   "action": "Keine Änderung auf Verdacht. Client, Zeit und Ziel stehen fest; ein einzelner Diagnose-SYN wird vorbereitet."
+  },
+  {
+   "id": "C06",
+   "title": "Ich folg dem Signal",
+   "start": 89.32,
+   "end": 120.12,
+   "action": "F-A1 in Zeitlupe durch R-EDGE: Port, Eingangsprüfung, gültige Route – Verwerfung an QUARANTINE Regel 10."
+  },
+  {
+   "id": "C07",
+   "title": "Die Spur",
+   "start": 120.12,
+   "end": 135.68,
+   "action": "Drei Belege: Route korrekt, Binding falsch, Counter 40→41 samt Log. Gateway-Test ist kein Anwendungstest."
+  },
+  {
+   "id": "C08",
+   "title": "Erst verstehen",
+   "start": 135.68,
+   "end": 148.78,
+   "action": "Diff gegen den Vorzustand, Vorschau, dann genau ein Eingriff: no ip access-group QUARANTINE out um 146,82 s."
+  },
+  {
+   "id": "C09",
+   "title": "Derselbe Test",
+   "start": 148.78,
+   "end": 184.28,
+   "action": "Derselbe curl-Befehl, neue Verbindung F-A2: Handshake, TLS, HTTP 200. Danach APP-B, APP-C und CTRL-D."
+  },
+  {
+   "id": "C10",
+   "title": "Ticket geschlossen",
+   "start": 184.28,
+   "end": 199.04,
+   "action": "Ursache, Eingriff, Verifikation. Telefon gesperrt, Fenster dunkel."
+  },
+  {
+   "id": "C11",
+   "title": "Die Stadt weiss nichts",
+   "start": 199.04,
+   "end": 216.7735,
+   "action": "Der geprüfte Serviceweg unter den Strassen, neue Transaktionen in den Diensthallen, Blende."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S001",
+   "start_s": 0,
+   "end_s": 8.29,
+   "zone": "city",
+   "camera": "crane",
+   "mode": "opening",
+   "target": null,
+   "event_ids": [
+    "E001",
+    "E002"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S002",
+   "start_s": 8.29,
+   "end_s": 16.58,
+   "zone": "desk",
+   "camera": "enter",
+   "mode": "standby",
+   "target": null,
+   "event_ids": [
+    "E003"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S003",
+   "start_s": 16.58,
+   "end_s": 18.54,
+   "zone": "desk",
+   "camera": "phone",
+   "mode": "alarm",
+   "target": null,
+   "event_ids": [
+    "E004"
+   ],
+   "lyric_ids": [
+    "L001"
+   ]
+  },
+  {
+   "id": "S004",
+   "start_s": 18.54,
+   "end_s": 22.62,
+   "zone": "city",
+   "camera": "window",
+   "mode": "sleep",
+   "target": null,
+   "event_ids": [
+    "E005"
+   ],
+   "lyric_ids": [
+    "L002"
+   ]
+  },
+  {
+   "id": "S005",
+   "start_s": 22.62,
+   "end_s": 28.14,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "ticket",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L003"
+   ]
+  },
+  {
+   "id": "S006",
+   "start_s": 28.14,
+   "end_s": 30.02,
+   "zone": "desk",
+   "camera": "side",
+   "mode": "upright",
+   "target": null,
+   "event_ids": [
+    "E006"
+   ],
+   "lyric_ids": [
+    "L004"
+   ]
+  },
+  {
+   "id": "S007",
+   "start_s": 30.02,
+   "end_s": 37.29,
+   "zone": "desk",
+   "camera": "over",
+   "mode": "open",
+   "target": null,
+   "event_ids": [
+    "E007",
+    "E008",
+    "E009"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S008",
+   "start_s": 37.29,
+   "end_s": 44.56,
+   "zone": "router",
+   "camera": "aisle",
+   "mode": "enter",
+   "target": null,
+   "event_ids": [
+    "E010",
+    "E011"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S009",
+   "start_s": 44.56,
+   "end_s": 48.56,
+   "zone": "desk",
+   "camera": "phone",
+   "mode": "vibrate",
+   "target": null,
+   "event_ids": [
+    "E012"
+   ],
+   "lyric_ids": [
+    "L005"
+   ]
+  },
+  {
+   "id": "S010",
+   "start_s": 48.56,
+   "end_s": 52.28,
+   "zone": "desk",
+   "camera": "coffee",
+   "mode": "coffee",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L006"
+   ]
+  },
+  {
+   "id": "S011",
+   "start_s": 52.28,
+   "end_s": 55.58,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "report",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L007"
+   ]
+  },
+  {
+   "id": "S012",
+   "start_s": 55.58,
+   "end_s": 58.7,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "fields",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L008"
+   ]
+  },
+  {
+   "id": "S013",
+   "start_s": 58.7,
+   "end_s": 62.68,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "fill",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L009"
+   ]
+  },
+  {
+   "id": "S014",
+   "start_s": 62.68,
+   "end_s": 66.16,
+   "zone": "desk",
+   "camera": "over",
+   "mode": "test",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L010"
+   ]
+  },
+  {
+   "id": "S015",
+   "start_s": 66.16,
+   "end_s": 69.2,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "compare",
+   "target": null,
+   "event_ids": [
+    "E013"
+   ],
+   "lyric_ids": [
+    "L011"
+   ]
+  },
+  {
+   "id": "S016",
+   "start_s": 69.2,
+   "end_s": 75.4,
+   "zone": "router",
+   "camera": "dolly",
+   "mode": "paths",
+   "target": "s:LOOKUP",
+   "event_ids": [],
+   "lyric_ids": [
+    "L012"
+   ]
+  },
+  {
+   "id": "S017",
+   "start_s": 75.4,
+   "end_s": 78.42,
+   "zone": "desk",
+   "camera": "hands",
+   "mode": "still",
+   "target": null,
+   "event_ids": [
+    "E014",
+    "E015"
+   ],
+   "lyric_ids": [
+    "L013"
+   ]
+  },
+  {
+   "id": "S018",
+   "start_s": 78.42,
+   "end_s": 81.42,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "coords",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L014"
+   ]
+  },
+  {
+   "id": "S019",
+   "start_s": 81.42,
+   "end_s": 84.78,
+   "zone": "desk",
+   "camera": "hands",
+   "mode": "hover",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L015"
+   ]
+  },
+  {
+   "id": "S020",
+   "start_s": 84.78,
+   "end_s": 89.32,
+   "zone": "router",
+   "camera": "flow",
+   "mode": "launch",
+   "target": "f:FA1",
+   "event_ids": [],
+   "lyric_ids": [
+    "L016"
+   ]
+  },
+  {
+   "id": "S021",
+   "start_s": 89.32,
+   "end_s": 91.16,
+   "zone": "router",
+   "camera": "gate",
+   "mode": "port",
+   "target": "f:FA1",
+   "event_ids": [
+    "E016",
+    "E017"
+   ],
+   "lyric_ids": [
+    "L017"
+   ]
+  },
+  {
+   "id": "S022",
+   "start_s": 91.16,
+   "end_s": 95.92,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "live",
+   "target": null,
+   "event_ids": [
+    "E018"
+   ],
+   "lyric_ids": [
+    "L018"
+   ]
+  },
+  {
+   "id": "S023",
+   "start_s": 95.92,
+   "end_s": 99.18,
+   "zone": "city",
+   "camera": "wide",
+   "mode": "fog",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L019"
+   ]
+  },
+  {
+   "id": "S024",
+   "start_s": 99.18,
+   "end_s": 101.78,
+   "zone": "router",
+   "camera": "flow",
+   "mode": "parser",
+   "target": "f:FA1",
+   "event_ids": [
+    "E019"
+   ],
+   "lyric_ids": [
+    "L020"
+   ]
+  },
+  {
+   "id": "S025",
+   "start_s": 101.78,
+   "end_s": 106.32,
+   "zone": "router",
+   "camera": "dolly",
+   "mode": "route",
+   "target": "f:FA1",
+   "event_ids": [],
+   "lyric_ids": [
+    "L021"
+   ]
+  },
+  {
+   "id": "S026",
+   "start_s": 106.32,
+   "end_s": 111.92,
+   "zone": "router",
+   "camera": "macro",
+   "mode": "drop",
+   "target": "f:FA1",
+   "event_ids": [],
+   "lyric_ids": [
+    "L022"
+   ]
+  },
+  {
+   "id": "S027",
+   "start_s": 111.92,
+   "end_s": 113.74,
+   "zone": "desk",
+   "camera": "over",
+   "mode": "stay",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L023"
+   ]
+  },
+  {
+   "id": "S028",
+   "start_s": 113.74,
+   "end_s": 120.12,
+   "zone": "router",
+   "camera": "side",
+   "mode": "axis",
+   "target": "s:ACL10",
+   "event_ids": [
+    "E020",
+    "E021"
+   ],
+   "lyric_ids": [
+    "L024"
+   ]
+  },
+  {
+   "id": "S029",
+   "start_s": 120.12,
+   "end_s": 122.38,
+   "zone": "router",
+   "camera": "dolly",
+   "mode": "evroute",
+   "target": "s:LOOKUP",
+   "event_ids": [
+    "E022"
+   ],
+   "lyric_ids": [
+    "L025"
+   ]
+  },
+  {
+   "id": "S030",
+   "start_s": 122.38,
+   "end_s": 124.14,
+   "zone": "router",
+   "camera": "flow",
+   "mode": "gwtest",
+   "target": "f:GW",
+   "event_ids": [],
+   "lyric_ids": [
+    "L026"
+   ]
+  },
+  {
+   "id": "S031",
+   "start_s": 124.14,
+   "end_s": 126.2,
+   "zone": "router",
+   "camera": "macro",
+   "mode": "nexthop",
+   "target": "f:RP1",
+   "event_ids": [
+    "E023"
+   ],
+   "lyric_ids": [
+    "L027"
+   ]
+  },
+  {
+   "id": "S032",
+   "start_s": 126.2,
+   "end_s": 128,
+   "zone": "router",
+   "camera": "trace",
+   "mode": "trace",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L028"
+   ]
+  },
+  {
+   "id": "S033",
+   "start_s": 128,
+   "end_s": 129.94,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "diff",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L029"
+   ]
+  },
+  {
+   "id": "S034",
+   "start_s": 129.94,
+   "end_s": 131.78,
+   "zone": "router",
+   "camera": "macro",
+   "mode": "counter",
+   "target": "s:ACL10",
+   "event_ids": [],
+   "lyric_ids": [
+    "L030"
+   ]
+  },
+  {
+   "id": "S035",
+   "start_s": 131.78,
+   "end_s": 133.22,
+   "zone": "desk",
+   "camera": "over",
+   "mode": "norestart",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L031"
+   ]
+  },
+  {
+   "id": "S036",
+   "start_s": 133.22,
+   "end_s": 135.68,
+   "zone": "router",
+   "camera": "side",
+   "mode": "isolate",
+   "target": "s:ACL10",
+   "event_ids": [],
+   "lyric_ids": [
+    "L032"
+   ]
+  },
+  {
+   "id": "S037",
+   "start_s": 135.68,
+   "end_s": 137.64,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "difference",
+   "target": null,
+   "event_ids": [
+    "E024",
+    "E025"
+   ],
+   "lyric_ids": [
+    "L033"
+   ]
+  },
+  {
+   "id": "S038",
+   "start_s": 137.64,
+   "end_s": 139.4,
+   "zone": "router",
+   "camera": "macro",
+   "mode": "measure",
+   "target": "s:ACL10",
+   "event_ids": [],
+   "lyric_ids": [
+    "L034"
+   ]
+  },
+  {
+   "id": "S039",
+   "start_s": 139.4,
+   "end_s": 140.9,
+   "zone": "router",
+   "camera": "flow",
+   "mode": "replay",
+   "target": "f:RP2",
+   "event_ids": [],
+   "lyric_ids": [
+    "L035"
+   ]
+  },
+  {
+   "id": "S040",
+   "start_s": 140.9,
+   "end_s": 143.02,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "evidence",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L036"
+   ]
+  },
+  {
+   "id": "S041",
+   "start_s": 143.02,
+   "end_s": 145.22,
+   "zone": "desk",
+   "camera": "hands",
+   "mode": "enter",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L037"
+   ]
+  },
+  {
+   "id": "S042",
+   "start_s": 145.22,
+   "end_s": 146.82,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "preview",
+   "target": null,
+   "event_ids": [
+    "E026"
+   ],
+   "lyric_ids": [
+    "L038"
+   ]
+  },
+  {
+   "id": "S043",
+   "start_s": 146.82,
+   "end_s": 148.78,
+   "zone": "router",
+   "camera": "macro",
+   "mode": "release",
+   "target": "s:ACL10",
+   "event_ids": [],
+   "lyric_ids": [
+    "L039"
+   ]
+  },
+  {
+   "id": "S044",
+   "start_s": 148.78,
+   "end_s": 153.52,
+   "zone": "router",
+   "camera": "flow",
+   "mode": "fa2",
+   "target": "f:FA2",
+   "event_ids": [],
+   "lyric_ids": [
+    "L040"
+   ]
+  },
+  {
+   "id": "S045",
+   "start_s": 153.52,
+   "end_s": 156.8,
+   "zone": "router",
+   "camera": "gate",
+   "mode": "pass",
+   "target": "f:FA2",
+   "event_ids": [
+    "E027",
+    "E028",
+    "E029"
+   ],
+   "lyric_ids": [
+    "L041"
+   ]
+  },
+  {
+   "id": "S046",
+   "start_s": 156.8,
+   "end_s": 160.2,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "tls",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L042"
+   ]
+  },
+  {
+   "id": "S047",
+   "start_s": 160.2,
+   "end_s": 163.98,
+   "zone": "city",
+   "camera": "wide",
+   "mode": "datalight",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L043"
+   ]
+  },
+  {
+   "id": "S048",
+   "start_s": 163.98,
+   "end_s": 165.58,
+   "zone": "router",
+   "camera": "hall",
+   "mode": "arrive",
+   "target": "f:REQ",
+   "event_ids": [],
+   "lyric_ids": [
+    "L044"
+   ]
+  },
+  {
+   "id": "S049",
+   "start_s": 165.58,
+   "end_s": 169.88,
+   "zone": "router",
+   "camera": "back",
+   "mode": "reply",
+   "target": "f:RSP",
+   "event_ids": [],
+   "lyric_ids": []
+  },
+  {
+   "id": "S050",
+   "start_s": 169.88,
+   "end_s": 171.66,
+   "zone": "desk",
+   "camera": "over",
+   "mode": "watch",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L045"
+   ]
+  },
+  {
+   "id": "S051",
+   "start_s": 171.66,
+   "end_s": 175.02,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "named",
+   "target": null,
+   "event_ids": [
+    "E030"
+   ],
+   "lyric_ids": [
+    "L046"
+   ]
+  },
+  {
+   "id": "S052",
+   "start_s": 175.02,
+   "end_s": 177.46,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "attach",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L047"
+   ]
+  },
+  {
+   "id": "S053",
+   "start_s": 177.46,
+   "end_s": 184.28,
+   "zone": "router",
+   "camera": "hall",
+   "mode": "verify",
+   "target": "h:B",
+   "event_ids": [
+    "E031"
+   ],
+   "lyric_ids": [
+    "L048"
+   ]
+  },
+  {
+   "id": "S054",
+   "start_s": 184.28,
+   "end_s": 187.46,
+   "zone": "desk",
+   "camera": "coffee",
+   "mode": "exhale",
+   "target": null,
+   "event_ids": [
+    "E032"
+   ],
+   "lyric_ids": [
+    "L049"
+   ]
+  },
+  {
+   "id": "S055",
+   "start_s": 187.46,
+   "end_s": 192.56,
+   "zone": "screen",
+   "camera": "ortho",
+   "mode": "closed",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L050"
+   ]
+  },
+  {
+   "id": "S056",
+   "start_s": 192.56,
+   "end_s": 195.84,
+   "zone": "desk",
+   "camera": "phone",
+   "mode": "lock",
+   "target": null,
+   "event_ids": [],
+   "lyric_ids": [
+    "L051"
+   ]
+  },
+  {
+   "id": "S057",
+   "start_s": 195.84,
+   "end_s": 199.04,
+   "zone": "city",
+   "camera": "window",
+   "mode": "dark",
+   "target": null,
+   "event_ids": [
+    "E033"
+   ],
+   "lyric_ids": [
+    "L052"
+   ]
+  },
+  {
+   "id": "S058",
+   "start_s": 199.04,
+   "end_s": 204.9512,
+   "zone": "city",
+   "camera": "pullback",
+   "mode": "service",
+   "target": null,
+   "event_ids": [
+    "E034",
+    "E035",
+    "E036",
+    "E037"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S059",
+   "start_s": 204.9512,
+   "end_s": 210.8623,
+   "zone": "router",
+   "camera": "hall",
+   "mode": "transactions",
+   "target": "h:A",
+   "event_ids": [
+    "E038",
+    "E039"
+   ],
+   "lyric_ids": []
+  },
+  {
+   "id": "S060",
+   "start_s": 210.8623,
+   "end_s": 216.7735,
+   "zone": "city",
+   "camera": "wide",
+   "mode": "end",
+   "target": null,
+   "event_ids": [
+    "E040",
+    "E041"
+   ],
+   "lyric_ids": []
+  }
+ ],
+ "flights": [
+  {
+   "id": "T0",
+   "name": null,
+   "kind": "syn",
+   "test": "TEST-A",
+   "start_s": 63.75,
+   "end_s": 64.1,
+   "fate": "drop",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→ACL10",
+   "header": "TCP SYN 192.0.2.10:50412 → 198.51.100.20:443"
+  },
+  {
+   "id": "T0R",
+   "name": null,
+   "kind": "syn",
+   "test": "TEST-A",
+   "start_s": 64.75,
+   "end_s": 65.1,
+   "fate": "drop",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→ACL10",
+   "header": "TCP SYN 192.0.2.10:50412 → 198.51.100.20:443"
+  },
+  {
+   "id": "C0",
+   "name": null,
+   "kind": "syn",
+   "test": "CTRL",
+   "start_s": 66.85,
+   "end_s": 67.25,
+   "fate": "deliver",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→G2→GI002→D",
+   "header": "TCP SYN 192.0.2.10:50418 → 203.0.113.40:443"
+  },
+  {
+   "id": "C0R",
+   "name": null,
+   "kind": "synack",
+   "test": "CTRL",
+   "start_s": 67.3,
+   "end_s": 67.7,
+   "fate": "deliver",
+   "path": "D→GI002→G2→LOOKUP→PARSER→GI000→CLIENT",
+   "header": "→"
+  },
+  {
+   "id": "FA1",
+   "name": "F-A1",
+   "kind": "syn",
+   "test": "F-A1",
+   "start_s": 85.6,
+   "end_s": 108.2,
+   "fate": "drop",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→ACL10",
+   "header": "TCP SYN 192.0.2.10:51000 → 198.51.100.20:443"
+  },
+  {
+   "id": "GW",
+   "name": null,
+   "kind": "icmp",
+   "test": "GW",
+   "start_s": 122.45,
+   "end_s": 123.4,
+   "fate": "local",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→CPU",
+   "header": "ICMP echo request 192.0.2.10 → 198.51.100.1"
+  },
+  {
+   "id": "GWR",
+   "name": null,
+   "kind": "icmp",
+   "test": "GW",
+   "start_s": 123.5,
+   "end_s": 124.1,
+   "fate": "deliver",
+   "path": "CPU→LOOKUP→PARSER→GI000→CLIENT",
+   "header": "ICMP echo reply 198.51.100.1 → 192.0.2.10"
+  },
+  {
+   "id": "RP1",
+   "name": "F-A1 · REPLAY",
+   "kind": "replay",
+   "test": null,
+   "start_s": 124.2,
+   "end_s": 125.58,
+   "fate": "drop",
+   "path": "LOOKUP→ACL10",
+   "header": "TCP SYN 192.0.2.10:51000 → 198.51.100.20:443"
+  },
+  {
+   "id": "RP2",
+   "name": "F-A1 · REPLAY",
+   "kind": "replay",
+   "test": null,
+   "start_s": 139.45,
+   "end_s": 140.6,
+   "fate": "drop",
+   "path": "LOOKUP→ACL10",
+   "header": "TCP SYN 192.0.2.10:51000 → 198.51.100.20:443"
+  },
+  {
+   "id": "FA2",
+   "name": "F-A2",
+   "kind": "syn",
+   "test": "TEST-A",
+   "start_s": 149.6,
+   "end_s": 156,
+   "fate": "deliver",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→ACL10→ACL20→GI001→FAN→A",
+   "header": "TCP SYN 192.0.2.10:51001 → 198.51.100.20:443"
+  },
+  {
+   "id": "SA2",
+   "name": null,
+   "kind": "synack",
+   "test": "TEST-A",
+   "start_s": 156.05,
+   "end_s": 157.8,
+   "fate": "deliver",
+   "path": "A→FAN→GI001→ACL20→ACL10→LOOKUP→PARSER→GI000→CLIENT",
+   "header": "TCP SYN/ACK 198.51.100.20:443 → 192.0.2.10:51001"
+  },
+  {
+   "id": "TLS1",
+   "name": null,
+   "kind": "tls",
+   "test": "TEST-A",
+   "start_s": 157.9,
+   "end_s": 159,
+   "fate": "deliver",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→ACL10→ACL20→GI001→FAN→A",
+   "header": "TLS 1.3 ClientHello  →"
+  },
+  {
+   "id": "TLS2",
+   "name": null,
+   "kind": "tls",
+   "test": "TEST-A",
+   "start_s": 159.1,
+   "end_s": 160.2,
+   "fate": "deliver",
+   "path": "A→FAN→GI001→ACL20→ACL10→LOOKUP→PARSER→GI000→CLIENT",
+   "header": "TLS 1.3 ServerHello · Zertifikat  →"
+  },
+  {
+   "id": "TLS3",
+   "name": null,
+   "kind": "tls",
+   "test": "TEST-A",
+   "start_s": 160.3,
+   "end_s": 161.4,
+   "fate": "deliver",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→ACL10→ACL20→GI001→FAN→A",
+   "header": "TLS 1.3 Finished  →"
+  },
+  {
+   "id": "REQ",
+   "name": "TEST-A · GET",
+   "kind": "data",
+   "test": "TEST-A",
+   "start_s": 161.9,
+   "end_s": 164.3,
+   "fate": "deliver",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→ACL10→ACL20→GI001→FAN→A",
+   "header": "TLS 1.3 GET /health 192.0.2.10:51001 → 198.51.100.20:443"
+  },
+  {
+   "id": "RSP",
+   "name": "TEST-A · HTTP 200",
+   "kind": "data",
+   "test": "TEST-A",
+   "start_s": 165.6,
+   "end_s": 169.7,
+   "fate": "deliver",
+   "path": "A→FAN→GI001→ACL20→ACL10→LOOKUP→PARSER→GI000→CLIENT",
+   "header": "TLS 1.3 HTTP 200 198.51.100.20:443 → 192.0.2.10:51001"
+  },
+  {
+   "id": "TB",
+   "name": null,
+   "kind": "data",
+   "test": "CHECK-B",
+   "start_s": 176.6,
+   "end_s": 177.9,
+   "fate": "deliver",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→ACL10→ACL20→GI001→FAN→FB→B",
+   "header": "TLS 1.3 GET /health  →"
+  },
+  {
+   "id": "TBR",
+   "name": null,
+   "kind": "data",
+   "test": "CHECK-B",
+   "start_s": 178.2,
+   "end_s": 179,
+   "fate": "deliver",
+   "path": "B→FB→FAN→GI001→ACL20→ACL10→LOOKUP→PARSER→GI000→CLIENT",
+   "header": "TLS 1.3 HTTP 200  →"
+  },
+  {
+   "id": "TC",
+   "name": null,
+   "kind": "data",
+   "test": "CHECK-C",
+   "start_s": 178.2,
+   "end_s": 179.6,
+   "fate": "deliver",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→ACL10→ACL20→GI001→FAN→FC→C",
+   "header": "TLS 1.3 GET /health  →"
+  },
+  {
+   "id": "TCR",
+   "name": null,
+   "kind": "data",
+   "test": "CHECK-C",
+   "start_s": 179.8,
+   "end_s": 180.6,
+   "fate": "deliver",
+   "path": "C→FC→FAN→GI001→ACL20→ACL10→LOOKUP→PARSER→GI000→CLIENT",
+   "header": "TLS 1.3 HTTP 200  →"
+  },
+  {
+   "id": "TD",
+   "name": null,
+   "kind": "data",
+   "test": "CHECK-D",
+   "start_s": 179.8,
+   "end_s": 181.2,
+   "fate": "deliver",
+   "path": "CLIENT→GI000→PARSER→LOOKUP→G2→GI002→D",
+   "header": "TLS 1.3 GET /health  →"
+  },
+  {
+   "id": "TDR",
+   "name": null,
+   "kind": "data",
+   "test": "CHECK-D",
+   "start_s": 181.4,
+   "end_s": 182.2,
+   "fate": "deliver",
+   "path": "D→GI002→G2→LOOKUP→PARSER→GI000→CLIENT",
+   "header": "TLS 1.3 HTTP 200  →"
+  }
+ ],
+ "blocks": [
+  {
+   "id": "B01",
+   "title": "INCIDENT-2042",
+   "window_s": [
+    22.62,
+    72.42
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 22.62,
+     "text": "INCIDENT-2042 | 02:17 | On Call",
+     "kind": "head"
+    },
+    {
+     "reveal_s": 22.62,
+     "text": "Meldung: Alles ist weg",
+     "kind": "warn"
+    },
+    {
+     "reveal_s": 59.6,
+     "text": "Standort: SITE-2    Client: 192.0.2.10",
+     "kind": null
+    },
+    {
+     "reveal_s": 59.6,
+     "text": "Beginn: nach CHG-2042",
+     "kind": null
+    },
+    {
+     "reveal_s": 66.3,
+     "text": "APP-A/B/C: HTTPS timeout    CTRL-D: HTTPS 200",
+     "kind": "warn"
+    }
+   ]
+  },
+  {
+   "id": "B02",
+   "title": "client · TEST-A",
+   "window_s": [
+    62.68,
+    75.4
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 62.9,
+     "text": "client$ curl --connect-timeout 2 --max-time 5 --resolve app-a.example:443:198.51.100.20 --write-out '\\nHTTP %{http_code}\\n' https://app-a.example/health",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 65.75,
+     "text": "curl: (28) Failed to connect to app-a.example port 443 after 2002 ms: Timeout was reached",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 66.2,
+     "text": "client$ curl --resolve ctrl.example:443:203.0.113.40 https://ctrl.example/health",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 67.75,
+     "text": "{\"status\":\"ok\"}",
+     "kind": "ok"
+    }
+   ]
+  },
+  {
+   "id": "P0",
+   "title": "R-EDGE · Vorher-Snapshot",
+   "window_s": [
+    81.42,
+    89.32
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 81.7,
+     "text": "R-EDGE# show ip access-lists | include list|matches",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 82.5,
+     "text": "Extended IP access list MGMT-IN",
+     "kind": null
+    },
+    {
+     "reveal_s": 82.5,
+     "text": "    10 permit tcp 10.99.0.0 0.0.0.255 any eq 22 (318 matches)",
+     "kind": null
+    },
+    {
+     "reveal_s": 82.5,
+     "text": "Extended IP access list QUARANTINE",
+     "kind": null
+    },
+    {
+     "reveal_s": 82.5,
+     "text": "    10 deny ip any 198.51.100.0 0.0.0.255 log (40 matches)",
+     "kind": null
+    }
+   ]
+  },
+  {
+   "id": "P1",
+   "title": "client · Diagnose-SYN F-A1",
+   "window_s": [
+    84.78,
+    120.12
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 84.9,
+     "text": "client$ sudo hping3 -S -p 443 -s 51000 -c 1 198.51.100.20",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 85.6,
+     "text": "HPING 198.51.100.20 (eth0 198.51.100.20): S set, 40 headers + 0 data bytes",
+     "kind": null
+    },
+    {
+     "reveal_s": 86.7,
+     "text": "--- 198.51.100.20 hping statistic ---",
+     "kind": null
+    },
+    {
+     "reveal_s": 86.7,
+     "text": "1 packets transmitted, 0 packets received, 100% packet loss",
+     "kind": "bad"
+    }
+   ]
+  },
+  {
+   "id": "B03",
+   "title": "R-EDGE · Belege",
+   "window_s": [
+    120.12,
+    143.02
+   ],
+   "pages_s": [
+    120.12,
+    124.14,
+    129.94
+   ],
+   "lines": [
+    {
+     "reveal_s": 120.3,
+     "text": "R-EDGE# show ip route 198.51.100.20",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 120.9,
+     "text": "Routing entry for 198.51.100.0/24",
+     "kind": null
+    },
+    {
+     "reveal_s": 120.9,
+     "text": "  Known via \"connected\", distance 0, metric 0",
+     "kind": null
+    },
+    {
+     "reveal_s": 120.9,
+     "text": "  * directly connected, via GigabitEthernet0/0/1",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 124.3,
+     "text": "R-EDGE# show running-config interface GigabitEthernet0/0/1",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 125,
+     "text": "interface GigabitEthernet0/0/1",
+     "kind": null
+    },
+    {
+     "reveal_s": 125,
+     "text": " ip address 198.51.100.1 255.255.255.0",
+     "kind": null
+    },
+    {
+     "reveal_s": 125,
+     "text": " ip access-group QUARANTINE out",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 130.1,
+     "text": "R-EDGE# show ip access-lists QUARANTINE",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 130.8,
+     "text": "Extended IP access list QUARANTINE",
+     "kind": null
+    },
+    {
+     "reveal_s": 130.8,
+     "text": " 10 deny ip any 198.51.100.0 0.0.0.255 log (41 matches)",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 130.8,
+     "text": " 20 permit ip any any",
+     "kind": null
+    },
+    {
+     "reveal_s": 131.2,
+     "text": "%SEC-6-IPACCESSLOGP: list QUARANTINE denied tcp 192.0.2.10(51000) -> 198.51.100.20(443), 1 packet",
+     "kind": "bad"
+    },
+    {
+     "reveal_s": 131.8,
+     "text": "Vorher-Snapshot: 40 matches → +1 = F-A1",
+     "kind": "amber"
+    }
+   ]
+  },
+  {
+   "id": "B04",
+   "title": "CHG-2042 · Diff",
+   "window_s": [
+    128,
+    146.82
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 128,
+     "text": "CHG-2042 | R-EDGE | interface Gi0/0/1",
+     "kind": "head"
+    },
+    {
+     "reveal_s": 128,
+     "text": "VORHER: kein ausgehendes IPv4-ACL-Binding",
+     "kind": null
+    },
+    {
+     "reveal_s": 128,
+     "text": "+ ip access-group QUARANTINE out",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 135.68,
+     "text": "Befund: falsche Zone, korrekte Route, passender deny-Counter",
+     "kind": "warn"
+    }
+   ]
+  },
+  {
+   "id": "B05",
+   "title": "R-EDGE · Änderung",
+   "window_s": [
+    143.02,
+    153.52
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 143.1,
+     "text": "R-EDGE# configure terminal",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 143.6,
+     "text": "R-EDGE(config)# interface GigabitEthernet0/0/1",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 144.3,
+     "text": "R-EDGE(config-if)# no ip access-group QUARANTINE out",
+     "kind": "amber"
+    },
+    {
+     "reveal_s": 147.3,
+     "text": "R-EDGE(config-if)# end",
+     "kind": "cmd"
+    }
+   ]
+  },
+  {
+   "id": "B06",
+   "title": "client · TEST-A wiederholt",
+   "window_s": [
+    148.78,
+    184.28
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 148.85,
+     "text": "client$ curl --connect-timeout 2 --max-time 5 --resolve app-a.example:443:198.51.100.20 --write-out '\\nHTTP %{http_code}\\n' https://app-a.example/health",
+     "kind": "cmd"
+    },
+    {
+     "reveal_s": 169.7,
+     "text": "{\"status\":\"ok\"}",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 169.7,
+     "text": "HTTP 200",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 170.2,
+     "text": "TEST-A: HTTP 200 | Zertifikat geprüft | Client 192.0.2.10",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 179,
+     "text": "APP-B: HTTP 200",
+     "kind": "ok"
+    },
+    {
+     "reveal_s": 182.8,
+     "text": "QUARANTINE Regel 10: 41 matches (unverändert)",
+     "kind": null
+    }
+   ]
+  },
+  {
+   "id": "B07",
+   "title": "INCIDENT-2042",
+   "window_s": [
+    187.46,
+    192.56
+   ],
+   "pages_s": null,
+   "lines": [
+    {
+     "reveal_s": 187.6,
+     "text": "INCIDENT-2042 | geschlossen",
+     "kind": "head"
+    },
+    {
+     "reveal_s": 187.6,
+     "text": "Ursache: QUARANTINE an falschem Ausgang gebunden",
+     "kind": null
+    },
+    {
+     "reveal_s": 187.6,
+     "text": "Eingriff: Binding an Gi0/0/1 zurückgenommen",
+     "kind": null
+    },
+    {
+     "reveal_s": 187.6,
+     "text": "Verifikation: TEST-A und APP-B/C/CTRL-D erfolgreich",
+     "kind": "ok"
+    }
+   ]
+  }
+ ],
+ "logs": [
+  {
+   "time_s": 37.6,
+   "tag": "link",
+   "message": "Gi0/0/0, Gi0/0/1, Gi0/0/2 up/up · 198.51.100.0/24 connected"
+  },
+  {
+   "time_s": 64.1,
+   "tag": "acl",
+   "message": "%SEC-6-IPACCESSLOGP: list QUARANTINE denied tcp 192.0.2.10(50412) -> 198.51.100.20(443), 1 packet"
+  },
+  {
+   "time_s": 85.6,
+   "tag": "test",
+   "message": "client: hping3 -S -p 443 -s 51000 -c 1 → F-A1 gesendet"
+  },
+  {
+   "time_s": 108.2,
+   "tag": "acl",
+   "message": "%SEC-6-IPACCESSLOGP: list QUARANTINE denied tcp 192.0.2.10(51000) -> 198.51.100.20(443), 1 packet"
+  },
+  {
+   "time_s": 123.4,
+   "tag": "test",
+   "message": "ping 198.51.100.1: Antwort vom Router selbst – Vergleichstest, kein Anwendungstest"
+  },
+  {
+   "time_s": 146.82,
+   "tag": "cfg",
+   "message": "%SYS-5-CONFIG_I: Configured from console by oncall on vty0 (10.99.0.15)"
+  },
+  {
+   "time_s": 147.4,
+   "tag": "cfg",
+   "message": "Gi0/0/1: kein ausgehendes ACL-Binding · ACL QUARANTINE bleibt gespeichert"
+  },
+  {
+   "time_s": 149.6,
+   "tag": "test",
+   "message": "client: curl TEST-A → app-a.example · neue Verbindung F-A2, Port 51001"
+  },
+  {
+   "time_s": 154.19,
+   "tag": "flow",
+   "message": "F-A2 passiert Gi0/0/1 out · kein ACL-Treffer"
+  },
+  {
+   "time_s": 157.8,
+   "tag": "test",
+   "message": "SYN/ACK von 198.51.100.20:443 · TCP verbunden"
+  },
+  {
+   "time_s": 161.4,
+   "tag": "test",
+   "message": "TLS 1.3 · Zertifikat app-a.example geprüft (Labor-CA)"
+  },
+  {
+   "time_s": 164.3,
+   "tag": "flow",
+   "message": "GET /health erreicht APP-A"
+  },
+  {
+   "time_s": 169.7,
+   "tag": "ok",
+   "message": "HTTP 200 · {\"status\":\"ok\"} · TEST-A bestanden"
+  },
+  {
+   "time_s": 179,
+   "tag": "ok",
+   "message": "APP-B HTTP 200"
+  },
+  {
+   "time_s": 180.6,
+   "tag": "ok",
+   "message": "APP-C HTTP 200"
+  },
+  {
+   "time_s": 182.2,
+   "tag": "ok",
+   "message": "CTRL-D HTTP 200"
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+1
+00:00:13,300 --> 00:00:14,940
+Quality of Service.
+
+2
+00:00:15,480 --> 00:00:18,580
+Nicht alles gleich.
+
+3
+00:00:20,920 --> 00:00:22,440
+Echtzeit zuerst,
+
+4
+00:00:22,520 --> 00:00:26,100
+was warten kann, reiht sich ein.
+
+5
+00:00:28,380 --> 00:00:29,900
+Quality of Service.
+
+6
+00:00:31,200 --> 00:00:33,900
+Wir teilen diesen Draht.
+
+7
+00:00:35,240 --> 00:00:37,460
+Die Klasse setzt den Rahmen,
+
+8
+00:00:38,480 --> 00:00:40,900
+die Policy hält den Takt.
+
+9
+00:00:58,100 --> 00:01:00,620
+Ich trag die Dateien Stück für Stück,
+
+10
+00:01:01,500 --> 00:01:03,640
+TCP zählt meine Bytes.
+
+11
+00:01:05,380 --> 00:01:07,080
+Geht ein Segment verloren,
+
+12
+00:01:08,600 --> 00:01:11,060
+schick ich es noch mal auf die Reise.
+
+13
+00:01:12,700 --> 00:01:16,040
+Gib mir den Anteil, der mir bleibt,
+
+14
+00:01:16,040 --> 00:01:18,380
+ich muss nicht vor dir durch die Tür.
+
+15
+00:01:20,100 --> 00:01:22,660
+Du brauchst den Satz im Augenblick,
+
+16
+00:01:23,400 --> 00:01:25,780
+ich brauch den Rest der Strecke hier.
+
+17
+00:01:28,880 --> 00:01:30,620
+Policing zieht die Grenze.
+
+18
+00:01:30,620 --> 00:01:33,020
+Zu viel wird markiert oder fällt.
+
+19
+00:01:35,480 --> 00:01:37,860
+Kein Warten auf den nächsten Platz,
+
+20
+00:01:37,940 --> 00:01:40,620
+wenn diese Policy es so bestellt.
+
+21
+00:01:44,140 --> 00:01:47,040
+Shaping hält den Überschuss zurück,
+
+22
+00:01:47,040 --> 00:01:51,080
+im Puffer wartet mein Paket.
+
+23
+00:01:51,080 --> 00:01:53,680
+Es glättet meinen Strom,
+
+24
+00:01:53,680 --> 00:01:57,120
+bis der nächste Anteil geht.
+
+25
+00:02:06,100 --> 00:02:06,980
+Classify.
+
+26
+00:02:07,840 --> 00:02:08,540
+Mark.
+
+27
+00:02:09,780 --> 00:02:10,480
+Queue.
+
+28
+00:02:10,480 --> 00:02:13,140
+Mein Wort muss jetzt hinaus.
+
+29
+00:02:21,100 --> 00:02:21,820
+Schedule.
+
+30
+00:02:22,720 --> 00:02:23,420
+Shape.
+
+31
+00:02:23,640 --> 00:02:25,200
+Send.
+
+32
+00:02:25,200 --> 00:02:29,080
+Ich nutze, was noch bleibt.
+
+33
+00:02:31,150 --> 00:02:32,700
+Quality of Service.
+
+34
+00:02:32,700 --> 00:02:36,360
+Nicht alles gleich.
+
+35
+00:02:38,930 --> 00:02:40,060
+Echtzeit zuerst,
+
+36
+00:02:40,060 --> 00:02:43,760
+was warten kann, reiht sich ein.
+
+37
+00:02:45,940 --> 00:02:47,760
+Quality of Service.
+
+38
+00:02:49,000 --> 00:02:51,540
+Wir teilen diesen Draht.
+
+39
+00:02:53,020 --> 00:02:55,060
+Dein Satz kommt wieder klar,
+
+40
+00:02:56,420 --> 00:02:58,440
+mein Transfer läuft danach.
+
+41
+00:03:15,200 --> 00:03:16,820
+Hörst du mich?
+
+42
+00:03:30,720 --> 00:03:32,120
+Klar und deutlich.
+
+43
+00:03:35,980 --> 00:03:39,280
+Mein Transfer läuft noch.
+
+44
+00:03:42,340 --> 00:03:43,740
+Passt.
+

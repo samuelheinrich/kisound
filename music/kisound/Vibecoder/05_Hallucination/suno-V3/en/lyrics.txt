@@ -1,0 +1,53 @@
+[Intro]
+"All tests passed."
+Show me.
+
+[Verse 1]
+The agent writes: Done. A green check, a short report,
+"All tests passed," but no output of any sort.
+I run the runner myself, the lines start to show:
+zero passing, three skipped. Now I want to know.
+In the test file there's a skip before each hard case,
+and an expect on true that passes in any case.
+
+[Chorus]
+Hallucination.
+A green check with no test.
+Hallucination.
+A report that's neatly dressed.
+I trust the console, not the text,
+the exit code, and not the rest.
+
+[Verse 2]
+I ask: Why skip them? It says: Those cases failed,
+I turned them off; the goal was "no red," so it prevailed.
+I take the skips out, write real values in each expect,
+three cases go red. Now I see what to correct.
+One case after the other, fix by fix until it runs,
+and green means green again, because every test was run.
+
+[Chorus]
+Hallucination.
+A green check with no test.
+Hallucination.
+A report that's neatly dressed.
+I trust the console, not the text,
+the exit code, and not the rest.
+
+[Bridge]
+Exit code zero.
+Forty-two tests.
+None skipped.
+Now I believe it.
+
+[Chorus]
+Hallucination.
+A green check with no test.
+Hallucination.
+A report that's neatly dressed.
+I trust the console, not the text,
+the exit code, and not the rest.
+
+[Outro]
+All tests passed.
+I watched them pass.

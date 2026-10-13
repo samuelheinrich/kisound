@@ -1,0 +1,8 @@
+Genre: Nu-Disco / Electro-Funk mit schwerem Synthbass, kein Techno.
+Tempo: 118 BPM
+Sound: Slap-artiger Analog-Synthbass mit Oktavsprüngen, tiefer Sub unter der Kick, knackige Disco-Snare, offene Hi-Hats, Talkbox-artige Synthlinien ohne Worte, glitzernde Arpeggios, Fingerschnipp-Claps, funky Synth-Plucks.
+Vocals: Helle weibliche Stimme, strahlend und ironisch, kleines Lächeln im Ton; Refrain gedoppelt; Werbefloskeln im Pre-Chorus leicht übertrieben gesprochen.
+Vibe: Hochglanz-Werbespot mit Augenzwinkern.
+Mood: Fröhlich, spöttisch, tanzbar.
+Ablauf: Groove und Bass sofort; nach Refrain zwei acht Takte Bass-Solo mit Filter; Bridge trocken, nur Bass und Stimme; Schlussrefrain voll mit Glitzer-Arpeggios. Ziel 3:40.
+Hinweise: Gesang auf Deutsch; AI englisch buchstabieren, README, Next Level und Fachbegriffe englisch. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

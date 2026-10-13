@@ -1,0 +1,79 @@
+ACTIVE / STANDBY – TRANSKRIPT
+
+Audio: 02_Active_Standby_1.0.wav
+Audio-SHA-256: 42750eb28bf676ef697bc26cddb9c28ec62390336e462783111b69db2446c86c
+Gesamtdauer: 00:03:23.174
+Sprache: Deutsch mit englischen Fachbegriffen
+Zeitformat: HH:MM:SS.mmm
+Zeitbezug: Beginn der unveränderten WAV-Datei bei 0 Sekunden
+Zeitquelle: lokaler ASR-Wortabgleich; keine manuelle Hörprüfung
+Prüfhinweise: ../TRANSKRIPT-PRUEFUNG.md
+
+
+[Intro]
+
+001  [00:00:12.400 --> 00:00:13.960]  Ich trag den Traffic.
+002  [00:00:23.720 --> 00:00:25.580]  Ich hör deinen Puls.
+
+[Verse 1]
+
+003  [00:00:39.140 --> 00:00:41.920]  Die Sessions laufen, unser Sync steht.
+004  [00:00:42.840 --> 00:00:45.280]  Ein Heartbeat sagt dir: Ich bin hier.
+005  [00:00:46.400 --> 00:00:48.720]  Ich halte unsern Datenpfad,
+006  [00:00:49.540 --> 00:00:52.240]  du hältst den Stand von mir.
+007  [00:00:53.480 --> 00:00:55.780]  Die Flows sind auch bei mir bekannt.
+008  [00:00:57.240 --> 00:00:59.460]  Dein Heartbeat hält uns im Kontakt.
+009  [00:01:00.480 --> 00:01:03.120]  Ich bleibe wach und hör dich an.
+010  [00:01:04.100 --> 00:01:06.800]  Bereit, wenn ich übernehmen kann.
+
+[Chorus]
+
+011  [00:01:07.420 --> 00:01:08.480]  Active.
+012  [00:01:10.440 --> 00:01:11.940]  Standby.
+013  [00:01:14.240 --> 00:01:15.880]  Einer trägt,
+014  [00:01:17.520 --> 00:01:19.100]  einer steht bereit.
+015  [00:01:19.100 --> 00:01:20.820]  Dein Heartbeat sagt:
+016  [00:01:21.220 --> 00:01:22.340]  Ich bin noch hier.
+
+[Verse 2]
+
+017  [00:01:29.100 --> 00:01:31.220]  Dein Heartbeat fehlt, der Link ist weg.
+018  [00:01:31.260 --> 00:01:32.620]  Der letzte Check läuft aus.
+019  [00:01:32.620 --> 00:01:34.480]  Ich schalte um, ich bin jetzt Active.
+020  [00:01:34.580 --> 00:01:36.140]  Doch du sendest weiter raus.
+021  [00:01:36.140 --> 00:01:38.940]  Mein Datenpfad ist immer offen.
+022  [00:01:39.660 --> 00:01:42.560]  Ich bin noch da. Ich bin Active.
+
+[Chorus]
+
+023  [00:01:42.740 --> 00:01:44.860]  Split Brain.
+024  [00:01:45.940 --> 00:01:47.020]  Beide Active.
+025  [00:01:47.340 --> 00:01:48.800]  Eine Adresse.
+026  [00:01:48.820 --> 00:01:50.580]  Kein gemeinsamer Takt.
+
+[Verse 3]
+
+027  [00:01:51.380 --> 00:01:53.260]  Mein Datenpfad wird isoliert.
+028  [00:01:53.260 --> 00:01:56.820]  Ich gebe meine Führung ab.
+029  [00:01:57.900 --> 00:02:00.440]  Der Link steht wieder zwischen uns.
+030  [00:02:00.440 --> 00:02:03.480]  Wir prüfen unsre Rollen neu.
+031  [00:02:05.580 --> 00:02:08.820]  Dein Puls ist wieder da, der Sync steht.
+032  [00:02:08.820 --> 00:02:12.040]  Ein Pfad trägt unsern Traffic jetzt.
+033  [00:02:12.260 --> 00:02:15.140]  Du hältst als Standby unsern Stand.
+034  [00:02:15.140 --> 00:02:19.780]  Ich führe, während du mich hörst.
+
+[Final Chorus]
+
+035  [00:02:19.860 --> 00:02:20.180]  Active.
+036  [00:02:22.420 --> 00:02:23.760]  Ich trag den Traffic.
+037  [00:02:26.660 --> 00:02:27.340]  Standby.
+038  [00:02:27.340 --> 00:02:30.720]  Ich halte mich bereit.
+039  [00:02:41.400 --> 00:02:41.860]  Active.
+040  [00:02:43.640 --> 00:02:45.360]  Standby.
+041  [00:02:47.060 --> 00:02:48.380]  Ein klarer Pfad.
+042  [00:02:50.300 --> 00:02:51.920]  Dein Puls ist wieder da.
+
+[Outro – Wiederholung]
+
+043  [00:03:09.660 --> 00:03:10.540]  Active.
+044  [00:03:12.400 --> 00:03:13.680]  Standby.

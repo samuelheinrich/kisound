@@ -1,0 +1,17 @@
+{
+  "setId": "port-macro",
+  "status": "OK",
+  "triangles": 780,
+  "budget": 140000,
+  "meshes": 17,
+  "anchors": 17,
+  "materials": [
+    "cage",
+    "cavity",
+    "contact",
+    "led",
+    "plate"
+  ],
+  "errors": [],
+  "warnings": []
+}

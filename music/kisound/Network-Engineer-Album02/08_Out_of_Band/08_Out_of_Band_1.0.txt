@@ -1,0 +1,84 @@
+VERSION: 1.0
+ALBUM: Network Engineer 02
+TRACK: 08 - Out of Band
+THEMA: Unabhängiger Managementzugang, Console Server, unerreichbares Produktionsnetz, kontrollierter Rollback und verifizierte Wiederherstellung
+SPRACHE: Deutsch, Fachbegriffe englisch
+STATUS: Final
+RELEASE AUDIO: 08_Out_of_Band_1.0.wav
+
+LYRIC PROMPT:
+[Intro]
+Kein Login.
+Keine Antwort.
+Das Netz ist weg.
+Der andere Weg bleibt.
+
+[Verse 1]
+SSH wartet, bis es aufgibt,
+kein Dashboard lädt noch einen Wert.
+Die Änderung hat den Pfad zerschnitten,
+über den ich sie geschickt hab.
+Doch hinten am Rack hängt eine Leitung,
+getrennt von diesem Traffic hier.
+Ein eigener Zugang zur Console,
+die letzte offene Tür.
+
+[Pre-Chorus]
+Ich brauch nicht erst das Netz zurück,
+um wieder ranzukommen.
+Ich nehme den getrennten Weg.
+Der Prompt ist noch zu hören.
+
+[Chorus]
+Out of Band.
+Eine Tür bleibt offen.
+Wenn der grosse Weg verstummt,
+komm ich hier noch an.
+Out of Band.
+Ich erreiche die Console.
+Ein schmaler Weg zurück,
+bis das Netz wieder trägt.
+
+[Verse 2]
+Die Console zeigt den letzten Change,
+der Diff liegt neben meinem Plan.
+Ich prüfe, was den Weg gekappt hat,
+und setze den Fehler zurück.
+Erst steht der Link, dann kommt die Route,
+doch grün allein reicht mir nicht.
+Ich teste den betroffenen Service
+vom Client bis zum Ziel.
+
+[Bridge]
+Ein Backup, das erreichbar ist.
+Ein Rollback, den wir kennen.
+Ein Zugang, der getrennt bleibt,
+wenn sich die andern Wege trennen.
+Kein Zauber hinter dieser Tür,
+wir haben sie vorher gebaut.
+Jetzt trägt die kleine Leitung
+die Arbeit für das grosse Netz.
+
+[Final Chorus]
+Out of Band.
+Eine Tür bleibt offen.
+Wenn der grosse Weg verstummt,
+komm ich hier noch an.
+Out of Band.
+Die Antwort ist zurück.
+Der Test erreicht sein Ziel,
+und das Netz trägt wieder.
+
+[Outro]
+Console bleibt erreichbar.
+Die letzte Änderung dokumentiert.
+Das Telefon liegt still.
+Die Stadt schläft weiter.
+
+STYLE PROMPT:
+Cinematic Progressive Techno als Albumabschluss bei etwa 124 BPM. Zu Beginn enger Klangraum mit gedämpfter Kick, tiefem Puls und einem abgebrochenen Synth-Motiv. Sobald der getrennte Zugang im Text erscheint, kommt eine kleine klare Sequenz hinzu, die den ganzen Track als Rettungsweg begleitet. Mit der Wiederherstellung öffnen sich Filter, harmonischer Raum und Stereobreite. Warme Chords, tiefer rollender Bass und ein entschlossener Groove tragen das Finale. Ein emotionaler Höhepunkt durch harmonische Auflösung und hörbar mehr Luft, ohne eine Trance-Supersaw-Wand wie bei AS Path. Im Outro die klare Sequenz und den Puls behutsam zurücknehmen.
+
+Eine einzelne warme, mitteltiefe Stimme, anfangs nah und angespannt, später ruhig und zuversichtlich. Die Refrains haben eine tragende, gut singbare Melodie. «Eine Tür bleibt offen» ist der zentrale Hook. Die letzten Worte greifen die schlafende Stadt aus dem Albumauftakt auf. Keine zusätzliche Computerstimme und keine Chorstimmen.
+
+Gesang auf Deutsch. Englische Fachbegriffe wie im Text stehen lassen und englisch aussprechen, nicht übersetzen. Abkürzungen wie TCP, SSH oder DSCP als einzelne englische Buchstaben aussprechen; ganze Fachwörter normal aussprechen. Abschnittsnamen und Sprecherbezeichnungen nicht singen, nur die Lyrics performen. Keine bekannten Melodie- oder Song-Referenzen.
+

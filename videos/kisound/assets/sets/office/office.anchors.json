@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "setId": "office",
+  "units": "metres",
+  "coordinateSystem": "gltf-right-handed-y-up",
+  "glb": "office.glb",
+  "triangles": 580,
+  "meshes": 5,
+  "materials": [
+    "cavity",
+    "chassis",
+    "glass",
+    "plastic",
+    "wood"
+  ],
+  "bounds": {
+    "min": [
+      -2.1,
+      0.0,
+      -0.740909
+    ],
+    "max": [
+      2.1,
+      2.6,
+      1.55
+    ]
+  },
+  "anchors": {
+    "cam.over": {
+      "position": [
+        0.28,
+        1.18,
+        -0.95
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fov": 36,
+      "look": "top"
+    },
+    "cam.wide": {
+      "position": [
+        1.9,
+        1.45,
+        -2.3
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fov": 40,
+      "look": "top"
+    },
+    "cam.window": {
+      "position": [
+        0.1,
+        1.55,
+        -0.9
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "fov": 44,
+      "look": "winglass"
+    },
+    "laptop": {
+      "position": [
+        0.0,
+        0.75,
+        -0.02
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mount": "laptop"
+    },
+    "retreat.00": {
+      "position": [
+        0.0,
+        0.86,
+        -0.2
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "retreat",
+      "index": 0
+    },
+    "retreat.01": {
+      "position": [
+        0.4,
+        1.1,
+        -1.1
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "retreat",
+      "index": 1
+    },
+    "retreat.02": {
+      "position": [
+        1.1,
+        1.5,
+        -2.4
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "retreat",
+      "index": 2
+    },
+    "retreat.03": {
+      "position": [
+        2.4,
+        2.6,
+        -5.2
+      ],
+      "rotation": [
+        -0.707107,
+        -0.0,
+        -0.0,
+        0.707107
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "path": "retreat",
+      "index": 3
+    }
+  }
+}

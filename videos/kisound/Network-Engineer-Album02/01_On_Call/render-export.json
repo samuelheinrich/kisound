@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "01_On_Call",
+  "title": "On Call",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/on-call.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

@@ -1,0 +1,636 @@
+{
+  "title": "Wireshark",
+  "source_audio": "05_Wireshark_1.0.wav",
+  "source_audio_sha256": "243d6ab2160abfa883bfb86a53a73019e406f6f63986de0ebb3659570e83128c",
+  "duration_seconds": 195.7335,
+  "languages": [
+    "de",
+    "en"
+  ],
+  "time_origin": "Beginn der unveränderten WAV-Datei bei 0 Sekunden",
+  "timing_source": "Lokaler ASR-Wortabgleich mit whisper-large-v3 und whisper-large-v3-turbo; zusätzliche ASR-Ausschnitte bei schwierigen Stellen; keine manuelle Hörprüfung",
+  "text_source": "Akustisch zugeordnete Zeilen aus dem beibehaltenen Lyric-Prompt; zusätzliche erkannte Wiederholungen und abweichende Kurzzeilen aus dem ASR-Modellvergleich",
+  "review_status": "Automatisch erstellt; Hörprüfung offener Text- und Zeitkonflikte aus TRANSKRIPT-PRUEFUNG.md steht aus.",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 11.78,
+      "last_vocal_end": 31.0
+    },
+    {
+      "title": "Verse 1",
+      "first_vocal_start": 33.22,
+      "last_vocal_end": 66.7
+    },
+    {
+      "title": "Pre-Chorus",
+      "first_vocal_start": 70.34,
+      "last_vocal_end": 84.74
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 89.32,
+      "last_vocal_end": 105.84
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 105.94,
+      "last_vocal_end": 124.16
+    },
+    {
+      "title": "Bridge",
+      "first_vocal_start": 124.68,
+      "last_vocal_end": 141.44
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 142.72,
+      "last_vocal_end": 159.16
+    },
+    {
+      "title": "Outro",
+      "first_vocal_start": 168.22,
+      "last_vocal_end": 195.06
+    }
+  ],
+  "segments": [
+    {
+      "start": 11.78,
+      "end": 13.14,
+      "start_timecode": "00:00:11.780",
+      "end_timecode": "00:00:13.140",
+      "text": "«Bei mir geht's.»",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 1
+    },
+    {
+      "start": 13.22,
+      "end": 17.44,
+      "start_timecode": "00:00:13.220",
+      "end_timecode": "00:00:17.440",
+      "text": "«Bei mir nicht.»",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 2
+    },
+    {
+      "start": 24.96,
+      "end": 26.54,
+      "start_timecode": "00:00:24.960",
+      "end_timecode": "00:00:26.540",
+      "text": "Capture läuft.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 3
+    },
+    {
+      "start": 26.54,
+      "end": 31.0,
+      "start_timecode": "00:00:26.540",
+      "end_timecode": "00:00:31.000",
+      "text": "Zeig mir die Spur.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 4
+    },
+    {
+      "start": 33.22,
+      "end": 36.14,
+      "start_timecode": "00:00:33.220",
+      "end_timecode": "00:00:36.140",
+      "text": "Der Browser dreht im Kreis,",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 5
+    },
+    {
+      "start": 36.14,
+      "end": 40.14,
+      "start_timecode": "00:00:36.140",
+      "end_timecode": "00:00:40.140",
+      "text": "der Server sei bereit.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 6
+    },
+    {
+      "start": 41.74,
+      "end": 44.5,
+      "start_timecode": "00:00:41.740",
+      "end_timecode": "00:00:44.500",
+      "text": "Im Chat hat jeder eine These,",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 7
+    },
+    {
+      "start": 44.5,
+      "end": 48.96,
+      "start_timecode": "00:00:44.500",
+      "end_timecode": "00:00:48.960",
+      "text": "doch keine passt zum Bild.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 8
+    },
+    {
+      "start": 50.64,
+      "end": 53.76,
+      "start_timecode": "00:00:50.640",
+      "end_timecode": "00:00:53.760",
+      "text": "Ich spiegle den betroffenen Port,",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 9
+    },
+    {
+      "start": 53.76,
+      "end": 57.74,
+      "start_timecode": "00:00:53.760",
+      "end_timecode": "00:00:57.740",
+      "text": "der Mitschnitt füllt den Screen.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 10
+    },
+    {
+      "start": 60.0,
+      "end": 62.72,
+      "start_timecode": "00:01:00.000",
+      "end_timecode": "00:01:02.720",
+      "text": "Zwischen all den fremden Flows",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 11
+    },
+    {
+      "start": 62.72,
+      "end": 66.7,
+      "start_timecode": "00:01:02.720",
+      "end_timecode": "00:01:06.700",
+      "text": "muss unser Fehler liegen.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 12
+    },
+    {
+      "start": 70.34,
+      "end": 73.46,
+      "start_timecode": "00:01:10.340",
+      "end_timecode": "00:01:13.460",
+      "text": "Source und Destination.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 13
+    },
+    {
+      "start": 73.46,
+      "end": 75.52,
+      "start_timecode": "00:01:13.460",
+      "end_timecode": "00:01:15.520",
+      "text": "Den richtigen Stream.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 14
+    },
+    {
+      "start": 78.04,
+      "end": 81.02,
+      "start_timecode": "00:01:18.040",
+      "end_timecode": "00:01:21.020",
+      "text": "Ich blende fremde Frames aus,",
+      "section": "Pre-Chorus",
+      "timing_model": "turbo",
+      "review_required": true,
+      "id": 15,
+      "review_note": "Überlappende ASR-Wortzeiten an der nächsten Cue-Grenze gekürzt."
+    },
+    {
+      "start": 81.02,
+      "end": 84.74,
+      "start_timecode": "00:01:21.020",
+      "end_timecode": "00:01:24.740",
+      "text": "die Spur bleibt im Mitschnitt drin.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 16
+    },
+    {
+      "start": 89.32,
+      "end": 90.18,
+      "start_timecode": "00:01:29.320",
+      "end_timecode": "00:01:30.180",
+      "text": "Wireshark.",
+      "section": "Chorus",
+      "timing_model": "turbo",
+      "review_required": true,
+      "id": 17,
+      "review_note": "Überlappende ASR-Wortzeiten an der nächsten Cue-Grenze gekürzt."
+    },
+    {
+      "start": 90.18,
+      "end": 92.5,
+      "start_timecode": "00:01:30.180",
+      "end_timecode": "00:01:32.500",
+      "text": "Zeig mir, was passiert.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 18
+    },
+    {
+      "start": 92.5,
+      "end": 94.86,
+      "start_timecode": "00:01:32.500",
+      "end_timecode": "00:01:34.860",
+      "text": "Paket für Paket,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 19
+    },
+    {
+      "start": 94.86,
+      "end": 96.92,
+      "start_timecode": "00:01:34.860",
+      "end_timecode": "00:01:36.920",
+      "text": "bis die Spur zum Fehler führt.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 20
+    },
+    {
+      "text": "Wireshark.",
+      "start": 97.16,
+      "end": 98.86,
+      "section": "Chorus",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Überlappende ASR-Wortzeiten an der nächsten Cue-Grenze gekürzt.",
+      "id": 21,
+      "start_timecode": "00:01:37.160",
+      "end_timecode": "00:01:38.860"
+    },
+    {
+      "start": 98.86,
+      "end": 101.44,
+      "start_timecode": "00:01:38.860",
+      "end_timecode": "00:01:41.440",
+      "text": "Keine These hält mich auf.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 22
+    },
+    {
+      "start": 101.44,
+      "end": 103.48,
+      "start_timecode": "00:01:41.440",
+      "end_timecode": "00:01:43.480",
+      "text": "Ich folge diesem Stream,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 23
+    },
+    {
+      "start": 103.66,
+      "end": 105.84,
+      "start_timecode": "00:01:43.660",
+      "end_timecode": "00:01:45.840",
+      "text": "dann prüfe ich den nächsten Schritt.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 24
+    },
+    {
+      "start": 105.94,
+      "end": 108.78,
+      "start_timecode": "00:01:45.940",
+      "end_timecode": "00:01:48.780",
+      "text": "Der Request geht raus, dann Stille,",
+      "section": "Verse 2",
+      "timing_model": "turbo",
+      "review_required": true,
+      "id": 25,
+      "review_note": "Überlappende ASR-Wortzeiten an der nächsten Cue-Grenze gekürzt."
+    },
+    {
+      "start": 108.78,
+      "end": 110.96,
+      "start_timecode": "00:01:48.780",
+      "end_timecode": "00:01:50.960",
+      "text": "ein Segment erscheint erneut.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 26
+    },
+    {
+      "start": 110.96,
+      "end": 113.36,
+      "start_timecode": "00:01:50.960",
+      "end_timecode": "00:01:53.360",
+      "text": "Retransmission auf dem Bildschirm,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 27
+    },
+    {
+      "start": 113.4,
+      "end": 115.32,
+      "start_timecode": "00:01:53.400",
+      "end_timecode": "00:01:55.320",
+      "text": "doch die Ursache ist noch weit.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 28
+    },
+    {
+      "start": 115.32,
+      "end": 117.76,
+      "start_timecode": "00:01:55.320",
+      "end_timecode": "00:01:57.760",
+      "text": "Was dieser Port nicht sehen kann,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 29
+    },
+    {
+      "start": 117.84,
+      "end": 119.62,
+      "start_timecode": "00:01:57.840",
+      "end_timecode": "00:01:59.620",
+      "text": "wird hier auch nicht zum Beweis.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 30
+    },
+    {
+      "start": 119.62,
+      "end": 122.14,
+      "start_timecode": "00:01:59.620",
+      "end_timecode": "00:02:02.140",
+      "text": "Ein zweiter Capture auf der Strecke",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 31
+    },
+    {
+      "start": 122.14,
+      "end": 124.16,
+      "start_timecode": "00:02:02.140",
+      "end_timecode": "00:02:04.160",
+      "text": "grenzt die Lücke für uns ein.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 32
+    },
+    {
+      "text": "TLS hält seinen Inhalt zu,",
+      "start": 124.68,
+      "end": 126.48,
+      "section": "Bridge",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Large-v3 und Ausschnitt erkennen TLS und bruchstückhafte Laute der folgenden Phrase. Prompt-Schreibweise mit den Ausschnittzeiten zugeordnet; Wortlaut bleibt offen.",
+      "id": 33,
+      "start_timecode": "00:02:04.680",
+      "end_timecode": "00:02:06.480"
+    },
+    {
+      "start": 126.74,
+      "end": 129.1,
+      "start_timecode": "00:02:06.740",
+      "end_timecode": "00:02:09.100",
+      "text": "ohne passende Secrets bleibt er dicht.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 34
+    },
+    {
+      "start": 129.1,
+      "end": 131.6,
+      "start_timecode": "00:02:09.100",
+      "end_timecode": "00:02:11.600",
+      "text": "Ich seh die sichtbaren Header,",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 35
+    },
+    {
+      "start": 131.6,
+      "end": 133.52,
+      "start_timecode": "00:02:11.600",
+      "end_timecode": "00:02:13.520",
+      "text": "doch die Nachricht les ich nicht.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 36
+    },
+    {
+      "start": 133.52,
+      "end": 135.66,
+      "start_timecode": "00:02:13.520",
+      "end_timecode": "00:02:15.660",
+      "text": "Ein Reset ist ein Hinweis,",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 37
+    },
+    {
+      "start": 135.7,
+      "end": 137.3,
+      "start_timecode": "00:02:15.700",
+      "end_timecode": "00:02:17.300",
+      "text": "kein Urteil über Schuld.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 38
+    },
+    {
+      "start": 137.3,
+      "end": 139.72,
+      "start_timecode": "00:02:17.300",
+      "end_timecode": "00:02:19.720",
+      "text": "Erst wenn die Spuren zusammenpassen,",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 39
+    },
+    {
+      "start": 139.8,
+      "end": 141.44,
+      "start_timecode": "00:02:19.800",
+      "end_timecode": "00:02:21.440",
+      "text": "hat die nächste Änderung Grund.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 40
+    },
+    {
+      "start": 142.72,
+      "end": 143.38,
+      "start_timecode": "00:02:22.720",
+      "end_timecode": "00:02:23.380",
+      "text": "Wireshark.",
+      "section": "Final Chorus",
+      "timing_model": "turbo",
+      "review_required": true,
+      "id": 41,
+      "review_note": "Überlappende ASR-Wortzeiten an der nächsten Cue-Grenze gekürzt."
+    },
+    {
+      "start": 143.38,
+      "end": 145.74,
+      "start_timecode": "00:02:23.380",
+      "end_timecode": "00:02:25.740",
+      "text": "Zeig mir, was passiert.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 42
+    },
+    {
+      "start": 145.74,
+      "end": 148.28,
+      "start_timecode": "00:02:25.740",
+      "end_timecode": "00:02:28.280",
+      "text": "Paket für Paket,",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 43
+    },
+    {
+      "start": 148.28,
+      "end": 150.28,
+      "start_timecode": "00:02:28.280",
+      "end_timecode": "00:02:30.280",
+      "text": "bis die Spur zum Fehler führt.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 44
+    },
+    {
+      "start": 151.66,
+      "end": 152.36,
+      "start_timecode": "00:02:31.660",
+      "end_timecode": "00:02:32.360",
+      "text": "Wireshark.",
+      "section": "Final Chorus",
+      "timing_model": "turbo",
+      "review_required": true,
+      "id": 45
+    },
+    {
+      "start": 152.38,
+      "end": 154.88,
+      "start_timecode": "00:02:32.380",
+      "end_timecode": "00:02:34.880",
+      "text": "Jetzt passt der Test zur Spur.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 46
+    },
+    {
+      "start": 154.94,
+      "end": 157.18,
+      "start_timecode": "00:02:34.940",
+      "end_timecode": "00:02:37.180",
+      "text": "Der nächste Mitschnitt zeigt:",
+      "section": "Final Chorus",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 47
+    },
+    {
+      "start": 157.26,
+      "end": 159.16,
+      "start_timecode": "00:02:37.260",
+      "end_timecode": "00:02:39.160",
+      "text": "Die Antwort kommt zurück.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 48
+    },
+    {
+      "start": 168.22,
+      "end": 170.26,
+      "start_timecode": "00:02:48.220",
+      "end_timecode": "00:02:50.260",
+      "text": "Capture stoppen.",
+      "section": "Outro",
+      "timing_model": "turbo",
+      "review_required": true,
+      "id": 49
+    },
+    {
+      "start": 172.38,
+      "end": 173.4,
+      "start_timecode": "00:02:52.380",
+      "end_timecode": "00:02:53.400",
+      "text": "Spur sichern.",
+      "section": "Outro",
+      "timing_model": "turbo",
+      "review_required": true,
+      "id": 50
+    },
+    {
+      "start": 173.5,
+      "end": 177.04,
+      "start_timecode": "00:02:53.500",
+      "end_timecode": "00:02:57.040",
+      "text": "Nicht nur «geht wieder».",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 51
+    },
+    {
+      "start": 193.34,
+      "end": 195.06,
+      "start_timecode": "00:03:13.340",
+      "end_timecode": "00:03:15.060",
+      "text": "Auch: Warum.",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 52
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 3000,
+  "next_frame": 6000,
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 34.66,
+      "text": "Der Build ist da, ein neuer Wunsch wird plötzlich klar.",
+      "words": [
+        {
+          "word": "Der",
+          "start": 30.08,
+          "end": 30.26
+        },
+        {
+          "word": "Build",
+          "start": 30.26,
+          "end": 30.54
+        },
+        {
+          "word": "ist",
+          "start": 30.54,
+          "end": 30.92
+        },
+        {
+          "word": "da",
+          "start": 30.92,
+          "end": 31.14
+        },
+        {
+          "word": ",",
+          "start": 31.14,
+          "end": 32.2
+        },
+        {
+          "word": "ein",
+          "start": 32.2,
+          "end": 32.34
+        },
+        {
+          "word": "neuer",
+          "start": 32.34,
+          "end": 32.8
+        },
+        {
+          "word": "Wunsch",
+          "start": 32.8,
+          "end": 33.54
+        },
+        {
+          "word": "wird",
+          "start": 33.54,
+          "end": 33.92
+        },
+        {
+          "word": "plötzlich",
+          "start": 33.92,
+          "end": 34.44
+        },
+        {
+          "word": "klar",
+          "start": 34.44,
+          "end": 34.58
+        },
+        {
+          "word": ".",
+          "start": 34.58,
+          "end": 35.54
+        }
+      ],
+      "tokens": [
+        50365,
+        5618,
+        11875,
+        1418,
+        1120,
+        11,
+        1343,
+        408,
+        5486,
+        343,
+        409,
+        6145,
+        4578,
+        49033,
+        14743,
+        13,
+        50598
+      ]
+    },
+    {
+      "start": 35.68,
+      "end": 41.72,
+      "text": "Ein Regler noch, ein zweiter Klang, der nächste Prompt wird doppelt lang.",
+      "words": [
+        {
+          "word": "Ein",
+          "start": 35.7,
+          "end": 36.0
+        },
+        {
+          "word": "Regler",
+          "start": 36.0,
+          "end": 36.38
+        },
+        {
+          "word": "noch",
+          "start": 36.38,
+          "end": 36.74
+        },
+        {
+          "word": ",",
+          "start": 36.74,
+          "end": 37.08
+        },
+        {
+          "word": "ein",
+          "start": 37.08,
+          "end": 37.2
+        },
+        {
+          "word": "zweiter",
+          "start": 37.2,
+          "end": 37.84
+        },
+        {
+          "word": "Klang",
+          "start": 37.84,
+          "end": 38.24
+        },
+        {
+          "word": ",",
+          "start": 38.24,
+          "end": 39.2
+        },
+        {
+          "word": "der",
+          "start": 39.2,
+          "end": 39.58
+        },
+        {
+          "word": "nächste",
+          "start": 39.58,
+          "end": 39.9
+        },
+        {
+          "word": "Prompt",
+          "start": 39.9,
+          "end": 40.38
+        },
+        {
+          "word": "wird",
+          "start": 40.38,
+          "end": 40.86
+        },
+        {
+          "word": "doppelt",
+          "start": 40.86,
+          "end": 41.54
+        },
+        {
+          "word": "lang",
+          "start": 41.54,
+          "end": 41.76
+        },
+        {
+          "word": ".",
+          "start": 41.76,
+          "end": 42.38
+        }
+      ],
+      "tokens": [
+        50649,
+        6391,
+        4791,
+        1918,
+        3514,
+        11,
+        1343,
+        8733,
+        1681,
+        16053,
+        656,
+        11,
+        1163,
+        30661,
+        15833,
+        662,
+        4578,
+        44862,
+        2018,
+        2265,
+        13,
+        50951
+      ]
+    },
+    {
+      "start": 42.7,
+      "end": 48.900000000000006,
+      "text": "Ich lade neu, der Bass bleibt stumm, wir stellen die Speicherlogik um.",
+      "words": [
+        {
+          "word": "Ich",
+          "start": 42.8,
+          "end": 42.92
+        },
+        {
+          "word": "lade",
+          "start": 42.92,
+          "end": 43.44
+        },
+        {
+          "word": "neu",
+          "start": 43.44,
+          "end": 43.76
+        },
+        {
+          "word": ",",
+          "start": 43.76,
+          "end": 44.1
+        },
+        {
+          "word": "der",
+          "start": 44.1,
+          "end": 44.38
+        },
+        {
+          "word": "Bass",
+          "start": 44.38,
+          "end": 44.64
+        },
+        {
+          "word": "bleibt",
+          "start": 44.64,
+          "end": 44.92
+        },
+        {
+          "word": "stumm",
+          "start": 44.92,
+          "end": 45.34
+        },
+        {
+          "word": ",",
+          "start": 45.34,
+          "end": 46.26
+        },
+        {
+          "word": "wir",
+          "start": 46.26,
+          "end": 46.6
+        },
+        {
+          "word": "stellen",
+          "start": 46.6,
+          "end": 46.78
+        },
+        {
+          "word": "die",
+          "start": 46.78,
+          "end": 46.9
+        },
+        {
+          "word": "Speicherlogik",
+          "start": 46.9,
+          "end": 48.72
+        },
+        {
+          "word": "um",
+          "start": 48.72,
+          "end": 49.7
+        },
+        {
+          "word": ".",
+          "start": 49.7,
+          "end": 49.7
+        }
+      ],
+      "tokens": [
+        51000,
+        3141,
+        287,
+        762,
+        22510,
+        11,
+        1163,
+        29626,
+        24814,
+        342,
+        40879,
+        11,
+        1987,
+        24407,
+        978,
+        3550,
+        14934,
+        4987,
+        1035,
+        1105,
+        13,
+        51310
+      ]
+    },
+    {
+      "start": 49.82,
+      "end": 56.64,
+      "text": "Der neue Stand läuft fehlerfrei, die Uhr zeigt zwei, ich bleib dabei.",
+      "words": [
+        {
+          "word": "Der",
+          "start": 49.82,
+          "end": 50.1
+        },
+        {
+          "word": "neue",
+          "start": 50.1,
+          "end": 50.5
+        },
+        {
+          "word": "Stand",
+          "start": 50.5,
+          "end": 50.98
+        },
+        {
+          "word": "läuft",
+          "start": 50.98,
+          "end": 51.32
+        },
+        {
+          "word": "fehlerfrei",
+          "start": 51.32,
+          "end": 52.4
+        },
+        {
+          "word": ",",
+          "start": 52.4,
+          "end": 52.92
+        },
+        {
+          "word": "die",
+          "start": 52.92,
+          "end": 53.16
+        },
+        {
+          "word": "Uhr",
+          "start": 53.16,
+          "end": 53.4
+        },
+        {
+          "word": "zeigt",
+          "start": 53.4,
+          "end": 53.82
+        },
+        {
+          "word": "zwei",
+          "start": 53.82,
+          "end": 54.22
+        },
+        {
+          "word": ",",
+          "start": 54.22,
+          "end": 55.46
+        },
+        {
+          "word": "ich",
+          "start": 55.46,
+          "end": 55.74
+        },
+        {
+          "word": "bleib",
+          "start": 55.74,
+          "end": 56.5
+        },
+        {
+          "word": "dabei",
+          "start": 56.5,
+          "end": 56.56
+        },
+        {
+          "word": ".",
+          "start": 56.56,
+          "end": 56.98
+        }
+      ],
+      "tokens": [
+        51356,
+        5618,
+        16842,
+        9133,
+        31807,
+        34741,
+        1918,
+        42072,
+        11,
+        978,
+        30084,
+        29250,
+        12002,
+        11,
+        1893,
+        5408,
+        897,
+        14967,
+        13,
+        51697
+      ]
+    }
+  ]
+}

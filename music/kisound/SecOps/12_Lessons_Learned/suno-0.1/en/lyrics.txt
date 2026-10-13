@@ -1,0 +1,54 @@
+[Intro]
+Lessons learned.
+Tuesday, two p.m.
+No one to blame.
+
+[Verse 1]
+One room, a whiteboard, the timeline, minute by minute,
+from the first call to isolation: eleven minutes. That's the good in it.
+What went wrong: the backup server joined to the domain,
+one admin account for everything, a gateway with an old patch to blame.
+No one points at a name, no one has to hide,
+we look for gaps in the system, not for guilt inside.
+
+[Chorus]
+Lessons learned.
+What went right? What went wrong?
+Lessons learned.
+Every answer gets an owner before long.
+A name, a date, a task to do,
+so next time it won't get through.
+
+[Verse 2]
+Backup out of the domain, its own login, its own net,
+admin accounts split into tiers, that's the rule we set.
+And thanks to the warehouse for picking up the phone right away,
+without that call the attacker would have had the weekend to play.
+
+[Chorus]
+Lessons learned.
+What went right? What went wrong?
+Lessons learned.
+Every answer gets an owner before long.
+A name, a date, a task to do,
+so next time it won't get through.
+
+[Bridge]
+A night like this,
+no one wants it back.
+But what we learn from it
+stays, and keeps us on track.
+
+[Chorus]
+Lessons learned.
+What went right? What went wrong?
+Lessons learned.
+Every answer gets an owner before long.
+A name, a date, a task to do,
+so next time it won't get through.
+
+[Outro]
+Seven tasks.
+Seven names.
+The SOC is quiet.
+For today.

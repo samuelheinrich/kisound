@@ -1,0 +1,515 @@
+{
+  "title": "OSPF Neighbors",
+  "source_audio": "02_OSPF_Neighbors_0.3-1.wav",
+  "source_audio_sha256": "56fa0fd69fb22b27208f72069b7fd59b34aa74f597c2a78ff0d05bca6639790d",
+  "duration_seconds": 181.080979,
+  "languages": [
+    "en"
+  ],
+  "time_origin": "Beginn der WAV-Datei bei 0 Sekunden",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 7.600000000000001,
+      "last_vocal_end": 20.0
+    },
+    {
+      "title": "Verse",
+      "first_vocal_start": 23.16,
+      "last_vocal_end": 36.0
+    },
+    {
+      "title": "Call",
+      "first_vocal_start": 36.98,
+      "last_vocal_end": 38.26
+    },
+    {
+      "title": "Response",
+      "first_vocal_start": 39.16,
+      "last_vocal_end": 40.12
+    },
+    {
+      "title": "Call",
+      "first_vocal_start": 40.92,
+      "last_vocal_end": 42.16
+    },
+    {
+      "title": "Response",
+      "first_vocal_start": 42.78,
+      "last_vocal_end": 44.48
+    },
+    {
+      "title": "Hook",
+      "first_vocal_start": 47.879999999999995,
+      "last_vocal_end": 62.38
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 76.58,
+      "last_vocal_end": 88.66
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 90.75999999999999,
+      "last_vocal_end": 101.02
+    },
+    {
+      "title": "Bridge",
+      "first_vocal_start": 104.83999999999999,
+      "last_vocal_end": 117.7
+    },
+    {
+      "title": "Final Hook",
+      "first_vocal_start": 118.5,
+      "last_vocal_end": 132.68
+    },
+    {
+      "title": "Outro",
+      "first_vocal_start": 144.28,
+      "last_vocal_end": 168.88
+    }
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "start": 7.6,
+      "end": 9.2,
+      "start_timecode": "00:00:07.600",
+      "end_timecode": "00:00:09.200",
+      "text": "Hello packets on the wire.",
+      "section": "Intro"
+    },
+    {
+      "id": 2,
+      "start": 11.0,
+      "end": 13.34,
+      "start_timecode": "00:00:11.000",
+      "end_timecode": "00:00:13.340",
+      "text": "Area zero comes alive.",
+      "section": "Intro"
+    },
+    {
+      "id": 3,
+      "start": 14.82,
+      "end": 16.3,
+      "start_timecode": "00:00:14.820",
+      "end_timecode": "00:00:16.300",
+      "text": "Every router finds a neighbor.",
+      "section": "Intro"
+    },
+    {
+      "id": 4,
+      "start": 18.36,
+      "end": 20.0,
+      "start_timecode": "00:00:18.360",
+      "end_timecode": "00:00:20.000",
+      "text": "Every link begins to rise.",
+      "section": "Intro"
+    },
+    {
+      "id": 5,
+      "start": 23.16,
+      "end": 26.04,
+      "start_timecode": "00:00:23.160",
+      "end_timecode": "00:00:26.040",
+      "text": "Hello on the link, can you hear my name?",
+      "section": "Verse"
+    },
+    {
+      "id": 6,
+      "start": 26.64,
+      "end": 29.48,
+      "start_timecode": "00:00:26.640",
+      "end_timecode": "00:00:29.480",
+      "text": "Area zero burning like a routing flame.",
+      "section": "Verse"
+    },
+    {
+      "id": 7,
+      "start": 30.22,
+      "end": 33.26,
+      "start_timecode": "00:00:30.220",
+      "end_timecode": "00:00:33.260",
+      "text": "Neighbor up, state is going high,",
+      "section": "Verse"
+    },
+    {
+      "id": 8,
+      "start": 33.86,
+      "end": 36.0,
+      "start_timecode": "00:00:33.860",
+      "end_timecode": "00:00:36.000",
+      "text": "two-way handshake under packet sky.",
+      "section": "Verse"
+    },
+    {
+      "id": 9,
+      "start": 36.98,
+      "end": 38.26,
+      "start_timecode": "00:00:36.980",
+      "end_timecode": "00:00:38.260",
+      "text": "Are you DR?",
+      "section": "Call"
+    },
+    {
+      "id": 10,
+      "start": 39.16,
+      "end": 40.12,
+      "start_timecode": "00:00:39.160",
+      "end_timecode": "00:00:40.120",
+      "text": "No, DROTHER.",
+      "section": "Response"
+    },
+    {
+      "id": 11,
+      "start": 40.92,
+      "end": 42.16,
+      "start_timecode": "00:00:40.920",
+      "end_timecode": "00:00:42.160",
+      "text": "Are you BDR?",
+      "section": "Call"
+    },
+    {
+      "id": 12,
+      "start": 42.78,
+      "end": 44.48,
+      "start_timecode": "00:00:42.780",
+      "end_timecode": "00:00:44.480",
+      "text": "Stand by, brother.",
+      "section": "Response"
+    },
+    {
+      "id": 13,
+      "start": 47.88,
+      "end": 48.86,
+      "start_timecode": "00:00:47.880",
+      "end_timecode": "00:00:48.860",
+      "text": "Hello, hello,",
+      "section": "Hook"
+    },
+    {
+      "id": 14,
+      "start": 49.72,
+      "end": 51.14,
+      "start_timecode": "00:00:49.720",
+      "end_timecode": "00:00:51.140",
+      "text": "neighbor in the light.",
+      "section": "Hook"
+    },
+    {
+      "id": 15,
+      "start": 51.62,
+      "end": 52.46,
+      "start_timecode": "00:00:51.620",
+      "end_timecode": "00:00:52.460",
+      "text": "Hello, hello,",
+      "section": "Hook"
+    },
+    {
+      "id": 16,
+      "start": 53.36,
+      "end": 55.18,
+      "start_timecode": "00:00:53.360",
+      "end_timecode": "00:00:55.180",
+      "text": "database aligned.",
+      "section": "Hook"
+    },
+    {
+      "id": 17,
+      "start": 55.18,
+      "end": 56.16,
+      "start_timecode": "00:00:55.180",
+      "end_timecode": "00:00:56.160",
+      "text": "Shortest path,",
+      "section": "Hook"
+    },
+    {
+      "id": 18,
+      "start": 56.8,
+      "end": 58.64,
+      "start_timecode": "00:00:56.800",
+      "end_timecode": "00:00:58.640",
+      "text": "open the way.",
+      "section": "Hook"
+    },
+    {
+      "id": 19,
+      "start": 58.64,
+      "end": 59.82,
+      "start_timecode": "00:00:58.640",
+      "end_timecode": "00:00:59.820",
+      "text": "Converge the core,",
+      "section": "Hook"
+    },
+    {
+      "id": 20,
+      "start": 60.28,
+      "end": 62.38,
+      "start_timecode": "00:01:00.280",
+      "end_timecode": "00:01:02.380",
+      "text": "carry the frame.",
+      "section": "Hook"
+    },
+    {
+      "id": 21,
+      "start": 76.58,
+      "end": 78.56,
+      "start_timecode": "00:01:16.580",
+      "end_timecode": "00:01:18.560",
+      "text": "OSPF, shortest path alive,",
+      "section": "Chorus"
+    },
+    {
+      "id": 22,
+      "start": 79.7,
+      "end": 82.56,
+      "start_timecode": "00:01:19.700",
+      "end_timecode": "00:01:22.560",
+      "text": "equal cost load balancing, packets divide.",
+      "section": "Chorus"
+    },
+    {
+      "id": 23,
+      "start": 83.22,
+      "end": 86.62,
+      "start_timecode": "00:01:23.220",
+      "end_timecode": "00:01:26.620",
+      "text": "Hello, neighbor, adjacency,",
+      "section": "Chorus"
+    },
+    {
+      "id": 24,
+      "start": 86.62,
+      "end": 88.66,
+      "start_timecode": "00:01:26.620",
+      "end_timecode": "00:01:28.660",
+      "text": "link state rhythm in topology.",
+      "section": "Chorus"
+    },
+    {
+      "id": 25,
+      "start": 90.76,
+      "end": 91.82,
+      "start_timecode": "00:01:30.760",
+      "end_timecode": "00:01:31.820",
+      "text": "LSA moving through the backbone air,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 26,
+      "start": 92.58,
+      "end": 93.98,
+      "start_timecode": "00:01:32.580",
+      "end_timecode": "00:01:33.980",
+      "text": "every router knows what changed out there.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 27,
+      "start": 94.3,
+      "end": 95.44,
+      "start_timecode": "00:01:34.300",
+      "end_timecode": "00:01:35.440",
+      "text": "Cost on the link, metric in the stream,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 28,
+      "start": 95.98,
+      "end": 97.76,
+      "start_timecode": "00:01:35.980",
+      "end_timecode": "00:01:37.760",
+      "text": "SPF calculating routes in a dream.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 29,
+      "start": 97.76,
+      "end": 99.2,
+      "start_timecode": "00:01:37.760",
+      "end_timecode": "00:01:39.200",
+      "text": "DR is elected, BDR stands near,",
+      "section": "Verse 2"
+    },
+    {
+      "id": 30,
+      "start": 99.72,
+      "end": 101.02,
+      "start_timecode": "00:01:39.720",
+      "end_timecode": "00:01:41.020",
+      "text": "DROTHER is waiting till the path is clear.",
+      "section": "Verse 2"
+    },
+    {
+      "id": 31,
+      "start": 104.84,
+      "end": 105.74,
+      "start_timecode": "00:01:44.840",
+      "end_timecode": "00:01:45.740",
+      "text": "LSA flood, database sync,",
+      "section": "Bridge"
+    },
+    {
+      "id": 32,
+      "start": 106.6,
+      "end": 108.3,
+      "start_timecode": "00:01:46.600",
+      "end_timecode": "00:01:48.300",
+      "text": "cost on the interface, faster than you think.",
+      "section": "Bridge"
+    },
+    {
+      "id": 33,
+      "start": 111.8,
+      "end": 114.16,
+      "start_timecode": "00:01:51.800",
+      "end_timecode": "00:01:54.160",
+      "text": "SPF runs in the core tonight,",
+      "section": "Bridge"
+    },
+    {
+      "id": 34,
+      "start": 114.74,
+      "end": 117.7,
+      "start_timecode": "00:01:54.740",
+      "end_timecode": "00:01:57.700",
+      "text": "routes converge in electric light.",
+      "section": "Bridge"
+    },
+    {
+      "id": 35,
+      "start": 118.5,
+      "end": 119.48,
+      "start_timecode": "00:01:58.500",
+      "end_timecode": "00:01:59.480",
+      "text": "Hello, hello,",
+      "section": "Final Hook"
+    },
+    {
+      "id": 36,
+      "start": 120.2,
+      "end": 121.68,
+      "start_timecode": "00:02:00.200",
+      "end_timecode": "00:02:01.680",
+      "text": "neighbor in the light.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 37,
+      "start": 122.14,
+      "end": 122.9,
+      "start_timecode": "00:02:02.140",
+      "end_timecode": "00:02:02.900",
+      "text": "Hello, hello,",
+      "section": "Final Hook"
+    },
+    {
+      "id": 38,
+      "start": 123.84,
+      "end": 125.58,
+      "start_timecode": "00:02:03.840",
+      "end_timecode": "00:02:05.580",
+      "text": "database aligned.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 39,
+      "start": 125.58,
+      "end": 126.64,
+      "start_timecode": "00:02:05.580",
+      "end_timecode": "00:02:06.640",
+      "text": "Shortest path,",
+      "section": "Final Hook"
+    },
+    {
+      "id": 40,
+      "start": 127.32,
+      "end": 129.16,
+      "start_timecode": "00:02:07.320",
+      "end_timecode": "00:02:09.160",
+      "text": "open the way.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 41,
+      "start": 129.16,
+      "end": 130.26,
+      "start_timecode": "00:02:09.160",
+      "end_timecode": "00:02:10.260",
+      "text": "Converge the core,",
+      "section": "Final Hook"
+    },
+    {
+      "id": 42,
+      "start": 130.72,
+      "end": 132.68,
+      "start_timecode": "00:02:10.720",
+      "end_timecode": "00:02:12.680",
+      "text": "carry the frame.",
+      "section": "Final Hook"
+    },
+    {
+      "id": 43,
+      "start": 144.28,
+      "end": 145.4,
+      "start_timecode": "00:02:24.280",
+      "end_timecode": "00:02:25.400",
+      "text": "Full state.",
+      "section": "Outro"
+    },
+    {
+      "id": 44,
+      "start": 145.4,
+      "end": 147.06,
+      "start_timecode": "00:02:25.400",
+      "end_timecode": "00:02:27.060",
+      "text": "Two-way.",
+      "section": "Outro"
+    },
+    {
+      "id": 45,
+      "start": 147.06,
+      "end": 147.7,
+      "start_timecode": "00:02:27.060",
+      "end_timecode": "00:02:27.700",
+      "text": "DROTHER.",
+      "section": "Outro"
+    },
+    {
+      "id": 46,
+      "start": 152.68,
+      "end": 154.08,
+      "start_timecode": "00:02:32.680",
+      "end_timecode": "00:02:34.080",
+      "text": "DROTHER.",
+      "section": "Outro"
+    },
+    {
+      "id": 47,
+      "start": 156.64,
+      "end": 158.04,
+      "start_timecode": "00:02:36.640",
+      "end_timecode": "00:02:38.040",
+      "text": "DR.",
+      "section": "Outro"
+    },
+    {
+      "id": 48,
+      "start": 166.36,
+      "end": 167.76,
+      "start_timecode": "00:02:46.360",
+      "end_timecode": "00:02:47.760",
+      "text": "ECMP.",
+      "section": "Outro"
+    },
+    {
+      "id": 49,
+      "start": 167.76,
+      "end": 168.88,
+      "start_timecode": "00:02:47.760",
+      "end_timecode": "00:02:48.880",
+      "text": "BDR.",
+      "section": "Outro"
+    }
+  ]
+}

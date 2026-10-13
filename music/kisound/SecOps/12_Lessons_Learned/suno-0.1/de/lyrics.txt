@@ -1,0 +1,54 @@
+[Intro]
+Lessons Learned.
+Dienstag, vierzehn Uhr.
+Kein Schuldiger.
+
+[Verse 1]
+Ein Raum, ein Whiteboard, die Zeitachse, Minute für Minute,
+vom ersten Anruf bis zur Isolation: elf Minuten. Das war das Gute.
+Was nicht gut war: der Backup-Server in der Domäne drin,
+ein Admin-Konto für alles, und ein Gateway mit altem Patch darin.
+Keiner zeigt auf einen Namen, keiner muss sich verstecken,
+wir suchen Lücken im System, nicht Schuld in fremden Ecken.
+
+[Chorus]
+Lessons Learned.
+Was lief gut? Was nicht?
+Lessons Learned.
+Jede Antwort bekommt ein Gesicht.
+Ein Name, ein Datum, eine Aufgabe dran,
+damit's beim nächsten Mal nicht mehr passieren kann.
+
+[Verse 2]
+Backup raus aus der Domäne, eigene Anmeldung, eigenes Netz,
+Admin-Konten nach Ebenen getrennt, das wird jetzt Gesetz.
+Und ein Danke ans Lager, das sofort zum Hörer griff,
+ohne diesen Anruf hätt der Angreifer das ganze Wochenende im Griff.
+
+[Chorus]
+Lessons Learned.
+Was lief gut? Was nicht?
+Lessons Learned.
+Jede Antwort bekommt ein Gesicht.
+Ein Name, ein Datum, eine Aufgabe dran,
+damit's beim nächsten Mal nicht mehr passieren kann.
+
+[Bridge]
+Eine Nacht wie diese
+wünscht sich keiner zurück.
+Doch was wir daraus lernen,
+bleibt, Stück für Stück.
+
+[Chorus]
+Lessons Learned.
+Was lief gut? Was nicht?
+Lessons Learned.
+Jede Antwort bekommt ein Gesicht.
+Ein Name, ein Datum, eine Aufgabe dran,
+damit's beim nächsten Mal nicht mehr passieren kann.
+
+[Outro]
+Sieben Aufgaben.
+Sieben Namen.
+Das SOC ist ruhig.
+Für heute.

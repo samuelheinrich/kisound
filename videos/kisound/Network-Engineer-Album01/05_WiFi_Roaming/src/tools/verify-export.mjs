@@ -1,0 +1,14 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import{spawnSync}from'node:child_process';import{fileURLToPath}from'node:url';import assert from'node:assert/strict';
+import{DURATION,FPS,FRAMES,SOURCE_SHA256}from'../render/config.js';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..'),file=path.join(root,'output/05_WiFi_Roaming_1080p60.mp4');
+const run=(cmd,args)=>{const r=spawnSync(cmd,args,{encoding:'utf8',maxBuffer:16*1024*1024});if(r.error)throw r.error;if(r.status!==0)throw new Error(r.stderr);return r.stdout;};
+const probe=JSON.parse(run('ffprobe',['-v','error','-show_streams','-show_format','-of','json',file]));
+const v=probe.streams.find(s=>s.codec_type==='video'),a=probe.streams.find(s=>s.codec_type==='audio');
+assert.equal(v.width,1920);assert.equal(v.height,1080);assert.equal(v.codec_name,'h264');assert.equal(v.avg_frame_rate,`${FPS}/1`);assert.equal(Number(v.nb_frames),FRAMES);assert.equal(v.color_space,'bt709');
+assert.ok(Math.abs(Number(v.duration)-DURATION)<=1/FPS+.001);assert.equal(a.codec_name,'aac');assert.equal(a.channels,2);assert.equal(a.sample_rate,'48000');assert.equal(Number(a.duration_ts),8490287);
+run('ffmpeg',['-v','error','-xerror','-i',file,'-map','0:v:0','-map','0:a:0','-f','null','-']);
+const dir=path.join(root,'output/export-check');fs.mkdirSync(dir,{recursive:true});
+for(const t of[3,35,64,117.4,172,176.85])run('ffmpeg',['-y','-v','error','-ss',String(t),'-i',file,'-frames:v','1',path.join(dir,`frame-${t}.png`)]);
+const hash=crypto.createHash('sha256');for await(const chunk of fs.createReadStream(file))hash.update(chunk);
+const result={status:'passed',file:path.basename(file),bytes:fs.statSync(file).size,sha256:hash.digest('hex'),source_sha256:SOURCE_SHA256,full_decode:'passed',frames:FRAMES,original_audio_duration_s:DURATION,probe};
+fs.writeFileSync(path.join(root,'output/export-manifest.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({status:result.status,bytes:result.bytes,frames:FRAMES,video_s:v.duration,audio_s:a.duration},null,2));

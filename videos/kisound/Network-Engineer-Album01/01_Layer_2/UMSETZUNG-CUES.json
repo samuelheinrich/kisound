@@ -1,0 +1,2026 @@
+{
+  "schema": "kisound.layer2.cues.v1",
+  "duration_s": 209.96016666666668,
+  "chapters": [
+    {
+      "id": "C01",
+      "title": "Layer Two",
+      "start": 0,
+      "end": 9.02,
+      "action": "OSI-Ebenen öffnen; Anfangstitel über der aktiven Layer-2-Ebene.",
+      "event_ids": [
+        "E001",
+        "E002"
+      ],
+      "lyric_ids": [
+        "L001"
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "Switching domain",
+      "start": 9.02,
+      "end": 19.5,
+      "action": "Switch-Topologie zwischen Signal und Routinghorizont öffnen; Frame rastet an E004 ein.",
+      "event_ids": [
+        "E003",
+        "E004"
+      ],
+      "lyric_ids": [
+        "L002"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "ARP / Address resolution",
+      "start": 19.5,
+      "end": 31.7,
+      "action": "ARP-Cache miss, Request im VLAN 10, Unicast Reply, Cache-Auflösung. Pegellücke nimmt Licht zurück.",
+      "event_ids": [
+        "E005",
+        "E006",
+        "E007",
+        "E008"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "C04",
+      "title": "Unknown / Known unicast",
+      "start": 31.7,
+      "end": 38.94,
+      "action": "Vorhandener ARP-Cache trifft auf gealterten FDB-Eintrag; Flooding, anschliessend gezielte Weiterleitung.",
+      "event_ids": [
+        "E009"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "C05",
+      "title": "MAC learning / 802.1Q",
+      "start": 38.94,
+      "end": 46.62,
+      "action": "Quell-MAC lernen, Frame verfolgen, 802.1Q-Tag einsetzen, Broadcast-Grenze zeigen.",
+      "event_ids": [
+        "E010",
+        "E011"
+      ],
+      "lyric_ids": [
+        "L003",
+        "L004",
+        "L005",
+        "L006"
+      ]
+    },
+    {
+      "id": "C06",
+      "title": "Root bridge",
+      "start": 46.62,
+      "end": 53.8,
+      "action": "Root-Bridge und redundanten Port zeigen; klassische STP-Zustände.",
+      "event_ids": [
+        "E012"
+      ],
+      "lyric_ids": [
+        "L007",
+        "L008",
+        "L009",
+        "L010"
+      ]
+    },
+    {
+      "id": "C07",
+      "title": "VLAN 10 / VLAN 3",
+      "start": 53.8,
+      "end": 61.3,
+      "action": "VLAN 10 und VLAN 3 getrennt auf gemeinsamem Trunk; Frame stoppt am blockierten Port.",
+      "event_ids": [
+        "E013",
+        "E014",
+        "E015"
+      ],
+      "lyric_ids": [
+        "L011",
+        "L012",
+        "L013",
+        "L014"
+      ]
+    },
+    {
+      "id": "C08",
+      "title": "Port states",
+      "start": 61.3,
+      "end": 70.5,
+      "action": "BPDU, Trunk, Access-Port, MAC move P1 → P3 und stabiler Baum.",
+      "event_ids": [
+        "E016",
+        "E017"
+      ],
+      "lyric_ids": [
+        "L015",
+        "L016",
+        "L017",
+        "L018",
+        "L019"
+      ]
+    },
+    {
+      "id": "C09",
+      "title": "L2TPv3 / Ethernet pseudowire",
+      "start": 70.5,
+      "end": 84,
+      "action": "L2TPv3-Kontrollverbindung und Sitzung; Ethernet kapseln, über IP transportieren und auspacken.",
+      "event_ids": [
+        "E018",
+        "E019",
+        "E020",
+        "E021"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "C10",
+      "title": "Loop demo / STP off",
+      "start": 84,
+      "end": 106.9,
+      "action": "Explizite Loop-Demo bei deaktiviertem STP; Frame-Kopien im Kreis, MAC-Flapping.",
+      "event_ids": [
+        "E022",
+        "E023"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "C11",
+      "title": "Spanning tree recovery",
+      "start": 106.9,
+      "end": 119.42,
+      "action": "STP wieder aktiv: Listening, Learning, Forwarding; SW-03 P26 blockiert ab 113 s.",
+      "event_ids": [
+        "E024",
+        "E025",
+        "E026",
+        "E027"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "C12",
+      "title": "OSI / Reprise",
+      "start": 119.42,
+      "end": 133.62,
+      "action": "Stabilen Baum in die OSI-Schichtung zurückführen; strittige E030-Grenze steuert keinen Schnitt.",
+      "event_ids": [
+        "E028",
+        "E029"
+      ],
+      "lyric_ids": [
+        "L020"
+      ]
+    },
+    {
+      "id": "C13",
+      "title": "Switching domain / Reprise",
+      "start": 133.62,
+      "end": 142.5,
+      "action": "Switching domain erneut öffnen; MAC-Matrix und ausgewählten Pfad zeigen.",
+      "event_ids": [
+        "E031",
+        "E032"
+      ],
+      "lyric_ids": [
+        "L021"
+      ]
+    },
+    {
+      "id": "C14",
+      "title": "Frames / Reprise",
+      "start": 142.5,
+      "end": 150.16,
+      "action": "Frame-Perspektive der Reprise: Lernen, Übertragung, Tagging und Broadcast-Domain.",
+      "event_ids": [
+        "E033",
+        "E034"
+      ],
+      "lyric_ids": [
+        "L022",
+        "L023",
+        "L024",
+        "L025"
+      ]
+    },
+    {
+      "id": "C15",
+      "title": "Root bridge / Reprise",
+      "start": 150.16,
+      "end": 157.02,
+      "action": "Root-Information und redundanten blockierten Pfad aus Gegenperspektive zeigen.",
+      "event_ids": [
+        "E035",
+        "E036"
+      ],
+      "lyric_ids": [
+        "L026",
+        "L027",
+        "L028",
+        "L029"
+      ]
+    },
+    {
+      "id": "C16",
+      "title": "VLANs / Reprise",
+      "start": 157.02,
+      "end": 165.92,
+      "action": "VLAN-Reprise mit räumlicher Tiefe und lesbarem Trunk-Tag.",
+      "event_ids": [
+        "E037",
+        "E038"
+      ],
+      "lyric_ids": [
+        "L030",
+        "L031",
+        "L032",
+        "L033"
+      ]
+    },
+    {
+      "id": "C17",
+      "title": "MAC move / Reprise",
+      "start": 165.92,
+      "end": 171.76,
+      "action": "Trunk, Access-Ausgang und MAC move P3 → P7; danach stabiles Netz.",
+      "event_ids": [
+        "E039"
+      ],
+      "lyric_ids": [
+        "L034",
+        "L035",
+        "L036",
+        "L037"
+      ]
+    },
+    {
+      "id": "C18",
+      "title": "LLDP / Direct neighbours",
+      "start": 171.76,
+      "end": 178.5,
+      "action": "LLDP-Ankündigungen auf direkten Links; Nachbar-/Porttabelle.",
+      "event_ids": [
+        "E040",
+        "E041",
+        "E042",
+        "E043"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "C19",
+      "title": "LACP / Link aggregation",
+      "start": 178.5,
+      "end": 185.92,
+      "action": "LACP-Actor/Partner und Synchronisation; zwei Mitglieder werden ein logischer Link.",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "C20",
+      "title": "Flows / Members",
+      "start": 185.92,
+      "end": 194,
+      "action": "Zwei unterscheidbare Flows bleiben jeweils auf einem festen Mitglied.",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "C21",
+      "title": "Clean forwarding",
+      "start": 194,
+      "end": 202.341,
+      "action": "Montage der bereits eingeführten VLAN-, Frame- und Tunnelmechanismen.",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "C22",
+      "title": "Layer 2 / Samuel Heinrich",
+      "start": 202.341,
+      "end": 209.96016666666668,
+      "action": "Aktive Schlusstotale; LAYER 2 und SAMUEL HEINRICH bis zum tatsächlichen Ende.",
+      "event_ids": [
+        "E044",
+        "E045",
+        "E046"
+      ],
+      "lyric_ids": []
+    }
+  ],
+  "shots": [
+    {
+      "id": "S001",
+      "start": 0,
+      "end": 9.02,
+      "zone": "topology",
+      "camera": "stack",
+      "mode": "osi",
+      "eventIds": [
+        "E001",
+        "E002"
+      ],
+      "lyricIds": [
+        "L001"
+      ]
+    },
+    {
+      "id": "S002",
+      "start": 9.02,
+      "end": 12.6,
+      "zone": "topology",
+      "camera": "reveal",
+      "mode": "domain",
+      "eventIds": [],
+      "lyricIds": [
+        "L002"
+      ]
+    },
+    {
+      "id": "S003",
+      "start": 12.6,
+      "end": 18.711,
+      "zone": "topology",
+      "camera": "orbit",
+      "mode": "domain",
+      "eventIds": [
+        "E003"
+      ],
+      "lyricIds": [
+        "L002"
+      ]
+    },
+    {
+      "id": "S004",
+      "start": 18.711,
+      "end": 19.5,
+      "zone": "frame",
+      "camera": "push",
+      "mode": "wire",
+      "eventIds": [
+        "E004"
+      ],
+      "lyricIds": [
+        "L002"
+      ]
+    },
+    {
+      "id": "S005",
+      "start": 19.5,
+      "end": 21.7,
+      "zone": "topology",
+      "camera": "host",
+      "mode": "arp",
+      "eventIds": [
+        "E005",
+        "E006"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S006",
+      "start": 21.7,
+      "end": 26.8,
+      "zone": "topology",
+      "camera": "overhead",
+      "mode": "arp",
+      "eventIds": [
+        "E007"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S007",
+      "start": 26.8,
+      "end": 30.211,
+      "zone": "frame",
+      "camera": "track",
+      "mode": "arp",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S008",
+      "start": 30.211,
+      "end": 31.7,
+      "zone": "control",
+      "camera": "matrix",
+      "mode": "arp",
+      "eventIds": [
+        "E008"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S009",
+      "start": 31.7,
+      "end": 35.4,
+      "zone": "topology",
+      "camera": "overhead",
+      "mode": "unknown",
+      "eventIds": [
+        "E009"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S010",
+      "start": 35.4,
+      "end": 38.94,
+      "zone": "topology",
+      "camera": "chase",
+      "mode": "known",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S011",
+      "start": 38.94,
+      "end": 41.02,
+      "zone": "control",
+      "camera": "matrix",
+      "mode": "learning",
+      "eventIds": [
+        "E010",
+        "E011"
+      ],
+      "lyricIds": [
+        "L003"
+      ]
+    },
+    {
+      "id": "S012",
+      "start": 41.02,
+      "end": 42.9,
+      "zone": "frame",
+      "camera": "track",
+      "mode": "wire",
+      "eventIds": [],
+      "lyricIds": [
+        "L004"
+      ]
+    },
+    {
+      "id": "S013",
+      "start": 42.9,
+      "end": 44.8,
+      "zone": "frame",
+      "camera": "side",
+      "mode": "tag",
+      "eventIds": [],
+      "lyricIds": [
+        "L005"
+      ]
+    },
+    {
+      "id": "S014",
+      "start": 44.8,
+      "end": 46.62,
+      "zone": "topology",
+      "camera": "overhead",
+      "mode": "broadcast",
+      "eventIds": [],
+      "lyricIds": [
+        "L006"
+      ]
+    },
+    {
+      "id": "S015",
+      "start": 46.62,
+      "end": 48.76,
+      "zone": "control",
+      "camera": "root",
+      "mode": "stp",
+      "eventIds": [
+        "E012"
+      ],
+      "lyricIds": [
+        "L007",
+        "L008"
+      ]
+    },
+    {
+      "id": "S016",
+      "start": 48.76,
+      "end": 51.1,
+      "zone": "topology",
+      "camera": "port",
+      "mode": "stp",
+      "eventIds": [],
+      "lyricIds": [
+        "L009",
+        "L010"
+      ]
+    },
+    {
+      "id": "S017",
+      "start": 51.1,
+      "end": 53.8,
+      "zone": "topology",
+      "camera": "orbit",
+      "mode": "stp",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S018",
+      "start": 53.8,
+      "end": 56.461,
+      "zone": "topology",
+      "camera": "reveal",
+      "mode": "vlans",
+      "eventIds": [
+        "E013",
+        "E014"
+      ],
+      "lyricIds": [
+        "L011",
+        "L012"
+      ]
+    },
+    {
+      "id": "S019",
+      "start": 56.461,
+      "end": 57.58,
+      "zone": "topology",
+      "camera": "port",
+      "mode": "stp",
+      "eventIds": [
+        "E015"
+      ],
+      "lyricIds": [
+        "L012"
+      ]
+    },
+    {
+      "id": "S020",
+      "start": 57.58,
+      "end": 59.42,
+      "zone": "topology",
+      "camera": "overhead",
+      "mode": "vlans",
+      "eventIds": [],
+      "lyricIds": [
+        "L013"
+      ]
+    },
+    {
+      "id": "S021",
+      "start": 59.42,
+      "end": 61.3,
+      "zone": "frame",
+      "camera": "side",
+      "mode": "tag",
+      "eventIds": [],
+      "lyricIds": [
+        "L014"
+      ]
+    },
+    {
+      "id": "S022",
+      "start": 61.3,
+      "end": 63.5,
+      "zone": "control",
+      "camera": "root",
+      "mode": "bpdu",
+      "eventIds": [
+        "E016",
+        "E017"
+      ],
+      "lyricIds": [
+        "L015"
+      ]
+    },
+    {
+      "id": "S023",
+      "start": 63.5,
+      "end": 64.4,
+      "zone": "frame",
+      "camera": "track",
+      "mode": "trunk",
+      "eventIds": [],
+      "lyricIds": [
+        "L016"
+      ]
+    },
+    {
+      "id": "S024",
+      "start": 64.4,
+      "end": 66.92,
+      "zone": "frame",
+      "camera": "side",
+      "mode": "access",
+      "eventIds": [],
+      "lyricIds": [
+        "L017"
+      ]
+    },
+    {
+      "id": "S025",
+      "start": 66.92,
+      "end": 68.78,
+      "zone": "control",
+      "camera": "matrix",
+      "mode": "move",
+      "eventIds": [],
+      "lyricIds": [
+        "L018"
+      ]
+    },
+    {
+      "id": "S026",
+      "start": 68.78,
+      "end": 70.5,
+      "zone": "topology",
+      "camera": "reveal",
+      "mode": "stp",
+      "eventIds": [],
+      "lyricIds": [
+        "L019"
+      ]
+    },
+    {
+      "id": "S027",
+      "start": 70.5,
+      "end": 71.461,
+      "zone": "tunnel",
+      "camera": "wide",
+      "mode": "setup",
+      "eventIds": [
+        "E018",
+        "E019",
+        "E020"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S028",
+      "start": 71.461,
+      "end": 74.3,
+      "zone": "tunnel",
+      "camera": "launch",
+      "mode": "setup",
+      "eventIds": [
+        "E021"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S029",
+      "start": 74.3,
+      "end": 78.3,
+      "zone": "tunnel",
+      "camera": "track",
+      "mode": "encapsulate",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S030",
+      "start": 78.3,
+      "end": 81,
+      "zone": "tunnel",
+      "camera": "inside",
+      "mode": "transport",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S031",
+      "start": 81,
+      "end": 84,
+      "zone": "tunnel",
+      "camera": "arrival",
+      "mode": "decapsulate",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S032",
+      "start": 84,
+      "end": 89.831,
+      "zone": "topology",
+      "camera": "overhead",
+      "mode": "loop",
+      "eventIds": [
+        "E022"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S033",
+      "start": 89.831,
+      "end": 95.5,
+      "zone": "topology",
+      "camera": "chase",
+      "mode": "loop",
+      "eventIds": [
+        "E023"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S034",
+      "start": 95.5,
+      "end": 100.5,
+      "zone": "control",
+      "camera": "matrix",
+      "mode": "loop",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S035",
+      "start": 100.5,
+      "end": 104.1,
+      "zone": "topology",
+      "camera": "orbit",
+      "mode": "loop",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S036",
+      "start": 104.1,
+      "end": 106.9,
+      "zone": "topology",
+      "camera": "overhead",
+      "mode": "loop",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S037",
+      "start": 106.9,
+      "end": 108.591,
+      "zone": "control",
+      "camera": "root",
+      "mode": "recover",
+      "eventIds": [
+        "E024",
+        "E025"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S038",
+      "start": 108.591,
+      "end": 113,
+      "zone": "topology",
+      "camera": "port",
+      "mode": "recover",
+      "eventIds": [
+        "E026"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S039",
+      "start": 113,
+      "end": 116.4,
+      "zone": "topology",
+      "camera": "overhead",
+      "mode": "stp",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S040",
+      "start": 116.4,
+      "end": 119.42,
+      "zone": "control",
+      "camera": "root",
+      "mode": "stp",
+      "eventIds": [
+        "E027"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S041",
+      "start": 119.42,
+      "end": 123.5,
+      "zone": "topology",
+      "camera": "stack",
+      "mode": "osi",
+      "eventIds": [
+        "E028",
+        "E029"
+      ],
+      "lyricIds": [
+        "L020"
+      ]
+    },
+    {
+      "id": "S042",
+      "start": 123.5,
+      "end": 129,
+      "zone": "topology",
+      "camera": "orbit",
+      "mode": "stp",
+      "eventIds": [],
+      "lyricIds": [
+        "L020"
+      ]
+    },
+    {
+      "id": "S043",
+      "start": 129,
+      "end": 133.62,
+      "zone": "topology",
+      "camera": "stack",
+      "mode": "osi",
+      "eventIds": [],
+      "lyricIds": [
+        "L020"
+      ]
+    },
+    {
+      "id": "S044",
+      "start": 133.62,
+      "end": 135.781,
+      "zone": "topology",
+      "camera": "reveal",
+      "mode": "domain",
+      "eventIds": [
+        "E031"
+      ],
+      "lyricIds": [
+        "L021"
+      ]
+    },
+    {
+      "id": "S045",
+      "start": 135.781,
+      "end": 139.5,
+      "zone": "control",
+      "camera": "matrix",
+      "mode": "learning",
+      "eventIds": [
+        "E032"
+      ],
+      "lyricIds": [
+        "L021"
+      ]
+    },
+    {
+      "id": "S046",
+      "start": 139.5,
+      "end": 142.5,
+      "zone": "topology",
+      "camera": "chase",
+      "mode": "known",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S047",
+      "start": 142.5,
+      "end": 144.44,
+      "zone": "control",
+      "camera": "matrix",
+      "mode": "learning",
+      "eventIds": [
+        "E033"
+      ],
+      "lyricIds": [
+        "L022"
+      ]
+    },
+    {
+      "id": "S048",
+      "start": 144.44,
+      "end": 146.48,
+      "zone": "frame",
+      "camera": "track",
+      "mode": "wire",
+      "eventIds": [],
+      "lyricIds": [
+        "L023"
+      ]
+    },
+    {
+      "id": "S049",
+      "start": 146.48,
+      "end": 148.18,
+      "zone": "frame",
+      "camera": "side",
+      "mode": "tag",
+      "eventIds": [
+        "E034"
+      ],
+      "lyricIds": [
+        "L024"
+      ]
+    },
+    {
+      "id": "S050",
+      "start": 148.18,
+      "end": 150.16,
+      "zone": "topology",
+      "camera": "overhead",
+      "mode": "broadcast",
+      "eventIds": [],
+      "lyricIds": [
+        "L025"
+      ]
+    },
+    {
+      "id": "S051",
+      "start": 150.16,
+      "end": 152.16,
+      "zone": "control",
+      "camera": "root",
+      "mode": "stp",
+      "eventIds": [
+        "E035"
+      ],
+      "lyricIds": [
+        "L026",
+        "L027"
+      ]
+    },
+    {
+      "id": "S052",
+      "start": 152.16,
+      "end": 154.531,
+      "zone": "topology",
+      "camera": "port",
+      "mode": "stp",
+      "eventIds": [],
+      "lyricIds": [
+        "L028",
+        "L029"
+      ]
+    },
+    {
+      "id": "S053",
+      "start": 154.531,
+      "end": 157.02,
+      "zone": "topology",
+      "camera": "orbit",
+      "mode": "stp",
+      "eventIds": [
+        "E036"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S054",
+      "start": 157.02,
+      "end": 161.08,
+      "zone": "topology",
+      "camera": "reveal",
+      "mode": "vlans",
+      "eventIds": [
+        "E037",
+        "E038"
+      ],
+      "lyricIds": [
+        "L030",
+        "L031"
+      ]
+    },
+    {
+      "id": "S055",
+      "start": 161.08,
+      "end": 162.88,
+      "zone": "topology",
+      "camera": "overhead",
+      "mode": "vlans",
+      "eventIds": [],
+      "lyricIds": [
+        "L032"
+      ]
+    },
+    {
+      "id": "S056",
+      "start": 162.88,
+      "end": 165.92,
+      "zone": "frame",
+      "camera": "side",
+      "mode": "tag",
+      "eventIds": [],
+      "lyricIds": [
+        "L033"
+      ]
+    },
+    {
+      "id": "S057",
+      "start": 165.92,
+      "end": 166.72,
+      "zone": "frame",
+      "camera": "track",
+      "mode": "trunk",
+      "eventIds": [
+        "E039"
+      ],
+      "lyricIds": [
+        "L034"
+      ]
+    },
+    {
+      "id": "S058",
+      "start": 166.72,
+      "end": 167.86,
+      "zone": "frame",
+      "camera": "side",
+      "mode": "access",
+      "eventIds": [],
+      "lyricIds": [
+        "L035"
+      ]
+    },
+    {
+      "id": "S059",
+      "start": 167.86,
+      "end": 168.52,
+      "zone": "control",
+      "camera": "matrix",
+      "mode": "move",
+      "eventIds": [],
+      "lyricIds": [
+        "L036"
+      ]
+    },
+    {
+      "id": "S060",
+      "start": 168.52,
+      "end": 171.76,
+      "zone": "topology",
+      "camera": "reveal",
+      "mode": "stp",
+      "eventIds": [],
+      "lyricIds": [
+        "L037"
+      ]
+    },
+    {
+      "id": "S061",
+      "start": 171.76,
+      "end": 174.691,
+      "zone": "control",
+      "camera": "neighbours",
+      "mode": "lldp",
+      "eventIds": [
+        "E040",
+        "E041",
+        "E042"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S062",
+      "start": 174.691,
+      "end": 176.6,
+      "zone": "topology",
+      "camera": "port",
+      "mode": "lldp",
+      "eventIds": [
+        "E043"
+      ],
+      "lyricIds": []
+    },
+    {
+      "id": "S063",
+      "start": 176.6,
+      "end": 178.5,
+      "zone": "control",
+      "camera": "neighbours",
+      "mode": "lldp",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S064",
+      "start": 178.5,
+      "end": 181.2,
+      "zone": "control",
+      "camera": "bundle",
+      "mode": "lacp",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S065",
+      "start": 181.2,
+      "end": 183.7,
+      "zone": "topology",
+      "camera": "bundle",
+      "mode": "lacp",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S066",
+      "start": 183.7,
+      "end": 185.92,
+      "zone": "control",
+      "camera": "bundle",
+      "mode": "lacp",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S067",
+      "start": 185.92,
+      "end": 189.7,
+      "zone": "topology",
+      "camera": "bundle",
+      "mode": "flows",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S068",
+      "start": 189.7,
+      "end": 192,
+      "zone": "frame",
+      "camera": "track",
+      "mode": "flows",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S069",
+      "start": 192,
+      "end": 194,
+      "zone": "topology",
+      "camera": "overhead",
+      "mode": "flows",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S070",
+      "start": 194,
+      "end": 196.8,
+      "zone": "frame",
+      "camera": "side",
+      "mode": "tag",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S071",
+      "start": 196.8,
+      "end": 199.6,
+      "zone": "tunnel",
+      "camera": "wide",
+      "mode": "transport",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S072",
+      "start": 199.6,
+      "end": 202.341,
+      "zone": "topology",
+      "camera": "reveal",
+      "mode": "final",
+      "eventIds": [],
+      "lyricIds": []
+    },
+    {
+      "id": "S073",
+      "start": 202.341,
+      "end": 209.96016666666668,
+      "zone": "topology",
+      "camera": "final",
+      "mode": "final",
+      "eventIds": [
+        "E044",
+        "E045",
+        "E046"
+      ],
+      "lyricIds": []
+    }
+  ],
+  "editorial": [
+    {
+      "id": "V001",
+      "time_s": 0,
+      "origin": "redaktionell",
+      "action": "topology/stack: osi",
+      "shot_id": "S001",
+      "event_ids": [
+        "E001",
+        "E002"
+      ],
+      "lyric_ids": [
+        "L001"
+      ]
+    },
+    {
+      "id": "V002",
+      "time_s": 9.02,
+      "origin": "redaktionell",
+      "action": "topology/reveal: domain",
+      "shot_id": "S002",
+      "event_ids": [],
+      "lyric_ids": [
+        "L002"
+      ]
+    },
+    {
+      "id": "V003",
+      "time_s": 12.6,
+      "origin": "redaktionell",
+      "action": "topology/orbit: domain",
+      "shot_id": "S003",
+      "event_ids": [
+        "E003"
+      ],
+      "lyric_ids": [
+        "L002"
+      ]
+    },
+    {
+      "id": "V004",
+      "time_s": 18.711,
+      "origin": "redaktionell",
+      "action": "frame/push: wire",
+      "shot_id": "S004",
+      "event_ids": [
+        "E004"
+      ],
+      "lyric_ids": [
+        "L002"
+      ]
+    },
+    {
+      "id": "V005",
+      "time_s": 19.5,
+      "origin": "redaktionell",
+      "action": "topology/host: arp",
+      "shot_id": "S005",
+      "event_ids": [
+        "E005",
+        "E006"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V006",
+      "time_s": 21.7,
+      "origin": "redaktionell",
+      "action": "topology/overhead: arp",
+      "shot_id": "S006",
+      "event_ids": [
+        "E007"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V007",
+      "time_s": 26.8,
+      "origin": "redaktionell",
+      "action": "frame/track: arp",
+      "shot_id": "S007",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V008",
+      "time_s": 30.211,
+      "origin": "redaktionell",
+      "action": "control/matrix: arp",
+      "shot_id": "S008",
+      "event_ids": [
+        "E008"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V009",
+      "time_s": 31.7,
+      "origin": "redaktionell",
+      "action": "topology/overhead: unknown",
+      "shot_id": "S009",
+      "event_ids": [
+        "E009"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V010",
+      "time_s": 35.4,
+      "origin": "redaktionell",
+      "action": "topology/chase: known",
+      "shot_id": "S010",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V011",
+      "time_s": 38.94,
+      "origin": "redaktionell",
+      "action": "control/matrix: learning",
+      "shot_id": "S011",
+      "event_ids": [
+        "E010",
+        "E011"
+      ],
+      "lyric_ids": [
+        "L003"
+      ]
+    },
+    {
+      "id": "V012",
+      "time_s": 41.02,
+      "origin": "redaktionell",
+      "action": "frame/track: wire",
+      "shot_id": "S012",
+      "event_ids": [],
+      "lyric_ids": [
+        "L004"
+      ]
+    },
+    {
+      "id": "V013",
+      "time_s": 42.9,
+      "origin": "redaktionell",
+      "action": "frame/side: tag",
+      "shot_id": "S013",
+      "event_ids": [],
+      "lyric_ids": [
+        "L005"
+      ]
+    },
+    {
+      "id": "V014",
+      "time_s": 44.8,
+      "origin": "redaktionell",
+      "action": "topology/overhead: broadcast",
+      "shot_id": "S014",
+      "event_ids": [],
+      "lyric_ids": [
+        "L006"
+      ]
+    },
+    {
+      "id": "V015",
+      "time_s": 46.62,
+      "origin": "redaktionell",
+      "action": "control/root: stp",
+      "shot_id": "S015",
+      "event_ids": [
+        "E012"
+      ],
+      "lyric_ids": [
+        "L007",
+        "L008"
+      ]
+    },
+    {
+      "id": "V016",
+      "time_s": 48.76,
+      "origin": "redaktionell",
+      "action": "topology/port: stp",
+      "shot_id": "S016",
+      "event_ids": [],
+      "lyric_ids": [
+        "L009",
+        "L010"
+      ]
+    },
+    {
+      "id": "V017",
+      "time_s": 51.1,
+      "origin": "redaktionell",
+      "action": "topology/orbit: stp",
+      "shot_id": "S017",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V018",
+      "time_s": 53.8,
+      "origin": "redaktionell",
+      "action": "topology/reveal: vlans",
+      "shot_id": "S018",
+      "event_ids": [
+        "E013",
+        "E014"
+      ],
+      "lyric_ids": [
+        "L011",
+        "L012"
+      ]
+    },
+    {
+      "id": "V019",
+      "time_s": 56.461,
+      "origin": "redaktionell",
+      "action": "topology/port: stp",
+      "shot_id": "S019",
+      "event_ids": [
+        "E015"
+      ],
+      "lyric_ids": [
+        "L012"
+      ]
+    },
+    {
+      "id": "V020",
+      "time_s": 57.58,
+      "origin": "redaktionell",
+      "action": "topology/overhead: vlans",
+      "shot_id": "S020",
+      "event_ids": [],
+      "lyric_ids": [
+        "L013"
+      ]
+    },
+    {
+      "id": "V021",
+      "time_s": 59.42,
+      "origin": "redaktionell",
+      "action": "frame/side: tag",
+      "shot_id": "S021",
+      "event_ids": [],
+      "lyric_ids": [
+        "L014"
+      ]
+    },
+    {
+      "id": "V022",
+      "time_s": 61.3,
+      "origin": "redaktionell",
+      "action": "control/root: bpdu",
+      "shot_id": "S022",
+      "event_ids": [
+        "E016",
+        "E017"
+      ],
+      "lyric_ids": [
+        "L015"
+      ]
+    },
+    {
+      "id": "V023",
+      "time_s": 63.5,
+      "origin": "redaktionell",
+      "action": "frame/track: trunk",
+      "shot_id": "S023",
+      "event_ids": [],
+      "lyric_ids": [
+        "L016"
+      ]
+    },
+    {
+      "id": "V024",
+      "time_s": 64.4,
+      "origin": "redaktionell",
+      "action": "frame/side: access",
+      "shot_id": "S024",
+      "event_ids": [],
+      "lyric_ids": [
+        "L017"
+      ]
+    },
+    {
+      "id": "V025",
+      "time_s": 66.92,
+      "origin": "redaktionell",
+      "action": "control/matrix: move",
+      "shot_id": "S025",
+      "event_ids": [],
+      "lyric_ids": [
+        "L018"
+      ]
+    },
+    {
+      "id": "V026",
+      "time_s": 68.78,
+      "origin": "redaktionell",
+      "action": "topology/reveal: stp",
+      "shot_id": "S026",
+      "event_ids": [],
+      "lyric_ids": [
+        "L019"
+      ]
+    },
+    {
+      "id": "V027",
+      "time_s": 70.5,
+      "origin": "redaktionell",
+      "action": "tunnel/wide: setup",
+      "shot_id": "S027",
+      "event_ids": [
+        "E018",
+        "E019",
+        "E020"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V028",
+      "time_s": 71.461,
+      "origin": "redaktionell",
+      "action": "tunnel/launch: setup",
+      "shot_id": "S028",
+      "event_ids": [
+        "E021"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V029",
+      "time_s": 74.3,
+      "origin": "redaktionell",
+      "action": "tunnel/track: encapsulate",
+      "shot_id": "S029",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V030",
+      "time_s": 78.3,
+      "origin": "redaktionell",
+      "action": "tunnel/inside: transport",
+      "shot_id": "S030",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V031",
+      "time_s": 81,
+      "origin": "redaktionell",
+      "action": "tunnel/arrival: decapsulate",
+      "shot_id": "S031",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V032",
+      "time_s": 84,
+      "origin": "redaktionell",
+      "action": "topology/overhead: loop",
+      "shot_id": "S032",
+      "event_ids": [
+        "E022"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V033",
+      "time_s": 89.831,
+      "origin": "redaktionell",
+      "action": "topology/chase: loop",
+      "shot_id": "S033",
+      "event_ids": [
+        "E023"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V034",
+      "time_s": 95.5,
+      "origin": "redaktionell",
+      "action": "control/matrix: loop",
+      "shot_id": "S034",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V035",
+      "time_s": 100.5,
+      "origin": "redaktionell",
+      "action": "topology/orbit: loop",
+      "shot_id": "S035",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V036",
+      "time_s": 104.1,
+      "origin": "redaktionell",
+      "action": "topology/overhead: loop",
+      "shot_id": "S036",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V037",
+      "time_s": 106.9,
+      "origin": "redaktionell",
+      "action": "control/root: recover",
+      "shot_id": "S037",
+      "event_ids": [
+        "E024",
+        "E025"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V038",
+      "time_s": 108.591,
+      "origin": "redaktionell",
+      "action": "topology/port: recover",
+      "shot_id": "S038",
+      "event_ids": [
+        "E026"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V039",
+      "time_s": 113,
+      "origin": "redaktionell",
+      "action": "topology/overhead: stp",
+      "shot_id": "S039",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V040",
+      "time_s": 116.4,
+      "origin": "redaktionell",
+      "action": "control/root: stp",
+      "shot_id": "S040",
+      "event_ids": [
+        "E027"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V041",
+      "time_s": 119.42,
+      "origin": "redaktionell",
+      "action": "topology/stack: osi",
+      "shot_id": "S041",
+      "event_ids": [
+        "E028",
+        "E029"
+      ],
+      "lyric_ids": [
+        "L020"
+      ]
+    },
+    {
+      "id": "V042",
+      "time_s": 123.5,
+      "origin": "redaktionell",
+      "action": "topology/orbit: stp",
+      "shot_id": "S042",
+      "event_ids": [],
+      "lyric_ids": [
+        "L020"
+      ]
+    },
+    {
+      "id": "V043",
+      "time_s": 129,
+      "origin": "redaktionell",
+      "action": "topology/stack: osi",
+      "shot_id": "S043",
+      "event_ids": [],
+      "lyric_ids": [
+        "L020"
+      ]
+    },
+    {
+      "id": "V044",
+      "time_s": 133.62,
+      "origin": "redaktionell",
+      "action": "topology/reveal: domain",
+      "shot_id": "S044",
+      "event_ids": [
+        "E031"
+      ],
+      "lyric_ids": [
+        "L021"
+      ]
+    },
+    {
+      "id": "V045",
+      "time_s": 135.781,
+      "origin": "redaktionell",
+      "action": "control/matrix: learning",
+      "shot_id": "S045",
+      "event_ids": [
+        "E032"
+      ],
+      "lyric_ids": [
+        "L021"
+      ]
+    },
+    {
+      "id": "V046",
+      "time_s": 139.5,
+      "origin": "redaktionell",
+      "action": "topology/chase: known",
+      "shot_id": "S046",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V047",
+      "time_s": 142.5,
+      "origin": "redaktionell",
+      "action": "control/matrix: learning",
+      "shot_id": "S047",
+      "event_ids": [
+        "E033"
+      ],
+      "lyric_ids": [
+        "L022"
+      ]
+    },
+    {
+      "id": "V048",
+      "time_s": 144.44,
+      "origin": "redaktionell",
+      "action": "frame/track: wire",
+      "shot_id": "S048",
+      "event_ids": [],
+      "lyric_ids": [
+        "L023"
+      ]
+    },
+    {
+      "id": "V049",
+      "time_s": 146.48,
+      "origin": "redaktionell",
+      "action": "frame/side: tag",
+      "shot_id": "S049",
+      "event_ids": [
+        "E034"
+      ],
+      "lyric_ids": [
+        "L024"
+      ]
+    },
+    {
+      "id": "V050",
+      "time_s": 148.18,
+      "origin": "redaktionell",
+      "action": "topology/overhead: broadcast",
+      "shot_id": "S050",
+      "event_ids": [],
+      "lyric_ids": [
+        "L025"
+      ]
+    },
+    {
+      "id": "V051",
+      "time_s": 150.16,
+      "origin": "redaktionell",
+      "action": "control/root: stp",
+      "shot_id": "S051",
+      "event_ids": [
+        "E035"
+      ],
+      "lyric_ids": [
+        "L026",
+        "L027"
+      ]
+    },
+    {
+      "id": "V052",
+      "time_s": 152.16,
+      "origin": "redaktionell",
+      "action": "topology/port: stp",
+      "shot_id": "S052",
+      "event_ids": [],
+      "lyric_ids": [
+        "L028",
+        "L029"
+      ]
+    },
+    {
+      "id": "V053",
+      "time_s": 154.531,
+      "origin": "redaktionell",
+      "action": "topology/orbit: stp",
+      "shot_id": "S053",
+      "event_ids": [
+        "E036"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V054",
+      "time_s": 157.02,
+      "origin": "redaktionell",
+      "action": "topology/reveal: vlans",
+      "shot_id": "S054",
+      "event_ids": [
+        "E037",
+        "E038"
+      ],
+      "lyric_ids": [
+        "L030",
+        "L031"
+      ]
+    },
+    {
+      "id": "V055",
+      "time_s": 161.08,
+      "origin": "redaktionell",
+      "action": "topology/overhead: vlans",
+      "shot_id": "S055",
+      "event_ids": [],
+      "lyric_ids": [
+        "L032"
+      ]
+    },
+    {
+      "id": "V056",
+      "time_s": 162.88,
+      "origin": "redaktionell",
+      "action": "frame/side: tag",
+      "shot_id": "S056",
+      "event_ids": [],
+      "lyric_ids": [
+        "L033"
+      ]
+    },
+    {
+      "id": "V057",
+      "time_s": 165.92,
+      "origin": "redaktionell",
+      "action": "frame/track: trunk",
+      "shot_id": "S057",
+      "event_ids": [
+        "E039"
+      ],
+      "lyric_ids": [
+        "L034"
+      ]
+    },
+    {
+      "id": "V058",
+      "time_s": 166.72,
+      "origin": "redaktionell",
+      "action": "frame/side: access",
+      "shot_id": "S058",
+      "event_ids": [],
+      "lyric_ids": [
+        "L035"
+      ]
+    },
+    {
+      "id": "V059",
+      "time_s": 167.86,
+      "origin": "redaktionell",
+      "action": "control/matrix: move",
+      "shot_id": "S059",
+      "event_ids": [],
+      "lyric_ids": [
+        "L036"
+      ]
+    },
+    {
+      "id": "V060",
+      "time_s": 168.52,
+      "origin": "redaktionell",
+      "action": "topology/reveal: stp",
+      "shot_id": "S060",
+      "event_ids": [],
+      "lyric_ids": [
+        "L037"
+      ]
+    },
+    {
+      "id": "V061",
+      "time_s": 171.76,
+      "origin": "redaktionell",
+      "action": "control/neighbours: lldp",
+      "shot_id": "S061",
+      "event_ids": [
+        "E040",
+        "E041",
+        "E042"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V062",
+      "time_s": 174.691,
+      "origin": "redaktionell",
+      "action": "topology/port: lldp",
+      "shot_id": "S062",
+      "event_ids": [
+        "E043"
+      ],
+      "lyric_ids": []
+    },
+    {
+      "id": "V063",
+      "time_s": 176.6,
+      "origin": "redaktionell",
+      "action": "control/neighbours: lldp",
+      "shot_id": "S063",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V064",
+      "time_s": 178.5,
+      "origin": "redaktionell",
+      "action": "control/bundle: lacp",
+      "shot_id": "S064",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V065",
+      "time_s": 181.2,
+      "origin": "redaktionell",
+      "action": "topology/bundle: lacp",
+      "shot_id": "S065",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V066",
+      "time_s": 183.7,
+      "origin": "redaktionell",
+      "action": "control/bundle: lacp",
+      "shot_id": "S066",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V067",
+      "time_s": 185.92,
+      "origin": "redaktionell",
+      "action": "topology/bundle: flows",
+      "shot_id": "S067",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V068",
+      "time_s": 189.7,
+      "origin": "redaktionell",
+      "action": "frame/track: flows",
+      "shot_id": "S068",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V069",
+      "time_s": 192,
+      "origin": "redaktionell",
+      "action": "topology/overhead: flows",
+      "shot_id": "S069",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V070",
+      "time_s": 194,
+      "origin": "redaktionell",
+      "action": "frame/side: tag",
+      "shot_id": "S070",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V071",
+      "time_s": 196.8,
+      "origin": "redaktionell",
+      "action": "tunnel/wide: transport",
+      "shot_id": "S071",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V072",
+      "time_s": 199.6,
+      "origin": "redaktionell",
+      "action": "topology/reveal: final",
+      "shot_id": "S072",
+      "event_ids": [],
+      "lyric_ids": []
+    },
+    {
+      "id": "V073",
+      "time_s": 202.341,
+      "origin": "redaktionell",
+      "action": "topology/final: final",
+      "shot_id": "S073",
+      "event_ids": [
+        "E044",
+        "E045",
+        "E046"
+      ],
+      "lyric_ids": []
+    }
+  ],
+  "excluded_as_trigger": [
+    {
+      "id": "E030",
+      "reason": "Abschnittsmarke widerspricht überlappendem automatischem Gesangssegment L020"
+    }
+  ]
+}

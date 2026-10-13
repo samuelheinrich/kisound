@@ -1,0 +1,53 @@
+[Intro]
+Isolate.
+Preserve.
+Contain.
+
+[Verse 1]
+A warehouse PC calls out every sixty seconds flat,
+always the same domain, always the same size, a beacon, that's that.
+Don't shut it down, don't reboot it, the trail is in RAM,
+first a memory image, hash noted, time and date, that's the plan.
+EDR isolation: just the console can still get through,
+ISE quarantines the switch port, and the host is cut off too.
+
+[Chorus]
+Containment.
+Isolate.
+Containment.
+Contain.
+Preserve the trail, then close the door,
+then clean it out, and not before.
+
+[Verse 2]
+On the firewall the domain is blocked, the address denied,
+in the SIEM I search who else called out, two more, isolated, side by side.
+Then eradicate: reimage, reset accounts, passwords new,
+then recover step by step, with monitoring watching through.
+
+[Chorus]
+Containment.
+Isolate.
+Containment.
+Contain.
+Preserve the trail, then close the door,
+then clean it out, and not before.
+
+[Bridge]
+Identify. Contain.
+Eradicate. Recover.
+And no one hits reboot
+till the questions are covered.
+
+[Chorus]
+Containment.
+Isolate.
+Containment.
+Contain.
+Preserve the trail, then close the door,
+then clean it out, and not before.
+
+[Outro]
+Three hosts isolated.
+Evidence preserved.
+Contained.

@@ -1,0 +1,175 @@
+# Arbeitsstand: VIBECODER neu als DE/EN-Entwurf; TOKEN BURN und SHIP IT Deutsch/Englisch final.
+# Finale Sprachvarianten stehen unter tracks.02.release_variants; Album-Sprachfolge noch offen.
+album: Vibecoder
+artist: Samuel Heinrich
+year: 2026
+cover: null
+
+video:
+  width: 1920
+  height: 1080
+  fps: 25
+  loop_seconds: 20
+  zoom_amount: 0.035
+  zoom_period: 10
+  hue_degrees: 10
+  hue_period: 20
+  background_blur: 36
+  background_brightness: -0.08
+  background_saturation: 1.2
+  vignette_amount: 0.06
+  vignette_period: 5
+  crf: 18
+  preset: medium
+  audio_bitrate: 384k
+
+youtube:
+  category_id: "10"
+  # Vorläufig; vor Veröffentlichung an die gewählten Aufnahmen anpassen.
+  default_language: de
+  default_audio_language: de
+  privacy: private
+  made_for_kids: false
+  license: youtube
+  title_template: "{artist} - {title} | {album}"
+  album_title_template: "{artist} - {album} (Gesamtes Album)"
+  description_template: |
+    {theme}
+
+    Stil: {style}
+
+    Aus dem Album "{album}" von {artist} ({year}).
+    Track {track_number} von {track_total}.
+
+    {tracklist}
+
+    {footer}
+  album_description_template: |
+    {album_description}
+
+    Kapitel:
+    {chapters}
+
+    {footer}
+  footer: |
+    Musik und Texte: {artist}
+    Produziert mit KI-gestützter Musikgenerierung.
+    (c) {year} {artist}. Alle Rechte vorbehalten.
+  album_description: >-
+    "Vibecoder" beginnt mit dem neuen Alltag einer Generation von Codern:
+    Ideen werden zu Skripten, eigenen Songs und passenden Apps. Eine nächtliche
+    Session beschleunigt sich. Album drei geht nach Build, Check und Deploy online,
+    und ein Feed füllt sich mit ähnlichen
+    Bildern, Songs und Apps. Ein überprüfter Funktionsaufruf widerspricht
+    einer überzeugenden Antwort. Zum Abschluss treffen gespeicherte
+    Projektgeschichte und begrenzter aktiver Kontext aufeinander.
+    Die Musik führt von dunklem Tech House über Acid Techno und
+    harten Phonk zu fröhlichem Electro House, Dark Trip-Hop und
+    melancholischer Ambient Electronica.
+  common_tags:
+    - electronic
+    - agentic programming
+    - vibe coding
+    - LLM
+    - AI music
+    - Samuel Heinrich
+    - Vibecoder
+  playlist:
+    title: Vibecoder
+    privacy: private
+
+tracks:
+  "01":
+    status: Entwurf (Deutsch und Englisch)
+    prompt_version: "0.1"
+    genre: Peak-Time Tech House / Dark Electro
+    theme: >-
+      Ein Vibecoder der neuen Generation löst Alltagsprobleme mit einem Skript,
+      erzeugt seinen eigenen Sound und lässt eine passende App bauen. Er kennt
+      nicht jede technische Schicht und nimmt die Skepsis der Hardcoder mit Humor.
+    style: >-
+      Peak-Time Tech House und Dark Electro bei angestrebten 132 BPM:
+      rollender synkopierter Bass, harte Kick, sparsame verzerrte Stabs und
+      ein sehr tiefer rauer Männerbass, der den Hook-Ruf im Drop brüllt.
+    tags: ["tech house", "dark electro", "club mix", "rolling bass", "vibe coding", "agentic programming", "new generation", "AI music", "custom apps"]
+  "02":
+    status: Final
+    finalized_on: "2026-10-06"
+    release_variants:
+      de:
+        status: Final
+        prompt: "02_Token_Burn/final/de/02_Token_Burn_1.0.txt"
+        audio: "02_Token_Burn/suno-0.1/de/Token Burn - DE.wav"
+        duration_seconds: 245.933500
+        audio_sha256: "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de"
+      en:
+        status: Final
+        prompt: "02_Token_Burn/final/en/02_Token_Burn_1.0.txt"
+        audio: "02_Token_Burn/suno-0.1/en/Token Burn - EN.wav"
+        duration_seconds: 250.800000
+        audio_sha256: "c1cec711e9be337b18ea64cbf9e16a027207e095e1843ef6a516b404680ba73d"
+    genre: Acid Techno
+    theme: >-
+      Eine nächtliche Entwicklungssession wächst mit jedem Prompt:
+      neue Funktionen, wiederholte Tests, steigende Nutzung und immer spätere Uhrzeiten.
+    style: >-
+      Drängender Acid Techno bei etwa 136 BPM, mit rhythmischem Männergesang,
+      rollendem Bass und rastloser 303-Sequenz.
+    tags: ["acid techno", "tokens", "LLM", "fast development", "night session"]
+  "03":
+    status: Final
+    finalized_on: "2026-10-12"
+    release_variants:
+      de:
+        status: Final
+        prompt: "03_SHIP_IT/final/de/03_SHIP_IT_1.0.txt"
+        audio: "03_SHIP_IT/final/03_SHIP_IT_suno-v3_50_50_exakt_off_DE.wav"
+        duration_seconds: 155.960000
+        audio_sha256: "689d662c3d10ba9bd08c787315635ff4bba6d97f8a5db54343486dd4c7958259"
+      en:
+        status: Final
+        prompt: "03_SHIP_IT/final/en/03_SHIP_IT_1.0.txt"
+        audio: "03_SHIP_IT/final/03_SHIP_IT_suno-v3_50_50_exakt_off_EN.wav"
+        duration_seconds: 120.680000
+        audio_sha256: "fd70e12809ce18389d194a1f3829c98deced25b1c24ade5a24ae81ecf2b05408"
+    genre: Hard Phonk / Industrial Bass
+    theme: >-
+      Album drei geht raus. Der Build steht, doch der Check findet ein fehlendes
+      Cover: ein Unterstrich zu viel im Dateinamen. Nach dem Zurückbenennen meldet
+      derselbe Check null Fehler. Commit, Deploy, ein harter Reload gegen den alten
+      Cache, Deutsch und Englisch geprüft, Link raus, Play – und der nächste Commit
+      wartet schon.
+    style: >-
+      Hard Phonk und Industrial Bass bei 140 BPM: übersteuerte 808 mit Glides,
+      gestottertes Kuhglocken-Motiv, harte Trap-Snare, metallische Industrial-Hits
+      und Tape-Stopps vor den Drops; eine einzige sehr tiefe raue Männerstimme mit
+      gebellter, abgehackter Hook.
+    tags: ["hard phonk", "industrial bass", "808", "release", "deployment", "build", "commit", "ship it", "agentic programming"]
+  "04":
+    genre: Electro House
+    theme: >-
+      Ein Feed zeigt neu verpackte Bilder, Songs und Apps mit ähnlichen
+      Inhalten. Der Erzähler erkennt den eigenen KI-produzierten Song darin wieder.
+    style: >-
+      Fröhlicher Electro House mit French-House-Funk bei etwa 144 BPM,
+      heller weiblicher Stimme, federndem Bass und selbstironischer Hook.
+    tags: ["electro house", "french house", "AI slop", "content feed", "self irony"]
+  "05":
+    genre: Dark Trip-Hop
+    theme: >-
+      Eine überzeugende Antwort behauptet einen Export-Aufruf. Dokumentation,
+      Test und ein fehlender Beleg zeigen, dass er in der geprüften Demo-Version fehlt.
+    style: >-
+      Dark Trip-Hop und Downtempo Electronica bei etwa 108 BPM,
+      mit nahem männlichem Bariton, Pausen und zurückhaltenden Dissonanzen.
+    tags: ["dark trip hop", "downtempo", "hallucination", "verification", "LLM"]
+  "06":
+    genre: Ambient Electronica
+    theme: >-
+      Der vollständige Verlauf bleibt gespeichert, während eine kurze
+      Zusammenfassung einzelne Gestaltungsgründe auslässt. Die erste Skizze
+      hilft, den aktiven Kontext wieder zu ergänzen.
+    style: >-
+      Melancholische Ambient Electronica und sanfter Downtempo bei etwa 88 BPM,
+      mit weiblichem Alt und langem ausklingendem Synth-Outro.
+    tags: ["ambient electronica", "downtempo", "context window", "compaction", "memory", "album closer"]

@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "05_WiFi_Roaming",
+  "title": "WiFi Roaming",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/wifi-roaming.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

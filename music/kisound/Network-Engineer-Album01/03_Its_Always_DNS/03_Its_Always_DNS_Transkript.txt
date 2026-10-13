@@ -1,0 +1,240 @@
+ITS ALWAYS DNS – TRANSKRIPT
+
+Audio: 03_Its_Always_DNS_0.3-2.wav
+Gesamtdauer: 00:04:21.200
+Sprache: Englisch
+Zeitformat: HH:MM:SS.mmm
+Zeitbezug: Start und Ende ab Beginn der WAV-Datei.
+
+[Verse]
+
+010  [00:00:15.080 --> 00:00:18.400]  They call me up, the network is down,
+011  [00:00:20.000 --> 00:00:22.180]  everybody staring at the blinking crown.
+012  [00:00:23.920 --> 00:00:25.860]  Ping is clean and the routes are fine,
+013  [00:00:26.700 --> 00:00:30.580]  but the hostname vanished from the line.
+
+[Pre-Chorus]
+
+017  [00:00:30.580 --> 00:00:32.300]  Check the cable, check the port,
+018  [00:00:32.920 --> 00:00:34.760]  check the firewall report.
+019  [00:00:34.760 --> 00:00:35.640]  Trace complete, no mystery,
+020  [00:00:36.460 --> 00:00:37.760]  then I ask: what about DNS?
+
+[Hook]
+
+024  [00:00:38.680 --> 00:00:39.060]  Dig it up.
+025  [00:00:39.220 --> 00:00:40.060]  TTL.
+026  [00:00:40.520 --> 00:00:40.940]  NXDOMAIN.
+027  [00:00:41.120 --> 00:00:41.580]  Who can tell?
+028  [00:00:42.020 --> 00:00:42.800]  Resolver says no,
+029  [00:00:43.060 --> 00:00:43.520]  cache says yes,
+030  [00:00:43.780 --> 00:00:44.700]  welcome back.
+031  [00:00:44.700 --> 00:00:45.320]  to the DNS mess.
+
+[Chorus]
+
+035  [00:00:48.120 --> 00:00:49.100]  It's always DNS,
+036  [00:00:51.060 --> 00:00:53.620]  not the switch, not the mess.
+037  [00:00:54.280 --> 00:00:57.480]  It's always DNS,
+038  [00:00:57.480 --> 00:00:59.580]  why do we always guess?
+
+[Verse 2]
+
+042  [00:01:08.020 --> 00:01:10.860]  Cache is old, TTL too high,
+043  [00:01:12.100 --> 00:01:15.260]  split brain zones make admins cry.
+044  [00:01:15.680 --> 00:01:18.840]  Forward lookup, reverse pain,
+045  [00:01:19.580 --> 00:01:22.780]  CNAME dancing in the rain.
+
+[Bridge]
+
+049  [00:01:23.400 --> 00:01:24.320]  Flush it.
+050  [00:01:24.320 --> 00:01:24.460]  Query it.
+051  [00:01:25.280 --> 00:01:25.560]  Dig it.
+052  [00:01:26.140 --> 00:01:26.360]  Fix it.
+053  [00:01:27.400 --> 00:01:29.060]  Not the network.
+054  [00:01:29.320 --> 00:01:29.820]  It's DNS.
+
+[Final Hook]
+
+058  [00:01:31.260 --> 00:01:31.720]  Dig it up.
+059  [00:01:32.080 --> 00:01:32.960]  TTL.
+060  [00:01:33.420 --> 00:01:33.780]  NXDOMAIN.
+061  [00:01:34.040 --> 00:01:34.460]  Who can tell?
+062  [00:01:34.720 --> 00:01:35.680]  Resolver says no,
+063  [00:01:35.940 --> 00:01:36.400]  cache says yes,
+064  [00:01:36.640 --> 00:01:37.580]  welcome back.
+065  [00:01:37.580 --> 00:01:38.200]  to the DNS mess.
+
+[Final Chorus]
+
+069  [00:01:48.580 --> 00:01:49.500]  It's always DNS,
+070  [00:01:51.500 --> 00:01:54.620]  from the helpdesk to the stress.
+071  [00:01:54.620 --> 00:01:57.060]  It's always DNS,
+072  [00:01:57.860 --> 00:02:00.420]  close the case, confess.
+
+[Reprise – Hook]
+
+076  [00:03:21.800 --> 00:03:23.200]  Welcome back.
+077  [00:03:23.240 --> 00:03:25.180]  I ask, what about DNS?
+
+[Hook]
+
+081  [00:03:25.200 --> 00:03:25.680]  Dig it up.
+
+[Reprise – Hook]
+
+085  [00:03:25.200 --> 00:03:26.120]  Dig it up.
+
+[Hook]
+
+089  [00:03:26.140 --> 00:03:26.780]  TTL.
+
+[Reprise – Hook]
+
+093  [00:03:26.140 --> 00:03:26.860]  TTL.
+094  [00:03:26.880 --> 00:03:27.800]  NXDOMAIN.
+
+[Hook]
+
+098  [00:03:27.160 --> 00:03:27.500]  NXDOMAIN.
+099  [00:03:27.820 --> 00:03:28.220]  Who can tell?
+
+[Reprise – Hook]
+
+103  [00:03:27.820 --> 00:03:28.540]  Who can tell?
+104  [00:03:28.560 --> 00:03:29.480]  Resolver says no.
+
+[Hook]
+
+108  [00:03:28.940 --> 00:03:29.380]  Resolver says no,
+109  [00:03:29.500 --> 00:03:30.140]  cache says yes,
+
+[Reprise – Hook]
+
+113  [00:03:29.500 --> 00:03:30.620]  Cache says yes.
+
+[Hook]
+
+117  [00:03:30.640 --> 00:03:31.320]  welcome back.
+
+[Reprise – Hook]
+
+121  [00:03:30.640 --> 00:03:33.000]  Welcome back to the DNS mess.
+
+[Hook]
+
+125  [00:03:31.320 --> 00:03:31.980]  to the DNS mess.
+
+[Chorus]
+
+129  [00:03:34.840 --> 00:03:35.780]  It's always DNS,
+
+[Final Chorus]
+
+133  [00:03:34.840 --> 00:03:35.780]  It's always DNS,
+
+[Reprise – Chorus]
+
+137  [00:03:34.840 --> 00:03:37.720]  Final chorus.
+138  [00:03:37.760 --> 00:03:39.620]  Not the switch.
+
+[Chorus]
+
+142  [00:03:37.760 --> 00:03:40.300]  not the switch, not the mess.
+
+[Reprise – Chorus]
+
+146  [00:03:39.660 --> 00:03:42.400]  Not the mess.
+
+[Chorus]
+
+150  [00:03:42.440 --> 00:03:44.060]  It's always DNS,
+
+[Final Chorus]
+
+154  [00:03:42.440 --> 00:03:44.060]  It's always DNS,
+
+[Reprise – Chorus]
+
+158  [00:03:42.440 --> 00:03:45.620]  It's always DNS.
+
+[Chorus]
+
+162  [00:03:45.660 --> 00:03:46.820]  why do we always guess?
+
+[Reprise – Chorus]
+
+166  [00:03:45.660 --> 00:03:49.000]  Why do we always guess?
+
+[Verse 2]
+
+170  [00:03:55.300 --> 00:03:57.700]  Cache is old, TTL too high,
+
+[Reprise – Verse 2]
+
+174  [00:03:55.300 --> 00:03:59.200]  Verse two.
+
+[Verse 2]
+
+178  [00:03:59.260 --> 00:04:02.140]  split brain zones make admins cry.
+
+[Reprise – Verse 2]
+
+182  [00:03:59.260 --> 00:04:02.980]  The answer was in the name.
+
+[Verse 2]
+
+186  [00:04:03.040 --> 00:04:05.640]  Forward lookup, reverse pain,
+
+[Reprise – Verse 2]
+
+190  [00:04:03.040 --> 00:04:06.140]  The answer was in the name.
+191  [00:04:06.200 --> 00:04:10.580]  The answer was in the name.
+
+[Verse 2]
+
+195  [00:04:07.140 --> 00:04:09.820]  CNAME dancing in the rain.
+
+[Bridge]
+
+199  [00:04:10.620 --> 00:04:11.380]  Flush it.
+
+[Reprise – Bridge]
+
+203  [00:04:10.620 --> 00:04:14.900]  Bridge.
+
+[Bridge]
+
+207  [00:04:11.380 --> 00:04:11.580]  Query it.
+208  [00:04:12.120 --> 00:04:12.540]  Dig it.
+209  [00:04:13.000 --> 00:04:13.460]  Fix it.
+210  [00:04:14.720 --> 00:04:16.060]  Not the network.
+211  [00:04:16.560 --> 00:04:16.820]  It's DNS.
+
+[Hook]
+
+215  [00:04:18.200 --> 00:04:18.780]  Dig it up.
+
+[Final Hook]
+
+219  [00:04:18.200 --> 00:04:18.780]  Dig it up.
+
+[Reprise – Final Hook]
+
+223  [00:04:18.200 --> 00:04:20.840]  DNS.
+
+[Hook]
+
+227  [00:04:19.240 --> 00:04:19.920]  TTL.
+
+[Final Hook]
+
+231  [00:04:19.240 --> 00:04:19.920]  TTL.
+
+[Hook]
+
+235  [00:04:20.360 --> 00:04:20.840]  NXDOMAIN.
+
+[Final Hook]
+
+239  [00:04:20.360 --> 00:04:20.840]  NXDOMAIN.

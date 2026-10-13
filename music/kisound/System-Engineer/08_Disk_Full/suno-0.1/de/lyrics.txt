@@ -1,0 +1,56 @@
+[Intro]
+No space left on device.
+Drei Uhr nachts.
+
+[Verse 1]
+Das Monitoring weckt mich: /var bei hundert Prozent,
+die Datenbank steht still, der Webdienst pennt.
+df -h bestätigt es, kein Byte ist mehr frei,
+du -sh, sortiert nach Grösse, das App-Log liegt ganz vorn dabei.
+Vierzig Gigabyte Debug-Log, seit dem Update im März,
+jemand stellte Debug ein und vergass es, ohne Schmerz.
+
+[Chorus]
+Disk Full.
+Hundert Prozent.
+Disk Full.
+No space left on device, und alles hängt.
+Ich lösch die Datei, und nichts passiert,
+df zeigt hundert, als hätt ich nichts probiert.
+
+[Verse 2]
+rm auf das Log, doch der Platz bleibt weg,
+der Prozess hält die Datei noch offen, gelöscht, doch nicht vom Fleck.
+lsof +L1 zeigt es: deleted, aber offen,
+der Dienst schreibt weiter rein, ich hab zu früh gehofft.
+Ich starte den Dienst neu, der Handle geht zu, der Platz ist frei,
+siebzig Prozent, die Datenbank läuft, der Webdienst ist dabei.
+Dann logrotate richtig: täglich, sieben Tage, komprimiert,
+Loglevel zurück auf Info, und Alarm bei achtzig, damit's nicht nachts eskaliert.
+
+[Chorus]
+Disk Full.
+Hundert Prozent.
+Disk Full.
+No space left on device, und alles hängt.
+Ich lösch die Datei, und nichts passiert,
+df zeigt hundert, als hätt ich nichts probiert.
+
+[Bridge]
+Lösch nicht, was noch offen ist,
+kürz es auf null, wenn du musst.
+Ein Doppelpunkt, ein Pfeil, ein Name,
+und der Platz kommt ohne Frust.
+
+[Chorus]
+Disk Full.
+Hundert Prozent.
+Disk Full.
+No space left on device, und alles hängt.
+Ich lösch die Datei, und nichts passiert,
+df zeigt hundert, als hätt ich nichts probiert.
+
+[Outro]
+Siebzig Prozent.
+Drei Uhr vierzig.
+Zurück ins Bett.

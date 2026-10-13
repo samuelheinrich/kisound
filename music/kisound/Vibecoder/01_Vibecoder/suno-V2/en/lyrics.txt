@@ -1,0 +1,62 @@
+[Intro]
+If it doesn't exist,
+I'll build it myself.
+
+[Verse 1]
+A Pi with a camera, two servos and a model to run,
+it spots a bird, the laser dot moves, and the bird is gone.
+A floor plan in a PDF becomes a 3D space,
+I walk the halls and spot the dead zones, place by place.
+A game in Babylon, the mesh from Blender lies on its side,
+I fix the up-axis once, and now it's standing upright.
+A Mac app for transfers, 'cause the store had nothing right,
+drag and drop, a progress bar, and the upload's done tonight.
+
+[Pre-Chorus]
+No store. No subscription. No queue.
+One prompt, one prototype, and it's through.
+
+[Chorus]
+Vibecoder. Build it yourself.
+Write down what's missing, then run.
+Vibecoder. Build it yourself.
+One prompt, one build, and it's done.
+No plan on paper, no waiting on the store,
+tonight the prototype runs, tomorrow there's more.
+
+[Verse 2]
+I bring the idea and the things it has to do,
+the agent drafts it fast, I test it through and through.
+An error in the shell, I paste it line by line,
+and if it worked before, I ask what changed this time.
+The diff shows one changed line, I roll it back and run,
+the bar goes up to a hundred, and the bug is gone.
+Function, use and look, they all have to fit,
+a pretty button doing nothing? I'm not shipping it.
+
+[Chorus]
+Vibecoder. Build it yourself.
+Write down what's missing, then run.
+Vibecoder. Build it yourself.
+One prompt, one build, and it's done.
+No plan on paper, no waiting on the store,
+tonight the prototype runs, tomorrow there's more.
+
+[Bridge]
+A hardcoder asks: "Do you know what's going on inside?"
+"Not every line," I say, "but I can see if it runs right."
+Twenty years of packets, logs and captures in my sight,
+I know how to hunt a fault, step by step, all night.
+
+[Chorus]
+Vibecoder. Build it yourself.
+Write down what's missing, then run.
+Vibecoder. Build it yourself.
+One prompt, one build, and it's done.
+No plan on paper, no waiting on the store,
+tonight the prototype runs, tomorrow there's more.
+
+[Outro]
+If it doesn't exist,
+I build it myself.
+Tonight.

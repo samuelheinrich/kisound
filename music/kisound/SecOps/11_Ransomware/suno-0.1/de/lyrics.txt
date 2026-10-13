@@ -1,0 +1,54 @@
+[Intro]
+Alle Ihre Dateien wurden verschlüsselt.
+Lesen Sie die Datei README.
+
+[Verse 1]
+Freitag, achtzehn Uhr vierzig, ein Anruf vom Lager: „Die Dateien gehen nicht auf.“
+Jede Datei endet auf .locked, in jedem Ordner eine Notiz obendrauf.
+Der Fileserver läuft heiss, tausend Änderungen pro Sekunde,
+ein Prozess schreibt, verschlüsselt, benennt um, Runde um Runde.
+Shares trennen, Server vom Netz, das Konto sperren, das schreibt,
+der SOC zieht den Port am Switch, bevor es weiter treibt.
+
+[Chorus]
+Ransomware.
+Alles verschlüsselt. Alles still.
+Ransomware.
+Wir zahlen nicht, egal, was die Notiz will.
+Isolieren. Prüfen. Wiederherstellen.
+Und uns der Nacht entgegenstellen.
+
+[Verse 2]
+Der Backup-Server: auch verschlüsselt, er hing an der Domäne dran,
+mit denselben Admin-Rechten kam der Angreifer auch dort ran.
+Doch das Band im Tresor, von Mittwoch, offline und kalt,
+und die unveränderbare Kopie, an die keiner herankam. Sie hält.
+Wir bauen neu, sauber, Server für Server, das ganze Wochenende lang,
+und Montag früh geht im Lager die erste Datei auf, und alles kommt in Gang.
+
+[Chorus]
+Ransomware.
+Alles verschlüsselt. Alles still.
+Ransomware.
+Wir zahlen nicht, egal, was die Notiz will.
+Isolieren. Prüfen. Wiederherstellen.
+Und uns der Nacht entgegenstellen.
+
+[Bridge]
+Das Netz in Zonen,
+das Backup ausser Reichweite,
+die Admin-Konten getrennt,
+das ist die Lehre, die bleibt.
+
+[Chorus]
+Ransomware.
+Alles verschlüsselt. Alles still.
+Ransomware.
+Wir zahlen nicht, egal, was die Notiz will.
+Isolieren. Prüfen. Wiederherstellen.
+Und uns der Nacht entgegenstellen.
+
+[Outro]
+Montag, sieben Uhr.
+Dateien wiederhergestellt.
+Keine Zahlung.

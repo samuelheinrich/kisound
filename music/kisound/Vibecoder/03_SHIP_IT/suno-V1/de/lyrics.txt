@@ -1,0 +1,57 @@
+[Intro]
+GIT IT. SHIP IT.
+Version eins null null.
+
+[Verse 1]
+Tag gesetzt, v1.0.0, der Build ist durch,
+Xcode archiviert, kein Umweg und kein Murks.
+Developer ID, ich signier das Bundle sauber,
+notarytool submit, und ich warte. Kein Zauber.
+Status: Invalid. Ich zieh das Log als JSON raus,
+Hardened Runtime fehlt. Ich schalt sie ein und bau neu auf.
+
+[Chorus]
+GIT IT. SHIP IT.
+Sign it. Notarize.
+GIT IT. SHIP IT.
+Staple. Release.
+Gatekeeper sagt: Accepted.
+Doppelklick. Sie läuft. Geschafft.
+
+[Verse 2]
+Neu signiert, neu hochgeladen, ich starr auf den Status,
+die Zeile springt auf Accepted. Kein Fehler, kein Chaos.
+Mit stapler heft ich das Ticket an die App,
+pack sie ins DMG, lad sie hoch. Link raus. Zack.
+Ein Kollege lädt sie runter auf den eigenen Mac,
+zieht sie in Programme, Doppelklick. Sie läuft. Kein Hack.
+
+[Chorus]
+GIT IT. SHIP IT.
+Sign it. Notarize.
+GIT IT. SHIP IT.
+Staple. Release.
+Gatekeeper sagt: Accepted.
+Doppelklick. Sie läuft. Geschafft.
+
+[Bridge]
+Archive.
+Sign.
+Notarize.
+Staple.
+Kein Rechtsklick-Öffnen.
+Kein Umweg.
+Kein Workaround.
+Release.
+
+[Chorus]
+GIT IT. SHIP IT.
+Sign it. Notarize.
+GIT IT. SHIP IT.
+Staple. Release.
+Gatekeeper sagt: Accepted.
+Doppelklick. Sie läuft. Geschafft.
+
+[Outro]
+GIT IT. SHIP IT.
+Version eins null eins.

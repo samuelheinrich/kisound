@@ -1,0 +1,631 @@
+{
+  "title": "On Call",
+  "source_audio": "01_On_Call_1.0.wav",
+  "source_audio_sha256": "6d10bbfdf8af4a390e4e12e9775a93b1bea7f2838d68f7bd75046ca0a290bcd1",
+  "duration_seconds": 216.7735,
+  "languages": [
+    "de",
+    "en"
+  ],
+  "time_origin": "Beginn der unveränderten WAV-Datei bei 0 Sekunden",
+  "timing_source": "Lokaler ASR-Wortabgleich mit whisper-large-v3 und whisper-large-v3-turbo; zusätzliche ASR-Ausschnitte bei schwierigen Stellen; keine manuelle Hörprüfung",
+  "text_source": "Akustisch zugeordnete Zeilen aus dem beibehaltenen Lyric-Prompt; zusätzliche erkannte Wiederholungen und abweichende Kurzzeilen aus dem ASR-Modellvergleich",
+  "review_status": "Automatisch erstellt; Hörprüfung offener Text- und Zeitkonflikte aus TRANSKRIPT-PRUEFUNG.md steht aus.",
+  "sections": [
+    {
+      "title": "Intro",
+      "first_vocal_start": 16.58,
+      "last_vocal_end": 30.02
+    },
+    {
+      "title": "Verse 1",
+      "first_vocal_start": 44.56,
+      "last_vocal_end": 72.42
+    },
+    {
+      "title": "Pre-Chorus",
+      "first_vocal_start": 75.4,
+      "last_vocal_end": 87.86
+    },
+    {
+      "title": "Chorus",
+      "first_vocal_start": 89.32,
+      "last_vocal_end": 116.98
+    },
+    {
+      "title": "Verse 2",
+      "first_vocal_start": 120.12,
+      "last_vocal_end": 135.0
+    },
+    {
+      "title": "Bridge",
+      "first_vocal_start": 135.68,
+      "last_vocal_end": 150.14
+    },
+    {
+      "title": "Final Chorus",
+      "first_vocal_start": 153.52,
+      "last_vocal_end": 181.16
+    },
+    {
+      "title": "Outro",
+      "first_vocal_start": 184.28,
+      "last_vocal_end": 199.04
+    }
+  ],
+  "segments": [
+    {
+      "start": 16.58,
+      "end": 18.32,
+      "start_timecode": "00:00:16.580",
+      "end_timecode": "00:00:18.320",
+      "text": "Display wird hell.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 1
+    },
+    {
+      "start": 18.54,
+      "end": 22.4,
+      "start_timecode": "00:00:18.540",
+      "end_timecode": "00:00:22.400",
+      "text": "Die Stadt schläft weiter.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 2
+    },
+    {
+      "start": 22.62,
+      "end": 25.58,
+      "start_timecode": "00:00:22.620",
+      "end_timecode": "00:00:25.580",
+      "text": "Ein Name auf dem Screen.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 3
+    },
+    {
+      "start": 28.14,
+      "end": 30.02,
+      "start_timecode": "00:00:28.140",
+      "end_timecode": "00:00:30.020",
+      "text": "Ich bin erreichbar.",
+      "section": "Intro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 4
+    },
+    {
+      "start": 44.56,
+      "end": 47.16,
+      "start_timecode": "00:00:44.560",
+      "end_timecode": "00:00:47.160",
+      "text": "Das Telefon tanzt auf dem Holz,",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 5
+    },
+    {
+      "start": 48.56,
+      "end": 51.0,
+      "start_timecode": "00:00:48.560",
+      "end_timecode": "00:00:51.000",
+      "text": "der Kaffee von gestern ist kalt.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 6
+    },
+    {
+      "start": 52.28,
+      "end": 54.64,
+      "start_timecode": "00:00:52.280",
+      "end_timecode": "00:00:54.640",
+      "text": "Im Ticket steht: «Alles ist weg»,",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 7
+    },
+    {
+      "start": 55.58,
+      "end": 58.7,
+      "start_timecode": "00:00:55.580",
+      "end_timecode": "00:00:58.700",
+      "text": "kein Standort, kein Fehler, kein Halt.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 8
+    },
+    {
+      "start": 58.7,
+      "end": 62.68,
+      "start_timecode": "00:00:58.700",
+      "end_timecode": "00:01:02.680",
+      "text": "Ich frag: Seit wann? Ich frag: Für wen?",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 9
+    },
+    {
+      "start": 62.68,
+      "end": 66.16,
+      "start_timecode": "00:01:02.680",
+      "end_timecode": "00:01:06.160",
+      "text": "Ein Screenshot ersetzt keinen Test.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 10
+    },
+    {
+      "start": 66.16,
+      "end": 69.2,
+      "start_timecode": "00:01:06.160",
+      "end_timecode": "00:01:09.200",
+      "text": "Drei Dienste rot, ein vierter grün,",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 11
+    },
+    {
+      "start": 69.2,
+      "end": 72.42,
+      "start_timecode": "00:01:09.200",
+      "end_timecode": "00:01:12.420",
+      "text": "ich suche den Punkt, der sie verbindet.",
+      "section": "Verse 1",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 12
+    },
+    {
+      "start": 75.4,
+      "end": 77.76,
+      "start_timecode": "00:01:15.400",
+      "end_timecode": "00:01:17.760",
+      "text": "Nicht lauter werden.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 13
+    },
+    {
+      "start": 78.42,
+      "end": 81.42,
+      "start_timecode": "00:01:18.420",
+      "end_timecode": "00:01:21.420",
+      "text": "Genauer fragen.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 14
+    },
+    {
+      "start": 81.42,
+      "end": 84.66,
+      "start_timecode": "00:01:21.420",
+      "end_timecode": "00:01:24.660",
+      "text": "Bevor ich etwas ändere,",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 15
+    },
+    {
+      "start": 84.78,
+      "end": 87.86,
+      "start_timecode": "00:01:24.780",
+      "end_timecode": "00:01:27.860",
+      "text": "will ich den Fehler sehen.",
+      "section": "Pre-Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 16
+    },
+    {
+      "start": 89.32,
+      "end": 90.86,
+      "start_timecode": "00:01:29.320",
+      "end_timecode": "00:01:30.860",
+      "text": "On Call.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 17
+    },
+    {
+      "start": 91.16,
+      "end": 94.5,
+      "start_timecode": "00:01:31.160",
+      "end_timecode": "00:01:34.500",
+      "text": "Display wird hell.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 18
+    },
+    {
+      "start": 95.92,
+      "end": 98.76,
+      "start_timecode": "00:01:35.920",
+      "end_timecode": "00:01:38.760",
+      "text": "Die Stadt schläft weiter,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 19
+    },
+    {
+      "start": 99.18,
+      "end": 101.78,
+      "start_timecode": "00:01:39.180",
+      "end_timecode": "00:01:41.780",
+      "text": "ich folg dem Signal.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 20
+    },
+    {
+      "start": 101.78,
+      "end": 105.92,
+      "start_timecode": "00:01:41.780",
+      "end_timecode": "00:01:45.920",
+      "text": "On Call.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 21
+    },
+    {
+      "start": 106.32,
+      "end": 109.82,
+      "start_timecode": "00:01:46.320",
+      "end_timecode": "00:01:49.820",
+      "text": "Noch keine Antwort.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 22
+    },
+    {
+      "start": 111.92,
+      "end": 113.48,
+      "start_timecode": "00:01:51.920",
+      "end_timecode": "00:01:53.480",
+      "text": "Doch ich bleib dran,",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 23
+    },
+    {
+      "start": 113.74,
+      "end": 116.98,
+      "start_timecode": "00:01:53.740",
+      "end_timecode": "00:01:56.980",
+      "text": "bis ich die Ursache hab.",
+      "section": "Chorus",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 24
+    },
+    {
+      "start": 120.12,
+      "end": 122.26,
+      "start_timecode": "00:02:00.120",
+      "end_timecode": "00:02:02.260",
+      "text": "Die Route steht, der Link ist da,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 25
+    },
+    {
+      "start": 122.38,
+      "end": 124.14,
+      "start_timecode": "00:02:02.380",
+      "end_timecode": "00:02:04.140",
+      "text": "der erste Test geht sauber durch.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 26
+    },
+    {
+      "start": 124.14,
+      "end": 126.12,
+      "start_timecode": "00:02:04.140",
+      "end_timecode": "00:02:06.120",
+      "text": "Am nächsten Hop verstummt der Flow,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 27
+    },
+    {
+      "start": 126.2,
+      "end": 128.0,
+      "start_timecode": "00:02:06.200",
+      "end_timecode": "00:02:08.000",
+      "text": "ich zieh die Spur durch jeden Sprung.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 28
+    },
+    {
+      "start": 128.0,
+      "end": 129.8,
+      "start_timecode": "00:02:08.000",
+      "end_timecode": "00:02:09.800",
+      "text": "Ein Change von heute, frisch im Log,",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 29
+    },
+    {
+      "start": 129.94,
+      "end": 131.7,
+      "start_timecode": "00:02:09.940",
+      "end_timecode": "00:02:11.700",
+      "text": "ein Counter steigt am falschen Port.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 30
+    },
+    {
+      "start": 131.78,
+      "end": 133.2,
+      "start_timecode": "00:02:11.780",
+      "end_timecode": "00:02:13.200",
+      "text": "Kein Neustart auf Verdacht,",
+      "section": "Verse 2",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 31
+    },
+    {
+      "start": 133.22,
+      "end": 135.0,
+      "start_timecode": "00:02:13.220",
+      "end_timecode": "00:02:15.000",
+      "text": "ich grenze ein und prüfe dort.",
+      "section": "Verse 2",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 32
+    },
+    {
+      "start": 135.68,
+      "end": 137.26,
+      "start_timecode": "00:02:15.680",
+      "end_timecode": "00:02:17.260",
+      "text": "Da ist der Unterschied.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 33
+    },
+    {
+      "start": 137.64,
+      "end": 139.4,
+      "start_timecode": "00:02:17.640",
+      "end_timecode": "00:02:19.400",
+      "text": "Da fängt die Spur an.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 34
+    },
+    {
+      "start": 139.4,
+      "end": 140.9,
+      "start_timecode": "00:02:19.400",
+      "end_timecode": "00:02:20.900",
+      "text": "Ein Test bestätigt,",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 35
+    },
+    {
+      "start": 140.9,
+      "end": 143.02,
+      "start_timecode": "00:02:20.900",
+      "end_timecode": "00:02:23.020",
+      "text": "was das Ticket nicht sagen kann.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 36
+    },
+    {
+      "start": 143.02,
+      "end": 145.16,
+      "start_timecode": "00:02:23.020",
+      "end_timecode": "00:02:25.160",
+      "text": "Die Hand liegt auf der Taste.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 37
+    },
+    {
+      "start": 145.22,
+      "end": 146.82,
+      "start_timecode": "00:02:25.220",
+      "end_timecode": "00:02:26.820",
+      "text": "Der nächste Schritt steht fest.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 38
+    },
+    {
+      "start": 146.82,
+      "end": 148.76,
+      "start_timecode": "00:02:26.820",
+      "end_timecode": "00:02:28.760",
+      "text": "Erst verstehen, dann verändern.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 39
+    },
+    {
+      "start": 148.78,
+      "end": 150.14,
+      "start_timecode": "00:02:28.780",
+      "end_timecode": "00:02:30.140",
+      "text": "Dann derselbe Test.",
+      "section": "Bridge",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 40
+    },
+    {
+      "start": 153.52,
+      "end": 154.7,
+      "start_timecode": "00:02:33.520",
+      "end_timecode": "00:02:34.700",
+      "text": "On Call.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 41
+    },
+    {
+      "start": 156.8,
+      "end": 158.34,
+      "start_timecode": "00:02:36.800",
+      "end_timecode": "00:02:38.340",
+      "text": "Display wird hell.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 42
+    },
+    {
+      "start": 160.2,
+      "end": 162.56,
+      "start_timecode": "00:02:40.200",
+      "end_timecode": "00:02:42.560",
+      "text": "Die Stadt schläft weiter,",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 43
+    },
+    {
+      "start": 163.98,
+      "end": 165.58,
+      "start_timecode": "00:02:43.980",
+      "end_timecode": "00:02:45.580",
+      "text": "ich folg dem Signal.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 44
+    },
+    {
+      "start": 169.88,
+      "end": 170.84,
+      "start_timecode": "00:02:49.880",
+      "end_timecode": "00:02:50.840",
+      "text": "On Call.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 45
+    },
+    {
+      "start": 171.66,
+      "end": 173.74,
+      "start_timecode": "00:02:51.660",
+      "end_timecode": "00:02:53.740",
+      "text": "Jetzt hat der Fehler einen Namen.",
+      "section": "Final Chorus",
+      "timing_model": "turbo",
+      "review_required": false,
+      "id": 46
+    },
+    {
+      "start": 175.02,
+      "end": 177.44,
+      "start_timecode": "00:02:55.020",
+      "end_timecode": "00:02:57.440",
+      "text": "Ich halte die Spur,",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 47
+    },
+    {
+      "start": 177.46,
+      "end": 181.16,
+      "start_timecode": "00:02:57.460",
+      "end_timecode": "00:03:01.160",
+      "text": "bis der Service wieder läuft.",
+      "section": "Final Chorus",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 48
+    },
+    {
+      "start": 184.28,
+      "end": 187.46,
+      "start_timecode": "00:03:04.280",
+      "end_timecode": "00:03:07.460",
+      "text": "Kein Applaus im leeren Zimmer.",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 49
+    },
+    {
+      "start": 187.46,
+      "end": 191.52,
+      "start_timecode": "00:03:07.460",
+      "end_timecode": "00:03:11.520",
+      "text": "Nur ein Ticket, das sich schliesst.",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": false,
+      "id": 50
+    },
+    {
+      "text": "Display wird dunkel.",
+      "start": 192.56,
+      "end": 194.16,
+      "section": "Outro",
+      "timing_model": "ASR-Modellvergleich",
+      "review_required": true,
+      "review_note": "Large-v3 erkennt «Das Blatt ist dunkel», Turbo und Ausschnitt «Das bleibt dunkel». Zeit aus den Large-v3-Wörtern; Schreibweise aus dem Prompt. Wortlaut bleibt zur Hörprüfung offen.",
+      "id": 51,
+      "start_timecode": "00:03:12.560",
+      "end_timecode": "00:03:14.160"
+    },
+    {
+      "start": 195.84,
+      "end": 199.04,
+      "start_timecode": "00:03:15.840",
+      "end_timecode": "00:03:19.040",
+      "text": "Die Stadt weiss nichts davon.",
+      "section": "Outro",
+      "timing_model": "large",
+      "review_required": true,
+      "id": 52
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[Intro]
+You say: That's the command.
+The switch says: No.
+
+[Verse 1]
+I ask you for the line to configure the port,
+you answer right away, the syntax neat and short.
+Indented clean, like straight out of the guide,
+I paste it in the terminal and give it a try.
+Enter. Underneath the third word, a little caret sign:
+Invalid input detected. I read it twice, line by line.
+
+[Chorus]
+Hallucination.
+Invalid input detected.
+Hallucination.
+You sounded sure. The switch rejected it.
+I type a question mark instead,
+the switch lists what exists, not what you said.
+
+[Verse 2]
+You apologize politely, with something new to say,
+a second command, just as sure, in the very same way.
+Enter. Caret. Rejected. Once again the same,
+I open the command reference and look up the real name.
+For this exact release, this platform and this train,
+the right command is there, and the form is not the same.
+
+[Chorus]
+Hallucination.
+Invalid input detected.
+Hallucination.
+You sounded sure. The switch rejected it.
+I type a question mark instead,
+the switch lists what exists, not what you said.
+
+[Bridge]
+Twenty years at the console taught me this:
+what sounds right isn't proof, and confidence is not a fix.
+show running-config. I read it, line by line.
+Once the line shows up in there, then I know it's fine.
+
+[Chorus]
+Hallucination.
+Invalid input detected.
+Hallucination.
+You sounded sure. The switch rejected it.
+I type a question mark instead,
+the switch lists what exists, not what you said.
+
+[Outro]
+A question mark.
+The switch tells me what's true.

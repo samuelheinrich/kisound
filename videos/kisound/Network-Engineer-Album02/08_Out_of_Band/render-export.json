@@ -1,0 +1,9 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "08_Out_of_Band",
+  "title": "Out of Band",
+  "artist": "Samuel Heinrich",
+  "audio": "assets/audio/out-of-band.wav",
+  "timelineModule": "src/render/config.js",
+  "renderer": "src/render/render.mjs"
+}

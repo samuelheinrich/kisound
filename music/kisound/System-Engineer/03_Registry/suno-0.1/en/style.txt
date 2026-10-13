@@ -1,0 +1,8 @@
+Genre: Robotic Electro / Detroit Electro, maschinell und funky, kein Techno.
+Tempo: 128 BPM
+Sound: Synkopierter 808-Electro-Beat, knurrender Analogbass im Funk-Muster, tiefer Sub, kalte Arpeggios wie ein aufklappender Verzeichnisbaum, Mausklicks und Fensterklänge als Percussion, Vocoder nur auf dem Hook-Ruf, kurze Glitches bei jedem Tippfehler.
+Vocals: Männliche Stimme, trocken, präzise, halb gesprochen; Hook als maschineller Chant mit leichtem Vocoder; Bridge als Stakkato der Registry-Begriffe.
+Vibe: Tief im System, Präzisionsarbeit bei Nacht.
+Mood: Konzentriert, cool, leicht ironisch.
+Ablauf: Intro mit Klick und UAC-Satz; nach jedem Refrain acht Takte Electro-Break; Bridge nur Bass und Clap; Schlussrefrain voll. Ziel 3:25.
+Hinweise: Gesang auf Englisch; HKEY als „H-Key“, regedit als „reg-edit“, DWORD als „D-Word“, REG_SZ als „Reg S-Z“. Abschnittsnamen und Klammeranweisungen nicht singen. Keine bekannten Melodie- oder Song-Referenzen.

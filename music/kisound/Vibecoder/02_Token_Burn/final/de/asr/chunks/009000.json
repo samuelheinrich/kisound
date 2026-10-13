@@ -1,0 +1,249 @@
+{
+  "source_audio_sha256": "966d9277add83aae86221f708dc00efd286b8b83c8e2afa1739847613781c9de",
+  "frame": 9000,
+  "next_frame": 12000,
+  "segments": [
+    {
+      "start": 90.0,
+      "end": 100.96000000000001,
+      "text": "Der nächsten Stand hier seh'n, ein Takt geht zu, zwei kommen rein, nur dieser eine muss man sein.",
+      "words": [
+        {
+          "word": "Der",
+          "start": 90.0,
+          "end": 90.42
+        },
+        {
+          "word": "nächsten",
+          "start": 90.42,
+          "end": 91.12
+        },
+        {
+          "word": "Stand",
+          "start": 91.12,
+          "end": 91.56
+        },
+        {
+          "word": "hier",
+          "start": 91.56,
+          "end": 91.94
+        },
+        {
+          "word": "seh",
+          "start": 91.94,
+          "end": 92.42
+        },
+        {
+          "word": "'n",
+          "start": 92.42,
+          "end": 92.44
+        },
+        {
+          "word": ",",
+          "start": 92.44,
+          "end": 92.8
+        },
+        {
+          "word": "ein",
+          "start": 92.8,
+          "end": 92.92
+        },
+        {
+          "word": "Takt",
+          "start": 92.92,
+          "end": 93.46
+        },
+        {
+          "word": "geht",
+          "start": 93.46,
+          "end": 93.84
+        },
+        {
+          "word": "zu",
+          "start": 93.84,
+          "end": 94.22
+        },
+        {
+          "word": ",",
+          "start": 94.22,
+          "end": 94.5
+        },
+        {
+          "word": "zwei",
+          "start": 94.5,
+          "end": 94.92
+        },
+        {
+          "word": "kommen",
+          "start": 94.92,
+          "end": 95.56
+        },
+        {
+          "word": "rein",
+          "start": 95.56,
+          "end": 96.1
+        },
+        {
+          "word": ",",
+          "start": 96.1,
+          "end": 96.3
+        },
+        {
+          "word": "nur",
+          "start": 96.3,
+          "end": 96.78
+        },
+        {
+          "word": "dieser",
+          "start": 96.78,
+          "end": 97.6
+        },
+        {
+          "word": "eine",
+          "start": 97.6,
+          "end": 100.06
+        },
+        {
+          "word": "muss",
+          "start": 100.06,
+          "end": 100.34
+        },
+        {
+          "word": "man",
+          "start": 100.34,
+          "end": 100.82
+        },
+        {
+          "word": "sein",
+          "start": 100.82,
+          "end": 101.36
+        },
+        {
+          "word": ".",
+          "start": 101.36,
+          "end": 101.86
+        }
+      ],
+      "tokens": [
+        50365,
+        5618,
+        19101,
+        9133,
+        3296,
+        369,
+        71,
+        6,
+        77,
+        11,
+        1343,
+        314,
+        5886,
+        7095,
+        2164,
+        11,
+        12002,
+        11729,
+        6561,
+        11,
+        4343,
+        9053,
+        3018,
+        6425,
+        587,
+        6195,
+        13,
+        50913,
+        51592
+      ]
+    },
+    {
+      "start": 100.96000000000001,
+      "end": 117.96000000000001,
+      "text": "Die Uhrzeit bleibt, der Raum bleibt klein",
+      "words": [
+        {
+          "word": "Die",
+          "start": 115.26,
+          "end": 115.48
+        },
+        {
+          "word": "Uhrzeit",
+          "start": 115.48,
+          "end": 116.08
+        },
+        {
+          "word": "bleibt",
+          "start": 116.08,
+          "end": 116.76
+        },
+        {
+          "word": ",",
+          "start": 116.76,
+          "end": 117.06
+        },
+        {
+          "word": "der",
+          "start": 117.06,
+          "end": 117.3
+        },
+        {
+          "word": "Raum",
+          "start": 117.3,
+          "end": 117.48
+        },
+        {
+          "word": "bleibt",
+          "start": 117.48,
+          "end": 117.84
+        },
+        {
+          "word": "klein",
+          "start": 117.84,
+          "end": 118.54
+        }
+      ],
+      "tokens": [
+        50365,
+        3229,
+        30084,
+        13712,
+        24814,
+        11,
+        1163,
+        31359,
+        24814,
+        29231,
+        51215
+      ]
+    },
+    {
+      "start": 117.96000000000001,
+      "end": 119.6,
+      "text": "Auf meinem Screen",
+      "words": [
+        {
+          "word": "Auf",
+          "start": 118.78,
+          "end": 119.0
+        },
+        {
+          "word": "meinem",
+          "start": 119.0,
+          "end": 119.52
+        },
+        {
+          "word": "Screen",
+          "start": 119.52,
+          "end": 119.98
+        }
+      ],
+      "tokens": [
+        51215,
+        9462,
+        24171,
+        25823,
+        51297
+      ]
+    }
+  ]
+}
