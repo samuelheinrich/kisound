@@ -33,8 +33,9 @@ Der Build meldete zwei inhaltliche Hinweise: Im Vibecoder-`album.yml` fehlt ein
 Albumcover; im Impressum ist keine Postadresse konfiguriert. Dafür wurden keine
 Web-Quellen geändert. Ein Live-Deploy wurde nicht ausgeführt.
 
-## Noch offen
+## Session-Migration
 
 Die Claude-/Codex-Session-Migration und das Wiederöffnen älterer Sessions sind
-separat gemäss [Review-Rückmeldung](web-review-and-session-migration.md) zu
-prüfen. Dafür müssen alle schreibenden KISOUND-Sessions zuvor beendet sein.
+separat im [Migrationsbericht](session-migration-result.md) dokumentiert. Die
+aktuell laufende Codex-Sitzung wurde am Monorepo-Root wiederaufgenommen; ihre
+früheren Kontext-Einträge bleiben als Verlauf erhalten.

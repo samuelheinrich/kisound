@@ -6,7 +6,8 @@ Die [Review-Rückmeldung](web-review-and-session-migration.md) bestätigt das
 Vorbereitungen sowie die Claude-/Codex-Session-Migration. Der
 [Build- und Prüfbericht](web-build-result.md) dokumentiert den erfolgreichen
 Import und lokalen Check, die der Web-Build-Agent abgenommen hat. Die
-Session-Migration bleibt ein separater Schritt.
+Session-Migration wurde separat durchgeführt und im
+[Migrationsbericht](session-migration-result.md) geprüft.
 
 ## Vorgesehener Import
 
