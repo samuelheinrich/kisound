@@ -8,6 +8,7 @@ Musikbereich, der Code erzeugt nur das Bild. Die Technik stammt aus einem fruehe
 
 | Ordner | Video |
 |---|---|
+| [`Vibecoder/01_Vibecoder/`](Vibecoder/01_Vibecoder/README.md) | Codefilm „Der sichtbare Weg“ in DE und EN; 72 Einstellungen je Fassung, lokale Browservorschau geprüft, MP4 und Website-Eintrag offen |
 | `Network-Engineer-Album02/02-trustsec/` | Bestehende historische Umsetzung „Cisco TrustSec“ (aktuell Track 03; 4:48, 60 fps) |
 | [`Network-Engineer-Album02/`](Network-Engineer-Album02/README.md) | Acht aktuelle Trackordner mit Audioanalysen; neue Videoumsetzung folgt separat |
 
@@ -55,6 +56,10 @@ npm run export:check -- --resolution 4k
 Der Prüfmodus kontrolliert die lokalen Dateien, Chrome, Puppeteer, FFmpeg-Encoder und das
 Verhältnis von Film- und Audiodauer. Er startet keinen Browser, codiert kein Video und legt keine
 Exportdateien an. Die tatsächliche GPU-Funktion und Bildgestaltung prüft er nicht.
+
+Bei Sprachfassungen wählt `--lang en` eine vorhandene `render-export.en.json`.
+Das getrennte Laufzeitmodul und die EN-WAV werden dadurch für die Vorprüfung
+verwendet; der gemeinsame Browserrenderer lädt `?lang=en`.
 
 ### Ausgabe und Einstellungen
 

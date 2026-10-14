@@ -154,7 +154,7 @@ export async function run(filmRootUrl) {
     page.on('console', (m) => { if (m.type() === 'error' && !m.text().includes('404')) console.log('[page]', m.text()); });
     page.on('pageerror', (e) => console.log('[pageerror]', e.message));
     await page.setViewport({ width: W, height: H, deviceScaleFactor: 1 });
-    await page.goto(`${base}/?w=${W}&h=${H}&mb=${MB}`, { waitUntil: 'load' });
+    await page.goto(`${base}/?w=${W}&h=${H}&mb=${MB}${a.lang ? `&lang=${encodeURIComponent(a.lang)}` : ''}`, { waitUntil: 'load' });
     await page.waitForFunction('window.__ready || window.__error', { timeout: 120000 });
     const err = await page.evaluate('window.__error');
     if (err) throw new Error(err);

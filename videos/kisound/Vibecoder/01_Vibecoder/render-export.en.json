@@ -1,0 +1,10 @@
+{
+  "schema": "kisound.render-export.v1",
+  "outputName": "01_Vibecoder_EN",
+  "title": "Vibecoder (English)",
+  "artist": "Samuel Heinrich",
+  "lang": "en",
+  "audio": "assets/audio/vibecoder-en.wav",
+  "timelineModule": "src/render/config-en.js",
+  "renderer": "src/render/render.mjs"
+}

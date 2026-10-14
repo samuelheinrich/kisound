@@ -1,0 +1,23 @@
+{
+  "name": "kisound-vibecoder-01",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vibecoder: Der sichtbare Weg, codebasiertes Musikstück in eigenständigen DE- und EN-Fassungen",
+  "scripts": {
+    "prepare": "node src/tools/prepare.mjs",
+    "preview": "node src/render/serve.mjs --open",
+    "serve": "node src/render/serve.mjs",
+    "check": "node --test tests/de.test.mjs tests/en.test.mjs",
+    "check:browser": "node src/tools/check-browser.mjs",
+    "cues": "node src/tools/write-cues.mjs",
+    "export:1080p": "node ../../tools/kisound-render.mjs 1080p",
+    "export:1080p:en": "node ../../tools/kisound-render.mjs 1080p --lang en",
+    "export:4k": "node ../../tools/kisound-render.mjs 4k",
+    "export:4k:en": "node ../../tools/kisound-render.mjs 4k --lang en",
+    "export:check": "node ../../tools/kisound-render.mjs --check",
+    "export:check:en": "node ../../tools/kisound-render.mjs --lang en --check"
+  },
+  "dependencies": {"three": "0.180.0"},
+  "devDependencies": {"puppeteer-core": "24.43.1"}
+}

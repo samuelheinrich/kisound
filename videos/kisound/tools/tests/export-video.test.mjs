@@ -11,7 +11,7 @@ test('resolution presets retain film fps and exact final partial frame',()=>{
  const a=plan(['--resolution','1080p']),b=plan(['--resolution','4k']);assert.deepEqual([a.width,a.height],[1920,1080]);assert.deepEqual([b.width,b.height],[3840,2160]);assert.equal(b.jobs,1);assert.equal(b.frames,10613);assert.equal(b.fps,60);
 });
 test('invalid flags and values stop before starting any export',()=>{
- for(const a of[['--resolution','8k'],['--jobs','0'],['--jobs','2.5'],['--quality','101'],['--crf','NaN'],['--preset','mystery'],['--unknown'],['--resolution']])assert.throws(()=>options(a,root));
+ for(const a of[['--resolution','8k'],['--jobs','0'],['--jobs','2.5'],['--quality','101'],['--crf','NaN'],['--preset','mystery'],['--lang','../de'],['--unknown'],['--resolution']])assert.throws(()=>options(a,root));
 });
 test('default names distinguish resolution and time, and explicit paths are song-relative',()=>{
  assert.ok(plan().output.endsWith('05_WiFi_Roaming_1080p60_20260929T123456789Z.mp4'));
@@ -26,6 +26,11 @@ test('audio/film mismatch and truncation are rejected',()=>{
 test('renderer gets safe argument arrays, resolution and no audio mux',()=>{
  const p=plan(['--resolution','4k','--chrome','/Applications/Google Chrome.app/Chrome']);const args=rendererArgs(p,'/tmp/Work dir/video.mp4');
  assert.equal(args[args.indexOf('--width')+1],'3840');assert.equal(args.at(-1),'/tmp/Work dir/video.mp4');assert.ok(!args.includes('--audio'));assert.ok(args.includes('/Applications/Google Chrome.app/Chrome'));
+});
+test('a selected language reaches the browser renderer and can override project defaults',()=>{
+ const p=makePlan(options(['--lang','en'],root),{...config,lang:'de'},timing,audio);
+ assert.equal(p.lang,'en');const args=rendererArgs(p,'/tmp/video.mp4');assert.equal(args[args.indexOf('--lang')+1],'en');
+ assert.equal(makePlan(options([],root),{...config,lang:'de'},timing,audio).lang,'de');
 });
 test('mux keeps the complete video and uses explicit streams',()=>{
  const p=plan(),args=muxArgs(p,'/tmp/video.mp4','/tmp/complete.mp4');assert.ok(!args.includes('-shortest'));assert.ok(args.includes('0:v:0'));assert.ok(args.includes('1:a:0'));assert.ok(args.includes(root+'/assets/audio/song mix.wav'));assert.ok(args.includes('artist=Samuel Heinrich'));assert.equal(args[0],'-n');

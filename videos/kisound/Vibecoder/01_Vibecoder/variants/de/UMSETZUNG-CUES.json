@@ -1,0 +1,3015 @@
+{
+  "schema": "kisound.vibecoder01.implementation-cues.v1",
+  "language": "de",
+  "source_wav": "01_Vibecoder_suno-0.1_50_50_exakt_off_DE.wav",
+  "source_sha256": "2a32ee2e01c429f1a051cfe913448576d7e6615930567220aca48feada845d97",
+  "samples": 10379520,
+  "duration_s": 216.24,
+  "fps": 60,
+  "frames": 12975,
+  "fade_candidate_s": 210.3,
+  "last_vocal_end_s": 215.2,
+  "gaps_s": [
+    [
+      203.35,
+      203.55
+    ]
+  ],
+  "drops_s": [
+    158.9,
+    173.3,
+    187.7,
+    205.7
+  ],
+  "chapters": [
+    {
+      "id": "C01",
+      "key": "intro",
+      "title": "Auftakt",
+      "shot": "S001",
+      "start": 0,
+      "end": 8
+    },
+    {
+      "id": "C02",
+      "key": "prelude",
+      "title": "Die erste Blockade",
+      "shot": "S005",
+      "start": 8,
+      "end": 21
+    },
+    {
+      "id": "C03",
+      "key": "verse_1",
+      "title": "Acht Uhr",
+      "shot": "S009",
+      "start": 21,
+      "end": 36
+    },
+    {
+      "id": "C04",
+      "key": "build",
+      "title": "Der sichtbare Weg",
+      "shot": "S016",
+      "start": 36,
+      "end": 49
+    },
+    {
+      "id": "C05",
+      "key": "drop_1",
+      "title": "Sagen · Bauen · Prüfen",
+      "shot": "S021",
+      "start": 49,
+      "end": 80
+    },
+    {
+      "id": "C06",
+      "key": "break",
+      "title": "Der freie Platz",
+      "shot": "S029",
+      "start": 80,
+      "end": 93
+    },
+    {
+      "id": "C07",
+      "key": "verse_2",
+      "title": "Eigener Takt",
+      "shot": "S034",
+      "start": 93,
+      "end": 121.9
+    },
+    {
+      "id": "C08",
+      "key": "drop_2",
+      "title": "Ein Tool muss bestehen",
+      "shot": "S043",
+      "start": 121.9,
+      "end": 145
+    },
+    {
+      "id": "C09",
+      "key": "bridge",
+      "title": "Der Einwand",
+      "shot": "S051",
+      "start": 145,
+      "end": 157.8
+    },
+    {
+      "id": "C10",
+      "key": "final_drop",
+      "title": "Drei Ergebnisse",
+      "shot": "S057",
+      "start": 157.8,
+      "end": 190
+    },
+    {
+      "id": "C11",
+      "key": "outro",
+      "title": "Prompt · Run · Check · Go",
+      "shot": "S067",
+      "start": 190,
+      "end": 216.24
+    }
+  ],
+  "shots": [
+    {
+      "id": "S001",
+      "chapter": "intro",
+      "start_s": 0,
+      "end_s": 2.8,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Der unbewegte Cursor",
+      "action": "Kühler Morgen am Arbeitsplatz. Die Uhr steht auf 08:00; im Laptopfenster wartet ein Export bei 99 Prozent. Der orange Cursor pulst als einziges warmes Licht.",
+      "camera": "Weite vom Fenster bis zur starren Fortschrittskante; Silhouette nur in der Schulter.",
+      "transition": "Monitorrahmen deckungsgleich in die 2D-Fläche.",
+      "event_ids": [
+        "E001"
+      ],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "stuck",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S002",
+      "chapter": "intro",
+      "start_s": 2.8,
+      "end_s": 5.5,
+      "zone": "type",
+      "mode": "2D",
+      "title": "VIBE als Versprechen",
+      "action": "Vier ruhige Buchstaben VIBE erscheinen auf der stillstehenden Exportlinie, noch ohne Triumph. Rechts bleibt Platz für das fehlende CODER.",
+      "camera": "Frontale typografische Einstellung, dann Stille im Bild.",
+      "transition": "Die Exportlinie wird zur Grundlinie der Wortmarke.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "stuck",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S003",
+      "chapter": "intro",
+      "start_s": 5.5,
+      "end_s": 7.2,
+      "zone": "type",
+      "mode": "2D+3D",
+      "title": "Ich bin Vibecoder",
+      "action": "Auf dem ersten gesungenen Titel ergänzt CODER in Orange die Marke. Nur die Kanten von CODER bekommen eine flache Tiefe; die Arbeit hinter der Schrift bleibt sichtbar.",
+      "camera": "Frontal für mindestens einen lesbaren Schlag, dann wenige Grad seitlich.",
+      "transition": "Die orange Unterkante zieht sich als Cursor zusammen.",
+      "event_ids": [
+        "E002"
+      ],
+      "lyric_ids": [
+        "L001"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "stuck",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S004",
+      "chapter": "intro",
+      "start_s": 7.2,
+      "end_s": 8,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Zurück zum Problem",
+      "action": "Die Marke schrumpft zu einer kleinen Projektmarke. Export 99 Prozent bleibt rot; es gibt noch keinen PASS-Stempel.",
+      "camera": "Statischer, klar lesbarer Bildschirm.",
+      "transition": "Cursor fährt auf die fehlerhafte Statuszeile.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "stuck",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S005",
+      "chapter": "prelude",
+      "start_s": 8,
+      "end_s": 11,
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Drei offene Bedürfnisse",
+      "action": "Der Bildschirm klappt entlang seiner eigenen oberen Kante in drei räumliche Felder: Export, Klang, Werkzeug. Nur Export ist aktiv; die anderen tragen noch Fragezeichen.",
+      "camera": "Kleine Parallaxe über exakt gleiche Ecken der Karten.",
+      "transition": "Exportkarte liegt wieder orthogonal vor uns.",
+      "event_ids": [
+        "E003"
+      ],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "stuck",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S006",
+      "chapter": "prelude",
+      "start_s": 11,
+      "end_s": 14.5,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ein Signal ohne Antwort",
+      "action": "Ein Request geht in die Exportfunktion und kommt ohne Abschlussstatus zurück. Die orange Linie stoppt sichtbar vor dem Ziel; keine willkürlichen Codezeichen.",
+      "camera": "Nah auf Input, fehlenden Output und Wartesymbol.",
+      "transition": "Das Wartesymbol wird zum Uhrpunkt.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "stuck",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S007",
+      "chapter": "prelude",
+      "start_s": 14.5,
+      "end_s": 18,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Der Tag rückt näher",
+      "action": "Uhr und kalter Becher rahmen denselben 99-Prozent-Stand. In EN bekommen Mausbewegung, Dateiansicht und das erste prüfbare Beispiel mehr Zeit; DE bleibt knapper.",
+      "camera": "Halbtotaler Blick über die rechte Hand, ohne Sprung in der Raumachse.",
+      "transition": "Hand legt den Cursor auf die Exportkarte.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "stuck",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S008",
+      "chapter": "prelude",
+      "start_s": 18,
+      "end_s": 21,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ein klarer Auftrag",
+      "action": "Die Person formuliert ein enges Ziel: Der Track-Katalog-Export soll nach fertiger Datei COMPLETE setzen; der Test soll Katalogzeilen und Status prüfen. Die Bedingung bleibt gross genug zum Lesen.",
+      "camera": "Frontansicht, drei Textzeilen statt Terminalrauschen.",
+      "transition": "Die Worte Datei und Status werden zwei Testfelder.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "stuck",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S009",
+      "chapter": "verse_1",
+      "start_s": 21,
+      "end_s": 24.58,
+      "zone": "room",
+      "mode": "3D",
+      "title": "08:00 · Export hängt",
+      "action": "Die gesungene Uhrzeit landet auf der realen Uhr. Am Monitor bleibt der Export sichtbar stecken; die Hand stoppt über dem Touchpad.",
+      "camera": "Harter Schnitt zur bereits etablierten Totalen.",
+      "transition": "Uhrziffer wird kreisförmiger Ladeindikator.",
+      "event_ids": [
+        "E004"
+      ],
+      "lyric_ids": [
+        "L002"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "stuck",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S010",
+      "chapter": "verse_1",
+      "start_s": 24.58,
+      "end_s": 28.14,
+      "zone": "desk",
+      "mode": "3D",
+      "title": "Kalter Kaffee, echte Frist",
+      "action": "Nah am kalten Becher und einer sachlichen Karte „Abgabe heute“. Die Frist erhöht den Einsatz, ohne künstliche Katastrophe.",
+      "camera": "Kurzer Blick vom Becher zur kleinen Fristkarte.",
+      "transition": "Kartenkante auf Eingabefeld matchen.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L003"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "stuck",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S011",
+      "chapter": "verse_1",
+      "start_s": 28.14,
+      "end_s": 30,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Prompt rein",
+      "action": "Der präzise Auftrag wird abgesendet. Eingang und erwarteter Ausgang stehen nebeneinander; die Person bestimmt, was geprüft wird.",
+      "camera": "Orthogonal, grosse Schrift und stiller Cursor.",
+      "transition": "Sendelinie wird zu einer markierten Änderung.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L004"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "stuck",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S012",
+      "chapter": "verse_1",
+      "start_s": 30,
+      "end_s": 31.66,
+      "zone": "screen",
+      "mode": "2D+3D",
+      "title": "Skript und Daten",
+      "action": "Die eine fehlende Statuszuweisung wird im Diff ergänzt. Daneben gehen zwei Datensätze durch dieselbe Funktion; ihre Rechtecke bleiben beim flachen Raumschwenk an Ort.",
+      "camera": "Seitfahrt um höchstens 12 Grad, Vergleich bleibt lesbar.",
+      "transition": "Zwei Datensätze landen auf Testfeld A und B.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "diff",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "open"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S013",
+      "chapter": "verse_1",
+      "start_s": 31.66,
+      "end_s": 33.4,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Test A: Datei",
+      "action": "Test A prüft, ob die Katalogdatei existiert und die erwarteten Trackzeilen enthält. Erst nach dem Vergleich kippt A auf grün.",
+      "camera": "Fest auf Input, Soll und Ist.",
+      "transition": "Grüne Kante läuft zum zweiten Feld.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L005"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "file_pass",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S014",
+      "chapter": "verse_1",
+      "start_s": 33.4,
+      "end_s": 35.14,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Test B: Status",
+      "action": "Test B prüft COMPLETE nach Dateischluss. Der Status wechselt erst jetzt auf grün; der 99-Prozent-Balken erreicht sein Ende.",
+      "camera": "Kurzer Halt, damit zwei unterschiedliche Belege erkennbar sind.",
+      "transition": "Grüne Testkarten drehen zum nächsten Auftrag.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "first_pass",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S015",
+      "chapter": "verse_1",
+      "start_s": 35.14,
+      "end_s": 36,
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Die nächste Idee",
+      "action": "Exportkarte wird als erledigte Karte an ihren Platz geschoben. Aus ihrer orangefarbenen Unterkante wächst der freie Steckplatz für Klang, ohne einen neuen Erfolg zu behaupten.",
+      "camera": "Räumlicher Zug auf die zweite leere Stelle.",
+      "transition": "Steckplatz wird Agentfenster.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "first_pass",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S016",
+      "chapter": "build",
+      "start_s": 36,
+      "end_s": 39.18,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Neue Coder, anderer Takt",
+      "action": "Keine Armee von Robotern: ein Mensch spezifiziert, ein Agent arbeitet im Seitenfenster. Der neue Takt ist ihre sichtbare Abfolge.",
+      "camera": "Zweierkomposition aus Hand und Agentfenster.",
+      "transition": "Handbewegung löst einen 2D-Auftrag aus.",
+      "event_ids": [
+        "E005",
+        "E006"
+      ],
+      "lyric_ids": [
+        "L006"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "first_pass",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S017",
+      "chapter": "build",
+      "start_s": 39.18,
+      "end_s": 40.9,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Was fehlt?",
+      "action": "Die Person markiert die fehlende Bedingung in der Exportvariante und schreibt eine konkrete Rückgabeaufforderung. Kein generisches „mach besser“ erscheint.",
+      "camera": "Makro auf Markierung und Satz.",
+      "transition": "Markierung wird Kante des Ausführungspfads.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L007"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "first_pass",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S018",
+      "chapter": "build",
+      "start_s": 40.9,
+      "end_s": 42.62,
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Die Blackbox",
+      "action": "Input, Agent, Datei und Tests sind vier erkennbare Stationen. Im Zentrum bleibt eine dunkle, opake Schicht; sie wird nicht mit erfundenen Innereien gefüllt.",
+      "camera": "Kamera gleitet entlang der Stationskanten; Zentrum bleibt ruhig.",
+      "transition": "Orange Linie verbindet nur beobachtbare Stationen.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "first_pass",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S019",
+      "chapter": "build",
+      "start_s": 42.62,
+      "end_s": 46.52,
+      "zone": "project",
+      "mode": "3D",
+      "title": "Ich sehe den Weg",
+      "action": "Die Linie macht Ursache und Wirkung sichtbar: Auftrag hinein, Diff heraus, Testantwort zurück. Die unbekannte Mitte bleibt matt, obwohl der Pfad räumlich lesbar ist.",
+      "camera": "Halbkreis um die erhaltene 2D-Projektion, keine freien Flüge.",
+      "transition": "Kamera hält vor der opaken Mitte an.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L008"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "first_pass",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S020",
+      "chapter": "build",
+      "start_s": 46.52,
+      "end_s": 49,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Nicht jeden Draht",
+      "action": "Ein kleines „?“ bleibt an der Mitte. Die Person bestätigt nur die Resultate, die sie prüfen kann. Diese Ehrlichkeit bereitet die spätere Konfrontation vor.",
+      "camera": "Rückkehr in exakt denselben Bildschirmzustand.",
+      "transition": "Das Fragezeichen bleibt im Rand, während die Hook startet.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L009"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "first_pass",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S021",
+      "chapter": "drop_1",
+      "start_s": 49,
+      "end_s": 53.94,
+      "zone": "type",
+      "mode": "2D",
+      "title": "Erster Ruf: VIBECODER",
+      "action": "Auf der ersten Hook sitzt VIBE weiss über CODER orange. Darunter laufen die vier Schritte SPEC, BUILD, TEST, FIX als noch ungefüllte Felder.",
+      "camera": "Frontal und unverrückt, Titel bekommt echte Lesezeit.",
+      "transition": "Titelunterkante wird Ablaufleiste.",
+      "event_ids": [
+        "E007",
+        "E008",
+        "E009"
+      ],
+      "lyric_ids": [
+        "L010"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "first_pass",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S022",
+      "chapter": "drop_1",
+      "start_s": 53.94,
+      "end_s": 58.06,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Sagen und bauen",
+      "action": "SPEC erhält den klaren Wunsch; BUILD zeigt nur die tatsächlich geänderte Zeile. Ein wiederholter Titelruf erscheint kurz als kleine Projektmarke, bevor der Blick zum Test zurückkehrt.",
+      "camera": "Zwei enge Einstellungen, eine gemeinsame Bildachse.",
+      "transition": "Diffkante wird Prüflinie.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L011"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "first_pass",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S023",
+      "chapter": "drop_1",
+      "start_s": 58.06,
+      "end_s": 63.2,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Testen und korrigieren",
+      "action": "Ein zusätzlicher Exportfall scheitert. Der fehlerhafte Status wird zurückgegeben, die Korrektur erscheint, derselbe Test läuft erneut. Grün nur nach PASS.",
+      "camera": "Ein rotes Feld, ein Diff, derselbe Test; keine Kleinschrift.",
+      "transition": "Testkarte steht vor dem Hooktitel.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L012"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "edge_fail",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S024",
+      "chapter": "drop_1",
+      "start_s": 63.2,
+      "end_s": 65.28,
+      "zone": "type",
+      "mode": "2D+3D",
+      "title": "Zweiter Ruf: mehr Tiefe",
+      "action": "Die zuvor flache CODER-Kante wird zu einem niedrigen Relief. Durch die offenen Buchstaben ist genau die reparierte Exportansicht zu sehen.",
+      "camera": "Seitfahrt an der ersten Letterkante, danach wieder frontal.",
+      "transition": "Orange Kontur landet auf Exportkarte.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L013"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "edge_fix",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S025",
+      "chapter": "drop_1",
+      "start_s": 65.28,
+      "end_s": 68.36,
+      "zone": "project",
+      "mode": "3D",
+      "title": "Der Rückweg gehört dazu",
+      "action": "Fehlerkarte fährt sichtbar zum Auftrag zurück, dann als korrigierter Stand wieder vor. Die Rückrichtung ist genauso klar wie die erste Lieferung.",
+      "camera": "Seitliche Totale des vierteiligen Pfads.",
+      "transition": "Die Karte legt sich auf einen echten Diff.",
+      "event_ids": [
+        "E010"
+      ],
+      "lyric_ids": [
+        "L014"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "edge_fix",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "partial"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S026",
+      "chapter": "drop_1",
+      "start_s": 68.36,
+      "end_s": 71.68,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Diff, Test, Commit",
+      "action": "Drei unterscheidbare Belege: Änderung, reproduzierbarer Check, lokaler Git-Commit. Die Versionskarte erscheint erst nach PASS; sie behauptet keinen Upload.",
+      "camera": "Drei Schnitte entlang einer gemeinsamen orangefarbenen Achse.",
+      "transition": "Die Achse zeigt auf einen zweiten freien Steckplatz.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L015"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "verified",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S027",
+      "chapter": "drop_1",
+      "start_s": 71.68,
+      "end_s": 77.62,
+      "zone": "desk",
+      "mode": "3D",
+      "title": "Ein kleiner neuer Funke",
+      "action": "Die Hand tippt neben „Klang“ eine kurze Frage. Export bleibt mit grünem Zustand auf dem Monitor; der Becher rückt ein Stück aus dem Weg.",
+      "camera": "Über Schulter, ruhigerer Bildausschnitt nach der dichten Hook.",
+      "transition": "Cursor blinkt auf der Frage.",
+      "event_ids": [
+        "E011"
+      ],
+      "lyric_ids": [],
+      "state": {
+        "clock": "08:00",
+        "catalog": "verified",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S028",
+      "chapter": "drop_1",
+      "start_s": 77.62,
+      "end_s": 80,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Erster Beweis steht",
+      "action": "Der Export ist offen und abgenommen. Durch das Fenster wird das Licht wärmer. Die Person schiebt den Stuhl zurück und hört einen Moment zu.",
+      "camera": "Langsamer Atemzug in der Totale.",
+      "transition": "Sonnenkante löst die Exportkante ab.",
+      "event_ids": [
+        "E012"
+      ],
+      "lyric_ids": [
+        "L016"
+      ],
+      "state": {
+        "clock": "08:00",
+        "catalog": "verified",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S029",
+      "chapter": "break",
+      "start_s": 80,
+      "end_s": 82.5,
+      "zone": "project",
+      "mode": "3D",
+      "title": "Ein leerer Takt",
+      "action": "Der Export steht links als fertige Karte. Die mittlere Klangkarte ist leer; die orange Linie geht zu ihr, während der Raum auf Mittag wechselt.",
+      "camera": "Tiefe aus den drei Steckplätzen, kein neuer Ort.",
+      "transition": "Kamera taucht durch die leere Klangkarte.",
+      "event_ids": [
+        "E013"
+      ],
+      "lyric_ids": [],
+      "state": {
+        "clock": "12:00",
+        "catalog": "verified",
+        "pattern": "empty",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "open"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S030",
+      "chapter": "break",
+      "start_s": 82.5,
+      "end_s": 85,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Die Auswahl passt nicht",
+      "action": "Drei Kandidaten aus dem geprüften Katalog werden kurz verglichen, keiner trägt den benötigten Takt. Kein Fremdtrack ist zu hören; der finale Song bleibt alleinige Tonspur.",
+      "camera": "Rhythmische Blickwechsel mit festen lesbaren Kartentiteln.",
+      "transition": "Letzte Karte klappt als leeres Raster um.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "12:00",
+        "catalog": "verified",
+        "pattern": "candidates",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "working"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S031",
+      "chapter": "break",
+      "start_s": 85,
+      "end_s": 88,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Das Raster wartet",
+      "action": "Vier Reihen eines einfachen Sequencers sind leer. Der Cursor zeichnet eine einzige orangene Taktlinie; EN erhält zusätzliche, klar unterschiedliche Schritte während der längeren Pause.",
+      "camera": "Orthogonal auf Raster, dann erste flache Schräglage.",
+      "transition": "Rasterfeld wird als flacher Raumkörper sichtbar.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "12:00",
+        "catalog": "verified",
+        "pattern": "sketch",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "working"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S032",
+      "chapter": "break",
+      "start_s": 88,
+      "end_s": 90.5,
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Ein Motiv entsteht",
+      "action": "Punkte auf der Taktlinie werden zu flachen Plättchen. Die Originalmusik steuert ihre Bewegung; die Szene behauptet keinen neu hörbaren Song im Song.",
+      "camera": "Dolly entlang der Plättchen, gleiche IDs wie im 2D-Raster.",
+      "transition": "Plättchen sinken zurück auf die Oberfläche.",
+      "event_ids": [
+        "E014"
+      ],
+      "lyric_ids": [],
+      "state": {
+        "clock": "12:00",
+        "catalog": "verified",
+        "pattern": "sketch",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "working"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S033",
+      "chapter": "break",
+      "start_s": 90.5,
+      "end_s": 93,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Mittag",
+      "action": "Die Uhr zeigt 12:00, Licht fällt anders durch dasselbe Fenster. Die Klangkarte ist nun die aktive Aufgabe; Export bleibt sichtbar fertig.",
+      "camera": "Gleiche Kameraachse wie um acht, andere Lichtlage.",
+      "transition": "Fensterschatten matcht auf Taktstrich.",
+      "event_ids": [
+        "E015"
+      ],
+      "lyric_ids": [],
+      "state": {
+        "clock": "12:00",
+        "catalog": "verified",
+        "pattern": "sketch",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "working"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S034",
+      "chapter": "verse_2",
+      "start_s": 93,
+      "end_s": 96.64,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Kein Track trifft den Takt",
+      "action": "Der Cursor legt drei Kandidaten über eine Soll-Markierung. Ihre Betonungen sitzen sichtbar daneben; die Karten verlassen nacheinander die Arbeitsfläche.",
+      "camera": "Frontal, jeder Vergleich nur einen kurzen Blick lang.",
+      "transition": "Die Soll-Markierung bleibt als leeres Notenraster.",
+      "event_ids": [
+        "E016"
+      ],
+      "lyric_ids": [
+        "L017"
+      ],
+      "state": {
+        "clock": "12:00",
+        "catalog": "verified",
+        "pattern": "sketch",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "working"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S035",
+      "chapter": "verse_2",
+      "start_s": 96.64,
+      "end_s": 100.4,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ich schreibe den Sound",
+      "action": "Ein klarer Patternvorschlag mit vier Reihen entsteht. Der Cursor setzt einzelne Schritte; Arrangement und Tonhöhen werden nicht als exakte Transkription behauptet.",
+      "camera": "Makro auf Hand und Raster, keine unlesbaren Codekolonnen.",
+      "transition": "Aktive Schritte heben sich vom Raster ab.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L018"
+      ],
+      "state": {
+        "clock": "12:00",
+        "catalog": "verified",
+        "pattern": "steps_set",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "working"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S036",
+      "chapter": "verse_2",
+      "start_s": 100.4,
+      "end_s": 103.86,
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Mein Beat trägt weiter",
+      "action": "Dieselben Step-IDs stehen als kleine Körper im Raum. Eine orange Linie läuft durch die belegten Felder, später in der App als Navigationspfad wiedererkennbar.",
+      "camera": "Seitlicher Tracking Shot im Tempo der Musik, ohne behauptetes Beatgrid.",
+      "transition": "Kamera unterquert die Bassreihe.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L019"
+      ],
+      "state": {
+        "clock": "12:00",
+        "catalog": "verified",
+        "pattern": "steps_set",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "working"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S037",
+      "chapter": "verse_2",
+      "start_s": 103.86,
+      "end_s": 107.44,
+      "zone": "project",
+      "mode": "3D",
+      "title": "Der Bass bekommt Gewicht",
+      "action": "Nur bei real gemessener Tieftonenergie neigt sich die Bassreihe minimal nach vorn; die übrigen Reihen bleiben stabil. Der Song bleibt Originalton.",
+      "camera": "Bodennah, kontrollierte Verschiebung statt Wackelkamera.",
+      "transition": "Bassreihe wird zur unteren Bildschirmkante.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L020"
+      ],
+      "state": {
+        "clock": "12:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S038",
+      "chapter": "verse_2",
+      "start_s": 107.44,
+      "end_s": 110.9,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Abend, voller Store",
+      "action": "Uhr und Fenster springen filmisch auf den Abend. Viele App-Kacheln sind vorhanden, aber keine hat die gewünschte einfache Kombination aus Track, Ausgabe und Status.",
+      "camera": "Totale zum selben Tisch; dann auf die Kacheln.",
+      "transition": "Eine leere Kachel bleibt in der Mitte.",
+      "event_ids": [
+        "E017"
+      ],
+      "lyric_ids": [
+        "L021"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "absent",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "open"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S039",
+      "chapter": "verse_2",
+      "start_s": 110.9,
+      "end_s": 114.86,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ein Auftrag für die App",
+      "action": "Die Person formuliert: Track aus dem Katalog wählen, Paketexport starten, Ergebnis sehen. Die drei Zustände werden als klarer Ablauf gezeichnet; die neue Klangkarte ist der Testtrack.",
+      "camera": "Orthogonal, drei grosse Knoten.",
+      "transition": "Knoten werden zur Oberfläche.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L022"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "specified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "working"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S040",
+      "chapter": "verse_2",
+      "start_s": 114.86,
+      "end_s": 116.3,
+      "zone": "screen",
+      "mode": "2D+3D",
+      "title": "Ein Screen geht auf",
+      "action": "Genau ein Screen entfaltet sich entlang seiner Rahmenkante in den Raum; Trackkarte, Knopf und Statusfeld bleiben identische Objekte.",
+      "camera": "Kurze seitliche Bewegung, dann frontal für Lesbarkeit.",
+      "transition": "Rahmen verriegelt in der Bildschirmfläche.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L023"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "screen",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "working"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S041",
+      "chapter": "verse_2",
+      "start_s": 116.3,
+      "end_s": 118.14,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Ein Knopf, ein Flow",
+      "action": "Der Knopf startet Export und zeigt laufend statt fertig. Drei orange Kanten verbinden Auswahl, Aktion und Ergebnis.",
+      "camera": "Ein einziger Klick und sichtbare Reaktion.",
+      "transition": "Statusfeld nimmt den Raum des Hooktitels ein.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "working",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "working"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S042",
+      "chapter": "verse_2",
+      "start_s": 118.14,
+      "end_s": 121.9,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Mein eigenes Tool",
+      "action": "Die App ist erstmals benutzbar. Die Person hält inne; ein Reload ist der noch ausstehende Beweis. Export und Klang sind weiterhin sichtbar, aber nicht als neuer Erfolg überhöht.",
+      "camera": "Über Schulter, kurze offene Erwartung.",
+      "transition": "Finger löst den Reload aus.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L024"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "working",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "working"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S043",
+      "chapter": "drop_2",
+      "start_s": 121.9,
+      "end_s": 123,
+      "zone": "type",
+      "mode": "2D+3D",
+      "title": "Zweiter Ruf, neue Aufgabe",
+      "action": "Beim ersten Reload verliert die App die Auswahl. VIBE/CODER erscheint davor als flach extrudierte Marke; ein roter Statuspunkt auf der App dahinter verhindert voreiligen Triumph.",
+      "camera": "Frontale Titelphase, dann Seitblick auf das rote Feld.",
+      "transition": "Rotpunkt durchbricht die ruhige Titelfläche.",
+      "event_ids": [
+        "E018",
+        "E019"
+      ],
+      "lyric_ids": [
+        "L025"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "lost",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "fail"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S044",
+      "chapter": "drop_2",
+      "start_s": 123,
+      "end_s": 126.22,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Sagen und bauen, erneut",
+      "action": "Die Anforderung „Auswahl nach Reload behalten“ wird ergänzt. Der Agent speichert eine Track-ID, zunächst unter einem falschen Schlüssel; diese konkrete Änderung erhält Farbe.",
+      "camera": "Harter, gut lesbarer Vorher-nachher-Schnitt.",
+      "transition": "Die Track-ID wandert in einen Speicherslot.",
+      "event_ids": [
+        "E020"
+      ],
+      "lyric_ids": [
+        "L026"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "wrong_key",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "fail"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S045",
+      "chapter": "drop_2",
+      "start_s": 126.22,
+      "end_s": 130.2,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Reload entlarvt den Fehler",
+      "action": "Der zweite Reload liest einen anderen Schlüssel und springt wieder auf die falsche Auswahl. Der vorher sichtbare Track bleibt als Soll-Karte daneben: der Mangel ist ohne Fachwissen erkennbar.",
+      "camera": "Split zwischen Soll und Ist, identische Bildgrössen.",
+      "transition": "Ist-Karte fährt entlang der Rückleitung.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L027"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "wrong_selection",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "fail"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S046",
+      "chapter": "drop_2",
+      "start_s": 130.2,
+      "end_s": 133.64,
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Korrektur auf dem Rückweg",
+      "action": "Die falsch geladene ID fährt als orange Karte durch den Raum zurück zum Agentfenster. Dort wird die Speicherzuordnung korrigiert; die Linie folgt demselben Pfad rückwärts.",
+      "camera": "Ununterbrochene Kamerafahrt an der Pfadkante.",
+      "transition": "Korrekturkarte wird zum neuen Testinput.",
+      "event_ids": [
+        "E021"
+      ],
+      "lyric_ids": [
+        "L028"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "fixing",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "working"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S047",
+      "chapter": "drop_2",
+      "start_s": 133.64,
+      "end_s": 137.48,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Gleicher Test, neuer Stand",
+      "action": "Wieder dieselbe Trackwahl, wieder Reload. Diesmal bleibt Auswahl samt Status erhalten. Der Test wechselt nach Vergleich auf grün.",
+      "camera": "Zwei identische Frames vor und nach Reload machen den Unterschied überprüfbar.",
+      "transition": "Grünes Feld dockt am bestehenden Screen an.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L029"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S048",
+      "chapter": "drop_2",
+      "start_s": 137.48,
+      "end_s": 140.62,
+      "zone": "project",
+      "mode": "3D",
+      "title": "Der eine funktionierende Flow",
+      "action": "Trackkarte, Startknopf und Ergebnisfeld bilden nun einen kurzen begehbaren Pfad. Exportdatei und Klangkarte liefern die realen Eingaben dieses Tools.",
+      "camera": "Fahrt vom ersten Artefakt durch die App bis zum Ergebnis.",
+      "transition": "Pfad wird zur Grundlinie eines neuen Titels.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L030"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S049",
+      "chapter": "drop_2",
+      "start_s": 140.62,
+      "end_s": 143.86,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Diff, Test, Commit II",
+      "action": "App-Diff, Reload-Check und gespeicherter Stand erhalten eigene Felder. Drei fertige Artefakte stehen jetzt mit Namen da, nicht als anonyme grüne Häkchen.",
+      "camera": "Frontale Inventur, drei Karten mit gleicher Massstäblichkeit.",
+      "transition": "Ein fremder Kommentar deckt einen Teil der Karten ab.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L031"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S050",
+      "chapter": "drop_2",
+      "start_s": 143.86,
+      "end_s": 145,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Der Einwand kündigt sich an",
+      "action": "Am Rand des Monitors erscheint ein fremder Kommentar. Die Person dreht sich zu ihm; die drei fertigen Karten bleiben im selben Bild. Der Refrain räumt für den Dialog Platz.",
+      "camera": "Langsame Fahrt auf die Spiegelung im dunklen Display.",
+      "transition": "Spiegelung wird typografischer Dialograum.",
+      "event_ids": [
+        "E022",
+        "E023"
+      ],
+      "lyric_ids": [],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S051",
+      "chapter": "bridge",
+      "start_s": 145,
+      "end_s": 147.14,
+      "zone": "room",
+      "mode": "3D",
+      "title": "„Du weißt nicht …“",
+      "action": "Am Rand des Monitors erscheint die zugeordnete Nachricht des Hardcoders. Die Person sieht hin. Hinter der Schrift liegt die immer noch opake Agentmitte; es gibt keine erfundene zweite Stimme.",
+      "camera": "Fahrt auf die Spiegelung im Display, dann Halt auf der Nachricht.",
+      "transition": "Spiegelung wird typografischer Dialograum.",
+      "event_ids": [
+        "E024"
+      ],
+      "lyric_ids": [
+        "L032"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S052",
+      "chapter": "bridge",
+      "start_s": 147.14,
+      "end_s": 150.48,
+      "zone": "room",
+      "mode": "3D",
+      "title": "„Nicht alles.“",
+      "action": "Die Person nickt knapp. Die Mitte bleibt dunkel; weder Film noch Figur behaupten vollständige Kenntnis. Daneben bleiben die drei überprüfbaren Resultate.",
+      "camera": "Nah auf Schulter und Hand, keine Lippenanimation.",
+      "transition": "Hand weist auf Testkarte.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L033"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S053",
+      "chapter": "bridge",
+      "start_s": 150.48,
+      "end_s": 151.56,
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Der sichtbare Beleg",
+      "action": "Input, Ausgabe und Tests werden nacheinander hell. In EN kann der nächste Einwand bereits darüber einsetzen; die Belege bleiben dabei lesbar und das Zentrum opak.",
+      "camera": "Fahrt entlang dreier Punkte, endet bewusst vor der Mitte.",
+      "transition": "Lücke wird zum leeren Buchstabenraum.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S054",
+      "chapter": "bridge",
+      "start_s": 151.56,
+      "end_s": 154.98,
+      "zone": "type",
+      "mode": "2D",
+      "title": "„Das nennst du Code?“",
+      "action": "Die zweite Nachricht nimmt den leeren Raum ein. Sie drückt den Titel klein, kann aber die grünen Belege nicht verdecken.",
+      "camera": "Seitlich versetzte Typografie; keine Karikatur.",
+      "transition": "Der Cursor zieht die Nachricht beiseite.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L034"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S055",
+      "chapter": "bridge",
+      "start_s": 154.98,
+      "end_s": 156.4,
+      "zone": "room",
+      "mode": "3D",
+      "title": "„Ich bau’s trotzdem.“",
+      "action": "Die Antwort gehört der Hand: Sie legt die drei fertigen Karten nebeneinander. Die Entscheidung ist körperlich und konkret, ohne zusätzliche Rechtfertigungsrede.",
+      "camera": "Kamera zieht vom Tisch in die Halbtotale.",
+      "transition": "Kartenkanten bilden eine einzige orange Schiene.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L035"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S056",
+      "chapter": "bridge",
+      "start_s": 156.4,
+      "end_s": 157.8,
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Die eine Schiene",
+      "action": "Die drei Karten rasten an derselben orangenen Linie ein. Im längeren EN-Übergang wird der Pfad vom ersten Input bis zum dritten Ergebnis einmal lesbar; der kommende Bass öffnet erst danach den Raum.",
+      "camera": "Eine durchgehende Fahrt entlang aller drei Kanten.",
+      "transition": "Schiene bildet die Grundlinie des finalen Titels.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S057",
+      "chapter": "final_drop",
+      "start_s": 157.8,
+      "end_s": 162.34,
+      "zone": "type",
+      "mode": "2D+3D",
+      "title": "VIBECODER als Bauwerk",
+      "action": "Zum finalen Hook wird aus VIBE und CODER erstmals eine ganze räumliche Wortmarke. Durch ihre offenen Buchstaben sieht man die drei eigenen Werkzeuge. Der längere EN-Zwischenraum führt die Kamera durch diese Buchstaben.",
+      "camera": "Tiefe Kamera, dann frontal lesbare Endlage.",
+      "transition": "Buchstaben werden Tor zu den Artefakten.",
+      "event_ids": [
+        "E025",
+        "E026"
+      ],
+      "lyric_ids": [
+        "L036"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S058",
+      "chapter": "final_drop",
+      "start_s": 162.34,
+      "end_s": 165.46,
+      "zone": "project",
+      "mode": "3D",
+      "title": "Die neue Generation ist laut",
+      "action": "Mehrere Arbeitsweisen werden als Nachbarplätze sichtbar; der Blick bleibt bei unserer Person. Die Lautstärke gehört der Musik und der grösseren Arbeitsfläche, nicht erfundenen Stimmen.",
+      "camera": "Weite Erweiterung um den vertrauten Tisch.",
+      "transition": "Orange Schiene führt zum ersten Beleg.",
+      "event_ids": [
+        "E027"
+      ],
+      "lyric_ids": [
+        "L037"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S059",
+      "chapter": "final_drop",
+      "start_s": 165.46,
+      "end_s": 169.48,
+      "zone": "project",
+      "mode": "2D+3D",
+      "title": "Export trägt Klang",
+      "action": "Die geprüfte Katalogdatei liefert erst die verglichenen Kandidaten und jetzt das Format für die neue Klangkarte. Ihre Datei-ID bleibt beim Dimensionswechsel gleich; der sichtbare Pfad löst den frühen 99-Prozent-Stopp ein.",
+      "camera": "Seitfahrt mit Match auf die linke Kartenkante.",
+      "transition": "Dateikante wird Sequencer-Grundlinie.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L038"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S060",
+      "chapter": "final_drop",
+      "start_s": 169.48,
+      "end_s": 170.5,
+      "zone": "project",
+      "mode": "3D",
+      "title": "Klang trägt App",
+      "action": "Die Klangkarte wird in der App gewählt. Genau derselbe Trackname erscheint auf räumlicher Karte und 2D-Screen. Der Bassimpuls bewegt nur die lange orange Verbindung.",
+      "camera": "Fahrt entlang der Verbindung, kein Kameraschütteln.",
+      "transition": "Verbindung biegt ins App-Fenster.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L039"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S061",
+      "chapter": "final_drop",
+      "start_s": 170.5,
+      "end_s": 173.02,
+      "zone": "project",
+      "mode": "3D",
+      "title": "Bass durch drei Werkzeuge",
+      "action": "Die tiefe Energie läuft als kontrollierter Impuls von Export über Klang zur App. Die drei Zustände bleiben unverändert; der Bass macht nur ihre Verbindung körperlich spürbar.",
+      "camera": "Bodennah an der gemeinsamen Linie entlang, ohne Kameraschütteln.",
+      "transition": "Die Linie endet am offenen Slot.",
+      "event_ids": [
+        "E028",
+        "E029"
+      ],
+      "lyric_ids": [],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": false
+      }
+    },
+    {
+      "id": "S062",
+      "chapter": "final_drop",
+      "start_s": 173.02,
+      "end_s": 175.3,
+      "zone": "screen",
+      "mode": "2D+3D",
+      "title": "Ein Wunsch, ein Prompt, ein Build",
+      "action": "Eine kleine neue Idee erscheint: zuletzt genutzten Track beim Öffnen vorwählen. Sie entsteht aus dem funktionierenden Tool und bleibt ein offener nächster Schritt. EN zeigt an der unsicheren Gesangsstelle keinen wörtlichen Text.",
+      "camera": "Lesbarer Zweizeiler, dann 15 Grad um den offenen Slot; keine vorgetäuschte Fertigmeldung.",
+      "transition": "Offener Slot gibt Platz für Bassbewegung.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L040"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": true
+      }
+    },
+    {
+      "id": "S063",
+      "chapter": "final_drop",
+      "start_s": 175.3,
+      "end_s": 178.98,
+      "zone": "project",
+      "mode": "3D",
+      "title": "Rollen, ohne zu flackern",
+      "action": "Bassreihe, Exportlinie und App-Pfad laufen als eine zusammenhängende Orangebahn durch den Raum. Tieftonenergie verändert Höhe und Licht sanft; keine Bildblitze.",
+      "camera": "Lange bodennahe Fahrt mit drei erkennbaren Stationen.",
+      "transition": "Bahn führt zurück zu VIBE/CODER.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L041"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": true
+      }
+    },
+    {
+      "id": "S064",
+      "chapter": "final_drop",
+      "start_s": 178.98,
+      "end_s": 180.62,
+      "zone": "type",
+      "mode": "3D",
+      "title": "Letzter Ruf im ganzen Raum",
+      "action": "Die Wortmarke steht nun fest im Raum. Auf den Buchstabenflächen erscheinen kurz echte Zustände: Export fertig, Klangkarte gewählt, App-Reload bestanden.",
+      "camera": "Halbtotale und kurze Frontansicht, Zustände während des Lesens ruhig.",
+      "transition": "Schrift gibt den Tisch wieder frei.",
+      "event_ids": [
+        "E030"
+      ],
+      "lyric_ids": [
+        "L042"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": true
+      }
+    },
+    {
+      "id": "S065",
+      "chapter": "final_drop",
+      "start_s": 180.62,
+      "end_s": 187.34,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Drei Perspektiven, ein Stand",
+      "action": "Ein Dreifachblick zeigt Bildschirm, räumliche Karten und Hand. Alle tragen dieselben IDs und Zustände. Die grossen Karten falten sich am Ende an den Monitor zurück; kein Schnitt springt auf eine ältere Version.",
+      "camera": "Drei auf Akzente gesetzte Blickwinkel, dann Rückfahrt auf die alte Raumachse.",
+      "transition": "Letzter Blick hält auf der Hand.",
+      "event_ids": [],
+      "lyric_ids": [
+        "L043"
+      ],
+      "state": {
+        "clock": "20:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": true
+      }
+    },
+    {
+      "id": "S066",
+      "chapter": "final_drop",
+      "start_s": 187.34,
+      "end_s": 190,
+      "zone": "room",
+      "mode": "3D",
+      "title": "22:00, das Cover wird lebendig",
+      "action": "Die Uhr zeigt 22:00. Die Anordnung erinnert jetzt an das Cover: dunkler Tisch, orange Cursor, Becher, kleine Projektpaneele; alle drei Artefakte sind aber nachvollziehbar entstanden.",
+      "camera": "Ruhige bildfüllende Komposition, wenige Sekunden Luft.",
+      "transition": "Cursor zoomt in die vier Worte des Ablaufs.",
+      "event_ids": [
+        "E031"
+      ],
+      "lyric_ids": [],
+      "state": {
+        "clock": "22:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": true
+      }
+    },
+    {
+      "id": "S067",
+      "chapter": "outro",
+      "start_s": 190,
+      "end_s": 194.92,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Prompt",
+      "action": "Der neue Wunsch steht als Eingabe offen. Die gesungene Viererformel wird auf ihrem tatsächlichen Cue als ganzer kurzer Ablauf sichtbar; einzelne Wörter werden nicht auf spätere, ungesungene Sekunden verteilt.",
+      "camera": "Frontansicht, vier klare Schritte statt Untertitelwand.",
+      "transition": "Orange Linie zum Startknopf.",
+      "event_ids": [
+        "E032",
+        "E033"
+      ],
+      "lyric_ids": [
+        "L044",
+        "L045"
+      ],
+      "state": {
+        "clock": "22:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": true
+      }
+    },
+    {
+      "id": "S068",
+      "chapter": "outro",
+      "start_s": 194.92,
+      "end_s": 202.46,
+      "zone": "screen",
+      "mode": "2D+3D",
+      "title": "Run",
+      "action": "Der Auftrag läuft. Der Pfad hebt sich nur wenig aus der Fläche; Export, Klang und App bleiben als bereits geprüfte Basis erkennbar. Bei der nächsten gesungenen Formel läuft derselbe Ablauf weiter.",
+      "camera": "Seitliche Miniaturfahrt, danach zurück zum Screen.",
+      "transition": "Laufende Linie endet im Check-Feld.",
+      "event_ids": [
+        "E034",
+        "E035"
+      ],
+      "lyric_ids": [],
+      "state": {
+        "clock": "22:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": true
+      }
+    },
+    {
+      "id": "S069",
+      "chapter": "outro",
+      "start_s": 202.46,
+      "end_s": 204.18,
+      "zone": "screen",
+      "mode": "2D",
+      "title": "Check",
+      "action": "Der neue Stand wird mit demselben Reload-Test verglichen. Ein Ergebnis darf nur nach sichtbarem Vergleich markiert werden; gesungene Wiederholungen erhalten neue Blickwinkel statt neue Behauptungen.",
+      "camera": "Feste Soll-Ist-Anordnung, kurze Blickwechsel.",
+      "transition": "Testfeld zieht sich zum vierteiligen Ablauf zurück.",
+      "event_ids": [
+        "E036"
+      ],
+      "lyric_ids": [
+        "L046"
+      ],
+      "state": {
+        "clock": "22:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": true
+      }
+    },
+    {
+      "id": "S070",
+      "chapter": "outro",
+      "start_s": 204.18,
+      "end_s": 209,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Go",
+      "action": "Die Person entscheidet sich für den nächsten Schritt. Der Film kann enden, obwohl die Arbeit weitergeht. Im EN-Ausklang bleibt zusätzlicher Raum für einen Blick auf alle drei Artefakte.",
+      "camera": "Rückfahrt vom Monitor über Hand und Becher zum Fenster.",
+      "transition": "Lichtpunkt des Cursors bleibt im Fenster.",
+      "event_ids": [],
+      "lyric_ids": [],
+      "state": {
+        "clock": "22:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": true
+      }
+    },
+    {
+      "id": "S071",
+      "chapter": "outro",
+      "start_s": 209,
+      "end_s": 215.2,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Ein letzter Puls",
+      "action": "Auf die letzte gesungene Wiederholung antwortet nur ein warmer Puls entlang der Schiene. Kein zusätzlicher Text wird erfunden; DE und EN verwenden ihren eigenen letzten Stimmeinsatz.",
+      "camera": "Aussenansicht des einen beleuchteten Fensters.",
+      "transition": "Puls fällt mit dem gemessenen Ausklang ab.",
+      "event_ids": [
+        "E037",
+        "E038",
+        "E039"
+      ],
+      "lyric_ids": [
+        "L047"
+      ],
+      "state": {
+        "clock": "22:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": true
+      }
+    },
+    {
+      "id": "S072",
+      "chapter": "outro",
+      "start_s": 215.2,
+      "end_s": 216.24,
+      "zone": "room",
+      "mode": "3D",
+      "title": "Ende bei Sampleende",
+      "action": "Das Fensterlicht erlischt erst am tatsächlichen Audioende. Eine kleine orange Stelle bleibt bis zum letzten hörbaren Rest stehen, dann Schwarz.",
+      "camera": "Statische Totale; kein vorzeitiger Abspann.",
+      "transition": "Schwarz exakt am jeweiligen WAV-Ende.",
+      "event_ids": [
+        "E040",
+        "E041"
+      ],
+      "lyric_ids": [],
+      "state": {
+        "clock": "22:00",
+        "catalog": "verified",
+        "pattern": "ready",
+        "app": "verified",
+        "artifacts": [
+          {
+            "id": "catalog_export",
+            "title": "TRACK-KATALOG",
+            "state": "pass"
+          },
+          {
+            "id": "track_pattern",
+            "title": "EIGENER KLANG",
+            "state": "pass"
+          },
+          {
+            "id": "tool_selection",
+            "title": "MEIN TOOL",
+            "state": "pass"
+          }
+        ],
+        "next_open": true
+      }
+    }
+  ]
+}

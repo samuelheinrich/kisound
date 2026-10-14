@@ -1,6 +1,6 @@
 # kisound · Produktionshandbuch Live-Code-Stücke und kisound.ch
 
-Stand: 13. Oktober 2026, nach Abschluss von Album 02 („Network Engineer 02“). Dieses Dokument beschreibt,
+Stand: 14. Oktober 2026, ergänzt um den Codefilm 01 „Vibecoder“. Dieses Dokument beschreibt,
 wie die drei Ordner zusammenhängen, wie die codebasierten Stücke gebaut werden, welche Quellen sie lesen
 und wie die Website kisound.ch entsteht und hochgeladen wird. Ziel: reproduzierbare Ergebnisse, auch in
 einer neuen Sitzung ohne Vorwissen.
@@ -146,8 +146,9 @@ Schnittstelle für Renderer, Website und QA: `window.renderFrame(n)`, `window.re
 
 - **60 fps**, Originalton unverändert; nie aufs Beat-Raster stretchen. Lyric-Zeiten aus `lyrics.segments`
   unverändert (automatisch, nicht manuell geprüft); ausgeschlossene Segmente nie zeigen.
-- **Drops** = Wiedereinsätze des Sub-Bass aus den 100-ms-Zeilen: `sub_20_60_drive` vor dem Einsatz
-  (−1,6…−0,3 s) < 0,2, danach (−0,1…+0,6 s) > 0,55. Wird im Test geprüft. Pegellücken (`rms_dbfs < −30…−45`)
+- **Drops** = Wiedereinsätze des Sub-Bass aus den 100-ms-Zeilen: mittlerer `sub_20_60_drive` vor dem Einsatz
+  (−1,6…−0,3 s) < 0,2, mindestens ein Peak danach (−0,1…+0,6 s) > 0,55 und ein deutlich höherer mittlerer
+  Wert im Nachfenster. Wird im Test geprüft. Pegellücken (`rms_dbfs < −30…−45`)
   und gemessene Endabfälle bestimmen Blackouts und Blende – keine geschätzten Fades.
 - **Fachlich korrekt** als redaktionelles Szenario mit verdichteten Zeiten; die wichtigen Regeln sind als
   Tests formuliert (z. B. Root pro TLD einmal, keine Fragmentierung, Null0 ohne ICMP, Policy nur fürs erste
@@ -225,7 +226,7 @@ Alle zugleich: pro Projekt `node src/render/serve.mjs <port>`; beenden mit `pkil
 
 Belegt: 8125 (09), 8126 (00), 8127 (05), 8128 (01), 8130 (02), 8133 (03), 8134 (03 alt), 8136 (06), 8137 (07),
 8138 (08), 8139 (08 alt), 8140 (Website `npm run serve`, auch 07 alt), 8141 (04), 8142 (04 alt). Album 02:
-**8150 (01 On Call)**, 8151 (01 alt), **8152 (02 Active / Standby)**, 8153 (02 alt), **8154 (04 Broadcast Storm)**, 8155 (04 alt), geplant 8156 (05), 8158 (06), 8160 (07), 8162 (08). Vibecoder: **8170 (02 Token Burn)**, **8172 (03 SHIP IT)**, weitere ab 8174.
+**8150 (01 On Call)**, 8151 (01 alt), **8152 (02 Active / Standby)**, 8153 (02 alt), **8154 (04 Broadcast Storm)**, 8155 (04 alt), geplant 8156 (05), 8158 (06), 8160 (07), 8162 (08). Vibecoder: **8170 (02 Token Burn)**, **8172 (03 SHIP IT)**, **8174 (01 Vibecoder)**, weitere ab 8176.
 
 ## 7. kisound.ch
 
@@ -354,7 +355,7 @@ Daraus folgen **zwei Live-Code-Fassungen pro Track** in **einem** Projekt:
 
 - Videoprojekt `videos/kisound/Vibecoder/NN_Track/` mit `variants/<lang>/` (Analyse, TIMELINE, KEYWORDS, Cues).
   `config.js` wählt die Fassung einmal beim Laden: `window.KISOUND_PAGE.lang` (Website), `?lang=` (Vorschau),
-  `TOKEN_BURN_LANG` (Tests). Schnittzeiten, Lücken, Blende und Titelanker je Fassung; Geometrie und Geschichte
+  eine projektspezifische Umgebungsvariable wie `TOKEN_BURN_LANG` oder `VIBECODER_LANG` (Tests). Schnittzeiten, Lücken, Blende und Titelanker je Fassung; Geometrie und Geschichte
   gemeinsam; Bildschirmtexte lokalisiert. Tests laufen je Fassung (`tests/de.test.mjs`, `tests/en.test.mjs`).
 - Website: `music.mjs` liest die Fassungen (`readVersions`), `build.mjs` erzeugt je Fassung MP3, Wellenform,
   Lyrics-Zeiten und Analyse (`audio-de.*.mp3`, `audio-en.*.mp3` …), `interactive.mjs` schreibt sie in
@@ -369,6 +370,7 @@ Daraus folgen **zwei Live-Code-Fassungen pro Track** in **einem** Projekt:
 
 | Nr | Projekt | Port | Länge DE / EN | Bildwelt / Konzept | Tests | Status |
 | --- | --- | --- | --- | --- | --- | --- |
+| 01 | `Vibecoder/01_Vibecoder` | 8174 | 3:36 / 4:05 | Export bei 99 %, eigener Vier-Reihen-Beat, Track-Tool mit Reload-Fehler; Agentmitte als Blackbox, drei gemeinsame 2D/3D-Artefakte und orange Schiene, 08:00 → 12:00 → 20:00 → 22:00 | 14 | Code + Vorschau, 72 Einstellungen je Fassung geprüft; Website und MP4 offen (14.10.2026) |
 | 02 | `Vibecoder/02_Token_Burn` | 8170 | 4:06 / 4:11 | Nächtliches Zimmer mit Fenster zur Strasse, Laptop mit Sequencer-Demo, Uhr 01:00 → Morgen; Bassfehler nach Reload, Export ohne Bass, Nutzungsjournal (fiktiv), sechs TOKEN-BURN-Titel 2D/3D, Fassade am Anfang und Ende | 28 | Code + Vorschau, online mit DE/EN-Wahl (9.10.2026) |
 | 03 | `Vibecoder/03_SHIP_IT` | 8172 | 2:36 / 2:01 | Dasselbe Zimmer, eine spätere Nacht; Release-Schiene aus fünf Pressen (TRACKS · BUILD · CHECK · DEPLOY · LIVE) und Enter-Makropad wie auf dem Cover; Build grün, Check rot: `05_Hallucination__cover.png` (ein Unterstrich zu viel), `mv`, derselbe Check grün, Commit, Upload 6/12/12, alter Cache, harter Reload, DE/EN mit Lyrics im Original, Link, Play, offener nächster Commit; Titelmarke COMMIT IT. / SHIP IT. 2D/3D | 30 | Code + Vorschau, online mit DE/EN-Wahl (12.10.2026) |
 

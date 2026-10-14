@@ -18,6 +18,7 @@ node tools/export-video.mjs --project <Songordner> --resolution 1080p|4k
   --out PATH            MP4-Pfad, relativ zum Songordner oder absolut
                         Standard: output/<Name>_<Auflösung><fps>_<Zeitstempel>.mp4
   --audio PATH          Audiodatei; sonst audio aus render-export.json
+  --lang CODE           Sprachfassung im Browser (z. B. de oder en)
   --title TEXT          Metadaten-Titel überschreiben
   --artist TEXT         Metadaten-Interpret überschreiben
   --encoder vt|x264      Standard: vt auf macOS, sonst x264
@@ -41,11 +42,12 @@ function numberOption(value,name,min,max,integer=false){
  const n=Number(value);if(!Number.isFinite(n)||n<min||n>max||(integer&&!Number.isInteger(n)))throw new Error(`${name}: erwartet ${integer?'Ganzzahl ':''}${min}–${max}.`);return n;
 }
 export function options(argv,defaultRoot=process.cwd()){
- const strings=['project','resolution','out','audio','title','artist','encoder','jobs','quality','crf','preset','chrome','temp-dir','chunk-seconds','retries','resume'];
+ const strings=['project','resolution','out','audio','lang','title','artist','encoder','jobs','quality','crf','preset','chrome','temp-dir','chunk-seconds','retries','resume'];
  const specification=Object.fromEntries(strings.map(k=>[k,{type:'string'}]));
  for(const k of ['check','keep-temp','help'])specification[k]={type:'boolean'};
  const {values:a}=parseArgs({args:argv,options:specification,strict:true,allowPositionals:false});
  if(a.help)return{help:true};
+ if(a.lang&&!/^[a-z]{2,3}$/.test(a.lang))throw new Error('--lang erwartet einen Sprachcode wie de oder en.');
  if(a.resume){
   const extra=Object.keys(a).filter(k=>!['resume','check','keep-temp'].includes(k));
   if(extra.length)throw new Error('--resume übernimmt die gespeicherten Einstellungen. Andere Optionen entfernen: '+extra.join(', '));
@@ -84,7 +86,7 @@ export function makePlan(o,config,timing,audioInfo,now=new Date()){
  const file=`${name}_${o.resolution}${String(FPS).replace('.','_')}_${stamp}.mp4`;
  const output=path.resolve(o.project,o.out||path.join('output',file));
  if(path.extname(output).toLowerCase()!=='.mp4')throw new Error('--out muss eine .mp4-Datei sein.');
- return{...o,fps:FPS,frames:FRAMES,duration:DURATION,audioDuration,output,
+ return{...o,fps:FPS,frames:FRAMES,duration:DURATION,audioDuration,output,lang:o.lang||config.lang,
   title:o.title??config.title??name,artist:o.artist??config.artist??'',
   audio:path.resolve(o.project,o.audio||config.audio),
   renderer:path.resolve(o.project,config.renderer||'src/render/render.mjs'),
@@ -93,7 +95,7 @@ export function makePlan(o,config,timing,audioInfo,now=new Date()){
 export function rendererArgs(plan,video,range){
  return[plan.renderer,'--width',String(plan.width),'--height',String(plan.height),'--mb','1',
   '--jobs',String(plan.jobs),'--encoder',plan.encoder,'--q',String(plan.quality),'--crf',String(plan.crf),
-  '--preset',plan.preset,'--chrome',plan.chrome,'--out',video,...(range?['--from',String(range.from),'--to',String(range.to)]:[])];
+  '--preset',plan.preset,'--chrome',plan.chrome,'--out',video,...(plan.lang?['--lang',plan.lang]:[]),...(range?['--from',String(range.from),'--to',String(range.to)]:[])];
 }
 export function muxArgs(plan,video,output){
  // Intentionally no -shortest: keep the final ceil(duration*fps) video frame.

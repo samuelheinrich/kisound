@@ -26,7 +26,10 @@ export async function main(argv=process.argv.slice(2)){
   await exportVideo(plan);return plan;
  }
  const root=projectRoot(parsed.project);
- const configFile=path.join(root,'render-export.json'),config=fs.existsSync(configFile)?JSON.parse(fs.readFileSync(configFile,'utf8')):{};
+ const variantFile=parsed.lang?path.join(root,`render-export.${parsed.lang}.json`):null;
+ const configFile=variantFile&&fs.existsSync(variantFile)?variantFile:path.join(root,'render-export.json');
+ const config=fs.existsSync(configFile)?JSON.parse(fs.readFileSync(configFile,'utf8')):{};
+ if(parsed.lang&&config.lang&&parsed.lang!==config.lang)throw new Error(`Keine passende Exportkonfiguration für --lang ${parsed.lang}: ${configFile}`);
  if(config.schema&&config.schema!=='kisound.render-export.v1')throw new Error('Unbekanntes Schema in render-export.json.');
  const audio=findAudio(root,parsed.audio,config);
  const name=path.basename(root).replace(/[^\p{L}\p{N}_-]/gu,'_');

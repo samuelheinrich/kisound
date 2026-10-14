@@ -1,0 +1,4 @@
+node_modules/
+assets/audio/
+assets/manifest.json
+output/qa/
