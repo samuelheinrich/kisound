@@ -21,11 +21,8 @@
     "videos": "../../videos/kisound"
   },
   "deploy": {
-    "host": "s077.cyon.net",
-    "user": "agent_rsync@kisound.ch",
     "protocol": "ftps",
-    "root": "/",
-    "keychain": "kisound.ch-deploy"
+    "root": "/"
   },
   "audio": {
     "format": "mp3",

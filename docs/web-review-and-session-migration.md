@@ -33,7 +33,7 @@ Ein Live-Deploy gehört nicht zu dieser Freigabe.
 | Externe Programme | Node/npm, ffmpeg, ffprobe, cwebp sowie Chrome sind auf diesem Rechner vorhanden. puppeteer-core bringt keinen Browser mit; bei abweichendem Standort `CHROME_PATH` setzen. Python 3 wird für Inventar/Statistik verwendet. |
 | Caches | Die Audio-Cache-Schlüssel enthalten den absoluten Quellpfad. Am neuen Standort ist erneutes Transcodieren zu erwarten. `.cache`, `dist` und `node_modules` nicht importieren. |
 | Absolute Web-Pfade | Im geprüften Web-Laufzeitcode keine fest verdrahteten alten Repo-Pfade gefunden. `README.md:21` enthält noch den alten `cd`-Pfad; nach dem bytegleichen Import als getrennte Dokumentationsänderung korrigieren. |
-| Deployment | Weiterhin externer Keychain-Eintrag `kisound.ch-deploy`. Keine Secrets in Git übernehmen. Deploy wurde nicht getestet oder ausgeführt. |
+| Deployment | Weiterhin externer macOS-Schlüsselbund-Eintrag. Keine Zugangsdaten oder konkreten Konto- und Serverangaben in Git übernehmen. Deploy wurde nicht getestet oder ausgeführt. |
 
 Die Web-Quellen lesen zusätzlich `album.yml`, finale Prompts, WAVs, Cover,
 Transkripte, Sprachvarianten, ASTRA-Analysen und die veröffentlichten URL-Tabellen

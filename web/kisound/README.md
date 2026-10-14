@@ -155,11 +155,13 @@ Jeder statische Webserver mit HTTPS genügt. `dist/.htaccess` konfiguriert Apach
 Cache, HTTPS-Weiterleitung), `server/nginx.conf.example` zeigt dasselbe für nginx. Byte-Ranges müssen
 aktiv sein (Standard bei beiden), sonst lässt sich in Audio nicht spulen.
 
-Deploy (cyon, FTP-Konto `agent_rsync@kisound.ch` auf `s077.cyon.net`, Kontowurzel = Website-Wurzel): Das
-Skript lädt über FTPS (FTP mit TLS) hoch; SFTP lässt cyon für FTP-Konten nicht zu. Das Passwort liegt im macOS-Schlüsselbund,
-Dienst `kisound.ch-deploy`, Konto `agent_rsync@kisound.ch`; ändern mit
-`security add-generic-password -U -s kisound.ch-deploy -a agent_rsync@kisound.ch -w` (fragt nach dem
-Passwort). Hochgeladen werden neue und geänderte Dateien, HTML zuletzt. Gelöscht wird nur mit `--prune`
+Deploy: Das Skript lädt über FTPS (FTP mit TLS) hoch. Server und Konto werden vor dem Aufruf lokal gesetzt:
+`KISOUND_DEPLOY_HOST`, `KISOUND_DEPLOY_USER`. Für das Passwort entweder `KISOUND_DEPLOY_PASSWORD` setzen
+oder den macOS-Schlüsselbund verwenden und dessen Dienst als `KISOUND_DEPLOY_KEYCHAIN_SERVICE` angeben.
+Einen Schlüsselbund-Eintrag bei Bedarf mit
+`security add-generic-password -U -s "$KISOUND_DEPLOY_KEYCHAIN_SERVICE" -a "$KISOUND_DEPLOY_USER" -w`
+anlegen oder aktualisieren. Diese Werte nicht in versionierte Dateien schreiben. Die Kontowurzel muss der
+Website-Wurzel entsprechen. Hochgeladen werden neue und geänderte Dateien, HTML zuletzt. Gelöscht wird nur mit `--prune`
 und nur alte Build-Dateien mit Hash im Namen; fremde Dateien auf dem Server bleiben unberührt.
 
 ## Vor der Veröffentlichung offen

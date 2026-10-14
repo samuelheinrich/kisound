@@ -254,8 +254,8 @@ Befehle (im Ordner `web/kisound`): `npm run build` → `npm run check` → `npm 
 - `site`: name `kisound`, url `https://kisound.ch`, lang `de-CH`, tagline (DE), artist, contact
   (`info@samuel-heinrich.ch`; **Postadresse fehlt** – Build warnt, für ein Schweizer Impressum üblich).
 - `sources`: `../../music/kisound`, `../../videos/kisound`.
-- `deploy`: host `s077.cyon.net`, user `agent_rsync@kisound.ch`, protocol `ftps` (cyon-FTP-Konten können
-  kein SFTP), root `/`, keychain `kisound.ch-deploy`.
+- `deploy`: protocol `ftps`, root `/`. Server, Konto und Schlüsselbund-Dienst werden erst beim lokalen
+  Deploy über Umgebungsvariablen gesetzt; sie stehen nicht in der versionierten Konfiguration.
 - `audio`: MP3 192k. `albums[]`: `dir`, `slug`, `publish` (Album 01 true, **Album 02 false**), `links`
   (YouTube/SoundCloud aus, die Uploads sind privat).
 - `interactive."NN"`: `project` (Ordnername im Videobaum), `label` (DE), `label_en`, `poster` (Zeitpunkt des
@@ -308,8 +308,9 @@ nur bei Änderungen am Player, an der Bündelung oder an three.js. Details: `web
 
 ### 7.7 Hochladen
 
-`src/deploy.mjs`: FTPS zu cyon; Passwort **nur** aus dem macOS-Schlüsselbund (Dienst `kisound.ch-deploy`,
-Konto `agent_rsync@kisound.ch`) oder `KISOUND_DEPLOY_PASSWORD`, nie auf Platte, nie ausgeben. Ohne `--live`
+`src/deploy.mjs`: FTPS; Server und Konto aus `KISOUND_DEPLOY_HOST` und `KISOUND_DEPLOY_USER`.
+Das Passwort kommt aus dem macOS-Schlüsselbund (Dienst aus `KISOUND_DEPLOY_KEYCHAIN_SERVICE`) oder
+`KISOUND_DEPLOY_PASSWORD`; keine Zugangsdaten in Git ablegen oder im Log ausgeben. Ohne `--live`
 nur Plan; `--live` lädt neue/geänderte Dateien (Assets vor HTML); `--prune` löscht nur alte Dateien mit Hash
 im Namen. Hochladen nur auf ausdrücklichen Wunsch des Nutzers. Letzter Upload: 13.10.2026, zweiter Stand (Player: „← KISOUND Startseite“ in der Übersicht, aufklappbare „ⓘ Track-Details“ ohne Unterbruch des Live-Codes, Fassungswahl DE/EN stellt auch die Bedienung um; Impressum mit GitHub-Link „See how it’s built …“; 197 Dateien). Davor: 13.10.2026 (Player mit Technik-Bereich „⚙ Technik“ in allen 22 Live-Code-Stücken: Ansichten, Objektinspektor, Live-Szenenkonfiguration, Leistung; 176 Dateien). Davor: 12.10.2026 (03 SHIP IT als Live-Code DE/EN; 01, 04, 05, 06 als Platzhalter mit Song-Cover und „In Arbeit …“/„Coming soon …“; `album.yml` Track 03 final). Davor: 9.10.2026 (Album Vibecoder als erstes Album: 01 VIBECODER Audio, 02 TOKEN BURN Live-Code DE/EN, 03–06 in Arbeit). Davor: 5.10.2026 (Album 02 veröffentlicht mit
 01 On Call, 02 Active / Standby, 03 TrustSec, 04 Broadcast Storm, 05 Wireshark, 06 ICMP, 07 QoS und 08 Out of Band als Live-Code; Album 02 steht auf der Startseite vor Album 01; TrustSec erscheint mit seiner neuen finalen WAV, Analyse dazu noch aus der alten MP3).
