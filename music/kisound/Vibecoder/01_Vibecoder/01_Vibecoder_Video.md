@@ -1,7 +1,8 @@
 # VIBECODER · Codefilm
 
-Stand 14. Oktober 2026. DE und EN sind als codebasierte Browservorschau
-umgesetzt und lokal geprüft. Kein MP4 exportiert; kein Website-Eintrag geändert.
+Stand 15. Oktober 2026. DE und EN sind als Codefilm umgesetzt und lokal geprüft.
+Beide Fassungen sind als [Live-Code auf kisound.ch](https://kisound.ch/vibecoder/01-vibecoder/live/)
+veröffentlicht. Kein MP4 exportiert.
 
 Projekt: [videos/kisound/Vibecoder/01_Vibecoder](../../../../videos/kisound/Vibecoder/01_Vibecoder/README.md).
 

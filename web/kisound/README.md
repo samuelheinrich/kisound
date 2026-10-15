@@ -80,7 +80,8 @@ inklusive) und ersetzt beim Bündeln dessen `player.js` durch `player/player.js`
 bleibt lokal unverändert lauffähig; es braucht nur die Web-Schnittstelle in `main.js`
 (`window.KISOUND_PAGE`, siehe `videos/kisound/README.md`).
 
-Freigeschaltet: 00 Network Engineers, 01 Layer 2, 02 OSPF Neighbors, 05 WiFi Roaming, 06 Multicast, 09 Last Hop.
+Freigeschaltet sind alle zehn Stücke von Network Engineer 01, alle acht von Network Engineer 02 sowie
+VIBECODER, TOKEN BURN und SHIP IT aus Vibecoder. VIBECODER 01 hat zwei finale Audio- und Live-Code-Fassungen.
 
 Ein weiteres Video freischalten:
 

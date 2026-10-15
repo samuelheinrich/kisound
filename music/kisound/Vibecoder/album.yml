@@ -1,5 +1,5 @@
-# Arbeitsstand: VIBECODER neu als DE/EN-Entwurf; TOKEN BURN und SHIP IT Deutsch/Englisch final.
-# Finale Sprachvarianten stehen unter tracks.02.release_variants; Album-Sprachfolge noch offen.
+# VIBECODER, TOKEN BURN und SHIP IT sind in Deutsch und Englisch final.
+# Die Album-Sprachfolge für separate Albumexporte bleibt offen.
 album: Vibecoder
 artist: Samuel Heinrich
 year: 2026
@@ -80,8 +80,22 @@ youtube:
 
 tracks:
   "01":
-    status: Entwurf (Deutsch und Englisch)
+    status: Final
+    finalized_on: "2026-10-15"
     prompt_version: "0.1"
+    release_variants:
+      de:
+        status: Final
+        prompt: "01_Vibecoder/final/de/01_Vibecoder_1.0.txt"
+        audio: "01_Vibecoder/final/01_Vibecoder_suno-0.1_50_50_exakt_off_DE.wav"
+        duration_seconds: 216.240000
+        audio_sha256: "2a32ee2e01c429f1a051cfe913448576d7e6615930567220aca48feada845d97"
+      en:
+        status: Final
+        prompt: "01_Vibecoder/final/en/01_Vibecoder_1.0.txt"
+        audio: "01_Vibecoder/final/01_Vibecoder_suno-0.1_50_50_exakt_off_EN.wav"
+        duration_seconds: 244.760000
+        audio_sha256: "0ec442b9fa84de0a6b0e781f625597192015839555d1c27d60e649df6463d514"
     genre: Peak-Time Tech House / Dark Electro
     theme: >-
       Ein Vibecoder der neuen Generation löst Alltagsprobleme mit einem Skript,

@@ -33,6 +33,10 @@ const S=id=>SHOT[id].start;
 export function shotAt(t){return SHOTS[clamp(upperBound(SHOTS,t,s=>s.start)-1,0,SHOTS.length-1)];}
 export function shotProgress(t,shot=shotAt(t)){return clamp((t-shot.start)/Math.max(.001,shot.end-shot.start));}
 export function clock(t){return t<S('S029')?'08:00':t<S('S038')?'12:00':t<S('S066')?'20:00':'22:00';}
+export function placeAt(t){
+ const id=Number(shotAt(t).id.slice(1));
+ return id<=15?'cafe':id<=28?'park':id<=37?'forest':id<=52?'fairground':id<=65?'coaster':'exit';
+}
 export function catalog(t){
  if(t<S('S012'))return 'stuck';
  if(t<S('S013'))return 'diff';
@@ -101,4 +105,4 @@ export function loopPhase(t){
  const u=shotProgress(t,shot),shift=shot.chapter==='outro'?0:(Number(shot.id.slice(1))%4);
  return Math.min(3,Math.floor((u*4+shift)%4));
 }
-export function filmState(t){return{t,shot:shotAt(t).id,clock:clock(t),catalog:catalog(t),pattern:pattern(t),app:app(t),artifacts:artifactStatus(t),bridge:bridgeText(t),nextOpen:t>=S('S062')&&t<DURATION};}
+export function filmState(t){return{t,shot:shotAt(t).id,place:placeAt(t),clock:clock(t),catalog:catalog(t),pattern:pattern(t),app:app(t),artifacts:artifactStatus(t),bridge:bridgeText(t),nextOpen:t>=S('S062')&&t<DURATION};}

@@ -1,8 +1,15 @@
 # 01 · VIBECODER — Der sichtbare Weg
 
-Codebasierter Film zu Track 01 des Albums **Vibecoder**. Stand 14. Oktober 2026:
-DE und EN sind als eigenständige Browservorschauen umgesetzt und technisch geprüft.
-Ein MP4 wurde nicht exportiert; der Film ist noch nicht in kisound.ch eingetragen.
+Codebasierter Film zu Track 01 des Albums **Vibecoder**. Stand 15. Oktober 2026:
+Die [Bildfassung V4](ASTRA-DREHBUCH-v4.md) gibt der Figur eine geformte,
+gesichtslose Stoffkapuze mit matter, zurückgesetzter Dunkelheit. Ihre Hände
+und Finger tippen auf der Tastatur. Beim ersten VIBECODER-Ruf um 51 Sekunden
+(EN um 62 Sekunden) gehen beide Hände hoch; auf der Achterbahn folgen weitere
+Bassgesten, auch in der Fahrersicht. Die [72 Einstellungen](SCHNITTLISTE-v2.md) führen an einem Tag vom Café über
+einen belebten Park durch Wald und Berg zum nächtlichen Vergnügungspark.
+Die lokale Browserprüfung ist für DE und EN bestanden. Beide Fassungen sind als
+[Live-Code auf kisound.ch](https://kisound.ch/vibecoder/01-vibecoder/live/) veröffentlicht.
+Ein MP4 wurde nicht exportiert; die Website berechnet die Bilder im Browser.
 
 ## Start
 
@@ -53,27 +60,55 @@ DE und EN haben eigene Shotzeiten und werden nicht proportional gestreckt.
 
 ## Handlung und Bild
 
-Um 08:00 hängt ein Katalogexport bei 99 %. Die Person formuliert einen
-prüfbaren Auftrag: Datei und Status müssen stimmen. Ein zweiter Exportfall
-scheitert und wird korrigiert. Mittags führen drei unpassende Kandidaten zu
-einem eigenen Pattern mit vier Reihen. Abends baut die Person ein kleines Tool,
-das den Track wählt und ein Paket exportiert. Ein Reload verliert zuerst die
-Auswahl, ein falscher Speicherschlüssel besteht den Test nicht; erst der zweite
-Fix bleibt grün. In der Bridge greift der Hardcoder die opake Agentmitte an.
-Die Antwort zeigt Auftrag, Diff und Test, ohne die Blackbox zu erfinden. Drei
-Artefakte verbinden sich zur orangefarbenen Schiene. Um 22:00 kehren die
-räumlichen Karten an den Tisch zurück; ein neuer Wunsch bleibt offen.
+Im Café hängt ein Katalogexport bei 99 %. Datei und Status werden mit zwei
+Tests geprüft. Im Park scheitert ein zweiter Exportfall und wird korrigiert.
+Der durchgehende Wald und Berg tragen den eigenen Vier-Reihen-Beat. Auf dem Jahrmarkt entsteht
+das kleine Track-Tool; erst der wiederholte Reload-Test macht seine Auswahl
+beständig. Die Hardcoder-Nachricht erscheint als Einblendung über der
+Einstiegsfahrt. Die Person zeigt Auftrag, Diff und Test und fährt mit dem Laptop in
+der gesicherten Gondel. Nach dem Ausstieg bleibt ein neuer Wunsch offen.
 
-Die **2D-Flächen** tragen Auftrag, Diff und Test. Im **3D-Raum** bleiben
-Arbeitsplatz, Uhr, Licht und die drei Artefakte über alle Kapitel dieselben
-Objekte. Die Projektkarten übernehmen ihre Texte und Zustände aus demselben
-Modell wie die Vollbildansichten; die Pattern-Steps haben zusätzlich echte
-räumliche Plättchen. Orange bezeichnet den sichtbaren Arbeitsweg, Grün einen
-bestandenen Test, Rot einen Fehlversuch. Audioenergie bewegt Licht, Schiene und
-Plättchen nur innerhalb enger Grenzen; sie ändert nie einen Testzustand.
+Die **2D-Flächen** tragen Auftrag, Diff und Test. Die **3D-Orte** werden aus
+Geometrie, Material und Licht im Browser erzeugt: ein rundum eingerichtetes Café, belebter Park,
+durchgehender Wald mit Bergblick, Vergnügungspark, durchgehendes Gleis und
+Ausgang. Die Kapuze hat eine geformte Stoffhülle mit dunkler Öffnung ohne
+Gesicht. Ein geschlossener Stoffrand und matte Innenfalten führen zu einem
+zurückgesetzten, vollständig abgedunkelten Abschluss; kein Licht spiegelt sich
+darin. Ärmel, Unterarme, Handflächen und
+Finger reichen bis auf die Laptop-Tastatur und tippen versetzt im Takt.
+Auch in der Fahrersicht sind die Hände am Laptop zu sehen. Die Person sitzt im Café, im Park und zunächst im Wald,
+geht dann zum Aussichtspunkt und steigt später in die Gondel. Im Park laufen
+Jogger, Spaziergänger mit Hunden und Frisbee-Spieler. Im Café füllen Rückwand,
+Seitenwände, Fenster, Theke, Espresso- und Gebäckstation, Tische, Gäste,
+Wandbilder und Deckenleuchten auch die vorderen Kamerawinkel. Dort erscheinen
+die Beweise auf dem Laptop und in den 2D-Schnitten; schwebende Karten und
+HUD-Tafeln verdecken die Figur nicht. Über dem Park liegt eine langsam
+ziehende Himmelskugel mit blauem Himmel und Wolken. Über Wald und Berg
+ziehen dunkle Wolken; am Aussichtspunkt setzen Regen und kurze Blitze ein.
+Auch dort bleiben die Beweise auf dem Laptop und in den 2D-Schnitten, damit
+Wetter und Figur sichtbar sind.
+Die drei Artefaktkarten übernehmen Texte und Zustände aus demselben Modell
+wie die Vollbildansichten; Pattern-Steps sind auch räumliche Plättchen. Orange
+bezeichnet den Arbeitsweg in der Oberfläche und auf den Gleisen; dekorative
+orange Linien auf dem Boden wurden entfernt. Grün bedeutet einen bestandenen Test, Rot einen
+Fehlversuch. Gemessene Audioenergie bewegt Licht und Material in engen Grenzen,
+aber nie einen Testzustand. In jeder 2D-Passage zoomt die Kamera auf den
+Laptopbildschirm und danach an die fortlaufende Position im 3D-Ort zurück.
+Die Kamera umrundet die Figur auch von vorn; die räumlichen Titel lassen sie
+sichtbar. Die Achterbahn beginnt bei S053 am Boden und fährt ab S054 los.
+Fahrersicht mit Laptop am unteren Bildrand, leichtes Rütteln und Blicke zur
+Seite wechseln mit Kamerafahrten um die Gondel bei S059, S061 und S064.
+Gemessene Bassschläge lassen die Figur wiederholt beide Hände oder abwechselnd
+einen Arm heben; die Gesten erscheinen auch neben dem Laptop in der Fahrersicht.
+S059 zeigt die drei Beweiskarten räumlich; S062 ist der einzige Wechsel in
+eine bildfüllende 2D-Szene während der Fahrt.
+Einstieg und Ausstieg liegen am Boden; die Stützen tragen die gesamte Strecke.
+Riesenrad, Karussell, Fallturm, Buden und Publikum stehen unter einer
+texturierten Himmelskugel mit Sternen und Mond.
 
-[Drehbuch](ASTRA-DREHBUCH.md) · [Schnittliste](SCHNITTLISTE.md) ·
-[Regie-Cues](REGIE-CUES.json) · [Abnahme](ABNAHME.md).
+[Regie V4](ASTRA-DREHBUCH-v4.md) · [Regie V3](ASTRA-DREHBUCH-v3.md) · [Drehbuch V2](ASTRA-DREHBUCH-v2.md) · [Schnittliste V2](SCHNITTLISTE-v2.md) ·
+[Regie-Cues](REGIE-CUES.json) · [Abnahme](ABNAHME.md) ·
+[V1-Drehbuch](ASTRA-DREHBUCH.md).
 `build_screenplay.py` erzeugt die Schnittliste, Regie-Cues, das Quellenmanifest
 und `src/render/shot-data.js`; `npm run cues` erzeugt die sprachgetrennten
 Umsetzungslisten aus dem laufenden Modell. Die Schnittstelle für Player und

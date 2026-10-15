@@ -1,6 +1,6 @@
 # kisound · Produktionshandbuch Live-Code-Stücke und kisound.ch
 
-Stand: 14. Oktober 2026, ergänzt um den Codefilm 01 „Vibecoder“. Dieses Dokument beschreibt,
+Stand: 15. Oktober 2026, ergänzt um den veröffentlichten Codefilm 01 „Vibecoder“. Dieses Dokument beschreibt,
 wie die drei Ordner zusammenhängen, wie die codebasierten Stücke gebaut werden, welche Quellen sie lesen
 und wie die Website kisound.ch entsteht und hochgeladen wird. Ziel: reproduzierbare Ergebnisse, auch in
 einer neuen Sitzung ohne Vorwissen.
@@ -312,7 +312,7 @@ nur bei Änderungen am Player, an der Bündelung oder an three.js. Details: `web
 Das Passwort kommt aus dem macOS-Schlüsselbund (Dienst aus `KISOUND_DEPLOY_KEYCHAIN_SERVICE`) oder
 `KISOUND_DEPLOY_PASSWORD`; keine Zugangsdaten in Git ablegen oder im Log ausgeben. Ohne `--live`
 nur Plan; `--live` lädt neue/geänderte Dateien (Assets vor HTML); `--prune` löscht nur alte Dateien mit Hash
-im Namen. Hochladen nur auf ausdrücklichen Wunsch des Nutzers. Letzter Upload: 13.10.2026, zweiter Stand (Player: „← KISOUND Startseite“ in der Übersicht, aufklappbare „ⓘ Track-Details“ ohne Unterbruch des Live-Codes, Fassungswahl DE/EN stellt auch die Bedienung um; Impressum mit GitHub-Link „See how it’s built …“; 197 Dateien). Davor: 13.10.2026 (Player mit Technik-Bereich „⚙ Technik“ in allen 22 Live-Code-Stücken: Ansichten, Objektinspektor, Live-Szenenkonfiguration, Leistung; 176 Dateien). Davor: 12.10.2026 (03 SHIP IT als Live-Code DE/EN; 01, 04, 05, 06 als Platzhalter mit Song-Cover und „In Arbeit …“/„Coming soon …“; `album.yml` Track 03 final). Davor: 9.10.2026 (Album Vibecoder als erstes Album: 01 VIBECODER Audio, 02 TOKEN BURN Live-Code DE/EN, 03–06 in Arbeit). Davor: 5.10.2026 (Album 02 veröffentlicht mit
+im Namen. Hochladen nur auf ausdrücklichen Wunsch des Nutzers. Letzter Upload: 15.10.2026 (01 VIBECODER als Live-Code DE/EN; 138 Dateien übertragen, ohne `--prune`; öffentliche DE/EN-Prüfung bestanden). Davor: 13.10.2026, zweiter Stand (Player: „← KISOUND Startseite“ in der Übersicht, aufklappbare „ⓘ Track-Details“ ohne Unterbruch des Live-Codes, Fassungswahl DE/EN stellt auch die Bedienung um; Impressum mit GitHub-Link „See how it’s built …“; 197 Dateien). Davor: 13.10.2026 (Player mit Technik-Bereich „⚙ Technik“ in allen 22 Live-Code-Stücken: Ansichten, Objektinspektor, Live-Szenenkonfiguration, Leistung; 176 Dateien). Davor: 12.10.2026 (03 SHIP IT als Live-Code DE/EN; 01, 04, 05, 06 als Platzhalter mit Song-Cover und „In Arbeit …“/„Coming soon …“; `album.yml` Track 03 final). Davor: 9.10.2026 (Album Vibecoder als erstes Album: 01 VIBECODER Audio, 02 TOKEN BURN Live-Code DE/EN, 03–06 in Arbeit). Davor: 5.10.2026 (Album 02 veröffentlicht mit
 01 On Call, 02 Active / Standby, 03 TrustSec, 04 Broadcast Storm, 05 Wireshark, 06 ICMP, 07 QoS und 08 Out of Band als Live-Code; Album 02 steht auf der Startseite vor Album 01; TrustSec erscheint mit seiner neuen finalen WAV, Analyse dazu noch aus der alten MP3).
 
 ## 8. Album 02 – was vor dem Start zu klären ist
@@ -371,7 +371,7 @@ Daraus folgen **zwei Live-Code-Fassungen pro Track** in **einem** Projekt:
 
 | Nr | Projekt | Port | Länge DE / EN | Bildwelt / Konzept | Tests | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| 01 | `Vibecoder/01_Vibecoder` | 8174 | 3:36 / 4:05 | Export bei 99 %, eigener Vier-Reihen-Beat, Track-Tool mit Reload-Fehler; Agentmitte als Blackbox, drei gemeinsame 2D/3D-Artefakte und orange Schiene, 08:00 → 12:00 → 20:00 → 22:00 | 14 | Code + Vorschau, 72 Einstellungen je Fassung geprüft; Website und MP4 offen (14.10.2026) |
+| 01 | `Vibecoder/01_Vibecoder` | 8174 | 3:36 / 4:05 | Café, Park, Wald/Berg und Achterbahn: Export bei 99 %, eigener Vier-Reihen-Beat, Track-Tool mit Reload-Fehler, 08:00 → 12:00 → 20:00 → 22:00 | 23 | Live-Code DE/EN auf kisound.ch (15.10.2026), 72 Einstellungen je Fassung geprüft; kein MP4 |
 | 02 | `Vibecoder/02_Token_Burn` | 8170 | 4:06 / 4:11 | Nächtliches Zimmer mit Fenster zur Strasse, Laptop mit Sequencer-Demo, Uhr 01:00 → Morgen; Bassfehler nach Reload, Export ohne Bass, Nutzungsjournal (fiktiv), sechs TOKEN-BURN-Titel 2D/3D, Fassade am Anfang und Ende | 28 | Code + Vorschau, online mit DE/EN-Wahl (9.10.2026) |
 | 03 | `Vibecoder/03_SHIP_IT` | 8172 | 2:36 / 2:01 | Dasselbe Zimmer, eine spätere Nacht; Release-Schiene aus fünf Pressen (TRACKS · BUILD · CHECK · DEPLOY · LIVE) und Enter-Makropad wie auf dem Cover; Build grün, Check rot: `05_Hallucination__cover.png` (ein Unterstrich zu viel), `mv`, derselbe Check grün, Commit, Upload 6/12/12, alter Cache, harter Reload, DE/EN mit Lyrics im Original, Link, Play, offener nächster Commit; Titelmarke COMMIT IT. / SHIP IT. 2D/3D | 30 | Code + Vorschau, online mit DE/EN-Wahl (12.10.2026) |
 
@@ -379,12 +379,10 @@ Daraus folgen **zwei Live-Code-Fassungen pro Track** in **einem** Projekt:
 
 - Audio, Lizenz-PDFs und Renderdateien liegen lokal ausserhalb von Git; ihr Inventar steht
   im Repository-Stamm. Vor Änderungen an `web/kisound/` bestätigt der zuständige Web-Build-Agent die Übergabe.
-- MP4-Exporte von 01–04, 06–09 nicht gerendert (Freigabe ausstehend; `kisound-render 4k --check` jeweils bestanden).
+- MP4-Exporte sind unabhängig von den veröffentlichten Live-Code-Stücken. Für VIBECODER 01 sind DE/EN-Exportprüfungen bestanden, aber keine MP4-Dateien erzeugt.
 - Impressum ohne Postadresse.
 - Lyric-Zeiten aller Stücke stammen aus automatischen Transkripten ohne Hörprüfung.
-- Vibecoder (Stand 12.10.2026): `01_Vibecoder` hat keinen `final/`-Ordner mehr, auf der Albumseite ist sein Play-Knopf
-  stumm. `web/kisound/src/check.mjs` klickt deshalb den ersten abspielbaren Knopf (`.row-play:not(.muted)`).
-  Der Fassungstest prüft seit 12.10. allgemein, dass 90 s DE in derselben Einstellung der EN-Fassung landen (vorher fest
-  auf TOKEN BURN, 100–115 s).
+- Vibecoder 01 ist seit 15.10.2026 mit finalen DE/EN-WAVs und Live-Code veröffentlicht.
+  Der Fassungstest prüft, dass 90 s DE in derselben Einstellung der EN-Fassung landen.
   Tracks ohne finale Aufnahme erscheinen als Platzhalter (Song-Cover, „In Arbeit …“ / „Coming soon …“) in Trackliste
   und Live-Code-Bereichen.

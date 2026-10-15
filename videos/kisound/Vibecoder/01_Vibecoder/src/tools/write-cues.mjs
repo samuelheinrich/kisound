@@ -28,6 +28,10 @@ const out={schema:'kisound.vibecoder01.implementation-cues.v1',language:lang,sou
  chapters:C.CHAPTERS,shots};
 const dir=path.join(root,'variants',lang);
 fs.writeFileSync(path.join(dir,'UMSETZUNG-CUES.json'),JSON.stringify(out,null,2)+'\n');
+// The website maps DE/EN playback positions through these exact shot starts.
+const timeline={schema:'kisound.video.timeline.v1',language:lang,duration_s:C.DURATION,fps:C.FPS,frames:C.FRAMES,
+ source_audio_sha256:C.SOURCE_SHA256,shots:shots.map(s=>({id:s.id,zone:s.zone,mode:s.mode,start_s:s.start_s,end_s:s.end_s}))};
+fs.writeFileSync(path.join(dir,'TIMELINE.json'),JSON.stringify(timeline,null,2)+'\n');
 const md=[`# VIBECODER ${lang.toUpperCase()} · Umsetzung und Cues`,'',
  'Aus `REGIE-CUES.json` und dem aktuellen Filmcode erzeugt (`npm run cues`). Zeiten ab Sample 0 der jeweiligen finalen WAV.','',
  `**${shots.length} Einstellungen**, ${C.CHAPTERS.length} Kapitel, ${analysis.events.length} Messereignisse und ${analysis.lyrics.segments.length} Transkriptsegmente. ${C.FRAMES} Frames bei ${C.FPS} fps; letztes Gesangsende ${tc(C.LAST_VOCAL)}, Audioende ${tc(C.DURATION)}.`,'',

@@ -17,10 +17,18 @@ test(`${C.LANG}: final audio, analysis and 60-fps duration agree`,()=>{
  assert.equal(analysis.source.transcript_sha256,manifest.inputs.transcript.sha256);
 });
 test(`${C.LANG}: all 72 authored cuts are used in order and cover the WAV`,()=>{
+ const webTimeline=read(`../variants/${C.LANG}/TIMELINE.json`);
  assert.equal(C.SHOTS.length,72);assert.equal(screenplay.shots.length,72);
  assert.equal(C.SHOTS[0].start,0);assert.equal(C.SHOTS.at(-1).end,C.DURATION);
+ assert.equal(webTimeline.duration_s,C.DURATION);assert.equal(webTimeline.source_audio_sha256,C.SOURCE_SHA256);
+ assert.deepEqual(webTimeline.shots.map(s=>[s.id,s.start_s,s.end_s]),C.SHOTS.map(s=>[s.id,s.start,s.end]));
  C.SHOTS.forEach((s,i)=>{const q=screenplay.shots[i];assert.equal(s.id,q.id);assert.equal(s.start,q.starts_s[C.LANG]);assert.equal(s.end,q.ends_s[C.LANG]);assert.equal(s.zone,q.zone);assert.equal(s.mode,q.mode);assert.ok(s.end>s.start);if(i)assert.equal(C.SHOTS[i-1].end,s.start);});
  assert.equal(C.CHAPTERS.length,11);assert.equal(C.CHAPTERS[0].start,0);assert.equal(C.CHAPTERS.at(-1).end,C.DURATION);
+});
+test(`${C.LANG}: the route and clock follow one day`,()=>{
+ const route=[['S001','cafe'],['S015','cafe'],['S016','park'],['S028','park'],['S029','forest'],['S033','forest'],['S034','forest'],['S037','forest'],['S038','fairground'],['S052','fairground'],['S053','coaster'],['S065','coaster'],['S066','exit'],['S072','exit']];
+ for(const [id,place] of route)assert.equal(M.placeAt(mid(id)),place,id);
+ assert.equal(M.clock(mid('S065')),'20:00');assert.equal(M.clock(mid('S066')),'22:00');
 });
 test(`${C.LANG}: every measured event and lyric starts in exactly one cut`,()=>{
  const events=tl.shots.flatMap(s=>s.eventIds),lyrics=tl.shots.flatMap(s=>s.lyricIds);

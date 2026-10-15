@@ -1,6 +1,6 @@
 # Vibecoder
 
-Arbeitsstand 13. Oktober 2026 · Samuel Heinrich · 2026
+Arbeitsstand 15. Oktober 2026 · Samuel Heinrich · 2026
 
 **VIBECODER hat jetzt finale WAVs in Deutsch und Englisch.** Die Quelltexte der Fassung 0.1 bleiben als Lyrics- und Stilreferenz erhalten. Der aktuelle Stil ist Peak-Time Tech House / Dark Electro: rollender Bass, tiefe raue Stimme und ein sofortiger Hook-Ruf im Club-Drop. **TOKEN BURN und SHIP IT sind ebenfalls in Deutsch und Englisch final.** Die Tracks 04–06 bleiben vorerst auf ihrem bisherigen Stand.
 
@@ -83,11 +83,11 @@ Frühere abweichende Fassungen liegen unter `archive/covers/`.
 
 ## Gemeinsame Geschichte und Video-Motive
 
-VIBECODER hat noch kein neues Videokonzept. Die neuen Lyrics zeigen einen Alltag mit kleinem Hilfsskript, selbst erzeugter Musik und einer passenden App. SHIP IT zeigt den Release von Album drei auf der eigenen Website: Build, Coverpfad-Fehler, Check, Deploy und Browserprüfung. Die übrigen Videoentwürfe arbeiten bisher mit einer Sequencer-Demo mit vier Spuren und sechzehn Schritten je Spur. Ihre Motive werden bei der jeweiligen Track-Überarbeitung neu abgestimmt. Die Demo ist Bildhandlung; die gewählte Songaufnahme liefert den Originalton.
+VIBECODER hat einen geprüften Codefilm mit eigenständigen DE- und EN-Fassungen: Café, Park, Wald und Berg, Vergnügungspark und Achterbahn. Die Lyrics zeigen einen Alltag mit kleinem Hilfsskript, selbst erzeugter Musik und einer passenden App. SHIP IT zeigt den Release von Album drei auf der eigenen Website: Build, Coverpfad-Fehler, Check, Deploy und Browserprüfung. Die übrigen Videoentwürfe arbeiten bisher mit einer Sequencer-Demo mit vier Spuren und sechzehn Schritten je Spur. Ihre Motive werden bei der jeweiligen Track-Überarbeitung neu abgestimmt. Die Demo ist Bildhandlung; die gewählte Songaufnahme liefert den Originalton.
 
 | Track | Szenenkonzept |
 | --- | --- |
-| VIBECODER | Neues Videokonzept nach Auswahl einer Aufnahme. |
+| VIBECODER | [Codefilm und Abnahme](../../../videos/kisound/Vibecoder/01_Vibecoder/README.md): 72 Einstellungen je Fassung. |
 | TOKEN BURN | [Die Session bis zum Tageslicht](02_Token_Burn/02_Token_Burn_Video_Konzept.md) |
 | SHIP IT | [Album drei veröffentlichen](03_SHIP_IT/03_SHIP_IT_Video_Konzept.md) |
 | AI SLOP | [Feed, Varianten und eigener Song](04_AI_Slop/04_AI_Slop_Video_Konzept.md) |
@@ -112,7 +112,7 @@ Die aktuellen Prompt-Fassungen wurden auf Zeichenlänge, Abschnittsformat, Refra
 
 Beim Anhören der weiteren Suno-Kandidaten werden besonders Verständlichkeit, tatsächliche Länge, die Entwicklung der Energie über 01–03, die helle Stimmung bei unverändertem Tempo in 04 und der Ausklang 05–06 geprüft. Für SHIP IT müssen die einzelne Stimme, die kurze Hook und die harten Bass-Drops tragen; für CONTEXT WINDOW muss das lange Outro hörbar ausklingen.
 
-`album.yml` enthält Album- und Trackmetadaten sowie die beiden finalen TOKEN-BURN-Aufnahmen. Die neuen finalen VIBECODER-WAVs sind im jeweiligen `final/<Sprache>/01_Vibecoder_1.0.txt` dokumentiert; `album.yml` wurde für den Albumexport noch nicht auf sie umgestellt. Die Sprachfolge für die Albumveröffentlichung bleibt offen; YouTube-Sprachdefaults stehen vorläufig auf Deutsch. Die bestehenden Release-Skripte lesen einen finalen Prompt je Track direkt aus dem Trackordner. Die bestätigten Sprachfassungen liegen getrennt unter `final/de/` und `final/en/` und werden nicht automatisch als zwei gleichnamige Albumtracks exportiert. Vor dem Albumexport wird die gewünschte Sprachfolge in die üblichen Track-Prompts übernommen.
+`album.yml` enthält Album- und Trackmetadaten sowie die finalen DE- und EN-Aufnahmen von VIBECODER, TOKEN BURN und SHIP IT. Die Sprachfolge für einen separaten Albumexport bleibt offen; YouTube-Sprachdefaults stehen vorläufig auf Deutsch. Die bestehenden Album-Release-Skripte lesen einen finalen Prompt je Track direkt aus dem Trackordner. Die bestätigten Sprachfassungen liegen getrennt unter `final/de/` und `final/en/` und werden nicht automatisch als zwei gleichnamige Albumtracks exportiert. Vor einem Albumexport wird die gewünschte Sprachfolge in die üblichen Track-Prompts übernommen.
 
 ### TOKEN BURN · Final 1.0
 

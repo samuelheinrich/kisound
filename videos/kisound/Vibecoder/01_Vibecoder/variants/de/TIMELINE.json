@@ -1,0 +1,514 @@
+{
+  "schema": "kisound.video.timeline.v1",
+  "language": "de",
+  "duration_s": 216.24,
+  "fps": 60,
+  "frames": 12975,
+  "source_audio_sha256": "2a32ee2e01c429f1a051cfe913448576d7e6615930567220aca48feada845d97",
+  "shots": [
+    {
+      "id": "S001",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 0,
+      "end_s": 2.8
+    },
+    {
+      "id": "S002",
+      "zone": "type",
+      "mode": "2D",
+      "start_s": 2.8,
+      "end_s": 5.5
+    },
+    {
+      "id": "S003",
+      "zone": "type",
+      "mode": "2D+3D",
+      "start_s": 5.5,
+      "end_s": 7.2
+    },
+    {
+      "id": "S004",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 7.2,
+      "end_s": 8
+    },
+    {
+      "id": "S005",
+      "zone": "project",
+      "mode": "2D+3D",
+      "start_s": 8,
+      "end_s": 11
+    },
+    {
+      "id": "S006",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 11,
+      "end_s": 14.5
+    },
+    {
+      "id": "S007",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 14.5,
+      "end_s": 18
+    },
+    {
+      "id": "S008",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 18,
+      "end_s": 21
+    },
+    {
+      "id": "S009",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 21,
+      "end_s": 24.58
+    },
+    {
+      "id": "S010",
+      "zone": "desk",
+      "mode": "3D",
+      "start_s": 24.58,
+      "end_s": 28.14
+    },
+    {
+      "id": "S011",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 28.14,
+      "end_s": 30
+    },
+    {
+      "id": "S012",
+      "zone": "screen",
+      "mode": "2D+3D",
+      "start_s": 30,
+      "end_s": 31.66
+    },
+    {
+      "id": "S013",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 31.66,
+      "end_s": 33.4
+    },
+    {
+      "id": "S014",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 33.4,
+      "end_s": 35.14
+    },
+    {
+      "id": "S015",
+      "zone": "project",
+      "mode": "2D+3D",
+      "start_s": 35.14,
+      "end_s": 36
+    },
+    {
+      "id": "S016",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 36,
+      "end_s": 39.18
+    },
+    {
+      "id": "S017",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 39.18,
+      "end_s": 40.9
+    },
+    {
+      "id": "S018",
+      "zone": "project",
+      "mode": "2D+3D",
+      "start_s": 40.9,
+      "end_s": 42.62
+    },
+    {
+      "id": "S019",
+      "zone": "project",
+      "mode": "3D",
+      "start_s": 42.62,
+      "end_s": 46.52
+    },
+    {
+      "id": "S020",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 46.52,
+      "end_s": 49
+    },
+    {
+      "id": "S021",
+      "zone": "type",
+      "mode": "2D",
+      "start_s": 49,
+      "end_s": 53.94
+    },
+    {
+      "id": "S022",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 53.94,
+      "end_s": 58.06
+    },
+    {
+      "id": "S023",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 58.06,
+      "end_s": 63.2
+    },
+    {
+      "id": "S024",
+      "zone": "type",
+      "mode": "2D+3D",
+      "start_s": 63.2,
+      "end_s": 65.28
+    },
+    {
+      "id": "S025",
+      "zone": "project",
+      "mode": "3D",
+      "start_s": 65.28,
+      "end_s": 68.36
+    },
+    {
+      "id": "S026",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 68.36,
+      "end_s": 71.68
+    },
+    {
+      "id": "S027",
+      "zone": "desk",
+      "mode": "3D",
+      "start_s": 71.68,
+      "end_s": 77.62
+    },
+    {
+      "id": "S028",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 77.62,
+      "end_s": 80
+    },
+    {
+      "id": "S029",
+      "zone": "project",
+      "mode": "3D",
+      "start_s": 80,
+      "end_s": 82.5
+    },
+    {
+      "id": "S030",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 82.5,
+      "end_s": 85
+    },
+    {
+      "id": "S031",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 85,
+      "end_s": 88
+    },
+    {
+      "id": "S032",
+      "zone": "project",
+      "mode": "2D+3D",
+      "start_s": 88,
+      "end_s": 90.5
+    },
+    {
+      "id": "S033",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 90.5,
+      "end_s": 93
+    },
+    {
+      "id": "S034",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 93,
+      "end_s": 96.64
+    },
+    {
+      "id": "S035",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 96.64,
+      "end_s": 100.4
+    },
+    {
+      "id": "S036",
+      "zone": "project",
+      "mode": "2D+3D",
+      "start_s": 100.4,
+      "end_s": 103.86
+    },
+    {
+      "id": "S037",
+      "zone": "project",
+      "mode": "3D",
+      "start_s": 103.86,
+      "end_s": 107.44
+    },
+    {
+      "id": "S038",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 107.44,
+      "end_s": 110.9
+    },
+    {
+      "id": "S039",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 110.9,
+      "end_s": 114.86
+    },
+    {
+      "id": "S040",
+      "zone": "screen",
+      "mode": "2D+3D",
+      "start_s": 114.86,
+      "end_s": 116.3
+    },
+    {
+      "id": "S041",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 116.3,
+      "end_s": 118.14
+    },
+    {
+      "id": "S042",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 118.14,
+      "end_s": 121.9
+    },
+    {
+      "id": "S043",
+      "zone": "type",
+      "mode": "2D+3D",
+      "start_s": 121.9,
+      "end_s": 123
+    },
+    {
+      "id": "S044",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 123,
+      "end_s": 126.22
+    },
+    {
+      "id": "S045",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 126.22,
+      "end_s": 130.2
+    },
+    {
+      "id": "S046",
+      "zone": "project",
+      "mode": "2D+3D",
+      "start_s": 130.2,
+      "end_s": 133.64
+    },
+    {
+      "id": "S047",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 133.64,
+      "end_s": 137.48
+    },
+    {
+      "id": "S048",
+      "zone": "project",
+      "mode": "3D",
+      "start_s": 137.48,
+      "end_s": 140.62
+    },
+    {
+      "id": "S049",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 140.62,
+      "end_s": 143.86
+    },
+    {
+      "id": "S050",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 143.86,
+      "end_s": 145
+    },
+    {
+      "id": "S051",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 145,
+      "end_s": 147.14
+    },
+    {
+      "id": "S052",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 147.14,
+      "end_s": 150.48
+    },
+    {
+      "id": "S053",
+      "zone": "project",
+      "mode": "2D+3D",
+      "start_s": 150.48,
+      "end_s": 151.56
+    },
+    {
+      "id": "S054",
+      "zone": "type",
+      "mode": "2D",
+      "start_s": 151.56,
+      "end_s": 154.98
+    },
+    {
+      "id": "S055",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 154.98,
+      "end_s": 156.4
+    },
+    {
+      "id": "S056",
+      "zone": "project",
+      "mode": "2D+3D",
+      "start_s": 156.4,
+      "end_s": 157.8
+    },
+    {
+      "id": "S057",
+      "zone": "type",
+      "mode": "2D+3D",
+      "start_s": 157.8,
+      "end_s": 162.34
+    },
+    {
+      "id": "S058",
+      "zone": "project",
+      "mode": "3D",
+      "start_s": 162.34,
+      "end_s": 165.46
+    },
+    {
+      "id": "S059",
+      "zone": "project",
+      "mode": "2D+3D",
+      "start_s": 165.46,
+      "end_s": 169.48
+    },
+    {
+      "id": "S060",
+      "zone": "project",
+      "mode": "3D",
+      "start_s": 169.48,
+      "end_s": 170.5
+    },
+    {
+      "id": "S061",
+      "zone": "project",
+      "mode": "3D",
+      "start_s": 170.5,
+      "end_s": 173.02
+    },
+    {
+      "id": "S062",
+      "zone": "screen",
+      "mode": "2D+3D",
+      "start_s": 173.02,
+      "end_s": 175.3
+    },
+    {
+      "id": "S063",
+      "zone": "project",
+      "mode": "3D",
+      "start_s": 175.3,
+      "end_s": 178.98
+    },
+    {
+      "id": "S064",
+      "zone": "type",
+      "mode": "3D",
+      "start_s": 178.98,
+      "end_s": 180.62
+    },
+    {
+      "id": "S065",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 180.62,
+      "end_s": 187.34
+    },
+    {
+      "id": "S066",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 187.34,
+      "end_s": 190
+    },
+    {
+      "id": "S067",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 190,
+      "end_s": 194.92
+    },
+    {
+      "id": "S068",
+      "zone": "screen",
+      "mode": "2D+3D",
+      "start_s": 194.92,
+      "end_s": 202.46
+    },
+    {
+      "id": "S069",
+      "zone": "screen",
+      "mode": "2D",
+      "start_s": 202.46,
+      "end_s": 204.18
+    },
+    {
+      "id": "S070",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 204.18,
+      "end_s": 209
+    },
+    {
+      "id": "S071",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 209,
+      "end_s": 215.2
+    },
+    {
+      "id": "S072",
+      "zone": "room",
+      "mode": "3D",
+      "start_s": 215.2,
+      "end_s": 216.24
+    }
+  ]
+}

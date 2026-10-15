@@ -38,6 +38,13 @@
         "soundcloud": false
       },
       "interactive": {
+        "01": {
+          "project": "01_Vibecoder",
+          "label": "Ein Prompt, ein Beat, ein eigenes Tool",
+          "label_en": "One prompt, one beat, one tool",
+          "poster": 159.29,
+          "poster_en": 186.44
+        },
         "02": {
           "project": "02_Token_Burn",
           "label": "Eine Nacht, noch ein Prompt – bis zum Morgen",
